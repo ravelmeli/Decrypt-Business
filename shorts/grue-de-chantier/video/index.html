@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Decrypt Business - Economie de la grue de chantier</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "DecryptInter";
+        src: url("assets/fonts/Inter-Black.otf");
+        font-weight: 900;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0b0b0f; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden;
+        font-family: "DecryptInter", Inter, sans-serif; font-weight: 900;
+        background: radial-gradient(ellipse at 50% 52%, #1d2030 0%, #12131b 45%, #0b0b0f 100%); }
+      #world { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+      .hl { position: absolute; left: 70px; right: 70px; top: 150px; text-align: center;
+        font-size: 92px; line-height: 1.02; letter-spacing: -0.02em; color: #fff; text-transform: uppercase;
+        text-shadow: 0 6px 30px rgba(0,0,0,.6); opacity: 0; }
+      .hl em { font-style: normal; color: #f2c94c; }
+      .hl.sm { font-size: 78px; }
+      .hl.red em { color: #ff6b5e; }
+      .hl.green em { color: #5ee59a; }
+      .cap { position: absolute; left: 90px; right: 90px; top: 1390px; text-align: center; font-size: 46px; line-height: 1.22;
+        color: #fff; opacity: 0; text-shadow: 0 3px 14px rgba(0,0,0,.85), 0 0 3px rgba(0,0,0,.9); }
+      #brand { position: absolute; left: 0; right: 0; top: 64px; text-align: center; font-size: 26px;
+        letter-spacing: .35em; color: #d4a537; text-transform: uppercase; opacity: .85; }
+      text { font-family: "DecryptInter", Inter, sans-serif; font-weight: 900; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="60.32" data-width="1080" data-height="1920">
+      <svg id="world" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg"><g id="cam"><g id="ground"></g><g id="props"></g></g></svg>
+      <div id="hls"></div>
+      <div id="caps"></div>
+      <div id="brand">Decrypt Business</div>
+      <audio id="vo" src="assets/voiceover.wav" data-start="0" data-duration="60.32" data-track-index="1"></audio>
+    </div>
+    <script>
+      const NS = "http://www.w3.org/2000/svg";
+      const U = 60, C = 0.8660254, S = 0.5;
+      const px = (x, y, z) => [(x - y) * C * U, (x + y) * S * U - z * U];
+      const f1 = (n) => n.toFixed(1);
+      const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+      const pts = (a) => a.map((p) => px(...p).map(f1).join(",")).join(" ");
+      const COL = {
+        gold: ["#F6D365", "#D4A537", "#A97F1C"], red: ["#FF7B6E", "#D9362B", "#A32219"],
+        green: ["#6CEBA6", "#2FBF71", "#1F8F53"], blue: ["#8FB4FF", "#4A74D9", "#3351A3"],
+        white: ["#FFFFFF", "#DDE0E8", "#B9BDC9"], gray: ["#A9ABB5", "#7A7C86", "#5A5C65"],
+        tile1: ["#2A2E3F", "#1A1C27", "#13151D"], tile2: ["#242838", "#181A24", "#11131A"],
+        rock: ["#1b1d29", "#12131b", "#0d0e14"], dark: ["#2b2f40", "#1d202c", "#151720"],
+      };
+      const world = document.getElementById("cam");
+      const ground = document.getElementById("ground");
+      const props = document.getElementById("props");
+
+      function box(parent, id, x, y, z, w, d, h, col) {
+        const g = el("g", { id }, parent);
+        const [bx, by] = px(x + w / 2, y + d / 2, z);
+        el("polygon", { points: pts([[x, y, z + h], [x + w, y, z + h], [x + w, y + d, z + h], [x, y + d, z + h]]), fill: col[0], stroke: col[0], "stroke-width": 1, "stroke-linejoin": "round" }, g);
+        el("polygon", { points: pts([[x, y + d, z], [x + w, y + d, z], [x + w, y + d, z + h], [x, y + d, z + h]]), fill: col[1], stroke: col[1], "stroke-width": 1, "stroke-linejoin": "round" }, g);
+        el("polygon", { points: pts([[x + w, y, z], [x + w, y + d, z], [x + w, y + d, z + h], [x + w, y, z + h]]), fill: col[2], stroke: col[2], "stroke-width": 1, "stroke-linejoin": "round" }, g);
+        g._o = [bx, by];
+        return g;
+      }
+      function coin(parent, id, x, y, z, r, h, col) {
+        const g = el("g", { id }, parent);
+        const [cx, cy] = px(x, y, z);
+        const rx = 1.2247 * r * U, ry = 0.7071 * r * U, hh = h * U;
+        el("path", { d: `M${f1(cx - rx)},${f1(cy - hh)} L${f1(cx - rx)},${f1(cy)} A${f1(rx)},${f1(ry)} 0 0 0 ${f1(cx + rx)},${f1(cy)} L${f1(cx + rx)},${f1(cy - hh)} Z`, fill: col[1] }, g);
+        el("ellipse", { cx: f1(cx), cy: f1(cy - hh), rx: f1(rx), ry: f1(ry), fill: col[0] }, g);
+        el("ellipse", { cx: f1(cx), cy: f1(cy - hh), rx: f1(rx * 0.68), ry: f1(ry * 0.68), fill: "none", stroke: col[2], "stroke-width": 3 }, g);
+        g._o = [cx, cy];
+        return g;
+      }
+      function label(parent, id, x, y, z, txt, fill, size) {
+        const [lx, ly] = px(x, y, z);
+        const t = el("text", { id, x: f1(lx), y: f1(ly), "text-anchor": "middle", "font-size": size || 40, fill: fill || "#fff", stroke: "#0b0b0f", "stroke-width": 8, "paint-order": "stroke", "stroke-linejoin": "round" }, parent);
+        t.textContent = txt;
+        t._o = [lx, ly];
+        return t;
+      }
+
+      const tl = gsap.timeline({ paused: true });
+      const hidden = [];
+      function pop(g, t, d, ease) {
+        d = d || 0.5;
+        gsap.set(g, { opacity: 0 });
+        tl.set(g, { opacity: 1 }, t);
+        tl.fromTo(g, { scaleY: 0, svgOrigin: g._o.join(" ") }, { scaleY: 1, svgOrigin: g._o.join(" "), duration: d, ease: ease || "back.out(1.8)" }, t);
+      }
+      function fade(g, t, d) {
+        gsap.set(g, { opacity: 0 });
+        tl.to(g, { opacity: 1, duration: d || 0.4, ease: "power2.out" }, t);
+      }
+      function drop(g, t, d) {
+        gsap.set(g, { opacity: 0 });
+        tl.set(g, { opacity: 1 }, t);
+        tl.fromTo(g, { y: -80 }, { y: 0, duration: d || 0.45, ease: "bounce.out" }, t);
+      }
+      function out(g, t, d) { tl.to(g, { opacity: 0, duration: d || 0.35, ease: "power1.in" }, t); }
+
+      /* ---------- ISLAND ---------- */
+      box(ground, "rock", -3.5, -3.5, -1.3, 7, 7, 1.3, COL.rock);
+      const tiles = [];
+      for (let i = 0; i < 7; i++) for (let j = 0; j < 7; j++) {
+        const t = box(ground, `tile-${i}-${j}`, i - 3.5, j - 3.5, 0, 1, 1, 0.3, (i + j) % 2 ? COL.tile1 : COL.tile2);
+        tiles.push({ t, k: Math.hypot(i - 3, j - 3) });
+      }
+      tiles.sort((a, b) => 0);
+      tiles.forEach(({ t, k }) => {
+        gsap.set(t, { opacity: 0 });
+        tl.set(t, { opacity: 1 }, 0.05 + k * 0.1);
+        tl.fromTo(t, { y: -700 }, { y: 0, duration: 0.6, ease: "bounce.out" }, 0.05 + k * 0.1);
+      });
+      tl.fromTo("#rock", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0);
+
+      /* ---------- CRANE (base at -1,-1) ---------- */
+      const CX = -1, CY = -1;
+      const crane = el("g", { id: "crane" }, props);
+      const cBase = box(crane, "c-base", CX - 0.7, CY - 0.7, 0.3, 1.4, 1.4, 0.3, COL.gray);
+      const cMast = box(crane, "c-mast", CX - 0.25, CY - 0.25, 0.6, 0.5, 0.5, 6.6, COL.gold);
+      const cCab = box(crane, "c-cab", CX - 0.35, CY + 0.25, 6.3, 0.6, 0.6, 0.7, COL.white);
+      const cJib = box(crane, "c-jib", CX - 2.0, CY - 0.18, 7.2, 6.4, 0.36, 0.3, COL.gold);
+      const cWeight = box(crane, "c-weight", CX - 2.0, CY - 0.3, 6.4, 0.9, 0.6, 0.8, COL.gray);
+      const cApex = box(crane, "c-apex", CX - 0.15, CY - 0.15, 7.5, 0.3, 0.3, 0.9, COL.gold);
+      [cBase, cMast, cCab, cJib, cWeight, cApex].forEach((g) => gsap.set(g, { opacity: 0 }));
+      pop(cBase, 1.2, 0.4); pop(cMast, 1.5, 0.9, "power3.out"); pop(cCab, 2.3, 0.4);
+      pop(cJib, 2.5, 0.4); pop(cWeight, 2.7, 0.4); pop(cApex, 2.9, 0.3);
+
+      // trolley + hook (animated in screen px)
+      const [jx, jy] = px(CX + 3.2, CY, 7.2);
+      const trolleyHost = el("g", { transform: `translate(${f1(jx)},${f1(jy)})` }, props);
+      const trolley = el("g", { id: "trolley" }, trolleyHost);
+      el("rect", { x: -16, y: -10, width: 32, height: 20, rx: 4, fill: "#A97F1C" }, trolley);
+      const cable = el("line", { id: "cable", x1: 0, y1: 8, x2: 0, y2: 150, stroke: "#E4E6EC", "stroke-width": 4 }, trolley);
+      const hookG = el("g", { id: "hookg" }, trolley);
+      el("path", { d: "M-12,0 h24 v22 a12,12 0 0 1 -24,0 z", fill: "#F2C94C" }, hookG);
+      const loadG = el("g", { id: "loadg", opacity: 0 }, hookG);
+      el("rect", { x: -44, y: 28, width: 88, height: 52, rx: 4, fill: "#4A74D9" }, loadG);
+      el("rect", { x: -44, y: 28, width: 88, height: 14, fill: "#8FB4FF" }, loadG);
+      gsap.set(trolleyHost, { opacity: 0 });
+      gsap.set(hookG, { y: 0 });
+      tl.set(trolleyHost, { opacity: 1 }, 3.0);
+      tl.fromTo(trolleyHost, { scale: 0, transformOrigin: "0px 0px" }, { scale: 1, duration: 0.4, ease: "back.out(2)" }, 3.0);
+      tl.to(trolley, { x: -60, y: -34, duration: 1.6, ease: "sine.inOut" }, 3.4);
+      tl.to(trolley, { x: 0, y: 0, duration: 1.6, ease: "sine.inOut" }, 5.0);
+
+      /* ---------- S1 coin stack (new price) ---------- */
+      const stack1 = el("g", { id: "stack1" }, props);
+      const coins1 = [];
+      for (let k = 0; k < 9; k++) coins1.push(coin(stack1, `c1-${k}`, 2.0, 2.0, 0.3 + k * 0.17, 0.62, 0.15, COL.gold));
+      coins1.forEach((c, k) => { drop(c, 3.2 + k * 0.45, 0.45); });
+      const price1 = label(props, "price1", 2.0, 2.0, 3.2, "200 000 – 500 000+ €", "#F6D365", 42);
+      fade(price1, 6.1, 0.5);
+      out(stack1, 7.7, 0.4); out(price1, 7.6, 0.3);
+
+      /* ---------- S2 entrepreneur walks away ---------- */
+      const man = el("g", { id: "man" }, props);
+      box(man, "m-body", 1.2, 2.3, 0.3, 0.45, 0.35, 0.8, COL.blue);
+      box(man, "m-head", 1.27, 2.35, 1.1, 0.3, 0.25, 0.3, COL.white);
+      box(man, "m-case", 1.7, 2.4, 0.3, 0.3, 0.2, 0.25, COL.red);
+      gsap.set(man, { opacity: 0 });
+      const manQ = label(props, "man-q", 0.6, 2.3, 2.1, "?", "#F2C94C", 70);
+      fade(manQ, 8.7, 0.3);
+      tl.set(man, { opacity: 1 }, 8.1);
+      tl.fromTo(man, { x: 0, y: 0 }, { x: -230, y: -132, duration: 2.6, ease: "none" }, 8.2);
+      tl.to(man, { opacity: 0, duration: 0.4 }, 10.7);
+      out(manQ, 10.6, 0.3);
+      // crane looms: breathing pulse
+      tl.to(crane, { scale: 1.02, svgOrigin: "0 400", duration: 1.2, yoyo: true, repeat: 1, ease: "sine.inOut" }, 8.2);
+
+      /* ---------- S3 price != cost ---------- */
+      const tag = label(props, "tag", 1.0, 1.6, 4.0, "PRIX ≠ COÛT", "#F2C94C", 56);
+      fade(tag, 11.8, 0.4);
+      const cost1 = box(props, "cost1", 1.6, -0.6, 0.3, 1.1, 1.1, 1.8, COL.red);
+      const cost2 = box(props, "cost2", 2.4, 1.0, 0.3, 1.1, 1.1, 1.2, COL.blue);
+      const cost3 = box(props, "cost3", -1.0, 2.3, 0.3, 1.1, 1.1, 0.8, COL.red);
+      const cl1 = label(props, "cl1", 2.15, -0.05, 2.5, "PRÊT", "#fff", 36);
+      const cl2 = label(props, "cl2", 2.95, 1.55, 1.9, "INTÉRÊTS", "#fff", 34);
+      const cl3 = label(props, "cl3", -0.45, 2.85, 1.5, "TEMPS", "#fff", 34);
+      pop(cost1, 12.2, 0.5); pop(cost2, 12.6, 0.5); pop(cost3, 13.0, 0.5);
+      fade(cl1, 12.6, 0.3); fade(cl2, 13.0, 0.3); fade(cl3, 13.4, 0.3);
+      [cost2, cost3, cl2, cl3, tag].forEach((g) => out(g, 14.8, 0.3));
+      out(cost1, 14.8, 0.3); out(cl1, 14.8, 0.3);
+
+      /* ---------- S4 crane sleeps ---------- */
+      const zz = [];
+      ["Z", "Z", "z"].forEach((c, i) => {
+        const [zx, zy] = px(CX + 3.4, CY, 8.2);
+        const t = el("text", { x: f1(zx + i * 26), y: f1(zy - 20 - i * 46), "font-size": 60 - i * 12, fill: "#F2C94C", stroke: "#0b0b0f", "stroke-width": 7, "paint-order": "stroke" }, props);
+        t.textContent = c; gsap.set(t, { opacity: 0 }); zz.push(t);
+        tl.fromTo(t, { opacity: 0, y: 30 }, { opacity: 1, y: -30, duration: 1.0, ease: "power1.out", yoyo: false }, 15.4 + i * 0.5);
+        tl.to(t, { opacity: 0, duration: 0.4 }, 17.8 + i * 0.1);
+      });
+      tl.to(crane, { filter: "grayscale(1) brightness(0.75)", duration: 0.6 }, 15.3);
+      tl.to(crane, { filter: "grayscale(0) brightness(1)", duration: 0.5 }, 24.9);
+      const meterBox = box(props, "meter", 1.6, 1.6, 0.3, 1.2, 1.2, 0.4, COL.red);
+      const meterLabel = label(props, "meter-l", 2.2, 2.2, 3.4, "0 €  /  0 €  /  0 €", "#FF6B5E", 38);
+      pop(meterBox, 15.5, 0.4); fade(meterLabel, 16.2, 0.3);
+      tl.to(meterBox, { scaleY: 3.6, svgOrigin: meterBox._o.join(" "), duration: 2.4, ease: "none" }, 16.0);
+      out(meterBox, 18.9, 0.3); out(meterLabel, 18.7, 0.3);
+      // sleeping hook: gentle sway
+      tl.to(trolley, { x: 10, duration: 1.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 15.6);
+
+      /* ---------- S5 weeks turn red (loan keeps running) ---------- */
+      const weeks = [];
+      for (let i = 0; i < 8; i++) weeks.push(box(props, `wk${i}`, -3.1 + i * 0.78, 2.7, 0.3, 0.62, 0.8, 0.5, COL.white));
+      weeks.forEach((w, i) => { pop(w, 19.2 + i * 0.12, 0.35); });
+      const wkLabel = label(props, "wk-l", 0.8, 3.3, 1.7, "SEMAINES PERDUES", "#fff", 34);
+      fade(wkLabel, 20.2, 0.3);
+      weeks.forEach((w, i) => {
+        const polys = w.querySelectorAll("polygon");
+        const t0 = 22.0 + i * 0.3;
+        tl.to(polys[0], { fill: COL.red[0], stroke: COL.red[0], duration: 0.2 }, t0);
+        tl.to(polys[1], { fill: COL.red[1], stroke: COL.red[1], duration: 0.2 }, t0);
+        tl.to(polys[2], { fill: COL.red[2], stroke: COL.red[2], duration: 0.2 }, t0);
+      });
+      const loanBlock = box(props, "loan", 2.4, -0.3, 0.3, 1.2, 1.2, 1.2, COL.blue);
+      const loanL = label(props, "loan-l", 3.0, 0.3, 2.3, "PRÊT", "#fff", 40);
+      pop(loanBlock, 19.8, 0.4); fade(loanL, 20.1, 0.3);
+      tl.to(loanBlock, { scaleY: 1.1, svgOrigin: loanBlock._o.join(" "), duration: 0.45, yoyo: true, repeat: 9, ease: "sine.inOut" }, 20.6);
+      weeks.forEach((w) => out(w, 25.6, 0.3)); out(loanBlock, 25.5, 0.3); out(loanL, 25.4, 0.3); out(wkLabel, 25.4, 0.3);
+
+      /* ---------- S6 client vs balance sheet ---------- */
+      const shine = [];
+      for (let i = 0; i < 4; i++) {
+        const [sx, sy] = px(CX + 0.4 + i * 0.7, CY - 0.3, 6.6 - i * 0.2);
+        const star = el("text", { x: f1(sx), y: f1(sy), "font-size": 44, fill: "#F6D365", stroke: "#0b0b0f", "stroke-width": 6, "paint-order": "stroke", "text-anchor": "middle" }, props);
+        star.textContent = "✦"; gsap.set(star, { opacity: 0 }); shine.push(star);
+        tl.fromTo(star, { opacity: 0, scale: 0.2, svgOrigin: `${f1(sx)} ${f1(sy)}` }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(3)" }, 26.3 + i * 0.4);
+        tl.to(star, { opacity: 0, duration: 0.3 }, 29.8 + i * 0.1);
+      }
+      const clientL = label(props, "client-l", CX + 3.0, CY, 9.2, "VU PAR LE CLIENT", "#F6D365", 38);
+      fade(clientL, 26.4, 0.4); out(clientL, 31.4, 0.4);
+      const debtTower = [];
+      for (let k = 0; k < 6; k++) debtTower.push(box(props, `debt${k}`, 2.1, 1.6, 0.3 + k * 0.5, 1.2, 1.2, 0.46, k % 2 ? COL.red : [COL.red[0], COL.red[1], COL.red[2]]));
+      debtTower.forEach((b, k) => pop(b, 28.4 + k * 0.4, 0.35));
+      const balL = label(props, "bal-l", 2.7, 2.2, 4.6, "VU PAR LE BILAN", "#FF6B5E", 38);
+      const debtL = label(props, "debt-l", 2.7, 2.2, 5.4, "UNE DETTE", "#fff", 44);
+      fade(balL, 28.4, 0.4); fade(debtL, 30.2, 0.4);
+      debtTower.forEach((b) => out(b, 32.0, 0.3)); out(balL, 32.0, 0.3); out(debtL, 32.0, 0.3);
+
+      /* ---------- S7 the market's parade: used ---------- */
+      const sign = label(props, "occ", 0.6, 1.2, 3.2, "OCCASION", "#6CEBA6", 64);
+      const arrow = box(props, "occ-b", 0.2, 0.8, 0.3, 0.8, 0.8, 0.3, COL.green);
+      fade(sign, 33.1, 0.4); pop(arrow, 33.2, 0.4);
+      tl.to(sign, { y: -14, duration: 0.5, yoyo: true, repeat: 3, ease: "sine.inOut" }, 33.5);
+      out(sign, 35.4, 0.3); out(arrow, 35.4, 0.3);
+
+      /* ---------- S8 range bars: new vs used ---------- */
+      const barNew = box(props, "bar-new", 0.9, 1.6, 2.0, 1.2, 1.2, 3.0, COL.gold);
+      const barUsed = box(props, "bar-used", 2.5, 1.6, 0.8, 1.2, 1.2, 2.2, COL.green);
+      const poleA = box(props, "pole-a", 1.4, 2.1, 0.3, 0.2, 0.2, 1.7, COL.gray);
+      const poleB = box(props, "pole-b", 3.0, 2.1, 0.3, 0.2, 0.2, 0.5, COL.gray);
+      const lNew = label(props, "l-new", 1.5, 2.2, 6.0, "NEUF", "#F6D365", 46);
+      const lNewP = label(props, "l-new-p", 1.5, 2.2, 5.4, "200 000 – 500 000+ €", "#fff", 30);
+      const lUsed = label(props, "l-used", 3.5, 2.4, 3.7, "OCCASION", "#6CEBA6", 46);
+      const lUsedP = label(props, "l-used-p", 3.5, 2.4, 3.1, "80 000 – 300 000 €", "#fff", 30);
+      pop(poleA, 36.4, 0.4); pop(poleB, 36.4, 0.4);
+      pop(barNew, 36.6, 0.6); pop(barUsed, 37.4, 0.6);
+      fade(lNew, 37.0, 0.3); fade(lNewP, 37.2, 0.3); fade(lUsed, 38.4, 0.3); fade(lUsedP, 39.2, 0.3);
+      tl.to(crane, { opacity: 0.35, duration: 0.5 }, 36.4);
+      [barNew, barUsed, poleA, poleB, lNew, lNewP, lUsed, lUsedP].forEach((g) => out(g, 42.0, 0.35));
+
+      /* ---------- S9 rent or buy used ---------- */
+      const padL = box(props, "pad-l", -3.0, 1.2, 0.3, 1.4, 1.4, 0.6, COL.blue);
+      const padR = box(props, "pad-r", 1.6, 1.0, 0.3, 1.4, 1.4, 0.6, COL.green);
+      const lL = label(props, "pad-ll", -2.3, 1.9, 1.7, "LOUER", "#fff", 50);
+      const lR = label(props, "pad-rl", 2.3, 1.7, 1.7, "OCCASION", "#fff", 46);
+      const ck1 = label(props, "ck1", -2.3, 1.9, 2.8, "✓", "#6CEBA6", 80);
+      const ck2 = label(props, "ck2", 2.3, 1.7, 2.8, "✓", "#6CEBA6", 80);
+      pop(padL, 42.3, 0.5); pop(padR, 42.8, 0.5);
+      fade(lL, 42.8, 0.3); fade(lR, 43.3, 0.3);
+      fade(ck1, 44.4, 0.3); fade(ck2, 44.9, 0.3);
+      [padL, padR, lL, lR, ck1, ck2].forEach((g) => out(g, 46.6, 0.3));
+      tl.to(crane, { opacity: 1, duration: 0.5 }, 42.0);
+
+      /* ---------- S10 crane works ---------- */
+      const bld = [];
+      for (let k = 0; k < 3; k++) bld.push(box(props, `bld${k}`, 1.6, -1.8, 0.3 + k * 0.9, 1.5, 1.5, 0.85, k % 2 ? COL.white : COL.blue));
+      tl.set(loadG, { opacity: 1 }, 47.2);
+      tl.to(trolley, { x: -78, y: -45, duration: 0.9, ease: "sine.inOut" }, 47.2);
+      tl.to(cable, { attr: { y2: 250 }, duration: 0.7, ease: "sine.inOut" }, 48.0);
+      tl.to(hookG, { y: 100, duration: 0.7, ease: "sine.inOut" }, 48.0);
+      bld.forEach((b, k) => { pop(b, 48.7 + k * 0.45, 0.4); });
+      tl.to(cable, { attr: { y2: 150 }, duration: 0.5, ease: "sine.inOut" }, 49.4);
+      tl.to(hookG, { y: 0, duration: 0.5, ease: "sine.inOut" }, 49.4);
+      tl.set(loadG, { opacity: 0 }, 48.7);
+      const workL = label(props, "work-l", 2.35, -1.05, 4.0, "AU TRAVAIL", "#6CEBA6", 44);
+      fade(workL, 48.5, 0.3); out(workL, 50.3, 0.3);
+
+      /* ---------- S11 occupied: coins in, weeks green ---------- */
+      const coins2 = [];
+      for (let k = 0; k < 8; k++) coins2.push(coin(props, `c2-${k}`, 2.0, 2.0, 0.3 + k * 0.17, 0.62, 0.15, COL.gold));
+      coins2.forEach((c, k) => drop(c, 51.0 + k * 0.45, 0.4));
+      weeks.forEach((w, i) => {
+        const polys = w.querySelectorAll("polygon");
+        const t0 = 50.9 + i * 0.35;
+        tl.set(w, { opacity: 1 }, t0 - 0.05);
+        tl.fromTo(w, { y: -60 }, { y: 0, duration: 0.35, ease: "bounce.out" }, t0 - 0.05);
+        tl.to(polys[0], { fill: COL.green[0], stroke: COL.green[0], duration: 0.2 }, t0);
+        tl.to(polys[1], { fill: COL.green[1], stroke: COL.green[1], duration: 0.2 }, t0);
+        tl.to(polys[2], { fill: COL.green[2], stroke: COL.green[2], duration: 0.2 }, t0);
+      });
+      tl.to(trolley, { x: -60, y: -34, duration: 1.2, ease: "sine.inOut" }, 50.7);
+      tl.to(trolley, { x: 0, y: 0, duration: 1.2, ease: "sine.inOut" }, 52.0);
+      tl.to(trolley, { x: -60, y: -34, duration: 1.2, ease: "sine.inOut" }, 53.3);
+      /* ---------- S12 finale ---------- */
+
+      /* ---------- CAMERA (parallel slides, no rotation) ---------- */
+      gsap.set("#cam", { x: 540, y: 1000, scale: 1, svgOrigin: "0 0" });
+      const camKeys = [
+        [0, 540, 1010, 0.92], [3, 520, 1030, 0.98], [8, 500, 1010, 1.0], [11.6, 540, 1000, 1.0], [15.2, 580, 1000, 1.04],
+        [19.1, 540, 990, 1.0], [26, 520, 1010, 1.04], [33, 520, 1000, 1.0], [36.3, 480, 1010, 1.02], [42.2, 540, 1000, 1.0],
+        [47.2, 560, 1010, 1.0], [50.6, 540, 1010, 1.0], [56.1, 540, 1030, 0.97], [60.3, 540, 1040, 0.95],
+      ];
+      for (let i = 1; i < camKeys.length; i++) {
+        const [t0, , , ] = camKeys[i - 1]; const [t1, x, y, s] = camKeys[i];
+        tl.to("#cam", { x, y, scale: s, svgOrigin: "0 0", duration: t1 - t0, ease: "sine.inOut" }, t0);
+      }
+
+      /* ---------- HEADLINES + CAPTIONS ---------- */
+      const HL = [
+        [0.2, 7.6, "<em>200 000 – 500 000 €+</em><br>une grue neuve", "sm"],
+        [8.1, 11.2, "Presque personne <em>ne l'achète</em>", ""],
+        [11.7, 14.8, "Le prix n'est pas <em>le coût</em>", "red"],
+        [15.2, 18.9, "À l'arrêt,<br>elle coûte <em>pareil</em>", "red"],
+        [19.1, 25.6, "Le prêt court,<br><em>le chantier non</em>", "red"],
+        [26.1, 32.0, "Client : <em>acier</em><br>Bilan : <em>dette</em>", ""],
+        [33.0, 35.6, "Le marché<br>a sa <em>parade</em>", "green"],
+        [36.3, 42.0, "L'occasion :<br>une <em>fraction</em>", "green"],
+        [42.3, 46.8, "<em>Louer</em> ou acheter<br>d'occasion", "green"],
+        [47.2, 50.4, "Elle <em>travaille</em>,<br>elle rapporte", "green"],
+        [50.7, 55.6, "L'argent se gagne<br>en l'<em>occupant</em>", "green"],
+        [56.1, 60.2, "Elle vaut ses<br><em>jours de travail</em>", ""],
+      ];
+      const hlRoot = document.getElementById("hls");
+      HL.forEach(([a, b, html, cls], i) => {
+        const d = document.createElement("div"); d.className = "hl " + cls; d.id = "hl" + i; d.innerHTML = html; hlRoot.appendChild(d);
+        tl.fromTo(d, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.6)" }, a);
+        if (i < HL.length - 1) tl.to(d, { opacity: 0, y: -24, duration: 0.3, ease: "power1.in" }, b - 0.3);
+      });
+      const CAPS = [
+        [0.0, 7.38, "Entre 200 000 et plus de 500 000 euros, c'est, selon les estimations du secteur, le prix d'une grue de chantier neuve."],
+        [8.1, 11.04, "Et pourtant, la plupart des entrepreneurs ne l'achèteront jamais."],
+        [11.64, 14.5, "Parce que le vrai prix d'une grue n'est pas celui de la machine."],
+        [15.22, 18.52, "Une grue qui dort sur un terrain coûte exactement comme une grue qui travaille."],
+        [19.12, 25.16, "Le capital est immobilisé, le prêt continue de courir et chaque semaine sans chantier est une semaine de perdus."],
+        [26.08, 27.42, "C'est là toute la symétrie."],
+        [27.92, 31.94, "Le client voit une machine impressionnante, le bilan voit une dette qui ne dort jamais."],
+        [32.94, 35.3, "Alors le marché a trouvé la parade, l'occasion."],
+        [36.28, 41.52, "Une grue d'occasion se négocie entre 80 000 et 300 000 euros, soit une fraction du neuf."],
+        [42.22, 46.46, "Pour beaucoup d'entreprises, louer ou acheter d'occasion devient donc la seule équation viable."],
+        [47.18, 50.1, "Car dans ce métier, la machine ne rapporte que si elle travaille."],
+        [50.62, 55.4, "Tout porte à croire que l'argent ne se gagne pas en possédant la grue, mais en la gardant occupée."],
+        [56.1, 57.62, "Une grue ne vaut jamais son prix d'achat."],
+        [58.1, 59.92, "Elle vaut le nombre de jours où elle ne dort pas."],
+      ];
+      const capRoot = document.getElementById("caps");
+      CAPS.forEach(([a, b, txt], i) => {
+        const d = document.createElement("div"); d.className = "cap"; d.id = "cap" + i; d.textContent = txt; capRoot.appendChild(d);
+        tl.fromTo(d, { opacity: 0 }, { opacity: 1, duration: 0.15 }, a);
+        tl.to(d, { opacity: 0, duration: 0.15 }, b);
+      });
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
