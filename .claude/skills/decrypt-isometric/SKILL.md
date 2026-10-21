@@ -9,7 +9,7 @@ Channel: **Decrypt Business** (youtube.com/@DecryptBusiness), French-language. E
 model of an industry: revenue sources, hidden costs, margins, pitfalls. Audience: entrepreneurs, investors, curious people.
 
 ## Préparation du sujet
-Pour tout nouveau sujet, suivre d'abord `script-process.md` (sujet, durée, recherche sourcée).
+Pour tout nouveau sujet, suivre d'abord `script-process.md` (sujet, durée, recherche sourcée, script Short).
 
 ## Workflow
 1. Start with `/hyperframes` (mandatory entry point), then follow the owning workflow (`/faceless-explainer` for a
@@ -33,4 +33,4 @@ Pour tout nouveau sujet, suivre d'abord `script-process.md` (sujet, durée, rech
 - Figures must be sourced; list sources in `CREDITS.md`. Never invent statistics; mark estimates as « estimation ».
 - Invented names only for brands in generic scenes; no real trademarks/logos.
 - Structure: hook (the surprising number) → autopsy of revenues → hidden costs → margin → verdict.
-- Formats: 16:9 1920×1080 for long videos, 9:16 1080×1920 for Shorts. Ask the user which one and the duration.
+- Current phase: Shorts first, 9:16 1080×1920, 15 to 60 s (see script-process.md). Long 16:9 videos come later.
