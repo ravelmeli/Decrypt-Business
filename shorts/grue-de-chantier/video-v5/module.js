@@ -166,7 +166,7 @@
       }
       const hook = (c, x, len, load) => { c.trolley.position.x = x; c.cable.scale.y = len; c.hook.position.y = -0.2 - len; c.load.visible = !!load; };
       const CR = { body: P.yellow, brace: "#fff3c9", cab: P.white, weight: P.gray };
-      const CRm = { body: P.mint, brace: "#e4f8ef", cab: P.peach, weight: P.lilac };
+      const CRm = { body: "#4cc490", brace: "#c9f0de", cab: P.peach, weight: P.lilac };
       const winMat = new THREE.MeshStandardMaterial({ color: "#8fb6ff", emissive: "#ffd98a", emissiveIntensity: 0, roughness: 0.4 });
       function building(p, x, z, w, d, h, hex, floorsN, wm = winMat) {
         const g = grp(p, x, TOP, z); put(g, rbox(w, h, d, hex, 0.08));
@@ -351,7 +351,7 @@
       for (let k = -4; k <= 4; k++) { put(s7, rbox(0.1, 0.7, 0.1, P.white, 0.03), k, TOP, -4.4); put(s7, rbox(0.1, 0.7, 0.1, P.white, 0.03), -4.4, TOP, k); } put(s7, rbox(9, 0.08, 0.08, P.white, 0.02), 0, TOP + 0.5, -4.4); put(s7, rbox(0.08, 0.08, 9, P.white, 0.02), -4.4, TOP + 0.5, 0);
       const truck = grp(s7, 0, TOP, 0); put(truck, rbox(3.8, 0.22, 1.5, P.gray, 0.06), 0, 0.3, 0); put(truck, rbox(1.0, 0.8, 1.4, P.coral, 0.1), 2.3, 0.3, 0); put(truck, rbox(0.1, 0.35, 1.0, "#4b4a9a", 0.03), 2.84, 0.8, 0);
       for (const x of [-1.2, 0.2, 1.8]) for (const z of [-0.8, 0.8]) { const w = cyl(0.3, 0.3, 0.2, P.navy, 14); w.rotation.x = Math.PI / 2; w.position.set(x, 0.3, z); truck.add(w); }
-      const cr7 = buildCrane(truck, -0.5, 0, 0.42, CRm, 0.52);
+      const cr7 = buildCrane(truck, -0.4, 0, 0.5, CRm, 0.52);
       const exc = grp(s7, -2.6, TOP, 2.3); put(exc, rbox(1.6, 0.25, 0.9, P.gray, 0.08), 0, 0, 0); put(exc, rbox(1.1, 0.5, 0.9, P.yellow, 0.1), 0, 0.25, 0); put(exc, rbox(0.6, 0.5, 0.7, P.white, 0.1), 0.2, 0.75, 0);
       const arm1 = grp(exc, 0.55, 0.7, 0); arm1.rotation.z = 0.8; put(arm1, rbox(1.3, 0.15, 0.2, P.yellow, 0.05), 0.65, 0, 0); const arm2 = grp(arm1, 1.3, 0, 0); arm2.rotation.z = -1.4; put(arm2, rbox(0.9, 0.13, 0.18, P.yellow, 0.05), 0.45, 0, 0); put(arm2, rbox(0.4, 0.3, 0.4, P.gray, 0.06), 0.9, -0.2, 0);
       const tires = grp(s7, 3.3, TOP, 2.8); for (let k = 0; k < 3; k++) { const tr = new THREE.Mesh(new THREE.TorusGeometry(0.34, 0.14, 10, 20), M(P.navy)); tr.rotation.x = Math.PI / 2; tr.position.y = 0.15 + k * 0.28; tr.castShadow = true; tires.add(tr); }
@@ -525,6 +525,7 @@
         const golden = prog(t, 50.8, 5.2), night = prog(t, 14.3, 0.7) * (1 - prog(t, 18.4, 0.6));
         lampMats.forEach((lm) => { lm.emissiveIntensity = Math.max(golden * 1.6, night * 1.6); }); winMat.emissiveIntensity = Math.max(night * 1.2, golden * 1.2); cityWm.emissiveIntensity = golden * 1.4;
         flashEl.style.opacity = Math.max(0.35 * (1 - prog(t, 0, 0.3)), t >= T.burst ? 0.55 * (1 - prog(t, T.burst, 0.4)) : 0, t >= T.plaque ? 0.45 * (1 - prog(t, T.plaque, 0.4)) : 0, prog(t, T.loopFlash, 0.65)).toFixed(3);
+        rootEl.classList.toggle("night", night > 0.5);
         const md = moodAt(t);
         sun.color.set(md.sun); sun.intensity = md.sunI + 0.4 * golden; sun.position.set(-12 - 4 * golden, 22 - 10 * golden, 9 + 2 * golden);
         hemi.groundColor.set(md.hg); hemi.intensity = md.hemiI;
@@ -541,7 +542,7 @@
         }
         (window.CAPTOK || []).forEach((cp) => { if (t < cp.a - 0.1 || t > cp.b + 0.3) return; let act = -1; cp.starts.forEach((s, k) => { if (t >= s) act = k; });
           const grp_ = cp.groupOf[Math.max(act, 0)];
-          cp.spans.forEach((sp, k) => { const on = k === act; sp.style.display = cp.groupOf[k] === grp_ ? "inline-block" : "none"; sp.style.opacity = k <= act ? 1 : 0.6; sp.style.color = on ? "#5b3fd0" : "#2f2e7a"; }); });
+          cp.spans.forEach((sp, k) => { const on = k === act; sp.style.display = cp.groupOf[k] === grp_ ? "inline-block" : "none"; sp.style.opacity = k <= act ? 1 : 0.6; sp.style.color = night > 0.5 ? (on ? "#ffd66b" : "#ffffff") : (on ? "#5b3fd0" : "#2f2e7a"); }); });
         grainEl.style.backgroundPosition = `${(Math.round(t * 30) % 7) * 37}px ${(Math.round(t * 30) % 5) * 53}px`;
         renderer.render(scene, cam);
         fxbCtx.clearRect(0, 0, 540, 960); fxbCtx.drawImage(glCanvas, 0, 0, 540, 960);
