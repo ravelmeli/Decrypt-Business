@@ -35,9 +35,8 @@ Ensuite le sujet et les pistes retenues (avec sources) deviennent les [ÉTUDES D
 ### Longueur
 Environ 150 à 170 mots par minute : 15 s ≈ 40 mots, 30 s ≈ 80, 45 s ≈ 120, 60 s ≈ 160. Phrases courtes, rythme rapide.
 
-### Format strict de sortie
-- Une idée parlée complète par ligne, retour à la ligne après chacune. Aucune numérotation, aucun horodatage, aucun paragraphe, puce, titre ni ligne vide, aucun commentaire hors script.
-- La sortie commence DIRECTEMENT par la première ligne de narration.
+### Sortie
+- Le script commence DIRECTEMENT par la première ligne de narration, sans commentaire hors script.
 
 ### Arc narratif condensé
 1. HOOK (1 à 2 lignes, dans les 2 premières secondes) : chiffre absurde ou anomalie (seulement s'il est fourni ou notoire). Ne jamais commencer de la même façon d'un Short à l'autre.
