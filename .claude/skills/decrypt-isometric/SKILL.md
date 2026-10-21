@@ -8,6 +8,9 @@ description: Build Decrypt Business YouTube videos (French, business/finance exp
 Channel: **Decrypt Business** (youtube.com/@DecryptBusiness), French-language. Each video dissects the real economic
 model of an industry: revenue sources, hidden costs, margins, pitfalls. Audience: entrepreneurs, investors, curious people.
 
+## Écriture du script
+Pour tout nouveau sujet, suivre d'abord `script-process.md` (idées, durée, recherche sourcée, script style Fern, voix off).
+
 ## Workflow
 1. Start with `/hyperframes` (mandatory entry point), then follow the owning workflow (`/faceless-explainer` for a
    narrated topic explainer, `/general-video` for custom scenes, `/motion-graphics` for short units).
