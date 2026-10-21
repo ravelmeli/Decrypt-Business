@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Decrypt Business - Economie de la grue de chantier</title>
+    <script src="assets/gsap.min.js"></script>
+    <script src="assets/timing.js"></script>
+    <script src="assets/words.js"></script>
+    <script type="importmap">
+      { "imports": { "three": "./assets/three/three.module.js", "three/addons/": "./assets/three/addons/" } }
+    </script>
+    <style>
+      @font-face { font-family: "DecryptInter"; src: url("assets/fonts/Inter-Black.otf"); font-weight: 900; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #d9d0f7; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "DecryptInter", Inter, sans-serif; font-weight: 900;
+        background: linear-gradient(180deg, #efeafd 0%, #d8cff7 45%, #b9a8f0 100%); color: #2f2e7a; }
+      #gl, #fxb, #fxg { position: absolute; inset: 0; width: 1080px; height: 1920px; display: block; }
+      #fxb { filter: blur(10px); -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0,0,0,0) 17%, rgba(0,0,0,0) 72%, #000 93%); mask-image: linear-gradient(to bottom, #000 0%, rgba(0,0,0,0) 17%, rgba(0,0,0,0) 72%, #000 93%); }
+      #fxg { mix-blend-mode: screen; filter: blur(24px) brightness(1.3) contrast(1.6); opacity: .38; }
+      #vig { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 50%, rgba(255,255,255,0) 55%, rgba(70,40,150,.26) 100%); pointer-events: none; }
+      #grain { position: absolute; inset: 0; opacity: .07; mix-blend-mode: multiply; pointer-events: none;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+      #cards { position: absolute; inset: 0; pointer-events: none; }
+      .card { position: absolute; left: 0; top: 0; transform-origin: 50% 100%; opacity: 0; white-space: nowrap; text-align: center;
+        background: rgba(255,255,255,.95); border-radius: 30px; padding: 16px 30px 18px; box-shadow: 0 16px 44px rgba(70,50,160,.28); color: #2f2e7a; }
+      .card small { display: block; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: #5b3fd0; margin-bottom: 4px; }
+      .card b { display: block; font-size: 50px; line-height: 1.05; letter-spacing: -.01em; }
+      .card.coral small { color: #cf3249; } .card.coral b { color: #e2465c; }
+      .card.mint small { color: #0e8a59; } .card.mint b { color: #16905f; }
+      .card.gold small { color: #9a6600; } .card.gold b { color: #b87700; }
+      .card.sm b { font-size: 38px; }
+      .zz { position: absolute; left: 0; top: 0; font-size: 56px; color: #7b5cf0; opacity: 0; text-shadow: 0 3px 0 #fff; }
+      .hl { position: absolute; left: 70px; right: 70px; top: 150px; text-align: center; font-size: 92px; line-height: 1.02; letter-spacing: -0.02em;
+        color: #2f2e7a; text-transform: uppercase; text-shadow: 0 0 14px #fff, 0 0 26px #fff, 0 4px 22px rgba(255,255,255,.9); opacity: 0; }
+      .hl em { font-style: normal; color: #7b5cf0; }
+      .hl.red em { color: #c02a43; } .hl.green em { color: #0b7a4e; } .hl.sm { font-size: 78px; }
+      .cap { position: absolute; left: 80px; right: 80px; top: 1450px; text-align: center; font-size: 46px; line-height: 1.22; color: #2f2e7a; opacity: 0;
+        padding: 14px 24px; background: rgba(255,255,255,.82); border-radius: 28px; box-shadow: 0 10px 30px rgba(70,50,160,.18); }
+      .cap span { display: inline-block; opacity: .5; }
+      #brand { position: absolute; left: 0; right: 0; top: 64px; text-align: center; font-size: 26px; letter-spacing: .35em; color: #4b2fc0; text-transform: uppercase; }
+      .src { position: absolute; left: 0; right: 0; top: 1715px; text-align: center; font-size: 24px; letter-spacing: .06em; color: #4a3fa8; opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="60.32" data-width="1080" data-height="1920">
+      <canvas id="gl" width="1080" height="1920"></canvas>
+      <canvas id="fxb" width="540" height="960"></canvas>
+      <canvas id="fxg" width="270" height="480"></canvas>
+      <div id="vig"></div>
+      <div id="cards"></div>
+      <div id="hls"></div>
+      <div id="caps"></div>
+      <div id="srcs"></div>
+      <div id="grain"></div>
+      <div id="brand">Decrypt Business</div>
+      <audio id="vo" src="assets/mix.wav" data-start="0" data-duration="60.32" data-track-index="1"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      const HL = [
+        [0.0, 7.6, '<em><span id="n1">0</span> – <span id="n2">0</span> €+</em><br>une grue neuve', "sm"],
+        [8.1, 11.2, "Presque personne <em>ne l'achète</em>", ""],
+        [11.7, 14.8, "Le prix n'est pas <em>le coût</em>", "red"],
+        [15.2, 18.9, "À l'arrêt,<br>elle coûte <em>pareil</em>", "red"],
+        [19.1, 25.6, "Le prêt court,<br><em>le chantier non</em>", "red"],
+        [26.1, 32.0, "Client : <em>acier</em><br>Bilan : <em>dette</em>", ""],
+        [33.0, 35.6, "Le marché<br>a sa <em>parade</em>", "green"],
+        [36.3, 42.0, "L'occasion :<br>une <em>fraction</em>", "green"],
+        [42.3, 46.8, "<em>Louer</em> ou acheter<br>d'occasion", "green"],
+        [47.2, 50.4, "Elle <em>travaille</em>,<br>elle rapporte", "green"],
+        [50.7, 55.6, "L'argent se gagne<br>en l'<em>occupant</em>", "green"],
+        [56.1, 60.2, "Elle vaut ses<br><em>jours de travail</em>", ""],
+      ];
+      const hlRoot = document.getElementById("hls");
+      HL.forEach(([a, b, html, cls], i) => {
+        const d = document.createElement("div"); d.className = "hl " + cls; d.innerHTML = html; hlRoot.appendChild(d);
+        if (i === 0) tl.set(d, { opacity: 1, y: 0 }, 0); else tl.fromTo(d, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.6)" }, a);
+        if (i < HL.length - 1) tl.to(d, { opacity: 0, y: -24, duration: 0.3, ease: "power1.in" }, b - 0.3);
+      });
+      const CAPS = [
+        [0.0, 7.38, "Entre 200 000 et plus de 500 000 euros, c'est, selon les estimations du secteur, le prix d'une grue de chantier neuve."],
+        [8.1, 11.04, "Et pourtant, la plupart des entrepreneurs ne l'achèteront jamais."],
+        [11.64, 14.5, "Parce que le vrai prix d'une grue n'est pas celui de la machine."],
+        [15.22, 18.52, "Une grue qui dort sur un terrain coûte exactement comme une grue qui travaille."],
+        [19.12, 25.16, "Le capital est immobilisé, le prêt continue de courir et chaque semaine sans chantier est une semaine de perdus."],
+        [26.08, 27.42, "C'est là toute la symétrie."],
+        [27.92, 31.94, "Le client voit une machine impressionnante, le bilan voit une dette qui ne dort jamais."],
+        [32.94, 35.3, "Alors le marché a trouvé la parade, l'occasion."],
+        [36.28, 41.52, "Une grue d'occasion se négocie entre 80 000 et 300 000 euros, soit une fraction du neuf."],
+        [42.22, 46.46, "Pour beaucoup d'entreprises, louer ou acheter d'occasion devient donc la seule équation viable."],
+        [47.18, 50.1, "Car dans ce métier, la machine ne rapporte que si elle travaille."],
+        [50.62, 55.4, "Tout porte à croire que l'argent ne se gagne pas en possédant la grue, mais en la gardant occupée."],
+        [56.1, 57.62, "Une grue ne vaut jamais son prix d'achat."],
+        [58.1, 59.92, "Elle vaut le nombre de jours où elle ne dort pas."],
+      ];
+      const capRoot = document.getElementById("caps");
+      window.CAPTOK = [];
+      CAPS.forEach(([a, b, txt], i) => {
+        const d = document.createElement("div"); d.className = "cap"; d.id = "cap" + i; capRoot.appendChild(d);
+        const toks = txt.split(" "); const ws = window.WORDS.filter((w) => w[1] >= a - 0.12 && w[1] <= b + 0.05);
+        const spans = toks.map((tk, k) => { const s = document.createElement("span"); s.textContent = tk; s.style.marginRight = "0.26em"; d.appendChild(s); return s; });
+        const starts = toks.map((_, k) => { const j = Math.round((k * (ws.length - 1)) / Math.max(1, toks.length - 1)); return ws.length ? ws[Math.min(j, ws.length - 1)][1] : a + (k / toks.length) * (b - a); });
+        window.CAPTOK.push({ a, b, spans, starts });
+        tl.fromTo(d, { opacity: 0 }, { opacity: 1, duration: 0.12 }, a);
+        tl.to(d, { opacity: 0, duration: 0.15 }, b);
+      });
+      const srcRoot = document.getElementById("srcs");
+      [[0.6, 7.3, "Sources : HelloPro · estimations du secteur"], [37.0, 41.6, "Sources : HelloPro · Cranes Today"]].forEach(([a, b, txt]) => {
+        const d = document.createElement("div"); d.className = "src"; d.textContent = txt; srcRoot.appendChild(d);
+        tl.to(d, { opacity: 0.8, duration: 0.4 }, a); tl.to(d, { opacity: 0, duration: 0.4 }, b);
+      });
+      window.__timelines["main"] = tl;
+    </script>
+    <script type="module">
+      import * as THREE from "three";
+      import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
+      const T = window.T;
+      const W = 1080, H = 1920;
+      const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+      const prog = (t, a, d) => clamp((t - a) / d);
+      const eOutBack = (x) => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+      const eOut = (x) => 1 - Math.pow(1 - x, 3);
+      const eInOut = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
+      const bounce = (x) => { const n = 7.5625, d = 2.75; if (x < 1 / d) return n * x * x; if (x < 2 / d) return n * (x -= 1.5 / d) * x + 0.75; if (x < 2.5 / d) return n * (x -= 2.25 / d) * x + 0.9375; return n * (x -= 2.625 / d) * x + 0.984375; };
+      const lerp = (a, b, k) => a + (b - a) * k;
+      const fmt = (n) => Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+      const hex2 = (h) => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+      const mixHex = (a, b, k) => { const A = hex2(a), B = hex2(b); return `rgb(${A.map((v, i) => Math.round(lerp(v, B[i], k))).join(",")})`; };
+
+      const glCanvas = document.getElementById("gl");
+      const renderer = new THREE.WebGLRenderer({ canvas: glCanvas, antialias: true, alpha: true });
+      renderer.setSize(W, H, false); renderer.setPixelRatio(1); renderer.setClearColor(0x000000, 0);
+      renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+      const fxbCtx = document.getElementById("fxb").getContext("2d"), fxgCtx = document.getElementById("fxg").getContext("2d");
+      const scene = new THREE.Scene();
+      const VW = 15, VH = (VW * H) / W;
+      const cam = new THREE.OrthographicCamera(-VW / 2, VW / 2, VH / 2, -VH / 2, -200, 300);
+      const hemi = new THREE.HemisphereLight(0xffffff, 0xcfc4f5, 1.25); scene.add(hemi);
+      const sun = new THREE.DirectionalLight(0xfff6ee, 2.1);
+      sun.position.set(-12, 22, 9); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
+      Object.assign(sun.shadow.camera, { left: -16, right: 16, top: 16, bottom: -16, near: 1, far: 90 });
+      sun.shadow.bias = -0.0006; sun.shadow.radius = 5; sun.shadow.normalBias = 0.02;
+      scene.add(sun);
+
+      const matCache = {};
+      const M = (hex) => (matCache[hex] = matCache[hex] || new THREE.MeshStandardMaterial({ color: hex, roughness: 0.78, metalness: 0 }));
+      const geoCache = {};
+      function rbox(w, h, d, hex, r = 0.06, mat) {
+        r = Math.min(r, w / 2 - 0.001, h / 2 - 0.001, d / 2 - 0.001);
+        const k = [w, h, d, r].join("|");
+        if (!geoCache[k]) { const g = new RoundedBoxGeometry(w, h, d, 2, r); g.translate(0, h / 2, 0); geoCache[k] = g; }
+        const m = new THREE.Mesh(geoCache[k], mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m;
+      }
+      const put = (parent, o, x = 0, y = 0, z = 0) => { o.position.set(x, y, z); parent.add(o); return o; };
+      const grp = (parent, x = 0, y = 0, z = 0) => { const g = new THREE.Group(); g.position.set(x, y, z); (parent || scene).add(g); return g; };
+      const cyl = (rt, rb, h, hex, seg = 14, mat) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(rt, rb, h, seg), mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m; };
+      const P = { lav: "#efeafd", white: "#f6f4ff", mint: "#9fe3c8", peach: "#ffc7b2", sky: "#b7d7ff", lilac: "#c9b8f7", yellow: "#ffd66b", navy: "#2f2e7a", coral: "#ff8a8f", green: "#6fd6a0", gray: "#d3d1e0", gold: "#ffd35c", deep: "#a894ee" };
+
+      const popS = (t, t0, d = 0.5) => eOutBack(prog(t, t0, d));
+      function appear(o, t, t0, t1, mode = "pop", d = 0.5) {
+        const s = popS(t, t0, d) * (1 - eOut(prog(t, t1 ?? 9999, 0.35)));
+        o.visible = s > 0.002;
+        if (mode === "pop") o.scale.setScalar(Math.max(s, 0.0001)); else o.scale.set(1, Math.max(s, 0.0001), 1);
+        return s;
+      }
+
+      /* ---------- ISLAND (road ring, lawn ring, checker core) ---------- */
+      const island = grp(scene);
+      put(island, rbox(9.4, 0.5, 9.4, P.lilac, 0.1), 0, -0.5, 0);
+      put(island, rbox(9.0, 0.7, 9.0, P.deep, 0.1), 0, -1.2, 0);
+      const tiles = [];
+      for (let i = 0; i < 9; i++) for (let j = 0; j < 9; j++) {
+        const ring = Math.max(Math.abs(i - 4), Math.abs(j - 4));
+        const hex = ring === 4 ? ((i + j) % 2 ? "#8f88c8" : "#9a93d2") : ring === 3 ? ((i + j) % 2 ? "#d3efe3" : "#c6eadb") : (i + j) % 2 ? P.white : "#ebe7fb";
+        const tl_ = put(island, rbox(0.96, 0.28, 0.96, hex, 0.05), i - 4, 0, j - 4);
+        tiles.push({ o: tl_, k: Math.hypot(i - 4, j - 4) });
+      }
+      const TOP = 0.28;
+      for (let k = 0; k < 8; k++) { for (const [x, z] of [[-3.5 + k, 3.5 + 0.0], [-3.5 + k, -3.5]]) { /* lane dashes drawn below */ } }
+      const dashMat = M("#ffffff");
+      const dashes = [];
+      for (let k = -3; k <= 3; k++) {
+        dashes.push(put(scene, rbox(0.42, 0.02, 0.08, null, 0.01, dashMat), k + 0.0, TOP, 4.0), put(scene, rbox(0.42, 0.02, 0.08, null, 0.01, dashMat), k, TOP, -4.0),
+          put(scene, rbox(0.08, 0.02, 0.42, null, 0.01, dashMat), 4.0, TOP, k), put(scene, rbox(0.08, 0.02, 0.42, null, 0.01, dashMat), -4.0, TOP, k));
+      }
+
+      /* ---------- CRANE BUILDER ---------- */
+      function buildCrane(x, z, s, C) {
+        const g = grp(scene, x, TOP, z); g.scale.setScalar(s);
+        const mats = [];
+        const cm = (hex) => { const m = new THREE.MeshStandardMaterial({ color: hex, roughness: 0.75 }); mats.push({ m, base: new THREE.Color(hex) }); return m; };
+        const mBody = cm(C.body), mBrace = cm(C.brace), mCab = cm(C.cab), mWeight = cm(C.weight), mBase = cm(P.gray);
+        const base = put(g, rbox(1.9, 0.35, 1.9, null, 0.08, mBase));
+        const secs = [];
+        for (let k = 0; k < 7; k++) {
+          const sg = grp(g, 0, 0.35 + k, 0);
+          for (const [sx, sz] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) put(sg, rbox(0.12, 1, 0.12, null, 0.03, mBody), sx * 0.4, 0, sz * 0.4);
+          for (const sz of [-1, 1]) put(sg, rbox(0.9, 0.07, 0.07, null, 0.02, mBrace), 0, 0, sz * 0.4);
+          for (const sx of [-1, 1]) put(sg, rbox(0.07, 0.07, 0.9, null, 0.02, mBrace), sx * 0.4, 0, 0);
+          for (const sz of [-1, 1]) { const d = put(sg, rbox(0.06, 1.2, 0.06, null, 0.02, mBrace), 0, 0, sz * 0.4); d.rotation.z = 0.62 * (sz > 0 ? 1 : -1); }
+          secs.push(sg);
+        }
+        const platform = put(g, rbox(1.1, 0.3, 1.1, null, 0.08, mBody), 0, 7.35, 0);
+        const cab = put(g, rbox(0.75, 0.62, 0.62, null, 0.1, mCab), 0.3, 7.65, 0.62);
+        put(cab, rbox(0.4, 0.28, 0.05, "#4b4a9a", 0.02), 0.2, 0.2, 0.32);
+        const apex = grp(g, 0, 7.65, 0);
+        put(apex, rbox(0.3, 1.3, 0.3, null, 0.06, mBody)); put(apex, rbox(0.22, 0.22, 0.22, "#ff8a8f", 0.08), 0, 1.3, 0);
+        const jib = grp(g, 0, 7.65, 0); const JL = 7.2;
+        for (const sz of [-1, 1]) put(jib, rbox(JL, 0.1, 0.1, null, 0.03, mBody), 0.4 + JL / 2, 0, sz * 0.26);
+        put(jib, rbox(JL, 0.1, 0.1, null, 0.03, mBody), 0.4 + JL / 2, 0.9, 0);
+        for (let k = 0; k < 14; k++) { const d = put(jib, rbox(0.06, 1.0, 0.06, null, 0.02, mBrace), 0.55 + k * 0.5, 0.0, 0); d.rotation.z = (k % 2 ? 1 : -1) * 0.5; }
+        put(jib, rbox(0.14, 1.0, 0.14, null, 0.04, mBody), 0.6 + JL - 0.5, 0, 0);
+        const cj = grp(g, 0, 7.65, 0);
+        for (const sz of [-1, 1]) put(cj, rbox(2.6, 0.1, 0.1, null, 0.03, mBody), -1.4, 0, sz * 0.26);
+        put(cj, rbox(2.6, 0.1, 0.1, null, 0.03, mBody), -1.4, 0.5, 0);
+        const weights = [0, 1, 2].map((i) => put(cj, rbox(0.7, 0.55, 0.7, null, 0.07, mWeight), -1.7 - i * 0.7, -0.6, 0));
+        const trolley = grp(jib, 3.5, 0, 0);
+        put(trolley, rbox(0.5, 0.18, 0.5, null, 0.05, mBody), 0, -0.2, 0);
+        const cable = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 1, 6), M("#8a88b8")); cable.geometry.translate(0, -0.5, 0); cable.position.set(0, -0.2, 0); trolley.add(cable);
+        const hook = grp(trolley, 0, -2, 0); put(hook, rbox(0.3, 0.3, 0.3, "#ff8a8f", 0.08), 0, -0.3, 0);
+        const load = put(hook, rbox(1.2, 0.7, 1.2, P.sky, 0.1), 0, -1.05, 0);
+        put(load, rbox(1.25, 0.12, 1.25, P.lilac, 0.04), 0, 0.58, 0);
+        return { g, mats, base, secs, platform, cab, apex, jib, cj, weights, trolley, cable, hook, load };
+      }
+      function updCrane(c, t, t0) {
+        appear(c.base, t, t0, null, "pop", 0.4);
+        c.secs.forEach((sg, k) => appear(sg, t, t0 + 0.3 + k * 0.14, null, "y", 0.35));
+        appear(c.platform, t, t0 + 1.4, null, "pop", 0.35); appear(c.cab, t, t0 + 1.55, null, "pop", 0.35);
+        appear(c.apex, t, t0 + 1.5, null, "y", 0.4);
+        const pj = prog(t, t0 + 1.6, 0.7); c.jib.visible = pj > 0; c.jib.scale.set(Math.max(eOut(pj), 0.001), 1, 1);
+        c.cj.visible = pj > 0; c.cj.scale.set(Math.max(eOut(pj), 0.001), 1, 1);
+        c.weights.forEach((w, i) => { const p = prog(t, t0 + 2.1 + i * 0.15, 0.4); w.visible = p > 0; w.scale.setScalar(Math.max(eOutBack(p), 0.001)); });
+        c.trolley.visible = popS(t, t0 + 2.4, 0.4) > 0.002;
+      }
+      const crane1 = buildCrane(-2.2, -2.2, 1, { body: P.yellow, brace: "#fff3c9", cab: P.white, weight: P.gray });
+      const crane2 = buildCrane(2.7, -3.0, 0.7, { body: P.mint, brace: "#e4f8ef", cab: P.peach, weight: P.lilac });
+      const c1Top = new THREE.Vector3(-2.2, TOP + 9.0, -2.2), c1Tip = new THREE.Vector3(-2.2 + 7.2, TOP + 8.4, -2.2);
+
+      /* ---------- SITE PROPS ---------- */
+      function tree(x, z, sc = 1) {
+        const g = grp(scene, x, TOP, z); put(g, rbox(0.14, 0.4 * sc, 0.14, "#e0b89a", 0.04));
+        const c1 = new THREE.Mesh(new THREE.ConeGeometry(0.42 * sc, 0.9 * sc, 8), M(P.mint)); c1.position.y = 0.75 * sc; c1.castShadow = true; g.add(c1);
+        const c2 = new THREE.Mesh(new THREE.ConeGeometry(0.3 * sc, 0.7 * sc, 8), M("#82d9b6")); c2.position.y = 1.2 * sc; c2.castShadow = true; g.add(c2); return g;
+      }
+      function house(x, z, wall, roofc) {
+        const g = grp(scene, x, TOP, z); put(g, rbox(0.9, 0.6, 0.8, wall, 0.07));
+        const r = new THREE.Mesh(new THREE.ConeGeometry(0.72, 0.5, 4), M(roofc)); r.position.y = 0.85; r.rotation.y = Math.PI / 4; r.castShadow = true; g.add(r);
+        put(g, rbox(0.2, 0.3, 0.05, "#7fa6ff", 0.02), 0.2, 0.1, 0.41); return g;
+      }
+      const cabin = (() => { const g = grp(scene, -3.0, TOP, 1.4); put(g, rbox(1.4, 0.8, 0.9, P.white, 0.08)); put(g, rbox(1.52, 0.16, 1.02, P.sky, 0.05), 0, 0.8, 0); put(g, rbox(0.3, 0.4, 0.06, P.peach, 0.02), 0.3, 0, 0.48); put(g, rbox(0.4, 0.3, 0.06, "#7fa6ff", 0.02), -0.4, 0.3, 0.48); return g; })();
+      const cone = (x, z) => { const g = grp(scene, x, TOP, z); const c = new THREE.Mesh(new THREE.ConeGeometry(0.2, 0.5, 10), M(P.peach)); c.position.y = 0.25; c.castShadow = true; g.add(c); put(g, rbox(0.46, 0.06, 0.46, P.white, 0.02)); return g; };
+      const turbine = (() => { const g = grp(scene, 0.9, TOP, -3.0); put(g, cyl(0.05, 0.12, 4.6, P.white), 0, 2.3, 0);
+        const hub = grp(g, 0, 4.6, 0.12); put(hub, rbox(0.2, 0.2, 0.3, P.gray, 0.05), 0, -0.1, -0.05);
+        const rot = grp(hub, 0, 0, 0.18); for (let b = 0; b < 3; b++) { const arm = grp(rot); arm.rotation.z = (b * Math.PI * 2) / 3; put(arm, rbox(0.12, 1.5, 0.04, P.white, 0.02), -0.06, 0.1, 0); }
+        g.userData.rot = rot; return g; })();
+      const lampMats = [];
+      const lamps = [[3.55, 3.55], [-3.55, 3.55], [3.55, -3.55], [-3.55, -3.55]].map(([x, z]) => {
+        const g = grp(scene, x, TOP, z); put(g, cyl(0.04, 0.05, 1.3, P.gray), 0, 0.65, 0);
+        const lm = new THREE.MeshStandardMaterial({ color: "#fff3c9", emissive: "#ffd98a", emissiveIntensity: 0, roughness: 0.5 }); lampMats.push(lm);
+        const bulb = new THREE.Mesh(new THREE.SphereGeometry(0.13, 12, 8), lm); bulb.position.y = 1.4; g.add(bulb); return g;
+      });
+      const pile = (() => { const g = grp(scene, -0.6, TOP, -3.1); put(g, rbox(1.0, 0.5, 0.6, P.gray, 0.05)); put(g, rbox(0.9, 0.5, 0.6, "#e2dff0", 0.05), 0.2, 0.5, 0); return g; })();
+      const slabs = (() => { const g = grp(scene, -3.0, TOP, -2.9); return g; })();
+      const sitePops = [
+        [cabin, 2.6], [tree(-3.0, -1.4), 2.8], [tree(1.5, -3.0, 0.9), 3.0], [tree(-3.0, 3.0, 1.1), 3.1], [tree(3.1, 2.7), 3.3], [tree(-1.2, -3.0, 0.9), 3.4],
+        [house(-3.0, -0.4, P.peach, P.coral), 3.2], [house(-3.0, 0.5, P.sky, P.lilac), 3.3],
+        [cone(0.4, 0.6), 3.5], [cone(1.0, 0.2), 3.6], [cone(-0.6, 1.0), 3.7], [pile, 3.9], [turbine, 3.8],
+        ...lamps.map((l, i) => [l, 4.0 + i * 0.1]),
+      ];
+
+      /* ---------- VEHICLES ON THE ROAD RING ---------- */
+      function car(hex) {
+        const g = grp(scene, 0, TOP, 0);
+        put(g, rbox(0.5, 0.2, 1.0, hex, 0.07), 0, 0.08, 0); put(g, rbox(0.42, 0.2, 0.48, P.white, 0.07), 0, 0.28, -0.06); put(g, rbox(0.34, 0.1, 0.05, "#4b4a9a", 0.02), 0, 0.33, 0.2);
+        for (const [x, z] of [[-0.26, -0.3], [0.26, -0.3], [-0.26, 0.3], [0.26, 0.3]]) { const w = cyl(0.1, 0.1, 0.08, P.navy, 12); w.rotation.z = Math.PI / 2; w.position.set(x, 0.1, z); g.add(w); }
+        return g;
+      }
+      function mixer() {
+        const g = grp(scene, 0, TOP, 0);
+        put(g, rbox(0.7, 0.18, 1.9, P.gray, 0.05), 0, 0.12, 0); put(g, rbox(0.66, 0.5, 0.55, P.yellow, 0.08), 0, 0.28, 0.65); put(g, rbox(0.5, 0.2, 0.05, "#4b4a9a", 0.02), 0, 0.55, 0.93);
+        const drum = grp(g, 0, 0.7, -0.25); drum.rotation.x = -0.25; const body = cyl(0.36, 0.36, 1.1, P.peach, 16); body.rotation.x = Math.PI / 2; drum.add(body);
+        const stripe = rbox(0.1, 0.06, 1.0, "#ffffff", 0.02); stripe.position.set(0, 0.34, 0); const sp = grp(drum, 0, 0, 0); sp.add(stripe); g.userData.sp = sp;
+        for (const z of [-0.65, 0.2, 0.7]) for (const x of [-0.36, 0.36]) { const w = cyl(0.14, 0.14, 0.1, P.navy, 12); w.rotation.z = Math.PI / 2; w.position.set(x, 0.14, z); g.add(w); }
+        return g;
+      }
+      const vehicles = [[car(P.coral), 0, 1], [car(P.sky), 11, 1], [car("#ffe08a"), 21, 1], [mixer(), 5, 0.8], [car(P.mint), 27, 1]];
+      function placeOnRing(g, s) {
+        const L = 8, seg = Math.floor(((s % 32) + 32) % 32 / L) % 4, u = (((s % 32) + 32) % 32) % L;
+        const pts = [[-4 + u, -4, Math.PI / 2], [4, -4 + u, 0], [4 - u, 4, -Math.PI / 2], [-4, 4 - u, Math.PI]];
+        const [x, z, th] = pts[seg]; const prevTh = [Math.PI, Math.PI / 2, 0, -Math.PI / 2][seg];
+        const k = eInOut(clamp(u / 0.9)); let d = th - prevTh; if (d > Math.PI) d -= 2 * Math.PI; if (d < -Math.PI) d += 2 * Math.PI;
+        g.position.set(x, TOP, z); g.rotation.y = prevTh + d * k;
+      }
+
+      /* ---------- WORKERS ---------- */
+      function worker(x, z, hex) {
+        const g = grp(scene, x, TOP, z);
+        const b = new THREE.Mesh(new THREE.CapsuleGeometry(0.2, 0.42, 6, 12), M(hex)); b.position.y = 0.72; b.castShadow = true; g.add(b);
+        const h = new THREE.Mesh(new THREE.SphereGeometry(0.17, 14, 10), M("#ffe2cc")); h.position.y = 1.25; h.castShadow = true; g.add(h);
+        const hat = new THREE.Mesh(new THREE.SphereGeometry(0.19, 14, 8, 0, Math.PI * 2, 0, Math.PI / 2), M("#ffd23f")); hat.position.y = 1.29; hat.castShadow = true; g.add(hat);
+        const arm = (sx) => { const p = grp(g, sx * 0.26, 1.0, 0); put(p, rbox(0.09, 0.38, 0.09, hex, 0.03), 0, -0.38, 0); return p; };
+        const leg = (sx) => put(g, rbox(0.11, 0.42, 0.11, P.navy, 0.04), sx * 0.1, 0, 0);
+        return { g, armL: arm(-1), armR: arm(1), legL: leg(-1), legR: leg(1) };
+      }
+      const w1 = worker(-1, -0.8, P.coral), w2 = worker(-2.5, 0.2, P.sky), w3 = worker(0.2, -0.3, P.mint), w4 = worker(-1.2, 1.6, P.lilac);
+      const workers = [[w1, 2.5], [w2, 2.7], [w3, 2.9], [w4, 3.1]];
+
+      /* ---------- COINS ---------- */
+      const CPOS = [2.2, 1.9];
+      function mkCoins(n, x, z) {
+        const g = grp(scene, x, TOP, z); const arr = [];
+        for (let k = 0; k < n; k++) {
+          const c = new THREE.Mesh(new THREE.CylinderGeometry(0.62, 0.62, 0.16, 28), M(P.gold)); c.castShadow = true; c.receiveShadow = true;
+          const rim = new THREE.Mesh(new THREE.TorusGeometry(0.46, 0.03, 8, 28), M("#f2b73a")); rim.rotation.x = Math.PI / 2; rim.position.y = 0.081; c.add(rim);
+          c.position.y = 0.08 + k * 0.17; c.rotation.y = k * 0.5; g.add(c); arr.push(c);
+        } return { g, arr };
+      }
+      const coins1 = mkCoins(T.coins1.n, ...CPOS), coins2 = mkCoins(T.coins2.n, ...CPOS);
+      function updCoins(cs, t, t0, step, t1) {
+        cs.arr.forEach((c, k) => {
+          const p = prog(t, t0 + k * step, 0.5); const rest = 0.08 + k * 0.17;
+          c.visible = p > 0 && !(t1 != null && t > t1 + 0.4);
+          c.position.y = rest + (1 - bounce(p)) * 5.5;
+          const out = t1 != null ? eOut(prog(t, t1, 0.35)) : 0; c.scale.setScalar(Math.max(1 - out, 0.001));
+        });
+      }
+
+      /* ---------- ENTREPRENEUR ---------- */
+      const man = grp(scene, 1.0, TOP, 2.4);
+      const mBody = new THREE.Mesh(new THREE.CapsuleGeometry(0.22, 0.5, 6, 12), M(P.sky)); mBody.position.y = 0.75; mBody.castShadow = true; man.add(mBody);
+      const mHead = new THREE.Mesh(new THREE.SphereGeometry(0.2, 16, 12), M("#ffe2cc")); mHead.position.y = 1.35; mHead.castShadow = true; man.add(mHead);
+      const legL = put(man, rbox(0.12, 0.45, 0.12, P.navy, 0.04), -0.1, 0.0, 0), legR = put(man, rbox(0.12, 0.45, 0.12, P.navy, 0.04), 0.1, 0.0, 0);
+      put(man, rbox(0.34, 0.26, 0.1, P.peach, 0.04), 0.34, 0.35, 0);
+
+      /* ---------- COST CUBES / LOAN / DEBT / BARS / PADS / WEEKS / BUILDING ---------- */
+      const cost1 = rbox(1.1, 1.8, 1.1, P.coral, 0.1); put(scene, cost1, 3.0, TOP, -0.6);
+      const cost2 = rbox(1.1, 1.2, 1.1, P.sky, 0.1); put(scene, cost2, 3.4, TOP, 1.0);
+      const cost3 = rbox(1.1, 0.8, 1.1, P.lilac, 0.1); put(scene, cost3, -0.6, TOP, 2.2);
+      const meter = rbox(1.2, 1, 1.2, P.coral, 0.1); put(scene, meter, CPOS[0], TOP, CPOS[1]);
+      const loan = rbox(1.2, 1.2, 1.2, P.sky, 0.1); put(scene, loan, 3.2, TOP, 0.3);
+      const debt = []; for (let k = 0; k < 6; k++) { const b = rbox(1.2, 0.46, 1.2, k % 2 ? P.coral : "#ff9fa3", 0.08); put(scene, b, CPOS[0], TOP + k * 0.5, CPOS[1]); debt.push(b); }
+      const poleA = rbox(0.2, 1.7, 0.2, P.gray, 0.05), poleB = rbox(0.2, 0.5, 0.2, P.gray, 0.05);
+      put(scene, poleA, -0.4, TOP, 1.6); put(scene, poleB, 2.0, TOP, 1.6);
+      const barNew = rbox(1.3, 3.0, 1.3, P.gold, 0.12); put(scene, barNew, -0.4, TOP + 1.7, 1.6);
+      const barUsed = rbox(1.3, 2.2, 1.3, P.mint, 0.12); put(scene, barUsed, 2.0, TOP + 0.5, 1.6);
+      const padL = rbox(1.6, 0.5, 1.6, P.sky, 0.1); put(scene, padL, -2.0, TOP, 1.7);
+      const padR = rbox(1.6, 0.5, 1.6, P.mint, 0.1); put(scene, padR, 1.7, TOP, 1.6);
+      const weeks = []; for (let i = 0; i < 8; i++) { const m = new THREE.MeshStandardMaterial({ color: P.white, roughness: 0.75 }); const w = rbox(0.62, 0.5, 0.8, null, 0.08, m); put(scene, w, -2.5 + i * 0.72, TOP, 3.0); weeks.push({ w, m }); }
+      const bld = grp(scene, 2.7, TOP, -1.9);
+      const floors = [], winMats = [];
+      for (let k = 0; k < 4; k++) {
+        const f = grp(bld, 0, k * 0.85, 0); put(f, rbox(1.7, 0.8, 1.7, k % 2 ? P.white : "#ebe7fb", 0.08));
+        const wm = new THREE.MeshStandardMaterial({ color: "#8fb6ff", emissive: "#ffd98a", emissiveIntensity: 0, roughness: 0.4 }); winMats.push(wm);
+        for (const wx of [-0.45, 0.45]) { put(f, rbox(0.38, 0.4, 0.05, null, 0.02, wm), wx, 0.2, 0.86); put(f, rbox(0.05, 0.4, 0.38, null, 0.02, wm), 0.86, 0.2, wx); }
+        floors.push(f);
+      }
+      const roof = put(bld, rbox(1.9, 0.14, 1.9, P.coral, 0.05), 0, 3.4, 0);
+      const colC = new THREE.Color(), grayC = new THREE.Color("#d5d3e2"), coralC = new THREE.Color(P.coral), whiteC = new THREE.Color(P.white), mintC = new THREE.Color(P.green);
+
+      /* ---------- TITLE PLAQUE (finale) ---------- */
+      const tcv = document.createElement("canvas"); tcv.width = 2048; tcv.height = 560;
+      const titleTex = new THREE.CanvasTexture(tcv); titleTex.colorSpace = THREE.SRGBColorSpace; titleTex.anisotropy = 4;
+      function drawTitle() {
+        const c = tcv.getContext("2d"); c.clearRect(0, 0, tcv.width, tcv.height); c.textAlign = "center"; c.textBaseline = "middle";
+        c.font = '900 210px DecryptInter, Inter, sans-serif'; c.fillStyle = "#2f2e7a"; c.fillText("DECRYPT", 1024, 170);
+        c.fillStyle = "#c98a00"; c.fillText("BUSINESS", 1024, 380);
+        c.fillStyle = "#7b5cf0"; c.fillRect(300, 505, 1448, 14); titleTex.needsUpdate = true;
+      }
+      drawTitle(); document.fonts.load('900 100px DecryptInter').then(() => { drawTitle(); renderAt(window.__hfThreeTime || 0); });
+      const plaque = grp(scene, 6.6, 0, 6.6);
+      put(plaque, rbox(9.6, 0.4, 3.4, P.white, 0.12), 0, -0.2, 0);
+      const tp = new THREE.Mesh(new THREE.PlaneGeometry(9.0, 2.46), new THREE.MeshBasicMaterial({ map: titleTex, transparent: true })); tp.rotation.x = -Math.PI / 2; tp.position.set(0, 0.215, 0); plaque.add(tp);
+
+      /* ---------- CLOUDS ---------- */
+      const clouds = [];
+      [[-9, 5, -8, 1], [8, 6, -9, 1.2], [-3, 8, -11, 0.9], [11, 4, -4, 1.0]].forEach(([x, y, z, sc], i) => {
+        const g = grp(scene, x, y, z); [[0, 0, 0, 1], [0.9, -0.1, 0.2, 0.75], [-0.9, -0.15, 0, 0.7]].forEach(([dx, dy, dz, r]) => {
+          const m = new THREE.Mesh(new THREE.SphereGeometry(r, 16, 12), new THREE.MeshStandardMaterial({ color: "#ffffff", roughness: 1 })); m.position.set(dx, dy, dz); g.add(m);
+        }); g.scale.setScalar(sc); clouds.push({ g, x, i });
+      });
+
+      /* ---------- DOM CARDS ---------- */
+      const cardsRoot = document.getElementById("cards");
+      const cards = [];
+      const card = (html, cls, anchor, t0, t1, count) => { const d = document.createElement("div"); d.className = "card " + cls; d.innerHTML = html; cardsRoot.appendChild(d); cards.push({ d, anchor, t0, t1, count }); return d; };
+      const V = (x, y, z) => new THREE.Vector3(x, y, z);
+      const zz = ["Z", "Z", "z"].map((c, i) => { const d = document.createElement("div"); d.className = "zz"; d.textContent = c; d.style.fontSize = 64 - i * 14 + "px"; cardsRoot.appendChild(d); return d; });
+      const sparks = [0, 1, 2, 3].map(() => { const d = document.createElement("div"); d.className = "zz"; d.textContent = "✦"; d.setAttribute("data-layout-allow-overlap", ""); d.style.color = "#a86a00"; cardsRoot.appendChild(d); return d; });
+      const cnt = (d, sel, a, b) => ({ el: d.querySelectorAll(sel), a, b });
+      const cA = card('<small>Grue neuve</small><b><span class="a">0</span> – <span class="b">0</span> €+</b>', "gold", V(CPOS[0], 3.4, CPOS[1]), T.cards[0], T.coins1.out, [[0, 200000], [1, 500000]]);
+      card("<b>?</b>", "sm", () => V(man.position.x, 2.2, man.position.z), T.cards[1], T.man[1]);
+      card("<small>Prix ≠ coût</small><b>La partie cachée</b>", "sm", V(0.8, 4.2, 0.4), T.cards[2], 14.8);
+      card("<small>Dette</small><b>PRÊT</b>", "coral sm", V(3.0, 2.8, -0.6), T.cards[3], 14.8);
+      card("<small>Coût</small><b>INTÉRÊTS</b>", "sm", V(3.4, 2.2, 1.0), T.cards[4], 14.8);
+      card("<small>Coût</small><b>TEMPS</b>", "sm", V(-0.6, 1.8, 2.2), T.cards[5], 14.8);
+      card("<small>Pendant ce temps</small><b>ça coûte</b>", "coral sm", V(CPOS[0], 3.2, CPOS[1]), T.cards[6], 18.7);
+      card("<small>Semaines perdues</small><b>▮▮▮▮▮▮▮▮</b>", "coral sm", V(0, 1.5, 3.0), T.cards[7], 25.4);
+      card("<small>Prêt</small><b>toujours là</b>", "sm", V(3.2, 2.8, 0.3), T.cards[8], 25.4);
+      card("<small>Vu par le client</small><b>De l'acier</b>", "gold sm", V(1.6, 8.6, -2.2), T.cards[9], 28.0);
+      card("<small>Vu par le bilan</small><b>Une dette</b>", "coral sm", V(CPOS[0], 4.1, CPOS[1]), T.cards[10], 32.0);
+      card("<small>Parade</small><b>OCCASION</b>", "mint", V(2.7, 5.9, -3.0), T.cards[11], 35.4);
+      const cN = card('<small>Neuf</small><b><span class="a">0</span> – <span class="b">0</span> €+</b>', "gold sm", V(-0.4, 6.4, 1.6), T.cards[12], 42.0, [[0, 200000], [1, 500000]]);
+      const cU = card('<small>Occasion</small><b><span class="a">0</span> – <span class="b">0</span> €</b>', "mint sm", V(2.0, 3.8, 1.6), T.cards[13], 42.0, [[0, 80000], [1, 300000]]);
+      card("<small>Option 1</small><b>LOUER ✓</b>", "sm", V(-2.0, 2.6, 1.7), T.cards[14], 46.5);
+      card("<small>Option 2</small><b>OCCASION ✓</b>", "mint sm", V(1.7, 2.6, 1.6), T.cards[15], 46.5);
+      card("<small>Au travail</small><b>Elle rapporte</b>", "mint sm", V(2.7, 5.4, -1.9), T.cards[16], 50.3);
+      card("<small>Gardée occupée</small><b>Rentable</b>", "mint sm", V(CPOS[0], 3.5, CPOS[1]), T.cards[17], 55.6);
+      cards.forEach((c) => { if (c.count) { c.spans = [c.d.querySelector(".a"), c.d.querySelector(".b")]; } });
+
+      /* ---------- CAMERA SHOTS (hard cuts + slow pushes) ---------- */
+      const shots = [
+        [0, 1.9, [-2.2, 3.2, -2.2, 1.9], [0, 2.3, 0, 0.95], "io"],
+        [1.9, 3.9, [0, 2.3, 0, 0.95], [0.3, 2.3, 0.4, 1.02], "l"],
+        [3.9, 7.9, [2.2, 2.2, 1.9, 1.35], [2.2, 2.4, 1.9, 1.5], "l"],
+        [7.9, 11.4, [0.2, 2.0, 1.6, 1.0], [2.4, 2.0, 3.2, 1.0], "l"],
+        [11.4, 15.0, [1.2, 1.9, 0.8, 1.1], [1.5, 2.0, 0.9, 1.25], "l"],
+        [15.0, 19.0, [0, 5.5, -2, 1.1], [0, 6.2, -2, 1.25], "l"],
+        [19.0, 23.4, [0, 1.6, 3.0, 1.25], [0.5, 1.6, 2.9, 1.4], "l"],
+        [23.4, 25.9, [0.5, 1.6, 2.9, 1.4], [0, 2.0, 1.5, 0.95], "io"],
+        [25.9, 28.2, [-0.5, 5.5, -2, 1.1], [-0.2, 5.0, -1.5, 1.2], "l"],
+        [28.2, 32.6, [2.2, 2.4, 1.9, 1.3], [2.2, 2.9, 1.9, 1.45], "l"],
+        [32.6, 36.0, [1.2, 3.2, -2, 1.15], [1.6, 3.4, -2.2, 1.25], "l"],
+        [36.0, 42.2, [0.9, 3.0, 1.6, 1.2], [0.9, 3.3, 1.6, 1.35], "l"],
+        [42.2, 47.0, [0, 1.6, 2.2, 1.2], [0, 1.6, 2.2, 1.35], "l"],
+        [47.0, 50.6, [1.8, 3.0, -2.2, 1.2], [2.2, 3.6, -2.0, 1.45], "l"],
+        [50.6, 55.9, [0, 2.2, 0.5, 1.05], [0, 2.4, 0.8, 0.98], "l"],
+        [55.9, 60.4, [0, 2.4, 0.8, 0.98], [1.5, 1.2, 1.5, 0.8], "io"],
+      ];
+      function camAt(t) {
+        let s = shots[shots.length - 1]; for (const sh of shots) if (t < sh[1]) { s = sh; break; }
+        const p = prog(t, s[0], s[1] - s[0]); const k = s[4] === "io" ? eInOut(p) : p * p * (3 - 2 * p) * 0.6 + p * 0.4;
+        return s[2].map((v, i) => lerp(v, s[3][i], k));
+      }
+      const dirv = new THREE.Vector3(1, 1, 1).normalize();
+      const pv = new THREE.Vector3();
+      const rootEl = document.getElementById("root"), grainEl = document.getElementById("grain");
+      const n1 = () => document.getElementById("n1"), n2 = () => document.getElementById("n2");
+      const SKY0 = ["#efeafd", "#d8cff7", "#b9a8f0"], SKY1 = ["#ffeedd", "#f9cdbf", "#c9a2e8"];
+      const SUN0 = new THREE.Color("#fff6ee"), SUN1 = new THREE.Color("#ffc98a"), HG0 = new THREE.Color("#cfc4f5"), HG1 = new THREE.Color("#f2b6c4");
+
+      function renderAt(t) {
+        /* island ripple */
+        tiles.forEach(({ o, k }) => { const p = prog(t, 0.05 + k * 0.08, 0.6); o.position.y = 0.4 * Math.sin(Math.PI * p) * (1 - 0.0); });
+        /* cranes */
+        updCrane(crane1, t, T.crane1);
+        const c1 = crane1;
+        let trolleyX = 3.5 + Math.sin(prog(t, 3.4, 3.6) * Math.PI * 2) * 1.0 * (t < 8 ? 1 : 0), cableL = 2.2, loadVis = 0;
+        if (t >= 15.2 && t < 19.5) trolleyX = 3.5 + Math.sin((t - 15.2) * 1.4) * 0.12;
+        if (t >= 47.2 && t < 55.9) {
+          const a = eInOut(prog(t, 47.2, 0.9)), b = eInOut(prog(t, 48.0, 0.7)), c = eInOut(prog(t, 49.4, 0.5));
+          trolleyX = lerp(3.5, 4.9, a); cableL = 2.2 + 3.6 * b - 3.6 * c; loadVis = t < 48.7 ? 1 : 0;
+          if (t > 50.7) { trolleyX = 4.9 - 1.4 * eInOut(prog(t, 50.7, 1.2)) + 1.4 * eInOut(prog(t, 52.0, 1.2)) - 1.4 * eInOut(prog(t, 53.3, 1.2)); cableL = 2.2; }
+        }
+        c1.trolley.position.x = trolleyX; c1.cable.scale.y = cableL; c1.hook.position.y = -0.2 - cableL; c1.load.visible = loadVis > 0;
+        const sleep = prog(t, 15.3, 0.6) * (1 - prog(t, 24.9, 0.5));
+        c1.mats.forEach(({ m, base }) => m.color.copy(base).lerp(grayC, sleep * 0.85));
+        updCrane(crane2, t, T.crane2);
+        const vis2 = 1 - eOut(prog(t, 35.7, 0.4)); crane2.g.visible = t >= T.crane2 && vis2 > 0.01; crane2.g.scale.setScalar(0.7 * Math.max(vis2, 0.001));
+        crane2.trolley.position.x = 3.5; crane2.cable.scale.y = 2.0; crane2.hook.position.y = -2.2; crane2.load.visible = false;
+        /* site props, workers, vehicles, turbine */
+        sitePops.forEach(([o, t0]) => appear(o, t, t0, null, "pop", 0.45));
+        turbine.userData.rot.rotation.z = t * 1.6;
+        workers.forEach(([w, t0]) => appear(w.g, t, t0, null, "pop", 0.4));
+        w1.g.position.x = -1.4 + 1.3 * (0.5 + 0.5 * Math.sin(t * 0.9)); w1.g.rotation.y = Math.cos(t * 0.9) > 0 ? Math.PI / 2 : -Math.PI / 2;
+        w1.legL.rotation.x = Math.sin(t * 8) * 0.6; w1.legR.rotation.x = -Math.sin(t * 8) * 0.6; w1.armL.rotation.x = -Math.sin(t * 8) * 0.5; w1.armR.rotation.x = Math.sin(t * 8) * 0.5;
+        w2.armR.rotation.x = -1.3 + Math.sin(t * 9) * 0.7; w2.g.rotation.y = Math.PI / 2;
+        w3.g.position.z = -0.9 + 1.3 * (0.5 + 0.5 * Math.sin(t * 0.7 + 1)); w3.g.rotation.y = Math.cos(t * 0.7 + 1) > 0 ? 0 : Math.PI;
+        w3.legL.rotation.x = Math.sin(t * 7) * 0.6; w3.legR.rotation.x = -Math.sin(t * 7) * 0.6; w3.armL.rotation.x = -Math.sin(t * 7) * 0.5; w3.armR.rotation.x = Math.sin(t * 7) * 0.5;
+        w4.armR.rotation.z = 2.6 + Math.sin(t * 6) * 0.4; w4.g.rotation.y = Math.PI / 4;
+        vehicles.forEach(([g, off, sp], i) => { const a = appear(g, t, 1.8 + i * 0.25, null, "pop", 0.4); placeOnRing(g, off + (t - 1.8) * 2.0 * sp); g.scale.setScalar(Math.max(a, 0.0001)); if (g.userData.sp) g.userData.sp.rotation.z = t * 4; });
+        /* coins */
+        updCoins(coins1, t, T.coins1.t0, T.coins1.step, T.coins1.out); coins1.g.visible = t < 8.1;
+        updCoins(coins2, t, T.coins2.t0, T.coins2.step, null); coins2.g.visible = t >= 50.9;
+        /* entrepreneur */
+        const wp = prog(t, T.man[0], 2.7); man.visible = t >= T.man[0] - 0.1 && t < 10.9;
+        man.position.set(lerp(1.0, 4.2, wp), TOP + Math.abs(Math.sin(t * 9)) * 0.05, lerp(2.4, 4.4, wp));
+        man.rotation.y = -Math.atan2(3.2, 2.0) + Math.PI / 2; man.scale.setScalar(1 - eOut(prog(t, 10.5, 0.4)));
+        legL.rotation.x = Math.sin(t * 9) * 0.6; legR.rotation.x = -Math.sin(t * 9) * 0.6;
+        /* cost cubes etc. */
+        const hide3 = (t1) => 1 - eOut(prog(t, t1, 0.35));
+        const grow = (o, t0, t1, d = 0.5) => { const s = popS(t, t0, d) * hide3(t1); o.visible = s > 0.002; o.scale.setScalar(Math.max(s, 0.001)); };
+        grow(cost1, T.cost[0], 14.8); grow(cost2, T.cost[1], 14.8); grow(cost3, T.cost[2], 14.8);
+        grow(meter, T.meter, 18.9); if (meter.visible) meter.scale.y = Math.max(0.2, (1 + 3.6 * prog(t, 16.0, 2.4)) * Math.max(popS(t, T.meter, 0.4) * hide3(18.9), 0.001));
+        grow(loan, T.loan, 25.5); if (loan.visible) { const pulse = 1 + 0.07 * Math.sin((t - 20.6) * 6.5); loan.scale.set(pulse, pulse, pulse); }
+        debt.forEach((b, k) => grow(b, T.debt.t0 + k * T.debt.step, 32.0, 0.35));
+        grow(poleA, T.bars[0], 42.0); grow(poleB, T.bars[0], 42.0); grow(barNew, T.bars[1], 42.0, 0.6); grow(barUsed, T.bars[2], 42.0, 0.6);
+        grow(padL, T.pads[0], 46.6); grow(padR, T.pads[1], 46.6);
+        weeks.forEach(({ w, m }, i) => {
+          const inS = popS(t, T.weeksIn + i * 0.12, 0.35) * hide3(T.weeksOut); const inG = t >= T.weeksGreen ? popS(t, T.weeksGreen + i * 0.35 - 0.05, 0.35) : 0;
+          const s = t < 30 ? inS : inG; w.visible = s > 0.002; w.scale.set(1, Math.max(s, 0.001), 1);
+          const red = prog(t, T.weeksRed + i * 0.3, 0.25); const grn = prog(t, T.weeksGreen + i * 0.35, 0.25);
+          if (t < 30) colC.copy(whiteC).lerp(coralC, red); else colC.copy(whiteC).lerp(mintC, grn);
+          m.color.copy(colC);
+        });
+        floors.forEach((f, k) => appear(f, t, T.floors.t0 + k * T.floors.step, null, "y", 0.4));
+        const golden = prog(t, 50.8, 5.2);
+        winMats.forEach((wm, k) => { const on = prog(t, T.floors.t0 + k * T.floors.step + 0.5, 0.2); wm.emissiveIntensity = on * (0.6 + 0.9 * golden); });
+        lampMats.forEach((lm) => { lm.emissiveIntensity = golden * 1.6; });
+        appear(roof, t, T.roof, null, "pop", 0.4); bld.visible = t >= T.floors.t0 - 0.1;
+        /* title plaque */
+        const pp = prog(t, T.plaque, 0.8); plaque.visible = pp > 0; plaque.position.y = lerp(-4, 0, eOutBack(pp)); plaque.scale.setScalar(Math.max(0.2 + 0.8 * eOut(pp), 0.001));
+        clouds.forEach(({ g, x, i }) => { g.position.x = ((x + t * (0.25 + i * 0.05) + 14) % 28) - 14; });
+        /* zzz + sparks */
+        zz.forEach((d, i) => {
+          const p = prog(t, 15.4 + i * 0.5, 1.2); const o = (t >= 15.4 && t < 18.5) ? Math.sin(p * Math.PI) : 0;
+          pv.copy(c1Tip).add(V(0.3 + i * 0.35, 0.7 + p * 1.2 + i * 0.5, 0)).project(cam);
+          d.style.opacity = o; d.style.transform = `translate(${(pv.x * 0.5 + 0.5) * W}px,${(-pv.y * 0.5 + 0.5) * H}px) translate(-50%,-50%)`;
+        });
+        sparks.forEach((d, i) => {
+          const p = prog(t, 26.3 + i * 0.5, 0.5); const o = (t >= 26.3 && t < 31.6) ? p * (0.6 + 0.4 * Math.sin(t * 8 + i)) : 0;
+          pv.set(-2.2 + 1.2 + i * 1.7, TOP + 5.2 + (i % 2) * 2.2, -2.2 + (i % 2 ? 0.8 : -0.8)).project(cam);
+          d.style.opacity = o; d.style.transform = `translate(${(pv.x * 0.5 + 0.5) * W}px,${(-pv.y * 0.5 + 0.5) * H}px) translate(-50%,-50%)`;
+        });
+        /* golden hour */
+        sun.color.copy(SUN0).lerp(SUN1, golden); sun.intensity = 2.1 + 0.5 * golden; sun.position.set(-12 - 4 * golden, 22 - 10 * golden, 9 + 2 * golden);
+        hemi.groundColor.copy(HG0).lerp(HG1, golden); hemi.intensity = 1.25 - 0.1 * golden;
+        rootEl.style.background = `linear-gradient(180deg, ${mixHex(SKY0[0], SKY1[0], golden)} 0%, ${mixHex(SKY0[1], SKY1[1], golden)} 45%, ${mixHex(SKY0[2], SKY1[2], golden)} 100%)`;
+        /* counters */
+        const cu = prog(t, 0.0, 1.0), cE = eOut(cu);
+        if (t < 8) { const a = n1(), b = n2(); if (a) a.textContent = fmt(200000 * cE); if (b) b.textContent = fmt(500000 * cE); }
+        /* camera */
+        const [cx, cy, cz, zoom] = camAt(t);
+        cam.zoom = zoom; cam.updateProjectionMatrix();
+        cam.position.set(cx, cy, cz).addScaledVector(dirv, 80); cam.lookAt(cx, cy, cz); cam.updateMatrixWorld();
+        /* cards */
+        for (const c of cards) {
+          const s = eOutBack(prog(t, c.t0, 0.45)) * (1 - eOut(prog(t, c.t1, 0.3)));
+          if (s <= 0.01) { c.d.style.opacity = 0; continue; }
+          if (c.count) { const e = eOut(prog(t, c.t0 + 0.15, 0.9)); c.count.forEach(([idx, v]) => { c.spans[idx].textContent = fmt(v * e); }); }
+          const a = typeof c.anchor === "function" ? c.anchor(t) : c.anchor; pv.copy(a).project(cam);
+          const hw = (c.d.offsetWidth || 300) / 2 + 24; const cxp = Math.min(W - hw, Math.max(hw, (pv.x * 0.5 + 0.5) * W));
+          c.d.style.opacity = Math.min(1, s * 1.5);
+          c.d.style.transform = `translate(${cxp}px,${(-pv.y * 0.5 + 0.5) * H}px) translate(-50%,-100%) scale(${s})`;
+        }
+        /* karaoke captions */
+        (window.CAPTOK || []).forEach((cp) => { if (t < cp.a - 0.1 || t > cp.b + 0.3) return; let act = -1; cp.starts.forEach((s, k) => { if (t >= s) act = k; });
+          cp.spans.forEach((sp, k) => { const on = k === act; sp.style.opacity = k <= act ? 1 : 0.5; sp.style.color = on ? "#7b5cf0" : "#2f2e7a"; sp.style.transform = on ? "scale(1.05)" : "scale(1)"; }); });
+        grainEl.style.backgroundPosition = `${(Math.round(t * 30) % 7) * 37}px ${(Math.round(t * 30) % 5) * 53}px`;
+        renderer.render(scene, cam);
+        fxbCtx.clearRect(0, 0, 540, 960); fxbCtx.drawImage(glCanvas, 0, 0, 540, 960);
+        fxgCtx.clearRect(0, 0, 270, 480); fxgCtx.drawImage(glCanvas, 0, 0, 270, 480);
+      }
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      document.fonts.ready.then(() => renderAt(window.__hfThreeTime || 0));
+      renderAt(window.__hfThreeTime || 0);
+    </script>
+  </body>
+</html>
