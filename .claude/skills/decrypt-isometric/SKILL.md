@@ -9,7 +9,7 @@ Channel: **Decrypt Business** (youtube.com/@DecryptBusiness), French-language. E
 model of an industry: revenue sources, hidden costs, margins, pitfalls. Audience: entrepreneurs, investors, curious people.
 
 ## Préparation du sujet
-Pour tout nouveau sujet, suivre d'abord `script-process.md` (secteur, dix idées, durée, recherche sourcée).
+Pour tout nouveau sujet, suivre d'abord `script-process.md` (sujet, durée, recherche sourcée).
 
 ## Workflow
 1. Start with `/hyperframes` (mandatory entry point), then follow the owning workflow (`/faceless-explainer` for a
