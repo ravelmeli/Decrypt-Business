@@ -13,7 +13,7 @@ Dire : « Quelle durée pour ce Short ? Cible par défaut : 80 à 90 secondes (e
 
 ## 3. Étude de cas et données sources
 Recherche web sur le sujet, puis exactement 3 pistes factuelles distinctes et vérifiables (un Short ne porte qu'une idée forte). Pour chacune : le fait ou chiffre précis, sa source (média, rapport, document officiel), une note de fiabilité si la source est incertaine ou contestée.
-Terminer par : « Choisis les pistes que tu veux voir intégrées (numéros séparés par des virgules), ajoute des précisions complémentaires si tu en as, ou tape 'go' pour que j'utilise les 3 pistes telles quelles. »
+Ne PAS demander de choix : retenir automatiquement toutes les pistes fiables (ou, à défaut, la plus solide) et passer directement à l'étape 4. Signaler dans le script les réserves de fiabilité.
 Ensuite le sujet et les pistes retenues (avec sources) deviennent les [ÉTUDES DE CAS]. Passer directement à l'étape 4.
 
 ## 4. Script du Short (style Fern, version courte)
