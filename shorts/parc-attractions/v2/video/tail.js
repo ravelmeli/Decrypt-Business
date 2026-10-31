@@ -51,7 +51,7 @@
           lead.style.opacity = Math.min(1, s * 1.2); lead.style.width = Math.max(0, len * eOut(prog(t, n.t0 + 0.1, 0.25))) + "px"; lead.style.transform = `translate(${sx}px,${sy}px) rotate(${Math.atan2(dy, dx)}rad)`;
         });
         /* giant keywords */
-        kwEls.forEach(({ k, el }) => { const p = prog(t, k.t0, 0.25), q = prog(t, k.t1 - 0.2, 0.2); const s = eOutBack(p) * (1 - q); el.style.opacity = s > 0.02 ? Math.min(1, s * 1.5) : 0; el.style.transform = `translateY(${(1 - eOut(p)) * -40}px) rotate(${k.rot}deg) scale(${Math.max(s, 0.001)})`; });
+        kwEls.forEach(({ k, el }) => { const p = prog(t, k.t0, 0.25), q = prog(t, k.t1 - 0.2, 0.2); const s = eOutBack(p) * (1 - q); el.style.fontSize = Math.min(168, Math.floor(1000 / (k.text.length * 0.6))) + 'px'; el.style.opacity = s > 0.02 ? Math.min(1, s * 1.5) : 0; el.style.transform = `translateY(${(1 - eOut(p)) * -40}px) rotate(${k.rot}deg) scale(${Math.max(s, 0.001)})`; });
         /* stamps */
         stampEls.forEach(({ s: st, el }) => { const p = prog(t, st.t0, 0.3), q = prog(t, st.t1 - 0.25, 0.25); const op = (p > 0 ? 1 : 0) * (1 - q); el.style.opacity = op; el.style.transform = `translate(${st.x}px,${st.y}px) translate(-50%,-50%) rotate(${st.rot}deg) scale(${1 + (1 - eOutBack(p)) * 0.9})`; });
         /* data panels */

@@ -4,8 +4,8 @@
       const rn = rng(7);
       const HW = B.heroes;
       const winOn = (name, t, pad = 0.0) => (HW[name] || []).some(([a, b]) => t >= a - pad && t < b + 0.3);
-      function heroShow(name, obj, t, d = 0.5) { let s = 0; for (const [a, b] of HW[name] || []) { if (t < a - 0.001 || t > b + 0.3) continue; s = Math.max(s, popS(t, a, d) * (1 - eOut(prog(t, b - 0.2, 0.3)))); } obj.visible = s > 0.002; obj.scale.setScalar(Math.max(s, 0.0001)); return s; }
-      const heroAny = (names, obj, t) => { let s = 0; names.forEach((n) => { for (const [a, b] of HW[n] || []) { if (t < a - 0.001 || t > b + 0.3) continue; s = Math.max(s, popS(t, a, 0.5) * (1 - eOut(prog(t, b - 0.2, 0.3)))); } }); obj.visible = s > 0.002; obj.scale.setScalar(Math.max(s, 0.0001)); return s; };
+      function heroShow(name, obj, t, d = 0.5) { let s = 0; for (const [a, b] of HW[name] || []) { if (t < a - 0.001 || t > b + 0.3) continue; s = Math.max(s, 0.55 + 0.45 * popS(t, a, Math.min(d, 0.3))); } obj.visible = s > 0.002; obj.scale.setScalar(Math.max(s, 0.0001)); return s; }
+      const heroAny = (names, obj, t) => { let s = 0; names.forEach((n) => { for (const [a, b] of HW[n] || []) { if (t < a - 0.001 || t > b + 0.3) continue; s = Math.max(s, 0.55 + 0.45 * popS(t, a, 0.28)); } }); obj.visible = s > 0.002; obj.scale.setScalar(Math.max(s, 0.0001)); return s; };
 
       /* stage: radial-lit disc, glowing ring, bokeh lights, dark ride silhouettes far behind */
       const gcv = document.createElement("canvas"); gcv.width = gcv.height = 1024; { const c = gcv.getContext("2d"); const g = c.createRadialGradient(512, 512, 40, 512, 512, 512); g.addColorStop(0, "#3d2199"); g.addColorStop(0.45, "#241060"); g.addColorStop(1, "#120833"); c.fillStyle = g; c.fillRect(0, 0, 1024, 1024);
@@ -129,7 +129,7 @@
       upd((t) => { heroShow("balance", hBal, t, 0.4); const tilt = -0.22 * eOutBack(prog(t, HW.balance[0][0] + 2.2, 1.0)); beam.rotation.z = tilt; panL.rotation.z = -tilt; panR.rotation.z = -tilt; balCoins.forEach((c, k) => { c.visible = t > HW.balance[0][0] + 1.4 + k * 0.1; }); });
 
       /* 13 · finale: crossed-out ride, then a whole day (sun arc + ticket), then the brand */
-      const hFinal = grp(scene); const crossA = rb(0.6, 14, 0.6, P.red, 0.1), crossB = rb(0.6, 14, 0.6, P.red, 0.1); put(hFinal, crossA, 0, 0, 5).rotation.z = 0.78; put(hFinal, crossB, 0, 0, 5).rotation.z = -0.78; crossA.position.set(-5, 0, 5); crossB.position.set(5, 0, 5);
+      const hFinal = grp(scene); const crossA = rb(0.6, 14, 0.6, P.red, 0.1), crossB = rb(0.6, 14, 0.6, P.red, 0.1); put(hFinal, crossA, 0, 0, 5).rotation.z = 0.78; put(hFinal, crossB, 0, 0, 5).rotation.z = -0.78; crossA.position.set(0, 0, 6); crossB.position.set(0, 0, 6);
       const dayArc = grp(hFinal); const sunF = sph(1.8, P.gold, 14, emis(P.gold, 1.6)); dayArc.add(sunF); const tkF = ticketMesh(dayArc, 0.5); tkF.position.set(0, 12.5, 2);
       const crowd = [0, 1, 2, 3, 4, 5].map((i) => person(hFinal, [P.pink, P.blue, P.orange, P.gold, P.green, P.violet][i]));
       upd((t) => { heroShow("final", hFinal, t, 0.5); const c1 = t < T.s18; crossA.visible = crossB.visible = c1 && t > T.finale + 0.3; const u = clamp((t - T.s18) / (T.s19 - T.s18)); sunF.position.set(lerp(-12, 12, u), 4 + Math.sin(u * Math.PI) * 11, -6); sunF.visible = t >= T.s18 - 0.1; tkF.visible = t >= T.s18 + 0.3; tkF.rotation.y = t * 1.2;

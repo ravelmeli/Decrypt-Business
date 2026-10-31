@@ -40,15 +40,16 @@ orbit(0.0, e(0, 0.1), 0.7, -0.15, 22, 5.5, (0, 4.2, 0), 42, cut=False)
 note(0.5, e(0, 0.1), "ENTRÉE", "gold", "gate", 0, -110); note(w(0, "billet", -0.25), e(0, 0.2), "BILLET", "white", "ticket", 190, -30)
 kw(w(0, "billet", -0.1), e(0, 0.2), "BILLET", "gold")
 # S1 : the pie, 55 %
-hero("pie", [s(1, -0.05), e(1, 0.15)]); halves(1, 0.9, -0.6, 25, 10, (0, 1.4, 0), 40)
+hero("pie", [s(1, -0.05), s(2, -0.06)]); halves(1, 0.9, -0.6, 25, 10, (0, 1.4, 0), 40)
 note(s(1, 0.8), e(1, 0.0), "BILLET 55 %", "gold", "pie_gold", 0, -140); note(s(1, 2.2), e(1, 0.0), "LE RESTE 45 %", "blue", "pie_cyan", 0, -120)
 kw(w(1, "moitié", -0.2), e(1, 0.1), "55 %", "gold"); stamp(s(1, 0.4), s(1, 2.6), "ORDRE DE GRANDEUR", "blue")
 # S2 : repas, boisson, souvenir, photo : one object at a time
 names = [("repas", "burger", "REPAS"), ("boisson", "cup", "BOISSON"), ("souvenir", "teddy", "SOUVENIR"), ("photo", "camera", "PHOTO")]
 for k, (word, key, label) in enumerate(names):
-    t0 = w(2, word, -0.15); t1 = w(2, names[k + 1][0], -0.15) if k < 3 else e(2, 0.15)
+    t0 = (s(2, -0.05) if k == 0 else w(2, word, -0.15)); t1 = w(2, names[k + 1][0], -0.15) if k < 3 else e(2, 0.15)
+    kt0 = w(2, word, -0.15)
     hero("item_" + key, [t0, t1]); orbit(t0, t1, 0.5 + k * 1.3, 0.1 + k * 1.3 - 0.9, 8.5, 3.0, (0, 2.3, 0), 42)
-    note(t0 + 0.1, t1 - 0.05, label, "gold", "item", 0, -170); kw(t0, t1, label, "gold" if k % 2 == 0 else "white", -3 if k % 2 == 0 else 3)
+    note(kt0 + 0.1, t1 - 0.05, label, "gold", "item", 0, -170); kw(kt0, t1, label, "gold" if k % 2 == 0 else "white", -3 if k % 2 == 0 else 3)
 # S3 : the margin
 hero("coins", [s(3, -0.05), e(3, 0.15)]); orbit(s(3, -0.05), e(3, 0.1), 0.4, -0.5, 14, 5, (0, 2.8, 0), 42)
 note(s(3, 0.6), e(3, 0.1), "LA MARGE", "green", "coins", 0, -190); kw(w(3, "marge", -0.3), e(3, 0.15), "MARGE", "green")
