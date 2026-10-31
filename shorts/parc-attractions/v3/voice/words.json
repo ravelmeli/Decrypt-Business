@@ -1,0 +1,1808 @@
+[
+{
+"line": 0,
+"t": "À",
+"s": 0.245,
+"e": 0.365,
+"matched": true
+},
+{
+"line": 0,
+"t": "l'entrée",
+"s": 0.365,
+"e": 0.666,
+"matched": true
+},
+{
+"line": 0,
+"t": "d'un",
+"s": 0.666,
+"e": 0.88,
+"matched": true
+},
+{
+"line": 0,
+"t": "parc",
+"s": 0.88,
+"e": 1.04,
+"matched": true
+},
+{
+"line": 0,
+"t": "d'attractions,",
+"s": 1.04,
+"e": 1.735,
+"matched": true
+},
+{
+"line": 0,
+"t": "vous",
+"s": 1.735,
+"e": 2.04,
+"matched": true
+},
+{
+"line": 0,
+"t": "payez",
+"s": 2.04,
+"e": 2.32,
+"matched": true
+},
+{
+"line": 0,
+"t": "votre",
+"s": 2.32,
+"e": 2.44,
+"matched": true
+},
+{
+"line": 0,
+"t": "billet.",
+"s": 2.44,
+"e": 3.12,
+"matched": true
+},
+{
+"line": 1,
+"t": "Mais",
+"s": 3.435,
+"e": 3.555,
+"matched": false
+},
+{
+"line": 1,
+"t": "selon",
+"s": 3.555,
+"e": 3.805,
+"matched": true
+},
+{
+"line": 1,
+"t": "les",
+"s": 3.805,
+"e": 3.925,
+"matched": true
+},
+{
+"line": 1,
+"t": "estimations,",
+"s": 3.925,
+"e": 4.63,
+"matched": true
+},
+{
+"line": 1,
+"t": "il",
+"s": 4.63,
+"e": 4.75,
+"matched": true
+},
+{
+"line": 1,
+"t": "ne",
+"s": 4.75,
+"e": 4.87,
+"matched": true
+},
+{
+"line": 1,
+"t": "représente",
+"s": 4.87,
+"e": 5.295,
+"matched": true
+},
+{
+"line": 1,
+"t": "qu'un",
+"s": 5.295,
+"e": 5.7,
+"matched": true
+},
+{
+"line": 1,
+"t": "peu",
+"s": 5.7,
+"e": 5.825,
+"matched": true
+},
+{
+"line": 1,
+"t": "plus",
+"s": 5.825,
+"e": 6.075,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 6.075,
+"e": 6.195,
+"matched": true
+},
+{
+"line": 1,
+"t": "la",
+"s": 6.195,
+"e": 6.315,
+"matched": true
+},
+{
+"line": 1,
+"t": "moitié",
+"s": 6.315,
+"e": 6.631,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 6.631,
+"e": 6.751,
+"matched": true
+},
+{
+"line": 1,
+"t": "ce",
+"s": 6.751,
+"e": 6.871,
+"matched": true
+},
+{
+"line": 1,
+"t": "que",
+"s": 6.871,
+"e": 6.991,
+"matched": true
+},
+{
+"line": 1,
+"t": "vous",
+"s": 6.991,
+"e": 7.111,
+"matched": true
+},
+{
+"line": 1,
+"t": "laisserez",
+"s": 7.111,
+"e": 7.269,
+"matched": true
+},
+{
+"line": 1,
+"t": "en",
+"s": 7.269,
+"e": 7.389,
+"matched": true
+},
+{
+"line": 1,
+"t": "repartant.",
+"s": 7.389,
+"e": 8.053,
+"matched": true
+},
+{
+"line": 2,
+"t": "Le",
+"s": 8.37,
+"e": 8.49,
+"matched": false
+},
+{
+"line": 2,
+"t": "reste,",
+"s": 8.49,
+"e": 8.653,
+"matched": true
+},
+{
+"line": 2,
+"t": "c'est",
+"s": 8.653,
+"e": 9.02,
+"matched": true
+},
+{
+"line": 2,
+"t": "le",
+"s": 9.02,
+"e": 9.14,
+"matched": true
+},
+{
+"line": 2,
+"t": "repas,",
+"s": 9.14,
+"e": 9.63,
+"matched": true
+},
+{
+"line": 2,
+"t": "la",
+"s": 9.63,
+"e": 9.806,
+"matched": true
+},
+{
+"line": 2,
+"t": "boisson,",
+"s": 9.806,
+"e": 10.571,
+"matched": true
+},
+{
+"line": 2,
+"t": "le",
+"s": 10.571,
+"e": 10.691,
+"matched": true
+},
+{
+"line": 2,
+"t": "souvenir,",
+"s": 10.691,
+"e": 11.444,
+"matched": true
+},
+{
+"line": 2,
+"t": "la",
+"s": 11.444,
+"e": 11.585,
+"matched": true
+},
+{
+"line": 2,
+"t": "photo.",
+"s": 11.585,
+"e": 12.382,
+"matched": true
+},
+{
+"line": 3,
+"t": "Et",
+"s": 12.695,
+"e": 13.035,
+"matched": false
+},
+{
+"line": 3,
+"t": "c'est",
+"s": 13.035,
+"e": 13.369,
+"matched": false
+},
+{
+"line": 3,
+"t": "là",
+"s": 13.369,
+"e": 13.702,
+"matched": false
+},
+{
+"line": 3,
+"t": "que",
+"s": 13.702,
+"e": 13.95,
+"matched": false
+},
+{
+"line": 3,
+"t": "se",
+"s": 13.95,
+"e": 14.265,
+"matched": false
+},
+{
+"line": 3,
+"t": "cache",
+"s": 14.265,
+"e": 14.61,
+"matched": false
+},
+{
+"line": 3,
+"t": "la",
+"s": 14.61,
+"e": 15.035,
+"matched": false
+},
+{
+"line": 3,
+"t": "marge.",
+"s": 15.035,
+"e": 15.368,
+"matched": false
+},
+{
+"line": 4,
+"t": "Selon",
+"s": 15.9,
+"e": 16.02,
+"matched": false
+},
+{
+"line": 4,
+"t": "une",
+"s": 16.02,
+"e": 16.14,
+"matched": false
+},
+{
+"line": 4,
+"t": "analyse",
+"s": 16.14,
+"e": 16.26,
+"matched": false
+},
+{
+"line": 4,
+"t": "américaine,",
+"s": 16.26,
+"e": 16.38,
+"matched": false
+},
+{
+"line": 4,
+"t": "les",
+"s": 16.38,
+"e": 16.5,
+"matched": false
+},
+{
+"line": 4,
+"t": "marchandises",
+"s": 16.5,
+"e": 16.64,
+"matched": true
+},
+{
+"line": 4,
+"t": "vendues",
+"s": 16.64,
+"e": 17.4,
+"matched": true
+},
+{
+"line": 4,
+"t": "dans",
+"s": 17.4,
+"e": 17.915,
+"matched": true
+},
+{
+"line": 4,
+"t": "un",
+"s": 17.915,
+"e": 18.035,
+"matched": true
+},
+{
+"line": 4,
+"t": "parc",
+"s": 18.035,
+"e": 18.615,
+"matched": true
+},
+{
+"line": 4,
+"t": "coûtent",
+"s": 18.615,
+"e": 19.06,
+"matched": true
+},
+{
+"line": 4,
+"t": "environ",
+"s": 19.06,
+"e": 19.256,
+"matched": true
+},
+{
+"line": 4,
+"t": "18 %",
+"s": 19.256,
+"e": 19.618,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 19.618,
+"e": 19.738,
+"matched": true
+},
+{
+"line": 4,
+"t": "leur",
+"s": 19.738,
+"e": 19.931,
+"matched": true
+},
+{
+"line": 4,
+"t": "prix.",
+"s": 19.931,
+"e": 20.797,
+"matched": true
+},
+{
+"line": 5,
+"t": "En",
+"s": 21.11,
+"e": 21.23,
+"matched": false
+},
+{
+"line": 5,
+"t": "France,",
+"s": 21.23,
+"e": 21.35,
+"matched": true
+},
+{
+"line": 5,
+"t": "d'après",
+"s": 21.35,
+"e": 21.562,
+"matched": true
+},
+{
+"line": 5,
+"t": "une",
+"s": 21.562,
+"e": 21.8,
+"matched": true
+},
+{
+"line": 5,
+"t": "étude",
+"s": 21.8,
+"e": 21.975,
+"matched": true
+},
+{
+"line": 5,
+"t": "citée",
+"s": 21.975,
+"e": 22.225,
+"matched": true
+},
+{
+"line": 5,
+"t": "par",
+"s": 22.225,
+"e": 22.431,
+"matched": true
+},
+{
+"line": 5,
+"t": "un",
+"s": 22.431,
+"e": 22.575,
+"matched": true
+},
+{
+"line": 5,
+"t": "site",
+"s": 22.575,
+"e": 22.71,
+"matched": true
+},
+{
+"line": 5,
+"t": "spécialisé,",
+"s": 22.71,
+"e": 23.514,
+"matched": true
+},
+{
+"line": 5,
+"t": "la",
+"s": 23.514,
+"e": 23.634,
+"matched": true
+},
+{
+"line": 5,
+"t": "restauration",
+"s": 23.634,
+"e": 24.28,
+"matched": true
+},
+{
+"line": 5,
+"t": "pèserait",
+"s": 24.28,
+"e": 24.73,
+"matched": true
+},
+{
+"line": 5,
+"t": "environ",
+"s": 24.73,
+"e": 25.196,
+"matched": true
+},
+{
+"line": 5,
+"t": "21 %",
+"s": 25.196,
+"e": 25.63,
+"matched": true
+},
+{
+"line": 5,
+"t": "des",
+"s": 25.63,
+"e": 25.865,
+"matched": true
+},
+{
+"line": 5,
+"t": "dépenses,",
+"s": 25.865,
+"e": 26.32,
+"matched": true
+},
+{
+"line": 5,
+"t": "et",
+"s": 26.32,
+"e": 26.452,
+"matched": true
+},
+{
+"line": 5,
+"t": "les",
+"s": 26.452,
+"e": 26.713,
+"matched": true
+},
+{
+"line": 5,
+"t": "boutiques",
+"s": 26.713,
+"e": 27.48,
+"matched": true
+},
+{
+"line": 5,
+"t": "9 %.",
+"s": 27.48,
+"e": 28.134,
+"matched": true
+},
+{
+"line": 6,
+"t": "Un",
+"s": 28.5,
+"e": 28.735,
+"matched": true
+},
+{
+"line": 6,
+"t": "parc",
+"s": 28.735,
+"e": 28.855,
+"matched": true
+},
+{
+"line": 6,
+"t": "gagne",
+"s": 28.855,
+"e": 29.066,
+"matched": true
+},
+{
+"line": 6,
+"t": "donc",
+"s": 29.066,
+"e": 29.281,
+"matched": true
+},
+{
+"line": 6,
+"t": "beaucoup",
+"s": 29.281,
+"e": 29.75,
+"matched": true
+},
+{
+"line": 6,
+"t": "sur",
+"s": 29.75,
+"e": 29.945,
+"matched": true
+},
+{
+"line": 6,
+"t": "chaque",
+"s": 29.945,
+"e": 30.261,
+"matched": true
+},
+{
+"line": 6,
+"t": "visiteur,",
+"s": 30.261,
+"e": 30.91,
+"matched": true
+},
+{
+"line": 6,
+"t": "une",
+"s": 30.91,
+"e": 31.03,
+"matched": true
+},
+{
+"line": 6,
+"t": "fois",
+"s": 31.03,
+"e": 31.295,
+"matched": true
+},
+{
+"line": 6,
+"t": "qu'il",
+"s": 31.295,
+"e": 31.505,
+"matched": true
+},
+{
+"line": 6,
+"t": "est",
+"s": 31.505,
+"e": 31.86,
+"matched": true
+},
+{
+"line": 6,
+"t": "entré.",
+"s": 31.86,
+"e": 32.19,
+"matched": true
+},
+{
+"line": 7,
+"t": "Encore",
+"s": 32.505,
+"e": 32.625,
+"matched": false
+},
+{
+"line": 7,
+"t": "faut-il",
+"s": 32.625,
+"e": 32.755,
+"matched": true
+},
+{
+"line": 7,
+"t": "le",
+"s": 32.755,
+"e": 32.93,
+"matched": true
+},
+{
+"line": 7,
+"t": "faire",
+"s": 32.93,
+"e": 33.415,
+"matched": true
+},
+{
+"line": 7,
+"t": "revenir.",
+"s": 33.415,
+"e": 34.251,
+"matched": true
+},
+{
+"line": 8,
+"t": "Au",
+"s": 34.785,
+"e": 34.905,
+"matched": false
+},
+{
+"line": 8,
+"t": "Futuroscope,",
+"s": 34.905,
+"e": 35.16,
+"matched": true
+},
+{
+"line": 8,
+"t": "c'est",
+"s": 35.16,
+"e": 35.66,
+"matched": true
+},
+{
+"line": 8,
+"t": "une",
+"s": 35.66,
+"e": 35.785,
+"matched": true
+},
+{
+"line": 8,
+"t": "règle",
+"s": 35.785,
+"e": 36.179,
+"matched": true
+},
+{
+"line": 8,
+"t": ":",
+"s": 36.179,
+"e": 36.64,
+"matched": false
+},
+{
+"line": 8,
+"t": "investir",
+"s": 36.64,
+"e": 36.965,
+"matched": true
+},
+{
+"line": 8,
+"t": "10 %",
+"s": 36.965,
+"e": 37.325,
+"matched": true
+},
+{
+"line": 8,
+"t": "du",
+"s": 37.325,
+"e": 37.445,
+"matched": true
+},
+{
+"line": 8,
+"t": "chiffre",
+"s": 37.445,
+"e": 37.724,
+"matched": true
+},
+{
+"line": 8,
+"t": "d'affaires",
+"s": 37.724,
+"e": 38.37,
+"matched": true
+},
+{
+"line": 8,
+"t": "chaque",
+"s": 38.37,
+"e": 38.535,
+"matched": true
+},
+{
+"line": 8,
+"t": "année,",
+"s": 38.535,
+"e": 38.97,
+"matched": true
+},
+{
+"line": 8,
+"t": "pour",
+"s": 38.97,
+"e": 39.166,
+"matched": true
+},
+{
+"line": 8,
+"t": "renouveler",
+"s": 39.166,
+"e": 40.059,
+"matched": true
+},
+{
+"line": 8,
+"t": "environ",
+"s": 40.059,
+"e": 40.179,
+"matched": true
+},
+{
+"line": 8,
+"t": "20 %",
+"s": 40.179,
+"e": 40.539,
+"matched": true
+},
+{
+"line": 8,
+"t": "de",
+"s": 40.539,
+"e": 40.659,
+"matched": true
+},
+{
+"line": 8,
+"t": "l'offre,",
+"s": 40.659,
+"e": 41.177,
+"matched": true
+},
+{
+"line": 8,
+"t": "et",
+"s": 41.177,
+"e": 41.44,
+"matched": true
+},
+{
+"line": 8,
+"t": "viser",
+"s": 41.44,
+"e": 41.579,
+"matched": true
+},
+{
+"line": 8,
+"t": "60 %",
+"s": 41.579,
+"e": 42.001,
+"matched": true
+},
+{
+"line": 8,
+"t": "de",
+"s": 42.001,
+"e": 42.246,
+"matched": true
+},
+{
+"line": 8,
+"t": "visiteurs",
+"s": 42.246,
+"e": 42.665,
+"matched": true
+},
+{
+"line": 8,
+"t": "qui",
+"s": 42.665,
+"e": 42.79,
+"matched": true
+},
+{
+"line": 8,
+"t": "reviennent.",
+"s": 42.79,
+"e": 43.997,
+"matched": true
+},
+{
+"line": 9,
+"t": "Le",
+"s": 44.31,
+"e": 44.43,
+"matched": false
+},
+{
+"line": 9,
+"t": "Parc",
+"s": 44.43,
+"e": 44.675,
+"matched": true
+},
+{
+"line": 9,
+"t": "Astérix",
+"s": 44.675,
+"e": 44.83,
+"matched": true
+},
+{
+"line": 9,
+"t": "cite",
+"s": 44.83,
+"e": 45.04,
+"matched": true
+},
+{
+"line": 9,
+"t": "un",
+"s": 45.04,
+"e": 45.215,
+"matched": true
+},
+{
+"line": 9,
+"t": "ordre",
+"s": 45.215,
+"e": 45.475,
+"matched": true
+},
+{
+"line": 9,
+"t": "de",
+"s": 45.475,
+"e": 45.595,
+"matched": true
+},
+{
+"line": 9,
+"t": "grandeur",
+"s": 45.595,
+"e": 45.992,
+"matched": true
+},
+{
+"line": 9,
+"t": "voisin",
+"s": 45.992,
+"e": 46.223,
+"matched": true
+},
+{
+"line": 9,
+"t": ":",
+"s": 46.223,
+"e": 46.454,
+"matched": false
+},
+{
+"line": 9,
+"t": "environ",
+"s": 46.454,
+"e": 46.785,
+"matched": true
+},
+{
+"line": 9,
+"t": "10 %",
+"s": 46.785,
+"e": 47.245,
+"matched": true
+},
+{
+"line": 9,
+"t": "par",
+"s": 47.245,
+"e": 47.5,
+"matched": true
+},
+{
+"line": 9,
+"t": "an.",
+"s": 47.5,
+"e": 48.134,
+"matched": true
+},
+{
+"line": 10,
+"t": "Mais",
+"s": 48.45,
+"e": 48.57,
+"matched": false
+},
+{
+"line": 10,
+"t": "ce",
+"s": 48.57,
+"e": 48.749,
+"matched": true
+},
+{
+"line": 10,
+"t": "modèle",
+"s": 48.749,
+"e": 48.988,
+"matched": true
+},
+{
+"line": 10,
+"t": "a",
+"s": 48.988,
+"e": 49.108,
+"matched": true
+},
+{
+"line": 10,
+"t": "un",
+"s": 49.108,
+"e": 49.228,
+"matched": true
+},
+{
+"line": 10,
+"t": "point",
+"s": 49.228,
+"e": 49.67,
+"matched": true
+},
+{
+"line": 10,
+"t": "faible",
+"s": 49.67,
+"e": 49.96,
+"matched": true
+},
+{
+"line": 10,
+"t": ":",
+"s": 49.96,
+"e": 50.195,
+"matched": false
+},
+{
+"line": 10,
+"t": "le",
+"s": 50.195,
+"e": 50.407,
+"matched": true
+},
+{
+"line": 10,
+"t": "calendrier.",
+"s": 50.407,
+"e": 51.832,
+"matched": true
+},
+{
+"line": 11,
+"t": "Selon",
+"s": 52.365,
+"e": 52.485,
+"matched": false
+},
+{
+"line": 11,
+"t": "cette",
+"s": 52.485,
+"e": 52.87,
+"matched": true
+},
+{
+"line": 11,
+"t": "même",
+"s": 52.87,
+"e": 52.995,
+"matched": true
+},
+{
+"line": 11,
+"t": "analyse,",
+"s": 52.995,
+"e": 53.835,
+"matched": true
+},
+{
+"line": 11,
+"t": "un",
+"s": 53.835,
+"e": 53.955,
+"matched": true
+},
+{
+"line": 11,
+"t": "parc",
+"s": 53.955,
+"e": 54.22,
+"matched": true
+},
+{
+"line": 11,
+"t": "américain",
+"s": 54.22,
+"e": 54.864,
+"matched": true
+},
+{
+"line": 11,
+"t": "réalisait",
+"s": 54.864,
+"e": 55.97,
+"matched": true
+},
+{
+"line": 11,
+"t": "environ",
+"s": 55.97,
+"e": 56.103,
+"matched": true
+},
+{
+"line": 11,
+"t": "85 %",
+"s": 56.103,
+"e": 56.625,
+"matched": true
+},
+{
+"line": 11,
+"t": "de",
+"s": 56.625,
+"e": 56.759,
+"matched": true
+},
+{
+"line": 11,
+"t": "son",
+"s": 56.759,
+"e": 56.95,
+"matched": true
+},
+{
+"line": 11,
+"t": "activité",
+"s": 56.95,
+"e": 57.59,
+"matched": true
+},
+{
+"line": 11,
+"t": "en",
+"s": 57.59,
+"e": 57.815,
+"matched": true
+},
+{
+"line": 11,
+"t": "à",
+"s": 57.815,
+"e": 58.065,
+"matched": true
+},
+{
+"line": 11,
+"t": "peine",
+"s": 58.065,
+"e": 58.275,
+"matched": true
+},
+{
+"line": 11,
+"t": "trois",
+"s": 58.275,
+"e": 58.525,
+"matched": false
+},
+{
+"line": 11,
+"t": "mois",
+"s": 58.525,
+"e": 58.645,
+"matched": true
+},
+{
+"line": 11,
+"t": "et",
+"s": 58.645,
+"e": 58.824,
+"matched": true
+},
+{
+"line": 11,
+"t": "demi.",
+"s": 58.824,
+"e": 59.467,
+"matched": true
+},
+{
+"line": 12,
+"t": "Le",
+"s": 59.78,
+"e": 59.9,
+"matched": false
+},
+{
+"line": 12,
+"t": "reste",
+"s": 59.9,
+"e": 60.03,
+"matched": true
+},
+{
+"line": 12,
+"t": "de",
+"s": 60.03,
+"e": 60.15,
+"matched": true
+},
+{
+"line": 12,
+"t": "l'année,",
+"s": 60.15,
+"e": 60.525,
+"matched": true
+},
+{
+"line": 12,
+"t": "les",
+"s": 60.525,
+"e": 60.84,
+"matched": true
+},
+{
+"line": 12,
+"t": "manèges",
+"s": 60.84,
+"e": 61.108,
+"matched": true
+},
+{
+"line": 12,
+"t": "coûtent",
+"s": 61.108,
+"e": 61.4,
+"matched": true
+},
+{
+"line": 12,
+"t": "quand",
+"s": 61.4,
+"e": 61.835,
+"matched": true
+},
+{
+"line": 12,
+"t": "même,",
+"s": 61.835,
+"e": 61.955,
+"matched": true
+},
+{
+"line": 12,
+"t": "et",
+"s": 61.955,
+"e": 62.089,
+"matched": true
+},
+{
+"line": 12,
+"t": "les",
+"s": 62.089,
+"e": 62.209,
+"matched": true
+},
+{
+"line": 12,
+"t": "caisses",
+"s": 62.209,
+"e": 62.329,
+"matched": true
+},
+{
+"line": 12,
+"t": "se",
+"s": 62.329,
+"e": 62.585,
+"matched": true
+},
+{
+"line": 12,
+"t": "remplissent",
+"s": 62.585,
+"e": 63.065,
+"matched": true
+},
+{
+"line": 12,
+"t": "beaucoup",
+"s": 63.065,
+"e": 63.285,
+"matched": true
+},
+{
+"line": 12,
+"t": "moins.",
+"s": 63.285,
+"e": 64.007,
+"matched": true
+},
+{
+"line": 13,
+"t": "Tout",
+"s": 64.32,
+"e": 64.44,
+"matched": false
+},
+{
+"line": 13,
+"t": "porte",
+"s": 64.44,
+"e": 64.56,
+"matched": true
+},
+{
+"line": 13,
+"t": "à",
+"s": 64.56,
+"e": 64.68,
+"matched": true
+},
+{
+"line": 13,
+"t": "croire",
+"s": 64.68,
+"e": 64.805,
+"matched": true
+},
+{
+"line": 13,
+"t": "que",
+"s": 64.805,
+"e": 64.935,
+"matched": true
+},
+{
+"line": 13,
+"t": "quelques",
+"s": 64.935,
+"e": 65.44,
+"matched": true
+},
+{
+"line": 13,
+"t": "week-ends",
+"s": 65.44,
+"e": 65.91,
+"matched": true
+},
+{
+"line": 13,
+"t": "de",
+"s": 65.91,
+"e": 66.03,
+"matched": true
+},
+{
+"line": 13,
+"t": "pluie",
+"s": 66.03,
+"e": 66.23,
+"matched": true
+},
+{
+"line": 13,
+"t": "en",
+"s": 66.23,
+"e": 66.35,
+"matched": true
+},
+{
+"line": 13,
+"t": "été",
+"s": 66.35,
+"e": 66.605,
+"matched": true
+},
+{
+"line": 13,
+"t": "peuvent",
+"s": 66.605,
+"e": 67.07,
+"matched": true
+},
+{
+"line": 13,
+"t": "peser",
+"s": 67.07,
+"e": 67.341,
+"matched": true
+},
+{
+"line": 13,
+"t": "lourd",
+"s": 67.341,
+"e": 67.687,
+"matched": true
+},
+{
+"line": 13,
+"t": "sur",
+"s": 67.687,
+"e": 67.807,
+"matched": true
+},
+{
+"line": 13,
+"t": "toute",
+"s": 67.807,
+"e": 68.063,
+"matched": true
+},
+{
+"line": 13,
+"t": "l'année.",
+"s": 68.063,
+"e": 69.035,
+"matched": true
+},
+{
+"line": 14,
+"t": "Alors",
+"s": 69.35,
+"e": 69.47,
+"matched": false
+},
+{
+"line": 14,
+"t": "les",
+"s": 69.47,
+"e": 69.76,
+"matched": true
+},
+{
+"line": 14,
+"t": "parcs",
+"s": 69.76,
+"e": 69.88,
+"matched": true
+},
+{
+"line": 14,
+"t": "misent",
+"s": 69.88,
+"e": 70.16,
+"matched": true
+},
+{
+"line": 14,
+"t": "sur",
+"s": 70.16,
+"e": 70.43,
+"matched": true
+},
+{
+"line": 14,
+"t": "la",
+"s": 70.43,
+"e": 70.55,
+"matched": true
+},
+{
+"line": 14,
+"t": "dépense",
+"s": 70.55,
+"e": 70.905,
+"matched": true
+},
+{
+"line": 14,
+"t": "par",
+"s": 70.905,
+"e": 71.04,
+"matched": true
+},
+{
+"line": 14,
+"t": "visiteur",
+"s": 71.04,
+"e": 71.405,
+"matched": true
+},
+{
+"line": 14,
+"t": ":",
+"s": 71.405,
+"e": 71.77,
+"matched": false
+},
+{
+"line": 14,
+"t": "un",
+"s": 71.77,
+"e": 72.115,
+"matched": true
+},
+{
+"line": 14,
+"t": "rapport",
+"s": 72.115,
+"e": 72.235,
+"matched": true
+},
+{
+"line": 14,
+"t": "de",
+"s": 72.235,
+"e": 72.404,
+"matched": true
+},
+{
+"line": 14,
+"t": "2026",
+"s": 72.404,
+"e": 72.849,
+"matched": true
+},
+{
+"line": 14,
+"t": "montre",
+"s": 72.849,
+"e": 73.142,
+"matched": true
+},
+{
+"line": 14,
+"t": "qu'elle",
+"s": 73.142,
+"e": 73.55,
+"matched": true
+},
+{
+"line": 14,
+"t": "peut",
+"s": 73.55,
+"e": 73.67,
+"matched": true
+},
+{
+"line": 14,
+"t": "compenser",
+"s": 73.67,
+"e": 74.065,
+"matched": true
+},
+{
+"line": 14,
+"t": "une",
+"s": 74.065,
+"e": 74.317,
+"matched": true
+},
+{
+"line": 14,
+"t": "fréquentation",
+"s": 74.317,
+"e": 74.91,
+"matched": true
+},
+{
+"line": 14,
+"t": "inégale.",
+"s": 74.91,
+"e": 75.718,
+"matched": true
+},
+{
+"line": 15,
+"t": "Un",
+"s": 76.25,
+"e": 76.37,
+"matched": false
+},
+{
+"line": 15,
+"t": "parc",
+"s": 76.37,
+"e": 76.59,
+"matched": true
+},
+{
+"line": 15,
+"t": "d'attractions",
+"s": 76.59,
+"e": 77.25,
+"matched": true
+},
+{
+"line": 15,
+"t": "ne",
+"s": 77.25,
+"e": 77.37,
+"matched": true
+},
+{
+"line": 15,
+"t": "vend",
+"s": 77.37,
+"e": 77.652,
+"matched": true
+},
+{
+"line": 15,
+"t": "donc",
+"s": 77.652,
+"e": 77.847,
+"matched": true
+},
+{
+"line": 15,
+"t": "pas",
+"s": 77.847,
+"e": 78.13,
+"matched": true
+},
+{
+"line": 15,
+"t": "des",
+"s": 78.13,
+"e": 78.38,
+"matched": true
+},
+{
+"line": 15,
+"t": "manèges.",
+"s": 78.38,
+"e": 79.143,
+"matched": true
+},
+{
+"line": 16,
+"t": "Il",
+"s": 79.455,
+"e": 79.575,
+"matched": false
+},
+{
+"line": 16,
+"t": "vend",
+"s": 79.575,
+"e": 79.714,
+"matched": true
+},
+{
+"line": 16,
+"t": "une",
+"s": 79.714,
+"e": 79.991,
+"matched": true
+},
+{
+"line": 16,
+"t": "journée",
+"s": 79.991,
+"e": 80.233,
+"matched": true
+},
+{
+"line": 16,
+"t": "entière,",
+"s": 80.233,
+"e": 80.845,
+"matched": true
+},
+{
+"line": 16,
+"t": "puis",
+"s": 80.845,
+"e": 81.085,
+"matched": true
+},
+{
+"line": 16,
+"t": "une",
+"s": 81.085,
+"e": 81.205,
+"matched": true
+},
+{
+"line": 16,
+"t": "raison",
+"s": 81.205,
+"e": 81.575,
+"matched": true
+},
+{
+"line": 16,
+"t": "de",
+"s": 81.575,
+"e": 81.695,
+"matched": true
+},
+{
+"line": 16,
+"t": "revenir.",
+"s": 81.695,
+"e": 82.73,
+"matched": true
+},
+{
+"line": 17,
+"t": "Le",
+"s": 83.265,
+"e": 83.385,
+"matched": false
+},
+{
+"line": 17,
+"t": "manège",
+"s": 83.385,
+"e": 83.505,
+"matched": false
+},
+{
+"line": 17,
+"t": "attire",
+"s": 83.505,
+"e": 83.625,
+"matched": true
+},
+{
+"line": 17,
+"t": "la",
+"s": 83.625,
+"e": 83.745,
+"matched": true
+},
+{
+"line": 17,
+"t": "foule,",
+"s": 83.745,
+"e": 84.02,
+"matched": true
+},
+{
+"line": 17,
+"t": "mais",
+"s": 84.02,
+"e": 84.309,
+"matched": true
+},
+{
+"line": 17,
+"t": "c'est",
+"s": 84.309,
+"e": 84.652,
+"matched": true
+},
+{
+"line": 17,
+"t": "la",
+"s": 84.652,
+"e": 84.791,
+"matched": true
+},
+{
+"line": 17,
+"t": "journée",
+"s": 84.791,
+"e": 85.455,
+"matched": true
+},
+{
+"line": 17,
+"t": "qui",
+"s": 85.455,
+"e": 85.575,
+"matched": true
+},
+{
+"line": 17,
+"t": "fait",
+"s": 85.575,
+"e": 85.86,
+"matched": true
+},
+{
+"line": 17,
+"t": "payer.",
+"s": 85.86,
+"e": 86.462,
+"matched": true
+}
+]
