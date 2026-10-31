@@ -1,6 +1,6 @@
 # Processus de préparation d'un Short (Decrypt Business)
 
-Format par défaut : Short vertical 9:16 (1080×1920). Les vidéos longues (16:9) viendront plus tard.
+Format par défaut : Short vertical 9:16 (1080×1920), durée visée 80 à 90 secondes. Les vidéos longues (16:9) viendront plus tard.
 Étapes séquentielles. Une entrée à la fois : s'arrêter après chaque étape et attendre la réponse de l'utilisateur.
 Réponses concises, sans préambule. Jamais de tiret cadratin (—) : virgules, deux-points, parenthèses ou traits d'union simples.
 
@@ -9,7 +9,7 @@ Demander uniquement : « Quel est le sujet de ton Short ? »
 Garde-fou factuel : uniquement des entreprises, cas ou événements RÉELS et documentables. Jamais de scénario fictif présenté comme réel.
 
 ## 2. Durée
-Dire : « Quelle durée pour ce Short ? Options : 15 secondes, 30 secondes, 45 secondes ou 60 secondes. Réponds avec une durée. »
+Dire : « Quelle durée pour ce Short ? Cible par défaut : 80 à 90 secondes (environ 215 à 245 mots). Réponds avec une durée, ou 'ok' pour garder la cible. »
 
 ## 3. Étude de cas et données sources
 Recherche web sur le sujet, puis exactement 3 pistes factuelles distinctes et vérifiables (un Short ne porte qu'une idée forte). Pour chacune : le fait ou chiffre précis, sa source (média, rapport, document officiel), une note de fiabilité si la source est incertaine ou contestée.
@@ -43,7 +43,9 @@ Environ 150 à 170 mots par minute : 15 s ≈ 40 mots, 30 s ≈ 80, 45 s ≈ 120
 2. MÉCANISME (le corps) : comment le business fonctionne vraiment, l'asymétrie entre ce que voit le client et ce que subit le bilan, appuyé sur le fait réel retenu.
 3. CHUTE (dernière ligne) : une phrase froide, mémorable, philosophique, qui peut boucler sur le hook.
 
-Le script et la voix off s'arrêtent là : la voix off ElevenLabs n'est pas incluse dans ce processus.
+## 5. Voix off (Gemini TTS)
+Générer la voix avec `shorts/tools_tts_gemini.py` : voix `en-us-koda`, style « Promote » (`High energy, elongated vowels`), clé lue dans la variable d'environnement `GEMINI_API_KEY` (jamais dans un fichier ni collée dans le chat).
+Écrire les chiffres pour la voix (« 5 pour cent », pas « 5 % »). Vérifier la voix en la retranscrivant (Whisper large-v3 local : `npx hyperframes transcribe --engine whisper --model large-v3 --language fr`) et en comparant au script. L'utilisateur peut aussi fournir sa propre voix.
 
 ## Contraintes visuelles propres au Short (pour la mise en scène isométrique)
 - Zones de sécurité : texte et chiffres au centre du cadre, loin des bords et du bas (interface YouTube).

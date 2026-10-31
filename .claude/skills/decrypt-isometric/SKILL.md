@@ -34,3 +34,10 @@ Pour tout nouveau sujet, suivre d'abord `script-process.md` (sujet, durée, rech
 - Invented names only for brands in generic scenes; no real trademarks/logos.
 - Structure: hook (the surprising number) → autopsy of revenues → hidden costs → margin → verdict.
 - Current phase: Shorts first, 9:16 1080×1920, 15 to 60 s (see script-process.md). Long 16:9 videos come later.
+
+## Nouvelle direction (série de 5, durée 80 à 90 s)
+Passer de « un diorama par idée » à un **moteur d'explication** réutilisable, inspiré (technique et rythme, jamais le contenu) de références TikTok analysées : voir `references-style.md`.
+Briques à construire : annotations (pastilles, flèches, lignes pointillées, badges numérotés, coches), mots-clés géants en haut d'écran, sous-titres à pastille sur le mot prononcé, tampons, frises chronologiques, documents, barres animées, coupes de terrain, barre de progression.
+Palette : **varie selon le sujet** (bleu nuit avec or, rouge et bleu pour les sujets graves ou techniques ; pastel pour les sujets légers ; or sur noir pour l'identité Decrypt Business).
+Garde-fous : aucune personne réelle reconnaissable, aucun vrai logo ni marque (archétypes stylisés seulement) ; chiffres sourcés, jamais inventés.
+Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.md`).
