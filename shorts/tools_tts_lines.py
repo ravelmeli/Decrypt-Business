@@ -15,10 +15,10 @@ def tts(text):
             "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": a.voice}}}}}
     req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{a.model}:generateContent", data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
-    for k in range(4):
+    for k in range(6):
         try:
             r = json.load(urllib.request.urlopen(req, timeout=300)); return base64.b64decode(r["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
-        except Exception as e: time.sleep(2 * (k + 1)); err = e
+        except Exception as e: time.sleep(15 * (k + 1) if "429" in str(e) else 2 * (k + 1)); err = e
     raise SystemExit(f"TTS failed: {err}")
 def pcm(wavbytes):
     p = subprocess.run(["ffmpeg", "-v", "error", "-i", "pipe:0", "-ar", str(SR), "-ac", "1", "-f", "f32le", "-"], input=wavbytes, capture_output=True, check=True).stdout
@@ -28,6 +28,9 @@ def trim(x):
     s, e = max(0, idx[0] - int(0.05 * SR)), min(len(x), idx[-1] + int(0.08 * SR)); return x[s:e]
 clips = []
 for i, text in enumerate(lines):
+    cached = f"{a.out}/line_{i:02d}.wav"      # resume: an existing line is reused; delete its file to redo just that line
+    if os.path.exists(cached) and os.path.getsize(cached) > 1000:
+        x = pcm(open(cached, "rb").read()); clips.append(x); print(i, f"{len(x) / SR:.2f}s (cached)", text[:48], flush=True); continue
     x = trim(pcm(tts(text))); rms = np.sqrt(np.mean(x ** 2)); x = x * (10 ** (-20 / 20) / rms)      # same speech level on every line
     x = x * np.minimum(1, np.linspace(0, 1, 120).tolist() + [1] * (len(x) - 120)) if False else x
     fade = int(0.006 * SR); x[:fade] *= np.linspace(0, 1, fade); x[-fade:] *= np.linspace(1, 0, fade)
