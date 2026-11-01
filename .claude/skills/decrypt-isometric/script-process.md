@@ -52,6 +52,8 @@ Environ 150 à 170 mots par minute : 15 s ≈ 40 mots, 30 s ≈ 80, 45 s ≈ 120
 
 ## 5. Voix off (Gemini TTS)
 Générer la voix avec `shorts/tools_tts_gemini.py` : voix `en-us-koda`, style « Promote » (`High energy, elongated vowels`), clé lue dans la variable d'environnement `GEMINI_API_KEY` (jamais dans un fichier ni collée dans le chat).
+Accent : la voix Koda est à l'origine anglophone et peut prendre un accent anglais sur certaines phrases françaises (ex. « Et c'est là que se cache la marge »). Règles : (1) ajouter au style « native French speaker, Parisian accent, no English accent » ; (2) générer phrase par phrase (`shorts/tools_tts_lines.py`) pour pouvoir refaire UNE seule phrase sans toucher aux autres ; (3) éviter les tournures à sons difficiles (enchaînements « c'est là que… », « th/h » proches de l'anglais, mots anglais) en préférant des phrases simples, courtes et des mots français courants ; (4) refaire jusqu'à 3 prises d'une phrase suspecte, et signaler à l'utilisateur les phrases dont l'accent reste douteux (Whisper ne détecte pas l'accent, seule une écoute humaine le fait) ;
+(5) l'utilisateur confirme à l'écoute avant le rendu final.
 Écrire les chiffres pour la voix (« 5 pour cent », pas « 5 % »). Vérifier la voix en la retranscrivant (Whisper large-v3 local : `npx hyperframes transcribe --engine whisper --model large-v3 --language fr`) et en comparant au script. L'utilisateur peut aussi fournir sa propre voix.
 
 ## Contraintes visuelles propres au Short (pour la mise en scène isométrique)
