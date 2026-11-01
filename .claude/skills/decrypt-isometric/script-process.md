@@ -30,7 +30,7 @@ Ensuite le sujet et les pistes retenues (avec sources) deviennent les [ÉTUDES D
 - Français fluide, percutant, métaphorique, axé sur UN chiffre ou UNE vérité dérangeante.
 - Anti-répétition : vocabulaire, rythme et métaphores adaptés au SECTEUR du sujet, pas de formules génériques d'un Short à l'autre.
 - Pas de sensationnalisme ni moquerie envers les victimes.
-- Aucun appel à l'abonnement, sponsor, ni intro ou conclusion d'animateur.
+- Pas de sponsor ni d'intro d'animateur. Exception voulue : l'appel à l'action final (voir « Appel à l'action » ci-dessous).
 
 ### Longueur
 Environ 150 à 170 mots par minute : 15 s ≈ 40 mots, 30 s ≈ 80, 45 s ≈ 120, 60 s ≈ 160. Phrases courtes, rythme rapide.
@@ -42,6 +42,13 @@ Environ 150 à 170 mots par minute : 15 s ≈ 40 mots, 30 s ≈ 80, 45 s ≈ 120
 1. HOOK (1 à 2 lignes, dans les 2 premières secondes) : chiffre absurde ou anomalie (seulement s'il est fourni ou notoire). Ne jamais commencer de la même façon d'un Short à l'autre.
 2. MÉCANISME (le corps) : comment le business fonctionne vraiment, l'asymétrie entre ce que voit le client et ce que subit le bilan, appuyé sur le fait réel retenu.
 3. CHUTE (dernière ligne) : une phrase froide, mémorable, philosophique, qui peut boucler sur le hook.
+
+### Appel à l'action (obligatoire à la fin de chaque vidéo, règle de l'utilisateur)
+- Après la CHUTE, ajouter 1 à 2 courtes phrases parlées (environ 10 à 18 mots) qui poussent à commenter ET à s'abonner à la chaîne. Elles font partie du script et de la voix.
+- La phrase d'invitation à commenter pose une question précise liée au sujet (ex. « Qu'est-ce qui vous fait dépenser le plus dans un parc ? »), puis l'abonnement (« Abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes »). Varier la formulation d'une vidéo à l'autre.
+- À l'image : fin de vidéo avec une carte finale lisible (verbe d'action « COMMENTEZ » + « ABONNEZ-VOUS »), sans coupure, dans la même caméra continue, zone de sécurité respectée.
+- Le total reste dans la durée visée (80 à 90 s) : compter ces mots dans le budget.
+- La description et la question de commentaire des métadonnées reprennent la même question.
 
 ## 5. Voix off (Gemini TTS)
 Générer la voix avec `shorts/tools_tts_gemini.py` : voix `en-us-koda`, style « Promote » (`High energy, elongated vowels`), clé lue dans la variable d'environnement `GEMINI_API_KEY` (jamais dans un fichier ni collée dans le chat).
