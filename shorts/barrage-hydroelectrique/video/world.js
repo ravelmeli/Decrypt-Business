@@ -49,10 +49,10 @@
       const cross = (p, len = 12) => { const g = grp(p); const a = rb(0.6, len, 0.6, P.red, 0.1), b = rb(0.6, len, 0.6, P.red, 0.1); put(g, a, 0, -len / 2, 0).rotation.z = 0.8; put(g, b, 0, -len / 2, 0).rotation.z = -0.8; return g; };
 
       /* 1 · dam : it produces 12 % of the electricity (3 houses out of 25 lit) */
-      const hD = grp(PL.dam); const dm = damMesh(hD); dm.g.position.set(0, 0, -4); const bolt1 = boltShape(hD, 1.6); bolt1.position.set(0, 13.5, -4);
-      const hs = []; for (let r = 0; r < 5; r++) for (let c = 0; c < 5; c++) { const g = grp(hD, -5.4 + c * 2.7, 0, 5.0 + r * 1.9); const b = rb(1.5, 1.1, 1.2, P.cream, 0.1); g.add(b); const rf = new THREE.Mesh(new THREE.ConeGeometry(1.15, 0.8, 4), M(P.red)); rf.rotation.y = Math.PI / 4; rf.position.y = 1.5; rf.castShadow = true; g.add(rf); const wn = rb(0.5, 0.5, 0.1, P.gold, 0.03, emis(P.gold, 0.0)); wn.position.set(0, 0.35, 0.62); wn.castShadow = false; g.add(wn); hs.push({ g, wn }); }
-      ANCH.dam_top = () => V(0, 10.4, -4); ANCH.dam_grid = () => V(0, 3.6, 8); wrapAnch(["dam_top", "dam_grid"], PL.dam);
-      upd((t) => { showHero("dam", hD, t); bolt1.rotation.y = Math.sin(t * 1.4) * 0.5; bolt1.position.y = 13.5 + Math.sin(t * 2) * 0.3; dm.fall.scale.y = 0.9 + 0.1 * Math.sin(t * 9); hs.forEach((h, i) => { const on = i < 3 && t >= TT.lit_on + i * 0.18; h.wn.material.emissiveIntensity = on ? 1.6 : 0.0; h.wn.material.color.set(on ? P.gold : "#27415c"); }); });
+      const hD = grp(PL.dam); const dm = damMesh(hD); dm.g.scale.setScalar(0.7); dm.g.position.set(0, 0, -5); const bolt1 = boltShape(hD, 1.3); bolt1.position.set(0, 9.6, -5);
+      const hs = []; for (let r = 0; r < 5; r++) for (let c = 0; c < 5; c++) { const g = grp(hD, -4.4 + c * 2.2, 0, 3.4 + r * 1.7); const b = rb(1.5, 1.1, 1.2, P.cream, 0.1); g.add(b); const rf = new THREE.Mesh(new THREE.ConeGeometry(1.15, 0.8, 4), M(P.red)); rf.rotation.y = Math.PI / 4; rf.position.y = 1.5; rf.castShadow = true; g.add(rf); const wn = rb(0.5, 0.5, 0.1, P.gold, 0.03, emis(P.gold, 0.0)); wn.position.set(0, 0.35, 0.62); wn.castShadow = false; g.add(wn); hs.push({ g, wn }); }
+      ANCH.dam_top = () => V(0, 7.6, -5); ANCH.dam_grid = () => V(0, 3.6, 7); wrapAnch(["dam_top", "dam_grid"], PL.dam);
+      upd((t) => { showHero("dam", hD, t); bolt1.rotation.y = Math.sin(t * 1.4) * 0.5; bolt1.position.y = 9.6 + Math.sin(t * 2) * 0.25; dm.fall.scale.y = 0.9 + 0.1 * Math.sin(t * 9); hs.forEach((h, i) => { const on = i < 3 && t >= TT.lit_on + i * 0.18; h.wn.material.emissiveIntensity = on ? 1.6 : 0.0; h.wn.material.color.set(on ? P.gold : "#27415c"); }); });
 
       /* 2 · etat : the State owns it, the operator holds the contract (75 years) */
       const hE = grp(PL.etat); const st = stateBuilding(hE, 0.85); st.g.position.set(-5.8, 0, -3); const dm2 = damMesh(hE); dm2.g.scale.setScalar(0.5); dm2.g.position.set(4.6, 0, -4.4);
@@ -67,9 +67,9 @@
 
       /* 3 · share : ten dams, 7 for EDF, the rest mostly Engie */
       const hSh = grp(PL.share); const dmini = []; const OWN = [P.blue, P.blue, P.blue, P.blue, P.blue, P.blue, P.blue, P.orange, P.orange, P.gray];
-      for (let i = 0; i < 10; i++) { const d = miniDam(hSh, OWN[i], 1.5); d.g.position.set(-5.4 + (i % 5) * 2.7, 0, i < 5 ? -3.5 : 3.0); dmini.push(d); }
+      for (let i = 0; i < 10; i++) { const d = miniDam(hSh, OWN[i], 1.05); d.g.position.set(-5.4 + (i % 5) * 2.7, 0, i < 5 ? -3.5 : 3.0); dmini.push(d); }
       ANCH.sh_edf = () => V(-1.6, 4.4, -3.5); ANCH.sh_engie = () => V(2.7, 4.4, 3.0); wrapAnch(["sh_edf", "sh_engie"], PL.share);
-      upd((t) => { showHero("share", hSh, t); dmini.forEach((d, i) => { const t0 = i < 7 ? TT.edf_on + i * 0.1 : i < 9 ? TT.engie_on + (i - 7) * 0.12 : TT.reste_on; d.g.scale.setScalar(Math.max(0.001, eOutBack(prog(t, t0, 0.4))) * 1.5); }); });
+      upd((t) => { showHero("share", hSh, t); dmini.forEach((d, i) => { const t0 = i < 7 ? TT.edf_on + i * 0.1 : i < 9 ? TT.engie_on + (i - 7) * 0.12 : TT.reste_on; d.g.scale.setScalar(Math.max(0.001, eOutBack(prog(t, t0, 0.4))) * 1.05); }); });
 
       /* 4 · concurrence : the concession ends, bidders raise paddles around the dam */
       const hC = grp(PL.concurrence); const podium = rb(3.6, 2.4, 2.4, P.brown, 0.12); put(hC, podium, 0, 0, 0); const dm4 = miniDam(hC, P.cream, 1.2); dm4.g.position.set(0, 2.5, 0); const gav = grp(hC, 2.6, 3.0, 0); put(gav, rb(0.35, 2.0, 0.35, P.brown, 0.05), 0, -1.4, 0); put(gav, rb(1.6, 0.8, 0.8, P.brown, 0.08), 0, 0.2, 0);
@@ -78,7 +78,7 @@
       upd((t) => { showHero("concurrence", hC, t); dm4.g.rotation.y = t * 0.8; bid.forEach((v, i) => { const up = eOutBack(prog(t, TT.bid_on + i * 0.35, 0.4)); v.armR.rotation.z = -2.6 * up + Math.sin(t * 5 + i) * 0.1 * up; v.g.scale.setScalar(1.4); }); gav.rotation.z = -0.9 * (1 - bounce(prog(t, TT.gavel, 0.35))) ; gav.visible = t >= TT.gavel - 0.6; });
 
       /* 5 · echues : 38 expired concessions out of 40 turn red */
-      const hX = grp(PL.echues); const grid = []; for (let r = 0; r < 5; r++) for (let c = 0; c < 8; c++) { const d = miniDam(hX, P.blue, 0.8); d.g.position.set(-4.9 + c * 1.4, 0, -4.2 + r * 2.2); grid.push(d); }
+      const hX = grp(PL.echues); const grid = []; for (let r = 0; r < 5; r++) for (let c = 0; c < 8; c++) { const d = miniDam(hX, P.blue, 0.52); d.g.position.set(-4.9 + c * 1.4, 0, -4.2 + r * 2.2); grid.push(d); }
       ANCH.ech = () => V(0, 4.0, 0); wrapAnch(["ech"], PL.echues);
       upd((t) => { showHero("echues", hX, t); grid.forEach((d, i) => { const red = i < 38 && t >= TT.ech_on + i * 0.05; d.w.material = M(red ? P.red : P.blue); d.g.position.y = red ? Math.sin(t * 5 + i) * 0.04 : 0; }); });
 
@@ -93,13 +93,13 @@
         const kk = eInOut(prog(t, TT.lose_on, 1.0)); key6.position.set(lerp(-3.2, 7.4, kk), 6.0 + Math.sin(t * 3) * 0.2 + kk * 1.5, lerp(3.0, 7.0, kk)); key6.rotation.y = t * 1.4; key6.visible = t >= TT.lose_on - 0.5; });
 
       /* 7 · redevance : 40 % of a theoretical profit goes back to the State */
-      const hR = grp(PL.redevance); const pie = grp(hR, -3.6, 0.1, 1); const sl = [];
+      const hR = grp(PL.redevance); const pie = grp(hR, -2.4, 0.1, 1); const sl = [];
       [[0.6, P.gold], [0.4, P.red]].reduce((ang, [f, col]) => { const len = f * Math.PI * 2; const m = new THREE.Mesh(new THREE.CylinderGeometry(4.0, 4.0, 1.4, 40, 1, false, ang, len), M(col)); m.castShadow = true; m.receiveShadow = true; m.position.y = 0.7; pie.add(m); sl.push({ m, mid: ang + len / 2 }); return ang + len; }, 0.2);
-      put(pie, cyl(4.3, 4.4, 0.3, P.cream, 40), 0, -0.05, 0); const stR = stateBuilding(hR, 0.6); stR.g.position.set(6.2, 0, -3);
+      put(pie, cyl(4.3, 4.4, 0.3, P.cream, 40), 0, -0.05, 0); const stR = stateBuilding(hR, 0.6); stR.g.position.set(5.6, 0, -4);
       const flowC = []; for (let k = 0; k < 8; k++) { const c = coinM(0.45); c.visible = false; hR.add(c); flowC.push(c); }
-      ANCH.red_gold = () => V(-3.6 + Math.sin(sl[0].mid) * 2.6, 2.6, 1 + Math.cos(sl[0].mid) * 2.6); ANCH.red_red = () => V(-3.6 + Math.sin(sl[1].mid) * 4.2, 2.4, 1 + Math.cos(sl[1].mid) * 4.2); ANCH.red_state = () => V(6.2, 9.2, -3); wrapAnch(["red_gold", "red_red", "red_state"], PL.redevance);
+      ANCH.red_gold = () => V(-2.4 + Math.sin(sl[0].mid) * 2.6, 2.6, 1 + Math.cos(sl[0].mid) * 2.6); ANCH.red_red = () => V(-2.4 + Math.sin(sl[1].mid) * 4.2, 2.4, 1 + Math.cos(sl[1].mid) * 4.2); ANCH.red_state = () => V(5.6, 9.2, -4); wrapAnch(["red_gold", "red_red", "red_state"], PL.redevance);
       upd((t) => { showHero("redevance", hR, t); pie.rotation.y = 0; const out = 1.4 * eOutBack(prog(t, TT.red_on, 0.7)); sl[1].m.position.set(Math.sin(sl[1].mid) * out, 0.7, Math.cos(sl[1].mid) * out); const a0 = TT.red_on + 0.6;
-        flowC.forEach((c, k) => { const u = (((t - a0) * 0.5 + k / 8) % 1 + 1) % 1; c.visible = t > a0; c.position.set(lerp(-3.6 + Math.sin(sl[1].mid) * 2.4, 6.2, u), 1.5 + Math.sin(u * Math.PI) * 3.4, lerp(1 + Math.cos(sl[1].mid) * 2.4, -2, u)); c.rotation.x = t * 5; }); });
+        flowC.forEach((c, k) => { const u = (((t - a0) * 0.5 + k / 8) % 1 + 1) % 1; c.visible = t > a0; c.position.set(lerp(-2.4 + Math.sin(sl[1].mid) * 2.4, 6.2, u), 1.5 + Math.sin(u * Math.PI) * 3.4, lerp(1 + Math.cos(sl[1].mid) * 2.4, -2, u)); c.rotation.x = t * 5; }); });
 
       /* 8 · step : pump water up when electricity is cheap, release it when it is dear */
       const hS = grp(PL.step); const upper = cyl(4.2, 4.2, 0.8, P.blue, 28, new THREE.MeshStandardMaterial({ color: P.blue, roughness: 0.3, emissive: P.blue, emissiveIntensity: 0.25 })); put(hS, upper, -4.2, 5.4, -4); put(hS, cyl(4.8, 5.2, 5.4, P.cream, 28), -4.2, 0, -4);

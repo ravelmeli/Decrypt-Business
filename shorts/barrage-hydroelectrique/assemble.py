@@ -11,7 +11,7 @@ head = head.replace("assets/mix.wav", "assets/mix.wav")
 head = head.replace("data-fps=\"60\"", "data-fps=\"30\"")
 PAL = [("#ffc93c", "#ffd23f"), ("#ff4f7a", "#ff6b4a"), ("#2fc4ff", "#33b5ff"), ("#6dff9a", "#5fd6a0"), ("#120833", "#07121f"), ("#1e0f55", "#0f3050"), ("#34187f", "#1b5280"), ("#1a2160", "#17324f"), ("#0b0a3a", "#07121f"), ("#12083a", "#07121f"), ("#f4ecd8", "#e9e4d6"), ("#e6ebff", "#e6f2ff"), ("#b8c4ff", "#a9c8e6"), ("#9fb3ff", "#8fc3f0"), ("rgba(24,10,70,.88)", "rgba(8,28,50,.88)"), ("rgba(10,16,50,.92)", "rgba(6,22,40,.92)"), ("rgba(2,4,20,.55)", "rgba(1,8,16,.55)"), ("0f1546", "07121f")]
 for o, n in PAL: head = head.replace(o, n)
-head = head.replace("%DUR%", str(DUR))
+head = head.replace("#brandend { position: absolute; left: 0; right: 0; top: 620px;","#brandend { position: absolute; left: 0; right: 0; top: 330px;").replace("%DUR%", str(DUR))
 parts = [open(f"video/{n}.js").read() for n in ("engine", "world", "tail")]
 # keyword auto-fit smaller cap
 parts[0] = parts[0].replace("Math.min(168,", "Math.min(132,")

@@ -26,7 +26,7 @@ def stamp(t0, t1, text, kind, x=540, y=470, rot=-3): B["stamps"].append(dict(t0=
 
 # ---- heroes (one per place) ----
 for n in ORDER: hero(n, 0.0 if n == "dam" else s(FIRST[n]), e(LAST[n], 0.1) if n != "cta" else DUR + 2)
-ORB = dict(dam=(0.5, -0.4, 24, 19, 7, 7, 5), etat=(0.5, -0.3, 22, 17, 7, 7, 4), share=(0.4, -0.5, 22, 17, 8, 8, 2.5), concurrence=(0.5, -0.4, 20, 15, 6.5, 6.5, 3),
+ORB = dict(dam=(0.5, -0.4, 24, 19, 7, 7, 3.6), etat=(0.5, -0.3, 22, 17, 7, 7, 4), share=(0.4, -0.5, 22, 17, 8, 8, 1.8), concurrence=(0.5, -0.4, 20, 15, 6.5, 6.5, 3),
            echues=(0.3, -0.3, 20, 16, 10, 10, 1.5), invest=(0.5, -0.4, 22, 17, 7, 7, 4.5), redevance=(0.5, -0.4, 22, 17, 8, 8, 2.5), step=(0.5, -0.5, 24, 19, 9, 9, 3.5),
            souplesse=(0.4, -0.4, 22, 17, 7, 7, 5.5), droit=(0.5, -0.4, 24, 19, 7.5, 7.5, 5.5), cta=(0.3, -0.3, 22, 16, 7, 7, 5.5))
 START = {n: (0.0 if n == "dam" else s(FIRST[n])) for n in ORDER}
@@ -47,6 +47,7 @@ def cam(t):
         pn, ln = state(ORDER[i - 1], min(t, END[ORDER[i - 1]]))
         g = min(1, max(0, (t - (START[n] - GL + 0.35)) / GL)); g = g * g * g * (g * (g * 6 - 15) + 10)
         p = tuple(pn[q] + (p[q] - pn[q]) * g for q in range(3)); l = tuple(ln[q] + (l[q] - ln[q]) * g for q in range(3))
+        p = (p[0], p[1] + 9.0 * math.sin(math.pi * g), p[2])   # aerial hump: the camera rises while it glides, never skimming the stage props
     return p, l
 B["cam"] = []; t = 0.0
 while t <= DUR + 1e-6:
@@ -56,7 +57,7 @@ T["whoosh"] = s(8) - 0.55   # one single big subject change: from the legal owne
 
 # ---- overlays, all exactly on the spoken word ----
 T["lit_on"] = w(0, "12")
-note(w(0, "12"), e(0, 0.2), "≈ 12 % DE L'ÉLECTRICITÉ", "gold", "dam_grid", 0, -60); kw(w(0, "12"), w(0, "sans"), "12 %", "gold"); kw(w(0, "combustible"), e(0, 0.3), "SANS COMBUSTIBLE", "blue")
+note(w(0, "12"), e(0, 0.2), "≈ 12 %", "gold", "dam_grid", 0, -60); kw(w(0, "12"), w(0, "sans"), "12 %", "gold"); kw(w(0, "combustible"), e(0, 0.3), "SANS COMBUSTIBLE", "blue")
 T["state_on"] = w(1, "propriétaire"); T["key_move"] = w(2, "confie"); T["h75"] = w(2, "75")
 note(w(1, "exploite"), e(2, 0.2), "EXPLOITANT", "gold", "et_oper", 0, -80); note(T["state_on"], e(1, 0.3), "PROPRIÉTAIRE ?", "white", "et_state", 0, -70); kw(T["state_on"], e(1, 0.4), "PROPRIÉTAIRE ?", "gold")
 note(w(2, "État"), e(2, 0.2), "L'ÉTAT", "blue", "et_state", 0, -70); note(w(2, "concession"), e(2, 0.2), "CONCESSION", "gold", "et_dam", 0, -70); kw(T["h75"], e(2, 0.4), "75 ANS", "gold")
@@ -84,7 +85,7 @@ T["droit_on"] = w(13, "droit")
 note(T["droit_on"], e(13, 0.2), "DROIT D'USAGE", "gold", "dr_key", 0, -70); kw(T["droit_on"], w(13, "limité"), "UN DROIT D'USAGE", "gold"); kw(w(13, "limité"), w(13, "ouvrage"), "LIMITÉ", "red"); kw(w(13, "ouvrage"), e(13, 0.4), "À L'ÉTAT", "blue")
 T["bubble_on"] = w(14, "Selon"); T["button_on"] = w(15, "abonnez"); T["press"] = w(15, "Decrypt")
 note(w(14, "vous"), e(14, 0.1), "VOTRE AVIS ?", "gold", "bubble", 0, -70); kw(w(14, "Dites"), e(14, 0.5), "COMMENTEZ", "gold")
-note(T["button_on"], e(15, 0.1), "DECRYPT BUSINESS", "red", "button", -90, -60); kw(T["button_on"], e(15, 0.4), "ABONNEZ-VOUS", "red")
+kw(T["button_on"], e(15, 0.4), "ABONNEZ-VOUS", "red")
 T["brand"] = e(15, -0.9)
 open("video/assets/beats.js", "w").write("window.BEATS=" + json.dumps(B, ensure_ascii=False) + ";")
 json.dump(B, open("video/assets/beats.json", "w"), ensure_ascii=False)
