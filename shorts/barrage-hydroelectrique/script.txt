@@ -1,14 +1,11 @@
 En France, les barrages produisent environ 12 pour cent de l'électricité, sans acheter le moindre combustible.
-Leur carburant, c'est l'eau.
 Mais celui qui exploite un barrage n'en est presque jamais le propriétaire.
 Ces ouvrages appartiennent à l'État, qui les confie à un exploitant par une concession, souvent pour 75 ans.
 EDF en contrôle environ 70 pour cent de la production, et Engie, une grande partie du reste.
-Autrement dit, l'exploitant loue un barrage qu'il devra un jour rendre.
 Quand la concession se termine, l'État doit la remettre en concurrence.
 Or fin 2022, selon la Cour des comptes, 38 concessions étaient échues sans avoir été renouvelées.
 Pendant ce temps, l'exploitant produit toujours, mais investit plus difficilement dans un barrage qu'il risque de perdre.
 Depuis 2020, ces concessions paient une redevance égale à 40 pour cent d'un bénéfice théorique après impôt.
-La Cour note même qu'EDF pourrait gagner autant avec dix de ses concessions les plus rentables qu'avec ses 300.
 Reste une autre source de valeur : stocker l'énergie.
 Certains barrages pompent l'eau vers le haut quand l'électricité est bon marché, puis la turbinent quand elle est chère.
 Leur revenu vient donc de l'écart de prix, pas du volume produit.
