@@ -59,3 +59,8 @@ Accent : la voix Koda est à l'origine anglophone et peut prendre un accent angl
 ## Contraintes visuelles propres au Short (pour la mise en scène isométrique)
 - Zones de sécurité : texte et chiffres au centre du cadre, loin des bords et du bas (interface YouTube).
 - Cadrage serré sur un seul bâtiment ou flux de l'île miniature, texte gros et court, lisible sur mobile.
+
+## Rendu (règle de l'utilisateur)
+- Toujours rendre en **30 images par seconde** : `npx --yes hyperframes@0.8.183 render -w 3 --fps 30`. Le rendu 30 i/s est le rendu FINAL (pas de rendu 60 i/s, plus d'« essai » séparé). Le MP4 livré à l'utilisateur est le fichier final.
+- Lancer le rendu avec le mode tâche de fond de l'outil Bash (`run_in_background`), pas avec `nohup &` : sinon il est annulé (« render_cancelled_parent_exited »). Durée : environ 30 minutes pour 87 s.
+- Après le rendu : vérification de synchronisation (`verify_sync.py`), puis livraison du MP4 et des métadonnées prêtes à copier-coller.
