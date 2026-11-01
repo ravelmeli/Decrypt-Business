@@ -1,0 +1,1418 @@
+[
+  {
+    "text": "Une",
+    "start": 0.17,
+    "end": 0.28,
+    "id": "w0"
+  },
+  {
+    "text": "chambre",
+    "start": 0.28,
+    "end": 0.57,
+    "id": "w1"
+  },
+  {
+    "text": "en",
+    "start": 0.57,
+    "end": 0.68,
+    "id": "w2"
+  },
+  {
+    "text": "maison",
+    "start": 0.68,
+    "end": 1.03,
+    "id": "w3"
+  },
+  {
+    "text": "de",
+    "start": 1.03,
+    "end": 1.14,
+    "id": "w4"
+  },
+  {
+    "text": "retraite",
+    "start": 1.14,
+    "end": 1.6,
+    "id": "w5"
+  },
+  {
+    "text": "privée",
+    "start": 1.6,
+    "end": 2,
+    "id": "w6"
+  },
+  {
+    "text": "coûte",
+    "start": 2,
+    "end": 2.33,
+    "id": "w7"
+  },
+  {
+    "text": "en",
+    "start": 2.33,
+    "end": 2.41,
+    "id": "w8"
+  },
+  {
+    "text": "moyenne",
+    "start": 2.49,
+    "end": 2.92,
+    "id": "w9"
+  },
+  {
+    "text": "près",
+    "start": 2.92,
+    "end": 3.19,
+    "id": "w10"
+  },
+  {
+    "text": "de",
+    "start": 3.19,
+    "end": 3.32,
+    "id": "w11"
+  },
+  {
+    "text": "2700",
+    "start": 3.32,
+    "end": 4.07,
+    "id": "w12"
+  },
+  {
+    "text": "euros",
+    "start": 4.22,
+    "end": 4.45,
+    "id": "w13"
+  },
+  {
+    "text": "par",
+    "start": 4.45,
+    "end": 4.7,
+    "id": "w14"
+  },
+  {
+    "text": "mois.",
+    "start": 4.7,
+    "end": 4.9,
+    "id": "w15"
+  },
+  {
+    "text": "Dans",
+    "start": 4.9,
+    "end": 5.33,
+    "id": "w16"
+  },
+  {
+    "text": "le",
+    "start": 5.33,
+    "end": 5.76,
+    "id": "w17"
+  },
+  {
+    "text": "public,",
+    "start": 5.76,
+    "end": 6.01,
+    "id": "w18"
+  },
+  {
+    "text": "c'est",
+    "start": 6.01,
+    "end": 6.39,
+    "id": "w19"
+  },
+  {
+    "text": "environ",
+    "start": 6.39,
+    "end": 6.89,
+    "id": "w20"
+  },
+  {
+    "text": "1900",
+    "start": 6.94,
+    "end": 7.87,
+    "id": "w21"
+  },
+  {
+    "text": "euros,",
+    "start": 7.95,
+    "end": 8.4,
+    "id": "w22"
+  },
+  {
+    "text": "soit",
+    "start": 8.46,
+    "end": 8.76,
+    "id": "w23"
+  },
+  {
+    "text": "40%",
+    "start": 8.76,
+    "end": 9.31,
+    "id": "w24"
+  },
+  {
+    "text": "de",
+    "start": 9.31,
+    "end": 9.44,
+    "id": "w25"
+  },
+  {
+    "text": "moins.",
+    "start": 9.47,
+    "end": 10.18,
+    "id": "w26"
+  },
+  {
+    "text": "Pourtant,",
+    "start": 10.7,
+    "end": 10.75,
+    "id": "w27"
+  },
+  {
+    "text": "selon",
+    "start": 11,
+    "end": 11.04,
+    "id": "w28"
+  },
+  {
+    "text": "une",
+    "start": 11.04,
+    "end": 11.21,
+    "id": "w29"
+  },
+  {
+    "text": "mission",
+    "start": 11.21,
+    "end": 11.61,
+    "id": "w30"
+  },
+  {
+    "text": "parlementaire",
+    "start": 11.61,
+    "end": 12.32,
+    "id": "w31"
+  },
+  {
+    "text": "de",
+    "start": 12.39,
+    "end": 12.47,
+    "id": "w32"
+  },
+  {
+    "text": "2022,",
+    "start": 12.47,
+    "end": 13.34,
+    "id": "w33"
+  },
+  {
+    "text": "le",
+    "start": 13.34,
+    "end": 13.78,
+    "id": "w34"
+  },
+  {
+    "text": "privé",
+    "start": 13.78,
+    "end": 13.8,
+    "id": "w35"
+  },
+  {
+    "text": "commercial",
+    "start": 14.08,
+    "end": 14.48,
+    "id": "w36"
+  },
+  {
+    "text": "emploie",
+    "start": 14.48,
+    "end": 14.94,
+    "id": "w37"
+  },
+  {
+    "text": "près",
+    "start": 14.94,
+    "end": 15.21,
+    "id": "w38"
+  },
+  {
+    "text": "de",
+    "start": 15.21,
+    "end": 15.34,
+    "id": "w39"
+  },
+  {
+    "text": "40%",
+    "start": 15.34,
+    "end": 15.8,
+    "id": "w40"
+  },
+  {
+    "text": "de",
+    "start": 15.8,
+    "end": 16.07,
+    "id": "w41"
+  },
+  {
+    "text": "personnel",
+    "start": 16.07,
+    "end": 16.55,
+    "id": "w42"
+  },
+  {
+    "text": "en",
+    "start": 16.55,
+    "end": 16.68,
+    "id": "w43"
+  },
+  {
+    "text": "moins",
+    "start": 16.68,
+    "end": 17.02,
+    "id": "w44"
+  },
+  {
+    "text": "par",
+    "start": 17.02,
+    "end": 17.2,
+    "id": "w45"
+  },
+  {
+    "text": "résident.",
+    "start": 17.25,
+    "end": 18.08,
+    "id": "w46"
+  },
+  {
+    "text": "Alors,",
+    "start": 18.54,
+    "end": 18.76,
+    "id": "w47"
+  },
+  {
+    "text": "où",
+    "start": 18.84,
+    "end": 18.95,
+    "id": "w48"
+  },
+  {
+    "text": "passe",
+    "start": 18.95,
+    "end": 19.44,
+    "id": "w49"
+  },
+  {
+    "text": "la",
+    "start": 19.44,
+    "end": 19.63,
+    "id": "w50"
+  },
+  {
+    "text": "différence?",
+    "start": 19.63,
+    "end": 20.94,
+    "id": "w51"
+  },
+  {
+    "text": "La",
+    "start": 20.94,
+    "end": 21.04,
+    "id": "w52"
+  },
+  {
+    "text": "facture",
+    "start": 21.24,
+    "end": 21.39,
+    "id": "w53"
+  },
+  {
+    "text": "se",
+    "start": 21.39,
+    "end": 21.49,
+    "id": "w54"
+  },
+  {
+    "text": "découpe",
+    "start": 21.49,
+    "end": 21.84,
+    "id": "w55"
+  },
+  {
+    "text": "en",
+    "start": 21.84,
+    "end": 21.94,
+    "id": "w56"
+  },
+  {
+    "text": "trois.",
+    "start": 21.94,
+    "end": 22.37,
+    "id": "w57"
+  },
+  {
+    "text": "L'hébergement,",
+    "start": 22.96,
+    "end": 23.51,
+    "id": "w58"
+  },
+  {
+    "text": "la",
+    "start": 23.51,
+    "end": 23.66,
+    "id": "w59"
+  },
+  {
+    "text": "dépendance",
+    "start": 23.66,
+    "end": 24.39,
+    "id": "w60"
+  },
+  {
+    "text": "et",
+    "start": 24.44,
+    "end": 24.58,
+    "id": "w61"
+  },
+  {
+    "text": "les",
+    "start": 24.69,
+    "end": 24.82,
+    "id": "w62"
+  },
+  {
+    "text": "soins.",
+    "start": 24.82,
+    "end": 25.54,
+    "id": "w63"
+  },
+  {
+    "text": "Les",
+    "start": 25.54,
+    "end": 26,
+    "id": "w64"
+  },
+  {
+    "text": "soins",
+    "start": 26,
+    "end": 26.05,
+    "id": "w65"
+  },
+  {
+    "text": "sont",
+    "start": 26.05,
+    "end": 26.3,
+    "id": "w66"
+  },
+  {
+    "text": "payés",
+    "start": 26.3,
+    "end": 26.61,
+    "id": "w67"
+  },
+  {
+    "text": "par",
+    "start": 26.61,
+    "end": 26.8,
+    "id": "w68"
+  },
+  {
+    "text": "l'assurance",
+    "start": 26.8,
+    "end": 27.43,
+    "id": "w69"
+  },
+  {
+    "text": "maladie.",
+    "start": 27.49,
+    "end": 28.02,
+    "id": "w70"
+  },
+  {
+    "text": "L'hébergement,",
+    "start": 28.2,
+    "end": 29.02,
+    "id": "w71"
+  },
+  {
+    "text": "lui,",
+    "start": 29.02,
+    "end": 29.3,
+    "id": "w72"
+  },
+  {
+    "text": "pèse",
+    "start": 29.3,
+    "end": 29.52,
+    "id": "w73"
+  },
+  {
+    "text": "surtout",
+    "start": 29.52,
+    "end": 29.89,
+    "id": "w74"
+  },
+  {
+    "text": "sur",
+    "start": 29.93,
+    "end": 30.09,
+    "id": "w75"
+  },
+  {
+    "text": "la",
+    "start": 30.09,
+    "end": 30.2,
+    "id": "w76"
+  },
+  {
+    "text": "famille.",
+    "start": 30.2,
+    "end": 30.84,
+    "id": "w77"
+  },
+  {
+    "text": "Mais",
+    "start": 30.84,
+    "end": 31.24,
+    "id": "w78"
+  },
+  {
+    "text": "derrière",
+    "start": 31.24,
+    "end": 31.64,
+    "id": "w79"
+  },
+  {
+    "text": "les",
+    "start": 31.64,
+    "end": 31.81,
+    "id": "w80"
+  },
+  {
+    "text": "murs,",
+    "start": 31.82,
+    "end": 32.19,
+    "id": "w81"
+  },
+  {
+    "text": "il",
+    "start": 32.19,
+    "end": 32.32,
+    "id": "w82"
+  },
+  {
+    "text": "y",
+    "start": 32.32,
+    "end": 32.38,
+    "id": "w83"
+  },
+  {
+    "text": "a",
+    "start": 32.38,
+    "end": 32.44,
+    "id": "w84"
+  },
+  {
+    "text": "souvent",
+    "start": 32.44,
+    "end": 32.9,
+    "id": "w85"
+  },
+  {
+    "text": "un",
+    "start": 32.9,
+    "end": 33.02,
+    "id": "w86"
+  },
+  {
+    "text": "second",
+    "start": 33.03,
+    "end": 33.36,
+    "id": "w87"
+  },
+  {
+    "text": "acteur,",
+    "start": 33.61,
+    "end": 34,
+    "id": "w88"
+  },
+  {
+    "text": "le",
+    "start": 34,
+    "end": 34.11,
+    "id": "w89"
+  },
+  {
+    "text": "propriétaire",
+    "start": 34.11,
+    "end": 34.76,
+    "id": "w90"
+  },
+  {
+    "text": "du",
+    "start": 34.81,
+    "end": 34.91,
+    "id": "w91"
+  },
+  {
+    "text": "bâtiment.",
+    "start": 34.91,
+    "end": 35.58,
+    "id": "w92"
+  },
+  {
+    "text": "Quand",
+    "start": 35.58,
+    "end": 35.84,
+    "id": "w93"
+  },
+  {
+    "text": "un",
+    "start": 35.84,
+    "end": 36.1,
+    "id": "w94"
+  },
+  {
+    "text": "groupe",
+    "start": 36.1,
+    "end": 36.36,
+    "id": "w95"
+  },
+  {
+    "text": "revend",
+    "start": 36.36,
+    "end": 36.67,
+    "id": "w96"
+  },
+  {
+    "text": "ses",
+    "start": 36.67,
+    "end": 36.84,
+    "id": "w97"
+  },
+  {
+    "text": "établissements",
+    "start": 36.84,
+    "end": 37.65,
+    "id": "w98"
+  },
+  {
+    "text": "à",
+    "start": 37.65,
+    "end": 37.68,
+    "id": "w99"
+  },
+  {
+    "text": "des",
+    "start": 37.79,
+    "end": 37.87,
+    "id": "w100"
+  },
+  {
+    "text": "investisseurs,",
+    "start": 37.87,
+    "end": 38.84,
+    "id": "w101"
+  },
+  {
+    "text": "le",
+    "start": 38.84,
+    "end": 39.06,
+    "id": "w102"
+  },
+  {
+    "text": "loyer",
+    "start": 39.06,
+    "end": 39.25,
+    "id": "w103"
+  },
+  {
+    "text": "peut",
+    "start": 39.36,
+    "end": 39.49,
+    "id": "w104"
+  },
+  {
+    "text": "grimper,",
+    "start": 39.49,
+    "end": 40.01,
+    "id": "w105"
+  },
+  {
+    "text": "et",
+    "start": 40.01,
+    "end": 40.13,
+    "id": "w106"
+  },
+  {
+    "text": "avec",
+    "start": 40.13,
+    "end": 40.37,
+    "id": "w107"
+  },
+  {
+    "text": "lui,",
+    "start": 40.37,
+    "end": 40.66,
+    "id": "w108"
+  },
+  {
+    "text": "le",
+    "start": 40.66,
+    "end": 40.76,
+    "id": "w109"
+  },
+  {
+    "text": "prix",
+    "start": 40.79,
+    "end": 41.02,
+    "id": "w110"
+  },
+  {
+    "text": "de",
+    "start": 41.02,
+    "end": 41.08,
+    "id": "w111"
+  },
+  {
+    "text": "la",
+    "start": 41.08,
+    "end": 41.35,
+    "id": "w112"
+  },
+  {
+    "text": "journée.",
+    "start": 41.35,
+    "end": 41.9,
+    "id": "w113"
+  },
+  {
+    "text": "Le",
+    "start": 41.9,
+    "end": 42.29,
+    "id": "w114"
+  },
+  {
+    "text": "marché",
+    "start": 42.29,
+    "end": 42.68,
+    "id": "w115"
+  },
+  {
+    "text": "se",
+    "start": 42.68,
+    "end": 42.72,
+    "id": "w116"
+  },
+  {
+    "text": "concentre.",
+    "start": 42.72,
+    "end": 43.74,
+    "id": "w117"
+  },
+  {
+    "text": "Cinq",
+    "start": 43.74,
+    "end": 44.2,
+    "id": "w118"
+  },
+  {
+    "text": "groupes",
+    "start": 44.2,
+    "end": 44.43,
+    "id": "w119"
+  },
+  {
+    "text": "se",
+    "start": 44.5,
+    "end": 44.55,
+    "id": "w120"
+  },
+  {
+    "text": "partagent",
+    "start": 44.55,
+    "end": 45.11,
+    "id": "w121"
+  },
+  {
+    "text": "désormais",
+    "start": 45.11,
+    "end": 45.63,
+    "id": "w122"
+  },
+  {
+    "text": "la",
+    "start": 45.68,
+    "end": 45.8,
+    "id": "w123"
+  },
+  {
+    "text": "moitié",
+    "start": 45.8,
+    "end": 46.17,
+    "id": "w124"
+  },
+  {
+    "text": "de",
+    "start": 46.17,
+    "end": 46.22,
+    "id": "w125"
+  },
+  {
+    "text": "l'offre",
+    "start": 46.35,
+    "end": 46.72,
+    "id": "w126"
+  },
+  {
+    "text": "commerciale,",
+    "start": 46.72,
+    "end": 47.67,
+    "id": "w127"
+  },
+  {
+    "text": "contre",
+    "start": 47.69,
+    "end": 48,
+    "id": "w128"
+  },
+  {
+    "text": "dix",
+    "start": 48,
+    "end": 48.06,
+    "id": "w129"
+  },
+  {
+    "text": "en",
+    "start": 48.14,
+    "end": 48.25,
+    "id": "w130"
+  },
+  {
+    "text": "2011.",
+    "start": 48.25,
+    "end": 49.08,
+    "id": "w131"
+  },
+  {
+    "text": "Devant",
+    "start": 49.08,
+    "end": 49.465,
+    "id": "w132"
+  },
+  {
+    "text": "les",
+    "start": 49.465,
+    "end": 49.85,
+    "id": "w133"
+  },
+  {
+    "text": "députés,",
+    "start": 49.85,
+    "end": 50.34,
+    "id": "w134"
+  },
+  {
+    "text": "le",
+    "start": 50.34,
+    "end": 50.48,
+    "id": "w135"
+  },
+  {
+    "text": "dirigeant",
+    "start": 50.48,
+    "end": 51.11,
+    "id": "w136"
+  },
+  {
+    "text": "d'Orpea",
+    "start": 51.11,
+    "end": 51.6,
+    "id": "w137"
+  },
+  {
+    "text": "évoquait",
+    "start": 51.6,
+    "end": 52.13,
+    "id": "w138"
+  },
+  {
+    "text": "en",
+    "start": 52.21,
+    "end": 52.3,
+    "id": "w139"
+  },
+  {
+    "text": "2022",
+    "start": 52.3,
+    "end": 53.24,
+    "id": "w140"
+  },
+  {
+    "text": "une",
+    "start": 53.24,
+    "end": 53.53,
+    "id": "w141"
+  },
+  {
+    "text": "rentabilité",
+    "start": 53.53,
+    "end": 54.6,
+    "id": "w142"
+  },
+  {
+    "text": "de",
+    "start": 54.6,
+    "end": 54.65,
+    "id": "w143"
+  },
+  {
+    "text": "5",
+    "start": 54.65,
+    "end": 55.12,
+    "id": "w144"
+  },
+  {
+    "text": "à",
+    "start": 55.12,
+    "end": 55.17,
+    "id": "w145"
+  },
+  {
+    "text": "7%",
+    "start": 55.17,
+    "end": 55.55,
+    "id": "w146"
+  },
+  {
+    "text": "par",
+    "start": 55.55,
+    "end": 55.69,
+    "id": "w147"
+  },
+  {
+    "text": "an.",
+    "start": 56,
+    "end": 56.4,
+    "id": "w148"
+  },
+  {
+    "text": "Côté",
+    "start": 56.56,
+    "end": 56.64,
+    "id": "w149"
+  },
+  {
+    "text": "public,",
+    "start": 56.86,
+    "end": 57.12,
+    "id": "w150"
+  },
+  {
+    "text": "c'est",
+    "start": 57.12,
+    "end": 57.42,
+    "id": "w151"
+  },
+  {
+    "text": "l'inverse.",
+    "start": 57.43,
+    "end": 58.18,
+    "id": "w152"
+  },
+  {
+    "text": "En",
+    "start": 58.18,
+    "end": 58.5,
+    "id": "w153"
+  },
+  {
+    "text": "2022,",
+    "start": 58.5,
+    "end": 59.52,
+    "id": "w154"
+  },
+  {
+    "text": "60%",
+    "start": 59.52,
+    "end": 60.1,
+    "id": "w155"
+  },
+  {
+    "text": "des",
+    "start": 60.1,
+    "end": 60.22,
+    "id": "w156"
+  },
+  {
+    "text": "établissements",
+    "start": 60.49,
+    "end": 61.51,
+    "id": "w157"
+  },
+  {
+    "text": "publics",
+    "start": 61.51,
+    "end": 62.06,
+    "id": "w158"
+  },
+  {
+    "text": "et",
+    "start": 62.11,
+    "end": 62.25,
+    "id": "w159"
+  },
+  {
+    "text": "non",
+    "start": 62.25,
+    "end": 62.5,
+    "id": "w160"
+  },
+  {
+    "text": "lucratifs",
+    "start": 62.5,
+    "end": 63.12,
+    "id": "w161"
+  },
+  {
+    "text": "étaient",
+    "start": 63.6,
+    "end": 63.68,
+    "id": "w162"
+  },
+  {
+    "text": "en",
+    "start": 63.68,
+    "end": 63.79,
+    "id": "w163"
+  },
+  {
+    "text": "déficit,",
+    "start": 63.79,
+    "end": 64.17,
+    "id": "w164"
+  },
+  {
+    "text": "selon",
+    "start": 64.48,
+    "end": 64.63,
+    "id": "w165"
+  },
+  {
+    "text": "la",
+    "start": 64.7,
+    "end": 64.8,
+    "id": "w166"
+  },
+  {
+    "text": "CNSA.",
+    "start": 64.81,
+    "end": 65.34,
+    "id": "w167"
+  },
+  {
+    "text": "Tout",
+    "start": 65.34,
+    "end": 65.78,
+    "id": "w168"
+  },
+  {
+    "text": "porte",
+    "start": 65.78,
+    "end": 65.9,
+    "id": "w169"
+  },
+  {
+    "text": "à",
+    "start": 65.9,
+    "end": 66.08,
+    "id": "w170"
+  },
+  {
+    "text": "croire",
+    "start": 66.08,
+    "end": 66.33,
+    "id": "w171"
+  },
+  {
+    "text": "que",
+    "start": 66.33,
+    "end": 66.52,
+    "id": "w172"
+  },
+  {
+    "text": "dans",
+    "start": 66.52,
+    "end": 66.77,
+    "id": "w173"
+  },
+  {
+    "text": "les",
+    "start": 66.77,
+    "end": 66.95,
+    "id": "w174"
+  },
+  {
+    "text": "deux",
+    "start": 66.96,
+    "end": 67.21,
+    "id": "w175"
+  },
+  {
+    "text": "cas,",
+    "start": 67.21,
+    "end": 67.56,
+    "id": "w176"
+  },
+  {
+    "text": "le",
+    "start": 67.56,
+    "end": 67.69,
+    "id": "w177"
+  },
+  {
+    "text": "personnel",
+    "start": 67.69,
+    "end": 68.3,
+    "id": "w178"
+  },
+  {
+    "text": "reste",
+    "start": 68.3,
+    "end": 68.64,
+    "id": "w179"
+  },
+  {
+    "text": "le",
+    "start": 68.64,
+    "end": 68.72,
+    "id": "w180"
+  },
+  {
+    "text": "levier",
+    "start": 68.78,
+    "end": 69.17,
+    "id": "w181"
+  },
+  {
+    "text": "le",
+    "start": 69.17,
+    "end": 69.3,
+    "id": "w182"
+  },
+  {
+    "text": "plus",
+    "start": 69.3,
+    "end": 69.57,
+    "id": "w183"
+  },
+  {
+    "text": "facile",
+    "start": 69.57,
+    "end": 69.85,
+    "id": "w184"
+  },
+  {
+    "text": "à",
+    "start": 70,
+    "end": 70.04,
+    "id": "w185"
+  },
+  {
+    "text": "ajuster.",
+    "start": 70.04,
+    "end": 70.69,
+    "id": "w186"
+  },
+  {
+    "text": "Une",
+    "start": 70.69,
+    "end": 71.24,
+    "id": "w187"
+  },
+  {
+    "text": "maison",
+    "start": 71.24,
+    "end": 71.3,
+    "id": "w188"
+  },
+  {
+    "text": "de",
+    "start": 71.3,
+    "end": 71.54,
+    "id": "w189"
+  },
+  {
+    "text": "retraite",
+    "start": 71.54,
+    "end": 71.87,
+    "id": "w190"
+  },
+  {
+    "text": "ne",
+    "start": 71.87,
+    "end": 71.98,
+    "id": "w191"
+  },
+  {
+    "text": "vend",
+    "start": 71.98,
+    "end": 72.21,
+    "id": "w192"
+  },
+  {
+    "text": "donc",
+    "start": 72.21,
+    "end": 72.41,
+    "id": "w193"
+  },
+  {
+    "text": "pas",
+    "start": 72.44,
+    "end": 72.61,
+    "id": "w194"
+  },
+  {
+    "text": "seulement",
+    "start": 72.61,
+    "end": 73.13,
+    "id": "w195"
+  },
+  {
+    "text": "un",
+    "start": 73.13,
+    "end": 73.24,
+    "id": "w196"
+  },
+  {
+    "text": "lit.",
+    "start": 73.24,
+    "end": 73.65,
+    "id": "w197"
+  },
+  {
+    "text": "Elle",
+    "start": 73.65,
+    "end": 74.16,
+    "id": "w198"
+  },
+  {
+    "text": "vend",
+    "start": 74.16,
+    "end": 74.28,
+    "id": "w199"
+  },
+  {
+    "text": "du",
+    "start": 74.28,
+    "end": 74.46,
+    "id": "w200"
+  },
+  {
+    "text": "temps",
+    "start": 74.46,
+    "end": 74.82,
+    "id": "w201"
+  },
+  {
+    "text": "de",
+    "start": 74.82,
+    "end": 74.97,
+    "id": "w202"
+  },
+  {
+    "text": "présence.",
+    "start": 74.97,
+    "end": 75.86,
+    "id": "w203"
+  },
+  {
+    "text": "Et",
+    "start": 75.86,
+    "end": 76.14,
+    "id": "w204"
+  },
+  {
+    "text": "c'est",
+    "start": 76.14,
+    "end": 76.22,
+    "id": "w205"
+  },
+  {
+    "text": "ce",
+    "start": 76.22,
+    "end": 76.44,
+    "id": "w206"
+  },
+  {
+    "text": "temps",
+    "start": 76.44,
+    "end": 76.59,
+    "id": "w207"
+  },
+  {
+    "text": "que",
+    "start": 76.59,
+    "end": 76.75,
+    "id": "w208"
+  },
+  {
+    "text": "le",
+    "start": 76.75,
+    "end": 76.85,
+    "id": "w209"
+  },
+  {
+    "text": "bilan",
+    "start": 76.85,
+    "end": 77.11,
+    "id": "w210"
+  },
+  {
+    "text": "compte.",
+    "start": 77.11,
+    "end": 77.64,
+    "id": "w211"
+  },
+  {
+    "text": "Selon",
+    "start": 77.64,
+    "end": 78.26,
+    "id": "w212"
+  },
+  {
+    "text": "vous,",
+    "start": 78.26,
+    "end": 78.39,
+    "id": "w213"
+  },
+  {
+    "text": "le",
+    "start": 78.39,
+    "end": 78.56,
+    "id": "w214"
+  },
+  {
+    "text": "prix",
+    "start": 78.56,
+    "end": 78.79,
+    "id": "w215"
+  },
+  {
+    "text": "d'une",
+    "start": 78.79,
+    "end": 79.11,
+    "id": "w216"
+  },
+  {
+    "text": "maison",
+    "start": 79.11,
+    "end": 79.52,
+    "id": "w217"
+  },
+  {
+    "text": "de",
+    "start": 79.52,
+    "end": 79.65,
+    "id": "w218"
+  },
+  {
+    "text": "retraite",
+    "start": 79.65,
+    "end": 80.19,
+    "id": "w219"
+  },
+  {
+    "text": "est-il",
+    "start": 80.19,
+    "end": 80.58,
+    "id": "w220"
+  },
+  {
+    "text": "justifié?",
+    "start": 80.58,
+    "end": 81.46,
+    "id": "w221"
+  },
+  {
+    "text": "Dites-le",
+    "start": 81.46,
+    "end": 81.71,
+    "id": "w222"
+  },
+  {
+    "text": "en",
+    "start": 81.76,
+    "end": 81.78,
+    "id": "w223"
+  },
+  {
+    "text": "commentaire.",
+    "start": 81.78,
+    "end": 82.3,
+    "id": "w224"
+  },
+  {
+    "text": "Et",
+    "start": 82.3,
+    "end": 82.74,
+    "id": "w225"
+  },
+  {
+    "text": "abonnez-vous",
+    "start": 82.74,
+    "end": 83.08,
+    "id": "w226"
+  },
+  {
+    "text": "à",
+    "start": 83.08,
+    "end": 83.13,
+    "id": "w227"
+  },
+  {
+    "text": "Decrypt",
+    "start": 83.13,
+    "end": 83.52,
+    "id": "w228"
+  },
+  {
+    "text": "Business",
+    "start": 83.52,
+    "end": 83.99,
+    "id": "w229"
+  },
+  {
+    "text": "pour",
+    "start": 83.99,
+    "end": 84.17,
+    "id": "w230"
+  },
+  {
+    "text": "comprendre",
+    "start": 84.22,
+    "end": 84.76,
+    "id": "w231"
+  },
+  {
+    "text": "l'économie",
+    "start": 84.86,
+    "end": 85.36,
+    "id": "w232"
+  },
+  {
+    "text": "en",
+    "start": 85.36,
+    "end": 85.47,
+    "id": "w233"
+  },
+  {
+    "text": "quelques",
+    "start": 85.47,
+    "end": 85.94,
+    "id": "w234"
+  },
+  {
+    "text": "minutes.",
+    "start": 85.94,
+    "end": 86.6,
+    "id": "w235"
+  }
+]
