@@ -1,0 +1,1358 @@
+[
+  {
+    "text": "En",
+    "start": 0.01,
+    "end": 0.16,
+    "id": "w0"
+  },
+  {
+    "text": "2025,",
+    "start": 0.3,
+    "end": 1.32,
+    "id": "w1"
+  },
+  {
+    "text": "les",
+    "start": 1.32,
+    "end": 1.57,
+    "id": "w2"
+  },
+  {
+    "text": "Français",
+    "start": 1.57,
+    "end": 2.23,
+    "id": "w3"
+  },
+  {
+    "text": "ont",
+    "start": 2.23,
+    "end": 2.47,
+    "id": "w4"
+  },
+  {
+    "text": "dépensé",
+    "start": 2.55,
+    "end": 3.06,
+    "id": "w5"
+  },
+  {
+    "text": "près",
+    "start": 3.06,
+    "end": 3.39,
+    "id": "w6"
+  },
+  {
+    "text": "de",
+    "start": 3.39,
+    "end": 3.55,
+    "id": "w7"
+  },
+  {
+    "text": "196",
+    "start": 3.55,
+    "end": 4.24,
+    "id": "w8"
+  },
+  {
+    "text": "milliards",
+    "start": 4.36,
+    "end": 5.05,
+    "id": "w9"
+  },
+  {
+    "text": "d'euros",
+    "start": 5.05,
+    "end": 5.5,
+    "id": "w10"
+  },
+  {
+    "text": "en",
+    "start": 5.65,
+    "end": 5.78,
+    "id": "w11"
+  },
+  {
+    "text": "ligne,",
+    "start": 5.78,
+    "end": 6.43,
+    "id": "w12"
+  },
+  {
+    "text": "produits",
+    "start": 6.44,
+    "end": 7.16,
+    "id": "w13"
+  },
+  {
+    "text": "et",
+    "start": 7.16,
+    "end": 7.23,
+    "id": "w14"
+  },
+  {
+    "text": "services",
+    "start": 7.39,
+    "end": 7.68,
+    "id": "w15"
+  },
+  {
+    "text": "confondus.",
+    "start": 7.68,
+    "end": 8.29,
+    "id": "w16"
+  },
+  {
+    "text": "Sur",
+    "start": 8.29,
+    "end": 8.558,
+    "id": "w17"
+  },
+  {
+    "text": "plus",
+    "start": 8.558,
+    "end": 8.825,
+    "id": "w18"
+  },
+  {
+    "text": "de",
+    "start": 8.825,
+    "end": 9.093,
+    "id": "w19"
+  },
+  {
+    "text": "3",
+    "start": 9.093,
+    "end": 9.36,
+    "id": "w20"
+  },
+  {
+    "text": "milliards",
+    "start": 9.36,
+    "end": 9.95,
+    "id": "w21"
+  },
+  {
+    "text": "de",
+    "start": 9.95,
+    "end": 10.1,
+    "id": "w22"
+  },
+  {
+    "text": "commandes,",
+    "start": 10.1,
+    "end": 10.94,
+    "id": "w23"
+  },
+  {
+    "text": "le",
+    "start": 10.94,
+    "end": 11,
+    "id": "w24"
+  },
+  {
+    "text": "panier",
+    "start": 11.11,
+    "end": 11.53,
+    "id": "w25"
+  },
+  {
+    "text": "moyen",
+    "start": 11.61,
+    "end": 11.93,
+    "id": "w26"
+  },
+  {
+    "text": "n'est",
+    "start": 11.93,
+    "end": 12.3,
+    "id": "w27"
+  },
+  {
+    "text": "que",
+    "start": 12.3,
+    "end": 12.53,
+    "id": "w28"
+  },
+  {
+    "text": "de",
+    "start": 12.53,
+    "end": 12.67,
+    "id": "w29"
+  },
+  {
+    "text": "62",
+    "start": 12.73,
+    "end": 13.1,
+    "id": "w30"
+  },
+  {
+    "text": "euros.",
+    "start": 13.21,
+    "end": 13.86,
+    "id": "w31"
+  },
+  {
+    "text": "Un",
+    "start": 13.86,
+    "end": 14.165,
+    "id": "w32"
+  },
+  {
+    "text": "panier",
+    "start": 14.165,
+    "end": 14.47,
+    "id": "w33"
+  },
+  {
+    "text": "si",
+    "start": 14.47,
+    "end": 14.56,
+    "id": "w34"
+  },
+  {
+    "text": "petit",
+    "start": 14.75,
+    "end": 14.91,
+    "id": "w35"
+  },
+  {
+    "text": "laisse",
+    "start": 14.91,
+    "end": 15.33,
+    "id": "w36"
+  },
+  {
+    "text": "peu",
+    "start": 15.33,
+    "end": 15.54,
+    "id": "w37"
+  },
+  {
+    "text": "de",
+    "start": 15.54,
+    "end": 15.68,
+    "id": "w38"
+  },
+  {
+    "text": "place",
+    "start": 15.68,
+    "end": 16.03,
+    "id": "w39"
+  },
+  {
+    "text": "pour",
+    "start": 16.03,
+    "end": 16.31,
+    "id": "w40"
+  },
+  {
+    "text": "payer",
+    "start": 16.31,
+    "end": 16.66,
+    "id": "w41"
+  },
+  {
+    "text": "le",
+    "start": 16.66,
+    "end": 16.78,
+    "id": "w42"
+  },
+  {
+    "text": "site,",
+    "start": 16.81,
+    "end": 17.22,
+    "id": "w43"
+  },
+  {
+    "text": "le",
+    "start": 17.22,
+    "end": 17.36,
+    "id": "w44"
+  },
+  {
+    "text": "colis",
+    "start": 17.36,
+    "end": 17.7,
+    "id": "w45"
+  },
+  {
+    "text": "et",
+    "start": 17.8,
+    "end": 17.85,
+    "id": "w46"
+  },
+  {
+    "text": "la",
+    "start": 17.85,
+    "end": 17.99,
+    "id": "w47"
+  },
+  {
+    "text": "publicité.",
+    "start": 17.99,
+    "end": 18.9,
+    "id": "w48"
+  },
+  {
+    "text": "D'après",
+    "start": 18.9,
+    "end": 19.57,
+    "id": "w49"
+  },
+  {
+    "text": "plusieurs",
+    "start": 19.57,
+    "end": 20.24,
+    "id": "w50"
+  },
+  {
+    "text": "benchmarks,",
+    "start": 20.24,
+    "end": 21.21,
+    "id": "w51"
+  },
+  {
+    "text": "seuls",
+    "start": 21.21,
+    "end": 21.52,
+    "id": "w52"
+  },
+  {
+    "text": "1,5",
+    "start": 21.65,
+    "end": 22.27,
+    "id": "w53"
+  },
+  {
+    "text": "à",
+    "start": 22.29,
+    "end": 22.36,
+    "id": "w54"
+  },
+  {
+    "text": "3%",
+    "start": 22.36,
+    "end": 22.69,
+    "id": "w55"
+  },
+  {
+    "text": "des",
+    "start": 22.69,
+    "end": 22.94,
+    "id": "w56"
+  },
+  {
+    "text": "visiteurs",
+    "start": 22.94,
+    "end": 23.67,
+    "id": "w57"
+  },
+  {
+    "text": "achètent.",
+    "start": 23.69,
+    "end": 24.54,
+    "id": "w58"
+  },
+  {
+    "text": "Pour",
+    "start": 24.54,
+    "end": 24.91,
+    "id": "w59"
+  },
+  {
+    "text": "faire",
+    "start": 24.91,
+    "end": 25.28,
+    "id": "w60"
+  },
+  {
+    "text": "venir",
+    "start": 25.28,
+    "end": 25.51,
+    "id": "w61"
+  },
+  {
+    "text": "les",
+    "start": 25.57,
+    "end": 25.74,
+    "id": "w62"
+  },
+  {
+    "text": "autres,",
+    "start": 25.74,
+    "end": 26.2,
+    "id": "w63"
+  },
+  {
+    "text": "il",
+    "start": 26.23,
+    "end": 26.35,
+    "id": "w64"
+  },
+  {
+    "text": "faut",
+    "start": 26.35,
+    "end": 26.56,
+    "id": "w65"
+  },
+  {
+    "text": "acheter",
+    "start": 26.69,
+    "end": 27.04,
+    "id": "w66"
+  },
+  {
+    "text": "de",
+    "start": 27.04,
+    "end": 27.16,
+    "id": "w67"
+  },
+  {
+    "text": "la",
+    "start": 27.16,
+    "end": 27.28,
+    "id": "w68"
+  },
+  {
+    "text": "publicité,",
+    "start": 27.28,
+    "end": 27.93,
+    "id": "w69"
+  },
+  {
+    "text": "souvent",
+    "start": 27.95,
+    "end": 28.39,
+    "id": "w70"
+  },
+  {
+    "text": "chez",
+    "start": 28.39,
+    "end": 28.59,
+    "id": "w71"
+  },
+  {
+    "text": "Google",
+    "start": 28.65,
+    "end": 29.01,
+    "id": "w72"
+  },
+  {
+    "text": "et",
+    "start": 29.01,
+    "end": 29.02,
+    "id": "w73"
+  },
+  {
+    "text": "Meta.",
+    "start": 29.13,
+    "end": 29.58,
+    "id": "w74"
+  },
+  {
+    "text": "Selon",
+    "start": 29.58,
+    "end": 30.165,
+    "id": "w75"
+  },
+  {
+    "text": "un",
+    "start": 30.165,
+    "end": 30.75,
+    "id": "w76"
+  },
+  {
+    "text": "consultant",
+    "start": 30.75,
+    "end": 30.76,
+    "id": "w77"
+  },
+  {
+    "text": "cité",
+    "start": 30.76,
+    "end": 30.96,
+    "id": "w78"
+  },
+  {
+    "text": "par",
+    "start": 31.05,
+    "end": 31.2,
+    "id": "w79"
+  },
+  {
+    "text": "LSA,",
+    "start": 31.2,
+    "end": 31.5,
+    "id": "w80"
+  },
+  {
+    "text": "les",
+    "start": 31.5,
+    "end": 31.68,
+    "id": "w81"
+  },
+  {
+    "text": "coûts",
+    "start": 31.68,
+    "end": 32,
+    "id": "w82"
+  },
+  {
+    "text": "d'acquisition",
+    "start": 32,
+    "end": 32.79,
+    "id": "w83"
+  },
+  {
+    "text": "auraient",
+    "start": 32.81,
+    "end": 33.31,
+    "id": "w84"
+  },
+  {
+    "text": "été",
+    "start": 33.31,
+    "end": 33.48,
+    "id": "w85"
+  },
+  {
+    "text": "multipliés",
+    "start": 33.51,
+    "end": 34.07,
+    "id": "w86"
+  },
+  {
+    "text": "par",
+    "start": 34.15,
+    "end": 34.31,
+    "id": "w87"
+  },
+  {
+    "text": "6",
+    "start": 34.33,
+    "end": 34.5,
+    "id": "w88"
+  },
+  {
+    "text": "depuis",
+    "start": 34.61,
+    "end": 34.89,
+    "id": "w89"
+  },
+  {
+    "text": "2010.",
+    "start": 34.89,
+    "end": 35.96,
+    "id": "w90"
+  },
+  {
+    "text": "Chez",
+    "start": 35.96,
+    "end": 36.8,
+    "id": "w91"
+  },
+  {
+    "text": "Kabaya,",
+    "start": 36.8,
+    "end": 36.82,
+    "id": "w92"
+  },
+  {
+    "text": "marque",
+    "start": 37.09,
+    "end": 37.21,
+    "id": "w93"
+  },
+  {
+    "text": "de",
+    "start": 37.21,
+    "end": 37.31,
+    "id": "w94"
+  },
+  {
+    "text": "sac,",
+    "start": 37.4,
+    "end": 37.67,
+    "id": "w95"
+  },
+  {
+    "text": "Facebook",
+    "start": 37.67,
+    "end": 38.19,
+    "id": "w96"
+  },
+  {
+    "text": "et",
+    "start": 38.19,
+    "end": 38.32,
+    "id": "w97"
+  },
+  {
+    "text": "Instagram",
+    "start": 38.36,
+    "end": 38.92,
+    "id": "w98"
+  },
+  {
+    "text": "absorbaient",
+    "start": 38.92,
+    "end": 39.56,
+    "id": "w99"
+  },
+  {
+    "text": "70%",
+    "start": 39.63,
+    "end": 40.04,
+    "id": "w100"
+  },
+  {
+    "text": "du",
+    "start": 40.14,
+    "end": 40.22,
+    "id": "w101"
+  },
+  {
+    "text": "budget",
+    "start": 40.22,
+    "end": 40.51,
+    "id": "w102"
+  },
+  {
+    "text": "d'acquisition",
+    "start": 40.65,
+    "end": 41.41,
+    "id": "w103"
+  },
+  {
+    "text": "jusqu'en",
+    "start": 41.55,
+    "end": 41.97,
+    "id": "w104"
+  },
+  {
+    "text": "2020.",
+    "start": 41.97,
+    "end": 43.1,
+    "id": "w105"
+  },
+  {
+    "text": "En",
+    "start": 43.1,
+    "end": 43.67,
+    "id": "w106"
+  },
+  {
+    "text": "France,",
+    "start": 43.67,
+    "end": 44.24,
+    "id": "w107"
+  },
+  {
+    "text": "environ",
+    "start": 44.24,
+    "end": 44.81,
+    "id": "w108"
+  },
+  {
+    "text": "24%",
+    "start": 44.81,
+    "end": 44.93,
+    "id": "w109"
+  },
+  {
+    "text": "des",
+    "start": 44.93,
+    "end": 45.16,
+    "id": "w110"
+  },
+  {
+    "text": "achats",
+    "start": 45.16,
+    "end": 45.62,
+    "id": "w111"
+  },
+  {
+    "text": "en",
+    "start": 45.62,
+    "end": 45.74,
+    "id": "w112"
+  },
+  {
+    "text": "ligne",
+    "start": 45.77,
+    "end": 46.1,
+    "id": "w113"
+  },
+  {
+    "text": "seraient",
+    "start": 46.23,
+    "end": 46.77,
+    "id": "w114"
+  },
+  {
+    "text": "retournés,",
+    "start": 46.77,
+    "end": 47.6,
+    "id": "w115"
+  },
+  {
+    "text": "selon",
+    "start": 47.6,
+    "end": 47.98,
+    "id": "w116"
+  },
+  {
+    "text": "la",
+    "start": 47.98,
+    "end": 48.13,
+    "id": "w117"
+  },
+  {
+    "text": "FEVAD.",
+    "start": 48.13,
+    "end": 48.76,
+    "id": "w118"
+  },
+  {
+    "text": "Chaque",
+    "start": 48.76,
+    "end": 49.46,
+    "id": "w119"
+  },
+  {
+    "text": "retour,",
+    "start": 49.46,
+    "end": 49.74,
+    "id": "w120"
+  },
+  {
+    "text": "c'est",
+    "start": 49.74,
+    "end": 50.05,
+    "id": "w121"
+  },
+  {
+    "text": "un",
+    "start": 50.05,
+    "end": 50.17,
+    "id": "w122"
+  },
+  {
+    "text": "colis",
+    "start": 50.17,
+    "end": 50.48,
+    "id": "w123"
+  },
+  {
+    "text": "payé",
+    "start": 50.48,
+    "end": 50.73,
+    "id": "w124"
+  },
+  {
+    "text": "deux",
+    "start": 50.73,
+    "end": 50.96,
+    "id": "w125"
+  },
+  {
+    "text": "fois",
+    "start": 51,
+    "end": 51.23,
+    "id": "w126"
+  },
+  {
+    "text": "et",
+    "start": 51.23,
+    "end": 51.35,
+    "id": "w127"
+  },
+  {
+    "text": "un",
+    "start": 51.35,
+    "end": 51.38,
+    "id": "w128"
+  },
+  {
+    "text": "produit",
+    "start": 51.49,
+    "end": 51.92,
+    "id": "w129"
+  },
+  {
+    "text": "à",
+    "start": 51.92,
+    "end": 51.99,
+    "id": "w130"
+  },
+  {
+    "text": "remettre",
+    "start": 51.99,
+    "end": 52.46,
+    "id": "w131"
+  },
+  {
+    "text": "en",
+    "start": 52.49,
+    "end": 52.56,
+    "id": "w132"
+  },
+  {
+    "text": "rayon.",
+    "start": 52.66,
+    "end": 53.05,
+    "id": "w133"
+  },
+  {
+    "text": "Alors",
+    "start": 53.05,
+    "end": 53.95,
+    "id": "w134"
+  },
+  {
+    "text": "certains",
+    "start": 53.95,
+    "end": 54.03,
+    "id": "w135"
+  },
+  {
+    "text": "vendeurs",
+    "start": 54.03,
+    "end": 54.51,
+    "id": "w136"
+  },
+  {
+    "text": "choisissent",
+    "start": 54.51,
+    "end": 55.17,
+    "id": "w137"
+  },
+  {
+    "text": "une",
+    "start": 55.22,
+    "end": 55.24,
+    "id": "w138"
+  },
+  {
+    "text": "marketplace,",
+    "start": 55.37,
+    "end": 56.14,
+    "id": "w139"
+  },
+  {
+    "text": "qui",
+    "start": 56.21,
+    "end": 56.33,
+    "id": "w140"
+  },
+  {
+    "text": "pèse",
+    "start": 56.33,
+    "end": 56.57,
+    "id": "w141"
+  },
+  {
+    "text": "environ",
+    "start": 56.57,
+    "end": 56.9,
+    "id": "w142"
+  },
+  {
+    "text": "32%",
+    "start": 57,
+    "end": 57.43,
+    "id": "w143"
+  },
+  {
+    "text": "des",
+    "start": 57.43,
+    "end": 57.61,
+    "id": "w144"
+  },
+  {
+    "text": "ventes",
+    "start": 57.61,
+    "end": 57.9,
+    "id": "w145"
+  },
+  {
+    "text": "de",
+    "start": 58.02,
+    "end": 58.09,
+    "id": "w146"
+  },
+  {
+    "text": "produits",
+    "start": 58.09,
+    "end": 58.58,
+    "id": "w147"
+  },
+  {
+    "text": "en",
+    "start": 58.58,
+    "end": 58.7,
+    "id": "w148"
+  },
+  {
+    "text": "ligne.",
+    "start": 58.7,
+    "end": 59.16,
+    "id": "w149"
+  },
+  {
+    "text": "En",
+    "start": 60.01,
+    "end": 60.09,
+    "id": "w150"
+  },
+  {
+    "text": "échange,",
+    "start": 60.09,
+    "end": 60.49,
+    "id": "w151"
+  },
+  {
+    "text": "elles",
+    "start": 60.49,
+    "end": 60.72,
+    "id": "w152"
+  },
+  {
+    "text": "prélèvent",
+    "start": 60.72,
+    "end": 61.12,
+    "id": "w153"
+  },
+  {
+    "text": "une",
+    "start": 61.12,
+    "end": 61.22,
+    "id": "w154"
+  },
+  {
+    "text": "commission,",
+    "start": 61.25,
+    "end": 61.8,
+    "id": "w155"
+  },
+  {
+    "text": "qui",
+    "start": 61.8,
+    "end": 61.93,
+    "id": "w156"
+  },
+  {
+    "text": "varie",
+    "start": 61.93,
+    "end": 62.15,
+    "id": "w157"
+  },
+  {
+    "text": "selon",
+    "start": 62.15,
+    "end": 62.38,
+    "id": "w158"
+  },
+  {
+    "text": "la",
+    "start": 62.38,
+    "end": 62.47,
+    "id": "w159"
+  },
+  {
+    "text": "catégorie.",
+    "start": 62.47,
+    "end": 63.1,
+    "id": "w160"
+  },
+  {
+    "text": "Tout",
+    "start": 63.1,
+    "end": 63.367,
+    "id": "w161"
+  },
+  {
+    "text": "porte",
+    "start": 63.367,
+    "end": 63.633,
+    "id": "w162"
+  },
+  {
+    "text": "à",
+    "start": 63.633,
+    "end": 63.9,
+    "id": "w163"
+  },
+  {
+    "text": "croire",
+    "start": 63.9,
+    "end": 64.06,
+    "id": "w164"
+  },
+  {
+    "text": "que",
+    "start": 64.19,
+    "end": 64.24,
+    "id": "w165"
+  },
+  {
+    "text": "c'est",
+    "start": 64.24,
+    "end": 64.54,
+    "id": "w166"
+  },
+  {
+    "text": "elle",
+    "start": 64.54,
+    "end": 64.78,
+    "id": "w167"
+  },
+  {
+    "text": "et",
+    "start": 64.78,
+    "end": 64.9,
+    "id": "w168"
+  },
+  {
+    "text": "non",
+    "start": 64.9,
+    "end": 65.03,
+    "id": "w169"
+  },
+  {
+    "text": "le",
+    "start": 65.08,
+    "end": 65.2,
+    "id": "w170"
+  },
+  {
+    "text": "vendeur",
+    "start": 65.2,
+    "end": 65.62,
+    "id": "w171"
+  },
+  {
+    "text": "qui",
+    "start": 65.62,
+    "end": 65.8,
+    "id": "w172"
+  },
+  {
+    "text": "garde",
+    "start": 65.8,
+    "end": 66.1,
+    "id": "w173"
+  },
+  {
+    "text": "la",
+    "start": 66.1,
+    "end": 66.22,
+    "id": "w174"
+  },
+  {
+    "text": "relation",
+    "start": 66.22,
+    "end": 66.66,
+    "id": "w175"
+  },
+  {
+    "text": "avec",
+    "start": 66.74,
+    "end": 66.92,
+    "id": "w176"
+  },
+  {
+    "text": "l'acheteur.",
+    "start": 66.95,
+    "end": 67.62,
+    "id": "w177"
+  },
+  {
+    "text": "Un",
+    "start": 67.62,
+    "end": 68.008,
+    "id": "w178"
+  },
+  {
+    "text": "site",
+    "start": 68.008,
+    "end": 68.395,
+    "id": "w179"
+  },
+  {
+    "text": "e-commerce",
+    "start": 68.395,
+    "end": 68.783,
+    "id": "w180"
+  },
+  {
+    "text": "ne",
+    "start": 68.783,
+    "end": 69.17,
+    "id": "w181"
+  },
+  {
+    "text": "vend",
+    "start": 69.17,
+    "end": 69.32,
+    "id": "w182"
+  },
+  {
+    "text": "donc",
+    "start": 69.45,
+    "end": 69.61,
+    "id": "w183"
+  },
+  {
+    "text": "pas",
+    "start": 69.61,
+    "end": 69.83,
+    "id": "w184"
+  },
+  {
+    "text": "seulement",
+    "start": 69.83,
+    "end": 70.49,
+    "id": "w185"
+  },
+  {
+    "text": "des",
+    "start": 70.49,
+    "end": 70.68,
+    "id": "w186"
+  },
+  {
+    "text": "produits.",
+    "start": 70.72,
+    "end": 71.56,
+    "id": "w187"
+  },
+  {
+    "text": "Il",
+    "start": 71.56,
+    "end": 71.835,
+    "id": "w188"
+  },
+  {
+    "text": "achète",
+    "start": 71.835,
+    "end": 72.11,
+    "id": "w189"
+  },
+  {
+    "text": "des",
+    "start": 72.11,
+    "end": 72.24,
+    "id": "w190"
+  },
+  {
+    "text": "clients,",
+    "start": 72.39,
+    "end": 72.81,
+    "id": "w191"
+  },
+  {
+    "text": "puis",
+    "start": 72.81,
+    "end": 73.04,
+    "id": "w192"
+  },
+  {
+    "text": "doit",
+    "start": 73.08,
+    "end": 73.3,
+    "id": "w193"
+  },
+  {
+    "text": "les",
+    "start": 73.3,
+    "end": 73.5,
+    "id": "w194"
+  },
+  {
+    "text": "faire",
+    "start": 73.5,
+    "end": 73.67,
+    "id": "w195"
+  },
+  {
+    "text": "revenir.",
+    "start": 73.81,
+    "end": 74.48,
+    "id": "w196"
+  },
+  {
+    "text": "Selon",
+    "start": 74.48,
+    "end": 75.105,
+    "id": "w197"
+  },
+  {
+    "text": "vous,",
+    "start": 75.105,
+    "end": 75.73,
+    "id": "w198"
+  },
+  {
+    "text": "quel",
+    "start": 75.73,
+    "end": 75.86,
+    "id": "w199"
+  },
+  {
+    "text": "est",
+    "start": 76.01,
+    "end": 76.14,
+    "id": "w200"
+  },
+  {
+    "text": "le",
+    "start": 76.14,
+    "end": 76.22,
+    "id": "w201"
+  },
+  {
+    "text": "plus",
+    "start": 76.31,
+    "end": 76.66,
+    "id": "w202"
+  },
+  {
+    "text": "gros",
+    "start": 76.69,
+    "end": 77.06,
+    "id": "w203"
+  },
+  {
+    "text": "frein?",
+    "start": 77.06,
+    "end": 77.88,
+    "id": "w204"
+  },
+  {
+    "text": "La",
+    "start": 77.89,
+    "end": 78.04,
+    "id": "w205"
+  },
+  {
+    "text": "publicité,",
+    "start": 78.18,
+    "end": 78.93,
+    "id": "w206"
+  },
+  {
+    "text": "les",
+    "start": 78.93,
+    "end": 79.17,
+    "id": "w207"
+  },
+  {
+    "text": "retours",
+    "start": 79.17,
+    "end": 79.73,
+    "id": "w208"
+  },
+  {
+    "text": "ou",
+    "start": 79.73,
+    "end": 79.82,
+    "id": "w209"
+  },
+  {
+    "text": "la",
+    "start": 79.93,
+    "end": 80.05,
+    "id": "w210"
+  },
+  {
+    "text": "livraison?",
+    "start": 80.05,
+    "end": 81,
+    "id": "w211"
+  },
+  {
+    "text": "Dites-le",
+    "start": 81.11,
+    "end": 81.35,
+    "id": "w212"
+  },
+  {
+    "text": "en",
+    "start": 81.39,
+    "end": 81.41,
+    "id": "w213"
+  },
+  {
+    "text": "commentaire.",
+    "start": 81.41,
+    "end": 81.9,
+    "id": "w214"
+  },
+  {
+    "text": "Et",
+    "start": 81.9,
+    "end": 82.36,
+    "id": "w215"
+  },
+  {
+    "text": "abonnez-vous",
+    "start": 82.36,
+    "end": 82.68,
+    "id": "w216"
+  },
+  {
+    "text": "à",
+    "start": 82.68,
+    "end": 82.73,
+    "id": "w217"
+  },
+  {
+    "text": "Décrypte",
+    "start": 82.73,
+    "end": 83.16,
+    "id": "w218"
+  },
+  {
+    "text": "Business",
+    "start": 83.16,
+    "end": 83.62,
+    "id": "w219"
+  },
+  {
+    "text": "pour",
+    "start": 83.62,
+    "end": 83.79,
+    "id": "w220"
+  },
+  {
+    "text": "comprendre",
+    "start": 83.87,
+    "end": 84.42,
+    "id": "w221"
+  },
+  {
+    "text": "l'économie",
+    "start": 84.42,
+    "end": 84.96,
+    "id": "w222"
+  },
+  {
+    "text": "en",
+    "start": 84.96,
+    "end": 85.07,
+    "id": "w223"
+  },
+  {
+    "text": "quelques",
+    "start": 85.07,
+    "end": 85.48,
+    "id": "w224"
+  },
+  {
+    "text": "minutes.",
+    "start": 85.58,
+    "end": 86.21,
+    "id": "w225"
+  }
+]
