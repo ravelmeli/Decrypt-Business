@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Decrypt Business - Economie d'un parc d'attractions</title>
+    <script src="assets/gsap.min.js"></script>
+    <script src="assets/beats.js"></script>
+    <script src="assets/words.js"></script>
+    <script type="importmap">{ "imports": { "three": "./assets/three/three.module.js", "three/addons/": "./assets/three/addons/" } }</script>
+    <style>
+      @font-face { font-family: "DecryptInter"; src: url("assets/fonts/Inter-Black.otf"); font-weight: 900; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0e0910; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "DecryptInter", Inter, sans-serif; font-weight: 900; color: #fff;
+        background: linear-gradient(180deg, #0e0910 0%, #241520 45%, #3a2030 100%); }
+      #gl, #fxg { position: absolute; inset: 0; width: 1080px; height: 1920px; display: block; }
+      #fxg { mix-blend-mode: screen; filter: blur(22px) brightness(1.25) contrast(1.5); opacity: .34; }
+      #vig { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 46%, rgba(0,0,0,0) 52%, rgba(6,2,6,.55) 100%); pointer-events: none; }
+      #leads, #notes, #panels, #stamps, #kws { position: absolute; inset: 0; pointer-events: none; }
+      .lead { position: absolute; left: 0; top: 0; height: 0; border-top: 4px dashed #e2b857; transform-origin: 0 50%; opacity: 0; }
+      .lead.red { border-color: #ff5a5f; } .lead.blue { border-color: #4f8cff; } .lead.green { border-color: #35d07f; } .lead.white { border-color: #f1e6d6; }
+      .note { position: absolute; left: 0; top: 0; padding: 8px 20px 10px; border-radius: 999px; font-size: 28px; letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; opacity: 0; box-shadow: 0 8px 0 rgba(0,0,0,.28); }
+      .note.gold { background: #e2b857; color: #1c1420; } .note.red { background: #d0304a; color: #fff; } .note.blue { background: #7aa7c7; color: #0e0910; }
+      .note.green { background: #7fb89a; color: #0e0910; } .note.white { background: #f1e6d6; color: #1c1420; }
+      .kw { position: absolute; left: 0; right: 0; top: 140px; text-align: center; font-size: 132px; line-height: 1; letter-spacing: -.02em; text-transform: uppercase; opacity: 0; white-space: nowrap; text-shadow: 0 10px 0 rgba(0,0,0,.32); -webkit-text-stroke: 11px #0e0910; paint-order: stroke fill; }
+      .kw.gold { color: #e2b857; } .kw.red { color: #d0304a; } .kw.green { color: #7fb89a; } .kw.blue { color: #7aa7c7; } .kw.white { color: #fff; }
+      .stamp { position: absolute; left: 0; top: 0; padding: 6px 22px; border: 5px solid; border-radius: 14px; font-size: 34px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; opacity: 0; background: rgba(20,12,18,.92); }
+      .stamp.red { color: #d0304a; border-color: #d0304a; } .stamp.blue { color: #7aa7c7; border-color: #7aa7c7; } .stamp.gold { color: #e2b857; border-color: #e2b857; }
+      .panel { position: absolute; left: 70px; right: 70px; border-radius: 40px; padding: 38px 40px 34px; background: rgba(28,16,26,.9); border: 3px solid rgba(255,201,60,.45); box-shadow: 0 24px 60px rgba(0,0,0,.45); opacity: 0; }
+      .panel h4 { font-size: 40px; letter-spacing: .06em; text-transform: uppercase; color: #e2b857; margin-bottom: 26px; } .panel h4 em { font-style: normal; color: #c8a8b8; font-size: 30px; }
+      .sub { margin-top: 22px; font-size: 32px; color: #c8b6c0; letter-spacing: .02em; text-transform: uppercase; }
+      .row { display: flex; align-items: center; gap: 18px; margin: 22px 0; } .lab { width: 290px; font-size: 32px; letter-spacing: .03em; color: #f6eee6; } .val { width: 120px; font-size: 42px; text-align: right; }
+      .bar, .seg { display: block; height: 58px; border-radius: 14px; width: 0; } .row .bar { flex: 1 1 0; max-width: 520px; }
+      .bar.gold, .seg.gold { background: #e2b857; } .bar.blue, .seg.blue { background: #7aa7c7; } .bar.red, .seg.red { background: #d0304a; } .bar.green, .seg.green { background: #7fb89a; }
+      .panel .bar.gold, .panel .seg.gold { color: #1c1420; }
+      .stack { display: flex; width: 100%; height: 110px; border-radius: 20px; overflow: hidden; } .seg { height: 110px; border-radius: 0; display: flex; align-items: center; justify-content: center; } .seg b { font-size: 36px; white-space: nowrap; }
+      .seg.gold b { color: #1c1420; } .seg.blue b { color: #fff; }
+      .trio { display: flex; justify-content: space-between; gap: 18px; } .orb { flex: 1; text-align: center; border-radius: 28px; padding: 26px 10px 22px; transform: scale(0); } .orb b { display: block; font-size: 84px; line-height: 1; } .orb span { display: block; margin-top: 12px; font-size: 26px; text-transform: uppercase; letter-spacing: .03em; line-height: 1.2; }
+      .orb.gold { background: #e2b857; color: #1c1420; } .orb.blue { background: #7aa7c7; color: #0e0910; } .orb.green { background: #7fb89a; color: #0e0910; }
+      .months { display: flex; gap: 8px; align-items: flex-end; height: 190px; } .mo { flex: 1; background: #7aa7c7; border-radius: 10px 10px 0 0; height: 90px; display: flex; align-items: flex-end; justify-content: center; opacity: 0; transform-origin: bottom; } .mo.hot { background: #e2b857; height: 190px; } .mo b { font-size: 26px; color: #0e0910; padding-bottom: 6px; }
+      .big85 { margin-top: 26px; font-size: 38px; color: #f6eee6; text-transform: uppercase; letter-spacing: .03em; } .big85 b { color: #e2b857; font-size: 60px; }
+      .duo { display: flex; gap: 22px; } .arrow { flex: 1; border-radius: 28px; padding: 26px 14px; text-align: center; transform: scale(0); } .arrow b { display: block; font-size: 120px; line-height: 1; } .arrow span { display: block; font-size: 28px; text-transform: uppercase; letter-spacing: .03em; margin-top: 6px; line-height: 1.2; }
+      .arrow.red { background: #d0304a; color: #fff; } .arrow.green { background: #7fb89a; color: #0e0910; }
+      #cap { position: absolute; left: 40px; right: 40px; top: 1420px; text-align: center; font-size: 66px; line-height: 1.25; text-transform: uppercase; letter-spacing: .01em; opacity: 0; text-shadow: 0 5px 0 rgba(0,0,0,.4), 0 0 14px rgba(0,0,0,.5); }
+      #cap span { display: inline-block; padding: 0 12px; margin: 0 2px; border-radius: 14px; } #cap .next { opacity: .45; } #cap .past { opacity: 1; } #cap .on { background: #e2b857; color: #1c1420; transform: rotate(-2.5deg) scale(1.05); text-shadow: none; opacity: 1; }
+      #prog { position: absolute; left: 60px; right: 60px; bottom: 150px; height: 5px; background: rgba(255,255,255,.18); border-radius: 3px; } #prog i { display: block; height: 100%; width: 0; background: #e2b857; border-radius: 3px; }
+      #brandend { position: absolute; left: 0; right: 0; top: 330px; text-align: center; opacity: 0; } #brandend b { display: block; font-size: 120px; letter-spacing: .04em; color: #e2b857; text-shadow: 0 10px 0 rgba(0,0,0,.35); } #brandend span { display: block; margin-top: 14px; font-size: 40px; letter-spacing: .4em; color: #f6eee6; }
+      #flash { position: absolute; inset: 0; background: #0e0910; opacity: 0; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="70.69" data-width="1080" data-height="1920" data-fps="30">
+      <canvas id="gl" width="1080" height="1920"></canvas><canvas id="fxg" width="270" height="480"></canvas>
+      <div id="vig"></div><div id="leads"></div><div id="panels"></div><div id="notes"></div><div id="stamps"></div><div id="kws"></div>
+      <div id="cap"></div><div id="prog"><i></i></div>
+      <div id="brandend"><b>DECRYPT BUSINESS</b><span>L'ÉCONOMIE EXPLIQUÉE</span></div>
+      <div id="flash"></div>
+      <audio id="vo" src="assets/mix.wav" data-start="0" data-duration="70.69" data-track-index="1"></audio>
+    </div>
+    <script>window.__timelines["main"] = gsap.timeline({ paused: true });</script>
+    <script type="module">
+      import * as THREE from "three";
+      import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
+      const B = window.BEATS, T = B.times;
+      const W = 1080, H = 1920;
+      const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+      const prog = (t, a, d) => clamp((t - a) / d);
+      const eOutBack = (x) => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+      const eOut = (x) => 1 - Math.pow(1 - x, 3);
+      const eInOut = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
+      const bounce = (x) => { const n = 7.5625, d = 2.75; if (x < 1 / d) return n * x * x; if (x < 2 / d) return n * (x -= 1.5 / d) * x + 0.75; if (x < 2.5 / d) return n * (x -= 2.25 / d) * x + 0.9375; return n * (x -= 2.625 / d) * x + 0.984375; };
+      const lerp = (a, b, k) => a + (b - a) * k;
+      const rng = (seed) => () => { seed |= 0; seed = (seed + 0x6d2b79f5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+      const hex2 = (h) => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+      const V = (x, y, z) => new THREE.Vector3(x, y, z);
+      const P = { gold: "#e2b857", red: "#c0213a", blue: "#7aa7c7", green: "#7fb89a", cream: "#f1e6d6", navy: "#1c1420", white: "#ffffff", gray: "#a79aa6", dark: "#0e0910", orange: "#d98a4e", brown: "#8a5a44", sky: "#d6e4f0", violet: "#7d4a7a", pink: "#e8a6b8" };
+
+      /* ---------- renderer, camera, lights ---------- */
+      const glCanvas = document.getElementById("gl");
+      const renderer = new THREE.WebGLRenderer({ canvas: glCanvas, antialias: true, alpha: true });
+      renderer.setPixelRatio(1.5); renderer.setSize(W, H, false); renderer.setClearColor(0x000000, 0);
+      renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+      const fxgCtx = document.getElementById("fxg").getContext("2d");
+      const scene = new THREE.Scene(); scene.fog = new THREE.Fog(0x1a0f18, 70, 190);
+      const cam = new THREE.PerspectiveCamera(46, W / H, 0.1, 500);
+      const hemi = new THREE.HemisphereLight(0xf0e0e8, 0x2a1822, 1.0); scene.add(hemi);
+      const sun = new THREE.DirectionalLight(0xffe2b0, 2.2); sun.position.set(-22, 36, 20); sun.castShadow = true; sun.shadow.mapSize.set(4096, 4096);
+      Object.assign(sun.shadow.camera, { left: -48, right: 48, top: 48, bottom: -48, near: 1, far: 140 }); sun.shadow.bias = -0.0005; sun.shadow.normalBias = 0.03; sun.shadow.radius = 3; scene.add(sun); scene.add(sun.target);
+      const rim = new THREE.DirectionalLight(0xe2b857, 0.7); rim.position.set(26, 14, -30); scene.add(rim);
+
+      const matCache = {};
+      const M = (hex, o = {}) => { const k = hex + JSON.stringify(o); return (matCache[k] = matCache[k] || new THREE.MeshStandardMaterial(Object.assign({ color: hex, roughness: 0.85, metalness: 0, flatShading: true }, o))); };
+      const geoCache = {};
+      function rb(w, h, d, hex, r = 0.05, mat) {
+        r = Math.min(r, w / 2 - 0.001, h / 2 - 0.001, d / 2 - 0.001); const k = [w, h, d, r].join("|");
+        if (!geoCache[k]) { const g = new RoundedBoxGeometry(w, h, d, 2, r); g.translate(0, h / 2, 0); geoCache[k] = g; }
+        const m = new THREE.Mesh(geoCache[k], mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m;
+      }
+      const put = (p, o, x = 0, y = 0, z = 0) => { o.position.set(x, y, z); p.add(o); return o; };
+      const grp = (p, x = 0, y = 0, z = 0) => { const g = new THREE.Group(); g.position.set(x, y, z); (p || scene).add(g); return g; };
+      const cyl = (rt, rb_, h, hex, seg = 10, mat) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(rt, rb_, h, seg), mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m; };
+      const sph = (r, hex, seg = 10, mat) => { const m = new THREE.Mesh(new THREE.SphereGeometry(r, seg, Math.max(6, seg - 2)), mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m; };
+      const emis = (hex, k = 1.4) => new THREE.MeshStandardMaterial({ color: hex, emissive: hex, emissiveIntensity: k, roughness: 0.5 });
+
+      const popS = (t, t0, d = 0.5) => eOutBack(prog(t, t0, d));
+      function show(o, t, t0, t1 = null, d = 0.5) { const s = popS(t, t0, d) * (t1 == null ? 1 : 1 - eOut(prog(t, t1, 0.3))); o.visible = s > 0.002; o.scale.setScalar(Math.max(s, 0.0001)); return s; }
+      function grow(o, t, t0, t1 = null, d = 0.5) { const s = popS(t, t0, d) * (t1 == null ? 1 : 1 - eOut(prog(t, t1, 0.3))); o.visible = s > 0.002; o.scale.set(1, Math.max(s, 0.0001), 1); return s; }
+      const U = []; const upd = (f) => U.push(f);
+      const ANCH = {};
+
+      /* ---------- DOM overlay engine ---------- */
+      const $ = (id) => document.getElementById(id);
+      const mkEl = (cls, html, parent) => { const d = document.createElement("div"); d.className = cls; if (html != null) d.innerHTML = html; parent.appendChild(d); return d; };
+      const pvw = new THREE.Vector3();
+      function toScreen(v) { pvw.copy(v).project(cam); return [(pvw.x * 0.5 + 0.5) * W, (-pvw.y * 0.5 + 0.5) * H, pvw.z]; }
+      const anchorXY = (a) => { if (a.startsWith("screen:")) { const [x, y] = a.slice(7).split(",").map(Number); return [x, y, 0, true]; } const o = ANCH[a]; const v = typeof o === "function" ? o() : o; const [x, y, z] = toScreen(v); return [x, y, z, false]; };
+      const noteEls = B.notes.map((n) => ({ n, el: mkEl("note " + n.kind, n.text, $("notes")), lead: mkEl("lead " + n.kind, "", $("leads")) }));
+      const kwEls = B.kws.map((k) => { const el = mkEl("kw " + k.color, k.text, $("kws")); el.style.fontSize = Math.min(132, Math.floor(780 / (k.text.length * 0.7))) + "px"; return { k, el }; });
+      const stampEls = B.stamps.map((s) => ({ s, el: mkEl("stamp " + s.kind, s.text, $("stamps")) }));
+      const PANELS = {
+        p2: `<h4>Un souvenir vendu 100</h4><div class="row"><span class="lab">PRIX DE VENTE</span><i class="bar gold" data-w="100"></i><span class="val">100</span></div><div class="row"><span class="lab">COÛT</span><i class="bar red" data-w="18"></i><span class="val">≈ 18</span></div><p class="sub">forte marge sur chaque article</p>`,
+        p4: `<h4>La règle 10 / 20 / 60</h4><div class="trio"><div class="orb gold" data-i="0"><b>10 %</b><span>du chiffre d'affaires investi par an</span></div><div class="orb blue" data-i="1"><b>20 %</b><span>de l'offre renouvelée</span></div><div class="orb green" data-i="2"><b>60 %</b><span>de visiteurs qui reviennent</span></div></div>`,
+        p5: `<h4>L'année d'un parc</h4><div class="months">${"JFMAMJJASOND".split("").map((m, i) => `<i class="mo ${i >= 5 && i <= 8 ? "hot" : ""}" data-i="${i}"><b>${m}</b></i>`).join("")}</div><div class="big85"><b>85 %</b> de l'activité en <b>3,5 mois</b></div>`,
+        p6: `<h4>Dépense par visiteur</h4><div class="duo"><div class="arrow red" data-i="0"><b>↓</b><span>FRÉQUENTATION<br>inégale</span></div><div class="arrow green" data-i="1"><b>↑</b><span>DÉPENSE<br>par visiteur</span></div></div><p class="sub">la dépense peut compenser</p>`,
+        p7: `<h4>Hors saison</h4><div class="row"><span class="lab">COÛTS FIXES</span><i class="bar red" data-w="100"></i><span class="val">100 %</span></div><div class="row"><span class="lab">RECETTES</span><i class="bar green" data-w="28"></i><span class="val">↓</span></div><p class="sub">les manèges coûtent quand même</p>`,
+      };
+      const panelEls = B.panels.map((p) => { const el = mkEl("panel", PANELS[p.id], $("panels")); el.style.top = p.y + "px"; return { p, el, items: [...el.querySelectorAll("[data-w],[data-i]")] }; });
+      const capEl = $("cap"), progEl = $("prog").firstElementChild, flashEl = $("flash"), brandEl = $("brandend"), rootEl = $("root"), vigEl = $("vig");
+      const capGroups = []; { let cur = [], len = 0; const Ws = window.WORDS;
+        Ws.forEach((w, i) => { cur.push(w); len += w[0].length + 1; const end = /[.,?!:]$/.test(w[0]); if (cur.length >= 4 || (cur.length >= 3 && len > 22) || (end && cur.length >= 2) || i === Ws.length - 1) { capGroups.push(cur); cur = []; len = 0; } });
+        if (cur.length) capGroups.push(cur); }
+      let capIdx = -2;
+      /* =====================================================================
+         WORLD : « atelier de couture » (aubergine noir, or, crème, rouge carmin). One continuous journey, one hero subject per idea.
+         ===================================================================== */
+      const rn = rng(41);
+      const HW = B.heroes, TT = B.times;
+      const PL = {}; B.order.forEach((n, i) => { PL[n] = grp(scene, 0, 0, -B.spacing * i); });
+      function heroVis(name, t) { let s = 0; for (const [a, b] of HW[name] || []) { const i = eInOut(prog(t, a - 1.4, 0.8)), o = eInOut(prog(t, b + 0.5, 0.8)); s = Math.max(s, i * (1 - o)); } return s; }
+      function showHero(name, obj, t) { const s = heroVis(name, t); obj.visible = s > 0.01; obj.scale.setScalar(0.5 + 0.5 * s); return s; }
+      const wrapAnch = (names, place) => names.forEach((n) => { const f = ANCH[n]; ANCH[n] = () => place.localToWorld(f()); });
+      const pop = (t, t0, d = 0.45) => Math.max(0.001, eOutBack(prog(t, t0, d)));
+
+      /* floor, path, golden bokeh, far silhouettes of Paris rooftops */
+      const floor = new THREE.Mesh(new THREE.PlaneGeometry(260, B.spacing * (B.order.length + 3)), new THREE.MeshStandardMaterial({ color: "#150d14", roughness: 1 })); floor.rotation.x = -Math.PI / 2; floor.position.set(0, -0.02, -B.spacing * (B.order.length - 1) / 2); floor.receiveShadow = true; scene.add(floor);
+      const backdrop = grp(scene); const sil = M("#241520", { roughness: 1 }); const bok = [];
+      for (let i = 0; i < 40; i++) { const a = rn() * 6.283, r = 40 + rn() * 22; const c = [P.gold, P.pink, P.cream][i % 3]; const m = sph(0.28 + rn() * 0.26, c, 6, emis(c, 1.0)); m.position.set(Math.cos(a) * r, 3 + rn() * 16, -30 - Math.abs(Math.sin(a)) * r); m.castShadow = false; backdrop.add(m); bok.push(m); }
+      for (let i = 0; i < 10; i++) { const w = 9 + rn() * 7, h = 7 + rn() * 6; const b = rb(w, h, 8, "#241520", 0.2, sil); b.position.set(-66 + i * 14 + rn() * 4, 0, -140 - rn() * 14); backdrop.add(b); const rf = new THREE.Mesh(new THREE.ConeGeometry(w * 0.7, 3.6, 4), sil); rf.rotation.y = Math.PI / 4; rf.position.set(b.position.x, h + 1.6, b.position.z); backdrop.add(rf); for (let k = 0; k < 3; k++) { const wn = rb(1.2, 1.8, 0.2, P.gold, 0.05, emis(P.gold, rn() > 0.5 ? 0.5 : 0.1)); wn.castShadow = false; wn.position.set(b.position.x + (rn() - 0.5) * (w - 3), 1.5 + rn() * (h - 3), b.position.z + 4.1); backdrop.add(wn); } }
+      const pathDots = []; for (let i = 0; i < 100; i++) { const m = sph(0.15, P.gold, 6, emis(P.gold, 0.9)); m.position.set((i % 2 ? 1 : -1) * 15.5, 0.2, -i * 6); m.castShadow = false; scene.add(m); pathDots.push(m); }
+      const rings = B.order.map((n) => { const g = grp(PL[n]); const d = new THREE.Mesh(new THREE.CircleGeometry(15, 56), new THREE.MeshStandardMaterial({ color: "#2a1a26", roughness: 0.95 })); d.rotation.x = -Math.PI / 2; d.position.y = 0.01; d.receiveShadow = true; g.add(d);
+        const r = new THREE.Mesh(new THREE.TorusGeometry(15, 0.14, 6, 72), emis(P.gold, 0.9)); r.rotation.x = Math.PI / 2; r.position.y = 0.06; g.add(r); return r; });
+      upd((t) => { bok.forEach((m, i) => { m.material.emissiveIntensity = 0.6 + 0.5 * Math.sin(t * 1.6 + i); }); pathDots.forEach((m, i) => { m.material.emissiveIntensity = 0.5 + 0.5 * Math.sin(t * 2.4 - i * 0.5); }); rings.forEach((r) => { r.rotation.z = t * 0.15; }); backdrop.position.set(camA.x * 0.9, 0, camA.z); });
+
+      /* ---- builders ---- */
+      function person(p, hex, opt = {}) { const g = grp(p); const b = new THREE.Mesh(new THREE.CapsuleGeometry(0.3, 0.7, 4, 8), M(hex)); b.position.y = 1.0; b.castShadow = true; g.add(b); const h = sph(0.28, "#ffe2cc", 10); h.position.y = 1.78; g.add(h);
+        const arm = (sx) => { const q = grp(g, sx * 0.4, 1.45, 0); put(q, rb(0.14, 0.55, 0.14, hex, 0.05), 0, -0.55, 0); return q; }; const leg = (sx) => put(g, rb(0.17, 0.65, 0.17, P.navy, 0.05), sx * 0.15, 0, 0);
+        const o = { g, armL: arm(-1), armR: arm(1), legL: leg(-1), legR: leg(1) }; if (opt.scale) g.scale.setScalar(opt.scale); return o; }
+      const coinM = (r = 0.5) => cyl(r, r, 0.14, P.gold, 14);
+      function dressForm(p, s = 1, hex = P.red) { const g = grp(p); g.scale.setScalar(s); put(g, cyl(1.5, 1.7, 0.3, P.brown, 20), 0, 0, 0); put(g, cyl(0.12, 0.12, 2.4, P.gold, 8), 0, 0.2, 0);
+        const sk = new THREE.Mesh(new THREE.ConeGeometry(2.6, 4.2, 28), M(hex)); sk.position.y = 2.6; sk.castShadow = true; g.add(sk); const to = new THREE.Mesh(new THREE.CapsuleGeometry(0.7, 1.4, 4, 12), M(hex)); to.position.y = 5.4; to.castShadow = true; g.add(to); put(g, cyl(0.2, 0.3, 0.6, P.cream, 8), 0, 6.5, 0); const nk = sph(0.5, P.cream, 10); nk.position.y = 7.1; g.add(nk);
+        const sp = []; for (let i = 0; i < 70; i++) { const a = (i * 2.399) % 6.283, hgt = 0.5 + ((i * 0.618) % 1) * 3.4, r = 2.6 * (1 - hgt / 4.2) + 0.1; const d = sph(0.13, P.gold, 5, emis(P.gold, 1.3)); d.castShadow = false; d.position.set(Math.sin(a) * r, 0.7 + hgt, Math.cos(a) * r); g.add(d); sp.push(d); } return { g, sp }; }
+      function clockObj(p, s = 1) { const g = grp(p); g.scale.setScalar(s); const rim = cyl(2.6, 2.6, 0.5, P.gold, 32); rim.rotation.x = Math.PI / 2; g.add(rim); const face = cyl(2.3, 2.3, 0.3, P.cream, 32); face.rotation.x = Math.PI / 2; face.position.z = 0.3; g.add(face);
+        for (let i = 0; i < 12; i++) { const a = i / 12 * 6.283; const tk = rb(0.12, i % 3 ? 0.3 : 0.5, 0.12, P.navy, 0.03); tk.position.set(Math.sin(a) * 1.9, Math.cos(a) * 1.9 - 0.2, 0.5); tk.rotation.z = -a; g.add(tk); }
+        const h1 = grp(g, 0, 0, 0.55), h2 = grp(g, 0, 0, 0.62); put(h1, rb(0.18, 1.4, 0.1, P.navy, 0.04), 0, 0, 0); put(h2, rb(0.12, 1.9, 0.1, P.red, 0.03), 0, 0, 0); return { g, h1, h2 }; }
+      function stateBuilding(p, s = 1) { const g = grp(p); g.scale.setScalar(s); put(g, rb(9, 0.6, 5, P.cream, 0.1), 0, 0, 0); put(g, rb(8, 0.4, 4, P.cream, 0.08), 0, 0.6, 0);
+        for (let i = 0; i < 5; i++) put(g, cyl(0.45, 0.45, 4.2, P.white, 10), -3.2 + i * 1.6, 1.0, 1.2).position.y = 3.1; put(g, rb(8.4, 0.7, 3.6, P.cream, 0.08), 0, 5.2, 0.6);
+        const roof = new THREE.Mesh(new THREE.ConeGeometry(4.9, 1.9, 3), M(P.cream)); roof.rotation.y = Math.PI / 2; roof.scale.set(1, 1, 0.75); roof.position.set(0, 6.5, 0.6); roof.castShadow = true; g.add(roof);
+        put(g, cyl(0.07, 0.07, 3.0, P.gray, 6), 0, 7.2, 0.6); [P.blue, P.white, P.red].forEach((c, i) => put(g, rb(0.6, 1.2, 0.08, c, 0.02), 1.0 + i * 0.6, 8.2, 0.6)); return g; }
+      const pedestal = (p, r = 3) => { const g = grp(p); put(g, cyl(r, r + 0.2, 0.5, P.navy, 24), 0, 0.25, 0); const ring = new THREE.Mesh(new THREE.TorusGeometry(r + 0.1, 0.07, 6, 40), emis(P.gold, 1.1)); ring.rotation.x = Math.PI / 2; ring.position.y = 0.52; g.add(ring); return g; };
+      const cross = (p, len = 8) => { const g = grp(p); const a = rb(0.5, len, 0.5, P.red, 0.1), b = rb(0.5, len, 0.5, P.red, 0.1); put(g, a, 0, -len / 2, 0).rotation.z = 0.8; put(g, b, 0, -len / 2, 0).rotation.z = -0.8; return g; };
+      function perfume(p, s = 1) { const g = grp(p); g.scale.setScalar(s); put(g, rb(2.4, 2.6, 1.4, P.sky, 0.3, new THREE.MeshStandardMaterial({ color: P.sky, transparent: true, opacity: 0.75, roughness: 0.2 })), 0, 0, 0); put(g, cyl(0.45, 0.45, 0.6, P.gold, 10), 0, 2.6, 0); const cap = sph(0.7, P.gold, 10, emis(P.gold, 0.6)); cap.position.y = 3.5; g.add(cap); put(g, rb(1.2, 0.9, 0.1, P.gold, 0.03), 0, 0.8, 0.72); return g; }
+      function lipstick(p, s = 1) { const g = grp(p); g.scale.setScalar(s); put(g, cyl(0.7, 0.7, 1.6, P.gold, 14), 0, 0, 0); put(g, cyl(0.55, 0.55, 1.8, P.red, 14), 0, 1.6, 0); const tp = new THREE.Mesh(new THREE.ConeGeometry(0.55, 0.9, 14), M(P.red)); tp.position.y = 3.85; tp.castShadow = true; g.add(tp); return g; }
+      function handbag(p, s = 1) { const g = grp(p); g.scale.setScalar(s); put(g, rb(3.4, 2.4, 1.4, P.brown, 0.3), 0, 0, 0); const h = new THREE.Mesh(new THREE.TorusGeometry(1.0, 0.14, 6, 18, Math.PI), M(P.gold)); h.position.set(0, 2.4, 0); g.add(h); put(g, rb(0.8, 0.5, 0.12, P.gold, 0.04), 0, 1.5, 0.75); return g; }
+      function atelierHouse(p, hex, s = 1) { const g = grp(p); g.scale.setScalar(s); put(g, rb(2.4, 2.0, 2.0, hex, 0.12), 0, 0, 0); const r = new THREE.Mesh(new THREE.ConeGeometry(1.9, 1.2, 4), M(P.navy)); r.rotation.y = Math.PI / 4; r.position.y = 2.6; r.castShadow = true; g.add(r); const wn = rb(0.8, 0.8, 0.1, P.gold, 0.03, emis(P.gold, 0.9)); wn.position.set(0, 0.8, 1.02); wn.castShadow = false; g.add(wn); put(g, rb(0.7, 1.1, 0.1, P.gold, 0.03), 0.0, 0, 1.03).position.x = 0.0; return { g, wn }; }
+
+      /* 1 · robe : a dress is embroidered by hand, the clock runs, golden sparkles appear (hours of work) */
+      const hRb = grp(PL.robe); const df = dressForm(hRb, 1.0, P.red); df.g.position.set(-1.6, 0, 0); const clk = clockObj(hRb, 1.0); clk.g.position.set(5.0, 6.0, -1);
+      ANCH.rb_dress = () => V(-1.6, 9.6, 0); ANCH.rb_clock = () => V(5.0, 9.8, -1); wrapAnch(["rb_dress", "rb_clock"], PL.robe);
+      upd((t) => { showHero("robe", hRb, t); const a0 = TT.dots_on, a1 = TT.dots_end; df.sp.forEach((d, i) => { const k = (i + 1) / df.sp.length; const on = t >= lerp(a0, a1, k); d.visible = on; d.material.emissiveIntensity = on ? 1.0 + 0.6 * Math.sin(t * 6 + i) : 0; }); df.g.rotation.y = Math.sin(t * 0.8) * 0.5; clk.h2.rotation.z = -(t - a0) * 4.8; clk.h1.rotation.z = -(t - a0) * 0.4; clk.g.scale.setScalar(pop(t, a0 + 0.2, 0.5)); });
+
+      /* 2 · clientes : a globe with very few golden dots (about 5 000 clients) */
+      const hCl = grp(PL.clientes); const globe = new THREE.Mesh(new THREE.IcosahedronGeometry(4.6, 1), M(P.violet)); globe.position.y = 5.2; globe.castShadow = true; hCl.add(globe); put(hCl, cyl(1.3, 1.6, 0.8, P.navy, 14), 0, 0, 0); put(hCl, cyl(0.18, 0.18, 1.6, P.gold, 8), 0, 0.8, 0);
+      const gdots = []; for (let i = 0; i < 14; i++) { const lat = (rn() - 0.5) * 2.2, lon = rn() * 6.283; const d = sph(0.22, P.gold, 6, emis(P.gold, 1.6)); d.castShadow = false; globe.add(d); d.position.set(Math.cos(lat) * Math.sin(lon) * 4.7, Math.sin(lat) * 4.7, Math.cos(lat) * Math.cos(lon) * 4.7); gdots.push(d); }
+      ANCH.cl_globe = () => V(0, 11.0, 0); wrapAnch(["cl_globe"], PL.clientes);
+      upd((t) => { showHero("clientes", hCl, t); globe.rotation.y = t * 0.35; gdots.forEach((d, i) => { const k = pop(t, TT.cl_on + i * 0.12, 0.35); d.scale.setScalar(k * (1 + 0.3 * Math.sin(t * 4 + i))); }); });
+
+      /* 3 · label : a seal and a label tag, a state building, a one-year ring */
+      const hLb = grp(PL.label); const tagG = grp(hLb, -3.2, 5.2, 0); { put(tagG, rb(5.0, 6.6, 0.4, P.cream, 0.3), 0, -3.3, 0); const hole = sph(0.3, P.navy, 8); hole.position.set(0, -0.6, 0.25); tagG.add(hole); const str = new THREE.Mesh(new THREE.TorusGeometry(0.9, 0.08, 6, 18), M(P.gold)); str.position.set(0, 0.5, 0); tagG.add(str); put(tagG, rb(3.4, 0.3, 0.1, P.gold, 0.05), 0, -3.4, 0.25); put(tagG, rb(2.4, 0.2, 0.1, P.navy, 0.05), 0, -4.4, 0.25); }
+      const seal = grp(hLb, 3.6, 4.4, 1.5); { const star = new THREE.Shape(); for (let i = 0; i < 24; i++) { const a = i / 24 * 6.283, r = i % 2 ? 2.3 : 2.8; star[i ? "lineTo" : "moveTo"](Math.sin(a) * r, Math.cos(a) * r); } star.closePath(); const sm = new THREE.Mesh(new THREE.ExtrudeGeometry(star, { depth: 0.5, bevelEnabled: false }), emis(P.gold, 0.8)); sm.castShadow = true; seal.add(sm); const inner = cyl(1.6, 1.6, 0.2, P.gold, 24); inner.rotation.x = Math.PI / 2; inner.position.z = 0.55; seal.add(inner); [-0.8, 0.8].forEach((x) => { const rbn = rb(0.8, 2.6, 0.2, P.red, 0.05); rbn.position.set(x, -4.2, -0.1); rbn.rotation.z = x * 0.3; seal.add(rbn); }); }
+      const stLb = stateBuilding(hLb, 0.55); stLb.position.set(-6.0, 0, -5.5); const yring = grp(hLb, 3.0, 0.8, 6.8); yring.rotation.x = 0; const yt = []; for (let i = 0; i < 12; i++) { const a = i / 12 * 6.283; const t_ = rb(0.5, 0.5, 0.5, P.gold, 0.08, emis(P.gold, 0.1)); t_.position.set(Math.sin(a) * 2.4, 2.4 + Math.cos(a) * 2.4, 0); yring.add(t_); yt.push(t_); }
+      ANCH.lb_seal = () => V(3.6, 9.2, 1.5); ANCH.lb_state = () => V(-6.0, 5.4, -5.5); ANCH.lb_ring = () => V(3.0, 6.6, 6.8); ANCH.lb_tag = () => V(-3.2, 5.8, 0); wrapAnch(["lb_seal", "lb_state", "lb_ring", "lb_tag"], PL.label);
+      upd((t) => { showHero("label", hLb, t); const s1 = pop(t, TT.seal_on, 0.6); seal.scale.setScalar(s1); seal.rotation.y = Math.sin(t * 1.2) * 0.5; tagG.rotation.z = Math.sin(t * 1.6) * 0.06; tagG.scale.setScalar(pop(t, HW.label[0][0] + 0.2, 0.5)); const s2 = pop(t, TT.state_on, 0.6); stLb.scale.setScalar(0.55 * s2); stLb.visible = s2 > 0.01;
+        const yk = clamp((t - TT.year_on) / Math.max(0.5, TT.year_end - TT.year_on)); yring.visible = t >= TT.year_on - 0.02; yt.forEach((m, i) => { const on = i / 12 <= yk; m.material.emissiveIntensity = on ? 1.4 : 0.05; m.material.color.set(on ? P.gold : "#4a3a3a"); }); });
+
+      /* 4 · criteres : 20 employees, two workshops, a runway with 25 looks */
+      const hCr = grp(PL.criteres); const staff = []; for (let i = 0; i < 20; i++) { const v = person(hCr, i % 2 ? P.cream : P.pink, { scale: 0.9 }); v.g.position.set(-6.6 + (i % 10) * 1.0, 0, -5.2 + Math.floor(i / 10) * 1.1); staff.push(v); }
+      const tabT = grp(hCr, -3.8, 0, 1.2), tabF = grp(hCr, 3.8, 0, 1.2); [tabT, tabF].forEach((tb, k) => { put(tb, rb(5.4, 1.2, 2.6, P.brown, 0.1), 0, 0, 0); put(tb, rb(5.0, 0.3, 2.2, k ? P.pink : P.navy, 0.06), 0, 1.2, 0); put(tb, rb(1.6, 1.2, 0.3, k ? P.white : P.gray, 0.06), k ? -1 : 1, 1.5, 0); });
+      const looks = []; for (let i = 0; i < 25; i++) { const c = new THREE.Mesh(new THREE.ConeGeometry(0.42, 1.0, 10), M(i % 2 ? P.red : P.gold)); c.castShadow = true; c.position.set(-3.0 + (i % 5) * 1.5, 0.5, 5.8 + Math.floor(i / 5) * 1.3); hCr.add(c); looks.push(c); }
+      ANCH.cr_staff = () => V(-2.1, 3.6, -4.6); ANCH.cr_atel = () => V(0, 4.6, 1.2); ANCH.cr_look = () => V(0, 3.2, 8.5); wrapAnch(["cr_staff", "cr_atel", "cr_look"], PL.criteres);
+      upd((t) => { showHero("criteres", hCr, t); staff.forEach((v, i) => { v.g.scale.setScalar(0.9 * pop(t, TT.staff_on + i * 0.05, 0.35)); v.armR.rotation.z = Math.sin(t * 3 + i) * 0.2; }); tabT.scale.setScalar(pop(t, TT.atel_on, 0.5)); tabF.scale.setScalar(pop(t, TT.atel_on + 0.4, 0.5)); looks.forEach((c, i) => { c.scale.setScalar(pop(t, TT.look_on + i * 0.04, 0.3)); }); });
+
+      /* 5 · treize : thirteen houses carry the label */
+      const hT = grp(PL.treize); const h13 = []; for (let i = 0; i < 13; i++) { const row = i < 7 ? 0 : 1, c = row ? i - 7 : i; const x = row ? -4.5 + c * 1.5 : -4.5 - 0.0 + c * 1.5; const a = atelierHouse(hT, [P.red, P.cream, P.pink, P.gray][i % 4], 1.0); a.g.position.set(x, 0, row ? 3.0 : -1.8); h13.push(a); }
+      const medal = grp(hT, 0, 7.2, 0); { const m = cyl(1.4, 1.4, 0.3, P.gold, 24); m.rotation.x = Math.PI / 2; medal.add(m); put(medal, rb(0.5, 1.8, 0.2, P.red, 0.05), -0.5, -2.8, 0).rotation.z = 0.2; put(medal, rb(0.5, 1.8, 0.2, P.red, 0.05), 0.5, -2.8, 0).rotation.z = -0.2; }
+      ANCH.tz_row = () => V(0, 5.4, 0.6); ANCH.tz_medal = () => V(0, 9.6, 0); wrapAnch(["tz_row", "tz_medal"], PL.treize);
+      upd((t) => { showHero("treize", hT, t); h13.forEach((a, i) => { a.g.scale.setScalar(pop(t, TT.h13_on + i * 0.1, 0.4)); a.wn.material.emissiveIntensity = 0.6 + 0.5 * Math.sin(t * 3 + i); }); medal.scale.setScalar(pop(t, TT.h13_on + 0.2, 0.5)); medal.rotation.y = t * 1.2; });
+
+      /* 6 · cout : the couture costs a lot and earns little, and it becomes a shop window */
+      const hCo = grp(PL.cout); const costS = cyl(1.6, 1.6, 8.0, P.red, 20), revS = cyl(1.6, 1.6, 1.6, P.gold, 20); put(hCo, costS, -5.2, 4.0, 2); put(hCo, revS, -1.6, 0.8, 2);
+      const win = grp(hCo, 4.2, 0, -1); { put(win, rb(6.2, 0.4, 3.6, P.navy, 0.08), 0, 0, 0); put(win, rb(0.3, 6.0, 0.3, P.gold, 0.05), -3.0, 0.4, 1.6); put(win, rb(0.3, 6.0, 0.3, P.gold, 0.05), 3.0, 0.4, 1.6); put(win, rb(6.2, 0.3, 0.3, P.gold, 0.05), 0, 6.1, 1.6); put(win, rb(5.8, 5.6, 0.12, P.sky, 0.04, new THREE.MeshStandardMaterial({ color: P.sky, transparent: true, opacity: 0.25, roughness: 0.1 })), 0, 0.5, 1.7); const mini = dressForm(win, 0.55, P.red); mini.g.position.set(0, 0.4, 0); win.userData.mini = mini; }
+      ANCH.ct_cost = () => V(-5.2, 9.6, 2); ANCH.ct_rev = () => V(-1.6, 3.4, 2); ANCH.ct_win = () => V(4.2, 8.0, -1); wrapAnch(["ct_cost", "ct_rev", "ct_win"], PL.cout);
+      upd((t) => { showHero("cout", hCo, t); const a = pop(t, TT.cost_on, 0.7); costS.scale.y = a; costS.position.y = 4.0 * a; const b = pop(t, TT.nonrent_on, 0.6); revS.scale.y = b; revS.position.y = 0.8 * b; const w_ = pop(t, TT.vitr_on, 0.6); win.scale.setScalar(w_); win.visible = w_ > 0.01; win.userData.mini.g.rotation.y = t * 0.8; });
+
+      /* 7 · produits : perfume, cosmetics and accessories do the earning */
+      const hPr = grp(PL.produits); pedestal(hPr, 7.0); const prods = [[perfume(hPr, 1.2), -4.6], [lipstick(hPr, 1.4), 0], [handbag(hPr, 1.1), 4.6]]; prods.forEach(([g, x]) => g.position.set(x, 0.6, 0));
+      const flowP = []; for (let k = 0; k < 10; k++) { const c = coinM(0.45); c.visible = false; hPr.add(c); flowP.push(c); }
+      ANCH.pr_perf = () => V(-4.6, 6.0, 0); ANCH.pr_cos = () => V(0, 6.8, 0); ANCH.pr_acc = () => V(4.6, 5.4, 0); wrapAnch(["pr_perf", "pr_cos", "pr_acc"], PL.produits);
+      upd((t) => { showHero("produits", hPr, t); [TT.pv0, TT.pv1, TT.pv2].forEach((t0, i) => { const g = prods[i][0]; const s = pop(t, t0, 0.5); g.scale.setScalar(s * [1.2, 1.4, 1.1][i]); g.rotation.y = t * 0.9 + i; });
+        flowP.forEach((c, k) => { const u = (((t - TT.cosm_on) * 0.5 + k / 10) % 1 + 1) % 1; const si = k % 3; c.visible = t > TT.acc_on; c.position.set(lerp(-4.6 + si * 4.6, 0, u), 3.4 + u * 4.5, lerp(0, 3, u)); c.rotation.x = t * 5; }); });
+
+      /* 8 · ferme : a couture department closes its shutter */
+      const hFe = grp(PL.ferme); const bld = grp(hFe, 0, 0, -1); put(bld, rb(9, 5.6, 5, P.cream, 0.15), 0, 0, 0); for (let i = 0; i < 5; i++) put(bld, rb(1.0, 0.5, 5.6, i % 2 ? P.white : P.red, 0.04), -3.6 + i * 1.8, 5.6, 0.4); put(bld, rb(9.4, 0.5, 5.8, P.gold, 0.06), 0, 6.1, 0.4);
+      const wdw = rb(7, 4, 0.2, P.sky, 0.06, emis(P.sky, 0.5)); put(bld, wdw, 0, 0.8, 2.55); const dfm = dressForm(bld, 0.5, P.red); dfm.g.position.set(0, 0.9, 1.9); const shut = rb(7.4, 4.4, 0.3, P.gray, 0.06); put(bld, shut, 0, 0.6, 2.8); const lock = grp(hFe, 0, 3.4, 2.2); { put(lock, rb(1.8, 1.4, 0.8, P.gold, 0.15), 0, -0.7, 0); const sh = new THREE.Mesh(new THREE.TorusGeometry(0.6, 0.15, 6, 16, Math.PI), M(P.gold)); sh.position.y = 0.4; lock.add(sh); }
+      ANCH.fm_house = () => V(0, 9.4, -1); ANCH.fm_lock = () => V(0, 6.6, 2.2); wrapAnch(["fm_house", "fm_lock"], PL.ferme);
+      upd((t) => { showHero("ferme", hFe, t); const k = eInOut(prog(t, TT.shut_on, 1.0)); shut.scale.y = Math.max(0.001, k); shut.position.y = 0.6 + 4.4 * (1 - k) * 0 + 2.2 * (1 - k) * 0 + (k - 1) * 0 + 4.4 * k / 2 * 0; shut.position.y = 5.0 - 4.4 * k / 2 - 0.0; shut.position.y = lerp(5.0, 2.8, k); const ls = pop(t, TT.ruin_on, 0.5); lock.scale.setScalar(ls); lock.visible = ls > 0.01; dfm.g.rotation.y = t * 0.8; });
+
+      /* 9 · defile : a runway, spotlights, camera flashes: the show is advertising */
+      const hDf = grp(PL.defile); put(hDf, rb(3.4, 0.4, 16, P.cream, 0.1), 0, 0, 0); const mods = [0, 1, 2].map((i) => { const d = dressForm(hDf, 0.5, [P.red, P.gold, P.pink][i]); d.g.position.set(0, 0.4, -5 + i * 5); return d; });
+      const spots = [-5.6, 5.6].map((x) => { const g = grp(hDf, x, 8.0, -2); const c = new THREE.Mesh(new THREE.ConeGeometry(0.9, 1.6, 10), emis(P.gold, 0.8)); c.rotation.z = x < 0 ? -0.5 : 0.5; g.add(c); put(g, cyl(0.1, 0.1, 8, P.gray, 6), 0, -4, 0); return g; });
+      const flashes = []; for (let i = 0; i < 14; i++) { const f = sph(0.4, P.white, 6, emis(P.white, 2.0)); f.castShadow = false; f.position.set((i % 2 ? 1 : -1) * (5.2 + (i % 3)), 1.5 + (i % 4) * 1.2, -7 + i); hDf.add(f); flashes.push(f); }
+      ANCH.df_run = () => V(0, 5.0, 0); ANCH.df_spot = () => V(5.6, 9.6, -2); wrapAnch(["df_run", "df_spot"], PL.defile);
+      upd((t) => { showHero("defile", hDf, t); const a0 = HW.defile[0][0]; mods.forEach((d, i) => { const u = (((t - a0) * 0.12 + i / 3) % 1 + 1) % 1; d.g.position.z = lerp(-7, 7, u); d.g.rotation.y = Math.sin(t * 2 + i) * 0.3; }); flashes.forEach((f, i) => { const on = t >= TT.flash_on && Math.sin(t * 9 + i * 2.3) > 0.85; f.visible = on; f.scale.setScalar(on ? 1.0 + 0.5 * Math.sin(t * 40 + i) : 0.01); }); });
+
+      /* 10 · reve : the dress is not the product (crossed out), the dream sells perfume */
+      const hRv = grp(PL.reve); const dRv = dressForm(hRv, 1.0, P.red); dRv.g.position.set(-3.6, 0, 0); dRv.sp.forEach((d) => { d.visible = false; }); const crossR = cross(hRv, 11); crossR.position.set(-3.6, 11, 3.6);
+      const cloud = grp(hRv, 4.4, 8.6, 0); [[0, 0, 0, 2.2], [2.4, -0.4, 0.2, 1.7], [-2.4, -0.3, 0.2, 1.8], [0.8, 1.0, -0.2, 1.6]].forEach(([x, y, z, r]) => { const m = sph(r, "#f4dfe8", 10, emis("#f4dfe8", 0.35)); m.position.set(x, y, z); cloud.add(m); });
+      const perf2 = perfume(hRv, 1.4); perf2.position.set(4.4, 0.4, 2.4); const flowR = []; for (let k = 0; k < 8; k++) { const c = coinM(0.45); c.visible = false; hRv.add(c); flowR.push(c); }
+      ANCH.rv_dress = () => V(-3.6, 9.6, 0); ANCH.rv_dream = () => V(4.4, 12.4, 0); ANCH.rv_perf = () => V(4.4, 6.6, 2.4); wrapAnch(["rv_dress", "rv_dream", "rv_perf"], PL.reve);
+      upd((t) => { showHero("reve", hRv, t); const cr = t >= TT.cross_on && t < TT.dream_on + 0.2; crossR.visible = cr; crossR.scale.setScalar(cr ? 0.4 + 0.6 * popS(t, TT.cross_on, 0.3) : 1); const cs = pop(t, TT.dream_on, 0.6); cloud.scale.setScalar(cs); cloud.visible = cs > 0.01; cloud.position.y = 8.6 + Math.sin(t * 1.6) * 0.3; const ps = pop(t, TT.perfume_on, 0.5); perf2.scale.setScalar(1.4 * ps); perf2.rotation.y = t * 1.0; dRv.g.rotation.y = Math.sin(t * 0.8) * 0.4;
+        flowR.forEach((c, k) => { const u = (((t - TT.perfume_on) * 0.5 + k / 8) % 1 + 1) % 1; c.visible = t > TT.perfume_on + 0.3; c.position.set(lerp(4.4, 0, u), 1.0 + Math.sin(u * Math.PI) * 3.4, lerp(2.4, 6, u)); c.rotation.x = t * 5; }); });
+
+      /* 11 · cta : a comment bubble and a subscribe button */
+      const hC = grp(PL.cta); pedestal(hC, 8); const bub = grp(hC, -2.8, 9.0, 0); { put(bub, rb(5.6, 3.8, 1.2, P.cream, 0.5), 0, -3.8, 0); const tail = new THREE.Mesh(new THREE.ConeGeometry(1.0, 1.8, 4), M(P.cream)); tail.rotation.z = Math.PI; tail.position.set(-1.4, -4.1, 0); tail.castShadow = true; bub.add(tail); }
+      const dots = [0, 1, 2].map((i) => { const d = sph(0.5, P.navy, 8); d.position.set(-1.3 + i * 1.3, -1.9, 0.7); bub.add(d); return d; });
+      const btn = grp(hC, 3.0, 3.4, 3); { put(btn, rb(4.4, 2.2, 1.2, P.red, 0.6), 0, -1.1, 0); const tri = new THREE.Mesh(new THREE.ConeGeometry(0.8, 1.2, 3), M(P.white)); tri.rotation.z = -Math.PI / 2; tri.position.set(-1.4, -1.1, 0.7); btn.add(tri); put(btn, rb(2.2, 0.3, 0.2, P.white, 0.05), 0.8, -1.1, 0.7); }
+      ANCH.bubble = () => V(-2.8, 10.2, 0); ANCH.button = () => V(3.0, 5.6, 3); wrapAnch(["bubble", "button"], PL.cta);
+      upd((t) => { showHero("cta", hC, t); const b = pop(t, TT.bubble_on, 0.6); bub.scale.setScalar(b); bub.position.y = 9.0 + Math.sin(t * 2) * 0.2; dots.forEach((d, i) => { d.scale.setScalar(0.6 + 0.5 * Math.max(0, Math.sin(t * 5 - i * 0.9))); });
+        const s = pop(t, TT.button_on, 0.6); const press = 1 - 0.12 * Math.max(0, Math.sin(clamp((t - TT.press) / 0.35) * Math.PI)); btn.scale.setScalar(s * press); btn.rotation.z = Math.sin(t * 2.4) * 0.05; });
+
+      /* =====================================================================
+         CAMERA, MOOD, OVERLAYS, RENDER
+         ===================================================================== */
+      const CK = B.cam; const camA = V(0, 0, 0), camL = V(0, 0, 0);
+      function camAt(t) {
+        let lo = 0, hi = CK.length - 1; while (hi - lo > 1) { const m = (lo + hi) >> 1; if (CK[m][0] <= t) lo = m; else hi = m; }
+        const a = CK[lo], b = CK[Math.min(hi, CK.length - 1)], k = b[0] > a[0] ? clamp((t - a[0]) / (b[0] - a[0])) : 0;
+        camA.set(lerp(a[1], b[1], k), lerp(a[2], b[2], k), lerp(a[3], b[3], k)); camL.set(lerp(a[4], b[4], k), lerp(a[5], b[5], k), lerp(a[6], b[6], k));
+        camA.sub(camL).multiplyScalar(1.65).add(camL); camA.y += 1.5;
+        camA.x += Math.sin(t * 0.6) * 0.18; camA.y += Math.sin(t * 0.8) * 0.1;
+        return B.fov;
+      }
+      const PS = (n) => B.heroes[n][0][0];
+      const KEYS = [
+        [-9, 0.1, ["#0e0910", "#241520", "#3a2030"], "#ffe2b0", 2.2, 1.0, "#241520"],
+        [PS("cout") - 1.2, 1.4, ["#0a060c", "#1a0f18", "#2a1822"], "#e8d8e0", 1.6, 0.8, "#1a0f18"],
+        [PS("defile") - 1.2, 1.4, ["#120a14", "#3a1a2a", "#6a2a3a"], "#ffd0c0", 2.2, 1.0, "#3a1a2a"],
+        [PS("cta") - 1.0, 3.0, ["#241520", "#5a3040", "#e8a070"], "#ffd8b0", 2.6, 1.0, "#5a3040"],
+      ];
+      const rgbs = (c) => `rgb(${c.map(Math.round).join(",")})`;
+      const hxs = (c) => "#" + c.map((v) => Math.round(v).toString(16).padStart(2, "0")).join("");
+      function moodAt(t) {
+        let sky = KEYS[0][2].map(hex2), sun = hex2(KEYS[0][3]), sI = KEYS[0][4], hI = KEYS[0][5], hg = hex2(KEYS[0][6]);
+        for (let i = 1; i < KEYS.length; i++) { const k = eInOut(prog(t, KEYS[i][0], KEYS[i][1]));
+          sky = sky.map((c, j) => c.map((v, q) => lerp(v, hex2(KEYS[i][2][j])[q], k))); sun = sun.map((v, q) => lerp(v, hex2(KEYS[i][3])[q], k)); sI = lerp(sI, KEYS[i][4], k); hI = lerp(hI, KEYS[i][5], k); hg = hg.map((v, q) => lerp(v, hex2(KEYS[i][6])[q], k)); }
+        return { sky: sky.map(rgbs), mid: hxs(sky[1]), sun: hxs(sun), sI, hI, hg: hxs(hg) };
+      }
+      const behind = (v) => { pvw.copy(v).applyMatrix4(cam.matrixWorldInverse); return pvw.z > -0.5; };
+      const fmtT = (x) => x.toFixed(2);
+
+      function renderAt(t) {
+        const fov = camAt(t);
+        U.forEach((f) => f(t)); cam.fov = fov; cam.updateProjectionMatrix(); cam.position.copy(camA); cam.lookAt(camL); cam.updateMatrixWorld();
+        const md = moodAt(t); sun.color.set(md.sun); sun.intensity = md.sI; hemi.intensity = md.hI; hemi.groundColor.set(md.hg); scene.fog.color.set(md.mid);
+        sun.position.set(camL.x - 22, 36, camL.z + 20); sun.target.position.set(camL.x, 0, camL.z);
+        rootEl.style.background = `linear-gradient(180deg, ${md.sky[0]} 0%, ${md.sky[1]} 45%, ${md.sky[2]} 100%)`;
+
+        /* annotation pills with dashed leader lines */
+        noteEls.forEach(({ n, el, lead }) => {
+          const s = eOutBack(prog(t, n.t0, 0.25)) * (1 - prog(t, n.t1 - 0.2, 0.2));
+          if (s <= 0.02) { el.style.opacity = 0; lead.style.opacity = 0; return; }
+          let ax, ay, scr = false; if (n.anchor.startsWith("screen:")) { [ax, ay] = n.anchor.slice(7).split(",").map(Number); scr = true; } else { const o = ANCH[n.anchor]; const v = typeof o === "function" ? o() : o; if (behind(v)) { el.style.opacity = 0; lead.style.opacity = 0; return; } [ax, ay] = toScreen(v); }
+          const px = clamp(ax + n.dx, 150, 930), py = clamp(ay + n.dy, 360, 1320);
+          el.style.opacity = Math.min(1, s * 1.4); el.style.transform = `translate(${px}px,${py}px) translate(-50%,-50%) scale(${s})`;
+          if (scr) { lead.style.opacity = 0; return; }
+          const sx = px, sy = py + 26, dx = ax - sx, dy = ay - sy, len = Math.hypot(dx, dy);
+          lead.style.opacity = Math.min(1, s * 1.2); lead.style.width = Math.max(0, len * eOut(prog(t, n.t0 + 0.1, 0.25))) + "px"; lead.style.transform = `translate(${sx}px,${sy}px) rotate(${Math.atan2(dy, dx)}rad)`;
+        });
+        /* giant keywords */
+        kwEls.forEach(({ k, el }) => { const p = prog(t, k.t0, 0.25), q = prog(t, k.t1 - 0.2, 0.2); const s = eOutBack(p) * (1 - q); el.style.opacity = s > 0.02 ? Math.min(1, s * 1.5) : 0; el.style.transform = `translateY(${(1 - eOut(p)) * -40}px) rotate(${k.rot}deg) scale(${Math.max(s, 0.001)})`; });
+        /* stamps */
+        stampEls.forEach(({ s: st, el }) => { const p = prog(t, st.t0, 0.3), q = prog(t, st.t1 - 0.25, 0.25); const op = (p > 0 ? 1 : 0) * (1 - q); el.style.opacity = op; el.style.transform = `translate(${st.x}px,${st.y}px) translate(-50%,-50%) rotate(${st.rot}deg) scale(${1 + (1 - eOutBack(p)) * 0.9})`; });
+        /* data panels */
+        panelEls.forEach(({ p, el, items }) => { const a = prog(t, p.t0, 0.4), q = prog(t, p.t1 - 0.3, 0.3); el.style.opacity = a * (1 - q); el.style.transform = `translateY(${(1 - eOut(a)) * 70}px) scale(${0.95 + 0.05 * eOut(a)})`;
+          if (a <= 0 || q >= 1) return; items.forEach((it, idx) => { const w = it.dataset.w, i = Number(it.dataset.i ?? idx);
+            if (w !== undefined) { const g = eOut(prog(t, p.t0 + 0.35 + i * 0.2, 0.8)); it.style.width = Number(w) * g + "%"; it.style.opacity = g > 0.02 ? 1 : 0; }
+            else if (it.classList.contains("orb") || it.classList.contains("arrow")) { const g = eOutBack(prog(t, p.t0 + (p.o ? p.o[i] : 0.5 + i * 0.9), 0.4)); it.style.transform = `scale(${Math.max(g, 0.001)})`; }
+            else if (it.classList.contains("mo")) { const g = eOut(prog(t, p.t0 + 0.3 + i * 0.12, 0.5)); it.style.opacity = g; it.style.transform = `scaleY(${Math.max(g, 0.001)})`; } }); });
+        /* captions: rolling window, active word in a gold pill */
+        let gi = -1; capGroups.forEach((g, k) => { if (t >= g[0][1] - 0.01) gi = k; });
+        const grp_ = gi >= 0 ? capGroups[gi] : null;
+        if (gi !== capIdx) { capIdx = gi; capEl.innerHTML = grp_ ? grp_.map((w) => `<span>${w[0].replace(/%/g, " %")}</span>`).join(" ") : ""; }
+        if (grp_) { const lastEnd = grp_[grp_.length - 1][2]; capEl.style.opacity = t <= lastEnd + 0.4 ? 1 : 0; [...capEl.children].forEach((sp, k) => { const on = t >= grp_[k][1] && t < grp_[k][2]; sp.className = on ? "on" : t >= grp_[k][1] ? "past" : "next"; }); } else capEl.style.opacity = 0;
+        progEl.style.width = (t / B.dur) * 100 + "%";
+        const bp = prog(t, T.brand, 0.6); brandEl.style.opacity = bp; brandEl.style.transform = `scale(${0.9 + 0.1 * eOutBack(bp)})`;
+        const fl = prog(t, B.dur - 0.6, 0.55); flashEl.style.opacity = fl.toFixed(3);
+        renderer.render(scene, cam);
+        fxgCtx.clearRect(0, 0, 270, 480); fxgCtx.drawImage(glCanvas, 0, 0, 270, 480);
+      }
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      document.fonts.ready.then(() => renderAt(window.__hfThreeTime || 0));
+      renderAt(window.__hfThreeTime || 0);
+    </script>
+  </body>
+</html>
