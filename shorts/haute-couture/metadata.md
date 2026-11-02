@@ -14,7 +14,7 @@ Selon la presse, certaines robes de haute couture demandent plus de 700 heures d
 
 L'appellation est protégée depuis 1945 par le ministère de l'Industrie et n'est accordée que pour un an. Pour la garder, il faut notamment au moins vingt salariés, deux ateliers (tailleur et flou) et des défilés à Paris avec au moins 25 passages. En janvier 2026, 13 maisons portent cette appellation. Selon plusieurs sources, la haute couture n'est plus rentable en soi : elle sert de vitrine. Dans le luxe, l'image d'une maison repose surtout sur des ventes plus lucratives, comme les parfums, les cosmétiques et les accessoires, et certaines maisons ont même fermé leur département couture, jugé ruineux. Tout porte à croire que chaque défilé devient alors une campagne de communication pour le reste de la marque : une maison de haute couture ne vend pas seulement des robes, elle vend un rêve, qui fait ensuite vendre du parfum.
 
-À retenir : ces chiffres sont des ordres de grandeur ou des estimations (heures de travail, nombre de clientes), issus de la presse et de sources secondaires, et ne s'appliquent pas à une maison précise. Je n'ai pas de chiffre fiable sur la part de la couture dans le chiffre d'affaires d'une maison.
+À retenir : ces chiffres sont des ordres de grandeur ou des estimations (heures de travail, nombre de clientes), issus de la presse et de sources secondaires, et ne s'appliquent pas à une maison précise. Aucun chiffre fiable n'est publié ici sur la part de la couture dans le chiffre d'affaires d'une maison.
 
 Selon vous, la haute couture est-elle un art ou une publicité ? Dites-le en commentaire.
 
