@@ -1,0 +1,34 @@
+- Wet Floor Sign 01 (`WetFloorSign_01`), Poly Haven, CC0 (public domain). Authors: Fran Calvente. https://polyhaven.com/a/WetFloorSign_01
+- Plastic Broom (`plastic_broom`), Poly Haven, CC0 (public domain). Authors: L. https://polyhaven.com/a/plastic_broom
+- Multi Cleaner Bottle (`multi_cleaner_bottle`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/multi_cleaner_bottle
+- Multi Cleaner 5 Litre (`multi_cleaner_5_litre`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/multi_cleaner_5_litre
+- All Purpose Cleaner (`all_purpose_cleaner`), Poly Haven, CC0 (public domain). Authors: Kuutti Siitonen. https://polyhaven.com/a/all_purpose_cleaner
+- Wooden Bucket 01 (`wooden_bucket_01`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/wooden_bucket_01
+- Dustpan (`dustpan`), Poly Haven, CC0 (public domain). Authors: Balen. https://polyhaven.com/a/dustpan
+- Plunger (`plunger`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/plunger
+- Metal Office Desk (`metal_office_desk`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/metal_office_desk
+- Modern Arm Chair 01 (`modern_arm_chair_01`), Poly Haven, CC0 (public domain). Authors: Vibrant Nordic. https://polyhaven.com/a/modern_arm_chair_01
+- Classic Laptop (`classic_laptop`), Poly Haven, CC0 (public domain). Authors: Arrangemonk. https://polyhaven.com/a/classic_laptop
+- Clipboard (`clipboard`), Poly Haven, CC0 (public domain). Authors: ProgrammerOnCoffee. https://polyhaven.com/a/clipboard
+- Wall Clock (`wall_clock`), Poly Haven, CC0 (public domain). Authors: PierreB3D. https://polyhaven.com/a/wall_clock
+- Alarm Clock 01 (`alarm_clock_01`), Poly Haven, CC0 (public domain). Authors: Yann Kervran, James Ray Cock. https://polyhaven.com/a/alarm_clock_01
+- Cash Register 01 (`CashRegister_01`), Poly Haven, CC0 (public domain). Authors: Joe Seabuhr. https://polyhaven.com/a/CashRegister_01
+- Cardboard Box 01 (`cardboard_box_01`), Poly Haven, CC0 (public domain). Authors: Rahul Chaudhary. https://polyhaven.com/a/cardboard_box_01
+- Trashbag (`trashbag`), Poly Haven, CC0 (public domain). Authors: Benny Weimer. https://polyhaven.com/a/trashbag
+- Metal Trash Can (`metal_trash_can`), Poly Haven, CC0 (public domain). Authors: GurJas Studios. https://polyhaven.com/a/metal_trash_can
+- Potted Plant 01 (`potted_plant_01`), Poly Haven, CC0 (public domain). Authors: Rico Cilliers. https://polyhaven.com/a/potted_plant_01
+- Plastic Crate 01 (`plastic_crate_01`), Poly Haven, CC0 (public domain). Authors: PierreB3D. https://polyhaven.com/a/plastic_crate_01
+- Hand Truck (`hand_truck`), Poly Haven, CC0 (public domain). Authors: Mutanzom3D. https://polyhaven.com/a/hand_truck
+- Modern Ceiling Lamp 01 (`modern_ceiling_lamp_01`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/modern_ceiling_lamp_01
+- Mounted Fluorescent Lights (`mounted_fluorescent_lights`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/mounted_fluorescent_lights
+- Steel Frame Shelves 01 (`steel_frame_shelves_01`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/steel_frame_shelves_01
+- Industrial Storage Cart (`industrial_storage_cart`), Poly Haven, CC0 (public domain). Authors: Jule Bielitz. https://polyhaven.com/a/industrial_storage_cart
+- Television 01 (`Television_01`), Poly Haven, CC0 (public domain). Authors: Gabriel Radić. https://polyhaven.com/a/Television_01
+- Office Notepads (`office_notepads`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/office_notepads
+- Stationery Supplies (`stationery_supplies`), Poly Haven, CC0 (public domain). Authors: Mateusz Sadek. https://polyhaven.com/a/stationery_supplies
+- Projector Screen (`projector_screen`), Poly Haven, CC0 (public domain). Authors: PeterM. https://polyhaven.com/a/projector_screen
+- Security Camera 01 (`security_camera_01`), Poly Haven, CC0 (public domain). Authors: Alexander Otterbeck, Yann Kervran. https://polyhaven.com/a/security_camera_01
+- Texture floor_tiles_06, Poly Haven, CC0. https://polyhaven.com/a/floor_tiles_06
+- Texture plaster_grey_04, Poly Haven, CC0. https://polyhaven.com/a/plaster_grey_04
+- Texture smooth_concrete_floor, Poly Haven, CC0. https://polyhaven.com/a/smooth_concrete_floor
+- Texture painted_concrete, Poly Haven, CC0. https://polyhaven.com/a/painted_concrete
