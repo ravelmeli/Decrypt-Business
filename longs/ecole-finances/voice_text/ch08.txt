@@ -1,0 +1,8 @@
+Faisons un exercice, avec des chiffres purement illustratifs, pas ceux d'une école réelle.
+Imaginons une école de 100 élèves, avec des frais de scolarité de 6 000 euros par an. Ça donne 600 000 euros de recettes.
+Maintenant, les dépenses. Dix enseignants et trois personnes pour l'administration et la vie scolaire : à environ 40 000 euros chacun, charges comprises, on arrive à 520 000 euros de salaires.
+Ajoutez le loyer, disons 60 000 euros. Puis l'énergie, les assurances, l'informatique, la cantine : encore 40 000 euros.
+Total : 620 000 euros de dépenses, pour 600 000 de recettes. L'école perd 20 000 euros par an.
+Maintenant, passons à 130 élèves, sans embaucher personne. Les recettes montent à 780 000 euros. Les salaires et le loyer ne bougent presque pas. L'école gagne alors à peu près 150 000 euros.
+Trente élèves de plus, et on passe d'un déficit à un confortable excédent. C'est ça, l'effet de levier d'une école : des coûts fixes énormes, et une marge qui dépend du remplissage.
+Et à l'inverse, perdre quelques élèves en cours de route peut faire basculer les comptes dans le rouge.
