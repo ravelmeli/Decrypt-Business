@@ -1,0 +1,5 @@
+{"type":"progress","phase":"transcription","model":"large-v3","status":"started","durationSeconds":3.3624375}
+{"type":"words","model":"large-v3","words":[{"text":"selon","start":0,"end":0.417},{"text":"un","start":0.417,"end":0.583},{"text":"principe","start":0.583,"end":1.25},{"text":"de","start":1.25,"end":1.417},{"text":"parité","start":1.417,"end":1.917},{"text":"avec","start":1.917,"end":2.25},{"text":"le","start":2.25,"end":2.417},{"text":"public.","start":2.417,"end":3}],"through":3}
+{"type":"words","model":"large-v3","words":[],"through":3.3624375}
+{"type":"progress","phase":"transcription","model":"large-v3","status":"completed"}
+{"ok":true,"engine":"whisper","model":"large-v3","detectedLanguage":null,"wordCount":8,"durationSeconds":3,"speechOnsetSeconds":null,"transcriptPath":"/home/user/Decrypt-Business/longs/ecole-finances/voice/transcript.json"}

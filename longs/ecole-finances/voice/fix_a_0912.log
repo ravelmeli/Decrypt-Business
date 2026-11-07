@@ -1,0 +1,5 @@
+{"type":"progress","phase":"transcription","model":"large-v3","status":"started","durationSeconds":3.6824375}
+{"type":"words","model":"large-v3","words":[{"text":"Premier","start":0,"end":0.415},{"text":"recrutement,","start":0.415,"end":1.128},{"text":"souvent","start":1.128,"end":1.543},{"text":"plusieurs","start":1.543,"end":2.077},{"text":"centaines","start":2.077,"end":2.612},{"text":"de","start":2.612,"end":2.73},{"text":"milliers","start":2.73,"end":3.205},{"text":"d'euros.","start":3.205,"end":3.68}],"through":3.68}
+{"type":"words","model":"large-v3","words":[],"through":3.6824375}
+{"type":"progress","phase":"transcription","model":"large-v3","status":"completed"}
+{"ok":true,"engine":"whisper","model":"large-v3","detectedLanguage":null,"wordCount":8,"durationSeconds":3.68,"speechOnsetSeconds":null,"transcriptPath":"/home/user/Decrypt-Business/longs/ecole-finances/voice/transcript.json"}
