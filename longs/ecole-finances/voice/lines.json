@@ -1,0 +1,836 @@
+[
+ {
+  "i": 0,
+  "text": "Une école, ce n'est pas un commerce comme les autres.",
+  "start": 0.0,
+  "end": 2.625
+ },
+ {
+  "i": 1,
+  "text": "Pourtant, quand on la dirige, il faut payer des salaires, un loyer, des assurances, une cantine, du chauffage.",
+  "start": 3.115,
+  "end": 8.3
+ },
+ {
+  "i": 2,
+  "text": "Et tout ça avant même la première rentrée.",
+  "start": 8.775,
+  "end": 10.635
+ },
+ {
+  "i": 3,
+  "text": "Alors une question simple : d'où vient réellement l'argent d'une école ?",
+  "start": 11.505,
+  "end": 15.59
+ },
+ {
+  "i": 4,
+  "text": "Parce qu'en France, il existe deux façons de diriger une école privée.",
+  "start": 15.69,
+  "end": 18.56
+ },
+ {
+  "i": 5,
+  "text": "Et leurs comptes n'ont presque rien en commun.",
+  "start": 19.08,
+  "end": 20.735
+ },
+ {
+  "i": 6,
+  "text": "Dans cette vidéo, on ouvre le budget d'une école, poste par poste.",
+  "start": 21.515,
+  "end": 24.38
+ },
+ {
+  "i": 7,
+  "text": "Qui paie quoi, ce qui coûte le plus cher, et où se cachent les risques.",
+  "start": 24.72,
+  "end": 27.635
+ },
+ {
+  "i": 8,
+  "text": "On fera même une simulation chiffrée, pour voir comment trente élèves de plus peuvent transformer un déficit en excédent.",
+  "start": 28.505,
+  "end": 33.775
+ },
+ {
+  "i": 9,
+  "text": "Première distinction, qui change tout : le contrat avec l'État.",
+  "start": 34.625,
+  "end": 37.535
+ },
+ {
+  "i": 10,
+  "text": "Une école hors contrat est libre.",
+  "start": 38.435,
+  "end": 39.68
+ },
+ {
+  "i": 11,
+  "text": "Libre de son programme, de ses recrutements, de sa pédagogie.",
+  "start": 40.17,
+  "end": 42.78
+ },
+ {
+  "i": 12,
+  "text": "Mais elle est seule pour payer.",
+  "start": 43.32,
+  "end": 44.4
+ },
+ {
+  "i": 13,
+  "text": "Chaque euro vient des familles, ou de dons.",
+  "start": 44.815,
+  "end": 46.31
+ },
+ {
+  "i": 14,
+  "text": "Une école sous contrat, c'est l'inverse.",
+  "start": 47.16,
+  "end": 48.79
+ },
+ {
+  "i": 15,
+  "text": "Elle suit les programmes nationaux et accepte des contrôles.",
+  "start": 49.165,
+  "end": 51.35
+ },
+ {
+  "i": 16,
+  "text": "En échange, l'État prend en charge la rémunération des enseignants.",
+  "start": 52.0,
+  "end": 54.5
+ },
+ {
+  "i": 17,
+  "text": "Les ordres de grandeur sont très différents.",
+  "start": 55.435,
+  "end": 57.15
+ },
+ {
+  "i": 18,
+  "text": "Le sous contrat, c'est plus de 2 millions d'élèves, environ 17 % des effectifs, dans un peu plus de 7 500 établissements, selon la Cour des comptes.",
+  "start": 57.775,
+  "end": 64.655
+ },
+ {
+  "i": 19,
+  "text": "Le hors contrat, lui, est minuscule.",
+  "start": 65.18,
+  "end": 66.615
+ },
+ {
+  "i": 20,
+  "text": "Mais il grandit : dans le primaire, le nombre d'écoles a plus que doublé entre 2015 et 2022, pour atteindre environ 2 % des écoles.",
+  "start": 67.05,
+  "end": 73.905
+ },
+ {
+  "i": 21,
+  "text": "Regardons d'abord les dépenses.",
+  "start": 74.72,
+  "end": 75.83
+ },
+ {
+  "i": 22,
+  "text": "Dans une école, on retrouve quatre grands blocs.",
+  "start": 76.385,
+  "end": 78.275
+ },
+ {
+  "i": 23,
+  "text": "Un : les salaires.",
+  "start": 78.865,
+  "end": 79.745
+ },
+ {
+  "i": 24,
+  "text": "Enseignants, direction, administration, surveillants, agents d'entretien.",
+  "start": 80.255,
+  "end": 83.595
+ },
+ {
+  "i": 25,
+  "text": "Deux : les locaux.",
+  "start": 84.425,
+  "end": 85.395
+ },
+ {
+  "i": 26,
+  "text": "Loyer ou remboursement d'un emprunt, travaux, mise aux normes, sécurité incendie, accessibilité.",
+  "start": 85.925,
+  "end": 90.895
+ },
+ {
+  "i": 27,
+  "text": "Trois : le fonctionnement.",
+  "start": 91.78,
+  "end": 92.78
+ },
+ {
+  "i": 28,
+  "text": "Énergie, assurances, fournitures, informatique, cantine.",
+  "start": 93.455,
+  "end": 96.915
+ },
+ {
+  "i": 29,
+  "text": "Quatre : tout ce qui est pédagogique.",
+  "start": 97.755,
+  "end": 99.25
+ },
+ {
+  "i": 30,
+  "text": "Manuels, matériel, sorties, activités.",
+  "start": 99.835,
+  "end": 102.43
+ },
+ {
+  "i": 31,
+  "text": "Et dans presque tous les cas, un poste écrase les autres.",
+  "start": 103.425,
+  "end": 105.855
+ },
+ {
+  "i": 32,
+  "text": "Ce poste, ce sont les salaires.",
+  "start": 106.395,
+  "end": 107.8
+ },
+ {
+  "i": 33,
+  "text": "Dans une école, ils représentent généralement plus de la moitié du budget, et souvent bien davantage.",
+  "start": 108.38,
+  "end": 112.435
+ },
+ {
+  "i": 34,
+  "text": "Pourquoi ?",
+  "start": 113.08,
+  "end": 113.375
+ },
+ {
+  "i": 35,
+  "text": "Parce qu'une école vend du temps humain.",
+  "start": 113.755,
+  "end": 115.24
+ },
+ {
+  "i": 36,
+  "text": "Un enseignant pour une classe.",
+  "start": 115.86,
+  "end": 117.045
+ },
+ {
+  "i": 37,
+  "text": "Un surveillant pour une cour.",
+  "start": 117.42,
+  "end": 118.605
+ },
+ {
+  "i": 38,
+  "text": "Une personne à l'accueil.",
+  "start": 119.04,
+  "end": 119.865
+ },
+ {
+  "i": 39,
+  "text": "Et ce coût n'est pas souple.",
+  "start": 120.54,
+  "end": 121.44
+ },
+ {
+  "i": 40,
+  "text": "Une classe de trente élèves coûte presque autant à faire tourner qu'une classe de vingt.",
+  "start": 121.855,
+  "end": 124.945
+ },
+ {
+  "i": 41,
+  "text": "Alors le taux de remplissage devient la variable clé.",
+  "start": 125.59,
+  "end": 127.755
+ },
+ {
+  "i": 42,
+  "text": "Voilà pourquoi toute l'économie d'une école repose sur une seule question : qui paie les enseignants ?",
+  "start": 128.515,
+  "end": 133.61
+ },
+ {
+  "i": 43,
+  "text": "Dans le hors contrat, c'est l'école.",
+  "start": 133.71,
+  "end": 135.045
+ },
+ {
+  "i": 44,
+  "text": "Une classe ouverte avec trop peu d'élèves fait mécaniquement perdre de l'argent.",
+  "start": 135.43,
+  "end": 138.63
+ },
+ {
+  "i": 45,
+  "text": "Dans le sous contrat, c'est l'État.",
+  "start": 139.275,
+  "end": 140.535
+ },
+ {
+  "i": 46,
+  "text": "Cela allège énormément la charge, mais pas tous les coûts, comme on va le voir.",
+  "start": 141.225,
+  "end": 144.415
+ },
+ {
+  "i": 47,
+  "text": "Prenons d'abord une école hors contrat.",
+  "start": 145.06,
+  "end": 146.565
+ },
+ {
+  "i": 48,
+  "text": "Ses revenus ?",
+  "start": 147.205,
+  "end": 147.51
+ },
+ {
+  "i": 49,
+  "text": "Les frais de scolarité.",
+  "start": 147.61,
+  "end": 148.835
+ },
+ {
+  "i": 50,
+  "text": "Ils varient énormément : de quelques milliers d'euros par an et par élève jusqu'à plusieurs dizaines de milliers pour certains établissements internationaux.",
+  "start": 149.51,
+  "end": 155.69
+ },
+ {
+  "i": 51,
+  "text": "Pour tenir, il faut atteindre un seuil de rentabilité, c'est-à-dire un nombre minimum d'élèves.",
+  "start": 156.35,
+  "end": 160.63
+ },
+ {
+  "i": 52,
+  "text": "Les sites spécialisés l'estiment entre une centaine et quelques centaines d'élèves, selon les frais et les locaux.",
+  "start": 161.48,
+  "end": 165.84
+ },
+ {
+  "i": 53,
+  "text": "Ce sont des estimations, pas des statistiques officielles.",
+  "start": 166.41,
+  "end": 168.62
+ },
+ {
+  "i": 54,
+  "text": "Et avant d'accueillir le premier enfant, il faut investir.",
+  "start": 169.33,
+  "end": 171.855
+ },
+ {
+  "i": 55,
+  "text": "Locaux, travaux, mobilier, matériel, premiers recrutements : souvent plusieurs centaines de milliers d'euros avant la première rentrée.",
+  "start": 172.465,
+  "end": 179.33
+ },
+ {
+  "i": 56,
+  "text": "Le vrai piège, c'est le démarrage.",
+  "start": 179.43,
+  "end": 181.4
+ },
+ {
+  "i": 57,
+  "text": "Les charges sont là dès le premier jour.",
+  "start": 181.5,
+  "end": 183.16
+ },
+ {
+  "i": 58,
+  "text": "Les inscriptions, elles, arrivent à leur rythme, et parfois trop lentement.",
+  "start": 183.26,
+  "end": 186.52
+ },
+ {
+  "i": 59,
+  "text": "Passons au sous contrat.",
+  "start": 186.62,
+  "end": 187.275
+ },
+ {
+  "i": 60,
+  "text": "Là, l'argent vient de trois sources.",
+  "start": 187.9,
+  "end": 190.89
+ },
+ {
+  "i": 61,
+  "text": "D'abord, l'État.",
+  "start": 191.335,
+  "end": 191.52
+ },
+ {
+  "i": 62,
+  "text": "D'après la Cour des comptes, il a versé environ 8 milliards d'euros en 2022, surtout pour rémunérer environ 142 000 enseignants.",
+  "start": 191.62,
+  "end": 198.6
+ },
+ {
+  "i": 63,
+  "text": "Ensuite, les collectivités.",
+  "start": 198.7,
+  "end": 200.47
+ },
+ {
+  "i": 64,
+  "text": "Les communes pour le primaire, les départements pour les collèges, les régions pour les lycées participent aux frais de fonctionnement, selon un principe de parité avec le public.",
+  "start": 200.57,
+  "end": 210.995
+ },
+ {
+  "i": 65,
+  "text": "C'est le forfait communal ou forfait d'externat.",
+  "start": 211.935,
+  "end": 212.23
+ },
+ {
+  "i": 66,
+  "text": "Enfin, les familles.",
+  "start": 212.47,
+  "end": 214.43
+ },
+ {
+  "i": 67,
+  "text": "Elles versent une contribution.",
+  "start": 215.155,
+  "end": 216.38
+ },
+ {
+  "i": 68,
+  "text": "Selon les chiffres cités à partir de la Cour des comptes, elle va de quelques centaines à plusieurs milliers d'euros par an selon le niveau.",
+  "start": 216.48,
+  "end": 222.61
+ },
+ {
+  "i": 69,
+  "text": "Et d'après certaines analyses, elle représenterait environ un quart du financement global d'un établissement.",
+  "start": 222.71,
+  "end": 227.065
+ },
+ {
+  "i": 70,
+  "text": "Et que finance-t-elle ?",
+  "start": 227.425,
+  "end": 230.05
+ },
+ {
+  "i": 71,
+  "text": "Surtout l'immobilier et ce que le contrat ne couvre pas.",
+  "start": 230.77,
+  "end": 231.725
+ },
+ {
+  "i": 72,
+  "text": "Parce qu'il y a un angle mort.",
+  "start": 232.19,
+  "end": 233.63
+ },
+ {
+  "i": 73,
+  "text": "Même sous contrat, les bâtiments restent à la charge de l'établissement.",
+  "start": 233.73,
+  "end": 237.15
+ },
+ {
+  "i": 74,
+  "text": "Les enseignants sont payés par l'État.",
+  "start": 237.595,
+  "end": 238.99
+ },
+ {
+  "i": 75,
+  "text": "Le fonctionnement courant est en partie couvert par les collectivités.",
+  "start": 239.09,
+  "end": 241.98
+ },
+ {
+  "i": 76,
+  "text": "Mais construire une salle, rénover une toiture, installer des alarmes, mettre aux normes un bâtiment ancien : c'est l'école qui doit trouver l'argent.",
+  "start": 242.08,
+  "end": 248.85
+ },
+ {
+  "i": 77,
+  "text": "Voilà pourquoi la contribution des familles, ou les dons, servent souvent à ça.",
+  "start": 248.95,
+  "end": 253.12
+ },
+ {
+  "i": 78,
+  "text": "Et c'est là que les budgets deviennent fragiles.",
+  "start": 253.64,
+  "end": 256.065
+ },
+ {
+  "i": 79,
+  "text": "Car un gros chantier peut peser sur les comptes pendant des années, souvent via un emprunt.",
+  "start": 256.38,
+  "end": 258.795
+ },
+ {
+  "i": 80,
+  "text": "Faisons un exercice, avec des chiffres purement illustratifs, pas ceux d'une école réelle.",
+  "start": 259.015,
+  "end": 263.725
+ },
+ {
+  "i": 81,
+  "text": "Imaginons une école de 100 élèves, avec des frais de scolarité de 6 000 euros par an.",
+  "start": 263.965,
+  "end": 267.715
+ },
+ {
+  "i": 82,
+  "text": "Ça donne 600 000 euros de recettes.",
+  "start": 268.515,
+  "end": 269.325
+ },
+ {
+  "i": 83,
+  "text": "Maintenant, les dépenses.",
+  "start": 269.97,
+  "end": 271.316
+ },
+ {
+  "i": 84,
+  "text": "Dix enseignants et trois personnes pour l'administration et la vie scolaire : à environ 40 000 euros chacun, charges comprises, on arrive à 520 000 euros de salaires.",
+  "start": 271.416,
+  "end": 278.54
+ },
+ {
+  "i": 85,
+  "text": "Ajoutez le loyer, disons 60 000 euros.",
+  "start": 278.795,
+  "end": 281.67
+ },
+ {
+  "i": 86,
+  "text": "Puis l'énergie, les assurances, l'informatique, la cantine : encore 40 000 euros.",
+  "start": 281.77,
+  "end": 286.635
+ },
+ {
+  "i": 87,
+  "text": "Total : 620 000 euros de dépenses, pour 600 000 de recettes.",
+  "start": 287.28,
+  "end": 290.585
+ },
+ {
+  "i": 88,
+  "text": "L'école perd 20 000 euros par an.",
+  "start": 291.655,
+  "end": 293.285
+ },
+ {
+  "i": 89,
+  "text": "Maintenant, passons à 130 élèves, sans embaucher personne.",
+  "start": 293.66,
+  "end": 297.228
+ },
+ {
+  "i": 90,
+  "text": "Les recettes montent à 780 000 euros.",
+  "start": 297.328,
+  "end": 299.68
+ },
+ {
+  "i": 91,
+  "text": "Les salaires et le loyer ne bougent presque pas.",
+  "start": 300.265,
+  "end": 301.6
+ },
+ {
+  "i": 92,
+  "text": "L'école gagne alors à peu près 150 000 euros.",
+  "start": 301.7,
+  "end": 304.439
+ },
+ {
+  "i": 93,
+  "text": "Trente élèves de plus, et on passe d'un déficit à un confortable excédent.",
+  "start": 304.539,
+  "end": 308.52
+ },
+ {
+  "i": 94,
+  "text": "C'est ça, l'effet de levier d'une école : des coûts fixes énormes, et une marge qui dépend du remplissage.",
+  "start": 309.025,
+  "end": 313.92
+ },
+ {
+  "i": 95,
+  "text": "Et à l'inverse, perdre quelques élèves en cours de route peut faire basculer les comptes dans le rouge.",
+  "start": 314.02,
+  "end": 318.72
+ },
+ {
+  "i": 96,
+  "text": "Que fait concrètement un directeur ?",
+  "start": 319.405,
+  "end": 321.795
+ },
+ {
+  "i": 97,
+  "text": "Il construit un budget, négocie avec la banque, recrute, gère les inscriptions, suit la trésorerie.",
+  "start": 322.005,
+  "end": 327.32
+ },
+ {
+  "i": 98,
+  "text": "Mais il ne cherche pas à maximiser un profit.",
+  "start": 328.01,
+  "end": 329.27
+ },
+ {
+  "i": 99,
+  "text": "Dans le sous contrat, la plupart des établissements sont gérés par des associations à but non lucratif.",
+  "start": 329.37,
+  "end": 334.73
+ },
+ {
+  "i": 100,
+  "text": "Les excédents doivent être réinvestis dans l'école.",
+  "start": 335.655,
+  "end": 336.395
+ },
+ {
+  "i": 101,
+  "text": "Dans le hors contrat, le statut est plus libre.",
+  "start": 336.71,
+  "end": 339.42
+ },
+ {
+  "i": 102,
+  "text": "Certaines écoles sont associatives, d'autres commerciales.",
+  "start": 339.52,
+  "end": 341.905
+ },
+ {
+  "i": 103,
+  "text": "Mais l'État surveille, notamment sur les contenus, la sécurité et l'honorabilité de la direction.",
+  "start": 342.31,
+  "end": 347.89
+ },
+ {
+  "i": 104,
+  "text": "Un directeur d'école doit donc jongler entre mission éducative et contraintes financières.",
+  "start": 347.99,
+  "end": 351.778
+ },
+ {
+  "i": 105,
+  "text": "Et la moindre erreur de prévision se paie cher.",
+  "start": 351.878,
+  "end": 354.495
+ },
+ {
+  "i": 106,
+  "text": "Reste une question : cet équilibre est-il stable ?",
+  "start": 354.91,
+  "end": 358.255
+ },
+ {
+  "i": 107,
+  "text": "Premier risque : la démographie.",
+  "start": 358.975,
+  "end": 360.98
+ },
+ {
+  "i": 108,
+  "text": "Le nombre d'élèves baisse en France depuis plusieurs années, et le ministère a constaté une baisse des effectifs à la rentrée 2024.",
+  "start": 361.43,
+  "end": 366.38
+ },
+ {
+  "i": 109,
+  "text": "Moins d'enfants, c'est moins d'inscriptions, donc des classes moins pleines.",
+  "start": 366.785,
+  "end": 369.925
+ },
+ {
+  "i": 110,
+  "text": "Deuxième risque : la concurrence.",
+  "start": 370.58,
+  "end": 372.47
+ },
+ {
+  "i": 111,
+  "text": "Entre écoles privées, mais aussi avec le public, qui peut lui aussi attirer les familles.",
+  "start": 372.65,
+  "end": 375.4
+ },
+ {
+  "i": 112,
+  "text": "Troisième risque : la règlementation.",
+  "start": 375.75,
+  "end": 378.412
+ },
+ {
+  "i": 113,
+  "text": "Contrôles renforcés, normes de sécurité, obligations de transparence : tout cela a un coût.",
+  "start": 378.512,
+  "end": 383.15
+ },
+ {
+  "i": 114,
+  "text": "Dernier risque, plus discret : la trésorerie.",
+  "start": 383.34,
+  "end": 387.0
+ },
+ {
+  "i": 115,
+  "text": "Les frais sont souvent payés par mensualités, mais certains coûts tombent d'un coup, à la rentrée ou après un chantier.",
+  "start": 387.325,
+  "end": 392.64
+ },
+ {
+  "i": 116,
+  "text": "Un bon directeur d'école est donc d'abord un bon gestionnaire de trésorerie.",
+  "start": 392.74,
+  "end": 396.38
+ },
+ {
+  "i": 117,
+  "text": "Et c'est là que le débat s'enflamme.",
+  "start": 396.54,
+  "end": 400.41
+ },
+ {
+  "i": 118,
+  "text": "Le montant exact du forfait d'externat fait régulièrement l'objet de désaccords.",
+  "start": 400.57,
+  "end": 404.12
+ },
+ {
+  "i": 119,
+  "text": "Les représentants de l'enseignement catholique réclament environ 900 millions d'euros par an qu'ils estiment manquants.",
+  "start": 404.22,
+  "end": 409.76
+ },
+ {
+  "i": 120,
+  "text": "Des députés jugent ce périmètre flou et sujet à contentieux.",
+  "start": 409.86,
+  "end": 413.92
+ },
+ {
+  "i": 121,
+  "text": "Côté public, la question inverse se pose : combien l'argent public finance-t-il vraiment ?",
+  "start": 414.47,
+  "end": 418.83
+ },
+ {
+  "i": 122,
+  "text": "La Cour des comptes elle-même reconnaît qu'on ne peut pas calculer précisément le coût réel d'un élève du privé, car l'État connaît mal toutes les ressources des écoles.",
+  "start": 418.93,
+  "end": 426.39
+ },
+ {
+  "i": 123,
+  "text": "Et les données manquent aussi pour les familles.",
+  "start": 426.815,
+  "end": 428.18
+ },
+ {
+  "i": 124,
+  "text": "Il n'existe pas de chiffre national fiable de ce qu'elles paient.",
+  "start": 428.28,
+  "end": 431.209
+ },
+ {
+  "i": 125,
+  "text": "Autrement dit, même au niveau des chiffres officiels, tout n'est pas clair.",
+  "start": 431.309,
+  "end": 435.755
+ },
+ {
+  "i": 126,
+  "text": "Alors, diriger une école, c'est quoi, financièrement ?",
+  "start": 436.035,
+  "end": 438.63
+ },
+ {
+  "i": 127,
+  "text": "Dans le hors contrat, c'est un pari.",
+  "start": 439.065,
+  "end": 440.5
+ },
+ {
+  "i": 128,
+  "text": "Des frais élevés, un gros investissement de départ, et une dépendance totale aux inscriptions.",
+  "start": 440.6,
+  "end": 445.265
+ },
+ {
+  "i": 129,
+  "text": "Dans le sous contrat, c'est un équilibre.",
+  "start": 445.71,
+  "end": 446.71
+ },
+ {
+  "i": 130,
+  "text": "Une aide publique massive, mais des règles strictes, des bâtiments à financer et des désaccords permanents sur les montants.",
+  "start": 447.025,
+  "end": 453.305
+ },
+ {
+  "i": 131,
+  "text": "Dans les deux cas, la même vérité : une école, c'est d'abord une masse salariale à financer, année après année.",
+  "start": 453.855,
+  "end": 458.76
+ },
+ {
+  "i": 132,
+  "text": "À retenir : les salaires sont le premier poste.",
+  "start": 458.945,
+  "end": 462.105
+ },
+ {
+  "i": 133,
+  "text": "L'État les prend en charge sous contrat, jamais en hors contrat.",
+  "start": 462.315,
+  "end": 464.873
+ },
+ {
+  "i": 134,
+  "text": "Les bâtiments restent à la charge de l'école.",
+  "start": 464.974,
+  "end": 467.515
+ },
+ {
+  "i": 135,
+  "text": "Et tout se joue sur le remplissage des classes.",
+  "start": 468.33,
+  "end": 469.516
+ },
+ {
+  "i": 136,
+  "text": "Et vous, à votre avis, une école devrait-elle être financée surtout par l'État ou par les familles ?",
+  "start": 469.616,
+  "end": 474.93
+ },
+ {
+  "i": 137,
+  "text": "Dites-le-moi en commentaire.",
+  "start": 475.03,
+  "end": 477.12
+ },
+ {
+  "i": 138,
+  "text": "Et abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes.",
+  "start": 477.29,
+  "end": 478.347
+ }
+]

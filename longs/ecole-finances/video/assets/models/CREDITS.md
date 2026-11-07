@@ -1,0 +1,15 @@
+- Metal Office Desk (`metal_office_desk`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/metal_office_desk
+- Modern Arm Chair 01 (`modern_arm_chair_01`), Poly Haven, CC0 (public domain). Authors: Vibrant Nordic. https://polyhaven.com/a/modern_arm_chair_01
+- Classic Laptop (`classic_laptop`), Poly Haven, CC0 (public domain). Authors: Arrangemonk. https://polyhaven.com/a/classic_laptop
+- Clipboard (`clipboard`), Poly Haven, CC0 (public domain). Authors: ProgrammerOnCoffee. https://polyhaven.com/a/clipboard
+- Wall Clock (`wall_clock`), Poly Haven, CC0 (public domain). Authors: PierreB3D. https://polyhaven.com/a/wall_clock
+- Cash Register 01 (`CashRegister_01`), Poly Haven, CC0 (public domain). Authors: Joe Seabuhr. https://polyhaven.com/a/CashRegister_01
+- Cardboard Box 01 (`cardboard_box_01`), Poly Haven, CC0 (public domain). Authors: Rahul Chaudhary. https://polyhaven.com/a/cardboard_box_01
+- Potted Plant 01 (`potted_plant_01`), Poly Haven, CC0 (public domain). Authors: Rico Cilliers. https://polyhaven.com/a/potted_plant_01
+- Plastic Crate 01 (`plastic_crate_01`), Poly Haven, CC0 (public domain). Authors: PierreB3D. https://polyhaven.com/a/plastic_crate_01
+- Modern Ceiling Lamp 01 (`modern_ceiling_lamp_01`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/modern_ceiling_lamp_01
+- Office Notepads (`office_notepads`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/office_notepads
+- Stationery Supplies (`stationery_supplies`), Poly Haven, CC0 (public domain). Authors: Mateusz Sadek. https://polyhaven.com/a/stationery_supplies
+- Binder Notebook (`binder_notebook`), Poly Haven, CC0 (public domain). Authors: DaDrood. https://polyhaven.com/a/binder_notebook
+- Wooden Bookshelf Worn (`wooden_bookshelf_worn`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/wooden_bookshelf_worn
+- Treasure Chest (`treasure_chest`), Poly Haven, CC0 (public domain). Authors: Rico Cilliers. https://polyhaven.com/a/treasure_chest
