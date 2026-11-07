@@ -1,61 +1,105 @@
 # Diriger une école : les aspects financiers
-Format : vidéo longue 16:9 (1920×1080), cible ≈ 6 min (≈ 1 100 mots à 3,1 mots/s).
-Découpage en 7 chapitres : chaque chapitre = un fichier WAV à générer (ch1.wav … ch7.wav).
+Format : vidéo longue 16:9 (1920×1080), cible 8 à 10 min (≈ 1 650 mots à 3,1 mots/s).
+12 chapitres = 12 fichiers WAV à générer (ch01.wav … ch12.wav). Les pauses entre chapitres sont gérées au montage.
 
-## CH1 — Accroche (≈ 25 s)
-Une école, ce n'est pas un commerce comme les autres. Pourtant, quand on la dirige, il faut payer des salaires, un loyer, des assurances, et tout ça avant la première rentrée.
-Alors une question simple : d'où vient réellement l'argent ?
-Parce qu'il existe deux façons de diriger une école en France. Et elles n'ont presque rien à voir.
-Dans cette vidéo, on ouvre les comptes d'une école, poste par poste.
+## CH01 — Accroche (≈ 40 s)
+Une école, ce n'est pas un commerce comme les autres. Pourtant, quand on la dirige, il faut payer des salaires, un loyer, des assurances, une cantine, du chauffage. Et tout ça avant même la première rentrée.
+Alors une question simple : d'où vient réellement l'argent d'une école ?
+Parce qu'en France, il existe deux façons de diriger une école privée. Et leurs comptes n'ont presque rien en commun.
+Dans cette vidéo, on ouvre le budget d'une école, poste par poste. Qui paie quoi, ce qui coûte le plus cher, et où se cachent les risques.
+On fera même une simulation chiffrée, pour voir comment trente élèves de plus peuvent transformer un déficit en excédent.
 
-## CH2 — Deux mondes : privé hors contrat et sous contrat (≈ 55 s)
+## CH02 — Deux mondes : hors contrat et sous contrat (≈ 60 s)
 Première distinction, qui change tout : le contrat avec l'État.
-Dans une école hors contrat, vous êtes libre de votre programme, de vos recrutements, de vos horaires. Mais vous êtes seul pour payer. Chaque euro vient des familles.
-Dans une école sous contrat, c'est l'inverse. L'État prend en charge la rémunération des enseignants. En échange, vous suivez les programmes nationaux, et vous acceptez des contrôles.
-En France, plus de 2 millions d'élèves, soit environ 17 % des effectifs, sont dans l'enseignement privé sous contrat, réparti dans un peu plus de 7 500 établissements.
-Le hors contrat, lui, reste une toute petite niche.
+Une école hors contrat est libre. Libre de son programme, de ses recrutements, de sa pédagogie. Mais elle est seule pour payer. Chaque euro vient des familles, ou de dons.
+Une école sous contrat, c'est l'inverse. Elle suit les programmes nationaux et accepte des contrôles. En échange, l'État prend en charge la rémunération des enseignants.
+Les ordres de grandeur sont très différents. Le sous contrat, c'est plus de 2 millions d'élèves, environ 17 % des effectifs, dans un peu plus de 7 500 établissements, selon la Cour des comptes.
+Le hors contrat, lui, est minuscule. Mais il grandit : dans le primaire, le nombre d'écoles a plus que doublé entre 2015 et 2022, pour atteindre environ 2 % des écoles.
 
-## CH3 — Le plus gros poste : les salaires (≈ 60 s)
-Dans une école, le premier poste de dépenses est toujours le même : les gens.
-Des enseignants, bien sûr. Mais aussi de la direction, de l'administratif, de la vie scolaire, de l'entretien, de la cantine.
-Pour les ordres de grandeur, les analystes de ce secteur estiment que les salaires pèsent souvent plus de la moitié du budget d'une école, et parfois bien davantage.
-Voilà pourquoi tout l'équilibre financier tient à une seule question : qui paie les enseignants ?
-Dans le hors contrat, c'est l'école. Donc chaque classe ouverte avec trop peu d'élèves fait mécaniquement perdre de l'argent.
-Dans le sous contrat, c'est l'État, ce qui allège énormément la charge.
+## CH03 — Les dépenses : où part l'argent ? (≈ 60 s)
+Regardons d'abord les dépenses. Dans une école, on retrouve quatre grands blocs.
+Un : les salaires. Enseignants, direction, administration, surveillants, agents d'entretien.
+Deux : les locaux. Loyer ou remboursement d'un emprunt, travaux, mise aux normes, sécurité incendie, accessibilité.
+Trois : le fonctionnement. Énergie, assurances, fournitures, informatique, cantine.
+Quatre : tout ce qui est pédagogique. Manuels, matériel, sorties, activités.
+Et dans presque tous les cas, un poste écrase les autres.
 
-## CH4 — Le hors contrat : tout repose sur les frais de scolarité (≈ 60 s)
-Prenons le cas d'une école hors contrat.
-Ses revenus ? Les frais de scolarité. Ils varient énormément : de quelques milliers d'euros par an et par élève jusqu'à plusieurs dizaines de milliers pour les établissements les plus chers.
-Pour tenir, il faut atteindre un seuil de rentabilité. Les sites spécialisés l'estiment à plusieurs dizaines, voire à quelques centaines d'élèves, selon les frais et les locaux.
-Et avant d'accueillir le premier enfant, il faut investir. Locaux, travaux de sécurité, mobilier, matériel pédagogique, recrutement : souvent plusieurs centaines de milliers d'euros avant la première rentrée.
-Le piège, c'est le démarrage. Les charges sont là dès le premier jour. Les élèves, eux, arrivent progressivement.
+## CH04 — Les salaires : le poste qui décide de tout (≈ 70 s)
+Ce poste, ce sont les salaires. Dans une école, ils représentent généralement plus de la moitié du budget, et souvent bien davantage.
+Pourquoi ? Parce qu'une école vend du temps humain. Un enseignant pour une classe. Un surveillant pour une cour. Une personne à l'accueil.
+Et ce coût n'est pas souple. Une classe de trente élèves coûte presque autant à faire tourner qu'une classe de vingt. Alors le taux de remplissage devient la variable clé.
+Voilà pourquoi toute l'économie d'une école repose sur une seule question : qui paie les enseignants ?
+Dans le hors contrat, c'est l'école. Une classe ouverte avec trop peu d'élèves fait mécaniquement perdre de l'argent.
+Dans le sous contrat, c'est l'État. Cela allège énormément la charge, mais pas tous les coûts, comme on va le voir.
 
-## CH5 — Le sous contrat : l'État, mais pas seulement (≈ 70 s)
-Passons au sous contrat. Là, l'argent vient de plusieurs sources.
-D'abord, l'État. D'après la Cour des comptes, il a versé environ 8 milliards d'euros en 2022 à l'enseignement privé sous contrat, surtout pour payer environ 142 000 enseignants.
-Ensuite, les collectivités. Les communes pour le primaire, les départements pour les collèges, les régions pour les lycées participent aux frais de fonctionnement, avec un principe de parité avec le public. C'est le forfait d'externat, ou forfait communal.
-Enfin, les familles. Elles paient une contribution, souvent plus basse que dans le hors contrat, qui finance l'immobilier, les activités et ce que le contrat ne couvre pas.
-Résultat : un directeur d'école sous contrat gère un budget très encadré. Mais il dépend de décisions publiques.
+## CH05 — Le hors contrat : tout repose sur les familles (≈ 75 s)
+Prenons d'abord une école hors contrat.
+Ses revenus ? Les frais de scolarité. Ils varient énormément : de quelques milliers d'euros par an et par élève jusqu'à plusieurs dizaines de milliers pour certains établissements internationaux.
+Pour tenir, il faut atteindre un seuil de rentabilité, c'est-à-dire un nombre minimum d'élèves. Les sites spécialisés l'estiment entre une centaine et quelques centaines d'élèves, selon les frais et les locaux. Ce sont des estimations, pas des statistiques officielles.
+Et avant d'accueillir le premier enfant, il faut investir. Locaux, travaux, mobilier, matériel, premiers recrutements : souvent plusieurs centaines de milliers d'euros avant la première rentrée.
+Le vrai piège, c'est le démarrage. Les charges sont là dès le premier jour. Les inscriptions, elles, arrivent à leur rythme, et parfois trop lentement.
 
-## CH6 — Les points de friction (≈ 55 s)
-Et c'est là que ça se discute.
-Le montant exact du forfait d'externat fait régulièrement l'objet de désaccords entre les collectivités et les réseaux d'écoles. Les représentants de l'enseignement catholique réclament environ 900 millions d'euros par an qu'ils estiment manquants. Des députés jugent ce périmètre flou et sujet à contentieux.
-Et sur le coût réel pour le contribuable, la Cour des comptes elle-même dit qu'on ne peut pas le calculer précisément : l'État ne connaît pas assez bien toutes les ressources des écoles.
+## CH06 — Le sous contrat : l'État, les collectivités, les familles (≈ 80 s)
+Passons au sous contrat. Là, l'argent vient de trois sources.
+D'abord, l'État. D'après la Cour des comptes, il a versé environ 8 milliards d'euros en 2022, surtout pour rémunérer environ 142 000 enseignants.
+Ensuite, les collectivités. Les communes pour le primaire, les départements pour les collèges, les régions pour les lycées participent aux frais de fonctionnement, selon un principe de parité avec le public. C'est le forfait communal ou forfait d'externat.
+Enfin, les familles. Elles versent une contribution. Selon les chiffres cités à partir de la Cour des comptes, elle va de quelques centaines à plusieurs milliers d'euros par an selon le niveau. Et d'après certaines analyses, elle représenterait environ un quart du financement global d'un établissement.
+Et que finance-t-elle ? Surtout l'immobilier et ce que le contrat ne couvre pas.
+
+## CH07 — L'immobilier : le coût qu'on oublie (≈ 60 s)
+Parce qu'il y a un angle mort. Même sous contrat, les bâtiments restent à la charge de l'établissement.
+Les enseignants sont payés par l'État. Le fonctionnement courant est en partie couvert par les collectivités. Mais construire une salle, rénover une toiture, installer des alarmes, mettre aux normes un bâtiment ancien : c'est l'école qui doit trouver l'argent.
+Voilà pourquoi la contribution des familles, ou les dons, servent souvent à ça.
+Et c'est là que les budgets deviennent fragiles. Car un gros chantier peut peser sur les comptes pendant des années, souvent via un emprunt.
+
+## CH08 — Simulation chiffrée : une petite école hors contrat (≈ 110 s)
+Faisons un exercice, avec des chiffres purement illustratifs, pas ceux d'une école réelle.
+Imaginons une école de 100 élèves, avec des frais de scolarité de 6 000 euros par an. Ça donne 600 000 euros de recettes.
+Maintenant, les dépenses. Dix enseignants et trois personnes pour l'administration et la vie scolaire : à environ 40 000 euros chacun, charges comprises, on arrive à 520 000 euros de salaires.
+Ajoutez le loyer, disons 60 000 euros. Puis l'énergie, les assurances, l'informatique, la cantine : encore 40 000 euros.
+Total : 620 000 euros de dépenses, pour 600 000 de recettes. L'école perd 20 000 euros par an.
+Maintenant, passons à 130 élèves, sans embaucher personne. Les recettes montent à 780 000 euros. Les salaires et le loyer ne bougent presque pas. L'école gagne alors à peu près 150 000 euros.
+Trente élèves de plus, et on passe d'un déficit à un confortable excédent. C'est ça, l'effet de levier d'une école : des coûts fixes énormes, et une marge qui dépend du remplissage.
+Et à l'inverse, perdre quelques élèves en cours de route peut faire basculer les comptes dans le rouge.
+
+## CH09 — Le directeur : un chef d'entreprise qui n'en a pas le droit ? (≈ 55 s)
+Que fait concrètement un directeur ? Il construit un budget, négocie avec la banque, recrute, gère les inscriptions, suit la trésorerie.
+Mais il ne cherche pas à maximiser un profit. Dans le sous contrat, la plupart des établissements sont gérés par des associations à but non lucratif. Les excédents doivent être réinvestis dans l'école.
+Dans le hors contrat, le statut est plus libre. Certaines écoles sont associatives, d'autres commerciales. Mais l'État surveille, notamment sur les contenus, la sécurité et l'honorabilité de la direction.
+Un directeur d'école doit donc jongler entre mission éducative et contraintes financières. Et la moindre erreur de prévision se paie cher.
+
+## CH10 — Les risques à venir (≈ 70 s)
+Reste une question : cet équilibre est-il stable ?
+Premier risque : la démographie. Le nombre d'élèves baisse en France depuis plusieurs années, et le ministère a constaté une baisse des effectifs à la rentrée 2024. Moins d'enfants, c'est moins d'inscriptions, donc des classes moins pleines.
+Deuxième risque : la concurrence. Entre écoles privées, mais aussi avec le public, qui peut lui aussi attirer les familles.
+Troisième risque : la règlementation. Contrôles renforcés, normes de sécurité, obligations de transparence : tout cela a un coût.
+Dernier risque, plus discret : la trésorerie. Les frais sont souvent payés par mensualités, mais certains coûts tombent d'un coup, à la rentrée ou après un chantier.
+Un bon directeur d'école est donc d'abord un bon gestionnaire de trésorerie.
+
+## CH11 — Les points de friction (≈ 65 s)
+Et c'est là que le débat s'enflamme.
+Le montant exact du forfait d'externat fait régulièrement l'objet de désaccords. Les représentants de l'enseignement catholique réclament environ 900 millions d'euros par an qu'ils estiment manquants. Des députés jugent ce périmètre flou et sujet à contentieux.
+Côté public, la question inverse se pose : combien l'argent public finance-t-il vraiment ? La Cour des comptes elle-même reconnaît qu'on ne peut pas calculer précisément le coût réel d'un élève du privé, car l'État connaît mal toutes les ressources des écoles.
+Et les données manquent aussi pour les familles. Il n'existe pas de chiffre national fiable de ce qu'elles paient.
 Autrement dit, même au niveau des chiffres officiels, tout n'est pas clair.
 
-## CH7 — Conclusion + appel à l'action (≈ 35 s)
+## CH12 — Conclusion + appel à l'action (≈ 55 s)
 Alors, diriger une école, c'est quoi, financièrement ?
-Dans le hors contrat, c'est un pari : des frais élevés, un gros investissement de départ, et une dépendance totale aux inscriptions.
-Dans le sous contrat, c'est un équilibre : une aide publique massive, mais des règles strictes et des désaccords permanents sur les montants.
+Dans le hors contrat, c'est un pari. Des frais élevés, un gros investissement de départ, et une dépendance totale aux inscriptions.
+Dans le sous contrat, c'est un équilibre. Une aide publique massive, mais des règles strictes, des bâtiments à financer et des désaccords permanents sur les montants.
 Dans les deux cas, la même vérité : une école, c'est d'abord une masse salariale à financer, année après année.
+À retenir : les salaires sont le premier poste. L'État les prend en charge sous contrat, jamais en hors contrat. Les bâtiments restent à la charge de l'école. Et tout se joue sur le remplissage des classes.
 Et vous, à votre avis, une école devrait-elle être financée surtout par l'État ou par les familles ? Dites-le-moi en commentaire.
 Et abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes.
 
 ---
 
 ## Sources et niveau de fiabilité (à garder pour la description)
-- Cour des comptes, « L'enseignement privé sous contrat », 1er juin 2023 (via vie-publique.fr) : ≈ 8 Md€ de l'État en 2022, ≈ 142 000 enseignants, > 2 M d'élèves, 17,6 % des effectifs, ≈ 7 500 établissements ; coût réel par élève non calculable. **Fiable (source officielle).**
-- Forfait d'externat / loi Debré 1959, Chevènement 1985, Carle 2009 : Banque des Territoires, Maire-info, rapport Vannier–Weissberg (Assemblée nationale). **Plutôt fiable ; le montant du forfait 2026 n'est pas vérifié.**
-- « ≈ 900 M€ par an réclamés » : chiffre de la Fnogec cité par des élus. **Revendication d'une partie, pas un chiffre officiel.**
-- Frais de scolarité, seuil de rentabilité, investissement de départ, part de la masse salariale : sites de business plan (modelesdebusinessplan.com) et estimations commerciales. **Faible fiabilité : j'ai volontairement gardé des ordres de grandeur, à vérifier avant publication.**
-- Écart de coût public/privé par élève (46–55 %) : débattu (l'enseignement catholique donne un autre chiffre) : **non utilisé dans le script.**
+- Cour des comptes, « L'enseignement privé sous contrat », 1er juin 2023 (vie-publique.fr) : ≈ 8 Md€ de l'État en 2022, ≈ 142 000 enseignants, > 2 M d'élèves, 17,6 %, ≈ 7 500 établissements ; coût réel par élève non calculable. **Fiable (source officielle).**
+- Contribution des familles (de quelques centaines à ≈ 8 000 € selon le niveau ; ≈ 1/4 du financement) : relayé par copeps.fr, qui cite la Cour des comptes. **Source secondaire, à vérifier dans le rapport ; pas de moyenne nationale fiable (L'Étudiant).**
+- Forfait d'externat / lois Debré 1959, Chevènement 1985, Carle 2009 : Banque des Territoires, Maire-info, rapport Vannier–Weissberg. **Plutôt fiable ; montant 2026 non vérifié.**
+- « ≈ 900 M€ par an réclamés » : Fnogec, cité par des élus. **Revendication, pas un chiffre officiel.**
+- Hors contrat : le nombre d'écoles du premier degré a plus que doublé entre 2015 et 2022, à 2,2 % des écoles (Repères et références statistiques du ministère, 2023). **Fiable.**
+- Frais de scolarité hors contrat, seuil de rentabilité, investissement de départ, poids des salaires : sites de business plan (modelesdebusinessplan.com). **Faible fiabilité : ordres de grandeur uniquement, à vérifier avant publication.**
+- Bâtiments à la charge de l'établissement, statut associatif : connaissance générale du secteur, à recouper avant tournage si tu veux citer un texte (code de l'éducation).
+- Écart de coût public/privé par élève : débattu, **non utilisé**.
