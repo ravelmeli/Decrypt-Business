@@ -1,0 +1,8516 @@
+[
+  {
+    "text": "Une",
+    "start": 0.01,
+    "end": 0.15,
+    "id": "w0"
+  },
+  {
+    "text": "école,",
+    "start": 0.21,
+    "end": 0.48,
+    "id": "w1"
+  },
+  {
+    "text": "ce",
+    "start": 0.55,
+    "end": 0.65,
+    "id": "w2"
+  },
+  {
+    "text": "n'est",
+    "start": 0.65,
+    "end": 0.88,
+    "id": "w3"
+  },
+  {
+    "text": "pas",
+    "start": 0.88,
+    "end": 1.15,
+    "id": "w4"
+  },
+  {
+    "text": "un",
+    "start": 1.15,
+    "end": 1.18,
+    "id": "w5"
+  },
+  {
+    "text": "commerce",
+    "start": 1.18,
+    "end": 1.62,
+    "id": "w6"
+  },
+  {
+    "text": "comme",
+    "start": 1.62,
+    "end": 1.89,
+    "id": "w7"
+  },
+  {
+    "text": "les",
+    "start": 1.89,
+    "end": 2.04,
+    "id": "w8"
+  },
+  {
+    "text": "autres.",
+    "start": 2.06,
+    "end": 2.59,
+    "id": "w9"
+  },
+  {
+    "text": "Pourtant,",
+    "start": 3.1,
+    "end": 3.25,
+    "id": "w10"
+  },
+  {
+    "text": "quand",
+    "start": 3.4,
+    "end": 3.57,
+    "id": "w11"
+  },
+  {
+    "text": "on",
+    "start": 3.57,
+    "end": 3.7,
+    "id": "w12"
+  },
+  {
+    "text": "la",
+    "start": 3.7,
+    "end": 3.83,
+    "id": "w13"
+  },
+  {
+    "text": "dirige,",
+    "start": 3.83,
+    "end": 4.37,
+    "id": "w14"
+  },
+  {
+    "text": "il",
+    "start": 4.38,
+    "end": 4.47,
+    "id": "w15"
+  },
+  {
+    "text": "faut",
+    "start": 4.47,
+    "end": 4.65,
+    "id": "w16"
+  },
+  {
+    "text": "payer",
+    "start": 4.65,
+    "end": 4.87,
+    "id": "w17"
+  },
+  {
+    "text": "des",
+    "start": 4.87,
+    "end": 5,
+    "id": "w18"
+  },
+  {
+    "text": "salaires,",
+    "start": 5,
+    "end": 5.45,
+    "id": "w19"
+  },
+  {
+    "text": "un",
+    "start": 5.45,
+    "end": 5.56,
+    "id": "w20"
+  },
+  {
+    "text": "loyer,",
+    "start": 5.63,
+    "end": 5.95,
+    "id": "w21"
+  },
+  {
+    "text": "des",
+    "start": 5.95,
+    "end": 6.22,
+    "id": "w22"
+  },
+  {
+    "text": "assurances,",
+    "start": 6.22,
+    "end": 6.84,
+    "id": "w23"
+  },
+  {
+    "text": "une",
+    "start": 6.97,
+    "end": 7.02,
+    "id": "w24"
+  },
+  {
+    "text": "cantine,",
+    "start": 7.26,
+    "end": 7.56,
+    "id": "w25"
+  },
+  {
+    "text": "du",
+    "start": 7.56,
+    "end": 7.68,
+    "id": "w26"
+  },
+  {
+    "text": "chauffage,",
+    "start": 7.68,
+    "end": 8.34,
+    "id": "w27"
+  },
+  {
+    "text": "et",
+    "start": 8.34,
+    "end": 8.38,
+    "id": "w28"
+  },
+  {
+    "text": "tout",
+    "start": 8.49,
+    "end": 8.7,
+    "id": "w29"
+  },
+  {
+    "text": "ça",
+    "start": 8.7,
+    "end": 8.76,
+    "id": "w30"
+  },
+  {
+    "text": "avant",
+    "start": 8.83,
+    "end": 9.1,
+    "id": "w31"
+  },
+  {
+    "text": "même",
+    "start": 9.11,
+    "end": 9.35,
+    "id": "w32"
+  },
+  {
+    "text": "la",
+    "start": 9.35,
+    "end": 9.42,
+    "id": "w33"
+  },
+  {
+    "text": "première",
+    "start": 9.49,
+    "end": 9.69,
+    "id": "w34"
+  },
+  {
+    "text": "rentrée.",
+    "start": 10.07,
+    "end": 10.62,
+    "id": "w35"
+  },
+  {
+    "text": "Alors,",
+    "start": 10.62,
+    "end": 11.21,
+    "id": "w36"
+  },
+  {
+    "text": "une",
+    "start": 11.21,
+    "end": 11.8,
+    "id": "w37"
+  },
+  {
+    "text": "question",
+    "start": 11.8,
+    "end": 11.96,
+    "id": "w38"
+  },
+  {
+    "text": "simple.",
+    "start": 11.96,
+    "end": 12.66,
+    "id": "w39"
+  },
+  {
+    "text": "D'où",
+    "start": 12.66,
+    "end": 13.21,
+    "id": "w40"
+  },
+  {
+    "text": "vient",
+    "start": 13.21,
+    "end": 13.3,
+    "id": "w41"
+  },
+  {
+    "text": "réellement",
+    "start": 13.45,
+    "end": 14.04,
+    "id": "w42"
+  },
+  {
+    "text": "l'argent",
+    "start": 14.04,
+    "end": 14.62,
+    "id": "w43"
+  },
+  {
+    "text": "d'une",
+    "start": 14.62,
+    "end": 14.98,
+    "id": "w44"
+  },
+  {
+    "text": "école?",
+    "start": 14.98,
+    "end": 15.63,
+    "id": "w45"
+  },
+  {
+    "text": "Parce",
+    "start": 15.63,
+    "end": 15.94,
+    "id": "w46"
+  },
+  {
+    "text": "qu'en",
+    "start": 15.94,
+    "end": 16.12,
+    "id": "w47"
+  },
+  {
+    "text": "France,",
+    "start": 16.19,
+    "end": 16.52,
+    "id": "w48"
+  },
+  {
+    "text": "il",
+    "start": 16.52,
+    "end": 16.82,
+    "id": "w49"
+  },
+  {
+    "text": "existe",
+    "start": 16.82,
+    "end": 16.94,
+    "id": "w50"
+  },
+  {
+    "text": "deux",
+    "start": 16.94,
+    "end": 17.06,
+    "id": "w51"
+  },
+  {
+    "text": "façons",
+    "start": 17.17,
+    "end": 17.44,
+    "id": "w52"
+  },
+  {
+    "text": "de",
+    "start": 17.44,
+    "end": 17.54,
+    "id": "w53"
+  },
+  {
+    "text": "diriger",
+    "start": 17.54,
+    "end": 17.89,
+    "id": "w54"
+  },
+  {
+    "text": "une",
+    "start": 17.89,
+    "end": 18.03,
+    "id": "w55"
+  },
+  {
+    "text": "école",
+    "start": 18.04,
+    "end": 18.28,
+    "id": "w56"
+  },
+  {
+    "text": "privée.",
+    "start": 18.28,
+    "end": 18.62,
+    "id": "w57"
+  },
+  {
+    "text": "Et",
+    "start": 18.62,
+    "end": 18.92,
+    "id": "w58"
+  },
+  {
+    "text": "leurs",
+    "start": 18.92,
+    "end": 19.22,
+    "id": "w59"
+  },
+  {
+    "text": "comptes",
+    "start": 19.22,
+    "end": 19.32,
+    "id": "w60"
+  },
+  {
+    "text": "n'ont",
+    "start": 19.32,
+    "end": 19.55,
+    "id": "w61"
+  },
+  {
+    "text": "presque",
+    "start": 19.57,
+    "end": 19.87,
+    "id": "w62"
+  },
+  {
+    "text": "rien",
+    "start": 19.87,
+    "end": 20.17,
+    "id": "w63"
+  },
+  {
+    "text": "en",
+    "start": 20.17,
+    "end": 20.22,
+    "id": "w64"
+  },
+  {
+    "text": "commun.",
+    "start": 20.22,
+    "end": 20.72,
+    "id": "w65"
+  },
+  {
+    "text": "Dans",
+    "start": 20.72,
+    "end": 21.095,
+    "id": "w66"
+  },
+  {
+    "text": "cette",
+    "start": 21.095,
+    "end": 21.47,
+    "id": "w67"
+  },
+  {
+    "text": "vidéo,",
+    "start": 21.47,
+    "end": 21.68,
+    "id": "w68"
+  },
+  {
+    "text": "on",
+    "start": 21.76,
+    "end": 21.8,
+    "id": "w69"
+  },
+  {
+    "text": "ouvre",
+    "start": 21.8,
+    "end": 22.1,
+    "id": "w70"
+  },
+  {
+    "text": "le",
+    "start": 22.1,
+    "end": 22.22,
+    "id": "w71"
+  },
+  {
+    "text": "budget",
+    "start": 22.22,
+    "end": 22.34,
+    "id": "w72"
+  },
+  {
+    "text": "d'une",
+    "start": 22.61,
+    "end": 22.89,
+    "id": "w73"
+  },
+  {
+    "text": "école,",
+    "start": 22.95,
+    "end": 23.38,
+    "id": "w74"
+  },
+  {
+    "text": "poste",
+    "start": 23.38,
+    "end": 23.7,
+    "id": "w75"
+  },
+  {
+    "text": "par",
+    "start": 23.7,
+    "end": 23.89,
+    "id": "w76"
+  },
+  {
+    "text": "poste.",
+    "start": 23.89,
+    "end": 24.28,
+    "id": "w77"
+  },
+  {
+    "text": "Qui",
+    "start": 24.45,
+    "end": 24.59,
+    "id": "w78"
+  },
+  {
+    "text": "paie",
+    "start": 24.7,
+    "end": 24.8,
+    "id": "w79"
+  },
+  {
+    "text": "quoi,",
+    "start": 24.8,
+    "end": 25.11,
+    "id": "w80"
+  },
+  {
+    "text": "ce",
+    "start": 25.11,
+    "end": 25.21,
+    "id": "w81"
+  },
+  {
+    "text": "qui",
+    "start": 25.21,
+    "end": 25.32,
+    "id": "w82"
+  },
+  {
+    "text": "coûte",
+    "start": 25.53,
+    "end": 25.63,
+    "id": "w83"
+  },
+  {
+    "text": "le",
+    "start": 25.63,
+    "end": 25.73,
+    "id": "w84"
+  },
+  {
+    "text": "plus",
+    "start": 25.73,
+    "end": 25.86,
+    "id": "w85"
+  },
+  {
+    "text": "cher,",
+    "start": 25.97,
+    "end": 26.24,
+    "id": "w86"
+  },
+  {
+    "text": "et",
+    "start": 26.31,
+    "end": 26.35,
+    "id": "w87"
+  },
+  {
+    "text": "où",
+    "start": 26.35,
+    "end": 26.45,
+    "id": "w88"
+  },
+  {
+    "text": "se",
+    "start": 26.45,
+    "end": 26.51,
+    "id": "w89"
+  },
+  {
+    "text": "cachent",
+    "start": 26.57,
+    "end": 26.9,
+    "id": "w90"
+  },
+  {
+    "text": "les",
+    "start": 26.97,
+    "end": 27.08,
+    "id": "w91"
+  },
+  {
+    "text": "risques.",
+    "start": 27.08,
+    "end": 27.72,
+    "id": "w92"
+  },
+  {
+    "text": "On",
+    "start": 28.45,
+    "end": 28.53,
+    "id": "w93"
+  },
+  {
+    "text": "fera",
+    "start": 28.53,
+    "end": 28.74,
+    "id": "w94"
+  },
+  {
+    "text": "même",
+    "start": 28.74,
+    "end": 28.91,
+    "id": "w95"
+  },
+  {
+    "text": "une",
+    "start": 28.91,
+    "end": 29.05,
+    "id": "w96"
+  },
+  {
+    "text": "simulation",
+    "start": 29.05,
+    "end": 29.32,
+    "id": "w97"
+  },
+  {
+    "text": "chiffrée,",
+    "start": 29.62,
+    "end": 29.94,
+    "id": "w98"
+  },
+  {
+    "text": "pour",
+    "start": 29.94,
+    "end": 30.25,
+    "id": "w99"
+  },
+  {
+    "text": "voir",
+    "start": 30.25,
+    "end": 30.34,
+    "id": "w100"
+  },
+  {
+    "text": "comment",
+    "start": 30.54,
+    "end": 30.72,
+    "id": "w101"
+  },
+  {
+    "text": "30",
+    "start": 30.73,
+    "end": 31.05,
+    "id": "w102"
+  },
+  {
+    "text": "élèves",
+    "start": 31.05,
+    "end": 31.36,
+    "id": "w103"
+  },
+  {
+    "text": "de",
+    "start": 31.41,
+    "end": 31.46,
+    "id": "w104"
+  },
+  {
+    "text": "plus",
+    "start": 31.46,
+    "end": 31.67,
+    "id": "w105"
+  },
+  {
+    "text": "peuvent",
+    "start": 31.77,
+    "end": 32.04,
+    "id": "w106"
+  },
+  {
+    "text": "transformer",
+    "start": 32.04,
+    "end": 32.62,
+    "id": "w107"
+  },
+  {
+    "text": "un",
+    "start": 32.62,
+    "end": 32.7,
+    "id": "w108"
+  },
+  {
+    "text": "déficit",
+    "start": 32.77,
+    "end": 33.05,
+    "id": "w109"
+  },
+  {
+    "text": "en",
+    "start": 33.08,
+    "end": 33.11,
+    "id": "w110"
+  },
+  {
+    "text": "excédent.",
+    "start": 33.35,
+    "end": 33.85,
+    "id": "w111"
+  },
+  {
+    "text": "Première",
+    "start": 33.85,
+    "end": 34.82,
+    "id": "w112"
+  },
+  {
+    "text": "distinction",
+    "start": 34.82,
+    "end": 35.01,
+    "id": "w113"
+  },
+  {
+    "text": "qui",
+    "start": 35.07,
+    "end": 35.21,
+    "id": "w114"
+  },
+  {
+    "text": "change",
+    "start": 35.21,
+    "end": 35.4,
+    "id": "w115"
+  },
+  {
+    "text": "tout.",
+    "start": 35.7,
+    "end": 35.94,
+    "id": "w116"
+  },
+  {
+    "text": "Le",
+    "start": 35.94,
+    "end": 36.31,
+    "id": "w117"
+  },
+  {
+    "text": "contrat",
+    "start": 36.31,
+    "end": 36.68,
+    "id": "w118"
+  },
+  {
+    "text": "avec",
+    "start": 36.68,
+    "end": 36.87,
+    "id": "w119"
+  },
+  {
+    "text": "l'État.",
+    "start": 36.93,
+    "end": 37.58,
+    "id": "w120"
+  },
+  {
+    "text": "Une",
+    "start": 37.58,
+    "end": 37.975,
+    "id": "w121"
+  },
+  {
+    "text": "école",
+    "start": 37.975,
+    "end": 38.37,
+    "id": "w122"
+  },
+  {
+    "text": "hors",
+    "start": 38.37,
+    "end": 38.42,
+    "id": "w123"
+  },
+  {
+    "text": "contrat",
+    "start": 38.66,
+    "end": 38.92,
+    "id": "w124"
+  },
+  {
+    "text": "est",
+    "start": 38.93,
+    "end": 39.13,
+    "id": "w125"
+  },
+  {
+    "text": "libre.",
+    "start": 39.13,
+    "end": 39.74,
+    "id": "w126"
+  },
+  {
+    "text": "Libre",
+    "start": 39.74,
+    "end": 39.965,
+    "id": "w127"
+  },
+  {
+    "text": "de",
+    "start": 39.965,
+    "end": 40.19,
+    "id": "w128"
+  },
+  {
+    "text": "son",
+    "start": 40.19,
+    "end": 40.26,
+    "id": "w129"
+  },
+  {
+    "text": "programme,",
+    "start": 40.48,
+    "end": 40.84,
+    "id": "w130"
+  },
+  {
+    "text": "de",
+    "start": 40.84,
+    "end": 40.94,
+    "id": "w131"
+  },
+  {
+    "text": "ses",
+    "start": 40.94,
+    "end": 41.06,
+    "id": "w132"
+  },
+  {
+    "text": "recrutements,",
+    "start": 41.26,
+    "end": 41.84,
+    "id": "w133"
+  },
+  {
+    "text": "de",
+    "start": 41.84,
+    "end": 41.94,
+    "id": "w134"
+  },
+  {
+    "text": "sa",
+    "start": 41.94,
+    "end": 41.98,
+    "id": "w135"
+  },
+  {
+    "text": "pédagogie.",
+    "start": 42.05,
+    "end": 42.72,
+    "id": "w136"
+  },
+  {
+    "text": "Mais",
+    "start": 42.72,
+    "end": 42.995,
+    "id": "w137"
+  },
+  {
+    "text": "elle",
+    "start": 42.995,
+    "end": 43.27,
+    "id": "w138"
+  },
+  {
+    "text": "est",
+    "start": 43.27,
+    "end": 43.39,
+    "id": "w139"
+  },
+  {
+    "text": "seule",
+    "start": 43.56,
+    "end": 43.68,
+    "id": "w140"
+  },
+  {
+    "text": "pour",
+    "start": 43.68,
+    "end": 43.91,
+    "id": "w141"
+  },
+  {
+    "text": "payer.",
+    "start": 43.91,
+    "end": 44.4,
+    "id": "w142"
+  },
+  {
+    "text": "Chaque",
+    "start": 44.4,
+    "end": 44.89,
+    "id": "w143"
+  },
+  {
+    "text": "euro",
+    "start": 44.89,
+    "end": 44.95,
+    "id": "w144"
+  },
+  {
+    "text": "vient",
+    "start": 45.18,
+    "end": 45.23,
+    "id": "w145"
+  },
+  {
+    "text": "des",
+    "start": 45.23,
+    "end": 45.36,
+    "id": "w146"
+  },
+  {
+    "text": "familles",
+    "start": 45.43,
+    "end": 45.75,
+    "id": "w147"
+  },
+  {
+    "text": "ou",
+    "start": 45.75,
+    "end": 46.03,
+    "id": "w148"
+  },
+  {
+    "text": "de",
+    "start": 46.03,
+    "end": 46.07,
+    "id": "w149"
+  },
+  {
+    "text": "dons.",
+    "start": 46.07,
+    "end": 46.5,
+    "id": "w150"
+  },
+  {
+    "text": "Une",
+    "start": 46.5,
+    "end": 46.815,
+    "id": "w151"
+  },
+  {
+    "text": "école",
+    "start": 46.815,
+    "end": 47.13,
+    "id": "w152"
+  },
+  {
+    "text": "sous",
+    "start": 47.13,
+    "end": 47.18,
+    "id": "w153"
+  },
+  {
+    "text": "contrat,",
+    "start": 47.42,
+    "end": 47.67,
+    "id": "w154"
+  },
+  {
+    "text": "c'est",
+    "start": 47.69,
+    "end": 47.96,
+    "id": "w155"
+  },
+  {
+    "text": "l'inverse.",
+    "start": 47.96,
+    "end": 48.72,
+    "id": "w156"
+  },
+  {
+    "text": "Elle",
+    "start": 48.72,
+    "end": 48.945,
+    "id": "w157"
+  },
+  {
+    "text": "suit",
+    "start": 48.945,
+    "end": 49.17,
+    "id": "w158"
+  },
+  {
+    "text": "les",
+    "start": 49.17,
+    "end": 49.24,
+    "id": "w159"
+  },
+  {
+    "text": "programmes",
+    "start": 49.46,
+    "end": 49.72,
+    "id": "w160"
+  },
+  {
+    "text": "nationaux",
+    "start": 49.73,
+    "end": 50.04,
+    "id": "w161"
+  },
+  {
+    "text": "et",
+    "start": 50.04,
+    "end": 50.34,
+    "id": "w162"
+  },
+  {
+    "text": "accepte",
+    "start": 50.34,
+    "end": 50.57,
+    "id": "w163"
+  },
+  {
+    "text": "des",
+    "start": 50.57,
+    "end": 50.71,
+    "id": "w164"
+  },
+  {
+    "text": "contrôles.",
+    "start": 50.71,
+    "end": 51.36,
+    "id": "w165"
+  },
+  {
+    "text": "En",
+    "start": 51.36,
+    "end": 51.64,
+    "id": "w166"
+  },
+  {
+    "text": "échange,",
+    "start": 51.64,
+    "end": 51.92,
+    "id": "w167"
+  },
+  {
+    "text": "l'État",
+    "start": 51.94,
+    "end": 52.22,
+    "id": "w168"
+  },
+  {
+    "text": "prend",
+    "start": 52.22,
+    "end": 52.48,
+    "id": "w169"
+  },
+  {
+    "text": "en",
+    "start": 52.48,
+    "end": 52.52,
+    "id": "w170"
+  },
+  {
+    "text": "charge",
+    "start": 52.81,
+    "end": 52.89,
+    "id": "w171"
+  },
+  {
+    "text": "la",
+    "start": 52.89,
+    "end": 52.99,
+    "id": "w172"
+  },
+  {
+    "text": "rémunération",
+    "start": 52.99,
+    "end": 53.61,
+    "id": "w173"
+  },
+  {
+    "text": "des",
+    "start": 53.61,
+    "end": 53.71,
+    "id": "w174"
+  },
+  {
+    "text": "enseignants.",
+    "start": 53.77,
+    "end": 54.38,
+    "id": "w175"
+  },
+  {
+    "text": "Les",
+    "start": 54.38,
+    "end": 54.785,
+    "id": "w176"
+  },
+  {
+    "text": "ordres",
+    "start": 54.785,
+    "end": 55.19,
+    "id": "w177"
+  },
+  {
+    "text": "de",
+    "start": 55.19,
+    "end": 55.28,
+    "id": "w178"
+  },
+  {
+    "text": "grandeur",
+    "start": 55.48,
+    "end": 55.79,
+    "id": "w179"
+  },
+  {
+    "text": "sont",
+    "start": 55.79,
+    "end": 56.03,
+    "id": "w180"
+  },
+  {
+    "text": "très",
+    "start": 56.03,
+    "end": 56.06,
+    "id": "w181"
+  },
+  {
+    "text": "différents.",
+    "start": 56.36,
+    "end": 57.14,
+    "id": "w182"
+  },
+  {
+    "text": "Le",
+    "start": 57.81,
+    "end": 57.88,
+    "id": "w183"
+  },
+  {
+    "text": "sous",
+    "start": 57.88,
+    "end": 58.1,
+    "id": "w184"
+  },
+  {
+    "text": "contrat,",
+    "start": 58.1,
+    "end": 58.4,
+    "id": "w185"
+  },
+  {
+    "text": "c'est",
+    "start": 58.4,
+    "end": 58.6,
+    "id": "w186"
+  },
+  {
+    "text": "plus",
+    "start": 58.6,
+    "end": 58.68,
+    "id": "w187"
+  },
+  {
+    "text": "de",
+    "start": 58.68,
+    "end": 58.95,
+    "id": "w188"
+  },
+  {
+    "text": "2",
+    "start": 58.95,
+    "end": 58.96,
+    "id": "w189"
+  },
+  {
+    "text": "millions",
+    "start": 58.98,
+    "end": 59.23,
+    "id": "w190"
+  },
+  {
+    "text": "d'élèves.",
+    "start": 59.32,
+    "end": 59.76,
+    "id": "w191"
+  },
+  {
+    "text": "Environ",
+    "start": 60.03,
+    "end": 60.19,
+    "id": "w192"
+  },
+  {
+    "text": "17%",
+    "start": 60.32,
+    "end": 60.62,
+    "id": "w193"
+  },
+  {
+    "text": "des",
+    "start": 60.62,
+    "end": 60.8,
+    "id": "w194"
+  },
+  {
+    "text": "effectifs,",
+    "start": 60.8,
+    "end": 61.44,
+    "id": "w195"
+  },
+  {
+    "text": "dans",
+    "start": 61.55,
+    "end": 61.68,
+    "id": "w196"
+  },
+  {
+    "text": "un",
+    "start": 61.7,
+    "end": 61.8,
+    "id": "w197"
+  },
+  {
+    "text": "peu",
+    "start": 61.8,
+    "end": 61.95,
+    "id": "w198"
+  },
+  {
+    "text": "plus",
+    "start": 61.95,
+    "end": 62.1,
+    "id": "w199"
+  },
+  {
+    "text": "de",
+    "start": 62.15,
+    "end": 62.25,
+    "id": "w200"
+  },
+  {
+    "text": "7500",
+    "start": 62.25,
+    "end": 62.7,
+    "id": "w201"
+  },
+  {
+    "text": "établissements,",
+    "start": 62.84,
+    "end": 63.68,
+    "id": "w202"
+  },
+  {
+    "text": "selon",
+    "start": 63.68,
+    "end": 63.89,
+    "id": "w203"
+  },
+  {
+    "text": "la",
+    "start": 63.89,
+    "end": 63.97,
+    "id": "w204"
+  },
+  {
+    "text": "Cour",
+    "start": 63.97,
+    "end": 64.14,
+    "id": "w205"
+  },
+  {
+    "text": "des",
+    "start": 64.14,
+    "end": 64.27,
+    "id": "w206"
+  },
+  {
+    "text": "comptes.",
+    "start": 64.27,
+    "end": 64.72,
+    "id": "w207"
+  },
+  {
+    "text": "Leur",
+    "start": 64.72,
+    "end": 65.23,
+    "id": "w208"
+  },
+  {
+    "text": "contrat,",
+    "start": 65.23,
+    "end": 65.44,
+    "id": "w209"
+  },
+  {
+    "text": "lui,",
+    "start": 65.52,
+    "end": 65.7,
+    "id": "w210"
+  },
+  {
+    "text": "est",
+    "start": 65.77,
+    "end": 65.89,
+    "id": "w211"
+  },
+  {
+    "text": "minuscule.",
+    "start": 65.89,
+    "end": 66.6,
+    "id": "w212"
+  },
+  {
+    "text": "Mais",
+    "start": 66.6,
+    "end": 66.97,
+    "id": "w213"
+  },
+  {
+    "text": "il",
+    "start": 66.97,
+    "end": 67.34,
+    "id": "w214"
+  },
+  {
+    "text": "grandit.",
+    "start": 67.34,
+    "end": 67.82,
+    "id": "w215"
+  },
+  {
+    "text": "Dans",
+    "start": 67.82,
+    "end": 68.13,
+    "id": "w216"
+  },
+  {
+    "text": "le",
+    "start": 68.13,
+    "end": 68.44,
+    "id": "w217"
+  },
+  {
+    "text": "primaire,",
+    "start": 68.44,
+    "end": 68.57,
+    "id": "w218"
+  },
+  {
+    "text": "le",
+    "start": 68.57,
+    "end": 68.74,
+    "id": "w219"
+  },
+  {
+    "text": "nombre",
+    "start": 68.74,
+    "end": 68.93,
+    "id": "w220"
+  },
+  {
+    "text": "d'écoles",
+    "start": 68.98,
+    "end": 69.29,
+    "id": "w221"
+  },
+  {
+    "text": "a",
+    "start": 69.29,
+    "end": 69.32,
+    "id": "w222"
+  },
+  {
+    "text": "plus",
+    "start": 69.32,
+    "end": 69.61,
+    "id": "w223"
+  },
+  {
+    "text": "que",
+    "start": 69.61,
+    "end": 69.67,
+    "id": "w224"
+  },
+  {
+    "text": "doublé",
+    "start": 69.67,
+    "end": 69.94,
+    "id": "w225"
+  },
+  {
+    "text": "entre",
+    "start": 69.97,
+    "end": 70.18,
+    "id": "w226"
+  },
+  {
+    "text": "2015",
+    "start": 70.18,
+    "end": 70.75,
+    "id": "w227"
+  },
+  {
+    "text": "et",
+    "start": 70.75,
+    "end": 70.83,
+    "id": "w228"
+  },
+  {
+    "text": "2022.",
+    "start": 70.83,
+    "end": 71.68,
+    "id": "w229"
+  },
+  {
+    "text": "Pour",
+    "start": 71.68,
+    "end": 72.09,
+    "id": "w230"
+  },
+  {
+    "text": "atteindre",
+    "start": 72.09,
+    "end": 72.47,
+    "id": "w231"
+  },
+  {
+    "text": "environ",
+    "start": 72.47,
+    "end": 72.9,
+    "id": "w232"
+  },
+  {
+    "text": "2%",
+    "start": 72.9,
+    "end": 73.14,
+    "id": "w233"
+  },
+  {
+    "text": "des",
+    "start": 73.25,
+    "end": 73.32,
+    "id": "w234"
+  },
+  {
+    "text": "écoles.",
+    "start": 73.32,
+    "end": 73.88,
+    "id": "w235"
+  },
+  {
+    "text": "Regardons",
+    "start": 73.88,
+    "end": 74.72,
+    "id": "w236"
+  },
+  {
+    "text": "d'abord",
+    "start": 74.72,
+    "end": 74.89,
+    "id": "w237"
+  },
+  {
+    "text": "les",
+    "start": 75.02,
+    "end": 75.08,
+    "id": "w238"
+  },
+  {
+    "text": "dépenses.",
+    "start": 75.08,
+    "end": 75.6,
+    "id": "w239"
+  },
+  {
+    "text": "Dans",
+    "start": 75.6,
+    "end": 76.01,
+    "id": "w240"
+  },
+  {
+    "text": "une",
+    "start": 76.01,
+    "end": 76.42,
+    "id": "w241"
+  },
+  {
+    "text": "école,",
+    "start": 76.42,
+    "end": 76.64,
+    "id": "w242"
+  },
+  {
+    "text": "on",
+    "start": 76.72,
+    "end": 76.76,
+    "id": "w243"
+  },
+  {
+    "text": "retrouve",
+    "start": 76.76,
+    "end": 77.24,
+    "id": "w244"
+  },
+  {
+    "text": "4",
+    "start": 77.24,
+    "end": 77.3,
+    "id": "w245"
+  },
+  {
+    "text": "grands",
+    "start": 77.59,
+    "end": 77.78,
+    "id": "w246"
+  },
+  {
+    "text": "blocs.",
+    "start": 77.78,
+    "end": 78.3,
+    "id": "w247"
+  },
+  {
+    "text": "1.",
+    "start": 78.3,
+    "end": 78.87,
+    "id": "w248"
+  },
+  {
+    "text": "Les",
+    "start": 78.87,
+    "end": 78.96,
+    "id": "w249"
+  },
+  {
+    "text": "salaires.",
+    "start": 79.16,
+    "end": 79.73,
+    "id": "w250"
+  },
+  {
+    "text": "Enseignants,",
+    "start": 80.26,
+    "end": 80.45,
+    "id": "w251"
+  },
+  {
+    "text": "directions,",
+    "start": 80.56,
+    "end": 81.03,
+    "id": "w252"
+  },
+  {
+    "text": "administrations,",
+    "start": 81.03,
+    "end": 81.9,
+    "id": "w253"
+  },
+  {
+    "text": "surveillants,",
+    "start": 81.9,
+    "end": 82.59,
+    "id": "w254"
+  },
+  {
+    "text": "agents",
+    "start": 82.59,
+    "end": 82.87,
+    "id": "w255"
+  },
+  {
+    "text": "d'entretien.",
+    "start": 82.87,
+    "end": 83.62,
+    "id": "w256"
+  },
+  {
+    "text": "2.",
+    "start": 84.2,
+    "end": 84.22,
+    "id": "w257"
+  },
+  {
+    "text": "Les",
+    "start": 84.5,
+    "end": 84.52,
+    "id": "w258"
+  },
+  {
+    "text": "locaux.",
+    "start": 84.52,
+    "end": 85.46,
+    "id": "w259"
+  },
+  {
+    "text": "Loyer",
+    "start": 85.46,
+    "end": 85.695,
+    "id": "w260"
+  },
+  {
+    "text": "ou",
+    "start": 85.695,
+    "end": 85.93,
+    "id": "w261"
+  },
+  {
+    "text": "remboursement",
+    "start": 85.93,
+    "end": 86.59,
+    "id": "w262"
+  },
+  {
+    "text": "d'un",
+    "start": 86.59,
+    "end": 86.79,
+    "id": "w263"
+  },
+  {
+    "text": "emprunt.",
+    "start": 86.79,
+    "end": 87.34,
+    "id": "w264"
+  },
+  {
+    "text": "Travaux,",
+    "start": 87.73,
+    "end": 88.2,
+    "id": "w265"
+  },
+  {
+    "text": "mise",
+    "start": 88.27,
+    "end": 88.43,
+    "id": "w266"
+  },
+  {
+    "text": "aux",
+    "start": 88.43,
+    "end": 88.58,
+    "id": "w267"
+  },
+  {
+    "text": "normes,",
+    "start": 88.58,
+    "end": 89.08,
+    "id": "w268"
+  },
+  {
+    "text": "sécurité",
+    "start": 89.08,
+    "end": 89.37,
+    "id": "w269"
+  },
+  {
+    "text": "incendie,",
+    "start": 89.4,
+    "end": 89.76,
+    "id": "w270"
+  },
+  {
+    "text": "accessibilité.",
+    "start": 89.79,
+    "end": 90.41,
+    "id": "w271"
+  },
+  {
+    "text": "3.",
+    "start": 90.41,
+    "end": 91.195,
+    "id": "w272"
+  },
+  {
+    "text": "Le",
+    "start": 91.195,
+    "end": 91.98,
+    "id": "w273"
+  },
+  {
+    "text": "fonctionnement.",
+    "start": 91.98,
+    "end": 92.64,
+    "id": "w274"
+  },
+  {
+    "text": "Énergie,",
+    "start": 93.46,
+    "end": 93.49,
+    "id": "w275"
+  },
+  {
+    "text": "assurance,",
+    "start": 93.76,
+    "end": 94.27,
+    "id": "w276"
+  },
+  {
+    "text": "fourniture,",
+    "start": 94.27,
+    "end": 95.11,
+    "id": "w277"
+  },
+  {
+    "text": "informatique,",
+    "start": 95.11,
+    "end": 96.1,
+    "id": "w278"
+  },
+  {
+    "text": "cantine.",
+    "start": 96.1,
+    "end": 96.88,
+    "id": "w279"
+  },
+  {
+    "text": "4.",
+    "start": 96.88,
+    "end": 97.305,
+    "id": "w280"
+  },
+  {
+    "text": "Tout",
+    "start": 97.305,
+    "end": 97.73,
+    "id": "w281"
+  },
+  {
+    "text": "ce",
+    "start": 97.73,
+    "end": 97.77,
+    "id": "w282"
+  },
+  {
+    "text": "qui",
+    "start": 97.77,
+    "end": 98.02,
+    "id": "w283"
+  },
+  {
+    "text": "est",
+    "start": 98.02,
+    "end": 98.2,
+    "id": "w284"
+  },
+  {
+    "text": "pédagogique.",
+    "start": 98.27,
+    "end": 99.28,
+    "id": "w285"
+  },
+  {
+    "text": "Manuels,",
+    "start": 99.88,
+    "end": 99.97,
+    "id": "w286"
+  },
+  {
+    "text": "matériel,",
+    "start": 100.18,
+    "end": 100.74,
+    "id": "w287"
+  },
+  {
+    "text": "sorties,",
+    "start": 100.74,
+    "end": 101.45,
+    "id": "w288"
+  },
+  {
+    "text": "activités.",
+    "start": 101.45,
+    "end": 102.47,
+    "id": "w289"
+  },
+  {
+    "text": "Et",
+    "start": 102.47,
+    "end": 102.778,
+    "id": "w290"
+  },
+  {
+    "text": "dans",
+    "start": 102.778,
+    "end": 103.085,
+    "id": "w291"
+  },
+  {
+    "text": "presque",
+    "start": 103.085,
+    "end": 103.393,
+    "id": "w292"
+  },
+  {
+    "text": "tous",
+    "start": 103.393,
+    "end": 103.7,
+    "id": "w293"
+  },
+  {
+    "text": "les",
+    "start": 103.7,
+    "end": 103.82,
+    "id": "w294"
+  },
+  {
+    "text": "cas,",
+    "start": 103.82,
+    "end": 104.15,
+    "id": "w295"
+  },
+  {
+    "text": "un",
+    "start": 104.15,
+    "end": 104.27,
+    "id": "w296"
+  },
+  {
+    "text": "poste",
+    "start": 104.27,
+    "end": 104.61,
+    "id": "w297"
+  },
+  {
+    "text": "écrase",
+    "start": 104.61,
+    "end": 105,
+    "id": "w298"
+  },
+  {
+    "text": "les",
+    "start": 105,
+    "end": 105.2,
+    "id": "w299"
+  },
+  {
+    "text": "autres.",
+    "start": 105.2,
+    "end": 105.86,
+    "id": "w300"
+  },
+  {
+    "text": "Ce",
+    "start": 105.86,
+    "end": 106.42,
+    "id": "w301"
+  },
+  {
+    "text": "poste,",
+    "start": 106.42,
+    "end": 106.46,
+    "id": "w302"
+  },
+  {
+    "text": "ce",
+    "start": 106.46,
+    "end": 106.59,
+    "id": "w303"
+  },
+  {
+    "text": "sont",
+    "start": 106.72,
+    "end": 106.84,
+    "id": "w304"
+  },
+  {
+    "text": "les",
+    "start": 106.84,
+    "end": 107.03,
+    "id": "w305"
+  },
+  {
+    "text": "salaires.",
+    "start": 107.03,
+    "end": 107.78,
+    "id": "w306"
+  },
+  {
+    "text": "Dans",
+    "start": 107.78,
+    "end": 108.09,
+    "id": "w307"
+  },
+  {
+    "text": "une",
+    "start": 108.09,
+    "end": 108.4,
+    "id": "w308"
+  },
+  {
+    "text": "école,",
+    "start": 108.4,
+    "end": 108.48,
+    "id": "w309"
+  },
+  {
+    "text": "ils",
+    "start": 108.48,
+    "end": 108.7,
+    "id": "w310"
+  },
+  {
+    "text": "représentent",
+    "start": 108.7,
+    "end": 109.24,
+    "id": "w311"
+  },
+  {
+    "text": "généralement",
+    "start": 109.24,
+    "end": 109.83,
+    "id": "w312"
+  },
+  {
+    "text": "plus",
+    "start": 109.93,
+    "end": 110.05,
+    "id": "w313"
+  },
+  {
+    "text": "de",
+    "start": 110.05,
+    "end": 110.15,
+    "id": "w314"
+  },
+  {
+    "text": "la",
+    "start": 110.15,
+    "end": 110.2,
+    "id": "w315"
+  },
+  {
+    "text": "moitié",
+    "start": 110.27,
+    "end": 110.54,
+    "id": "w316"
+  },
+  {
+    "text": "du",
+    "start": 110.55,
+    "end": 110.65,
+    "id": "w317"
+  },
+  {
+    "text": "budget.",
+    "start": 110.65,
+    "end": 111.13,
+    "id": "w318"
+  },
+  {
+    "text": "Et",
+    "start": 111.13,
+    "end": 111.47,
+    "id": "w319"
+  },
+  {
+    "text": "souvent",
+    "start": 111.47,
+    "end": 111.61,
+    "id": "w320"
+  },
+  {
+    "text": "bien",
+    "start": 111.76,
+    "end": 111.8,
+    "id": "w321"
+  },
+  {
+    "text": "davantage.",
+    "start": 111.8,
+    "end": 112.34,
+    "id": "w322"
+  },
+  {
+    "text": "Pourquoi?",
+    "start": 113.33,
+    "end": 113.68,
+    "id": "w323"
+  },
+  {
+    "text": "Parce",
+    "start": 113.68,
+    "end": 113.89,
+    "id": "w324"
+  },
+  {
+    "text": "qu'une",
+    "start": 113.89,
+    "end": 114.14,
+    "id": "w325"
+  },
+  {
+    "text": "école",
+    "start": 114.18,
+    "end": 114.35,
+    "id": "w326"
+  },
+  {
+    "text": "vend",
+    "start": 114.35,
+    "end": 114.48,
+    "id": "w327"
+  },
+  {
+    "text": "du",
+    "start": 114.59,
+    "end": 114.6,
+    "id": "w328"
+  },
+  {
+    "text": "temps",
+    "start": 114.6,
+    "end": 114.81,
+    "id": "w329"
+  },
+  {
+    "text": "humain.",
+    "start": 114.81,
+    "end": 115.26,
+    "id": "w330"
+  },
+  {
+    "text": "Un",
+    "start": 115.26,
+    "end": 115.82,
+    "id": "w331"
+  },
+  {
+    "text": "enseignant",
+    "start": 115.82,
+    "end": 115.97,
+    "id": "w332"
+  },
+  {
+    "text": "pour",
+    "start": 116.12,
+    "end": 116.22,
+    "id": "w333"
+  },
+  {
+    "text": "une",
+    "start": 116.22,
+    "end": 116.4,
+    "id": "w334"
+  },
+  {
+    "text": "classe.",
+    "start": 116.4,
+    "end": 116.98,
+    "id": "w335"
+  },
+  {
+    "text": "Un",
+    "start": 117.65,
+    "end": 117.7,
+    "id": "w336"
+  },
+  {
+    "text": "surveillant",
+    "start": 117.87,
+    "end": 118.07,
+    "id": "w337"
+  },
+  {
+    "text": "pour",
+    "start": 118.07,
+    "end": 118.19,
+    "id": "w338"
+  },
+  {
+    "text": "une",
+    "start": 118.21,
+    "end": 118.3,
+    "id": "w339"
+  },
+  {
+    "text": "cour.",
+    "start": 118.3,
+    "end": 118.52,
+    "id": "w340"
+  },
+  {
+    "text": "Une",
+    "start": 118.52,
+    "end": 118.767,
+    "id": "w341"
+  },
+  {
+    "text": "personne",
+    "start": 118.767,
+    "end": 119.013,
+    "id": "w342"
+  },
+  {
+    "text": "à",
+    "start": 119.013,
+    "end": 119.26,
+    "id": "w343"
+  },
+  {
+    "text": "l'accueil.",
+    "start": 119.26,
+    "end": 119.83,
+    "id": "w344"
+  },
+  {
+    "text": "Et",
+    "start": 119.83,
+    "end": 120.047,
+    "id": "w345"
+  },
+  {
+    "text": "ce",
+    "start": 120.047,
+    "end": 120.263,
+    "id": "w346"
+  },
+  {
+    "text": "coût",
+    "start": 120.263,
+    "end": 120.48,
+    "id": "w347"
+  },
+  {
+    "text": "n'est",
+    "start": 120.48,
+    "end": 120.65,
+    "id": "w348"
+  },
+  {
+    "text": "pas",
+    "start": 120.78,
+    "end": 120.83,
+    "id": "w349"
+  },
+  {
+    "text": "souple.",
+    "start": 120.83,
+    "end": 121.35,
+    "id": "w350"
+  },
+  {
+    "text": "Une",
+    "start": 121.35,
+    "end": 121.6,
+    "id": "w351"
+  },
+  {
+    "text": "classe",
+    "start": 121.6,
+    "end": 121.85,
+    "id": "w352"
+  },
+  {
+    "text": "de",
+    "start": 121.85,
+    "end": 121.89,
+    "id": "w353"
+  },
+  {
+    "text": "30",
+    "start": 122.14,
+    "end": 122.16,
+    "id": "w354"
+  },
+  {
+    "text": "élèves",
+    "start": 122.16,
+    "end": 122.42,
+    "id": "w355"
+  },
+  {
+    "text": "coûte",
+    "start": 122.42,
+    "end": 122.63,
+    "id": "w356"
+  },
+  {
+    "text": "presque",
+    "start": 122.63,
+    "end": 122.72,
+    "id": "w357"
+  },
+  {
+    "text": "autant",
+    "start": 123.02,
+    "end": 123.22,
+    "id": "w358"
+  },
+  {
+    "text": "à",
+    "start": 123.22,
+    "end": 123.26,
+    "id": "w359"
+  },
+  {
+    "text": "faire",
+    "start": 123.26,
+    "end": 123.48,
+    "id": "w360"
+  },
+  {
+    "text": "tourner",
+    "start": 123.48,
+    "end": 123.79,
+    "id": "w361"
+  },
+  {
+    "text": "qu'une",
+    "start": 123.79,
+    "end": 124.05,
+    "id": "w362"
+  },
+  {
+    "text": "classe",
+    "start": 124.05,
+    "end": 124.3,
+    "id": "w363"
+  },
+  {
+    "text": "de",
+    "start": 124.37,
+    "end": 124.41,
+    "id": "w364"
+  },
+  {
+    "text": "20.",
+    "start": 124.41,
+    "end": 124.88,
+    "id": "w365"
+  },
+  {
+    "text": "Alors",
+    "start": 124.88,
+    "end": 125.21,
+    "id": "w366"
+  },
+  {
+    "text": "le",
+    "start": 125.21,
+    "end": 125.54,
+    "id": "w367"
+  },
+  {
+    "text": "taux",
+    "start": 125.54,
+    "end": 125.58,
+    "id": "w368"
+  },
+  {
+    "text": "de",
+    "start": 125.58,
+    "end": 125.69,
+    "id": "w369"
+  },
+  {
+    "text": "remplissage",
+    "start": 125.84,
+    "end": 126.36,
+    "id": "w370"
+  },
+  {
+    "text": "devient",
+    "start": 126.36,
+    "end": 126.78,
+    "id": "w371"
+  },
+  {
+    "text": "la",
+    "start": 126.78,
+    "end": 126.9,
+    "id": "w372"
+  },
+  {
+    "text": "variable",
+    "start": 126.9,
+    "end": 127.34,
+    "id": "w373"
+  },
+  {
+    "text": "clé.",
+    "start": 127.41,
+    "end": 127.78,
+    "id": "w374"
+  },
+  {
+    "text": "Voilà",
+    "start": 127.78,
+    "end": 128.53,
+    "id": "w375"
+  },
+  {
+    "text": "pourquoi",
+    "start": 128.53,
+    "end": 128.56,
+    "id": "w376"
+  },
+  {
+    "text": "toute",
+    "start": 128.82,
+    "end": 128.86,
+    "id": "w377"
+  },
+  {
+    "text": "l'économie",
+    "start": 128.86,
+    "end": 129.4,
+    "id": "w378"
+  },
+  {
+    "text": "d'une",
+    "start": 129.52,
+    "end": 129.76,
+    "id": "w379"
+  },
+  {
+    "text": "école",
+    "start": 129.76,
+    "end": 130.1,
+    "id": "w380"
+  },
+  {
+    "text": "repose",
+    "start": 130.1,
+    "end": 130.4,
+    "id": "w381"
+  },
+  {
+    "text": "sur",
+    "start": 130.4,
+    "end": 130.55,
+    "id": "w382"
+  },
+  {
+    "text": "une",
+    "start": 130.55,
+    "end": 130.7,
+    "id": "w383"
+  },
+  {
+    "text": "seule",
+    "start": 130.7,
+    "end": 130.95,
+    "id": "w384"
+  },
+  {
+    "text": "question.",
+    "start": 130.95,
+    "end": 131.54,
+    "id": "w385"
+  },
+  {
+    "text": "Qui",
+    "start": 131.54,
+    "end": 132,
+    "id": "w386"
+  },
+  {
+    "text": "paie",
+    "start": 132,
+    "end": 132.14,
+    "id": "w387"
+  },
+  {
+    "text": "les",
+    "start": 132.3,
+    "end": 132.4,
+    "id": "w388"
+  },
+  {
+    "text": "enseignants?",
+    "start": 132.4,
+    "end": 133.65,
+    "id": "w389"
+  },
+  {
+    "text": "Dans",
+    "start": 133.67,
+    "end": 133.81,
+    "id": "w390"
+  },
+  {
+    "text": "le",
+    "start": 133.81,
+    "end": 133.96,
+    "id": "w391"
+  },
+  {
+    "text": "hors-contrat,",
+    "start": 133.96,
+    "end": 134.39,
+    "id": "w392"
+  },
+  {
+    "text": "c'est",
+    "start": 134.39,
+    "end": 134.54,
+    "id": "w393"
+  },
+  {
+    "text": "l'école.",
+    "start": 134.59,
+    "end": 134.98,
+    "id": "w394"
+  },
+  {
+    "text": "Une",
+    "start": 134.98,
+    "end": 135.43,
+    "id": "w395"
+  },
+  {
+    "text": "classe",
+    "start": 135.43,
+    "end": 135.5,
+    "id": "w396"
+  },
+  {
+    "text": "ouverte",
+    "start": 135.61,
+    "end": 135.89,
+    "id": "w397"
+  },
+  {
+    "text": "avec",
+    "start": 135.89,
+    "end": 136.12,
+    "id": "w398"
+  },
+  {
+    "text": "trop",
+    "start": 136.12,
+    "end": 136.29,
+    "id": "w399"
+  },
+  {
+    "text": "peu",
+    "start": 136.29,
+    "end": 136.57,
+    "id": "w400"
+  },
+  {
+    "text": "d'élèves",
+    "start": 136.57,
+    "end": 137.04,
+    "id": "w401"
+  },
+  {
+    "text": "fait",
+    "start": 137.04,
+    "end": 137.21,
+    "id": "w402"
+  },
+  {
+    "text": "mécaniquement",
+    "start": 137.21,
+    "end": 137.74,
+    "id": "w403"
+  },
+  {
+    "text": "perdre",
+    "start": 137.74,
+    "end": 138.01,
+    "id": "w404"
+  },
+  {
+    "text": "de",
+    "start": 138.01,
+    "end": 138.08,
+    "id": "w405"
+  },
+  {
+    "text": "l'argent.",
+    "start": 138.09,
+    "end": 138.6,
+    "id": "w406"
+  },
+  {
+    "text": "Dans",
+    "start": 138.6,
+    "end": 138.93,
+    "id": "w407"
+  },
+  {
+    "text": "le",
+    "start": 138.93,
+    "end": 139.26,
+    "id": "w408"
+  },
+  {
+    "text": "sous-contrat,",
+    "start": 139.26,
+    "end": 139.7,
+    "id": "w409"
+  },
+  {
+    "text": "c'est",
+    "start": 139.7,
+    "end": 139.97,
+    "id": "w410"
+  },
+  {
+    "text": "l'État.",
+    "start": 139.97,
+    "end": 140.53,
+    "id": "w411"
+  },
+  {
+    "text": "Cela",
+    "start": 140.53,
+    "end": 141.03,
+    "id": "w412"
+  },
+  {
+    "text": "allège",
+    "start": 141.03,
+    "end": 141.24,
+    "id": "w413"
+  },
+  {
+    "text": "énormément",
+    "start": 141.32,
+    "end": 141.89,
+    "id": "w414"
+  },
+  {
+    "text": "la",
+    "start": 141.89,
+    "end": 142.2,
+    "id": "w415"
+  },
+  {
+    "text": "charge.",
+    "start": 142.2,
+    "end": 142.74,
+    "id": "w416"
+  },
+  {
+    "text": "Mais",
+    "start": 142.74,
+    "end": 142.93,
+    "id": "w417"
+  },
+  {
+    "text": "pas",
+    "start": 142.93,
+    "end": 143.02,
+    "id": "w418"
+  },
+  {
+    "text": "tous",
+    "start": 143.02,
+    "end": 143.22,
+    "id": "w419"
+  },
+  {
+    "text": "les",
+    "start": 143.22,
+    "end": 143.32,
+    "id": "w420"
+  },
+  {
+    "text": "coûts,",
+    "start": 143.32,
+    "end": 143.6,
+    "id": "w421"
+  },
+  {
+    "text": "comme",
+    "start": 143.6,
+    "end": 143.78,
+    "id": "w422"
+  },
+  {
+    "text": "on",
+    "start": 143.78,
+    "end": 143.887,
+    "id": "w423"
+  },
+  {
+    "text": "va",
+    "start": 143.887,
+    "end": 143.993,
+    "id": "w424"
+  },
+  {
+    "text": "le",
+    "start": 143.993,
+    "end": 144.1,
+    "id": "w425"
+  },
+  {
+    "text": "voir.",
+    "start": 144.1,
+    "end": 144.34,
+    "id": "w426"
+  },
+  {
+    "text": "Prenons",
+    "start": 144.34,
+    "end": 145.06,
+    "id": "w427"
+  },
+  {
+    "text": "d'abord",
+    "start": 145.06,
+    "end": 145.16,
+    "id": "w428"
+  },
+  {
+    "text": "une",
+    "start": 145.16,
+    "end": 145.36,
+    "id": "w429"
+  },
+  {
+    "text": "école",
+    "start": 145.36,
+    "end": 145.61,
+    "id": "w430"
+  },
+  {
+    "text": "hors-contrat.",
+    "start": 145.63,
+    "end": 146.48,
+    "id": "w431"
+  },
+  {
+    "text": "Ses",
+    "start": 146.48,
+    "end": 147.22,
+    "id": "w432"
+  },
+  {
+    "text": "revenus?",
+    "start": 147.22,
+    "end": 147.56,
+    "id": "w433"
+  },
+  {
+    "text": "Les",
+    "start": 147.57,
+    "end": 147.73,
+    "id": "w434"
+  },
+  {
+    "text": "frais",
+    "start": 147.86,
+    "end": 148.01,
+    "id": "w435"
+  },
+  {
+    "text": "de",
+    "start": 148.01,
+    "end": 148.11,
+    "id": "w436"
+  },
+  {
+    "text": "scolarité.",
+    "start": 148.13,
+    "end": 148.82,
+    "id": "w437"
+  },
+  {
+    "text": "Il",
+    "start": 148.82,
+    "end": 149.32,
+    "id": "w438"
+  },
+  {
+    "text": "varie",
+    "start": 149.32,
+    "end": 149.82,
+    "id": "w439"
+  },
+  {
+    "text": "énormément.",
+    "start": 149.82,
+    "end": 150.39,
+    "id": "w440"
+  },
+  {
+    "text": "De",
+    "start": 150.39,
+    "end": 150.95,
+    "id": "w441"
+  },
+  {
+    "text": "quelques",
+    "start": 150.95,
+    "end": 151.03,
+    "id": "w442"
+  },
+  {
+    "text": "milliers",
+    "start": 151.24,
+    "end": 151.43,
+    "id": "w443"
+  },
+  {
+    "text": "d'euros",
+    "start": 151.49,
+    "end": 151.8,
+    "id": "w444"
+  },
+  {
+    "text": "par",
+    "start": 151.8,
+    "end": 151.83,
+    "id": "w445"
+  },
+  {
+    "text": "an",
+    "start": 151.83,
+    "end": 152.11,
+    "id": "w446"
+  },
+  {
+    "text": "et",
+    "start": 152.11,
+    "end": 152.17,
+    "id": "w447"
+  },
+  {
+    "text": "par",
+    "start": 152.17,
+    "end": 152.33,
+    "id": "w448"
+  },
+  {
+    "text": "élève,",
+    "start": 152.33,
+    "end": 152.66,
+    "id": "w449"
+  },
+  {
+    "text": "jusqu'à",
+    "start": 152.79,
+    "end": 152.91,
+    "id": "w450"
+  },
+  {
+    "text": "plusieurs",
+    "start": 153.08,
+    "end": 153.26,
+    "id": "w451"
+  },
+  {
+    "text": "dizaines",
+    "start": 153.26,
+    "end": 153.56,
+    "id": "w452"
+  },
+  {
+    "text": "de",
+    "start": 153.56,
+    "end": 153.63,
+    "id": "w453"
+  },
+  {
+    "text": "milliers",
+    "start": 153.63,
+    "end": 153.92,
+    "id": "w454"
+  },
+  {
+    "text": "pour",
+    "start": 153.96,
+    "end": 154.08,
+    "id": "w455"
+  },
+  {
+    "text": "certains",
+    "start": 154.08,
+    "end": 154.39,
+    "id": "w456"
+  },
+  {
+    "text": "établissements",
+    "start": 154.39,
+    "end": 154.81,
+    "id": "w457"
+  },
+  {
+    "text": "internationaux.",
+    "start": 154.91,
+    "end": 155.52,
+    "id": "w458"
+  },
+  {
+    "text": "Pour",
+    "start": 155.52,
+    "end": 156.36,
+    "id": "w459"
+  },
+  {
+    "text": "tenir,",
+    "start": 156.36,
+    "end": 156.49,
+    "id": "w460"
+  },
+  {
+    "text": "il",
+    "start": 156.49,
+    "end": 156.66,
+    "id": "w461"
+  },
+  {
+    "text": "faut",
+    "start": 156.66,
+    "end": 156.91,
+    "id": "w462"
+  },
+  {
+    "text": "atteindre",
+    "start": 156.93,
+    "end": 157.6,
+    "id": "w463"
+  },
+  {
+    "text": "un",
+    "start": 157.6,
+    "end": 157.69,
+    "id": "w464"
+  },
+  {
+    "text": "seuil",
+    "start": 157.69,
+    "end": 157.92,
+    "id": "w465"
+  },
+  {
+    "text": "de",
+    "start": 157.92,
+    "end": 158.01,
+    "id": "w466"
+  },
+  {
+    "text": "rentabilité.",
+    "start": 158.01,
+    "end": 158.74,
+    "id": "w467"
+  },
+  {
+    "text": "C'est-à-dire",
+    "start": 159.14,
+    "end": 159.34,
+    "id": "w468"
+  },
+  {
+    "text": "un",
+    "start": 159.34,
+    "end": 159.44,
+    "id": "w469"
+  },
+  {
+    "text": "nombre",
+    "start": 159.44,
+    "end": 159.74,
+    "id": "w470"
+  },
+  {
+    "text": "minimum",
+    "start": 159.74,
+    "end": 160.01,
+    "id": "w471"
+  },
+  {
+    "text": "d'élèves.",
+    "start": 160.15,
+    "end": 160.7,
+    "id": "w472"
+  },
+  {
+    "text": "Les",
+    "start": 160.7,
+    "end": 161.105,
+    "id": "w473"
+  },
+  {
+    "text": "sites",
+    "start": 161.105,
+    "end": 161.51,
+    "id": "w474"
+  },
+  {
+    "text": "spécialisés",
+    "start": 161.51,
+    "end": 161.85,
+    "id": "w475"
+  },
+  {
+    "text": "l'estiment",
+    "start": 161.85,
+    "end": 162.37,
+    "id": "w476"
+  },
+  {
+    "text": "entre",
+    "start": 162.67,
+    "end": 162.75,
+    "id": "w477"
+  },
+  {
+    "text": "une",
+    "start": 162.75,
+    "end": 162.93,
+    "id": "w478"
+  },
+  {
+    "text": "centaine",
+    "start": 163.03,
+    "end": 163.48,
+    "id": "w479"
+  },
+  {
+    "text": "et",
+    "start": 163.48,
+    "end": 163.54,
+    "id": "w480"
+  },
+  {
+    "text": "quelques",
+    "start": 163.56,
+    "end": 163.84,
+    "id": "w481"
+  },
+  {
+    "text": "centaines",
+    "start": 163.85,
+    "end": 164.18,
+    "id": "w482"
+  },
+  {
+    "text": "d'élèves,",
+    "start": 164.19,
+    "end": 164.62,
+    "id": "w483"
+  },
+  {
+    "text": "selon",
+    "start": 164.81,
+    "end": 164.84,
+    "id": "w484"
+  },
+  {
+    "text": "les",
+    "start": 164.84,
+    "end": 164.97,
+    "id": "w485"
+  },
+  {
+    "text": "frais",
+    "start": 165.1,
+    "end": 165.18,
+    "id": "w486"
+  },
+  {
+    "text": "et",
+    "start": 165.18,
+    "end": 165.26,
+    "id": "w487"
+  },
+  {
+    "text": "les",
+    "start": 165.26,
+    "end": 165.39,
+    "id": "w488"
+  },
+  {
+    "text": "locaux.",
+    "start": 165.39,
+    "end": 165.68,
+    "id": "w489"
+  },
+  {
+    "text": "Ce",
+    "start": 165.68,
+    "end": 165.923,
+    "id": "w490"
+  },
+  {
+    "text": "sont",
+    "start": 165.923,
+    "end": 166.167,
+    "id": "w491"
+  },
+  {
+    "text": "des",
+    "start": 166.167,
+    "end": 166.41,
+    "id": "w492"
+  },
+  {
+    "text": "estimations,",
+    "start": 166.41,
+    "end": 166.88,
+    "id": "w493"
+  },
+  {
+    "text": "pas",
+    "start": 166.95,
+    "end": 167.1,
+    "id": "w494"
+  },
+  {
+    "text": "des",
+    "start": 167.1,
+    "end": 167.25,
+    "id": "w495"
+  },
+  {
+    "text": "statistiques",
+    "start": 167.25,
+    "end": 167.83,
+    "id": "w496"
+  },
+  {
+    "text": "officielles.",
+    "start": 167.93,
+    "end": 168.66,
+    "id": "w497"
+  },
+  {
+    "text": "Et",
+    "start": 168.66,
+    "end": 168.99,
+    "id": "w498"
+  },
+  {
+    "text": "avant",
+    "start": 168.99,
+    "end": 169.32,
+    "id": "w499"
+  },
+  {
+    "text": "d'accueillir",
+    "start": 169.32,
+    "end": 169.62,
+    "id": "w500"
+  },
+  {
+    "text": "le",
+    "start": 169.62,
+    "end": 169.72,
+    "id": "w501"
+  },
+  {
+    "text": "premier",
+    "start": 169.72,
+    "end": 170.08,
+    "id": "w502"
+  },
+  {
+    "text": "enfant,",
+    "start": 170.08,
+    "end": 170.56,
+    "id": "w503"
+  },
+  {
+    "text": "il",
+    "start": 170.56,
+    "end": 170.7,
+    "id": "w504"
+  },
+  {
+    "text": "faut",
+    "start": 170.7,
+    "end": 170.97,
+    "id": "w505"
+  },
+  {
+    "text": "investir.",
+    "start": 170.97,
+    "end": 171.75,
+    "id": "w506"
+  },
+  {
+    "text": "Locaux,",
+    "start": 172.5,
+    "end": 172.56,
+    "id": "w507"
+  },
+  {
+    "text": "travaux,",
+    "start": 172.8,
+    "end": 173.38,
+    "id": "w508"
+  },
+  {
+    "text": "mobiliers,",
+    "start": 173.65,
+    "end": 174.41,
+    "id": "w509"
+  },
+  {
+    "text": "matériel,",
+    "start": 174.41,
+    "end": 175.24,
+    "id": "w510"
+  },
+  {
+    "text": "premier",
+    "start": 175.61,
+    "end": 175.69,
+    "id": "w511"
+  },
+  {
+    "text": "recrutement,",
+    "start": 175.71,
+    "end": 176.47,
+    "id": "w512"
+  },
+  {
+    "text": "centaines",
+    "start": 177.49,
+    "end": 177.82,
+    "id": "w513"
+  },
+  {
+    "text": "de",
+    "start": 177.82,
+    "end": 177.89,
+    "id": "w514"
+  },
+  {
+    "text": "milliers",
+    "start": 177.89,
+    "end": 178.19,
+    "id": "w515"
+  },
+  {
+    "text": "d'euros",
+    "start": 178.19,
+    "end": 178.36,
+    "id": "w516"
+  },
+  {
+    "text": "avant",
+    "start": 178.36,
+    "end": 178.63,
+    "id": "w517"
+  },
+  {
+    "text": "la",
+    "start": 178.63,
+    "end": 178.69,
+    "id": "w518"
+  },
+  {
+    "text": "première",
+    "start": 178.69,
+    "end": 178.9,
+    "id": "w519"
+  },
+  {
+    "text": "rentrée.",
+    "start": 179.01,
+    "end": 179.48,
+    "id": "w520"
+  },
+  {
+    "text": "Le",
+    "start": 179.48,
+    "end": 179.8,
+    "id": "w521"
+  },
+  {
+    "text": "vrai",
+    "start": 179.8,
+    "end": 180.12,
+    "id": "w522"
+  },
+  {
+    "text": "piège,",
+    "start": 180.12,
+    "end": 180.32,
+    "id": "w523"
+  },
+  {
+    "text": "c'est",
+    "start": 180.38,
+    "end": 180.61,
+    "id": "w524"
+  },
+  {
+    "text": "le",
+    "start": 180.67,
+    "end": 180.76,
+    "id": "w525"
+  },
+  {
+    "text": "démarrage.",
+    "start": 180.76,
+    "end": 181.54,
+    "id": "w526"
+  },
+  {
+    "text": "Les",
+    "start": 181.54,
+    "end": 181.855,
+    "id": "w527"
+  },
+  {
+    "text": "charges",
+    "start": 181.855,
+    "end": 182.17,
+    "id": "w528"
+  },
+  {
+    "text": "sont",
+    "start": 182.17,
+    "end": 182.31,
+    "id": "w529"
+  },
+  {
+    "text": "là",
+    "start": 182.31,
+    "end": 182.46,
+    "id": "w530"
+  },
+  {
+    "text": "dès",
+    "start": 182.46,
+    "end": 182.57,
+    "id": "w531"
+  },
+  {
+    "text": "le",
+    "start": 182.57,
+    "end": 182.64,
+    "id": "w532"
+  },
+  {
+    "text": "premier",
+    "start": 182.71,
+    "end": 183.01,
+    "id": "w533"
+  },
+  {
+    "text": "jour.",
+    "start": 183.01,
+    "end": 183.43,
+    "id": "w534"
+  },
+  {
+    "text": "Les",
+    "start": 183.43,
+    "end": 183.84,
+    "id": "w535"
+  },
+  {
+    "text": "inscriptions,",
+    "start": 183.84,
+    "end": 184.23,
+    "id": "w536"
+  },
+  {
+    "text": "elles,",
+    "start": 184.23,
+    "end": 184.55,
+    "id": "w537"
+  },
+  {
+    "text": "arrivent",
+    "start": 184.55,
+    "end": 184.92,
+    "id": "w538"
+  },
+  {
+    "text": "à",
+    "start": 184.92,
+    "end": 185.02,
+    "id": "w539"
+  },
+  {
+    "text": "leur",
+    "start": 185.02,
+    "end": 185.15,
+    "id": "w540"
+  },
+  {
+    "text": "rythme,",
+    "start": 185.15,
+    "end": 185.58,
+    "id": "w541"
+  },
+  {
+    "text": "mais",
+    "start": 185.58,
+    "end": 185.73,
+    "id": "w542"
+  },
+  {
+    "text": "parfois",
+    "start": 185.73,
+    "end": 185.98,
+    "id": "w543"
+  },
+  {
+    "text": "trop",
+    "start": 185.99,
+    "end": 186.14,
+    "id": "w544"
+  },
+  {
+    "text": "lentement.",
+    "start": 186.14,
+    "end": 186.58,
+    "id": "w545"
+  },
+  {
+    "text": "Passons",
+    "start": 186.58,
+    "end": 186.995,
+    "id": "w546"
+  },
+  {
+    "text": "au",
+    "start": 186.995,
+    "end": 187.41,
+    "id": "w547"
+  },
+  {
+    "text": "sous-contrat.",
+    "start": 187.41,
+    "end": 188.18,
+    "id": "w548"
+  },
+  {
+    "text": "Là,",
+    "start": 188.18,
+    "end": 188.78,
+    "id": "w549"
+  },
+  {
+    "text": "l'argent",
+    "start": 188.78,
+    "end": 188.97,
+    "id": "w550"
+  },
+  {
+    "text": "vient",
+    "start": 189.08,
+    "end": 189.27,
+    "id": "w551"
+  },
+  {
+    "text": "de",
+    "start": 189.33,
+    "end": 189.44,
+    "id": "w552"
+  },
+  {
+    "text": "trois",
+    "start": 189.44,
+    "end": 189.65,
+    "id": "w553"
+  },
+  {
+    "text": "sources.",
+    "start": 189.96,
+    "end": 190.54,
+    "id": "w554"
+  },
+  {
+    "text": "D'abord,",
+    "start": 190.74,
+    "end": 191.13,
+    "id": "w555"
+  },
+  {
+    "text": "l'État.",
+    "start": 191.13,
+    "end": 191.62,
+    "id": "w556"
+  },
+  {
+    "text": "D'après",
+    "start": 191.62,
+    "end": 192.23,
+    "id": "w557"
+  },
+  {
+    "text": "la",
+    "start": 192.23,
+    "end": 192.28,
+    "id": "w558"
+  },
+  {
+    "text": "Cour",
+    "start": 192.28,
+    "end": 192.52,
+    "id": "w559"
+  },
+  {
+    "text": "des",
+    "start": 192.52,
+    "end": 192.68,
+    "id": "w560"
+  },
+  {
+    "text": "comptes,",
+    "start": 192.68,
+    "end": 193.1,
+    "id": "w561"
+  },
+  {
+    "text": "il",
+    "start": 193.1,
+    "end": 193.37,
+    "id": "w562"
+  },
+  {
+    "text": "a",
+    "start": 193.37,
+    "end": 193.41,
+    "id": "w563"
+  },
+  {
+    "text": "versé",
+    "start": 193.41,
+    "end": 193.64,
+    "id": "w564"
+  },
+  {
+    "text": "environ",
+    "start": 193.75,
+    "end": 194.01,
+    "id": "w565"
+  },
+  {
+    "text": "8",
+    "start": 194.01,
+    "end": 194.16,
+    "id": "w566"
+  },
+  {
+    "text": "milliards",
+    "start": 194.16,
+    "end": 194.6,
+    "id": "w567"
+  },
+  {
+    "text": "d'euros",
+    "start": 194.62,
+    "end": 194.95,
+    "id": "w568"
+  },
+  {
+    "text": "en",
+    "start": 194.95,
+    "end": 195.03,
+    "id": "w569"
+  },
+  {
+    "text": "2022.",
+    "start": 195.33,
+    "end": 195.88,
+    "id": "w570"
+  },
+  {
+    "text": "Surtout",
+    "start": 195.88,
+    "end": 196.25,
+    "id": "w571"
+  },
+  {
+    "text": "pour",
+    "start": 196.25,
+    "end": 196.39,
+    "id": "w572"
+  },
+  {
+    "text": "rémunérer",
+    "start": 196.48,
+    "end": 196.79,
+    "id": "w573"
+  },
+  {
+    "text": "environ",
+    "start": 196.79,
+    "end": 197.11,
+    "id": "w574"
+  },
+  {
+    "text": "142",
+    "start": 197.39,
+    "end": 197.55,
+    "id": "w575"
+  },
+  {
+    "text": "000",
+    "start": 197.55,
+    "end": 197.97,
+    "id": "w576"
+  },
+  {
+    "text": "enseignants.",
+    "start": 197.97,
+    "end": 198.67,
+    "id": "w577"
+  },
+  {
+    "text": "Ensuite,",
+    "start": 198.67,
+    "end": 199.47,
+    "id": "w578"
+  },
+  {
+    "text": "les",
+    "start": 199.47,
+    "end": 199.53,
+    "id": "w579"
+  },
+  {
+    "text": "collectivités.",
+    "start": 199.76,
+    "end": 200.68,
+    "id": "w580"
+  },
+  {
+    "text": "Les",
+    "start": 200.68,
+    "end": 200.895,
+    "id": "w581"
+  },
+  {
+    "text": "communes",
+    "start": 200.895,
+    "end": 201.11,
+    "id": "w582"
+  },
+  {
+    "text": "pour",
+    "start": 201.11,
+    "end": 201.325,
+    "id": "w583"
+  },
+  {
+    "text": "le",
+    "start": 201.325,
+    "end": 201.54,
+    "id": "w584"
+  },
+  {
+    "text": "primaire,",
+    "start": 201.54,
+    "end": 202.01,
+    "id": "w585"
+  },
+  {
+    "text": "les",
+    "start": 202.01,
+    "end": 202.12,
+    "id": "w586"
+  },
+  {
+    "text": "départements",
+    "start": 202.39,
+    "end": 202.78,
+    "id": "w587"
+  },
+  {
+    "text": "pour",
+    "start": 202.78,
+    "end": 202.98,
+    "id": "w588"
+  },
+  {
+    "text": "les",
+    "start": 202.98,
+    "end": 203.13,
+    "id": "w589"
+  },
+  {
+    "text": "collèges,",
+    "start": 203.13,
+    "end": 203.7,
+    "id": "w590"
+  },
+  {
+    "text": "les",
+    "start": 203.7,
+    "end": 203.87,
+    "id": "w591"
+  },
+  {
+    "text": "régions",
+    "start": 203.87,
+    "end": 204.16,
+    "id": "w592"
+  },
+  {
+    "text": "pour",
+    "start": 204.16,
+    "end": 204.34,
+    "id": "w593"
+  },
+  {
+    "text": "les",
+    "start": 204.34,
+    "end": 204.47,
+    "id": "w594"
+  },
+  {
+    "text": "lycées",
+    "start": 204.47,
+    "end": 204.72,
+    "id": "w595"
+  },
+  {
+    "text": "participent",
+    "start": 204.72,
+    "end": 205.22,
+    "id": "w596"
+  },
+  {
+    "text": "aux",
+    "start": 205.22,
+    "end": 205.28,
+    "id": "w597"
+  },
+  {
+    "text": "frais",
+    "start": 205.39,
+    "end": 205.57,
+    "id": "w598"
+  },
+  {
+    "text": "de",
+    "start": 205.57,
+    "end": 205.66,
+    "id": "w599"
+  },
+  {
+    "text": "fonctionnement,",
+    "start": 205.66,
+    "end": 206.34,
+    "id": "w600"
+  },
+  {
+    "text": "selon",
+    "start": 206.34,
+    "end": 206.565,
+    "id": "w601"
+  },
+  {
+    "text": "un",
+    "start": 206.565,
+    "end": 206.79,
+    "id": "w602"
+  },
+  {
+    "text": "principe",
+    "start": 206.79,
+    "end": 206.93,
+    "id": "w603"
+  },
+  {
+    "text": "de",
+    "start": 206.93,
+    "end": 207.06,
+    "id": "w604"
+  },
+  {
+    "text": "l'État.",
+    "start": 207.06,
+    "end": 207.4,
+    "id": "w605"
+  },
+  {
+    "text": "C'est",
+    "start": 207.41,
+    "end": 207.78,
+    "id": "w606"
+  },
+  {
+    "text": "le",
+    "start": 207.78,
+    "end": 207.88,
+    "id": "w607"
+  },
+  {
+    "text": "forfait",
+    "start": 207.95,
+    "end": 208.28,
+    "id": "w608"
+  },
+  {
+    "text": "communal,",
+    "start": 208.58,
+    "end": 209.2,
+    "id": "w609"
+  },
+  {
+    "text": "ou",
+    "start": 209.27,
+    "end": 209.42,
+    "id": "w610"
+  },
+  {
+    "text": "forfait",
+    "start": 209.42,
+    "end": 209.94,
+    "id": "w611"
+  },
+  {
+    "text": "d'externa.",
+    "start": 209.94,
+    "end": 210.89,
+    "id": "w612"
+  },
+  {
+    "text": "Enfin,",
+    "start": 210.89,
+    "end": 211.85,
+    "id": "w613"
+  },
+  {
+    "text": "les",
+    "start": 211.85,
+    "end": 211.87,
+    "id": "w614"
+  },
+  {
+    "text": "familles.",
+    "start": 212.13,
+    "end": 212.72,
+    "id": "w615"
+  },
+  {
+    "text": "Elles",
+    "start": 212.72,
+    "end": 213.36,
+    "id": "w616"
+  },
+  {
+    "text": "versent",
+    "start": 213.36,
+    "end": 213.44,
+    "id": "w617"
+  },
+  {
+    "text": "une",
+    "start": 213.44,
+    "end": 213.66,
+    "id": "w618"
+  },
+  {
+    "text": "contribution.",
+    "start": 213.66,
+    "end": 214.24,
+    "id": "w619"
+  },
+  {
+    "text": "Selon",
+    "start": 214.24,
+    "end": 214.7,
+    "id": "w620"
+  },
+  {
+    "text": "les",
+    "start": 214.7,
+    "end": 215.16,
+    "id": "w621"
+  },
+  {
+    "text": "chiffres",
+    "start": 215.16,
+    "end": 215.25,
+    "id": "w622"
+  },
+  {
+    "text": "cités",
+    "start": 215.43,
+    "end": 215.54,
+    "id": "w623"
+  },
+  {
+    "text": "à",
+    "start": 215.54,
+    "end": 215.6,
+    "id": "w624"
+  },
+  {
+    "text": "partir",
+    "start": 215.6,
+    "end": 215.93,
+    "id": "w625"
+  },
+  {
+    "text": "de",
+    "start": 215.93,
+    "end": 216.04,
+    "id": "w626"
+  },
+  {
+    "text": "la",
+    "start": 216.04,
+    "end": 216.33,
+    "id": "w627"
+  },
+  {
+    "text": "Cour",
+    "start": 216.33,
+    "end": 216.43,
+    "id": "w628"
+  },
+  {
+    "text": "des",
+    "start": 216.44,
+    "end": 216.58,
+    "id": "w629"
+  },
+  {
+    "text": "comptes,",
+    "start": 216.69,
+    "end": 217.19,
+    "id": "w630"
+  },
+  {
+    "text": "elle",
+    "start": 217.33,
+    "end": 217.37,
+    "id": "w631"
+  },
+  {
+    "text": "va",
+    "start": 217.37,
+    "end": 217.45,
+    "id": "w632"
+  },
+  {
+    "text": "de",
+    "start": 217.45,
+    "end": 217.62,
+    "id": "w633"
+  },
+  {
+    "text": "quelques",
+    "start": 217.62,
+    "end": 217.81,
+    "id": "w634"
+  },
+  {
+    "text": "centaines",
+    "start": 217.87,
+    "end": 218.19,
+    "id": "w635"
+  },
+  {
+    "text": "à",
+    "start": 218.19,
+    "end": 218.49,
+    "id": "w636"
+  },
+  {
+    "text": "plusieurs",
+    "start": 218.49,
+    "end": 218.68,
+    "id": "w637"
+  },
+  {
+    "text": "milliers",
+    "start": 218.68,
+    "end": 219.02,
+    "id": "w638"
+  },
+  {
+    "text": "d'euros",
+    "start": 219.02,
+    "end": 219.31,
+    "id": "w639"
+  },
+  {
+    "text": "par",
+    "start": 219.31,
+    "end": 219.39,
+    "id": "w640"
+  },
+  {
+    "text": "an.",
+    "start": 219.45,
+    "end": 219.71,
+    "id": "w641"
+  },
+  {
+    "text": "Selon",
+    "start": 219.71,
+    "end": 220.11,
+    "id": "w642"
+  },
+  {
+    "text": "le",
+    "start": 220.11,
+    "end": 220.13,
+    "id": "w643"
+  },
+  {
+    "text": "niveau.",
+    "start": 220.4,
+    "end": 220.68,
+    "id": "w644"
+  },
+  {
+    "text": "Et",
+    "start": 220.68,
+    "end": 221.13,
+    "id": "w645"
+  },
+  {
+    "text": "d'après",
+    "start": 221.13,
+    "end": 221.58,
+    "id": "w646"
+  },
+  {
+    "text": "certaines",
+    "start": 221.58,
+    "end": 221.77,
+    "id": "w647"
+  },
+  {
+    "text": "analyses,",
+    "start": 221.83,
+    "end": 222.46,
+    "id": "w648"
+  },
+  {
+    "text": "elle",
+    "start": 222.46,
+    "end": 222.86,
+    "id": "w649"
+  },
+  {
+    "text": "représenterait",
+    "start": 222.86,
+    "end": 223.12,
+    "id": "w650"
+  },
+  {
+    "text": "environ",
+    "start": 223.19,
+    "end": 223.46,
+    "id": "w651"
+  },
+  {
+    "text": "un",
+    "start": 223.46,
+    "end": 223.52,
+    "id": "w652"
+  },
+  {
+    "text": "quart",
+    "start": 223.52,
+    "end": 223.79,
+    "id": "w653"
+  },
+  {
+    "text": "du",
+    "start": 223.79,
+    "end": 223.82,
+    "id": "w654"
+  },
+  {
+    "text": "financement",
+    "start": 223.82,
+    "end": 224.26,
+    "id": "w655"
+  },
+  {
+    "text": "global",
+    "start": 224.26,
+    "end": 224.44,
+    "id": "w656"
+  },
+  {
+    "text": "d'un",
+    "start": 224.51,
+    "end": 224.66,
+    "id": "w657"
+  },
+  {
+    "text": "établissement.",
+    "start": 224.66,
+    "end": 225.37,
+    "id": "w658"
+  },
+  {
+    "text": "Et",
+    "start": 225.37,
+    "end": 225.93,
+    "id": "w659"
+  },
+  {
+    "text": "que",
+    "start": 225.93,
+    "end": 226.49,
+    "id": "w660"
+  },
+  {
+    "text": "finance-t-elle?",
+    "start": 226.49,
+    "end": 227.42,
+    "id": "w661"
+  },
+  {
+    "text": "Surtout",
+    "start": 227.43,
+    "end": 227.79,
+    "id": "w662"
+  },
+  {
+    "text": "l'immobilier",
+    "start": 227.79,
+    "end": 228.3,
+    "id": "w663"
+  },
+  {
+    "text": "et",
+    "start": 228.3,
+    "end": 228.57,
+    "id": "w664"
+  },
+  {
+    "text": "ce",
+    "start": 228.57,
+    "end": 228.62,
+    "id": "w665"
+  },
+  {
+    "text": "que",
+    "start": 228.62,
+    "end": 228.78,
+    "id": "w666"
+  },
+  {
+    "text": "le",
+    "start": 228.78,
+    "end": 228.84,
+    "id": "w667"
+  },
+  {
+    "text": "contrat",
+    "start": 228.95,
+    "end": 229.22,
+    "id": "w668"
+  },
+  {
+    "text": "ne",
+    "start": 229.29,
+    "end": 229.35,
+    "id": "w669"
+  },
+  {
+    "text": "couvre",
+    "start": 229.35,
+    "end": 229.67,
+    "id": "w670"
+  },
+  {
+    "text": "pas.",
+    "start": 229.67,
+    "end": 230.04,
+    "id": "w671"
+  },
+  {
+    "text": "Parce",
+    "start": 230.04,
+    "end": 230.375,
+    "id": "w672"
+  },
+  {
+    "text": "qu'il",
+    "start": 230.375,
+    "end": 230.71,
+    "id": "w673"
+  },
+  {
+    "text": "y",
+    "start": 230.71,
+    "end": 230.76,
+    "id": "w674"
+  },
+  {
+    "text": "a",
+    "start": 230.76,
+    "end": 230.8,
+    "id": "w675"
+  },
+  {
+    "text": "un",
+    "start": 230.8,
+    "end": 231,
+    "id": "w676"
+  },
+  {
+    "text": "angle",
+    "start": 231,
+    "end": 231.25,
+    "id": "w677"
+  },
+  {
+    "text": "mort.",
+    "start": 231.27,
+    "end": 231.58,
+    "id": "w678"
+  },
+  {
+    "text": "Même",
+    "start": 231.58,
+    "end": 232.23,
+    "id": "w679"
+  },
+  {
+    "text": "sous",
+    "start": 232.23,
+    "end": 232.26,
+    "id": "w680"
+  },
+  {
+    "text": "contrat,",
+    "start": 232.52,
+    "end": 232.86,
+    "id": "w681"
+  },
+  {
+    "text": "les",
+    "start": 232.86,
+    "end": 232.99,
+    "id": "w682"
+  },
+  {
+    "text": "bâtiments",
+    "start": 232.99,
+    "end": 233.39,
+    "id": "w683"
+  },
+  {
+    "text": "restent",
+    "start": 233.4,
+    "end": 233.64,
+    "id": "w684"
+  },
+  {
+    "text": "à",
+    "start": 233.64,
+    "end": 233.75,
+    "id": "w685"
+  },
+  {
+    "text": "la",
+    "start": 233.75,
+    "end": 233.83,
+    "id": "w686"
+  },
+  {
+    "text": "charge",
+    "start": 233.83,
+    "end": 234.1,
+    "id": "w687"
+  },
+  {
+    "text": "de",
+    "start": 234.1,
+    "end": 234.19,
+    "id": "w688"
+  },
+  {
+    "text": "l'établissement.",
+    "start": 234.19,
+    "end": 234.96,
+    "id": "w689"
+  },
+  {
+    "text": "Les",
+    "start": 234.96,
+    "end": 235.8,
+    "id": "w690"
+  },
+  {
+    "text": "enseignants",
+    "start": 235.8,
+    "end": 235.88,
+    "id": "w691"
+  },
+  {
+    "text": "sont",
+    "start": 236.1,
+    "end": 236.11,
+    "id": "w692"
+  },
+  {
+    "text": "payés",
+    "start": 236.11,
+    "end": 236.39,
+    "id": "w693"
+  },
+  {
+    "text": "par",
+    "start": 236.39,
+    "end": 236.56,
+    "id": "w694"
+  },
+  {
+    "text": "l'État.",
+    "start": 236.56,
+    "end": 237.1,
+    "id": "w695"
+  },
+  {
+    "text": "Le",
+    "start": 237.1,
+    "end": 237.58,
+    "id": "w696"
+  },
+  {
+    "text": "fonctionnement",
+    "start": 237.58,
+    "end": 237.85,
+    "id": "w697"
+  },
+  {
+    "text": "courant",
+    "start": 237.88,
+    "end": 238.18,
+    "id": "w698"
+  },
+  {
+    "text": "est",
+    "start": 238.18,
+    "end": 238.32,
+    "id": "w699"
+  },
+  {
+    "text": "en",
+    "start": 238.32,
+    "end": 238.41,
+    "id": "w700"
+  },
+  {
+    "text": "partie",
+    "start": 238.41,
+    "end": 238.46,
+    "id": "w701"
+  },
+  {
+    "text": "couvert",
+    "start": 238.76,
+    "end": 239.01,
+    "id": "w702"
+  },
+  {
+    "text": "par",
+    "start": 239.11,
+    "end": 239.16,
+    "id": "w703"
+  },
+  {
+    "text": "les",
+    "start": 239.16,
+    "end": 239.3,
+    "id": "w704"
+  },
+  {
+    "text": "collectivités.",
+    "start": 239.3,
+    "end": 240.04,
+    "id": "w705"
+  },
+  {
+    "text": "Mais",
+    "start": 240.04,
+    "end": 240.59,
+    "id": "w706"
+  },
+  {
+    "text": "construire",
+    "start": 240.59,
+    "end": 240.9,
+    "id": "w707"
+  },
+  {
+    "text": "une",
+    "start": 240.9,
+    "end": 241.06,
+    "id": "w708"
+  },
+  {
+    "text": "salle,",
+    "start": 241.12,
+    "end": 241.45,
+    "id": "w709"
+  },
+  {
+    "text": "rénover",
+    "start": 241.45,
+    "end": 241.85,
+    "id": "w710"
+  },
+  {
+    "text": "une",
+    "start": 241.86,
+    "end": 242,
+    "id": "w711"
+  },
+  {
+    "text": "toiture,",
+    "start": 242.11,
+    "end": 242.6,
+    "id": "w712"
+  },
+  {
+    "text": "installer",
+    "start": 242.6,
+    "end": 243.12,
+    "id": "w713"
+  },
+  {
+    "text": "des",
+    "start": 243.12,
+    "end": 243.15,
+    "id": "w714"
+  },
+  {
+    "text": "alarmes,",
+    "start": 243.15,
+    "end": 243.56,
+    "id": "w715"
+  },
+  {
+    "text": "mettre",
+    "start": 243.56,
+    "end": 243.7,
+    "id": "w716"
+  },
+  {
+    "text": "aux",
+    "start": 243.97,
+    "end": 243.98,
+    "id": "w717"
+  },
+  {
+    "text": "normes",
+    "start": 244,
+    "end": 244.24,
+    "id": "w718"
+  },
+  {
+    "text": "un",
+    "start": 244.24,
+    "end": 244.35,
+    "id": "w719"
+  },
+  {
+    "text": "bâtiment",
+    "start": 244.35,
+    "end": 244.7,
+    "id": "w720"
+  },
+  {
+    "text": "ancien,",
+    "start": 244.7,
+    "end": 245.12,
+    "id": "w721"
+  },
+  {
+    "text": "c'est",
+    "start": 245.12,
+    "end": 245.48,
+    "id": "w722"
+  },
+  {
+    "text": "l'école",
+    "start": 245.48,
+    "end": 245.65,
+    "id": "w723"
+  },
+  {
+    "text": "qui",
+    "start": 245.78,
+    "end": 245.79,
+    "id": "w724"
+  },
+  {
+    "text": "doit",
+    "start": 245.79,
+    "end": 245.96,
+    "id": "w725"
+  },
+  {
+    "text": "trouver",
+    "start": 245.97,
+    "end": 246.29,
+    "id": "w726"
+  },
+  {
+    "text": "l'argent.",
+    "start": 246.29,
+    "end": 246.86,
+    "id": "w727"
+  },
+  {
+    "text": "Voilà",
+    "start": 246.86,
+    "end": 247.215,
+    "id": "w728"
+  },
+  {
+    "text": "pourquoi",
+    "start": 247.215,
+    "end": 247.57,
+    "id": "w729"
+  },
+  {
+    "text": "la",
+    "start": 247.57,
+    "end": 247.66,
+    "id": "w730"
+  },
+  {
+    "text": "contribution",
+    "start": 247.86,
+    "end": 248.34,
+    "id": "w731"
+  },
+  {
+    "text": "des",
+    "start": 248.34,
+    "end": 248.44,
+    "id": "w732"
+  },
+  {
+    "text": "familles,",
+    "start": 248.66,
+    "end": 248.98,
+    "id": "w733"
+  },
+  {
+    "text": "ou",
+    "start": 249.09,
+    "end": 249.15,
+    "id": "w734"
+  },
+  {
+    "text": "les",
+    "start": 249.15,
+    "end": 249.31,
+    "id": "w735"
+  },
+  {
+    "text": "dons,",
+    "start": 249.31,
+    "end": 249.63,
+    "id": "w736"
+  },
+  {
+    "text": "servent",
+    "start": 249.71,
+    "end": 250,
+    "id": "w737"
+  },
+  {
+    "text": "souvent",
+    "start": 250,
+    "end": 250.3,
+    "id": "w738"
+  },
+  {
+    "text": "à",
+    "start": 250.3,
+    "end": 250.34,
+    "id": "w739"
+  },
+  {
+    "text": "ça.",
+    "start": 250.34,
+    "end": 250.57,
+    "id": "w740"
+  },
+  {
+    "text": "Et",
+    "start": 250.57,
+    "end": 250.755,
+    "id": "w741"
+  },
+  {
+    "text": "c'est",
+    "start": 250.755,
+    "end": 250.94,
+    "id": "w742"
+  },
+  {
+    "text": "là",
+    "start": 250.94,
+    "end": 251.125,
+    "id": "w743"
+  },
+  {
+    "text": "que",
+    "start": 251.125,
+    "end": 251.31,
+    "id": "w744"
+  },
+  {
+    "text": "les",
+    "start": 251.31,
+    "end": 251.4,
+    "id": "w745"
+  },
+  {
+    "text": "budgets",
+    "start": 251.6,
+    "end": 251.79,
+    "id": "w746"
+  },
+  {
+    "text": "deviennent",
+    "start": 251.85,
+    "end": 252.18,
+    "id": "w747"
+  },
+  {
+    "text": "fragiles.",
+    "start": 252.48,
+    "end": 253.08,
+    "id": "w748"
+  },
+  {
+    "text": "Car",
+    "start": 253.08,
+    "end": 253.313,
+    "id": "w749"
+  },
+  {
+    "text": "un",
+    "start": 253.313,
+    "end": 253.547,
+    "id": "w750"
+  },
+  {
+    "text": "gros",
+    "start": 253.547,
+    "end": 253.78,
+    "id": "w751"
+  },
+  {
+    "text": "chantier",
+    "start": 253.78,
+    "end": 253.93,
+    "id": "w752"
+  },
+  {
+    "text": "peut",
+    "start": 253.93,
+    "end": 254.06,
+    "id": "w753"
+  },
+  {
+    "text": "peser",
+    "start": 254.13,
+    "end": 254.37,
+    "id": "w754"
+  },
+  {
+    "text": "sur",
+    "start": 254.37,
+    "end": 254.46,
+    "id": "w755"
+  },
+  {
+    "text": "les",
+    "start": 254.46,
+    "end": 254.76,
+    "id": "w756"
+  },
+  {
+    "text": "comptes",
+    "start": 254.76,
+    "end": 255,
+    "id": "w757"
+  },
+  {
+    "text": "pendant",
+    "start": 255.11,
+    "end": 255.38,
+    "id": "w758"
+  },
+  {
+    "text": "des",
+    "start": 255.45,
+    "end": 255.54,
+    "id": "w759"
+  },
+  {
+    "text": "années,",
+    "start": 255.54,
+    "end": 256.01,
+    "id": "w760"
+  },
+  {
+    "text": "souvent",
+    "start": 256.39,
+    "end": 256.4,
+    "id": "w761"
+  },
+  {
+    "text": "via",
+    "start": 256.4,
+    "end": 256.55,
+    "id": "w762"
+  },
+  {
+    "text": "un",
+    "start": 256.55,
+    "end": 256.68,
+    "id": "w763"
+  },
+  {
+    "text": "emprunt.",
+    "start": 256.68,
+    "end": 257.22,
+    "id": "w764"
+  },
+  {
+    "text": "Faisons",
+    "start": 257.22,
+    "end": 257.575,
+    "id": "w765"
+  },
+  {
+    "text": "un",
+    "start": 257.575,
+    "end": 257.93,
+    "id": "w766"
+  },
+  {
+    "text": "exercice,",
+    "start": 257.93,
+    "end": 258.28,
+    "id": "w767"
+  },
+  {
+    "text": "avec",
+    "start": 258.28,
+    "end": 258.51,
+    "id": "w768"
+  },
+  {
+    "text": "des",
+    "start": 258.51,
+    "end": 258.68,
+    "id": "w769"
+  },
+  {
+    "text": "chiffres",
+    "start": 258.68,
+    "end": 259.13,
+    "id": "w770"
+  },
+  {
+    "text": "purement",
+    "start": 259.13,
+    "end": 259.57,
+    "id": "w771"
+  },
+  {
+    "text": "illustratifs,",
+    "start": 259.57,
+    "end": 260.38,
+    "id": "w772"
+  },
+  {
+    "text": "pas",
+    "start": 260.38,
+    "end": 260.61,
+    "id": "w773"
+  },
+  {
+    "text": "ceux",
+    "start": 260.61,
+    "end": 260.7,
+    "id": "w774"
+  },
+  {
+    "text": "d'une",
+    "start": 260.72,
+    "end": 260.92,
+    "id": "w775"
+  },
+  {
+    "text": "école",
+    "start": 260.92,
+    "end": 261.08,
+    "id": "w776"
+  },
+  {
+    "text": "réelle.",
+    "start": 261.15,
+    "end": 261.48,
+    "id": "w777"
+  },
+  {
+    "text": "Imaginons",
+    "start": 261.48,
+    "end": 261.865,
+    "id": "w778"
+  },
+  {
+    "text": "une",
+    "start": 261.865,
+    "end": 262.25,
+    "id": "w779"
+  },
+  {
+    "text": "école",
+    "start": 262.25,
+    "end": 262.51,
+    "id": "w780"
+  },
+  {
+    "text": "de",
+    "start": 262.54,
+    "end": 262.63,
+    "id": "w781"
+  },
+  {
+    "text": "100",
+    "start": 262.63,
+    "end": 263.09,
+    "id": "w782"
+  },
+  {
+    "text": "élèves,",
+    "start": 263.28,
+    "end": 263.66,
+    "id": "w783"
+  },
+  {
+    "text": "avec",
+    "start": 263.66,
+    "end": 263.825,
+    "id": "w784"
+  },
+  {
+    "text": "des",
+    "start": 263.825,
+    "end": 263.99,
+    "id": "w785"
+  },
+  {
+    "text": "frais",
+    "start": 263.99,
+    "end": 264.17,
+    "id": "w786"
+  },
+  {
+    "text": "de",
+    "start": 264.17,
+    "end": 264.28,
+    "id": "w787"
+  },
+  {
+    "text": "scolarité",
+    "start": 264.28,
+    "end": 264.62,
+    "id": "w788"
+  },
+  {
+    "text": "de",
+    "start": 264.62,
+    "end": 264.7,
+    "id": "w789"
+  },
+  {
+    "text": "6",
+    "start": 264.7,
+    "end": 264.82,
+    "id": "w790"
+  },
+  {
+    "text": "000",
+    "start": 264.82,
+    "end": 265.2,
+    "id": "w791"
+  },
+  {
+    "text": "euros",
+    "start": 265.2,
+    "end": 265.41,
+    "id": "w792"
+  },
+  {
+    "text": "par",
+    "start": 265.51,
+    "end": 265.53,
+    "id": "w793"
+  },
+  {
+    "text": "an.",
+    "start": 265.53,
+    "end": 265.78,
+    "id": "w794"
+  },
+  {
+    "text": "Ça",
+    "start": 265.78,
+    "end": 266.053,
+    "id": "w795"
+  },
+  {
+    "text": "donne",
+    "start": 266.053,
+    "end": 266.327,
+    "id": "w796"
+  },
+  {
+    "text": "600",
+    "start": 266.327,
+    "end": 266.6,
+    "id": "w797"
+  },
+  {
+    "text": "000",
+    "start": 266.6,
+    "end": 266.98,
+    "id": "w798"
+  },
+  {
+    "text": "euros",
+    "start": 266.98,
+    "end": 267.17,
+    "id": "w799"
+  },
+  {
+    "text": "de",
+    "start": 267.25,
+    "end": 267.3,
+    "id": "w800"
+  },
+  {
+    "text": "recettes.",
+    "start": 267.3,
+    "end": 267.68,
+    "id": "w801"
+  },
+  {
+    "text": "Maintenant,",
+    "start": 267.68,
+    "end": 268.49,
+    "id": "w802"
+  },
+  {
+    "text": "les",
+    "start": 268.49,
+    "end": 268.58,
+    "id": "w803"
+  },
+  {
+    "text": "dépenses.",
+    "start": 268.77,
+    "end": 269.28,
+    "id": "w804"
+  },
+  {
+    "text": "10",
+    "start": 269.28,
+    "end": 269.98,
+    "id": "w805"
+  },
+  {
+    "text": "enseignants",
+    "start": 269.98,
+    "end": 270.18,
+    "id": "w806"
+  },
+  {
+    "text": "et",
+    "start": 270.18,
+    "end": 270.28,
+    "id": "w807"
+  },
+  {
+    "text": "3",
+    "start": 270.28,
+    "end": 270.44,
+    "id": "w808"
+  },
+  {
+    "text": "personnes",
+    "start": 270.44,
+    "end": 270.83,
+    "id": "w809"
+  },
+  {
+    "text": "pour",
+    "start": 271.13,
+    "end": 271.14,
+    "id": "w810"
+  },
+  {
+    "text": "l'administration",
+    "start": 271.15,
+    "end": 272.01,
+    "id": "w811"
+  },
+  {
+    "text": "et",
+    "start": 272.06,
+    "end": 272.12,
+    "id": "w812"
+  },
+  {
+    "text": "la",
+    "start": 272.13,
+    "end": 272.2,
+    "id": "w813"
+  },
+  {
+    "text": "vie",
+    "start": 272.2,
+    "end": 272.3,
+    "id": "w814"
+  },
+  {
+    "text": "scolaire.",
+    "start": 272.3,
+    "end": 272.68,
+    "id": "w815"
+  },
+  {
+    "text": "À",
+    "start": 272.68,
+    "end": 272.953,
+    "id": "w816"
+  },
+  {
+    "text": "environ",
+    "start": 272.953,
+    "end": 273.227,
+    "id": "w817"
+  },
+  {
+    "text": "40",
+    "start": 273.227,
+    "end": 273.5,
+    "id": "w818"
+  },
+  {
+    "text": "000",
+    "start": 273.5,
+    "end": 273.88,
+    "id": "w819"
+  },
+  {
+    "text": "euros",
+    "start": 273.88,
+    "end": 274.07,
+    "id": "w820"
+  },
+  {
+    "text": "chacun,",
+    "start": 274.37,
+    "end": 274.58,
+    "id": "w821"
+  },
+  {
+    "text": "charges",
+    "start": 274.77,
+    "end": 274.86,
+    "id": "w822"
+  },
+  {
+    "text": "comprises,",
+    "start": 275.06,
+    "end": 275.34,
+    "id": "w823"
+  },
+  {
+    "text": "on",
+    "start": 275.34,
+    "end": 275.42,
+    "id": "w824"
+  },
+  {
+    "text": "arrive",
+    "start": 275.42,
+    "end": 275.63,
+    "id": "w825"
+  },
+  {
+    "text": "à",
+    "start": 275.63,
+    "end": 275.94,
+    "id": "w826"
+  },
+  {
+    "text": "120",
+    "start": 275.94,
+    "end": 276.08,
+    "id": "w827"
+  },
+  {
+    "text": "000",
+    "start": 276.08,
+    "end": 276.45,
+    "id": "w828"
+  },
+  {
+    "text": "euros",
+    "start": 276.45,
+    "end": 276.68,
+    "id": "w829"
+  },
+  {
+    "text": "de",
+    "start": 276.68,
+    "end": 276.74,
+    "id": "w830"
+  },
+  {
+    "text": "salaire.",
+    "start": 276.74,
+    "end": 277.08,
+    "id": "w831"
+  },
+  {
+    "text": "Ajoutez",
+    "start": 277.08,
+    "end": 277.79,
+    "id": "w832"
+  },
+  {
+    "text": "le",
+    "start": 277.79,
+    "end": 277.86,
+    "id": "w833"
+  },
+  {
+    "text": "loyer,",
+    "start": 278.03,
+    "end": 278.5,
+    "id": "w834"
+  },
+  {
+    "text": "disons",
+    "start": 278.5,
+    "end": 278.8,
+    "id": "w835"
+  },
+  {
+    "text": "60",
+    "start": 278.8,
+    "end": 279.1,
+    "id": "w836"
+  },
+  {
+    "text": "000",
+    "start": 279.1,
+    "end": 279.41,
+    "id": "w837"
+  },
+  {
+    "text": "euros.",
+    "start": 279.41,
+    "end": 279.68,
+    "id": "w838"
+  },
+  {
+    "text": "Puis",
+    "start": 279.68,
+    "end": 280.34,
+    "id": "w839"
+  },
+  {
+    "text": "l'énergie,",
+    "start": 280.34,
+    "end": 280.51,
+    "id": "w840"
+  },
+  {
+    "text": "les",
+    "start": 280.64,
+    "end": 280.67,
+    "id": "w841"
+  },
+  {
+    "text": "assurances,",
+    "start": 280.67,
+    "end": 281.22,
+    "id": "w842"
+  },
+  {
+    "text": "l'informatique,",
+    "start": 281.33,
+    "end": 282.13,
+    "id": "w843"
+  },
+  {
+    "text": "la",
+    "start": 282.21,
+    "end": 282.26,
+    "id": "w844"
+  },
+  {
+    "text": "cantine,",
+    "start": 282.26,
+    "end": 282.76,
+    "id": "w845"
+  },
+  {
+    "text": "encore",
+    "start": 282.76,
+    "end": 283.19,
+    "id": "w846"
+  },
+  {
+    "text": "40",
+    "start": 283.19,
+    "end": 283.28,
+    "id": "w847"
+  },
+  {
+    "text": "000",
+    "start": 283.48,
+    "end": 283.66,
+    "id": "w848"
+  },
+  {
+    "text": "euros.",
+    "start": 283.73,
+    "end": 284.02,
+    "id": "w849"
+  },
+  {
+    "text": "Total,",
+    "start": 284.02,
+    "end": 284.66,
+    "id": "w850"
+  },
+  {
+    "text": "620",
+    "start": 284.66,
+    "end": 284.96,
+    "id": "w851"
+  },
+  {
+    "text": "000",
+    "start": 284.96,
+    "end": 285.49,
+    "id": "w852"
+  },
+  {
+    "text": "euros",
+    "start": 285.49,
+    "end": 285.54,
+    "id": "w853"
+  },
+  {
+    "text": "de",
+    "start": 285.84,
+    "end": 285.91,
+    "id": "w854"
+  },
+  {
+    "text": "dépenses.",
+    "start": 285.91,
+    "end": 286.6,
+    "id": "w855"
+  },
+  {
+    "text": "Pour",
+    "start": 286.6,
+    "end": 287.21,
+    "id": "w856"
+  },
+  {
+    "text": "600",
+    "start": 287.21,
+    "end": 287.25,
+    "id": "w857"
+  },
+  {
+    "text": "000",
+    "start": 287.5,
+    "end": 287.69,
+    "id": "w858"
+  },
+  {
+    "text": "de",
+    "start": 287.75,
+    "end": 287.8,
+    "id": "w859"
+  },
+  {
+    "text": "recettes.",
+    "start": 287.8,
+    "end": 288.38,
+    "id": "w860"
+  },
+  {
+    "text": "L'école",
+    "start": 288.38,
+    "end": 288.84,
+    "id": "w861"
+  },
+  {
+    "text": "perd",
+    "start": 288.84,
+    "end": 289.3,
+    "id": "w862"
+  },
+  {
+    "text": "20",
+    "start": 289.3,
+    "end": 289.32,
+    "id": "w863"
+  },
+  {
+    "text": "000",
+    "start": 289.32,
+    "end": 289.83,
+    "id": "w864"
+  },
+  {
+    "text": "euros",
+    "start": 289.83,
+    "end": 289.88,
+    "id": "w865"
+  },
+  {
+    "text": "par",
+    "start": 290.18,
+    "end": 290.27,
+    "id": "w866"
+  },
+  {
+    "text": "an.",
+    "start": 290.28,
+    "end": 290.6,
+    "id": "w867"
+  },
+  {
+    "text": "Maintenant,",
+    "start": 291.55,
+    "end": 291.8,
+    "id": "w868"
+  },
+  {
+    "text": "passons",
+    "start": 291.84,
+    "end": 292.41,
+    "id": "w869"
+  },
+  {
+    "text": "à",
+    "start": 292.41,
+    "end": 292.72,
+    "id": "w870"
+  },
+  {
+    "text": "130",
+    "start": 292.72,
+    "end": 292.97,
+    "id": "w871"
+  },
+  {
+    "text": "élèves,",
+    "start": 293.07,
+    "end": 293.34,
+    "id": "w872"
+  },
+  {
+    "text": "sans",
+    "start": 293.34,
+    "end": 293.67,
+    "id": "w873"
+  },
+  {
+    "text": "embaucher",
+    "start": 293.67,
+    "end": 294.03,
+    "id": "w874"
+  },
+  {
+    "text": "personne.",
+    "start": 294.03,
+    "end": 294.54,
+    "id": "w875"
+  },
+  {
+    "text": "Les",
+    "start": 294.54,
+    "end": 295.24,
+    "id": "w876"
+  },
+  {
+    "text": "recettes",
+    "start": 295.24,
+    "end": 295.29,
+    "id": "w877"
+  },
+  {
+    "text": "montent",
+    "start": 295.53,
+    "end": 295.7,
+    "id": "w878"
+  },
+  {
+    "text": "à",
+    "start": 295.7,
+    "end": 295.72,
+    "id": "w879"
+  },
+  {
+    "text": "780",
+    "start": 295.79,
+    "end": 296.12,
+    "id": "w880"
+  },
+  {
+    "text": "000",
+    "start": 296.42,
+    "end": 296.82,
+    "id": "w881"
+  },
+  {
+    "text": "euros.",
+    "start": 296.82,
+    "end": 297.16,
+    "id": "w882"
+  },
+  {
+    "text": "Les",
+    "start": 297.16,
+    "end": 297.68,
+    "id": "w883"
+  },
+  {
+    "text": "salaires",
+    "start": 297.68,
+    "end": 297.81,
+    "id": "w884"
+  },
+  {
+    "text": "et",
+    "start": 297.81,
+    "end": 297.98,
+    "id": "w885"
+  },
+  {
+    "text": "le",
+    "start": 297.98,
+    "end": 298.05,
+    "id": "w886"
+  },
+  {
+    "text": "loyer",
+    "start": 298.05,
+    "end": 298.34,
+    "id": "w887"
+  },
+  {
+    "text": "ne",
+    "start": 298.34,
+    "end": 298.46,
+    "id": "w888"
+  },
+  {
+    "text": "bougent",
+    "start": 298.46,
+    "end": 298.87,
+    "id": "w889"
+  },
+  {
+    "text": "presque",
+    "start": 298.87,
+    "end": 299.28,
+    "id": "w890"
+  },
+  {
+    "text": "pas.",
+    "start": 299.28,
+    "end": 299.68,
+    "id": "w891"
+  },
+  {
+    "text": "L'école",
+    "start": 299.68,
+    "end": 300.26,
+    "id": "w892"
+  },
+  {
+    "text": "gagne",
+    "start": 300.26,
+    "end": 300.3,
+    "id": "w893"
+  },
+  {
+    "text": "alors",
+    "start": 300.3,
+    "end": 300.56,
+    "id": "w894"
+  },
+  {
+    "text": "à",
+    "start": 300.56,
+    "end": 300.61,
+    "id": "w895"
+  },
+  {
+    "text": "peu",
+    "start": 300.61,
+    "end": 300.74,
+    "id": "w896"
+  },
+  {
+    "text": "près",
+    "start": 300.81,
+    "end": 300.97,
+    "id": "w897"
+  },
+  {
+    "text": "150",
+    "start": 300.97,
+    "end": 301.13,
+    "id": "w898"
+  },
+  {
+    "text": "000",
+    "start": 301.44,
+    "end": 301.91,
+    "id": "w899"
+  },
+  {
+    "text": "euros.",
+    "start": 301.91,
+    "end": 302.34,
+    "id": "w900"
+  },
+  {
+    "text": "30",
+    "start": 302.34,
+    "end": 303.08,
+    "id": "w901"
+  },
+  {
+    "text": "élèves",
+    "start": 303.08,
+    "end": 303.27,
+    "id": "w902"
+  },
+  {
+    "text": "de",
+    "start": 303.38,
+    "end": 303.42,
+    "id": "w903"
+  },
+  {
+    "text": "plus,",
+    "start": 303.42,
+    "end": 303.9,
+    "id": "w904"
+  },
+  {
+    "text": "et",
+    "start": 303.9,
+    "end": 304.09,
+    "id": "w905"
+  },
+  {
+    "text": "on",
+    "start": 304.09,
+    "end": 304.1,
+    "id": "w906"
+  },
+  {
+    "text": "passe",
+    "start": 304.1,
+    "end": 304.38,
+    "id": "w907"
+  },
+  {
+    "text": "d'un",
+    "start": 304.38,
+    "end": 304.56,
+    "id": "w908"
+  },
+  {
+    "text": "déficit",
+    "start": 304.63,
+    "end": 304.93,
+    "id": "w909"
+  },
+  {
+    "text": "à",
+    "start": 304.93,
+    "end": 304.96,
+    "id": "w910"
+  },
+  {
+    "text": "un",
+    "start": 304.96,
+    "end": 305.25,
+    "id": "w911"
+  },
+  {
+    "text": "confortable",
+    "start": 305.25,
+    "end": 305.66,
+    "id": "w912"
+  },
+  {
+    "text": "excédent.",
+    "start": 305.66,
+    "end": 306.34,
+    "id": "w913"
+  },
+  {
+    "text": "C'est",
+    "start": 306.34,
+    "end": 306.67,
+    "id": "w914"
+  },
+  {
+    "text": "ça,",
+    "start": 306.67,
+    "end": 307,
+    "id": "w915"
+  },
+  {
+    "text": "l'effet",
+    "start": 307,
+    "end": 307.21,
+    "id": "w916"
+  },
+  {
+    "text": "de",
+    "start": 307.3,
+    "end": 307.32,
+    "id": "w917"
+  },
+  {
+    "text": "levier",
+    "start": 307.32,
+    "end": 307.66,
+    "id": "w918"
+  },
+  {
+    "text": "d'une",
+    "start": 307.66,
+    "end": 307.88,
+    "id": "w919"
+  },
+  {
+    "text": "école.",
+    "start": 307.98,
+    "end": 308.42,
+    "id": "w920"
+  },
+  {
+    "text": "Des",
+    "start": 308.42,
+    "end": 309,
+    "id": "w921"
+  },
+  {
+    "text": "coûts",
+    "start": 309,
+    "end": 309.1,
+    "id": "w922"
+  },
+  {
+    "text": "fixes",
+    "start": 309.3,
+    "end": 309.48,
+    "id": "w923"
+  },
+  {
+    "text": "énormes,",
+    "start": 309.48,
+    "end": 310.18,
+    "id": "w924"
+  },
+  {
+    "text": "et",
+    "start": 310.18,
+    "end": 310.335,
+    "id": "w925"
+  },
+  {
+    "text": "une",
+    "start": 310.335,
+    "end": 310.49,
+    "id": "w926"
+  },
+  {
+    "text": "marge",
+    "start": 310.49,
+    "end": 310.68,
+    "id": "w927"
+  },
+  {
+    "text": "qui",
+    "start": 310.78,
+    "end": 310.83,
+    "id": "w928"
+  },
+  {
+    "text": "dépend",
+    "start": 310.83,
+    "end": 311.13,
+    "id": "w929"
+  },
+  {
+    "text": "du",
+    "start": 311.13,
+    "end": 311.23,
+    "id": "w930"
+  },
+  {
+    "text": "remplissage.",
+    "start": 311.23,
+    "end": 311.9,
+    "id": "w931"
+  },
+  {
+    "text": "Et",
+    "start": 311.9,
+    "end": 312.25,
+    "id": "w932"
+  },
+  {
+    "text": "à",
+    "start": 312.25,
+    "end": 312.6,
+    "id": "w933"
+  },
+  {
+    "text": "l'inverse,",
+    "start": 312.6,
+    "end": 312.8,
+    "id": "w934"
+  },
+  {
+    "text": "perdre",
+    "start": 312.9,
+    "end": 313.15,
+    "id": "w935"
+  },
+  {
+    "text": "quelques",
+    "start": 313.15,
+    "end": 313.48,
+    "id": "w936"
+  },
+  {
+    "text": "élèves",
+    "start": 313.75,
+    "end": 314,
+    "id": "w937"
+  },
+  {
+    "text": "en",
+    "start": 314,
+    "end": 314.02,
+    "id": "w938"
+  },
+  {
+    "text": "cours",
+    "start": 314.13,
+    "end": 314.4,
+    "id": "w939"
+  },
+  {
+    "text": "de",
+    "start": 314.47,
+    "end": 314.54,
+    "id": "w940"
+  },
+  {
+    "text": "route",
+    "start": 314.54,
+    "end": 314.9,
+    "id": "w941"
+  },
+  {
+    "text": "peut",
+    "start": 314.91,
+    "end": 315.04,
+    "id": "w942"
+  },
+  {
+    "text": "faire",
+    "start": 315.2,
+    "end": 315.22,
+    "id": "w943"
+  },
+  {
+    "text": "basculer",
+    "start": 315.22,
+    "end": 315.49,
+    "id": "w944"
+  },
+  {
+    "text": "les",
+    "start": 315.49,
+    "end": 315.59,
+    "id": "w945"
+  },
+  {
+    "text": "comptes",
+    "start": 315.59,
+    "end": 315.78,
+    "id": "w946"
+  },
+  {
+    "text": "dans",
+    "start": 315.78,
+    "end": 315.93,
+    "id": "w947"
+  },
+  {
+    "text": "le",
+    "start": 315.93,
+    "end": 316.08,
+    "id": "w948"
+  },
+  {
+    "text": "rouge.",
+    "start": 316.08,
+    "end": 316.32,
+    "id": "w949"
+  },
+  {
+    "text": "Que",
+    "start": 316.32,
+    "end": 316.87,
+    "id": "w950"
+  },
+  {
+    "text": "fait",
+    "start": 316.87,
+    "end": 317.42,
+    "id": "w951"
+  },
+  {
+    "text": "concrètement",
+    "start": 317.42,
+    "end": 318.04,
+    "id": "w952"
+  },
+  {
+    "text": "un",
+    "start": 318.04,
+    "end": 318.21,
+    "id": "w953"
+  },
+  {
+    "text": "directeur?",
+    "start": 318.21,
+    "end": 319.34,
+    "id": "w954"
+  },
+  {
+    "text": "Il",
+    "start": 319.35,
+    "end": 319.42,
+    "id": "w955"
+  },
+  {
+    "text": "construit",
+    "start": 319.64,
+    "end": 319.79,
+    "id": "w956"
+  },
+  {
+    "text": "un",
+    "start": 319.79,
+    "end": 319.82,
+    "id": "w957"
+  },
+  {
+    "text": "budget,",
+    "start": 319.89,
+    "end": 320.21,
+    "id": "w958"
+  },
+  {
+    "text": "négocie",
+    "start": 320.21,
+    "end": 320.635,
+    "id": "w959"
+  },
+  {
+    "text": "avec",
+    "start": 320.635,
+    "end": 321.06,
+    "id": "w960"
+  },
+  {
+    "text": "la",
+    "start": 321.06,
+    "end": 321.13,
+    "id": "w961"
+  },
+  {
+    "text": "banque,",
+    "start": 321.13,
+    "end": 321.64,
+    "id": "w962"
+  },
+  {
+    "text": "recrute,",
+    "start": 322.04,
+    "end": 322.28,
+    "id": "w963"
+  },
+  {
+    "text": "gère",
+    "start": 322.34,
+    "end": 322.52,
+    "id": "w964"
+  },
+  {
+    "text": "les",
+    "start": 322.52,
+    "end": 322.7,
+    "id": "w965"
+  },
+  {
+    "text": "inscriptions,",
+    "start": 322.7,
+    "end": 323.58,
+    "id": "w966"
+  },
+  {
+    "text": "suit",
+    "start": 323.58,
+    "end": 323.82,
+    "id": "w967"
+  },
+  {
+    "text": "la",
+    "start": 323.82,
+    "end": 324.06,
+    "id": "w968"
+  },
+  {
+    "text": "trésorerie.",
+    "start": 324.06,
+    "end": 324.72,
+    "id": "w969"
+  },
+  {
+    "text": "Mais",
+    "start": 324.72,
+    "end": 324.963,
+    "id": "w970"
+  },
+  {
+    "text": "il",
+    "start": 324.963,
+    "end": 325.207,
+    "id": "w971"
+  },
+  {
+    "text": "ne",
+    "start": 325.207,
+    "end": 325.45,
+    "id": "w972"
+  },
+  {
+    "text": "cherche",
+    "start": 325.45,
+    "end": 325.61,
+    "id": "w973"
+  },
+  {
+    "text": "pas",
+    "start": 325.74,
+    "end": 325.8,
+    "id": "w974"
+  },
+  {
+    "text": "à",
+    "start": 325.8,
+    "end": 325.86,
+    "id": "w975"
+  },
+  {
+    "text": "maximiser",
+    "start": 325.86,
+    "end": 326.31,
+    "id": "w976"
+  },
+  {
+    "text": "un",
+    "start": 326.31,
+    "end": 326.62,
+    "id": "w977"
+  },
+  {
+    "text": "profit.",
+    "start": 326.62,
+    "end": 327.08,
+    "id": "w978"
+  },
+  {
+    "text": "Dans",
+    "start": 327.38,
+    "end": 327.42,
+    "id": "w979"
+  },
+  {
+    "text": "le",
+    "start": 327.42,
+    "end": 327.56,
+    "id": "w980"
+  },
+  {
+    "text": "sous-contrat,",
+    "start": 327.63,
+    "end": 328.78,
+    "id": "w981"
+  },
+  {
+    "text": "la",
+    "start": 328.78,
+    "end": 329.01,
+    "id": "w982"
+  },
+  {
+    "text": "plupart",
+    "start": 329.01,
+    "end": 329.24,
+    "id": "w983"
+  },
+  {
+    "text": "des",
+    "start": 329.24,
+    "end": 329.26,
+    "id": "w984"
+  },
+  {
+    "text": "établissements",
+    "start": 329.26,
+    "end": 329.8,
+    "id": "w985"
+  },
+  {
+    "text": "sont",
+    "start": 329.8,
+    "end": 330.07,
+    "id": "w986"
+  },
+  {
+    "text": "gérés",
+    "start": 330.07,
+    "end": 330.28,
+    "id": "w987"
+  },
+  {
+    "text": "par",
+    "start": 330.29,
+    "end": 330.43,
+    "id": "w988"
+  },
+  {
+    "text": "des",
+    "start": 330.43,
+    "end": 330.58,
+    "id": "w989"
+  },
+  {
+    "text": "associations",
+    "start": 330.58,
+    "end": 331.14,
+    "id": "w990"
+  },
+  {
+    "text": "à",
+    "start": 331.14,
+    "end": 331.3,
+    "id": "w991"
+  },
+  {
+    "text": "but",
+    "start": 331.3,
+    "end": 331.46,
+    "id": "w992"
+  },
+  {
+    "text": "non",
+    "start": 331.46,
+    "end": 331.55,
+    "id": "w993"
+  },
+  {
+    "text": "lucratif.",
+    "start": 331.55,
+    "end": 332.16,
+    "id": "w994"
+  },
+  {
+    "text": "Les",
+    "start": 332.16,
+    "end": 332.64,
+    "id": "w995"
+  },
+  {
+    "text": "excédents",
+    "start": 332.64,
+    "end": 333.12,
+    "id": "w996"
+  },
+  {
+    "text": "doivent",
+    "start": 333.12,
+    "end": 333.16,
+    "id": "w997"
+  },
+  {
+    "text": "être",
+    "start": 333.16,
+    "end": 333.3,
+    "id": "w998"
+  },
+  {
+    "text": "réinvestis",
+    "start": 333.37,
+    "end": 333.89,
+    "id": "w999"
+  },
+  {
+    "text": "dans",
+    "start": 334,
+    "end": 334.09,
+    "id": "w1000"
+  },
+  {
+    "text": "l'école.",
+    "start": 334.1,
+    "end": 334.62,
+    "id": "w1001"
+  },
+  {
+    "text": "Dans",
+    "start": 334.62,
+    "end": 335.09,
+    "id": "w1002"
+  },
+  {
+    "text": "le",
+    "start": 335.09,
+    "end": 335.56,
+    "id": "w1003"
+  },
+  {
+    "text": "hors-contrat,",
+    "start": 335.56,
+    "end": 336.34,
+    "id": "w1004"
+  },
+  {
+    "text": "le",
+    "start": 336.34,
+    "end": 336.69,
+    "id": "w1005"
+  },
+  {
+    "text": "statut",
+    "start": 336.69,
+    "end": 336.75,
+    "id": "w1006"
+  },
+  {
+    "text": "est",
+    "start": 336.75,
+    "end": 336.98,
+    "id": "w1007"
+  },
+  {
+    "text": "plus",
+    "start": 336.98,
+    "end": 337.11,
+    "id": "w1008"
+  },
+  {
+    "text": "libre.",
+    "start": 337.11,
+    "end": 337.54,
+    "id": "w1009"
+  },
+  {
+    "text": "Certaines",
+    "start": 338.02,
+    "end": 338.06,
+    "id": "w1010"
+  },
+  {
+    "text": "écoles",
+    "start": 338.06,
+    "end": 338.39,
+    "id": "w1011"
+  },
+  {
+    "text": "sont",
+    "start": 338.39,
+    "end": 338.61,
+    "id": "w1012"
+  },
+  {
+    "text": "associatives,",
+    "start": 338.61,
+    "end": 339.44,
+    "id": "w1013"
+  },
+  {
+    "text": "d'autres",
+    "start": 339.62,
+    "end": 339.81,
+    "id": "w1014"
+  },
+  {
+    "text": "commerciales.",
+    "start": 339.92,
+    "end": 340.5,
+    "id": "w1015"
+  },
+  {
+    "text": "Mais",
+    "start": 340.5,
+    "end": 341.02,
+    "id": "w1016"
+  },
+  {
+    "text": "l'État",
+    "start": 341.02,
+    "end": 341.16,
+    "id": "w1017"
+  },
+  {
+    "text": "surveille,",
+    "start": 341.32,
+    "end": 341.84,
+    "id": "w1018"
+  },
+  {
+    "text": "notamment",
+    "start": 342.33,
+    "end": 342.37,
+    "id": "w1019"
+  },
+  {
+    "text": "sur",
+    "start": 342.37,
+    "end": 342.62,
+    "id": "w1020"
+  },
+  {
+    "text": "les",
+    "start": 342.62,
+    "end": 342.71,
+    "id": "w1021"
+  },
+  {
+    "text": "contenus,",
+    "start": 342.71,
+    "end": 343.2,
+    "id": "w1022"
+  },
+  {
+    "text": "la",
+    "start": 343.2,
+    "end": 343.84,
+    "id": "w1023"
+  },
+  {
+    "text": "sécurité,",
+    "start": 343.84,
+    "end": 344.02,
+    "id": "w1024"
+  },
+  {
+    "text": "et",
+    "start": 344.02,
+    "end": 344.52,
+    "id": "w1025"
+  },
+  {
+    "text": "l'honorabilité",
+    "start": 344.52,
+    "end": 344.85,
+    "id": "w1026"
+  },
+  {
+    "text": "de",
+    "start": 344.85,
+    "end": 344.95,
+    "id": "w1027"
+  },
+  {
+    "text": "la",
+    "start": 344.95,
+    "end": 345,
+    "id": "w1028"
+  },
+  {
+    "text": "direction.",
+    "start": 345.07,
+    "end": 345.74,
+    "id": "w1029"
+  },
+  {
+    "text": "Un",
+    "start": 345.74,
+    "end": 346.76,
+    "id": "w1030"
+  },
+  {
+    "text": "directeur",
+    "start": 346.76,
+    "end": 346.81,
+    "id": "w1031"
+  },
+  {
+    "text": "d'école",
+    "start": 346.81,
+    "end": 347.52,
+    "id": "w1032"
+  },
+  {
+    "text": "doit",
+    "start": 347.52,
+    "end": 347.64,
+    "id": "w1033"
+  },
+  {
+    "text": "donc",
+    "start": 347.64,
+    "end": 347.94,
+    "id": "w1034"
+  },
+  {
+    "text": "jongler",
+    "start": 347.94,
+    "end": 348.18,
+    "id": "w1035"
+  },
+  {
+    "text": "entre",
+    "start": 348.18,
+    "end": 348.5,
+    "id": "w1036"
+  },
+  {
+    "text": "mission",
+    "start": 348.5,
+    "end": 348.9,
+    "id": "w1037"
+  },
+  {
+    "text": "éducative",
+    "start": 348.9,
+    "end": 349.44,
+    "id": "w1038"
+  },
+  {
+    "text": "et",
+    "start": 349.44,
+    "end": 349.52,
+    "id": "w1039"
+  },
+  {
+    "text": "contrainte",
+    "start": 349.52,
+    "end": 349.95,
+    "id": "w1040"
+  },
+  {
+    "text": "financière.",
+    "start": 349.95,
+    "end": 350.56,
+    "id": "w1041"
+  },
+  {
+    "text": "Et",
+    "start": 350.56,
+    "end": 350.81,
+    "id": "w1042"
+  },
+  {
+    "text": "la",
+    "start": 350.81,
+    "end": 351.06,
+    "id": "w1043"
+  },
+  {
+    "text": "moindre",
+    "start": 351.06,
+    "end": 351.16,
+    "id": "w1044"
+  },
+  {
+    "text": "erreur",
+    "start": 351.36,
+    "end": 351.51,
+    "id": "w1045"
+  },
+  {
+    "text": "de",
+    "start": 351.51,
+    "end": 351.61,
+    "id": "w1046"
+  },
+  {
+    "text": "prévision",
+    "start": 351.63,
+    "end": 351.94,
+    "id": "w1047"
+  },
+  {
+    "text": "se",
+    "start": 352.21,
+    "end": 352.24,
+    "id": "w1048"
+  },
+  {
+    "text": "paie",
+    "start": 352.24,
+    "end": 352.46,
+    "id": "w1049"
+  },
+  {
+    "text": "cher.",
+    "start": 352.46,
+    "end": 352.86,
+    "id": "w1050"
+  },
+  {
+    "text": "Reste",
+    "start": 352.86,
+    "end": 353.5,
+    "id": "w1051"
+  },
+  {
+    "text": "une",
+    "start": 353.5,
+    "end": 354.14,
+    "id": "w1052"
+  },
+  {
+    "text": "question.",
+    "start": 354.14,
+    "end": 354.46,
+    "id": "w1053"
+  },
+  {
+    "text": "Cet",
+    "start": 354.46,
+    "end": 354.9,
+    "id": "w1054"
+  },
+  {
+    "text": "équilibre",
+    "start": 354.9,
+    "end": 355.24,
+    "id": "w1055"
+  },
+  {
+    "text": "est-il",
+    "start": 355.24,
+    "end": 355.63,
+    "id": "w1056"
+  },
+  {
+    "text": "stable?",
+    "start": 355.63,
+    "end": 356.28,
+    "id": "w1057"
+  },
+  {
+    "text": "Premier",
+    "start": 356.28,
+    "end": 357.3,
+    "id": "w1058"
+  },
+  {
+    "text": "risque,",
+    "start": 357.3,
+    "end": 357.48,
+    "id": "w1059"
+  },
+  {
+    "text": "la",
+    "start": 357.55,
+    "end": 357.63,
+    "id": "w1060"
+  },
+  {
+    "text": "démographie.",
+    "start": 357.63,
+    "end": 358.3,
+    "id": "w1061"
+  },
+  {
+    "text": "Le",
+    "start": 358.3,
+    "end": 358.61,
+    "id": "w1062"
+  },
+  {
+    "text": "nombre",
+    "start": 358.61,
+    "end": 358.92,
+    "id": "w1063"
+  },
+  {
+    "text": "d'élèves",
+    "start": 358.92,
+    "end": 359.27,
+    "id": "w1064"
+  },
+  {
+    "text": "baisse",
+    "start": 359.27,
+    "end": 359.64,
+    "id": "w1065"
+  },
+  {
+    "text": "en",
+    "start": 359.64,
+    "end": 359.76,
+    "id": "w1066"
+  },
+  {
+    "text": "France",
+    "start": 359.76,
+    "end": 360.18,
+    "id": "w1067"
+  },
+  {
+    "text": "depuis",
+    "start": 360.18,
+    "end": 360.34,
+    "id": "w1068"
+  },
+  {
+    "text": "plusieurs",
+    "start": 360.45,
+    "end": 360.71,
+    "id": "w1069"
+  },
+  {
+    "text": "années.",
+    "start": 360.71,
+    "end": 360.94,
+    "id": "w1070"
+  },
+  {
+    "text": "Et",
+    "start": 360.94,
+    "end": 361.265,
+    "id": "w1071"
+  },
+  {
+    "text": "le",
+    "start": 361.265,
+    "end": 361.59,
+    "id": "w1072"
+  },
+  {
+    "text": "ministère",
+    "start": 361.59,
+    "end": 361.78,
+    "id": "w1073"
+  },
+  {
+    "text": "a",
+    "start": 361.78,
+    "end": 361.84,
+    "id": "w1074"
+  },
+  {
+    "text": "constaté",
+    "start": 361.84,
+    "end": 362.38,
+    "id": "w1075"
+  },
+  {
+    "text": "une",
+    "start": 362.38,
+    "end": 362.51,
+    "id": "w1076"
+  },
+  {
+    "text": "baisse",
+    "start": 362.51,
+    "end": 362.68,
+    "id": "w1077"
+  },
+  {
+    "text": "des",
+    "start": 362.68,
+    "end": 362.8,
+    "id": "w1078"
+  },
+  {
+    "text": "effectifs",
+    "start": 362.91,
+    "end": 363.18,
+    "id": "w1079"
+  },
+  {
+    "text": "à",
+    "start": 363.21,
+    "end": 363.23,
+    "id": "w1080"
+  },
+  {
+    "text": "la",
+    "start": 363.23,
+    "end": 363.3,
+    "id": "w1081"
+  },
+  {
+    "text": "rentrée",
+    "start": 363.44,
+    "end": 363.54,
+    "id": "w1082"
+  },
+  {
+    "text": "2024.",
+    "start": 363.54,
+    "end": 364.08,
+    "id": "w1083"
+  },
+  {
+    "text": "Moins",
+    "start": 364.08,
+    "end": 364.9,
+    "id": "w1084"
+  },
+  {
+    "text": "d'enfants,",
+    "start": 364.9,
+    "end": 365.34,
+    "id": "w1085"
+  },
+  {
+    "text": "c'est",
+    "start": 365.34,
+    "end": 365.51,
+    "id": "w1086"
+  },
+  {
+    "text": "moins",
+    "start": 365.51,
+    "end": 365.69,
+    "id": "w1087"
+  },
+  {
+    "text": "d'inscriptions.",
+    "start": 365.69,
+    "end": 366.32,
+    "id": "w1088"
+  },
+  {
+    "text": "Donc",
+    "start": 366.32,
+    "end": 366.58,
+    "id": "w1089"
+  },
+  {
+    "text": "des",
+    "start": 366.58,
+    "end": 366.84,
+    "id": "w1090"
+  },
+  {
+    "text": "classes",
+    "start": 366.84,
+    "end": 367.1,
+    "id": "w1091"
+  },
+  {
+    "text": "moins",
+    "start": 367.1,
+    "end": 367.29,
+    "id": "w1092"
+  },
+  {
+    "text": "pleines.",
+    "start": 367.35,
+    "end": 367.68,
+    "id": "w1093"
+  },
+  {
+    "text": "Deuxième",
+    "start": 367.68,
+    "end": 368.61,
+    "id": "w1094"
+  },
+  {
+    "text": "risque,",
+    "start": 368.61,
+    "end": 368.83,
+    "id": "w1095"
+  },
+  {
+    "text": "la",
+    "start": 368.9,
+    "end": 368.95,
+    "id": "w1096"
+  },
+  {
+    "text": "concurrence.",
+    "start": 368.95,
+    "end": 369.86,
+    "id": "w1097"
+  },
+  {
+    "text": "Entre",
+    "start": 369.86,
+    "end": 370.52,
+    "id": "w1098"
+  },
+  {
+    "text": "écoles",
+    "start": 370.52,
+    "end": 370.58,
+    "id": "w1099"
+  },
+  {
+    "text": "privées,",
+    "start": 370.82,
+    "end": 371.2,
+    "id": "w1100"
+  },
+  {
+    "text": "mais",
+    "start": 371.2,
+    "end": 371.38,
+    "id": "w1101"
+  },
+  {
+    "text": "aussi",
+    "start": 371.38,
+    "end": 371.4,
+    "id": "w1102"
+  },
+  {
+    "text": "avec",
+    "start": 371.7,
+    "end": 371.86,
+    "id": "w1103"
+  },
+  {
+    "text": "le",
+    "start": 371.86,
+    "end": 371.94,
+    "id": "w1104"
+  },
+  {
+    "text": "public,",
+    "start": 372.05,
+    "end": 372.4,
+    "id": "w1105"
+  },
+  {
+    "text": "qui",
+    "start": 372.4,
+    "end": 372.61,
+    "id": "w1106"
+  },
+  {
+    "text": "peut",
+    "start": 372.61,
+    "end": 372.69,
+    "id": "w1107"
+  },
+  {
+    "text": "lui",
+    "start": 372.69,
+    "end": 372.9,
+    "id": "w1108"
+  },
+  {
+    "text": "aussi",
+    "start": 372.9,
+    "end": 373.02,
+    "id": "w1109"
+  },
+  {
+    "text": "attirer",
+    "start": 373.02,
+    "end": 373.3,
+    "id": "w1110"
+  },
+  {
+    "text": "les",
+    "start": 373.3,
+    "end": 373.42,
+    "id": "w1111"
+  },
+  {
+    "text": "familles.",
+    "start": 373.42,
+    "end": 373.94,
+    "id": "w1112"
+  },
+  {
+    "text": "Troisième",
+    "start": 373.94,
+    "end": 374.79,
+    "id": "w1113"
+  },
+  {
+    "text": "risque,",
+    "start": 374.79,
+    "end": 375.09,
+    "id": "w1114"
+  },
+  {
+    "text": "la",
+    "start": 375.09,
+    "end": 375.22,
+    "id": "w1115"
+  },
+  {
+    "text": "réglementation.",
+    "start": 375.22,
+    "end": 376.43,
+    "id": "w1116"
+  },
+  {
+    "text": "Contrôle",
+    "start": 376.43,
+    "end": 377.07,
+    "id": "w1117"
+  },
+  {
+    "text": "renforcé,",
+    "start": 377.07,
+    "end": 377.53,
+    "id": "w1118"
+  },
+  {
+    "text": "normes",
+    "start": 377.53,
+    "end": 377.9,
+    "id": "w1119"
+  },
+  {
+    "text": "de",
+    "start": 377.9,
+    "end": 377.94,
+    "id": "w1120"
+  },
+  {
+    "text": "sécurité,",
+    "start": 378.24,
+    "end": 378.7,
+    "id": "w1121"
+  },
+  {
+    "text": "obligations",
+    "start": 379.19,
+    "end": 379.32,
+    "id": "w1122"
+  },
+  {
+    "text": "de",
+    "start": 379.32,
+    "end": 379.48,
+    "id": "w1123"
+  },
+  {
+    "text": "transparence.",
+    "start": 379.48,
+    "end": 380.28,
+    "id": "w1124"
+  },
+  {
+    "text": "Tout",
+    "start": 380.28,
+    "end": 380.585,
+    "id": "w1125"
+  },
+  {
+    "text": "cela",
+    "start": 380.585,
+    "end": 380.89,
+    "id": "w1126"
+  },
+  {
+    "text": "à",
+    "start": 380.89,
+    "end": 380.95,
+    "id": "w1127"
+  },
+  {
+    "text": "un",
+    "start": 380.95,
+    "end": 381.18,
+    "id": "w1128"
+  },
+  {
+    "text": "coût.",
+    "start": 381.18,
+    "end": 381.64,
+    "id": "w1129"
+  },
+  {
+    "text": "Dernier",
+    "start": 381.64,
+    "end": 382.55,
+    "id": "w1130"
+  },
+  {
+    "text": "risque,",
+    "start": 382.55,
+    "end": 382.79,
+    "id": "w1131"
+  },
+  {
+    "text": "plus",
+    "start": 382.84,
+    "end": 383.09,
+    "id": "w1132"
+  },
+  {
+    "text": "discret,",
+    "start": 383.09,
+    "end": 383.8,
+    "id": "w1133"
+  },
+  {
+    "text": "la",
+    "start": 383.8,
+    "end": 383.95,
+    "id": "w1134"
+  },
+  {
+    "text": "trésorerie.",
+    "start": 383.95,
+    "end": 385,
+    "id": "w1135"
+  },
+  {
+    "text": "Les",
+    "start": 385.05,
+    "end": 385.19,
+    "id": "w1136"
+  },
+  {
+    "text": "frais",
+    "start": 385.34,
+    "end": 385.44,
+    "id": "w1137"
+  },
+  {
+    "text": "sont",
+    "start": 385.44,
+    "end": 385.64,
+    "id": "w1138"
+  },
+  {
+    "text": "souvent",
+    "start": 385.64,
+    "end": 385.91,
+    "id": "w1139"
+  },
+  {
+    "text": "payés",
+    "start": 386.14,
+    "end": 386.24,
+    "id": "w1140"
+  },
+  {
+    "text": "par",
+    "start": 386.24,
+    "end": 386.39,
+    "id": "w1141"
+  },
+  {
+    "text": "mensualité",
+    "start": 386.39,
+    "end": 386.92,
+    "id": "w1142"
+  },
+  {
+    "text": "mais",
+    "start": 386.92,
+    "end": 387.22,
+    "id": "w1143"
+  },
+  {
+    "text": "certains",
+    "start": 387.22,
+    "end": 387.63,
+    "id": "w1144"
+  },
+  {
+    "text": "coûts",
+    "start": 387.63,
+    "end": 387.81,
+    "id": "w1145"
+  },
+  {
+    "text": "tombent",
+    "start": 388.07,
+    "end": 388.33,
+    "id": "w1146"
+  },
+  {
+    "text": "d'un",
+    "start": 388.33,
+    "end": 388.55,
+    "id": "w1147"
+  },
+  {
+    "text": "coup,",
+    "start": 388.55,
+    "end": 388.84,
+    "id": "w1148"
+  },
+  {
+    "text": "à",
+    "start": 388.84,
+    "end": 388.965,
+    "id": "w1149"
+  },
+  {
+    "text": "la",
+    "start": 388.965,
+    "end": 389.09,
+    "id": "w1150"
+  },
+  {
+    "text": "rentrée",
+    "start": 389.09,
+    "end": 389.4,
+    "id": "w1151"
+  },
+  {
+    "text": "ou",
+    "start": 389.4,
+    "end": 389.51,
+    "id": "w1152"
+  },
+  {
+    "text": "après",
+    "start": 389.51,
+    "end": 389.8,
+    "id": "w1153"
+  },
+  {
+    "text": "un",
+    "start": 389.8,
+    "end": 389.91,
+    "id": "w1154"
+  },
+  {
+    "text": "chantier.",
+    "start": 389.91,
+    "end": 390.62,
+    "id": "w1155"
+  },
+  {
+    "text": "Un",
+    "start": 390.62,
+    "end": 391.025,
+    "id": "w1156"
+  },
+  {
+    "text": "bon",
+    "start": 391.025,
+    "end": 391.43,
+    "id": "w1157"
+  },
+  {
+    "text": "directeur",
+    "start": 391.43,
+    "end": 391.8,
+    "id": "w1158"
+  },
+  {
+    "text": "d'école",
+    "start": 391.8,
+    "end": 392.29,
+    "id": "w1159"
+  },
+  {
+    "text": "est",
+    "start": 392.57,
+    "end": 392.58,
+    "id": "w1160"
+  },
+  {
+    "text": "donc",
+    "start": 392.6,
+    "end": 392.8,
+    "id": "w1161"
+  },
+  {
+    "text": "d'abord",
+    "start": 392.8,
+    "end": 393.12,
+    "id": "w1162"
+  },
+  {
+    "text": "un",
+    "start": 393.13,
+    "end": 393.21,
+    "id": "w1163"
+  },
+  {
+    "text": "bon",
+    "start": 393.21,
+    "end": 393.42,
+    "id": "w1164"
+  },
+  {
+    "text": "gestionnaire",
+    "start": 393.42,
+    "end": 393.92,
+    "id": "w1165"
+  },
+  {
+    "text": "de",
+    "start": 393.92,
+    "end": 394,
+    "id": "w1166"
+  },
+  {
+    "text": "trésorerie.",
+    "start": 394.01,
+    "end": 394.66,
+    "id": "w1167"
+  },
+  {
+    "text": "Et",
+    "start": 394.66,
+    "end": 395.127,
+    "id": "w1168"
+  },
+  {
+    "text": "c'est",
+    "start": 395.127,
+    "end": 395.593,
+    "id": "w1169"
+  },
+  {
+    "text": "là",
+    "start": 395.593,
+    "end": 396.06,
+    "id": "w1170"
+  },
+  {
+    "text": "que",
+    "start": 396.06,
+    "end": 396.1,
+    "id": "w1171"
+  },
+  {
+    "text": "le",
+    "start": 396.1,
+    "end": 396.34,
+    "id": "w1172"
+  },
+  {
+    "text": "débat",
+    "start": 396.34,
+    "end": 397,
+    "id": "w1173"
+  },
+  {
+    "text": "s'enflamme.",
+    "start": 397,
+    "end": 397.7,
+    "id": "w1174"
+  },
+  {
+    "text": "Le",
+    "start": 397.7,
+    "end": 398.33,
+    "id": "w1175"
+  },
+  {
+    "text": "montant",
+    "start": 398.33,
+    "end": 398.7,
+    "id": "w1176"
+  },
+  {
+    "text": "exact",
+    "start": 398.7,
+    "end": 399.18,
+    "id": "w1177"
+  },
+  {
+    "text": "du",
+    "start": 399.18,
+    "end": 399.49,
+    "id": "w1178"
+  },
+  {
+    "text": "forfait",
+    "start": 399.49,
+    "end": 399.74,
+    "id": "w1179"
+  },
+  {
+    "text": "d'externa",
+    "start": 399.83,
+    "end": 400.34,
+    "id": "w1180"
+  },
+  {
+    "text": "fait",
+    "start": 400.35,
+    "end": 400.51,
+    "id": "w1181"
+  },
+  {
+    "text": "régulièrement",
+    "start": 400.64,
+    "end": 401.1,
+    "id": "w1182"
+  },
+  {
+    "text": "l'objet",
+    "start": 401.1,
+    "end": 401.4,
+    "id": "w1183"
+  },
+  {
+    "text": "de",
+    "start": 401.4,
+    "end": 401.52,
+    "id": "w1184"
+  },
+  {
+    "text": "désaccords.",
+    "start": 401.52,
+    "end": 402.14,
+    "id": "w1185"
+  },
+  {
+    "text": "Les",
+    "start": 402.14,
+    "end": 402.82,
+    "id": "w1186"
+  },
+  {
+    "text": "représentants",
+    "start": 402.82,
+    "end": 402.99,
+    "id": "w1187"
+  },
+  {
+    "text": "de",
+    "start": 402.99,
+    "end": 403.12,
+    "id": "w1188"
+  },
+  {
+    "text": "l'enseignement",
+    "start": 403.12,
+    "end": 403.7,
+    "id": "w1189"
+  },
+  {
+    "text": "catholique",
+    "start": 403.97,
+    "end": 404.44,
+    "id": "w1190"
+  },
+  {
+    "text": "réclament",
+    "start": 404.45,
+    "end": 404.86,
+    "id": "w1191"
+  },
+  {
+    "text": "environ",
+    "start": 404.86,
+    "end": 405.2,
+    "id": "w1192"
+  },
+  {
+    "text": "900",
+    "start": 405.2,
+    "end": 405.63,
+    "id": "w1193"
+  },
+  {
+    "text": "millions",
+    "start": 405.63,
+    "end": 406.02,
+    "id": "w1194"
+  },
+  {
+    "text": "d'euros",
+    "start": 406.02,
+    "end": 406.33,
+    "id": "w1195"
+  },
+  {
+    "text": "par",
+    "start": 406.33,
+    "end": 406.47,
+    "id": "w1196"
+  },
+  {
+    "text": "an,",
+    "start": 406.47,
+    "end": 406.64,
+    "id": "w1197"
+  },
+  {
+    "text": "qu'ils",
+    "start": 406.64,
+    "end": 406.93,
+    "id": "w1198"
+  },
+  {
+    "text": "estiment",
+    "start": 406.93,
+    "end": 407.21,
+    "id": "w1199"
+  },
+  {
+    "text": "manquants.",
+    "start": 407.22,
+    "end": 407.76,
+    "id": "w1200"
+  },
+  {
+    "text": "Des",
+    "start": 407.76,
+    "end": 408.24,
+    "id": "w1201"
+  },
+  {
+    "text": "députés",
+    "start": 408.24,
+    "end": 408.72,
+    "id": "w1202"
+  },
+  {
+    "text": "jugent",
+    "start": 408.72,
+    "end": 408.94,
+    "id": "w1203"
+  },
+  {
+    "text": "ce",
+    "start": 408.94,
+    "end": 409.09,
+    "id": "w1204"
+  },
+  {
+    "text": "périmètre",
+    "start": 409.09,
+    "end": 409.75,
+    "id": "w1205"
+  },
+  {
+    "text": "flou",
+    "start": 409.75,
+    "end": 410.12,
+    "id": "w1206"
+  },
+  {
+    "text": "et",
+    "start": 410.13,
+    "end": 410.22,
+    "id": "w1207"
+  },
+  {
+    "text": "sujet",
+    "start": 410.42,
+    "end": 410.47,
+    "id": "w1208"
+  },
+  {
+    "text": "à",
+    "start": 410.47,
+    "end": 410.52,
+    "id": "w1209"
+  },
+  {
+    "text": "contentieux.",
+    "start": 410.52,
+    "end": 411.26,
+    "id": "w1210"
+  },
+  {
+    "text": "Côté",
+    "start": 411.26,
+    "end": 411.91,
+    "id": "w1211"
+  },
+  {
+    "text": "public,",
+    "start": 411.91,
+    "end": 412.05,
+    "id": "w1212"
+  },
+  {
+    "text": "la",
+    "start": 412.05,
+    "end": 412.2,
+    "id": "w1213"
+  },
+  {
+    "text": "question",
+    "start": 412.2,
+    "end": 412.73,
+    "id": "w1214"
+  },
+  {
+    "text": "inverse",
+    "start": 412.73,
+    "end": 413.21,
+    "id": "w1215"
+  },
+  {
+    "text": "se",
+    "start": 413.21,
+    "end": 413.32,
+    "id": "w1216"
+  },
+  {
+    "text": "pose.",
+    "start": 413.43,
+    "end": 413.88,
+    "id": "w1217"
+  },
+  {
+    "text": "Combien",
+    "start": 413.88,
+    "end": 414.35,
+    "id": "w1218"
+  },
+  {
+    "text": "l'argent",
+    "start": 414.35,
+    "end": 414.83,
+    "id": "w1219"
+  },
+  {
+    "text": "public",
+    "start": 414.89,
+    "end": 415.2,
+    "id": "w1220"
+  },
+  {
+    "text": "finance-t-il",
+    "start": 415.51,
+    "end": 416.04,
+    "id": "w1221"
+  },
+  {
+    "text": "vraiment?",
+    "start": 416.04,
+    "end": 416.8,
+    "id": "w1222"
+  },
+  {
+    "text": "La",
+    "start": 416.85,
+    "end": 416.94,
+    "id": "w1223"
+  },
+  {
+    "text": "Cour",
+    "start": 417.14,
+    "end": 417.17,
+    "id": "w1224"
+  },
+  {
+    "text": "des",
+    "start": 417.17,
+    "end": 417.32,
+    "id": "w1225"
+  },
+  {
+    "text": "comptes",
+    "start": 417.33,
+    "end": 417.7,
+    "id": "w1226"
+  },
+  {
+    "text": "elle-même",
+    "start": 417.7,
+    "end": 418.22,
+    "id": "w1227"
+  },
+  {
+    "text": "reconnaît",
+    "start": 418.22,
+    "end": 418.62,
+    "id": "w1228"
+  },
+  {
+    "text": "qu'on",
+    "start": 418.63,
+    "end": 418.82,
+    "id": "w1229"
+  },
+  {
+    "text": "ne",
+    "start": 418.82,
+    "end": 418.92,
+    "id": "w1230"
+  },
+  {
+    "text": "peut",
+    "start": 418.92,
+    "end": 419.07,
+    "id": "w1231"
+  },
+  {
+    "text": "pas",
+    "start": 419.07,
+    "end": 419.2,
+    "id": "w1232"
+  },
+  {
+    "text": "calculer",
+    "start": 419.2,
+    "end": 419.5,
+    "id": "w1233"
+  },
+  {
+    "text": "précisément",
+    "start": 419.77,
+    "end": 420.05,
+    "id": "w1234"
+  },
+  {
+    "text": "le",
+    "start": 420.09,
+    "end": 420.18,
+    "id": "w1235"
+  },
+  {
+    "text": "coût",
+    "start": 420.32,
+    "end": 420.44,
+    "id": "w1236"
+  },
+  {
+    "text": "réel",
+    "start": 420.44,
+    "end": 420.68,
+    "id": "w1237"
+  },
+  {
+    "text": "d'un",
+    "start": 420.68,
+    "end": 420.92,
+    "id": "w1238"
+  },
+  {
+    "text": "élève",
+    "start": 420.92,
+    "end": 421.22,
+    "id": "w1239"
+  },
+  {
+    "text": "du",
+    "start": 421.26,
+    "end": 421.34,
+    "id": "w1240"
+  },
+  {
+    "text": "privé,",
+    "start": 421.34,
+    "end": 421.7,
+    "id": "w1241"
+  },
+  {
+    "text": "car",
+    "start": 421.7,
+    "end": 422.08,
+    "id": "w1242"
+  },
+  {
+    "text": "l'État",
+    "start": 422.08,
+    "end": 422.33,
+    "id": "w1243"
+  },
+  {
+    "text": "connaît",
+    "start": 422.38,
+    "end": 422.82,
+    "id": "w1244"
+  },
+  {
+    "text": "mal",
+    "start": 422.82,
+    "end": 422.96,
+    "id": "w1245"
+  },
+  {
+    "text": "toutes",
+    "start": 423.23,
+    "end": 423.27,
+    "id": "w1246"
+  },
+  {
+    "text": "les",
+    "start": 423.27,
+    "end": 423.38,
+    "id": "w1247"
+  },
+  {
+    "text": "ressources",
+    "start": 423.38,
+    "end": 423.78,
+    "id": "w1248"
+  },
+  {
+    "text": "des",
+    "start": 423.78,
+    "end": 423.88,
+    "id": "w1249"
+  },
+  {
+    "text": "écoles.",
+    "start": 423.95,
+    "end": 424.16,
+    "id": "w1250"
+  },
+  {
+    "text": "Et",
+    "start": 424.16,
+    "end": 424.377,
+    "id": "w1251"
+  },
+  {
+    "text": "les",
+    "start": 424.377,
+    "end": 424.593,
+    "id": "w1252"
+  },
+  {
+    "text": "données",
+    "start": 424.593,
+    "end": 424.81,
+    "id": "w1253"
+  },
+  {
+    "text": "manquent",
+    "start": 424.81,
+    "end": 425.17,
+    "id": "w1254"
+  },
+  {
+    "text": "aussi",
+    "start": 425.17,
+    "end": 425.41,
+    "id": "w1255"
+  },
+  {
+    "text": "pour",
+    "start": 425.41,
+    "end": 425.6,
+    "id": "w1256"
+  },
+  {
+    "text": "les",
+    "start": 425.6,
+    "end": 425.68,
+    "id": "w1257"
+  },
+  {
+    "text": "familles.",
+    "start": 425.88,
+    "end": 426.22,
+    "id": "w1258"
+  },
+  {
+    "text": "Il",
+    "start": 426.22,
+    "end": 426.78,
+    "id": "w1259"
+  },
+  {
+    "text": "n'existe",
+    "start": 426.78,
+    "end": 426.93,
+    "id": "w1260"
+  },
+  {
+    "text": "pas",
+    "start": 427.08,
+    "end": 427.12,
+    "id": "w1261"
+  },
+  {
+    "text": "de",
+    "start": 427.12,
+    "end": 427.24,
+    "id": "w1262"
+  },
+  {
+    "text": "chiffre",
+    "start": 427.24,
+    "end": 427.66,
+    "id": "w1263"
+  },
+  {
+    "text": "national",
+    "start": 427.96,
+    "end": 428.21,
+    "id": "w1264"
+  },
+  {
+    "text": "fiable",
+    "start": 428.25,
+    "end": 428.54,
+    "id": "w1265"
+  },
+  {
+    "text": "de",
+    "start": 428.54,
+    "end": 428.64,
+    "id": "w1266"
+  },
+  {
+    "text": "ce",
+    "start": 428.64,
+    "end": 428.72,
+    "id": "w1267"
+  },
+  {
+    "text": "qu'elle",
+    "start": 428.79,
+    "end": 429.09,
+    "id": "w1268"
+  },
+  {
+    "text": "paie.",
+    "start": 429.09,
+    "end": 429.46,
+    "id": "w1269"
+  },
+  {
+    "text": "Autrement",
+    "start": 429.46,
+    "end": 430.28,
+    "id": "w1270"
+  },
+  {
+    "text": "dit,",
+    "start": 430.28,
+    "end": 430.3,
+    "id": "w1271"
+  },
+  {
+    "text": "même",
+    "start": 430.3,
+    "end": 430.58,
+    "id": "w1272"
+  },
+  {
+    "text": "au",
+    "start": 430.58,
+    "end": 430.66,
+    "id": "w1273"
+  },
+  {
+    "text": "niveau",
+    "start": 430.66,
+    "end": 431.02,
+    "id": "w1274"
+  },
+  {
+    "text": "des",
+    "start": 431.02,
+    "end": 431.15,
+    "id": "w1275"
+  },
+  {
+    "text": "chiffres",
+    "start": 431.43,
+    "end": 431.68,
+    "id": "w1276"
+  },
+  {
+    "text": "officiels,",
+    "start": 431.68,
+    "end": 432.35,
+    "id": "w1277"
+  },
+  {
+    "text": "tout",
+    "start": 432.35,
+    "end": 432.62,
+    "id": "w1278"
+  },
+  {
+    "text": "n'est",
+    "start": 432.62,
+    "end": 432.72,
+    "id": "w1279"
+  },
+  {
+    "text": "pas",
+    "start": 432.72,
+    "end": 432.92,
+    "id": "w1280"
+  },
+  {
+    "text": "clair.",
+    "start": 432.92,
+    "end": 433.2,
+    "id": "w1281"
+  },
+  {
+    "text": "Alors,",
+    "start": 433.2,
+    "end": 433.675,
+    "id": "w1282"
+  },
+  {
+    "text": "diriger",
+    "start": 433.675,
+    "end": 434.15,
+    "id": "w1283"
+  },
+  {
+    "text": "une",
+    "start": 434.15,
+    "end": 434.29,
+    "id": "w1284"
+  },
+  {
+    "text": "école,",
+    "start": 434.35,
+    "end": 434.74,
+    "id": "w1285"
+  },
+  {
+    "text": "c'est",
+    "start": 434.74,
+    "end": 435.01,
+    "id": "w1286"
+  },
+  {
+    "text": "quoi,",
+    "start": 435.29,
+    "end": 435.44,
+    "id": "w1287"
+  },
+  {
+    "text": "financièrement?",
+    "start": 435.44,
+    "end": 436.6,
+    "id": "w1288"
+  },
+  {
+    "text": "Dans",
+    "start": 436.6,
+    "end": 436.91,
+    "id": "w1289"
+  },
+  {
+    "text": "le",
+    "start": 436.91,
+    "end": 437.22,
+    "id": "w1290"
+  },
+  {
+    "text": "hors-contrat,",
+    "start": 437.22,
+    "end": 437.82,
+    "id": "w1291"
+  },
+  {
+    "text": "c'est",
+    "start": 437.82,
+    "end": 438.09,
+    "id": "w1292"
+  },
+  {
+    "text": "un",
+    "start": 438.09,
+    "end": 438.37,
+    "id": "w1293"
+  },
+  {
+    "text": "pari.",
+    "start": 438.37,
+    "end": 438.64,
+    "id": "w1294"
+  },
+  {
+    "text": "Des",
+    "start": 438.64,
+    "end": 439.08,
+    "id": "w1295"
+  },
+  {
+    "text": "frais",
+    "start": 439.08,
+    "end": 439.18,
+    "id": "w1296"
+  },
+  {
+    "text": "élevés,",
+    "start": 439.18,
+    "end": 439.7,
+    "id": "w1297"
+  },
+  {
+    "text": "un",
+    "start": 439.7,
+    "end": 439.81,
+    "id": "w1298"
+  },
+  {
+    "text": "gros",
+    "start": 439.81,
+    "end": 439.95,
+    "id": "w1299"
+  },
+  {
+    "text": "investissement",
+    "start": 440.26,
+    "end": 440.86,
+    "id": "w1300"
+  },
+  {
+    "text": "de",
+    "start": 440.86,
+    "end": 440.97,
+    "id": "w1301"
+  },
+  {
+    "text": "départ",
+    "start": 440.97,
+    "end": 441.32,
+    "id": "w1302"
+  },
+  {
+    "text": "et",
+    "start": 441.33,
+    "end": 441.4,
+    "id": "w1303"
+  },
+  {
+    "text": "une",
+    "start": 441.4,
+    "end": 441.62,
+    "id": "w1304"
+  },
+  {
+    "text": "dépendance",
+    "start": 441.62,
+    "end": 441.93,
+    "id": "w1305"
+  },
+  {
+    "text": "totale",
+    "start": 441.93,
+    "end": 442.17,
+    "id": "w1306"
+  },
+  {
+    "text": "aux",
+    "start": 442.17,
+    "end": 442.2,
+    "id": "w1307"
+  },
+  {
+    "text": "inscriptions.",
+    "start": 442.41,
+    "end": 442.96,
+    "id": "w1308"
+  },
+  {
+    "text": "Dans",
+    "start": 442.96,
+    "end": 443.34,
+    "id": "w1309"
+  },
+  {
+    "text": "le",
+    "start": 443.34,
+    "end": 443.72,
+    "id": "w1310"
+  },
+  {
+    "text": "sous-contrat,",
+    "start": 443.72,
+    "end": 444.09,
+    "id": "w1311"
+  },
+  {
+    "text": "c'est",
+    "start": 444.09,
+    "end": 444.36,
+    "id": "w1312"
+  },
+  {
+    "text": "un",
+    "start": 444.36,
+    "end": 444.47,
+    "id": "w1313"
+  },
+  {
+    "text": "équilibre.",
+    "start": 444.47,
+    "end": 445.26,
+    "id": "w1314"
+  },
+  {
+    "text": "Une",
+    "start": 445.26,
+    "end": 445.67,
+    "id": "w1315"
+  },
+  {
+    "text": "aide",
+    "start": 445.67,
+    "end": 445.68,
+    "id": "w1316"
+  },
+  {
+    "text": "publique",
+    "start": 445.92,
+    "end": 446.15,
+    "id": "w1317"
+  },
+  {
+    "text": "massive,",
+    "start": 446.21,
+    "end": 446.6,
+    "id": "w1318"
+  },
+  {
+    "text": "mais",
+    "start": 446.6,
+    "end": 447.06,
+    "id": "w1319"
+  },
+  {
+    "text": "des",
+    "start": 447.06,
+    "end": 447.09,
+    "id": "w1320"
+  },
+  {
+    "text": "règles",
+    "start": 447.09,
+    "end": 447.37,
+    "id": "w1321"
+  },
+  {
+    "text": "strictes.",
+    "start": 447.37,
+    "end": 447.9,
+    "id": "w1322"
+  },
+  {
+    "text": "Des",
+    "start": 447.9,
+    "end": 448.24,
+    "id": "w1323"
+  },
+  {
+    "text": "bâtiments",
+    "start": 448.24,
+    "end": 448.63,
+    "id": "w1324"
+  },
+  {
+    "text": "à",
+    "start": 448.63,
+    "end": 448.69,
+    "id": "w1325"
+  },
+  {
+    "text": "financer",
+    "start": 448.69,
+    "end": 449.12,
+    "id": "w1326"
+  },
+  {
+    "text": "et",
+    "start": 449.12,
+    "end": 449.39,
+    "id": "w1327"
+  },
+  {
+    "text": "des",
+    "start": 449.39,
+    "end": 449.47,
+    "id": "w1328"
+  },
+  {
+    "text": "désaccords",
+    "start": 449.47,
+    "end": 450.04,
+    "id": "w1329"
+  },
+  {
+    "text": "permanents",
+    "start": 450.04,
+    "end": 450.5,
+    "id": "w1330"
+  },
+  {
+    "text": "sur",
+    "start": 450.51,
+    "end": 450.59,
+    "id": "w1331"
+  },
+  {
+    "text": "les",
+    "start": 450.59,
+    "end": 450.67,
+    "id": "w1332"
+  },
+  {
+    "text": "montants.",
+    "start": 450.8,
+    "end": 450.98,
+    "id": "w1333"
+  },
+  {
+    "text": "Dans",
+    "start": 451.05,
+    "end": 451.36,
+    "id": "w1334"
+  },
+  {
+    "text": "les",
+    "start": 451.36,
+    "end": 451.68,
+    "id": "w1335"
+  },
+  {
+    "text": "deux",
+    "start": 451.68,
+    "end": 451.93,
+    "id": "w1336"
+  },
+  {
+    "text": "cas,",
+    "start": 452.03,
+    "end": 452.46,
+    "id": "w1337"
+  },
+  {
+    "text": "la",
+    "start": 452.46,
+    "end": 452.67,
+    "id": "w1338"
+  },
+  {
+    "text": "même",
+    "start": 452.67,
+    "end": 452.79,
+    "id": "w1339"
+  },
+  {
+    "text": "vérité.",
+    "start": 452.96,
+    "end": 453.3,
+    "id": "w1340"
+  },
+  {
+    "text": "Une",
+    "start": 453.3,
+    "end": 453.53,
+    "id": "w1341"
+  },
+  {
+    "text": "école,",
+    "start": 453.67,
+    "end": 454.26,
+    "id": "w1342"
+  },
+  {
+    "text": "c'est",
+    "start": 454.26,
+    "end": 454.46,
+    "id": "w1343"
+  },
+  {
+    "text": "d'abord",
+    "start": 454.53,
+    "end": 454.74,
+    "id": "w1344"
+  },
+  {
+    "text": "une",
+    "start": 454.77,
+    "end": 454.9,
+    "id": "w1345"
+  },
+  {
+    "text": "masse",
+    "start": 455.06,
+    "end": 455.13,
+    "id": "w1346"
+  },
+  {
+    "text": "salariale",
+    "start": 455.13,
+    "end": 455.54,
+    "id": "w1347"
+  },
+  {
+    "text": "à",
+    "start": 455.54,
+    "end": 455.58,
+    "id": "w1348"
+  },
+  {
+    "text": "financer,",
+    "start": 455.58,
+    "end": 456.08,
+    "id": "w1349"
+  },
+  {
+    "text": "année",
+    "start": 456.08,
+    "end": 456.56,
+    "id": "w1350"
+  },
+  {
+    "text": "après",
+    "start": 456.56,
+    "end": 456.92,
+    "id": "w1351"
+  },
+  {
+    "text": "année.",
+    "start": 456.92,
+    "end": 457.28,
+    "id": "w1352"
+  },
+  {
+    "text": "À",
+    "start": 457.28,
+    "end": 457.42,
+    "id": "w1353"
+  },
+  {
+    "text": "retenir,",
+    "start": 457.42,
+    "end": 458.65,
+    "id": "w1354"
+  },
+  {
+    "text": "les",
+    "start": 458.65,
+    "end": 458.97,
+    "id": "w1355"
+  },
+  {
+    "text": "salaires",
+    "start": 458.97,
+    "end": 459.23,
+    "id": "w1356"
+  },
+  {
+    "text": "sont",
+    "start": 459.26,
+    "end": 459.43,
+    "id": "w1357"
+  },
+  {
+    "text": "le",
+    "start": 459.43,
+    "end": 459.51,
+    "id": "w1358"
+  },
+  {
+    "text": "premier",
+    "start": 459.53,
+    "end": 459.83,
+    "id": "w1359"
+  },
+  {
+    "text": "poste.",
+    "start": 460.08,
+    "end": 460.3,
+    "id": "w1360"
+  },
+  {
+    "text": "L'État",
+    "start": 460.3,
+    "end": 460.59,
+    "id": "w1361"
+  },
+  {
+    "text": "les",
+    "start": 460.59,
+    "end": 460.68,
+    "id": "w1362"
+  },
+  {
+    "text": "prend",
+    "start": 460.88,
+    "end": 460.94,
+    "id": "w1363"
+  },
+  {
+    "text": "en",
+    "start": 460.94,
+    "end": 461.03,
+    "id": "w1364"
+  },
+  {
+    "text": "charge",
+    "start": 461.03,
+    "end": 461.31,
+    "id": "w1365"
+  },
+  {
+    "text": "sous",
+    "start": 461.31,
+    "end": 461.45,
+    "id": "w1366"
+  },
+  {
+    "text": "contrat,",
+    "start": 461.75,
+    "end": 461.98,
+    "id": "w1367"
+  },
+  {
+    "text": "jamais",
+    "start": 461.98,
+    "end": 462.58,
+    "id": "w1368"
+  },
+  {
+    "text": "en",
+    "start": 462.59,
+    "end": 462.68,
+    "id": "w1369"
+  },
+  {
+    "text": "hors-contrat.",
+    "start": 462.88,
+    "end": 463.46,
+    "id": "w1370"
+  },
+  {
+    "text": "Les",
+    "start": 463.46,
+    "end": 463.73,
+    "id": "w1371"
+  },
+  {
+    "text": "bâtiments",
+    "start": 463.73,
+    "end": 464.21,
+    "id": "w1372"
+  },
+  {
+    "text": "restent",
+    "start": 464.21,
+    "end": 464.65,
+    "id": "w1373"
+  },
+  {
+    "text": "à",
+    "start": 464.67,
+    "end": 464.71,
+    "id": "w1374"
+  },
+  {
+    "text": "la",
+    "start": 464.71,
+    "end": 464.81,
+    "id": "w1375"
+  },
+  {
+    "text": "charge",
+    "start": 464.96,
+    "end": 465.14,
+    "id": "w1376"
+  },
+  {
+    "text": "de",
+    "start": 465.21,
+    "end": 465.26,
+    "id": "w1377"
+  },
+  {
+    "text": "l'école,",
+    "start": 465.26,
+    "end": 465.74,
+    "id": "w1378"
+  },
+  {
+    "text": "et",
+    "start": 465.81,
+    "end": 465.85,
+    "id": "w1379"
+  },
+  {
+    "text": "tout",
+    "start": 465.85,
+    "end": 466.07,
+    "id": "w1380"
+  },
+  {
+    "text": "se",
+    "start": 466.07,
+    "end": 466.08,
+    "id": "w1381"
+  },
+  {
+    "text": "joue",
+    "start": 466.19,
+    "end": 466.44,
+    "id": "w1382"
+  },
+  {
+    "text": "sur",
+    "start": 466.44,
+    "end": 466.62,
+    "id": "w1383"
+  },
+  {
+    "text": "le",
+    "start": 466.63,
+    "end": 466.68,
+    "id": "w1384"
+  },
+  {
+    "text": "remplissage",
+    "start": 466.84,
+    "end": 467.02,
+    "id": "w1385"
+  },
+  {
+    "text": "des",
+    "start": 467.02,
+    "end": 467.1,
+    "id": "w1386"
+  },
+  {
+    "text": "classes.",
+    "start": 467.17,
+    "end": 467.47,
+    "id": "w1387"
+  },
+  {
+    "text": "Et",
+    "start": 467.47,
+    "end": 467.5,
+    "id": "w1388"
+  },
+  {
+    "text": "vous,",
+    "start": 467.8,
+    "end": 468.54,
+    "id": "w1389"
+  },
+  {
+    "text": "à",
+    "start": 468.54,
+    "end": 468.77,
+    "id": "w1390"
+  },
+  {
+    "text": "votre",
+    "start": 468.77,
+    "end": 469,
+    "id": "w1391"
+  },
+  {
+    "text": "avis,",
+    "start": 469,
+    "end": 469.25,
+    "id": "w1392"
+  },
+  {
+    "text": "une",
+    "start": 469.27,
+    "end": 469.44,
+    "id": "w1393"
+  },
+  {
+    "text": "école",
+    "start": 469.44,
+    "end": 469.58,
+    "id": "w1394"
+  },
+  {
+    "text": "devrait-elle",
+    "start": 469.88,
+    "end": 470.48,
+    "id": "w1395"
+  },
+  {
+    "text": "être",
+    "start": 470.48,
+    "end": 470.62,
+    "id": "w1396"
+  },
+  {
+    "text": "financée",
+    "start": 470.92,
+    "end": 471.1,
+    "id": "w1397"
+  },
+  {
+    "text": "surtout",
+    "start": 471.11,
+    "end": 471.48,
+    "id": "w1398"
+  },
+  {
+    "text": "par",
+    "start": 471.48,
+    "end": 471.77,
+    "id": "w1399"
+  },
+  {
+    "text": "l'État",
+    "start": 471.77,
+    "end": 472.04,
+    "id": "w1400"
+  },
+  {
+    "text": "ou",
+    "start": 472.15,
+    "end": 472.2,
+    "id": "w1401"
+  },
+  {
+    "text": "par",
+    "start": 472.2,
+    "end": 472.38,
+    "id": "w1402"
+  },
+  {
+    "text": "les",
+    "start": 472.38,
+    "end": 472.56,
+    "id": "w1403"
+  },
+  {
+    "text": "familles?",
+    "start": 472.56,
+    "end": 473.3,
+    "id": "w1404"
+  },
+  {
+    "text": "Dites-le-moi",
+    "start": 473.33,
+    "end": 473.68,
+    "id": "w1405"
+  },
+  {
+    "text": "en",
+    "start": 473.68,
+    "end": 473.74,
+    "id": "w1406"
+  },
+  {
+    "text": "commentaire.",
+    "start": 473.74,
+    "end": 474.2,
+    "id": "w1407"
+  },
+  {
+    "text": "Et",
+    "start": 474.2,
+    "end": 474.64,
+    "id": "w1408"
+  },
+  {
+    "text": "abonnez-vous",
+    "start": 474.64,
+    "end": 474.92,
+    "id": "w1409"
+  },
+  {
+    "text": "à",
+    "start": 474.94,
+    "end": 474.97,
+    "id": "w1410"
+  },
+  {
+    "text": "Décrypte",
+    "start": 474.97,
+    "end": 475.37,
+    "id": "w1411"
+  },
+  {
+    "text": "Business",
+    "start": 475.37,
+    "end": 475.52,
+    "id": "w1412"
+  },
+  {
+    "text": "pour",
+    "start": 475.82,
+    "end": 475.98,
+    "id": "w1413"
+  },
+  {
+    "text": "comprendre",
+    "start": 475.98,
+    "end": 476.58,
+    "id": "w1414"
+  },
+  {
+    "text": "l'économie",
+    "start": 476.69,
+    "end": 477.12,
+    "id": "w1415"
+  },
+  {
+    "text": "en",
+    "start": 477.12,
+    "end": 477.16,
+    "id": "w1416"
+  },
+  {
+    "text": "quelques",
+    "start": 477.23,
+    "end": 477.54,
+    "id": "w1417"
+  },
+  {
+    "text": "minutes.",
+    "start": 477.54,
+    "end": 477.88,
+    "id": "w1418"
+  }
+]
