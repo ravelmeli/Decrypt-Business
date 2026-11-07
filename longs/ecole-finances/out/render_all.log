@@ -17,3 +17,16 @@ assembled 144.76666666666668 187.1 42.333
 FAILED chunk 5
 == chunk 5: 144.767 -> 187.100
 assembled 144.76666666666668 187.1 42.333
+chunk 5 done in 37.2 min
+== chunk 6: 187.100 -> 230.400
+assembled 187.1 230.4 43.3
+chunk 6 done in 37.0 min
+== chunk 7: 230.400 -> 257.633
+assembled 230.4 257.6333333333333 27.233
+chunk 7 done in 19.6 min
+== chunk 8: 257.633 -> 317.133
+assembled 257.6333333333333 317.1333333333333 59.5
+chunk 8 done in 22.5 min
+== chunk 9: 317.133 -> 353.533
+assembled 317.1333333333333 353.53333333333336 36.4
+== chunk 9: 317.133 -> 353.533
