@@ -1,4 +1,4 @@
-# Ouvrir un restaurant : l'analyse économique — script (≈ 9 min 30)
+# Ouvrir un restaurant : l'analyse économique — script (≈ 10 min)
 
 ## CH01 — Accroche
 Un restaurant plein tous les soirs. Des clients qui sourient, une salle qui ne désemplit pas.
@@ -9,7 +9,7 @@ Alors, ouvrir un restaurant, est-ce une bonne affaire ? Dans cette vidéo, on ou
 
 ## CH02 — Un marché immense, des marges minces
 Commençons par l'échelle. La France compterait environ cent soixante-dix-neuf mille restaurants, pour un chiffre d'affaires d'environ cent vingt milliards d'euros en deux mille vingt-quatre. Attention : ces chiffres circulent surtout via des sites d'études de marché, leur origine exacte est difficile à vérifier, il faut les prendre comme un ordre de grandeur.
-Ce qui est plus solide, c'est le contraste. Un secteur énorme, mais des marges très faibles, et des entreprises qui fragilisent facilement.
+Ce qui est plus solide, c'est le contraste. Un secteur énorme, mais des marges très faibles, et des entreprises qui se fragilisent facilement.
 Pour comprendre pourquoi, il faut suivre un seul euro dépensé par un client.
 
 ## CH03 — De l'addition au chiffre d'affaires
@@ -20,7 +20,7 @@ Et sur ces vingt-huit euros, il va falloir payer la nourriture, les équipes, le
 
 ## CH04 — Comment on fixe le prix d'un plat
 Une question que tout le monde se pose : pourquoi un plat coûte-t-il trois ou quatre fois le prix de ses ingrédients ?
-Parce que les ingrédients ne sont qu'un tiers des coûts. Les professionnels utilisent un coefficient multiplicateur : on prend le coût des ingrédients hors taxes, on le multiplie, et on obtient le prix de vente.
+Parce que les ingrédients ne sont qu'environ un tiers du prix. Les professionnels utilisent un coefficient multiplicateur : on prend le coût des ingrédients hors taxes, on le multiplie, et on obtient le prix de vente.
 Si la matière doit représenter trente-quatre pour cent des ventes hors taxes, le coefficient est d'environ trois. Un plat dont les ingrédients coûtent huit euros se vend donc environ vingt-quatre euros hors taxes, soit un peu plus de vingt-six euros avec la T.V.A. de dix pour cent.
 Ce coefficient n'est pas un cadeau fait au restaurateur : il finance le cuisinier, le serveur, le loyer, l'électricité et le temps passé à préparer le plat.
 Et c'est pour cela que baisser les prix ou faire des promotions sans calculer peut coûter très cher : quand la matière est un tiers du prix, remise ou pas, les autres charges restent entières.
@@ -72,7 +72,7 @@ C'est une différence essentielle avec un salarié : le risque est porté entiè
 ## CH12 — Pourquoi tant de restaurants tombent
 Cette fragilité se voit dans les chiffres. Selon le G.H.R., s'appuyant sur Altares, les défaillances dans l'hôtellerie-restauration sont passées de cinq mille trois cent cinquante-huit en deux mille vingt-deux à sept mille neuf cent quatre-vingt-dix en deux mille vingt-trois, puis huit mille sept cent quatorze en deux mille vingt-quatre.
 Au premier semestre deux mille vingt-cinq, on comptait encore environ dix pour cent de défaillances en plus, par rapport au premier semestre de l'année précédente.
-Il faut rester prudent : ces chiffres concernent tout le secteur, hôtels compris. Mais le message est clair : peu de marge, des coûts rigides, et un moindre choc suffit.
+Il faut rester prudent : ces chiffres concernent tout le secteur, hôtels compris. Mais le message est clair : peu de marge, des coûts rigides, et un choc même modeste suffit.
 Et la fréquentation ne rassure pas : Fiducial relève un taux de remplissage en recul, notamment dans la restauration rapide.
 
 ## CH13 — Rapide ou traditionnel : deux modèles
