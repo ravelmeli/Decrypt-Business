@@ -13,16 +13,19 @@ Diriger une école : d'où vient vraiment l'argent ?
 ## Description
 Une école, ce n'est pas un commerce comme les autres. Pourtant, il faut payer des salaires, des locaux, des assurances, avant même la première rentrée. Dans cette vidéo, on ouvre le budget d'une école privée, poste par poste : hors contrat vs sous contrat, qui paie les enseignants, le poids de l'immobilier, une simulation chiffrée et les points de friction.
 
-Chapitres : (timecodes à compléter après montage)
+Chapitres :
 00:00 Accroche
-… Deux mondes : hors contrat et sous contrat
-… Les dépenses et les salaires
-… Le hors contrat
-… Le sous contrat
-… L'immobilier
-… Simulation chiffrée
-… Le directeur, les risques, les points de friction
-… Conclusion
+00:35 Deux mondes : hors contrat et sous contrat
+01:15 Les dépenses
+01:46 Les salaires
+02:25 Le hors contrat
+03:07 Le sous contrat
+03:51 L'immobilier
+04:18 Simulation chiffrée
+05:17 Le directeur
+05:54 Les risques à venir
+06:36 Les points de friction
+07:14 Conclusion
 
 Sources et limites :
 - Cour des comptes, « L'enseignement privé sous contrat » (juin 2023), via vie-publique.fr.
