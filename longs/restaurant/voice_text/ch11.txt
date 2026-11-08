@@ -1,0 +1,3 @@
+Il reste une question : qui paie le restaurateur ? Dans notre simulation, les trente mille euros restants servent à rembourser l'emprunt, à renouveler le matériel, à constituer une réserve, et seulement après, à rémunérer le patron.
+Beaucoup de restaurateurs travaillent soixante heures par semaine pour un revenu qu'ils fixent, en réalité, par ce qui reste à la fin du mois. Quand la marge s'effondre, c'est d'abord leur propre paie qui disparaît.
+C'est une différence essentielle avec un salarié : le risque est porté entièrement par celui qui a ouvert.
