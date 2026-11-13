@@ -1,0 +1,398 @@
+[
+ {
+  "i": 0,
+  "text": "Un restaurant plein tous les soirs. Des clients qui sourient, une salle qui ne désemplit pas.",
+  "start": 0.09999999999999999,
+  "end": 5.435
+ },
+ {
+  "i": 1,
+  "text": "Et pourtant, à la fin de l'année, il reste parfois presque rien dans la caisse.",
+  "start": 6.185,
+  "end": 10.19
+ },
+ {
+  "i": 2,
+  "text": "Selon l'observatoire Fiducial, la rentabilité nette des restaurants est tombée de onze pour cent en deux mille vingt-trois à seulement trois pour cent du chiffre d'affaires en deux mille vingt-quatre.",
+  "start": 10.785,
+  "end": 19.095
+ },
+ {
+  "i": 3,
+  "text": "Trois euros gardés sur cent encaissés.",
+  "start": 19.195,
+  "end": 22.35
+ },
+ {
+  "i": 4,
+  "text": "Alors, ouvrir un restaurant, est-ce une bonne affaire ? Dans cette vidéo, on ouvre les comptes, poste par poste, pour comprendre où part l'argent, à partir de quel moment on gagne, et pourquoi tant d'établissements tombent.",
+  "start": 23.055,
+  "end": 34.825
+ },
+ {
+  "i": 5,
+  "text": "Commençons par l'échelle. La France compterait environ cent soixante-dix-neuf mille restaurants, pour un chiffre d'affaires d'environ cent vingt milliards d'euros en deux mille vingt-quatre. Attention : ces chiffres circulent surtout via des sites d'études de marché, leur origine exacte est difficile à vérifier, il faut les prendre comme un ordre de grandeur.",
+  "start": 35.405,
+  "end": 51.125
+ },
+ {
+  "i": 6,
+  "text": "Ce qui est plus solide, c'est le contraste. Un secteur énorme, mais des marges très faibles, et des entreprises qui se fragilisent facilement.",
+  "start": 51.855,
+  "end": 58.795
+ },
+ {
+  "i": 7,
+  "text": "Pour comprendre pourquoi, il faut suivre un seul euro dépensé par un client.",
+  "start": 59.445,
+  "end": 63.17
+ },
+ {
+  "i": 8,
+  "text": "Prenons l'addition. D'après l'étude de l'Addition, du cabinet Gira et de KPMG, le ticket moyen tourne autour de trente euros toutes taxes comprises.",
+  "start": 63.695,
+  "end": 70.695
+ },
+ {
+  "i": 9,
+  "text": "Mais ces trente euros n'appartiennent pas au restaurant. La T.V.A. de dix pour cent sur le repas, vingt pour cent sur l'alcool, part directement à l'État.",
+  "start": 70.845,
+  "end": 78.975
+ },
+ {
+  "i": 10,
+  "text": "Il reste donc, en gros, vingt-huit euros hors taxes. C'est ça, le vrai chiffre d'affaires du restaurateur.",
+  "start": 79.77,
+  "end": 84.185
+ },
+ {
+  "i": 11,
+  "text": "Et sur ces vingt-huit euros, il va falloir payer la nourriture, les équipes, le local, l'énergie, les assurances, le comptable… avant de se payer lui-même.",
+  "start": 84.755,
+  "end": 91.89
+ },
+ {
+  "i": 12,
+  "text": "Une question que tout le monde se pose : pourquoi un plat coûte-t-il trois ou quatre fois le prix de ses ingrédients ?",
+  "start": 92.525,
+  "end": 98.61
+ },
+ {
+  "i": 13,
+  "text": "Parce que les ingrédients ne sont qu'environ un tiers du prix. Les professionnels utilisent un coefficient multiplicateur : on prend le coût des ingrédients hors taxes, on le multiplie, et on obtient le prix de vente.",
+  "start": 98.71,
+  "end": 109.95
+ },
+ {
+  "i": 14,
+  "text": "Si la matière doit représenter trente-quatre pour cent des ventes hors taxes, le coefficient est d'environ trois. Un plat dont les ingrédients coûtent huit euros se vend donc environ vingt-quatre euros hors taxes, soit un peu plus de vingt-six euros avec la T.V.A. de dix pour cent.",
+  "start": 110.37,
+  "end": 123.72
+ },
+ {
+  "i": 15,
+  "text": "Ce coefficient n'est pas un cadeau fait au restaurateur : il finance le cuisinier, le serveur, le loyer, l'électricité et le temps passé à préparer le plat.",
+  "start": 125.015,
+  "end": 133.03
+ },
+ {
+  "i": 16,
+  "text": "Et c'est pour cela que baisser les prix ou faire des promotions sans calculer peut coûter très cher : quand la matière est un tiers du prix, remise ou pas, les autres charges restent entières.",
+  "start": 133.715,
+  "end": 142.48
+ },
+ {
+  "i": 17,
+  "text": "Premier poste : ce qu'il y a dans l'assiette. Selon l'étude de K.P.M.G., le coût des matières premières représentait trente-quatre virgule deux pour cent du chiffre d'affaires hors taxes des restaurateurs en deux mille vingt-deux, soit deux points de plus qu'en deux mille dix-neuf.",
+  "start": 143.495,
+  "end": 155.885
+ },
+ {
+  "i": 18,
+  "text": "Autrement dit, sur vingt-huit euros encaissés, environ neuf euros cinquante partent chez les fournisseurs.",
+  "start": 156.77,
+  "end": 161.16
+ },
+ {
+  "i": 19,
+  "text": "Et ce poste est exposé à l'inflation. Selon Fiducial, le coût des matières premières a bondi d'environ vingt pour cent en deux mille vingt-quatre dans l'échantillon étudié.",
+  "start": 161.975,
+  "end": 169.835
+ },
+ {
+  "i": 20,
+  "text": "Un plat qui rapportait confortablement l'an dernier peut devenir à peine rentable, sans que le client ait vu le prix changer.",
+  "start": 170.47,
+  "end": 175.84
+ },
+ {
+  "i": 21,
+  "text": "Deuxième poste, souvent le plus lourd : les équipes. Cuisiniers, serveurs, plonge, direction.",
+  "start": 176.85,
+  "end": 181.345
+ },
+ {
+  "i": 22,
+  "text": "Dans les guides de gestion, on retrouve des repères entre trente et quarante pour cent du chiffre d'affaires pour la masse salariale. Ce sont des repères d'éditeurs et de cabinets, pas des statistiques officielles, mais l'ordre de grandeur est cohérent.",
+  "start": 182.17,
+  "end": 192.08
+ },
+ {
+  "i": 23,
+  "text": "Le problème, c'est que ce coût est presque fixe. Un restaurant ne peut pas renvoyer ses cuisiniers à quinze heures parce que la salle est vide.",
+  "start": 192.94,
+  "end": 199.58
+ },
+ {
+  "i": 24,
+  "text": "Et recruter est devenu difficile : selon l'étude de K.P.M.G., quatre-vingt-trois pour cent des restaurateurs déclaraient peiner à recruter, et près de la moitié avaient augmenté les salaires.",
+  "start": 200.23,
+  "end": 209.05
+ },
+ {
+  "i": 25,
+  "text": "Les équipes, c'est la force du restaurant, mais aussi son poids le plus difficile à alléger.",
+  "start": 209.15,
+  "end": 215.35
+ },
+ {
+  "i": 26,
+  "text": "Troisième bloc : tout le reste. Le loyer, l'électricité et le gaz, les assurances, l'entretien, le comptable, la publicité, les commissions des plateformes de livraison.",
+  "start": 216.46,
+  "end": 226.555
+ },
+ {
+  "i": 27,
+  "text": "Le loyer pèse en général une part modeste du chiffre d'affaires dans un restaurant qui fonctionne, de l'ordre de six à dix pour cent dans la plupart des exemples publiés. Mais il est payé chaque mois, que la salle soit pleine ou vide.",
+  "start": 227.555,
+  "end": 238.8
+ },
+ {
+  "i": 28,
+  "text": "Et l'énergie, elle aussi, a fait monter la facture : Fiducial cite des coûts d'énergie en hausse dans ses résultats de deux mille vingt-quatre.",
+  "start": 239.62,
+  "end": 245.13
+ },
+ {
+  "i": 29,
+  "text": "Ces charges ont un point commun : elles ne dépendent pas du nombre de clients. Les économistes parlent de coûts fixes.",
+  "start": 245.23,
+  "end": 252.25
+ },
+ {
+  "i": 30,
+  "text": "Avant même d'encaisser le premier euro, il faut investir. Le droit au bail ou le fonds de commerce, les travaux, la cuisine professionnelle, le mobilier, la licence si l'on vend de l'alcool.",
+  "start": 253.44,
+  "end": 263.335
+ },
+ {
+  "i": 31,
+  "text": "Les montants varient énormément selon la ville, la taille et le type de restaurant, de quelques dizaines de milliers d'euros pour une petite formule à plusieurs centaines de milliers pour un restaurant en centre-ville. Ce sont des ordres de grandeur issus de sources commerciales, à vérifier pour un projet précis.",
+  "start": 264.165,
+  "end": 278.505
+ },
+ {
+  "i": 32,
+  "text": "Et il faut une réserve de trésorerie : les premiers mois, la salle n'est pas encore connue, mais les charges, elles, sont déjà là.",
+  "start": 279.445,
+  "end": 285.325
+ },
+ {
+  "i": 33,
+  "text": "Beaucoup de restaurateurs empruntent. Et chaque mensualité devient une charge fixe de plus.",
+  "start": 286.04,
+  "end": 290.245
+ },
+ {
+  "i": 34,
+  "text": "Passons au calcul. Attention, c'est une simulation illustrative, pas les comptes d'un restaurant réel.",
+  "start": 291.235,
+  "end": 296.48
+ },
+ {
+  "i": 35,
+  "text": "Imaginons un restaurant qui encaisse cinq cent mille euros hors taxes par an. Avec vingt-huit euros par couvert, cela fait environ dix-sept mille neuf cents couverts, soit soixante par jour.",
+  "start": 297.395,
+  "end": 308.535
+ },
+ {
+  "i": 36,
+  "text": "Les matières premières : trente-quatre pour cent, donc cent soixante-dix mille euros. Les salaires et charges sociales : trente-huit pour cent, cent quatre-vingt-dix mille. Le loyer : huit pour cent, quarante mille. Énergie, assurances, comptable et le reste : quatorze pour cent, soixante-dix mille.",
+  "start": 308.785,
+  "end": 322.335
+ },
+ {
+  "i": 37,
+  "text": "Total : quatre cent soixante-dix mille euros de dépenses. Il reste trente mille euros, soit six pour cent. Et ce n'est pas encore le salaire du patron ni le remboursement de l'emprunt.",
+  "start": 322.77,
+  "end": 332.535
+ },
+ {
+  "i": 38,
+  "text": "Six pour cent : c'est déjà un bon restaurant.",
+  "start": 333.33,
+  "end": 335.605
+ },
+ {
+  "i": 39,
+  "text": "Maintenant, que se passe-t-il si la fréquentation baisse de dix pour cent ?",
+  "start": 336.59,
+  "end": 339.925
+ },
+ {
+  "i": 40,
+  "text": "Le chiffre d'affaires tombe à quatre cent cinquante mille euros. La matière première baisse avec les ventes, à cent cinquante-trois mille. Mais les salaires, le loyer et les charges, eux, ne bougent presque pas : trois cent mille euros.",
+  "start": 340.575,
+  "end": 351.795
+ },
+ {
+  "i": 41,
+  "text": "Calcul : quatre cent cinquante mille moins cent cinquante-trois mille, moins trois cent mille. On arrive à environ moins trois mille euros. De trente mille euros de résultat à une légère perte, pour dix pour cent de clients en moins.",
+  "start": 352.335,
+  "end": 363.48
+ },
+ {
+  "i": 42,
+  "text": "Ce seuil s'appelle le point mort : le niveau de ventes en dessous duquel on perd de l'argent. Ici, il est à environ quatre cent cinquante-cinq mille euros, à peine neuf pour cent sous le niveau normal.",
+  "start": 364.485,
+  "end": 374.57
+ },
+ {
+  "i": 43,
+  "text": "C'est ça, l'effet de levier des coûts fixes : quand ça monte, ça rapporte beaucoup. Quand ça baisse, ça fait mal très vite.",
+  "start": 375.505,
+  "end": 381.435
+ },
+ {
+  "i": 44,
+  "text": "Il reste une question : qui paie le restaurateur ? Dans notre simulation, les trente mille euros restants servent à rembourser l'emprunt, à renouveler le matériel, à constituer une réserve, et seulement après, à rémunérer le patron.",
+  "start": 382.65,
+  "end": 395.385
+ },
+ {
+  "i": 45,
+  "text": "Beaucoup de restaurateurs travaillent soixante heures par semaine pour un revenu qu'ils fixent, en réalité, par ce qui reste à la fin du mois. Quand la marge s'effondre, c'est d'abord leur propre paie qui disparaît.",
+  "start": 395.87,
+  "end": 406.42
+ },
+ {
+  "i": 46,
+  "text": "C'est une différence essentielle avec un salarié : le risque est porté entièrement par celui qui a ouvert.",
+  "start": 406.955,
+  "end": 412.24
+ },
+ {
+  "i": 47,
+  "text": "Cette fragilité se voit dans les chiffres. Selon le G.H.R., s'appuyant sur Altares, les défaillances dans l'hôtellerie-restauration sont passées de cinq mille trois cent cinquante-huit en deux mille vingt-deux à sept mille neuf cent quatre-vingt-dix en deux mille vingt-trois, puis huit mille sept cent quatorze en deux mille vingt-quatre.",
+  "start": 413.045,
+  "end": 427.56
+ },
+ {
+  "i": 48,
+  "text": "Au premier semestre deux mille vingt-cinq, on comptait encore environ dix pour cent de défaillances en plus, par rapport au premier semestre de l'année précédente.",
+  "start": 427.66,
+  "end": 435.62
+ },
+ {
+  "i": 49,
+  "text": "Il faut rester prudent : ces chiffres concernent tout le secteur, hôtels compris. Mais le message est clair : peu de marge, des coûts rigides, et un choc même modeste suffit.",
+  "start": 436.325,
+  "end": 445.665
+ },
+ {
+  "i": 50,
+  "text": "Et la fréquentation ne rassure pas : Fiducial relève un taux de remplissage en recul, notamment dans la restauration rapide.",
+  "start": 446.335,
+  "end": 452.065
+ },
+ {
+  "i": 51,
+  "text": "Tous les restaurants ne jouent pas le même jeu. Dans la restauration traditionnelle, on vend un service : une carte, une salle, du personnel de salle. Les salaires pèsent lourd, le ticket moyen est plus élevé, mais la salle se remplit surtout le midi et le week-end.",
+  "start": 452.91,
+  "end": 465.07
+ },
+ {
+  "i": 52,
+  "text": "Dans la restauration rapide, le ticket est plus petit, mais les volumes plus forts, avec une organisation plus simple. Le modèle repose sur la vitesse et le nombre de clients.",
+  "start": 465.655,
+  "end": 473.77
+ },
+ {
+  "i": 53,
+  "text": "Les deux souffrent, de façon différente. Selon Fiducial, le taux d'occupation de la restauration rapide est passé de quatre-vingt-quatorze à quatre-vingt-quatre pour cent en deux mille vingt-quatre, et celui des restaurants traditionnels de soixante à cinquante-huit pour cent.",
+  "start": 474.515,
+  "end": 486.17
+ },
+ {
+  "i": 54,
+  "text": "Côté défaillances, selon Altares, la restauration traditionnelle a compté cinq mille quatre cent dix-neuf défaillances sur les neuf premiers mois de deux mille vingt-cinq, soit neuf pour cent de plus que l'année précédente.",
+  "start": 486.87,
+  "end": 498.795
+ },
+ {
+  "i": 55,
+  "text": "Le modèle ne protège donc pas de tout : peu importe qu'on serve un menu gastronomique ou un burger, ce sont les coûts fixes et la fréquentation qui décident.",
+  "start": 499.455,
+  "end": 507.23
+ },
+ {
+  "i": 56,
+  "text": "Alors, comment font ceux qui y arrivent ? Voici des leviers classiques, qui relèvent plus de l'analyse que de statistiques officielles.",
+  "start": 507.995,
+  "end": 514.33
+ },
+ {
+  "i": 57,
+  "text": "Une carte courte, pour limiter le gaspillage et mieux maîtriser le coût matière. Un ticket moyen plus élevé, avec des boissons, des desserts, des menus bien construits. Le remplissage aussi : la vente à emporter ou le service du midi permettent d'utiliser une cuisine et des équipes déjà payées.",
+  "start": 515.14,
+  "end": 531.72
+ },
+ {
+  "i": 58,
+  "text": "Enfin, la discipline : suivre chaque semaine le coût matière, la masse salariale et les ventes, pour réagir avant que la trésorerie ne s'épuise.",
+  "start": 532.545,
+  "end": 540.985
+ },
+ {
+  "i": 59,
+  "text": "Dans ce métier, la différence entre trois et dix pour cent de marge se joue souvent sur des détails de gestion.",
+  "start": 541.7,
+  "end": 547.095
+ },
+ {
+  "i": 60,
+  "text": "Alors, ouvrir un restaurant, c'est rentable ?",
+  "start": 548.27,
+  "end": 550.655
+ },
+ {
+  "i": 61,
+  "text": "Cela peut l'être. Mais la marge est mince, autour de trois à six pour cent dans les sources citées ici, et les coûts fixes rendent le moindre recul de fréquentation très coûteux.",
+  "start": 551.335,
+  "end": 560.73
+ },
+ {
+  "i": 62,
+  "text": "À retenir : la matière première pèse environ un tiers du chiffre d'affaires, les salaires un peu plus, et le loyer et les charges font le reste. Le point mort est souvent proche du niveau normal d'activité.",
+  "start": 561.495,
+  "end": 572.175
+ },
+ {
+  "i": 63,
+  "text": "Un restaurant réussi, ce n'est pas seulement une bonne cuisine : c'est d'abord une bonne gestion.",
+  "start": 573.34,
+  "end": 577.32
+ },
+ {
+  "i": 64,
+  "text": "Et vous, à votre avis, vaut-il mieux ouvrir un petit restaurant simple ou viser un grand établissement ambitieux ? Dites-le-moi en commentaire.",
+  "start": 578.285,
+  "end": 584.72
+ },
+ {
+  "i": 65,
+  "text": "Et abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes.",
+  "start": 585.31,
+  "end": 589.88
+ }
+]

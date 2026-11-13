@@ -14,7 +14,7 @@ def w(i, word, which=0, o=0.0):
 LOOP = 2.4
 DUR = round(lines[-1]["end"] + 0.75 + LOOP, 2)
 SPACING = 46
-ORDER = ["ecole", "contrats", "depenses", "salaires", "horscontrat", "souscontrat", "immo", "simulation", "directeur", "risques", "friction", "cta"]
+ORDER = ["resto", "marche", "addition", "prix", "matiere", "salaires", "loyer", "invest", "simulation", "pointmort", "patron", "defaillances", "modeles", "leviers", "cta"]
 import math as _m
 N_ = len(ORDER); RR = SPACING * N_ / (2 * _m.pi)
 POS = {n: [round(RR * _m.sin(2 * _m.pi * i / N_), 2), round(-RR * (1 - _m.cos(2 * _m.pi * i / N_)), 2)] for i, n in enumerate(ORDER)}
@@ -34,9 +34,9 @@ FIRSTL = {n: min(i for i, c in enumerate(CHN) if c == k + 1) for k, n in enumera
 LASTL = {n: max(i for i, c in enumerate(CHN) if c == k + 1) for k, n in enumerate(ORDER)}
 for n in ORDER: hero(n, 0.0 if n == ORDER[0] else s(FIRSTL[n]), e(LASTL[n], 0.1) if n != ORDER[-1] else DUR - LOOP + 0.4)
 hero(ORDER[0], DUR - LOOP - 0.6, DUR + 3)
-ORB = dict(ecole=(0.4, -0.4, 17, 13, 7, 6, 3.0), contrats=(0.4, -0.4, 25, 22, 8, 7.5, 3.0), depenses=(0.4, -0.4, 22, 18, 7.5, 6.5, 3.2), salaires=(0.4, -0.4, 23, 19, 8, 7, 3.0),
-           horscontrat=(0.4, -0.4, 22, 18, 7.5, 7, 3.0), souscontrat=(0.4, -0.4, 22, 19, 8, 7, 3.2), immo=(0.4, -0.4, 23, 19, 8, 7.5, 3.6), simulation=(0.3, -0.3, 22, 18, 8, 7.5, 4.2),
-           directeur=(0.4, -0.4, 14, 11, 6, 5.5, 2.8), risques=(0.4, -0.4, 24, 20, 8, 7.5, 3.0), friction=(0.4, -0.4, 20, 16, 8.5, 7.5, 4.4), cta=(0.3, -0.3, 22, 18, 7.5, 6.5, 4.2))
+ORB = dict(resto=(0.4, -0.4, 21, 17, 7.5, 6.5, 3.2), marche=(0.4, -0.4, 25, 21, 9, 8, 3.0), addition=(0.4, -0.4, 22, 18, 8, 7, 3.4), prix=(0.4, -0.4, 22, 18, 8, 7, 3.4), matiere=(0.4, -0.4, 22, 18, 8, 7, 3.2),
+           salaires=(0.4, -0.4, 22, 18, 8, 7, 3.2), loyer=(0.4, -0.4, 22, 18, 8, 7, 3.2), invest=(0.4, -0.4, 23, 19, 8.5, 7.5, 3.4), simulation=(0.3, -0.3, 22, 18, 8.5, 7.5, 4.4), pointmort=(0.3, -0.3, 22, 18, 8.5, 7.5, 4.4),
+           patron=(0.4, -0.4, 20, 16, 7.5, 6.5, 3.0), defaillances=(0.4, -0.4, 22, 18, 8, 7, 3.4), modeles=(0.4, -0.4, 23, 19, 8.5, 7.5, 3.4), leviers=(0.4, -0.4, 22, 18, 8, 7, 3.2), cta=(0.3, -0.3, 22, 18, 7.5, 6.5, 4.2))
 START = {n: (0.0 if n == ORDER[0] else s(FIRSTL[n])) for n in ORDER}
 END = {n: (START[ORDER[i + 1]] if i + 1 < len(ORDER) else DUR - LOOP) for i, n in enumerate(ORDER)}
 # duel pans: the look-at (and the camera) slide sideways to the object being named
@@ -50,7 +50,7 @@ def foc(name, t):
         cur = tuple(prev[q] + (k[1 + q] - prev[q]) * u for q in range(3)); prev = tuple(k[1:4])
     return cur
 def state(name, t):
-    a0, a1, r0, r1, h0, h1, ty = ORB[name]; u = min(1, max(0, (t - START[name]) / max(0.01, END[name] - START[name])))
+    a0, a1, r0, r1, h0, h1, ty = ORB[name]; r0, r1, h0, h1 = r0 * 0.82, r1 * 0.82, h0 * 0.9, h1 * 0.9; u = min(1, max(0, (t - START[name]) / max(0.01, END[name] - START[name])))
     k = u * u * (3 - 2 * u) * 0.35 + u * 0.65          # almost-linear, soft ends
     cx, cz = POS[name]; a = a0 + (a1 - a0) * k; r = r0 + (r1 - r0) * k; h = h0 + (h1 - h0) * k
     fx, fy, fz = foc(name, t)
@@ -75,99 +75,107 @@ def cam(t):
         p = (p[0], p[1] + 9.0 * math.sin(math.pi * g), p[2])   # aerial hump
     return p, l
 
-# ======== overlays, all exactly on the spoken word ========
+# ======== overlays, all exactly on the spoken word (wi(line, token) = start of that token) ========
+wi = lambda i, k, o=0.0: round(byl[i][k]["s"] + o, 2)
+def N(i, k, text, kind, anchor, dx=0, dy=-70, dur=1.7, until=None): note(wi(i, k), until if until else round(wi(i, k) + dur, 2), text, kind, anchor, dx, dy)
+def KW(i, k, text, color="gold", dur=1.8, until=None, rot=-2): kw(wi(i, k), until if until else round(wi(i, k) + dur, 2), text, color, rot)
 def cn(to, pre="", suf="", t0=0.0, d=0.7, dec=0): return dict(to=to, pre=pre, suf=suf, t0=t0, d=d, dec=dec)
-def KC(t0, t1, text, color, to, pre="", suf="", d=0.7, dec=0): kw(t0, t1, text, color, cnt=cn(to, pre, suf, t0, d, dec))
-STY = 760   # stamp y (1920x1080 canvas)
+def KC(i, k, text, color, to, pre="", suf="", d=0.7, dec=0, until=None, dur=2.2):
+    t0 = wi(i, k); kw(t0, until if until else round(t0 + dur, 2), text, color, cnt=cn(to, pre, suf, t0, d, dec))
+def ST(i, k, text, kind, dur=2.2, until=None): stamp(wi(i, k), until if until else round(wi(i, k) + dur, 2), text, kind, 960, 770)
 # ---- CH1 ----
-kw(0.1, e(0, 0.1), "L'ÉCONOMIE D'UNE ÉCOLE", "gold")
-note(w(1, "salaires"), e(1, 0.2), "SALAIRES", "red", "sc_mid", -330, -120); note(w(1, "loyer"), e(1, 0.2), "LOYER", "blue", "sc_mid", -110, -120); note(w(1, "assurances"), e(1, 0.2), "ASSURANCES", "green", "sc_mid", 110, -120); note(w(1, "cantine"), e(1, 0.2), "CANTINE", "gold", "sc_mid", 330, -120)
-kw(w(2, "avant"), e(2, 0.4), "AVANT LA RENTRÉE", "red")
-T["q_on"] = w(3, "question"); kw(w(3, "d'où"), e(3, 0.5), "D'OÙ VIENT L'ARGENT ?", "gold")
-kw(w(4, "deux"), e(4, 0.4), "DEUX FAÇONS", "blue"); kw(w(5, "comptes"), e(5, 0.4), "COMPTES DIFFÉRENTS", "white")
-note(w(6, "poste"), e(6, 0.3), "POSTE PAR POSTE", "green", "sc_top", 0, -60)
-KC(w(8, "trente"), e(8, 0.5), "+30 ÉLÈVES", "green", 30, "+", " ÉLÈVES", 0.7)
+kw(0.1, e(0, 0.1), "OUVRIR UN RESTAURANT", "gold"); KW(1, 10, "PRESQUE RIEN", "red", 1.6)
+ST(2, 1, "OBSERVATOIRE FIDUCIAL", "blue", until=e(2, 0.1)); KC(2, 11, "11 %", "green", 11, "", " %", 0.5, until=wi(2, 18), dur=1.5); KC(2, 20, "3 %", "red", 3, "", " %", 0.5, until=e(2, 0.3))
+T["grid_on"] = wi(3, 0); T["gold3"] = wi(3, 2); T["grid_off"] = e(4, 0.4)
+N(3, 4, "100 € ENCAISSÉS", "white", "rs_grid", 0, -80, until=wi(3, 5, 0.9)); N(3, 2, "3 € GARDÉS", "gold", "rs_grid", 180, -150, until=e(3, 0.3))
+KW(4, 16, "POSTE PAR POSTE", "green", until=wi(4, 19)); KW(4, 21, "OÙ PART L'ARGENT ?", "gold", until=wi(4, 32)); KW(4, 33, "TANT DE FAILLITES", "red", until=e(4, 0.4))
 # ---- CH2 ----
-T["lone_on"] = w(10, "hors"); T["fam_on"] = w(12, "seule"); T["state_on"] = w(14, "sous"); T["flow_on"] = w(16, "prend"); T["n7500"] = w(18, "7"); T["dbl_on"] = w(20, "doublé")
-note(w(9, "contrat"), e(9, 0.2), "LE CONTRAT", "gold", "ct_state", 0, -60); note(w(10, "hors"), e(11, 0.3), "HORS CONTRAT", "gold", "ct_hc", 0, -70); kw(w(10, "libre"), e(10, 0.4), "LIBRE", "green")
-note(w(12, "seule"), e(12, 0.3), "SEULE POUR PAYER", "red", "ct_hc", 0, -70); kw(w(13, "familles"), e(13, 0.4), "LES FAMILLES", "gold")
-note(w(14, "sous"), e(15, 0.3), "SOUS CONTRAT", "blue", "ct_sc", 0, -70); kw(w(16, "rémunération"), e(16, 0.4), "ÉTAT PAIE LES PROFS", "blue")
-KC(w(18, "millions"), w(18, "17"), "2 MILLIONS D'ÉLÈVES", "blue", 2, "", " MILLIONS D'ÉLÈVES", 0.6); KC(w(18, "17"), w(18, "7"), "17 %", "gold", 17, "", " %", 0.5); KC(w(18, "7"), e(18, 0.4), "7 500 ÉTABLISSEMENTS", "green", 7500, "", " ÉTABLISSEMENTS", 0.8)
-note(w(19, "minuscule"), e(19, 0.2), "HORS CONTRAT : MINUSCULE", "gold", "ct_lone", 0, -60); kw(w(20, "doublé"), w(20, "2"), "×2", "red"); KC(w(20, "pour") if False else w(20, "atteindre"), e(20, 0.4), "≈ 2 % DES ÉCOLES", "gold", 2, "≈ ", " % DES ÉCOLES", 0.6)
-stamp(w(17, "ordres"), e(17, 0.1), "COUR DES COMPTES · 2023", "blue", 960, STY)
+T["mk_on"] = wi(5, 7); T["tower_on"] = wi(5, 16); T["thin_on"] = wi(6, 13)
+KC(5, 7, "179 000 RESTAURANTS", "blue", 179000, "", " RESTAURANTS", 0.9, until=wi(5, 15)); KC(5, 16, "120 MD €", "green", 120, "", " MD €", 0.7, until=wi(5, 24))
+ST(5, 24, "SITES D'ÉTUDES · À VÉRIFIER", "gold", until=wi(5, 43)); KW(6, 7, "LE CONTRASTE", "gold", until=wi(6, 13)); KW(6, 13, "MARGES TRÈS FAIBLES", "red", until=wi(6, 16)); N(6, 13, "MARGE", "gold", "mk_thin", 0, -70, until=e(6, 0.2)); KW(7, 5, "SUIVRE UN EURO", "green", until=e(7, 0.3))
 # ---- CH3 ----
-T["b1"] = w(23, "salaires"); T["b2"] = w(25, "locaux"); T["b3"] = w(27, "fonctionnement"); T["b4"] = w(29, "pédagogique"); T["big"] = w(31, "écrase")
-kw(w(22, "quatre"), e(22, 0.3), "4 GRANDS BLOCS", "gold")
-note(T["b1"], e(24, 0.3), "1 · SALAIRES", "red", "dp0", 0, -60); note(T["b2"], e(26, 0.3), "2 · LOCAUX", "blue", "dp1", 0, -60); note(T["b3"], e(28, 0.3), "3 · FONCTIONNEMENT", "gold", "dp2", 0, -60); note(T["b4"], e(30, 0.3), "4 · PÉDAGOGIE", "green", "dp3", 0, -60)
-note(w(24, "enseignants"), e(24, 0.3), "ENSEIGNANTS · ADMINISTRATION", "white", "dp0", 0, -135); note(w(26, "loyer"), e(26, 0.3), "LOYER · EMPRUNT · TRAVAUX", "white", "dp1", 0, -135); note(w(28, "énergie"), e(28, 0.3), "ÉNERGIE · ASSURANCES", "white", "dp2", 0, -135); note(w(30, "manuels"), e(30, 0.3), "MANUELS · SORTIES", "white", "dp3", 0, -135)
-kw(T["big"], e(31, 0.4), "UN POSTE ÉCRASE LES AUTRES", "red")
+T["ttc_on"] = wi(8, 18); T["tva_on"] = wi(9, 9); T["ht_on"] = wi(10, 5)
+ST(8, 2, "KPMG · GIRA · L'ADDITION", "blue", until=wi(8, 15)); KC(8, 18, "30 € TTC", "gold", 30, "", " € TTC", 0.6, until=e(8, 0.4))
+N(9, 9, "TVA 10 %", "red", "ad_gov", 0, -70, until=wi(9, 17)); N(9, 17, "ALCOOL 20 %", "gold", "ad_gov", 0, -70, until=wi(9, 22)); KW(9, 24, "DIRECT À L'ÉTAT", "blue", until=e(9, 0.4)); KC(10, 5, "28 € HT", "green", 28, "", " € HT", 0.6, until=wi(10, 9))
+KW(10, 12, "LE VRAI CHIFFRE D'AFFAIRES", "gold", until=e(10, 0.4))
+for k, (kk, txt, dx, col) in enumerate([(10, "NOURRITURE", -330, "red"), (12, "ÉQUIPES", -110, "blue"), (14, "LOCAL", 110, "gold"), (15, "ÉNERGIE", 330, "green")]): note(wi(11, kk), e(11, 0.3), txt, col, "ad_ht", dx, -120)
+KW(11, 22, "AVANT DE SE PAYER", "red", until=e(11, 0.4))
 # ---- CH4 ----
-T["tow_on"] = w(33, "moitié"); T["c30"] = w(40, "trente"); T["c20"] = w(40, "vingt"); T["hc_pay"] = w(43, "l'école"); T["st_pay"] = w(45, "l'état")
-kw(w(32, "salaires"), w(33, "moitié"), "LES SALAIRES", "red"); KC(w(33, "moitié"), e(33, 0.4), "+ DE 50 % DU BUDGET", "red", 50, "+ DE ", " % DU BUDGET", 0.7)
-note(T["tow_on"], e(33, 0.3), "SALAIRES", "red", "sa_tower", 0, -60); note(T["tow_on"] + 0.5, e(33, 0.3), "AUTRES POSTES", "blue", "sa_rest", 0, -60)
-kw(w(35, "temps"), e(35, 0.4), "DU TEMPS HUMAIN", "gold"); kw(w(39, "souple"), e(39, 0.4), "COÛT NON SOUPLE", "white")
-note(T["c30"], e(40, 0.3), "30 ÉLÈVES", "green", "sa_c30", 0, -60); note(T["c20"], e(40, 0.3), "20 ÉLÈVES", "blue", "sa_c20", 0, -60); kw(w(40, "autant"), e(40, 0.4), "≈ MÊME COÛT", "gold")
-kw(w(41, "remplissage"), e(41, 0.4), "TAUX DE REMPLISSAGE", "green"); kw(w(42, "qui"), e(42, 0.4), "QUI PAIE LES PROFS ?", "gold")
-note(T["hc_pay"], e(44, 0.3), "HORS CONTRAT : L'ÉCOLE", "red", "sa_school", 0, -60); note(T["st_pay"], e(46, 0.3), "SOUS CONTRAT : L'ÉTAT", "blue", "sa_state", 0, -60)
+T["ing_on"] = wi(13, 3); T["x3_on"] = wi(14, 16); T["plate_on"] = wi(14, 18); T["c8_on"] = wi(14, 23); T["c24_on"] = wi(14, 29)
+KW(12, 13, "3 À 4 FOIS LE PRIX", "red", until=wi(12, 21)); KW(13, 8, "≈ UN TIERS DU PRIX", "gold", until=wi(13, 15)); KW(13, 15, "COEFFICIENT MULTIPLICATEUR", "blue", until=wi(13, 24)); N(13, 3, "INGRÉDIENTS", "green", "pr_ing", 0, -70, until=wi(13, 12))
+KC(14, 16, "× 3", "gold", 3, "× ", "", 0.4, until=wi(14, 23)); N(14, 16, "COEFFICIENT ≈ 3", "gold", "pr_x3", 0, -70, until=wi(14, 23)); KC(14, 23, "8 €", "blue", 8, "", " €", 0.5, until=wi(14, 29)); N(14, 23, "8 € D'INGRÉDIENTS", "blue", "pr_8", 0, -70, until=wi(14, 29))
+KC(14, 29, "24 € HT", "green", 24, "", " € HT", 0.6, until=wi(14, 38)); N(14, 29, "24 € HT", "green", "pr_24", 0, -70, until=wi(14, 38)); KC(14, 38, "26,4 € TTC", "gold", 26.4, "", " € TTC", 0.6, dec=1, until=e(14, 0.3)); N(14, 41, "+ TVA 10 %", "red", "pr_plate", 0, -70, until=e(14, 0.3))
+for kk, txt, dx in [(13, "CUISINIER", -330), (15, "SERVEUR", -110), (17, "LOYER", 110), (18, "ÉLECTRICITÉ", 330)]: note(wi(15, kk), e(15, 0.3), txt, "white", "pr_plate", dx, -120)
+KW(15, 5, "PAS UN CADEAU", "gold", until=wi(15, 10)); KW(16, 8, "PROMOTIONS : DANGER", "red", until=wi(16, 19)); KW(16, 31, "AUTRES CHARGES ENTIÈRES", "red", until=e(16, 0.4))
 # ---- CH5 ----
-T["fees_on"] = w(49, "frais"); T["gauge_on"] = w(51, "seuil"); T["thr_on"] = w(51, "minimum"); T["inv_on"] = w(54, "investir"); T["cost_on"] = w(57, "charges"); T["enrol_on"] = w(58, "inscriptions")
-kw(T["fees_on"], e(49, 0.4), "FRAIS DE SCOLARITÉ", "gold"); note(T["fees_on"], e(50, 0.3), "100 % DES FAMILLES", "green", "hc_chest", 0, -70)
-note(w(50, "quelques"), w(50, "plusieurs"), "QUELQUES MILLIERS €", "white", "hc_chest", 0, -135); note(w(50, "plusieurs"), e(50, 0.3), "PARFOIS DES DIZAINES DE MILLIERS €", "gold", "hc_chest", 0, -135)
-kw(T["gauge_on"], e(51, 0.4), "SEUIL DE RENTABILITÉ", "gold"); note(T["thr_on"], e(53, 0.3), "NOMBRE MINIMUM D'ÉLÈVES", "blue", "hc_gauge", 0, -60)
-stamp(w(53, "estimations"), e(53, 0.2), "ESTIMATIONS · PAS OFFICIEL", "gold", 960, STY)
-kw(T["inv_on"], e(54, 0.4), "INVESTIR D'ABORD", "red"); kw(w(55, "centaines"), e(55, 0.4), "CENTAINES DE MILLIERS €", "red"); note(w(55, "locaux"), e(55, 0.3), "LOCAUX · TRAVAUX · MATÉRIEL", "white", "hc_inv", 0, -60)
-kw(w(56, "démarrage"), e(56, 0.4), "LE DÉMARRAGE", "gold"); note(T["cost_on"], e(57, 0.3), "CHARGES : DÈS LE JOUR 1", "red", "hc_cost", 0, -60); note(T["enrol_on"], e(58, 0.3), "INSCRIPTIONS : LENTES", "blue", "hc_enr", 0, -60)
+T["mat_on"] = wi(17, 0); T["pie_on"] = wi(17, 19); T["infl_on"] = wi(19, 6)
+KW(17, 0, "PREMIER POSTE", "gold", until=wi(17, 9)); ST(17, 9, "KPMG · 2022", "blue", until=wi(17, 24)); KC(17, 19, "34,2 %", "gold", 34.2, "", " %", 0.7, dec=1, until=wi(17, 32)); N(17, 19, "MATIÈRES PREMIÈRES", "green", "mt_pie", 0, -70, until=wi(17, 30)); KW(17, 36, "+ 2 POINTS VS 2019", "red", until=e(17, 0.4))
+N(18, 6, "≈ 9,50 € SUR 28 €", "white", "mt_pie", 0, -70, until=e(18, 0.3)); KW(19, 6, "L'INFLATION", "red", until=wi(19, 17)); ST(19, 8, "FIDUCIAL · 2024", "gold", until=wi(19, 17)); KC(19, 17, "+ 20 %", "red", 20, "+ ", " %", 0.6, until=wi(19, 24)); N(19, 17, "MATIÈRES : + 20 %", "red", "mt_up", 0, -70, until=e(19, 0.3)); KW(20, 19, "SANS CHANGER LE PRIX", "gold", until=e(20, 0.4))
 # ---- CH6 ----
-T["state_s"] = w(61, "l'état"); T["tow8"] = w(62, "8"); T["coll_on"] = w(63, "collectivités"); T["fam_s"] = w(66, "familles")
-KC(w(60, "trois"), e(60, 0.4), "3 SOURCES", "gold", 3, "", " SOURCES", 0.5); note(T["state_s"], e(62, 0.3), "L'ÉTAT", "blue", "so_state", 0, -60)
-stamp(w(62, "cour"), e(62, -0.1), "COUR DES COMPTES · 2022", "blue", 960, STY); KC(w(62, "8"), w(62, "142"), "8 Md€", "blue", 8, "", " Md€", 0.6); KC(w(62, "142"), e(62, 0.4), "142 000 PROFS", "green", 142000, "", " PROFS", 0.9)
-note(T["coll_on"], e(65, 0.3), "COLLECTIVITÉS", "gold", "so_coll", 0, -60); note(w(64, "communes"), w(64, "départements"), "COMMUNES · PRIMAIRE", "white", "so_coll", 0, -125); note(w(64, "départements"), w(64, "régions"), "DÉPARTEMENTS · COLLÈGES", "white", "so_coll", 0, -125); note(w(64, "régions"), e(64, 0.3), "RÉGIONS · LYCÉES", "white", "so_coll", 0, -125)
-stamp(w(65, "forfait"), e(65, 0.2), "FORFAIT D'EXTERNAT", "gold", 960, STY)
-note(T["fam_s"], e(69, 0.3), "FAMILLES", "green", "so_fam", 0, -60); note(w(68, "centaines"), e(68, 0.3), "CENTAINES À MILLIERS € / AN", "white", "so_fam", 0, -125); kw(w(69, "quart"), e(69, 0.4), "≈ 1 QUART", "gold")
-kw(w(71, "immobilier"), e(71, 0.4), "L'IMMOBILIER", "red")
+T["team_on"] = wi(21, 9); T["tow6_on"] = wi(22, 10); T["fix_on"] = wi(23, 7); T["rec_on"] = wi(24, 1)
+KW(21, 7, "LES ÉQUIPES", "red", until=wi(21, 9)); N(21, 9, "CUISINIERS", "white", "sa_kitchen", 0, -70, until=wi(21, 10)); N(21, 10, "SERVEURS", "white", "sa_wait", 0, -70, until=wi(21, 11)); N(21, 11, "PLONGE · DIRECTION", "white", "sa_wait", 0, -70, until=e(21, 0.3))
+KW(22, 10, "30 À 40 % DU CA", "red", until=wi(22, 22)); ST(22, 22, "REPÈRES D'ÉDITEURS · PAS OFFICIEL", "gold", until=e(22, 0.2)); N(22, 20, "MASSE SALARIALE", "red", "sa_tower", 0, -70, until=wi(22, 22))
+KW(23, 5, "COÛT QUASI FIXE", "red", until=wi(23, 14)); N(23, 14, "PAS DE RENVOI À 15 H", "white", "sa_kitchen", 0, -70, until=e(23, 0.3)); ST(24, 7, "KPMG", "blue", until=wi(24, 10)); KC(24, 10, "83 %", "gold", 83, "", " %", 0.6, until=wi(24, 15)); N(24, 15, "PEINENT À RECRUTER", "gold", "sa_q", 0, -70, until=wi(24, 22)); N(24, 24, "SALAIRES RELEVÉS", "red", "sa_tower", 0, -70, until=e(24, 0.3)); KW(25, 10, "LE POIDS LE PLUS LOURD", "red", until=e(25, 0.4))
 # ---- CH7 ----
-T["works_on"] = w(76, "construire"); T["loan_on"] = w(79, "emprunt"); T["chain_on"] = w(79, "années")
-kw(w(72, "angle"), e(72, 0.4), "L'ANGLE MORT", "red"); note(w(73, "bâtiments"), e(73, 0.3), "BÂTIMENTS : À LA CHARGE DE L'ÉCOLE", "red", "im_build", 0, -70)
-note(w(74, "enseignants"), e(74, 0.3), "PROFS : L'ÉTAT", "blue", "im_build", 0, -135); note(w(75, "fonctionnement"), e(75, 0.3), "FONCTIONNEMENT : COLLECTIVITÉS", "gold", "im_build", 0, -135)
-note(w(76, "toiture"), w(76, "alarmes"), "TOITURE", "white", "im_crane", 0, -60); note(w(76, "alarmes"), w(76, "mettre"), "ALARMES", "white", "im_crane", 0, -60); note(w(76, "mettre"), w(76, "c'est"), "NORMES", "white", "im_crane", 0, -60); kw(w(76, "c'est"), e(76, 0.4), "C'EST L'ÉCOLE QUI PAIE", "red")
-note(w(77, "familles"), e(77, 0.3), "FAMILLES · DONS", "green", "im_bricks", 0, -60); kw(w(78, "fragiles"), e(78, 0.4), "BUDGETS FRAGILES", "red"); note(T["loan_on"], e(79, 0.3), "EMPRUNT", "gold", "im_bank", 0, -60); note(T["chain_on"], e(79, 0.3), "DES ANNÉES", "red", "im_chain", 0, -60)
+T["rent_on"] = wi(26, 7); T["energy_on"] = wi(28, 1); T["fixed_on"] = wi(29, 4)
+KW(26, 0, "TOUT LE RESTE", "gold", until=wi(26, 7))
+for kk, txt, dx, col, nx in [(7, "LOYER", -330, "blue", 8), (8, "ÉLECTRICITÉ · GAZ", -110, "gold", 12), (13, "ASSURANCES", 110, "green", 15), (16, "COMPTABLE", 330, "white", 17)]: note(wi(26, kk), e(26, 0.3), txt, col, "lo_build", dx, -90)
+KW(27, 19, "6 À 10 % DU CA", "gold", until=wi(27, 30)); KW(27, 33, "PAYÉ CHAQUE MOIS", "red", until=e(27, 0.4)); N(27, 33, "LOYER MENSUEL", "red", "lo_cal", 0, -70, until=e(27, 0.3))
+N(28, 15, "ÉNERGIE EN HAUSSE", "red", "lo_energy", 0, -70, until=e(28, 0.3)); ST(28, 10, "FIDUCIAL · 2024", "gold", until=wi(28, 20)); N(29, 7, "INDÉPENDANTS DES CLIENTS", "white", "lo_fixed", 0, -70, until=wi(29, 19)); KW(29, 19, "COÛTS FIXES", "gold", until=e(29, 0.4))
 # ---- CH8 ----
-T["s100"] = w(81, "100"); T["rec_on"] = w(82, "600"); T["sal_on"] = w(84, "dix"); T["loy_on"] = w(85, "loyer"); T["fct_on"] = w(86, "énergie"); T["s130"] = w(89, "130"); T["rec2"] = w(90, "780")
-kw(w(80, "exercice"), e(80, 0.4), "SIMULATION", "gold"); stamp(w(80, "illustratifs"), e(80, 0.1), "CHIFFRES ILLUSTRATIFS", "gold", 960, STY)
-KC(T["s100"], e(81, 0.4), "100 ÉLÈVES", "blue", 100, "", " ÉLÈVES", 0.6); note(w(81, "6"), e(81, 0.3), "6 000 € / AN", "white", "sm_cA", 0, -60)
-KC(T["rec_on"], e(82, 0.4), "600 000 €", "green", 600000, "", " €", 0.7); note(T["rec_on"], e(84, 0.2), "RECETTES", "green", "sm_recA", -130, -60)
-kw(w(83, "dépenses"), e(83, 0.3), "LES DÉPENSES", "red"); KC(w(84, "520"), e(84, 0.4), "520 000 €", "red", 520000, "", " €", 0.8); note(T["sal_on"], e(84, 0.3), "SALAIRES (13 PERS.)", "red", "sm_expA", 150, -60)
-KC(w(85, "60"), e(85, 0.3), "60 000 €", "gold", 60000, "", " €", 0.5); note(T["loy_on"], e(85, 0.3), "LOYER", "gold", "sm_expA", 150, -125); KC(w(86, "40"), e(86, 0.3), "40 000 €", "gold", 40000, "", " €", 0.5); note(T["fct_on"], e(86, 0.3), "ÉNERGIE · CANTINE…", "gold", "sm_expA", 150, -190)
-KC(w(87, "620"), w(87, "600"), "620 000 €", "red", 620000, "", " €", 0.7); kw(w(87, "600"), e(87, 0.4), "600 000 €", "green", cnt=cn(600000, "", " €", w(87, "600"), 0.5))
-KC(w(88, "perd"), e(88, 0.5), "−20 000 € / AN", "red", 20000, "−", " € / AN", 0.6)
-KC(T["s130"], e(89, 0.3), "130 ÉLÈVES", "blue", 130, "", " ÉLÈVES", 0.6); KC(T["rec2"], e(90, 0.4), "780 000 €", "green", 780000, "", " €", 0.8); note(T["rec2"], e(92, 0.2), "RECETTES", "green", "sm_recB", 0, -60)
-note(w(91, "salaires"), e(91, 0.3), "SALAIRES + LOYER : QUASI FIXES", "red", "sm_expB", 0, -60); KC(w(92, "150"), e(92, 0.5), "+ 150 000 € / AN", "green", 150000, "+ ", " € / AN", 0.8)
-KC(w(93, "trente"), e(93, 0.4), "+30 ÉLÈVES", "green", 30, "+", " ÉLÈVES", 0.5); kw(w(94, "levier"), e(94, 0.4), "EFFET DE LEVIER", "gold"); note(w(95, "perdre"), e(95, 0.3), "QUELQUES ÉLÈVES EN MOINS = LE ROUGE", "red", "sm_a", 0, -60)
+T["inv_on"] = wi(30, 8); T["eq_on"] = wi(30, 10); T["res_on"] = wi(32, 3); T["loan_on"] = wi(33, 3); T["chain8_on"] = wi(33, 6)
+KW(30, 8, "INVESTIR D'ABORD", "red", until=wi(30, 17))
+for kk, txt, nx in [(10, "DROIT AU BAIL", 17), (19, "TRAVAUX", 21), (21, "CUISINE PRO", 24), (24, "MOBILIER", 26), (26, "LICENCE", 32)]: note(wi(30, kk), wi(30, nx) if nx < 32 else e(30, 0.3), txt, "white", "in_eq", 0, -90)
+KW(31, 15, "QUELQUES DIZAINES DE MILLIERS €", "white", until=wi(31, 25)); KW(31, 25, "PLUSIEURS CENTAINES DE MILLIERS €", "red", until=wi(31, 34)); ST(31, 34, "ORDRES DE GRANDEUR · SOURCES COMMERCIALES", "gold", until=e(31, 0.2))
+N(32, 4, "RÉSERVE DE TRÉSORERIE", "gold", "in_res", 0, -70, until=wi(32, 17)); N(32, 18, "CHARGES DÈS LE 1ER MOIS", "red", "in_build", 0, -70, until=e(32, 0.3)); N(33, 3, "EMPRUNT", "blue", "in_bank", 0, -70, until=wi(33, 6)); N(33, 6, "MENSUALITÉ = CHARGE FIXE", "red", "in_chain", 0, -70, until=e(33, 0.3))
 # ---- CH9 ----
-T["task_on"] = w(97, "budget"); T["asso_on"] = w(99, "associations"); T["watch_on"] = w(103, "surveille")
-kw(w(96, "directeur"), e(96, 0.4), "LE DIRECTEUR", "gold")
-for k, (wd, txt, col, dx) in enumerate([("budget", "BUDGET", "gold", -520), ("banque", "BANQUE", "blue", -260), ("recrute", "RECRUTER", "green", 0), ("inscriptions", "INSCRIPTIONS", "red", 270), ("trésorerie", "TRÉSORERIE", "white", 540)]): note(w(97, wd), e(97, 0.3), txt, col, "dr_tasks", dx, -100)
-kw(w(98, "profit"), e(98, 0.4), "PAS DE PROFIT À MAXIMISER", "green"); note(T["asso_on"], e(99, 0.3), "ASSOCIATIONS NON LUCRATIVES", "green", "dr_loop", 0, -70); kw(w(100, "réinvestis"), e(100, 0.4), "RÉINVESTIS DANS L'ÉCOLE", "gold")
-note(w(101, "hors"), e(102, 0.3), "HORS CONTRAT : STATUT PLUS LIBRE", "gold", "dr_dir", 0, -60); note(T["watch_on"], e(103, 0.3), "L'ÉTAT SURVEILLE", "blue", "dr_shield", 0, -60); kw(w(105, "erreur"), e(105, 0.4), "ERREUR DE PRÉVISION", "red")
+T["s500"] = wi(35, 5); T["couv_on"] = wi(35, 21); T["sm_mat"] = wi(36, 4); T["sm_sal"] = wi(36, 18); T["sm_loy"] = wi(36, 27); T["sm_aut"] = wi(36, 39); T["sm_res"] = wi(37, 11)
+KW(34, 6, "SIMULATION", "gold", until=wi(34, 8)); ST(34, 6, "ILLUSTRATIF · PAS UN RESTAURANT RÉEL", "gold", until=e(34, 0.2))
+KC(35, 5, "500 000 €", "green", 500000, "", " €", 0.8, until=wi(35, 21)); N(35, 14, "28 € / COUVERT", "white", "sm_tab", 0, -90, until=wi(35, 21)); KC(35, 21, "≈ 17 900 COUVERTS", "blue", 17900, "≈ ", " COUVERTS", 0.8, until=wi(35, 27)); KC(35, 27, "60 / JOUR", "gold", 60, "", " / JOUR", 0.6, until=e(35, 0.4))
+for kk, txt, col, anc, nx in [(1, "MATIÈRES · 34 %", "red", "sm_mat", 12), (13, "SALAIRES · 38 %", "red", "sm_sal", 25), (25, "LOYER · 8 %", "gold", "sm_loy", 32), (32, "ÉNERGIE… · 14 %", "gold", "sm_res", 43)]: note(wi(36, kk), wi(36, nx) if nx < 43 else e(36, 0.3), txt, col, anc, 0, -70)
+KC(36, 8, "170 000 €", "red", 170000, "", " €", 0.7, until=wi(36, 13)); KC(36, 21, "190 000 €", "red", 190000, "", " €", 0.7, until=wi(36, 25)); KC(36, 30, "40 000 €", "gold", 40000, "", " €", 0.6, until=wi(36, 32)); KC(36, 42, "70 000 €", "gold", 70000, "", " €", 0.6, until=e(36, 0.4))
+KC(37, 2, "470 000 €", "red", 470000, "", " €", 0.8, until=wi(37, 11)); KC(37, 11, "30 000 €", "gold", 30000, "", " €", 0.7, until=wi(37, 15)); KC(37, 15, "6 %", "green", 6, "", " %", 0.5, until=wi(37, 18)); N(37, 19, "PAS ENCORE LE SALAIRE DU PATRON", "white", "sm_res", 0, -90, until=e(37, 0.3)); KW(38, 5, "UN BON RESTAURANT", "gold", until=e(38, 0.4))
 # ---- CH10 ----
-T["r1"] = w(107, "démographie"); T["demo_out"] = w(108, "baisse"); T["r2"] = w(110, "concurrence"); T["r3"] = w(112, "règlementation"); T["r4"] = w(114, "trésorerie"); T["drain"] = w(115, "tombent")
-kw(w(106, "stable"), e(106, 0.4), "UN ÉQUILIBRE STABLE ?", "gold"); kw(T["r1"], e(107, 0.4), "1 · DÉMOGRAPHIE", "red"); note(T["demo_out"], e(109, 0.3), "BAISSE DES EFFECTIFS · RENTRÉE 2024", "red", "rk_demo", 0, -60)
-kw(T["r2"], e(110, 0.4), "2 · CONCURRENCE", "blue"); note(w(111, "public"), e(111, 0.3), "PRIVÉ ET PUBLIC", "white", "rk_conc", 0, -60); kw(T["r3"], e(112, 0.4), "3 · RÈGLEMENTATION", "gold"); note(w(113, "contrôles"), e(113, 0.3), "CONTRÔLES · NORMES · TRANSPARENCE", "white", "rk_reg", 0, -60)
-kw(T["r4"], e(114, 0.4), "4 · TRÉSORERIE", "green"); note(T["drain"], e(115, 0.3), "COÛTS D'UN COUP", "red", "rk_tres", 0, -60); kw(w(116, "gestionnaire"), e(116, 0.4), "BON GESTIONNAIRE", "gold")
+T["dec_on"] = wi(39, 7); T["var_on"] = wi(40, 11); T["fix_on10"] = wi(40, 22); T["pm_on"] = wi(42, 4)
+KC(39, 8, "− 10 % DE CLIENTS", "red", 10, "− ", " % DE CLIENTS", 0.6, until=e(39, 0.4)); KC(40, 5, "450 000 €", "green", 450000, "", " €", 0.7, until=wi(40, 11)); N(40, 11, "MATIÈRE : BAISSE AVEC LES VENTES", "orange" if False else "gold", "pm_var", 0, -70, until=wi(40, 21)); KC(40, 18, "153 000 €", "gold", 153000, "", " €", 0.6, until=wi(40, 22)); N(40, 23, "SALAIRES · LOYER · CHARGES : FIXES", "blue", "pm_fix", 0, -70, until=e(40, 0.3)); KC(40, 35, "300 000 €", "blue", 300000, "", " €", 0.7, until=e(40, 0.4))
+KW(41, 0, "450 − 153 − 300", "white", until=wi(41, 18)); KC(41, 18, "≈ − 3 000 €", "red", 3000, "≈ − ", " €", 0.6, until=wi(41, 28)); KW(41, 28, "UNE LÉGÈRE PERTE", "red", until=e(41, 0.4))
+KW(42, 3, "LE POINT MORT", "gold", until=wi(42, 22)); N(42, 22, "POINT MORT ≈ 455 000 €", "white", "pm_line", 0, -70, until=wi(42, 29)); KC(42, 29, "− 9 %", "red", 9, "− ", " %", 0.5, until=e(42, 0.4))
+KW(43, 2, "EFFET DE LEVIER", "blue", until=wi(43, 6)); KW(43, 6, "COÛTS FIXES", "gold", until=wi(43, 19)); KW(43, 19, "ÇA FAIT MAL TRÈS VITE", "red", until=e(43, 0.4))
 # ---- CH11 ----
-T["forfait_on"] = w(118, "forfait"); T["flou_q"] = w(121, "inverse"); T["fam_q"] = w(123, "familles")
-kw(w(117, "débat"), e(117, 0.4), "LE DÉBAT S'ENFLAMME", "red"); note(T["forfait_on"], e(118, 0.3), "FORFAIT D'EXTERNAT", "gold", "fr_coin", 0, -60)
-stamp(w(119, "représentants"), e(119, -0.1), "ENSEIGNEMENT CATHOLIQUE (FNOGEC)", "gold", 960, STY); KC(w(119, "900"), e(119, 0.4), "≈ 900 M€ / AN RÉCLAMÉS", "gold", 900, "≈ ", " M€ / AN RÉCLAMÉS", 0.8)
-kw(w(120, "flou"), e(120, 0.4), "PÉRIMÈTRE FLOU", "red"); note(T["flou_q"], e(121, 0.3), "COMBIEN FINANCE L'ARGENT PUBLIC ?", "white", "fr_q", 0, -60)
-stamp(w(122, "cour"), e(122, -0.1), "COUR DES COMPTES", "blue", 960, STY); kw(w(122, "calculer"), e(122, 0.4), "COÛT RÉEL : INCALCULABLE", "red")
-note(T["fam_q"], e(124, 0.3), "AUCUN CHIFFRE NATIONAL FIABLE", "white", "fr_qL", 0, -60); kw(w(125, "pas"), e(125, 0.4), "TOUT N'EST PAS CLAIR", "gold")
+T["pt_stack_on"] = wi(44, 13); T["claims_on"] = wi(44, 19)
+for i2, (kk, txt, col, anc) in enumerate([(20, "EMPRUNT", "blue", "pt_c1"), (25, "MATÉRIEL", "gold", "pt_c2"), (29, "RÉSERVE", "green", "pt_c3"), (35, "PATRON", "red", "pt_c4")]): T["cl%d" % i2] = wi(44, kk); note(wi(44, kk), e(44, 0.3) if i2 == 3 else wi(44, kk + 3), txt, col, anc, 0, -70)
+KW(44, 5, "QUI PAIE LE RESTAURATEUR ?", "gold", until=wi(44, 13)); KC(44, 13, "30 000 €", "gold", 30000, "", " €", 0.6, until=wi(44, 18))
+KC(45, 4, "60 H / SEMAINE", "red", 60, "", " H / SEMAINE", 0.6, until=wi(45, 12)); KW(45, 29, "SA PROPRE PAIE DISPARAÎT", "red", until=e(45, 0.4)); KW(46, 8, "LE RISQUE : TOUT SEUL", "gold", until=e(46, 0.4))
 # ---- CH12 ----
-T["rc1"] = w(132, "salaires"); T["rc2"] = w(134, "bâtiments"); T["rc3"] = w(135, "remplissage"); T["bubble_on"] = w(136, "vous"); T["button_on"] = w(138, "abonnez"); T["press"] = w(138, "decrypt")
-kw(w(126, "diriger"), e(126, 0.4), "DIRIGER UNE ÉCOLE ?", "gold"); note(w(127, "pari"), e(128, 0.3), "HORS CONTRAT : UN PARI", "gold", "cta_hc", 0, -60); note(w(129, "équilibre"), e(130, 0.3), "SOUS CONTRAT : UN ÉQUILIBRE", "blue", "cta_sc", 0, -60)
-kw(w(131, "masse"), e(131, 0.4), "UNE MASSE SALARIALE", "red"); kw(w(132, "retenir"), e(132, 0.1), "À RETENIR", "gold")
-note(T["rc1"], e(135, 0.3), "SALAIRES = 1ER POSTE", "red", "cta_sal", 0, -60); note(T["rc2"], e(135, 0.3), "BÂTIMENTS : L'ÉCOLE", "blue", "cta_bld", 0, -60); note(T["rc3"], e(135, 0.3), "REMPLISSAGE", "green", "cta_cls", 0, -60)
-note(w(136, "financée"), e(136, 0.1), "ÉTAT OU FAMILLES ?", "gold", "bubble", 0, -70); kw(w(137, "dites"), e(137, 0.5), "COMMENTEZ", "gold"); kw(T["button_on"], e(138, 0.4), "ABONNEZ-VOUS", "red")
-T["brand"] = e(138, -0.9); T["whoosh"] = -100
+T["b22"] = wi(47, 20); T["b23"] = wi(47, 30); T["b24"] = wi(47, 40); T["row_on"] = wi(47, 14); T["close_on"] = wi(47, 30); T["s25_on"] = wi(48, 3)
+ST(47, 7, "G.H.R. · ALTARES", "blue", until=wi(47, 20)); KC(47, 20, "5 358", "gold", 5358, "", "", 0.7, until=wi(47, 30)); N(47, 26, "2022", "white", "df_b22", 0, -70, until=wi(47, 33)); KC(47, 30, "7 990", "gold", 7990, "", "", 0.7, until=wi(47, 40)); N(47, 36, "2023", "white", "df_b23", 0, -70, until=wi(47, 43)); KC(47, 40, "8 714", "red", 8714, "", "", 0.7, until=e(47, 0.4)); N(47, 46, "2024", "white", "df_b24", 0, -70, until=e(47, 0.3))
+N(48, 0, "1ER SEMESTRE 2025", "white", "df_s25", 0, -70, until=wi(48, 10)); KC(48, 10, "+ 10 %", "red", 10, "+ ", " %", 0.5, until=e(48, 0.4)); KW(49, 7, "TOUT LE SECTEUR · HÔTELS COMPRIS", "gold", until=wi(49, 19)); KW(49, 19, "PEU DE MARGE · COÛTS RIGIDES", "red", until=e(49, 0.4)); KW(50, 10, "REMPLISSAGE EN RECUL", "gold", until=e(50, 0.4))
+# ---- CH13 ----
+T["trad_on"] = wi(51, 10); T["fast_on"] = wi(52, 2); T["occ_on"] = wi(53, 9)
+N(51, 11, "RESTAURATION TRADITIONNELLE", "gold", "md_trad", 0, -70, until=wi(51, 26)); KW(51, 26, "LES SALAIRES PÈSENT LOURD", "red", until=e(51, 0.4)); N(52, 2, "RESTAURATION RAPIDE", "blue", "md_fast", 0, -70, until=wi(52, 19)); KW(52, 23, "VITESSE ET VOLUME", "gold", until=e(52, 0.4))
+ST(53, 7, "FIDUCIAL · 2024", "blue", until=wi(53, 18)); KC(53, 18, "94 %", "blue", 94, "", " %", 0.5, until=wi(53, 20)); KC(53, 20, "84 %", "red", 84, "", " %", 0.5, until=wi(53, 27)); N(53, 12, "RAPIDE : OCCUPATION", "blue", "md_thB", 0, -70, until=wi(53, 27)); KC(53, 33, "60 %", "gold", 60, "", " %", 0.5, until=wi(53, 35)); KC(53, 35, "58 %", "red", 58, "", " %", 0.5, until=e(53, 0.4)); N(53, 31, "TRADITIONNEL : OCCUPATION", "gold", "md_thA", 0, -70, until=e(53, 0.3))
+ST(54, 2, "ALTARES · 9 PREMIERS MOIS 2025", "blue", until=wi(54, 9)); KC(54, 9, "5 419 DÉFAILLANCES", "red", 5419, "", " DÉFAILLANCES", 0.8, until=wi(54, 25)); KC(54, 25, "+ 9 %", "red", 9, "+ ", " %", 0.5, until=e(54, 0.4)); KW(55, 22, "COÛTS FIXES + FRÉQUENTATION", "gold", until=e(55, 0.4))
+# ---- CH14 ----
+T["menu_on"] = wi(57, 1); T["ticket_on"] = wi(57, 14); T["take_on"] = wi(57, 32); T["track_on"] = wi(58, 4)
+KW(56, 1, "COMMENT TIENNENT-ILS ?", "gold", until=wi(56, 12)); ST(56, 12, "ANALYSE GÉNÉRALE · NON SOURCÉE", "gold", until=e(56, 0.2))
+N(57, 1, "CARTE COURTE", "green", "lv_menu", 0, -70, until=wi(57, 13)); N(57, 14, "TICKET MOYEN PLUS ÉLEVÉ", "gold", "lv_ticket", 0, -70, until=wi(57, 27)); N(57, 32, "VENTE À EMPORTER", "blue", "lv_take", 0, -70, until=wi(57, 37)); N(57, 37, "SERVICE DU MIDI", "blue", "lv_take", 0, -70, until=e(57, 0.3))
+KW(58, 1, "LA DISCIPLINE", "gold", until=wi(58, 8)); N(58, 8, "COÛT MATIÈRE", "red", "lv_track", 0, -70, until=wi(58, 11)); N(58, 11, "MASSE SALARIALE", "red", "lv_track", 0, -70, until=wi(58, 14)); N(58, 14, "VENTES", "green", "lv_track", 0, -70, until=e(58, 0.3))
+KC(59, 6, "3 %", "red", 3, "", " %", 0.5, until=wi(59, 8)); KC(59, 8, "10 %", "green", 10, "", " %", 0.5, until=e(59, 0.4))
+# ---- CH15 ----
+T["rc1"] = wi(62, 4); T["rc2"] = wi(62, 13); T["rc3"] = wi(62, 19); T["bubble_on"] = wi(64, 0); T["button_on"] = wi(65, 1); T["press"] = wi(65, 3)
+KW(60, 5, "RENTABLE ?", "gold", until=e(60, 0.4)); KW(61, 8, "3 À 6 % DE MARGE", "gold", until=wi(61, 22)); KW(61, 22, "COÛTS FIXES", "red", until=e(61, 0.4))
+N(62, 4, "MATIÈRE ≈ 1/3", "green", "cta_mat", 0, -70, until=wi(62, 13)); N(62, 13, "SALAIRES : UN PEU PLUS", "red", "cta_sal", 0, -70, until=wi(62, 19)); N(62, 19, "LOYER · CHARGES", "blue", "cta_tab", 0, -70, until=wi(62, 27)); N(62, 28, "POINT MORT : PRÈS DU NORMAL", "white", "cta_rest", 0, -70, until=e(62, 0.3)); KW(63, 12, "UNE BONNE GESTION", "gold", until=e(63, 0.4))
+N(64, 5, "PETIT OU GRAND RESTAURANT ?", "gold", "bubble", 0, -70, until=wi(64, 19)); KW(64, 19, "COMMENTEZ", "gold", until=e(64, 0.5)); KW(65, 1, "ABONNEZ-VOUS", "red", until=e(65, 0.4))
+T["brand"] = e(65, -0.9); T["whoosh"] = -100
+# no collisions: trim keywords / stamps to the next one, and notes sharing an anchor
+def trim(lst, key=None):
+    lst.sort(key=lambda d: d["t0"])
+    for a, b in zip(lst, lst[1:]):
+        if a["t1"] > b["t0"] - 0.03: a["t1"] = max(a["t0"] + 0.45, round(b["t0"] - 0.03, 2))
+trim(B["kws"]); trim(B["stamps"])
+byA = {}
+for n_ in B["notes"]: byA.setdefault((n_["anchor"], n_["dx"], n_["dy"]), []).append(n_)
+for v in byA.values(): trim(v)
 B["cam"] = []; t = 0.0
 while t <= DUR + 1e-6:
     p, l = cam(t); B["cam"].append([round(t, 3)] + [round(x, 3) for x in p + l]); t += 1 / 30

@@ -50,7 +50,7 @@ def foc(name, t):
         cur = tuple(prev[q] + (k[1 + q] - prev[q]) * u for q in range(3)); prev = tuple(k[1:4])
     return cur
 def state(name, t):
-    a0, a1, r0, r1, h0, h1, ty = ORB[name]; u = min(1, max(0, (t - START[name]) / max(0.01, END[name] - START[name])))
+    a0, a1, r0, r1, h0, h1, ty = ORB[name]; r0, r1, h0, h1 = r0 * 0.82, r1 * 0.82, h0 * 0.9, h1 * 0.9; u = min(1, max(0, (t - START[name]) / max(0.01, END[name] - START[name])))
     k = u * u * (3 - 2 * u) * 0.35 + u * 0.65          # almost-linear, soft ends
     cx, cz = POS[name]; a = a0 + (a1 - a0) * k; r = r0 + (r1 - r0) * k; h = h0 + (h1 - h0) * k
     fx, fy, fz = foc(name, t)
