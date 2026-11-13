@@ -1,0 +1,17 @@
+- Dining Table (`dining_table`), Poly Haven, CC0 (public domain). Authors: Aron Łyczek. https://polyhaven.com/a/dining_table
+- Dining Chair 02 (`dining_chair_02`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/dining_chair_02
+- Round Wooden Table 01 (`round_wooden_table_01`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/round_wooden_table_01
+- Wine Bottles 01 (`wine_bottles_01`), Poly Haven, CC0 (public domain). Authors: Rico Cilliers, Jurita Burger. https://polyhaven.com/a/wine_bottles_01
+- Brass Pot 01 (`brass_pot_01`), Poly Haven, CC0 (public domain). Authors: Rico Cilliers. https://polyhaven.com/a/brass_pot_01
+- Brass Pan 01 (`brass_pan_01`), Poly Haven, CC0 (public domain). Authors: Rico Cilliers. https://polyhaven.com/a/brass_pan_01
+- Electric Stove (`electric_stove`), Poly Haven, CC0 (public domain). Authors: Kuutti Siitonen. https://polyhaven.com/a/electric_stove
+- Hamburger Buns (`hamburger_buns`), Poly Haven, CC0 (public domain). Authors: Alexander Shulha. https://polyhaven.com/a/hamburger_buns
+- Wooden Cutting Board (`wooden_cutting_board`), Poly Haven, CC0 (public domain). Authors: Kuutti Siitonen. https://polyhaven.com/a/wooden_cutting_board
+- Wooden Crate 01 (`wooden_crate_01`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/wooden_crate_01
+- Food Apple 01 (`food_apple_01`), Poly Haven, CC0 (public domain). Authors: Oliver Harries. https://polyhaven.com/a/food_apple_01
+- Lemon (`lemon`), Poly Haven, CC0 (public domain). Authors: Kuutti Siitonen. https://polyhaven.com/a/lemon
+- Wooden Bowl 01 (`wooden_bowl_01`), Poly Haven, CC0 (public domain). Authors: Oliver Harries. https://polyhaven.com/a/wooden_bowl_01
+- Bar Chair Round 01 (`bar_chair_round_01`), Poly Haven, CC0 (public domain). Authors: Dairon Sanchez. https://polyhaven.com/a/bar_chair_round_01
+- Hanging Industrial Lamp (`hanging_industrial_lamp`), Poly Haven, CC0 (public domain). Authors: Kuutti Siitonen. https://polyhaven.com/a/hanging_industrial_lamp
+- Wine Barrel 01 (`wine_barrel_01`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/wine_barrel_01
+- Wet Floor Sign 01 (`WetFloorSign_01`), Poly Haven, CC0 (public domain). Authors: Fran Calvente. https://polyhaven.com/a/WetFloorSign_01
