@@ -1,0 +1,4 @@
+Combien coûte un jour d'affrètement ? Pour un navire de croisière, il n'existe pas de grille publique : les contrats se négocient au cas par cas, selon la durée, la saison et l'état du navire.
+Alors raisonnons avec une simulation illustrative, pas un tarif réel. Un navire à un virgule deux milliard d'euros, amorti sur vingt-cinq ans, plus les intérêts d'un emprunt, représente environ cent quatre-vingt mille euros par jour de coût de capital.
+Un propriétaire qui loue son navire doit retrouver au moins cette somme chaque jour. C'est donc le plancher d'un loyer, avant sa marge.
+Et pour le locataire, ce loyer s'ajoute à tout le reste : l'équipage, le carburant, les ports. Un navire loué n'est pas gratuit, il est simplement payé au jour le jour au lieu d'être payé d'un coup.

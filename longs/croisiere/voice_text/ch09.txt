@@ -1,0 +1,5 @@
+Passons au calcul. Attention, c'est une simulation illustrative, pas les comptes d'un navire réel.
+Imaginons un navire de trois mille places, rempli à cent cinq pour cent : environ trois mille cent cinquante passagers. Chaque passager rapporte deux cents euros par jour, billet et dépenses à bord réunis. Cela fait six cent trente mille euros de recettes par jour.
+Les coûts d'exploitation, équipage, carburant, nourriture, ports, assurances, commissions : quatre cent trente mille euros par jour.
+Il reste deux cent mille euros par jour, soit environ soixante-six millions d'euros sur trois cent trente jours en mer.
+Mais le navire a coûté un virgule deux milliard. Avec cette somme, il faudrait plus de dix-huit ans pour rembourser l'achat, sans compter les intérêts.

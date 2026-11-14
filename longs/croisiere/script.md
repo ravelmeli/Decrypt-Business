@@ -1,0 +1,112 @@
+# Affréter un navire de croisière : investissements massifs — script (≈ 10 min)
+
+## CH01 — Accroche
+Un navire de croisière, c'est une ville flottante de plus de trois mille passagers. Et avant d'embarquer le premier client, il faut déjà dépenser plus d'un milliard.
+Selon plusieurs sources, l'Icon of the Seas, le plus grand navire de Royal Caribbean, aurait coûté environ deux milliards de dollars à construire.
+Deux milliards, avant le premier billet vendu.
+Alors, comment une compagnie rentabilise-t-elle un tel pari ? Et que change le fait de ne pas acheter le navire, mais de l'affréter ? Dans cette vidéo, on ouvre les comptes d'un navire de croisière.
+
+## CH02 — Une industrie en pleine expansion
+Commençons par l'échelle. Selon l'association professionnelle CLIA, trente-sept virgule trois millions de personnes ont embarqué en croisière en deux mille vingt-cinq, soit sept virgule sept pour cent de plus que l'année précédente. Elle en prévoit trente-neuf millions en deux mille vingt-six.
+Et les compagnies continuent de commander. D'après la CLIA, quatre-vingt-onze navires sont en commande dans le monde jusqu'en deux mille trente-neuf, pour plus de cent milliards de dollars d'investissement.
+Autrement dit, la demande est là, et l'industrie parie des fortunes sur sa continuité.
+Et ce ne sont pas des petits navires : les compagnies construisent toujours plus grand, parce qu'un navire plus grand répartit ses coûts fixes sur plus de passagers. Nous verrons pourquoi cette logique est centrale.
+
+## CH03 — Combien coûte un navire
+Combien coûte un navire ? Il n'existe pas de prix officiel publié, seulement des montants de commandes.
+Le Disney Wish, mis en service en deux mille vingt-deux, aurait coûté environ un milliard de dollars. L'Icon of the Seas, environ deux milliards, avec plus de neuf cents jours de construction.
+Côté chantiers, MSC a commandé deux navires à Saint-Nazaire pour trois virgule cinq milliards d'euros, soit environ un virgule sept cinq milliard par navire, d'après nos calculs.
+Et si l'on divise les cent milliards de la CLIA par les quatre-vingt-onze navires commandés, on obtient environ un virgule un milliard de dollars par navire, en moyenne, avec des petits et des géants.
+Ce sont des ordres de grandeur, jamais des prix catalogue.
+Un point important : un navire n'est jamais payé d'un coup. Les chantiers sont réglés par étapes, pendant des années de construction, ce qui veut dire que le capital est engagé bien avant le premier départ.
+
+## CH04 — Acheter ou affréter
+Alors pourquoi affréter plutôt qu'acheter ? Parce qu'affréter, c'est louer le navire au lieu de l'immobiliser dans son bilan.
+Il existe deux grandes formules. L'affrètement à temps : le propriétaire fournit le navire et l'équipage, et le locataire paie un loyer par jour, plus le carburant et les frais de port.
+Et l'affrètement coque nue : le locataire reçoit le navire vide. C'est à lui d'embaucher l'équipage, d'assurer, d'entretenir, de payer toute l'exploitation.
+Dans les deux cas, on évite de financer le milliard d'achat. Mais on paie, chaque jour, le prix de cette liberté.
+
+## CH05 — Le loyer d'un géant
+Combien coûte un jour d'affrètement ? Pour un navire de croisière, il n'existe pas de grille publique : les contrats se négocient au cas par cas, selon la durée, la saison et l'état du navire.
+Alors raisonnons avec une simulation illustrative, pas un tarif réel. Un navire à un virgule deux milliard d'euros, amorti sur vingt-cinq ans, plus les intérêts d'un emprunt, représente environ cent quatre-vingt mille euros par jour de coût de capital.
+Un propriétaire qui loue son navire doit retrouver au moins cette somme chaque jour. C'est donc le plancher d'un loyer, avant sa marge.
+Et pour le locataire, ce loyer s'ajoute à tout le reste : l'équipage, le carburant, les ports. Un navire loué n'est pas gratuit, il est simplement payé au jour le jour au lieu d'être payé d'un coup.
+
+## CH06 — Ce que coûte une journée en mer
+Ensuite, il faut faire naviguer le navire. Les estimations de coûts d'exploitation varient beaucoup : de quatre-vingt-cinq mille à plus de trois cent mille dollars par jour, selon la taille et le type de navire. Ces chiffres viennent de sites peu fiables, ce sont des repères, pas des données comptables.
+Pour une base solide, regardons Carnival, premier groupe mondial. Sur les neuf premiers mois de son exercice deux mille vingt-cinq, il a dépensé environ un virgule neuf milliard de dollars en salaires, un virgule quatre milliard en carburant et un virgule un milliard en nourriture.
+Rapporté à l'ensemble de ses coûts d'exploitation, le carburant pèse donc environ onze pour cent, d'après nos calculs.
+Autrement dit, ce n'est pas le carburant, souvent cité, qui domine : c'est l'ensemble des équipes, de la nourriture et des frais d'exploitation qui s'additionnent chaque jour.
+
+## CH07 — Carburant, équipage, escales
+Ce qui pèse le plus, ce sont les équipes. Cuisiniers, personnel de cabine, officiers, techniciens : un navire de trois mille passagers embarque souvent plus d'un millier de membres d'équipage.
+Le carburant dépend de la vitesse et du prix du marché : une escale qui rallonge la route, et la facture grimpe.
+Il y a aussi les droits de port, les assurances, l'entretien, la nourriture. Et ces coûts tombent tous les jours, que le navire soit plein ou à moitié vide.
+C'est ce qui rend l'équation si exigeante : un navire à moitié vide coûte presque autant qu'un navire plein, mais il rapporte beaucoup moins.
+
+## CH08 — Comment un navire gagne de l'argent
+Côté recettes, un navire a deux sources. Le billet, qui paie la cabine et les repas. Et les dépenses à bord : boissons, excursions, casino, boutiques, spa.
+C'est le modèle de la croisière : on remplit le navire, et on vend à chaque passager tout ce qu'il peut acheter une fois en mer.
+Le remplissage est donc la clé. Selon ses résultats de fin deux mille vingt-cinq, Carnival affiche un taux d'occupation de cent cinq pour cent : plus de passagers que de lits standards, car on loge parfois trois ou quatre personnes dans une cabine.
+Royal Caribbean a annoncé dix-sept virgule neuf milliards de dollars de revenus et quatre virgule trois milliards de bénéfice net en deux mille vingt-cinq.
+
+## CH09 — La simulation chiffrée
+Passons au calcul. Attention, c'est une simulation illustrative, pas les comptes d'un navire réel.
+Imaginons un navire de trois mille places, rempli à cent cinq pour cent : environ trois mille cent cinquante passagers. Chaque passager rapporte deux cents euros par jour, billet et dépenses à bord réunis. Cela fait six cent trente mille euros de recettes par jour.
+Les coûts d'exploitation, équipage, carburant, nourriture, ports, assurances, commissions : quatre cent trente mille euros par jour.
+Il reste deux cent mille euros par jour, soit environ soixante-six millions d'euros sur trois cent trente jours en mer.
+Mais le navire a coûté un virgule deux milliard. Avec cette somme, il faudrait plus de dix-huit ans pour rembourser l'achat, sans compter les intérêts.
+
+## CH10 — Le point mort
+Maintenant, que se passe-t-il si le navire se remplit moins ? Disons dix pour cent de passagers en moins.
+Les recettes baissent d'environ soixante-trois mille euros par jour. Mais l'équipage, le carburant et les assurances ne bougent presque pas. Seules la nourriture et quelques frais baissent un peu.
+Ce mécanisme s'appelle l'effet de levier des coûts fixes : quand le navire est plein, chaque passager supplémentaire rapporte presque pur bénéfice. Quand il se vide, chaque passager en moins fait mal.
+Résultat : les deux cent mille euros par jour deviennent environ cent quarante mille. Trente pour cent de marge en moins, pour dix pour cent de clients en moins.
+Et pour un affréteur, qui paie un loyer fixe chaque jour, le risque est encore plus grand : le loyer tombe, même si les cabines restent vides.
+
+## CH11 — Le financement
+Comment finance-t-on un tel achat ? Aucune compagnie ne paie un milliard comptant. On emprunte, souvent à très long terme, auprès de banques et de dispositifs de crédit à l'exportation, en échange du navire en garantie.
+C'est une analyse générale, pas un chiffre sourcé. Mais le principe est simple : le navire doit rapporter chaque année de quoi rembourser sa dette, les intérêts et l'équipage, avant de dégager le moindre bénéfice.
+Un taux d'intérêt qui monte, et le même navire devient moins rentable, sans qu'un seul passager ne change.
+C'est pour cela que les compagnies surveillent autant leur dette que leur remplissage : une partie du bénéfice d'un navire est, en réalité, promise à ses prêteurs.
+
+## CH12 — Les risques
+Ces investissements massifs exposent à des risques énormes. Le premier, c'est le délai : le chantier de l'Icon of the Seas a duré plus de neuf cents jours, et pendant ce temps, le capital est immobilisé.
+Le deuxième, c'est le choc de la demande. Pendant une crise sanitaire, les navires restent à quai, mais l'équipage minimal, l'assurance et la dette, eux, continuent de coûter. C'est une analyse générale, pas un chiffre sourcé.
+Le troisième, c'est le carburant et les taux d'intérêt, qui peuvent grignoter la marge sans que personne ne monte à bord.
+Pour un affréteur, s'ajoute un quatrième risque : le contrat lui-même. S'il s'engage sur plusieurs années à un loyer fixe, il porte le risque de la demande, mais ne profite pas de la valeur du navire.
+
+## CH13 — Les grands et les petits
+Alors, qui gagne ? Surtout les grands groupes. Carnival a annoncé un bénéfice net record en deux mille vingt-cinq, et Royal Caribbean un résultat net de quatre virgule trois milliards de dollars.
+Ils achètent des navires par séries, négocient avec les chantiers, remplissent leurs cabines avec des millions de clients fidèles.
+Un petit affréteur n'a ni cette échelle, ni ces volumes d'achat, ni cette fidélité. Pour lui, chaque jour de loyer pèse plus lourd, et le moindre faux pas coûte plus cher.
+Voilà pourquoi, en pratique, ce sont surtout les grandes compagnies, adossées à des banques et à des flottes entières, qui peuvent se permettre de parier des milliards sur la mer.
+
+## CH14 — Les leviers
+Alors, comment font ceux qui y arrivent ? Voici des leviers classiques, qui relèvent plus de l'analyse que de statistiques officielles.
+Remplir le navire, avec des prix de billets étudiés. Augmenter les dépenses à bord, avec des forfaits boissons, des excursions, des spas. Construire des navires plus grands, pour répartir les coûts fixes sur plus de passagers.
+Et signer un affrètement de longue durée, pour que le loyer reste prévisible. Aucun levier ne supprime le risque : ils le répartissent.
+Et il y a un dernier levier, souvent oublié : la durée de vie. Un navire bien entretenu rapporte pendant vingt-cinq ans ou plus. Plus la période est longue, plus l'investissement initial se dilue dans les recettes.
+
+## CH15 — Conclusion
+Alors, affréter ou posséder un navire de croisière, est-ce rentable ?
+Cela peut l'être. Mais l'investissement est massif, et les coûts fixes rendent le moindre recul de remplissage très coûteux.
+À retenir : un navire coûte entre un et deux milliards, il consomme chaque jour des centaines de milliers d'euros, et il doit rester plein pour rembourser sa dette.
+Un navire de croisière, ce n'est pas seulement un bateau : c'est d'abord un pari financier.
+Et vous, à votre avis, vaut-il mieux posséder un navire ou l'affréter pour limiter le risque ? Dites-le-moi en commentaire.
+Et abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes.
+
+---
+## Sources et niveau de fiabilité
+- CLIA (rapport 2025 et note Cruise Forward 2026, via Seatrade et presse spécialisée) : 37,3 M de passagers en 2025 (+7,7 %), 39,1 M prévus en 2026, 91 navires en commande jusqu'en 2039 pour plus de 100 Md$ (88,6 Md$ membres CLIA). **Assez fiable (association professionnelle, chiffres légèrement différents selon les médias : 37,2 à 37,7 M).**
+- Coût des navires : Icon of the Seas ≈ 2 Md$ (Wikipedia : 1,86 Md€), Disney Wish ≈ 1 Md$ — **faible fiabilité, estimations de presse, pas de chiffre officiel.**
+- MSC / Chantiers de l'Atlantique (novembre 2025) : 3,5 Md€ pour deux navires World Class (≈ 1,75 Md€ chacun, calcul propre). **Assez fiable pour le montant du contrat ; la division est un calcul.**
+- Moyenne CLIA ≈ 1,1 Md$ par navire (100 Md$ / 91) : calcul propre, inclut navires de tailles très différentes.
+- Coûts d'exploitation 85 000 à 400 000 $/jour : sites généralistes peu fiables. **Faible fiabilité, repère indicatif.**
+- Carnival (10-Q, 9 mois 2025) : salaires 1 915 M$, carburant 1 384 M$, nourriture 1 124 M$, total coûts d'exploitation 12 037 M$ → carburant ≈ 11,5 % (calcul propre). **Fiable (comptes), le ratio est un calcul.**
+- Carnival 2025 : bénéfice net record, occupation 105 %. **Fiable (communiqué de résultats).**
+- Royal Caribbean 2025 : revenus 17,9 Md$, bénéfice net 4,3 Md$. **Fiable (communiqué de résultats).**
+- Affrètement à temps vs coque nue : définitions générales (calculateur buy-vs-charter, ShipUniverse). **Moyenne fiabilité.** Aucun tarif d'affrètement de navire de croisière trouvé : le loyer est hypothétique.
+- Simulation (3 000 places, 105 %, 200 €/jour/passager, coûts 430 000 €/jour, navire 1,2 Md€, 330 jours) : illustrative, hypothèses propres.
+- Financement, risques, leviers : analyse générale, non sourcée.
+- À vérifier avant publication : taux d'occupation de Carnival (105 %), chiffres 2025/2026 les plus récents, ordre de grandeur du coût de capital.
