@@ -14,7 +14,7 @@ def w(i, word, which=0, o=0.0):
 LOOP = 2.4
 DUR = round(lines[-1]["end"] + 0.75 + LOOP, 2)
 SPACING = 46
-ORDER = ["resto", "marche", "addition", "prix", "matiere", "salaires", "loyer", "invest", "simulation", "pointmort", "patron", "defaillances", "modeles", "leviers", "cta"]
+ORDER = ["ship", "marche", "cout", "affret", "loyer", "couts", "equipe", "recettes", "simulation", "pointmort", "finance", "risques", "gagnants", "leviers", "cta"]
 import math as _m
 N_ = len(ORDER); RR = SPACING * N_ / (2 * _m.pi)
 POS = {n: [round(RR * _m.sin(2 * _m.pi * i / N_), 2), round(-RR * (1 - _m.cos(2 * _m.pi * i / N_)), 2)] for i, n in enumerate(ORDER)}
@@ -34,9 +34,9 @@ FIRSTL = {n: min(i for i, c in enumerate(CHN) if c == k + 1) for k, n in enumera
 LASTL = {n: max(i for i, c in enumerate(CHN) if c == k + 1) for k, n in enumerate(ORDER)}
 for n in ORDER: hero(n, 0.0 if n == ORDER[0] else s(FIRSTL[n]), e(LASTL[n], 0.1) if n != ORDER[-1] else DUR - LOOP + 0.4)
 hero(ORDER[0], DUR - LOOP - 0.6, DUR + 3)
-ORB = dict(resto=(0.4, -0.4, 21, 17, 7.5, 6.5, 3.2), marche=(0.4, -0.4, 25, 21, 9, 8, 3.0), addition=(0.4, -0.4, 22, 18, 8, 7, 3.4), prix=(0.4, -0.4, 22, 18, 8, 7, 3.4), matiere=(0.4, -0.4, 22, 18, 8, 7, 3.2),
-           salaires=(0.4, -0.4, 22, 18, 8, 7, 3.2), loyer=(0.4, -0.4, 22, 18, 8, 7, 3.2), invest=(0.4, -0.4, 23, 19, 8.5, 7.5, 3.4), simulation=(0.3, -0.3, 22, 18, 8.5, 7.5, 4.4), pointmort=(0.3, -0.3, 22, 18, 8.5, 7.5, 4.4),
-           patron=(0.4, -0.4, 20, 16, 7.5, 6.5, 3.0), defaillances=(0.4, -0.4, 22, 18, 8, 7, 3.4), modeles=(0.4, -0.4, 23, 19, 8.5, 7.5, 3.4), leviers=(0.4, -0.4, 22, 18, 8, 7, 3.2), cta=(0.3, -0.3, 22, 18, 7.5, 6.5, 4.2))
+ORB = {n: (0.4, -0.4, 22, 18, 8, 7, 3.4) for n in ORDER}
+for n in ("simulation", "pointmort"): ORB[n] = (0.3, -0.3, 22, 18, 8.5, 7.5, 4.4)
+ORB["ship"] = (0.4, -0.4, 24, 20, 8.5, 7.5, 3.8); ORB["cta"] = (0.3, -0.3, 22, 18, 7.5, 6.5, 4.2)
 START = {n: (0.0 if n == ORDER[0] else s(FIRSTL[n])) for n in ORDER}
 END = {n: (START[ORDER[i + 1]] if i + 1 < len(ORDER) else DUR - LOOP) for i, n in enumerate(ORDER)}
 # duel pans: the look-at (and the camera) slide sideways to the object being named
