@@ -157,7 +157,7 @@
       upd((t) => { showHero("simulation", h9, t); popO(s9, t, K("sship_on"), 0.5); bobShip(s9, t, 0.1); sb(rev9, 0, 630, t, K("rev9")); const a = sb(cst9, 0, 430, t, K("cost9")); sb(res9, a, 200, t, K("res9"), 0.6); });
 
       /* 10 · pointmort : 200 -> 140 when 10 % of passengers are missing */
-      const h10 = grp(PL.pointmort); const U10 = 0.0155; const bef = barC(h10, -6.0, 3.0, 3.0, "#ffffff"), aft = barC(h10, 0.0, 3.0, 3.0, "#ff6b5e"); const plate10 = rb(16, 0.2, 5.4, "#0f3d45", 0.08, mat("#0f3d45", { roughness: 0.6 })); plate10.position.set(-2.2, 0, 0); h10.add(plate10);
+      const h10 = grp(PL.pointmort); const U10 = 0.03; const bef = barC(h10, -6.0, 3.0, 3.0, "#ffffff"), aft = barC(h10, 0.0, 3.0, 3.0, "#ff6b5e"); const plate10 = rb(16, 0.2, 5.4, "#0f3d45", 0.08, mat("#0f3d45", { roughness: 0.6 })); plate10.position.set(-2.2, 0, 0); h10.add(plate10);
       const ad10 = arrowDown(h10, P.red, 0.9); ad10.position.set(6.8, 6.6, 0); const emp = ship(h10, { L: 13, s: 0.5, hull: "#4a5a6a" }); emp.position.set(8.5, 0, 6.5);
       ANCH.pm_bef = () => V(-6, 4.4, 0); ANCH.pm_aft = () => V(0, 3.4, 0); ANCH.pm_down = () => V(6.8, 9.0, 0); ANCH.pm_fix = () => V(8.5, 5.0, 6.5); wrapAnch(["pm_bef", "pm_aft", "pm_down", "pm_fix"], PL.pointmort); lampAt(h10, 0, 13, 6, 55);
       upd((t) => { showHero("pointmort", h10, t); sbv(bef, 200, t, K("bef10")); sbv(aft, 140, t, K("aft10")); popO(ad10, t, K("aft10") + 0.2, 0.5, 0.9); ad10.position.y = 6.6 - 0.3 * Math.abs(Math.sin(t * 3)); popO(emp, t, K("fix10"), 0.5); bobShip(emp, t, 0.1); });
