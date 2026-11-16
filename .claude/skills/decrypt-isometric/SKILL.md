@@ -41,3 +41,7 @@ Briques à construire : annotations (pastilles, flèches, lignes pointillées, b
 Palette : **varie selon le sujet** (bleu nuit avec or, rouge et bleu pour les sujets graves ou techniques ; pastel pour les sujets légers ; or sur noir pour l'identité Decrypt Business).
 Garde-fous : aucune personne réelle reconnaissable, aucun vrai logo ni marque (archétypes stylisés seulement) ; chiffres sourcés, jamais inventés.
 Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.md`).
+
+## Préférences utilisateur (long format)
+- Script validé automatiquement (consigne du 2026-11-16) : livrer le script, puis enchaîner dès que la voix WAV est fournie, sans attendre « je valide ».
+- Rendu en pleine qualité, par chapitres, comme restaurant et croisière.
