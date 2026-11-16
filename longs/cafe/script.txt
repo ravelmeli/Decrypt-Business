@@ -1,29 +1,121 @@
-Une tasse de café vendue deux euros cinquante, qui coûte à peine quinze centimes de café. Sur le papier, c'est la meilleure marge de toute la restauration. Et pourtant, selon l'Observatoire GHR, les défaillances des débits de boissons ont augmenté de près de dix pour cent au troisième trimestre 2025. Alors, où passe l'argent ? Dans cette vidéo, on ouvre les comptes d'un café, poste par poste, pour comprendre la différence entre une belle marge et un vrai bénéfice. Si vous rêvez d'ouvrir un café, restez jusqu'au bout : la simulation chiffrée change complètement la façon de regarder une tasse à deux euros cinquante.
-
-D'après l'INSEE, la France comptait environ trente-cinq mille débits de boissons en 2023, soit un peu plus de cinq pour dix mille habitants. Plus des trois quarts des communes rurales n'en ont plus aucun. Le café de quartier, c'est un lieu de vie, mais c'est aussi une activité fragile. Pour les cafés-brasseries, le chiffre d'affaires était en baisse d'environ six pour cent en 2024 par rapport à 2023, selon le même observatoire. Un secteur qui se réduit, avec des clients qui consomment moins souvent. Pour un futur exploitant, cela veut dire deux choses : moins de concurrents dans certaines zones, mais aussi moins de clients prêts à pousser la porte. Le marché ne grandit pas, il se partage.
-
-Prenons un expresso. Il faut environ sept grammes de café moulu. Un café de qualité standard se négocie autour de douze à dix-huit euros le kilo en gros. Cela fait entre huit et treize centimes de café par tasse. Avec le sucre, l'eau, l'électricité et le gobelet ou la tasse lavée, on arrive à un coût de matière d'environ vingt à trente centimes. Ces chiffres viennent de guides de gestion, donc ce sont des ordres de grandeur, pas des comptes officiels. Autrement dit, le produit que le client croit acheter, le café, est la partie la plus petite de ce qu'il paie. Ce qu'il achète vraiment, c'est une place assise, un service, un lieu, quelques minutes de tranquillité.
-
-Au comptoir, un expresso se vend généralement entre deux euros cinquante et trois euros, selon la ville et l'établissement. Aucun chiffre officiel ne donne un prix moyen national, donc retenons cette fourchette comme un repère. Et attention : ce prix est un prix toutes taxes comprises. Sur place, la TVA est de dix pour cent, à vérifier selon les produits. Un expresso à deux euros cinquante rapporte donc environ deux euros vingt-sept hors taxes au café. Le reste part à l'État. Ce prix de deux euros cinquante n'est donc pas un prix de vente net. C'est un prix de ticket, dont une partie ne reste jamais dans la caisse. Beaucoup de cafetiers raisonnent pourtant à partir de ce chiffre, ce qui donne une image trop flatteuse de leurs marges.
-
-Deux euros vingt-sept moins vingt-cinq centimes, il reste plus de deux euros : une marge brute de quatre-vingt-dix pour cent sur le café lui-même. C'est ce chiffre qu'on voit partout. Mais sur l'ensemble d'un café, avec le lait, les sodas, les viennoiseries, les sandwiches, la marge brute moyenne tombe plutôt vers soixante-cinq à soixante-quinze pour cent, selon les guides du secteur. Et surtout, la marge brute ne paie ni le loyer, ni les salaires. Elle ne dit rien du bénéfice. C'est la raison pour laquelle deux cafés peuvent afficher la même marge sur l'expresso et des résultats très différents à la fin de l'année. La différence se joue sur le volume, sur le mélange des produits vendus, et sur ce qui reste une fois les charges payées.
-
-Il y a eu beaucoup de bruit sur le prix du café. L'arabica a atteint un record historique en février 2025, avec plus de quatre cent quarante cents la livre, selon l'Organisation internationale du café. Début juin 2026, il était revenu autour de deux cent cinquante cents, presque deux fois moins. Mais pour un cafetier, l'effet reste limité : le café lui-même représente moins de quinze centimes sur une tasse à plus de deux euros. Même un prix doublé ne change la tasse que d'une dizaine de centimes. Le vrai poids est ailleurs. Autre limite : quand le café baisse sur les marchés, le prix de la tasse ne baisse presque jamais. Les cafetiers ont encaissé la hausse, puis gardé leurs prix pour reconstituer leur marge, ce qui est compréhensible, mais pas toujours bien perçu par les clients.
-
-Un café ouvre tôt et ferme tard. Il faut servir le matin, le midi, parfois le soir, six jours sur sept. Dans les benchmarks de coffee shops, la masse salariale représente le plus souvent vingt-cinq à quarante pour cent du chiffre d'affaires. Ces repères sont surtout américains, et la France a ses propres charges sociales, donc prenons-les comme un ordre de grandeur. Le patron qui dit « je fais tout moi-même » ne supprime pas ce coût : il le paie en heures. Et ce coût est rigide. On ne peut pas renvoyer un serveur chez lui à dix heures quarante parce que la salle est vide, puis le rappeler à midi. Le personnel est payé aux horaires prévus, que les clients soient là ou non.
-
-Deuxième bloc : le local. Pour un café, on vise un loyer de huit à quinze pour cent du chiffre d'affaires. Mais un bon emplacement coûte cher, et c'est justement ce qui fait venir les clients. À cela s'ajoutent l'énergie, la machine à café, l'eau, l'assurance, le comptable, l'entretien, les licences. Ces charges tombent chaque mois, que la salle soit pleine ou vide. Avec la reprise d'un fonds de commerce, il faut aussi parler du droit au bail, qui peut coûter très cher dans les rues passantes. Ce prix d'entrée est payé une seule fois, mais il pèse lourd dans l'investissement de départ, et il est difficile à récupérer à la revente.
-
-Imaginons un café de quartier, ouvert trois cent dix jours par an, avec deux cents clients par jour et un ticket moyen de cinq euros toutes taxes comprises. Cela fait trois cent dix mille euros, soit environ deux cent quatre-vingt mille hors taxes. Matières premières à vingt-huit pour cent : soixante-dix-huit mille. Salaires et charges à trente-cinq pour cent : quatre-vingt-dix-huit mille. Loyer à dix pour cent : vingt-huit mille. Autres charges à quinze pour cent : quarante-deux mille. Il reste environ trente-quatre mille euros, soit douze pour cent, avant impôts. Cette simulation est illustrative : ce ne sont pas les comptes d'un café réel. Cet exemple montre un point essentiel : sur cinq euros de ticket, il ne reste qu'environ soixante centimes de résultat avant impôts. Tout le reste a été absorbé par les autres postes.
-
-Maintenant, que se passe-t-il si dix pour cent de clients ne viennent plus ? Le chiffre d'affaires baisse de vingt-huit mille euros. Mais les salaires, le loyer et les charges ne bougent presque pas. Seules les matières baissent. Résultat : le bénéfice passe d'environ trente-quatre mille à treize mille euros, soit soixante pour cent de moins pour dix pour cent de clients en moins. Et le café n'est rentable que s'il garde plus de quatre-vingts pour cent de son chiffre d'affaires. C'est le point mort : très proche de l'activité normale. C'est ce qu'on appelle l'effet de levier des coûts fixes : quand la salle est pleine, chaque client supplémentaire rapporte presque pur bénéfice. Quand elle se vide, chaque client en moins fait très mal. Cette simulation suppose que les salaires restent fixes, ce qui est une simplification.
-
-Avant d'encaisser le premier euro, il faut s'installer : reprise du fonds de commerce ou du droit au bail, travaux, mobilier, machine à café professionnelle, stock, trésorerie de départ. Selon les guides, une machine professionnelle se compte en milliers d'euros, et l'ensemble peut monter à plusieurs dizaines, voire centaines de milliers d'euros. Prenons cent cinquante mille euros comme hypothèse. À trente-quatre mille euros de résultat par an, avant impôts et avant de se payer, il faut plus de quatre ans pour récupérer la mise. Pour financer cela, la plupart des exploitants empruntent à la banque. Les mensualités viennent alors s'ajouter aux charges du compte de résultat, sans être de vraies charges d'exploitation. C'est une pression supplémentaire pendant les premières années, quand l'activité n'est pas encore installée.
-
-Le bénéfice de trente-quatre mille euros n'est pas un salaire. Si le patron travaille lui-même soixante heures par semaine, ces trente-quatre mille, une fois les impôts et les remboursements d'emprunt payés, laissent parfois peu de revenu. Les marges nettes d'un coffee shop se situent entre deux et demi et quinze pour cent selon les sources. La fourchette est large : tout dépend de la gestion, de l'emplacement et du volume. Il faut aussi penser aux années difficiles. Un café peut très bien rapporter trente-quatre mille euros une année, puis dix mille l'année suivante si un chantier bloque la rue, si un concurrent s'installe, ou si le loyer est révisé. Le revenu du patron est le plus variable de tous.
-
-Les causes se répètent. Un loyer trop élevé pour le volume. Une salle vide hors des heures de pointe. Des prix qui n'ont pas suivi les coûts. Des clients qui consomment moins souvent. Les défaillances des débits de boissons progressent d'environ dix pour cent selon les observatoires du secteur. Quand les coûts fixes sont lourds, la moindre baisse de fréquentation peut tout faire basculer, comme on l'a vu dans la simulation. S'y ajoutent des changements d'habitudes : le télétravail qui réduit les passages du matin, le café fait à la maison avec une machine à capsules, les boissons à emporter des grandes chaînes. Le café traditionnel doit alors justifier son prix par autre chose que le café lui-même.
-
-Comment les cafetiers tiennent-ils ? Remplir les heures creuses, avec un petit déjeuner ou un menu du midi. Vendre à emporter. Ajouter des produits à forte marge : boissons chaudes, pâtisseries, café en grains. Ouvrir une terrasse. Négocier le loyer et les fournisseurs. Parfois, diversifier : tabac, presse, jeux. Aucun levier ne suffit seul, mais chacun rapproche le café de sa zone de confort. Un café qui ouvre à sept heures, ferme à vingt heures et vend du café, du déjeuner et de l'apéritif n'a pas les mêmes comptes qu'un café qui ouvre seulement le matin. Le même local travaille alors à plein, ce qui dilue le loyer et le personnel sur un chiffre d'affaires plus grand.
-
-Alors, exploiter un café, est-ce rentable ? Sur la tasse, oui, la marge est excellente. Sur l'année, c'est un métier de volume, de gestion et d'horaires, avec un résultat fragile quand les coûts fixes pèsent lourd. Un café n'est pas une machine à imprimer de l'argent : c'est un équilibre entre un prix, un volume et une charge fixe. Et vous, à votre avis, est-ce qu'il vaut mieux un petit café de quartier simple ou un grand établissement ambitieux ? Dites-le-moi en commentaire. Et c'est valable pour tous les commerces de proximité : on peut aimer le produit sans aimer les chiffres. Avant de signer un bail, mieux vaut refaire la simulation avec ses propres hypothèses, plutôt qu'avec celles des autres.
+Une tasse de café vendue deux euros cinquante, qui coûte à peine quinze centimes de café.
+Sur le papier, c'est la meilleure marge de toute la restauration.
+Et pourtant, selon l'Observatoire GHR, les défaillances des débits de boissons ont augmenté de près de dix pour cent au troisième trimestre 2025.
+Alors, où passe l'argent ?
+Dans cette vidéo, on ouvre les comptes d'un café, poste par poste, pour comprendre la différence entre une belle marge et un vrai bénéfice.
+Si vous rêvez d'ouvrir un café, restez jusqu'au bout : la simulation chiffrée change complètement la façon de regarder une tasse à deux euros cinquante.
+D'après l'INSEE, la France comptait environ trente-cinq mille débits de boissons en 2023, soit un peu plus de cinq pour dix mille habitants.
+Plus des trois quarts des communes rurales n'en ont plus aucun.
+Le café de quartier, c'est un lieu de vie, mais c'est aussi une activité fragile.
+Pour les cafés-brasseries, le chiffre d'affaires était en baisse d'environ six pour cent en 2024 par rapport à 2023, selon le même observatoire.
+Un secteur qui se réduit, avec des clients qui consomment moins souvent.
+Pour un futur exploitant, cela veut dire deux choses : moins de concurrents dans certaines zones, mais aussi moins de clients prêts à pousser la porte.
+Le marché ne grandit pas, il se partage.
+Prenons un expresso.
+Il faut environ sept grammes de café moulu.
+Un café de qualité standard se négocie autour de douze à dix-huit euros le kilo en gros.
+Cela fait entre huit et treize centimes de café par tasse.
+Avec le sucre, l'eau, l'électricité et le gobelet ou la tasse lavée, on arrive à un coût de matière d'environ vingt à trente centimes.
+Ces chiffres viennent de guides de gestion, donc ce sont des ordres de grandeur, pas des comptes officiels.
+Autrement dit, le produit que le client croit acheter, le café, est la partie la plus petite de ce qu'il paie.
+Ce qu'il achète vraiment, c'est une place assise, un service, un lieu, quelques minutes de tranquillité.
+Au comptoir, un expresso se vend généralement entre deux euros cinquante et trois euros, selon la ville et l'établissement.
+Aucun chiffre officiel ne donne un prix moyen national, donc retenons cette fourchette comme un repère.
+Et attention : ce prix est un prix toutes taxes comprises.
+Sur place, la TVA est de dix pour cent, à vérifier selon les produits.
+Un expresso à deux euros cinquante rapporte donc environ deux euros vingt-sept hors taxes au café.
+Le reste part à l'État.
+Ce prix de deux euros cinquante n'est donc pas un prix de vente net.
+C'est un prix de ticket, dont une partie ne reste jamais dans la caisse.
+Beaucoup de cafetiers raisonnent pourtant à partir de ce chiffre, ce qui donne une image trop flatteuse de leurs marges.
+Deux euros vingt-sept moins vingt-cinq centimes, il reste plus de deux euros : une marge brute de quatre-vingt-dix pour cent sur le café lui-même.
+C'est ce chiffre qu'on voit partout.
+Mais sur l'ensemble d'un café, avec le lait, les sodas, les viennoiseries, les sandwiches, la marge brute moyenne tombe plutôt vers soixante-cinq à soixante-quinze pour cent, selon les guides du secteur.
+Et surtout, la marge brute ne paie ni le loyer, ni les salaires.
+Elle ne dit rien du bénéfice.
+C'est la raison pour laquelle deux cafés peuvent afficher la même marge sur l'expresso et des résultats très différents à la fin de l'année.
+La différence se joue sur le volume, sur le mélange des produits vendus, et sur ce qui reste une fois les charges payées.
+Il y a eu beaucoup de bruit sur le prix du café.
+L'arabica a atteint un record historique en février 2025, avec plus de quatre cent quarante cents la livre, selon l'Organisation internationale du café.
+Début juin 2026, il était revenu autour de deux cent cinquante cents, presque deux fois moins.
+Mais pour un cafetier, l'effet reste limité : le café lui-même représente moins de quinze centimes sur une tasse à plus de deux euros.
+Même un prix doublé ne change la tasse que d'une dizaine de centimes.
+Le vrai poids est ailleurs.
+Autre limite : quand le café baisse sur les marchés, le prix de la tasse ne baisse presque jamais.
+Les cafetiers ont encaissé la hausse, puis gardé leurs prix pour reconstituer leur marge, ce qui est compréhensible, mais pas toujours bien perçu par les clients.
+Un café ouvre tôt et ferme tard.
+Il faut servir le matin, le midi, parfois le soir, six jours sur sept.
+Dans les benchmarks de coffee shops, la masse salariale représente le plus souvent vingt-cinq à quarante pour cent du chiffre d'affaires.
+Ces repères sont surtout américains, et la France a ses propres charges sociales, donc prenons-les comme un ordre de grandeur.
+Le patron qui dit « je fais tout moi-même » ne supprime pas ce coût : il le paie en heures.
+Et ce coût est rigide.
+On ne peut pas renvoyer un serveur chez lui à dix heures quarante parce que la salle est vide, puis le rappeler à midi.
+Le personnel est payé aux horaires prévus, que les clients soient là ou non.
+Deuxième bloc : le local.
+Pour un café, on vise un loyer de huit à quinze pour cent du chiffre d'affaires.
+Mais un bon emplacement coûte cher, et c'est justement ce qui fait venir les clients.
+À cela s'ajoutent l'énergie, la machine à café, l'eau, l'assurance, le comptable, l'entretien, les licences.
+Ces charges tombent chaque mois, que la salle soit pleine ou vide.
+Avec la reprise d'un fonds de commerce, il faut aussi parler du droit au bail, qui peut coûter très cher dans les rues passantes.
+Ce prix d'entrée est payé une seule fois, mais il pèse lourd dans l'investissement de départ, et il est difficile à récupérer à la revente.
+Imaginons un café de quartier, ouvert trois cent dix jours par an, avec deux cents clients par jour et un ticket moyen de cinq euros toutes taxes comprises.
+Cela fait trois cent dix mille euros, soit environ deux cent quatre-vingt mille hors taxes.
+Matières premières à vingt-huit pour cent : soixante-dix-huit mille.
+Salaires et charges à trente-cinq pour cent : quatre-vingt-dix-huit mille.
+Loyer à dix pour cent : vingt-huit mille.
+Autres charges à quinze pour cent : quarante-deux mille.
+Il reste environ trente-quatre mille euros, soit douze pour cent, avant impôts.
+Cette simulation est illustrative : ce ne sont pas les comptes d'un café réel.
+Cet exemple montre un point essentiel : sur cinq euros de ticket, il ne reste qu'environ soixante centimes de résultat avant impôts.
+Tout le reste a été absorbé par les autres postes.
+Maintenant, que se passe-t-il si dix pour cent de clients ne viennent plus ?
+Le chiffre d'affaires baisse de vingt-huit mille euros.
+Mais les salaires, le loyer et les charges ne bougent presque pas.
+Seules les matières baissent.
+Résultat : le bénéfice passe d'environ trente-quatre mille à treize mille euros, soit soixante pour cent de moins pour dix pour cent de clients en moins.
+Et le café n'est rentable que s'il garde plus de quatre-vingts pour cent de son chiffre d'affaires.
+C'est le point mort : très proche de l'activité normale.
+C'est ce qu'on appelle l'effet de levier des coûts fixes : quand la salle est pleine, chaque client supplémentaire rapporte presque pur bénéfice.
+Quand elle se vide, chaque client en moins fait très mal.
+Cette simulation suppose que les salaires restent fixes, ce qui est une simplification.
+Avant d'encaisser le premier euro, il faut s'installer : reprise du fonds de commerce ou du droit au bail, travaux, mobilier, machine à café professionnelle, stock, trésorerie de départ.
+Selon les guides, une machine professionnelle se compte en milliers d'euros, et l'ensemble peut monter à plusieurs dizaines, voire centaines de milliers d'euros.
+Prenons cent cinquante mille euros comme hypothèse.
+À trente-quatre mille euros de résultat par an, avant impôts et avant de se payer, il faut plus de quatre ans pour récupérer la mise.
+Pour financer cela, la plupart des exploitants empruntent à la banque.
+Les mensualités viennent alors s'ajouter aux charges du compte de résultat, sans être de vraies charges d'exploitation.
+C'est une pression supplémentaire pendant les premières années, quand l'activité n'est pas encore installée.
+Le bénéfice de trente-quatre mille euros n'est pas un salaire.
+Si le patron travaille lui-même soixante heures par semaine, ces trente-quatre mille, une fois les impôts et les remboursements d'emprunt payés, laissent parfois peu de revenu.
+Les marges nettes d'un coffee shop se situent entre deux et demi et quinze pour cent selon les sources.
+La fourchette est large : tout dépend de la gestion, de l'emplacement et du volume.
+Il faut aussi penser aux années difficiles.
+Un café peut très bien rapporter trente-quatre mille euros une année, puis dix mille l'année suivante si un chantier bloque la rue, si un concurrent s'installe, ou si le loyer est révisé.
+Le revenu du patron est le plus variable de tous.
+Les causes se répètent.
+Un loyer trop élevé pour le volume.
+Une salle vide hors des heures de pointe.
+Des prix qui n'ont pas suivi les coûts.
+Des clients qui consomment moins souvent.
+Les défaillances des débits de boissons progressent d'environ dix pour cent selon les observatoires du secteur.
+Quand les coûts fixes sont lourds, la moindre baisse de fréquentation peut tout faire basculer, comme on l'a vu dans la simulation.
+S'y ajoutent des changements d'habitudes : le télétravail qui réduit les passages du matin, le café fait à la maison avec une machine à capsules, les boissons à emporter des grandes chaînes.
+Le café traditionnel doit alors justifier son prix par autre chose que le café lui-même.
+Comment les cafetiers tiennent-ils ?
+Remplir les heures creuses, avec un petit déjeuner ou un menu du midi.
+Vendre à emporter.
+Ajouter des produits à forte marge : boissons chaudes, pâtisseries, café en grains.
+Ouvrir une terrasse.
+Négocier le loyer et les fournisseurs.
+Parfois, diversifier : tabac, presse, jeux.
+Aucun levier ne suffit seul, mais chacun rapproche le café de sa zone de confort.
+Un café qui ouvre à sept heures, ferme à vingt heures et vend du café, du déjeuner et de l'apéritif n'a pas les mêmes comptes qu'un café qui ouvre seulement le matin.
+Le même local travaille alors à plein, ce qui dilue le loyer et le personnel sur un chiffre d'affaires plus grand.
+Alors, exploiter un café, est-ce rentable ?
+Sur la tasse, oui, la marge est excellente.
+Sur l'année, c'est un métier de volume, de gestion et d'horaires, avec un résultat fragile quand les coûts fixes pèsent lourd.
+Un café n'est pas une machine à imprimer de l'argent : c'est un équilibre entre un prix, un volume et une charge fixe.
+Et vous, à votre avis, est-ce qu'il vaut mieux un petit café de quartier simple ou un grand établissement ambitieux ?
+Dites-le-moi en commentaire.
+Et c'est valable pour tous les commerces de proximité : on peut aimer le produit sans aimer les chiffres.
+Avant de signer un bail, mieux vaut refaire la simulation avec ses propres hypothèses, plutôt qu'avec celles des autres.

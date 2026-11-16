@@ -1,0 +1,5 @@
+.hyperframes/
+node_modules/
+video/.hyperframes/
+assets/mix.wav
+assets/mix_chunk.wav
