@@ -83,7 +83,7 @@
       /* ---------- cruise builders ---------- */
       const popO = (o, t, t0, d = 0.45, s0 = 1) => { const k = pop(t, t0, d); o.visible = k > 0.01; o.scale.setScalar(s0 * k); return k; };
       const dropStack = (st, t, t0, step = 0.05, hh = 3) => st.cs.forEach((c, k) => { const p0 = prog(t, t0 + k * step, 0.3); c.visible = p0 > 0; c.position.y = 0.08 + k * 0.17 + (1 - bounce(p0)) * hh; });
-      const seaM = () => new THREE.MeshStandardMaterial({ color: "#c9a27a", roughness: 0.55, metalness: 0.0 });
+      const seaM = () => new THREE.MeshStandardMaterial({ color: "#9b7a58", roughness: 0.55, metalness: 0.0 });
       const sea = (p, r = 14) => { const m = new THREE.Mesh(new THREE.CircleGeometry(r, 56), seaM()); m.rotation.x = -Math.PI / 2; m.position.y = 0.03; m.receiveShadow = true; p.add(m); return m; };
       function ship(p, o = {}) { const L = (o.L || 15) * 0.85, s = o.s || 1, hull = o.hull || "#7b4a2e", acc = o.acc || "#d8403a"; const g = grp(p); g.scale.setScalar(s * 1.15);
         const hm = mat(hull, { roughness: 0.55 }), wm = mat("#f4f1ea", { roughness: 0.5 }), gl = new THREE.MeshStandardMaterial({ color: "#ffe6b0", emissive: "#ffb95a", emissiveIntensity: 0.7, roughness: 0.1 });
@@ -153,14 +153,14 @@
       upd((t) => { showHero("recettes", h8, t); dropStack(tk8, t, K("tk_on"), 0.05, 3); popO(tkt8, t, K("tk_on") - 0.2, 0.5); dropStack(ob8, t, K("ob_on"), 0.05, 3); popO(dr8, t, K("ob_on") + 0.1, 0.45); popO(cr8, t, K("ob_on") + 0.3, 0.45); const k = eOut(prog(t, K("gauge_on"), 1.0)); g8.visible = k > 0.01; g8.scale.y = Math.max(0.001, 5.25 * k); g8r.visible = k > 0.01; });
       /* 9 · simulation : revenue 630 vs costs 430, 200 left (EUR k per day) */
       const h9 = grp(PL.simulation); const U9 = 0.026; const rev9 = barC(h9, -6.0, 2.8, 2.8, "#43e0a6"), cst9 = barC(h9, 1.5, 2.8, 2.8, "#ff6b5e"), res9 = barC(h9, 1.5, 2.8, 2.8, "#ffffff");
-      const plate9 = rb(16, 0.2, 5.4, "#0f3d45", 0.08, mat("#0f3d45", { roughness: 0.6 })); plate9.position.set(-2.2, 0, 0); h9.add(plate9); const s9 = ship(h9, { L: 13, s: 0.5 }); s9.position.set(8.8, 0, 6.5);
+      const plate9 = rb(16, 0.2, 5.4, "#0f3d45", 0.08, mat("#0f3d45", { roughness: 0.6 })); plate9.position.set(-2.2, 0, 0); h9.add(plate9); const s9 = ship(h9, { L: 13, s: 0.36 }); s9.position.set(8.8, 0, 6.5);
       ANCH.sm_rev = () => V(-6, 8.6, 0); ANCH.sm_cost = () => V(1.5, 7.4, 0); ANCH.sm_res = () => V(1.5, 8.6, 0); ANCH.sm_ship = () => V(8.8, 5.0, 6.5); wrapAnch(["sm_rev", "sm_cost", "sm_res", "sm_ship"], PL.simulation); lampAt(h9, 0, 13, 6, 55);
       const sb = (b, base, v, t, t0, d = 0.8) => { const k = eOut(prog(t, t0, d)); b.visible = k > 0.01; b.scale.y = Math.max(0.001, v * U9 * k); b.position.y = base; return v * U9 * k; };
       upd((t) => { showHero("simulation", h9, t); popO(s9, t, K("sship_on"), 0.5); bobShip(s9, t, 0.1); sb(rev9, 0, 280, t, K("rev9")); const a = sb(cst9, 0, 246, t, K("cost9")); sb(res9, a, 34, t, K("res9"), 0.6); });
 
       /* 10 · pointmort : 200 -> 140 when 10 % of passengers are missing */
       const h10 = grp(PL.pointmort); const U10 = 0.17; const bef = barC(h10, -6.0, 3.0, 3.0, "#ffffff"), aft = barC(h10, 0.0, 3.0, 3.0, "#ff6b5e"); const plate10 = rb(16, 0.2, 5.4, "#0f3d45", 0.08, mat("#0f3d45", { roughness: 0.6 })); plate10.position.set(-2.2, 0, 0); h10.add(plate10);
-      const ad10 = arrowDown(h10, P.red, 0.9); ad10.position.set(6.8, 6.6, 0); const emp = ship(h10, { L: 13, s: 0.5, hull: "#4a5a6a" }); emp.position.set(8.5, 0, 6.5);
+      const ad10 = arrowDown(h10, P.red, 0.9); ad10.position.set(6.8, 6.6, 0); const emp = ship(h10, { L: 13, s: 0.36, hull: "#4a5a6a" }); emp.position.set(8.5, 0, 6.5);
       ANCH.pm_bef = () => V(-6, 7.4, 0); ANCH.pm_aft = () => V(0, 4.0, 0); ANCH.pm_down = () => V(6.8, 9.0, 0); ANCH.pm_fix = () => V(8.5, 5.0, 6.5); wrapAnch(["pm_bef", "pm_aft", "pm_down", "pm_fix"], PL.pointmort); lampAt(h10, 0, 13, 6, 55);
       upd((t) => { showHero("pointmort", h10, t); sbv(bef, 34, t, K("bef10")); sbv(aft, 13, t, K("aft10")); popO(ad10, t, K("aft10") + 0.2, 0.5, 0.9); ad10.position.y = 6.6 - 0.3 * Math.abs(Math.sin(t * 3)); popO(emp, t, K("fix10"), 0.5); bobShip(emp, t, 0.1); });
       function sbv(b, v, t, t0) { const k = eOut(prog(t, t0, 0.9)); b.visible = k > 0.01; b.scale.y = Math.max(0.001, v * U10 * k); }

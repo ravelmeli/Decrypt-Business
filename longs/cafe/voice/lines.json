@@ -1,0 +1,728 @@
+[
+ {
+  "i": 0,
+  "text": "Une tasse de café vendue deux euros cinquante, qui coûte à peine quinze centimes de café.",
+  "start": 0.0,
+  "end": 4.65
+ },
+ {
+  "i": 1,
+  "text": "Sur le papier, c'est la meilleure marge de toute la restauration.",
+  "start": 4.99,
+  "end": 7.32
+ },
+ {
+  "i": 2,
+  "text": "Et pourtant, selon l'Observatoire GHR, les défaillances des débits de boissons ont augmenté de près de dix pour cent au troisième trimestre 2025.",
+  "start": 7.785,
+  "end": 15.355
+ },
+ {
+  "i": 3,
+  "text": "Alors, où passe l'argent ?",
+  "start": 15.895,
+  "end": 17.37
+ },
+ {
+  "i": 4,
+  "text": "Dans cette vidéo, on ouvre les comptes d'un café, poste par poste, pour comprendre la différence entre une belle marge et un vrai bénéfice.",
+  "start": 17.47,
+  "end": 23.945
+ },
+ {
+  "i": 5,
+  "text": "Si vous rêvez d'ouvrir un café, restez jusqu'au bout : la simulation chiffrée change complètement la façon de regarder une tasse à deux euros cinquante.",
+  "start": 24.45,
+  "end": 31.065
+ },
+ {
+  "i": 6,
+  "text": "D'après l'INSEE, la France comptait environ trente-cinq mille débits de boissons en 2023, soit un peu plus de cinq pour dix mille habitants.",
+  "start": 31.96,
+  "end": 38.035
+ },
+ {
+  "i": 7,
+  "text": "Plus des trois quarts des communes rurales n'en ont plus aucun.",
+  "start": 38.54,
+  "end": 40.98
+ },
+ {
+  "i": 8,
+  "text": "Le café de quartier, c'est un lieu de vie, mais c'est aussi une activité fragile.",
+  "start": 41.55,
+  "end": 44.885
+ },
+ {
+  "i": 9,
+  "text": "Pour les cafés-brasseries, le chiffre d'affaires était en baisse d'environ six pour cent en 2024 par rapport à 2023, selon le même observatoire.",
+  "start": 45.505,
+  "end": 51.99
+ },
+ {
+  "i": 10,
+  "text": "Un secteur qui se réduit, avec des clients qui consomment moins souvent.",
+  "start": 52.705,
+  "end": 55.79
+ },
+ {
+  "i": 11,
+  "text": "Pour un futur exploitant, cela veut dire deux choses : moins de concurrents dans certaines zones, mais aussi moins de clients prêts à pousser la porte.",
+  "start": 56.32,
+  "end": 62.76
+ },
+ {
+  "i": 12,
+  "text": "Le marché ne grandit pas, il se partage.",
+  "start": 63.2,
+  "end": 65.165
+ },
+ {
+  "i": 13,
+  "text": "Prenons un expresso.",
+  "start": 65.805,
+  "end": 66.655
+ },
+ {
+  "i": 14,
+  "text": "Il faut environ sept grammes de café moulu.",
+  "start": 67.165,
+  "end": 69.01
+ },
+ {
+  "i": 15,
+  "text": "Un café de qualité standard se négocie autour de douze à dix-huit euros le kilo en gros.",
+  "start": 69.555,
+  "end": 73.24
+ },
+ {
+  "i": 16,
+  "text": "Cela fait entre huit et treize centimes de café par tasse.",
+  "start": 73.81,
+  "end": 76.31
+ },
+ {
+  "i": 17,
+  "text": "Avec le sucre, l'eau, l'électricité et le gobelet ou la tasse lavée, on arrive à un coût de matière d'environ vingt à trente centimes.",
+  "start": 76.91,
+  "end": 83.21
+ },
+ {
+  "i": 18,
+  "text": "Ces chiffres viennent de guides de gestion, donc ce sont des ordres de grandeur, pas des comptes officiels.",
+  "start": 83.65,
+  "end": 87.28
+ },
+ {
+  "i": 19,
+  "text": "Autrement dit, le produit que le client croit acheter, le café, est la partie la plus petite de ce qu'il paie.",
+  "start": 87.925,
+  "end": 93.23
+ },
+ {
+  "i": 20,
+  "text": "Ce qu'il achète vraiment, c'est une place assise, un service, un lieu, quelques minutes de tranquillité.",
+  "start": 93.33,
+  "end": 99.28
+ },
+ {
+  "i": 21,
+  "text": "Au comptoir, un expresso se vend généralement entre deux euros cinquante et trois euros, selon la ville et l'établissement.",
+  "start": 99.9,
+  "end": 104.645
+ },
+ {
+  "i": 22,
+  "text": "Aucun chiffre officiel ne donne un prix moyen national, donc retenons cette fourchette comme un repère.",
+  "start": 105.395,
+  "end": 109.855
+ },
+ {
+  "i": 23,
+  "text": "Et attention : ce prix est un prix toutes taxes comprises.",
+  "start": 110.415,
+  "end": 112.255
+ },
+ {
+  "i": 24,
+  "text": "Sur place, la TVA est de dix pour cent, à vérifier selon les produits.",
+  "start": 112.475,
+  "end": 116.87
+ },
+ {
+  "i": 25,
+  "text": "Un expresso à deux euros cinquante rapporte donc environ deux euros vingt-sept hors taxes au café.",
+  "start": 117.35,
+  "end": 121.775
+ },
+ {
+  "i": 26,
+  "text": "Le reste part à l'État.",
+  "start": 122.175,
+  "end": 122.885
+ },
+ {
+  "i": 27,
+  "text": "Ce prix de deux euros cinquante n'est donc pas un prix de vente net.",
+  "start": 123.465,
+  "end": 126.225
+ },
+ {
+  "i": 28,
+  "text": "C'est un prix de ticket, dont une partie ne reste jamais dans la caisse.",
+  "start": 126.645,
+  "end": 129.61
+ },
+ {
+  "i": 29,
+  "text": "Beaucoup de cafetiers raisonnent pourtant à partir de ce chiffre, ce qui donne une image trop flatteuse de leurs marges.",
+  "start": 130.185,
+  "end": 134.67
+ },
+ {
+  "i": 30,
+  "text": "Deux euros vingt-sept moins vingt-cinq centimes, il reste plus de deux euros : une marge brute de quatre-vingt-dix pour cent sur le café lui-même.",
+  "start": 135.335,
+  "end": 141.745
+ },
+ {
+  "i": 31,
+  "text": "C'est ce chiffre qu'on voit partout.",
+  "start": 142.21,
+  "end": 143.395
+ },
+ {
+  "i": 32,
+  "text": "Mais sur l'ensemble d'un café, avec le lait, les sodas, les viennoiseries, les sandwiches, la marge brute moyenne tombe plutôt vers soixante-cinq à soixante-quinze pour cent, selon les guides du secteur.",
+  "start": 143.91,
+  "end": 152.87
+ },
+ {
+  "i": 33,
+  "text": "Et surtout, la marge brute ne paie ni le loyer, ni les salaires.",
+  "start": 153.535,
+  "end": 156.715
+ },
+ {
+  "i": 34,
+  "text": "Elle ne dit rien du bénéfice.",
+  "start": 157.085,
+  "end": 158.17
+ },
+ {
+  "i": 35,
+  "text": "C'est la raison pour laquelle deux cafés peuvent afficher la même marge sur l'expresso et des résultats très différents à la fin de l'année.",
+  "start": 158.735,
+  "end": 163.68
+ },
+ {
+  "i": 36,
+  "text": "La différence se joue sur le volume, sur le mélange des produits vendus, et sur ce qui reste une fois les charges payées.",
+  "start": 164.305,
+  "end": 169.185
+ },
+ {
+  "i": 37,
+  "text": "Il y a eu beaucoup de bruit sur le prix du café.",
+  "start": 170.065,
+  "end": 171.81
+ },
+ {
+  "i": 38,
+  "text": "L'arabica a atteint un record historique en février 2025, avec plus de quatre cent quarante cents la livre, selon l'Organisation internationale du café.",
+  "start": 172.275,
+  "end": 178.685
+ },
+ {
+  "i": 39,
+  "text": "Début juin 2026, il était revenu autour de deux cent cinquante cents, presque deux fois moins.",
+  "start": 179.23,
+  "end": 182.835
+ },
+ {
+  "i": 40,
+  "text": "Mais pour un cafetier, l'effet reste limité : le café lui-même représente moins de quinze centimes sur une tasse à plus de deux euros.",
+  "start": 183.49,
+  "end": 190.3
+ },
+ {
+  "i": 41,
+  "text": "Même un prix doublé ne change la tasse que d'une dizaine de centimes.",
+  "start": 190.76,
+  "end": 193.925
+ },
+ {
+  "i": 42,
+  "text": "Le vrai poids est ailleurs.",
+  "start": 194.41,
+  "end": 195.75
+ },
+ {
+  "i": 43,
+  "text": "Autre limite : quand le café baisse sur les marchés, le prix de la tasse ne baisse presque jamais.",
+  "start": 196.515,
+  "end": 200.66
+ },
+ {
+  "i": 44,
+  "text": "Les cafetiers ont encaissé la hausse, puis gardé leurs prix pour reconstituer leur marge, ce qui est compréhensible, mais pas toujours bien perçu par les clients.",
+  "start": 201.125,
+  "end": 207.925
+ },
+ {
+  "i": 45,
+  "text": "Un café ouvre tôt et ferme tard.",
+  "start": 208.795,
+  "end": 210.785
+ },
+ {
+  "i": 46,
+  "text": "Il faut servir le matin, le midi, parfois le soir, six jours sur sept.",
+  "start": 211.19,
+  "end": 214.965
+ },
+ {
+  "i": 47,
+  "text": "Dans les benchmarks de coffee shops, la masse salariale représente le plus souvent vingt-cinq à quarante pour cent du chiffre d'affaires.",
+  "start": 215.545,
+  "end": 221.05
+ },
+ {
+  "i": 48,
+  "text": "Ces repères sont surtout américains, et la France a ses propres charges sociales, donc prenons-les comme un ordre de grandeur.",
+  "start": 221.59,
+  "end": 227.04
+ },
+ {
+  "i": 49,
+  "text": "Le patron qui dit « je fais tout moi-même » ne supprime pas ce coût : il le paie en heures.",
+  "start": 227.665,
+  "end": 231.67
+ },
+ {
+  "i": 50,
+  "text": "Et ce coût est rigide.",
+  "start": 232.27,
+  "end": 233.23
+ },
+ {
+  "i": 51,
+  "text": "On ne peut pas renvoyer un serveur chez lui à dix heures quarante parce que la salle est vide, puis le rappeler à midi.",
+  "start": 233.595,
+  "end": 237.725
+ },
+ {
+  "i": 52,
+  "text": "Le personnel est payé aux horaires prévus, que les clients soient là ou non.",
+  "start": 238.185,
+  "end": 241.555
+ },
+ {
+  "i": 53,
+  "text": "Deuxième bloc : le local.",
+  "start": 242.375,
+  "end": 243.735
+ },
+ {
+  "i": 54,
+  "text": "Pour un café, on vise un loyer de huit à quinze pour cent du chiffre d'affaires.",
+  "start": 244.26,
+  "end": 247.43
+ },
+ {
+  "i": 55,
+  "text": "Mais un bon emplacement coûte cher, et c'est justement ce qui fait venir les clients.",
+  "start": 247.875,
+  "end": 250.875
+ },
+ {
+  "i": 56,
+  "text": "À cela s'ajoutent l'énergie, la machine à café, l'eau, l'assurance, le comptable, l'entretien, les licences.",
+  "start": 251.66,
+  "end": 257.165
+ },
+ {
+  "i": 57,
+  "text": "Ces charges tombent chaque mois, que la salle soit pleine ou vide.",
+  "start": 257.585,
+  "end": 260.795
+ },
+ {
+  "i": 58,
+  "text": "Avec la reprise d'un fonds de commerce, il faut aussi parler du droit au bail, qui peut coûter très cher dans les rues passantes.",
+  "start": 261.455,
+  "end": 266.15
+ },
+ {
+  "i": 59,
+  "text": "Ce prix d'entrée est payé une seule fois, mais il pèse lourd dans l'investissement de départ, et il est difficile à récupérer à la revente.",
+  "start": 266.705,
+  "end": 272.255
+ },
+ {
+  "i": 60,
+  "text": "Imaginons un café de quartier, ouvert trois cent dix jours par an, avec deux cents clients par jour et un ticket moyen de cinq euros toutes taxes comprises.",
+  "start": 272.815,
+  "end": 280.0
+ },
+ {
+  "i": 61,
+  "text": "Cela fait trois cent dix mille euros, soit environ deux cent quatre-vingt mille hors taxes.",
+  "start": 280.585,
+  "end": 284.78
+ },
+ {
+  "i": 62,
+  "text": "Matières premières à vingt-huit pour cent : soixante-dix-huit mille.",
+  "start": 285.43,
+  "end": 286.94
+ },
+ {
+  "i": 63,
+  "text": "Salaires et charges à trente-cinq pour cent : quatre-vingt-dix-huit mille.",
+  "start": 287.165,
+  "end": 290.29
+ },
+ {
+  "i": 64,
+  "text": "Loyer à dix pour cent : vingt-huit mille.",
+  "start": 290.67,
+  "end": 293.115
+ },
+ {
+  "i": 65,
+  "text": "Autres charges à quinze pour cent : quarante-deux mille.",
+  "start": 293.43,
+  "end": 295.745
+ },
+ {
+  "i": 66,
+  "text": "Il reste environ trente-quatre mille euros, soit douze pour cent, avant impôts.",
+  "start": 296.005,
+  "end": 300.57
+ },
+ {
+  "i": 67,
+  "text": "Cette simulation est illustrative : ce ne sont pas les comptes d'un café réel.",
+  "start": 301.275,
+  "end": 304.35
+ },
+ {
+  "i": 68,
+  "text": "Cet exemple montre un point essentiel : sur cinq euros de ticket, il ne reste qu'environ soixante centimes de résultat avant impôts.",
+  "start": 305.26,
+  "end": 311.665
+ },
+ {
+  "i": 69,
+  "text": "Tout le reste a été absorbé par les autres postes.",
+  "start": 312.085,
+  "end": 314.06
+ },
+ {
+  "i": 70,
+  "text": "Maintenant, que se passe-t-il si dix pour cent de clients ne viennent plus ?",
+  "start": 314.89,
+  "end": 317.85
+ },
+ {
+  "i": 71,
+  "text": "Le chiffre d'affaires baisse de vingt-huit mille euros.",
+  "start": 318.625,
+  "end": 320.32
+ },
+ {
+  "i": 72,
+  "text": "Mais les salaires, le loyer et les charges ne bougent presque pas.",
+  "start": 320.585,
+  "end": 323.19
+ },
+ {
+  "i": 73,
+  "text": "Seules les matières baissent.",
+  "start": 323.575,
+  "end": 324.48
+ },
+ {
+  "i": 74,
+  "text": "Résultat : le bénéfice passe d'environ trente-quatre mille à treize mille euros, soit soixante pour cent de moins pour dix pour cent de clients en moins.",
+  "start": 325.08,
+  "end": 331.3
+ },
+ {
+  "i": 75,
+  "text": "Et le café n'est rentable que s'il garde plus de quatre-vingts pour cent de son chiffre d'affaires.",
+  "start": 332.01,
+  "end": 335.255
+ },
+ {
+  "i": 76,
+  "text": "C'est le point mort : très proche de l'activité normale.",
+  "start": 335.56,
+  "end": 337.765
+ },
+ {
+  "i": 77,
+  "text": "C'est ce qu'on appelle l'effet de levier des coûts fixes : quand la salle est pleine, chaque client supplémentaire rapporte presque pur bénéfice.",
+  "start": 338.475,
+  "end": 344.315
+ },
+ {
+  "i": 78,
+  "text": "Quand elle se vide, chaque client en moins fait très mal.",
+  "start": 344.64,
+  "end": 346.97
+ },
+ {
+  "i": 79,
+  "text": "Cette simulation suppose que les salaires restent fixes, ce qui est une simplification.",
+  "start": 347.61,
+  "end": 350.9
+ },
+ {
+  "i": 80,
+  "text": "Avant d'encaisser le premier euro, il faut s'installer : reprise du fonds de commerce ou du droit au bail, travaux, mobilier, machine à café professionnelle, stock, trésorerie de départ.",
+  "start": 351.61,
+  "end": 361.33
+ },
+ {
+  "i": 81,
+  "text": "Selon les guides, une machine professionnelle se compte en milliers d'euros, et l'ensemble peut monter à plusieurs dizaines, voire centaines de milliers d'euros.",
+  "start": 362.035,
+  "end": 369.18
+ },
+ {
+  "i": 82,
+  "text": "Prenons cent cinquante mille euros comme hypothèse.",
+  "start": 369.875,
+  "end": 371.86
+ },
+ {
+  "i": 83,
+  "text": "À trente-quatre mille euros de résultat par an, avant impôts et avant de se payer, il faut plus de quatre ans pour récupérer la mise.",
+  "start": 372.5,
+  "end": 378.935
+ },
+ {
+  "i": 84,
+  "text": "Pour financer cela, la plupart des exploitants empruntent à la banque.",
+  "start": 379.63,
+  "end": 382.7
+ },
+ {
+  "i": 85,
+  "text": "Les mensualités viennent alors s'ajouter aux charges du compte de résultat, sans être de vraies charges d'exploitation.",
+  "start": 383.19,
+  "end": 388.38
+ },
+ {
+  "i": 86,
+  "text": "C'est une pression supplémentaire pendant les premières années, quand l'activité n'est pas encore installée.",
+  "start": 389.085,
+  "end": 392.955
+ },
+ {
+  "i": 87,
+  "text": "Le bénéfice de trente-quatre mille euros n'est pas un salaire.",
+  "start": 394.01,
+  "end": 396.685
+ },
+ {
+  "i": 88,
+  "text": "Si le patron travaille lui-même soixante heures par semaine, ces trente-quatre mille, une fois les impôts et les remboursements d'emprunt payés, laissent parfois peu de revenu.",
+  "start": 397.185,
+  "end": 404.465
+ },
+ {
+  "i": 89,
+  "text": "Les marges nettes d'un coffee shop se situent entre deux et demi et quinze pour cent selon les sources.",
+  "start": 405.205,
+  "end": 409.34
+ },
+ {
+  "i": 90,
+  "text": "La fourchette est large : tout dépend de la gestion, de l'emplacement et du volume.",
+  "start": 409.885,
+  "end": 413.305
+ },
+ {
+  "i": 91,
+  "text": "Il faut aussi penser aux années difficiles.",
+  "start": 413.87,
+  "end": 415.465
+ },
+ {
+  "i": 92,
+  "text": "Un café peut très bien rapporter trente-quatre mille euros une année, puis dix mille l'année suivante si un chantier bloque la rue, si un concurrent s'installe, ou si le loyer est révisé.",
+  "start": 415.925,
+  "end": 423.985
+ },
+ {
+  "i": 93,
+  "text": "Le revenu du patron est le plus variable de tous.",
+  "start": 424.655,
+  "end": 426.865
+ },
+ {
+  "i": 94,
+  "text": "Les causes se répètent.",
+  "start": 427.64,
+  "end": 428.66
+ },
+ {
+  "i": 95,
+  "text": "Un loyer trop élevé pour le volume.",
+  "start": 429.03,
+  "end": 430.51
+ },
+ {
+  "i": 96,
+  "text": "Une salle vide hors des heures de pointe.",
+  "start": 430.87,
+  "end": 432.485
+ },
+ {
+  "i": 97,
+  "text": "Des prix qui n'ont pas suivi les coûts.",
+  "start": 432.91,
+  "end": 434.25
+ },
+ {
+  "i": 98,
+  "text": "Des clients qui consomment moins souvent.",
+  "start": 434.6,
+  "end": 436.13
+ },
+ {
+  "i": 99,
+  "text": "Les défaillances des débits de boissons progressent d'environ dix pour cent selon les observatoires du secteur.",
+  "start": 436.85,
+  "end": 441.01
+ },
+ {
+  "i": 100,
+  "text": "Quand les coûts fixes sont lourds, la moindre baisse de fréquentation peut tout faire basculer, comme on l'a vu dans la simulation.",
+  "start": 441.675,
+  "end": 446.69
+ },
+ {
+  "i": 101,
+  "text": "S'y ajoutent des changements d'habitudes : le télétravail qui réduit les passages du matin, le café fait à la maison avec une machine à capsules, les boissons à emporter des grandes chaînes.",
+  "start": 447.225,
+  "end": 456.805
+ },
+ {
+  "i": 102,
+  "text": "Le café traditionnel doit alors justifier son prix par autre chose que le café lui-même.",
+  "start": 457.335,
+  "end": 461.46
+ },
+ {
+  "i": 103,
+  "text": "Comment les cafetiers tiennent-ils ?",
+  "start": 462.7,
+  "end": 464.67
+ },
+ {
+  "i": 104,
+  "text": "Remplir les heures creuses, avec un petit déjeuner ou un menu du midi.",
+  "start": 464.77,
+  "end": 468.095
+ },
+ {
+  "i": 105,
+  "text": "Vendre à emporter.",
+  "start": 468.7,
+  "end": 469.5
+ },
+ {
+  "i": 106,
+  "text": "Ajouter des produits à forte marge : boissons chaudes, pâtisseries, café en grains.",
+  "start": 470.435,
+  "end": 474.61
+ },
+ {
+  "i": 107,
+  "text": "Ouvrir une terrasse.",
+  "start": 475.355,
+  "end": 476.335
+ },
+ {
+  "i": 108,
+  "text": "Négocier le loyer et les fournisseurs.",
+  "start": 477.005,
+  "end": 478.79
+ },
+ {
+  "i": 109,
+  "text": "Parfois, diversifier : tabac, presse, jeux.",
+  "start": 479.485,
+  "end": 482.915
+ },
+ {
+  "i": 110,
+  "text": "Aucun levier ne suffit seul, mais chacun rapproche le café de sa zone de confort.",
+  "start": 483.445,
+  "end": 487.215
+ },
+ {
+  "i": 111,
+  "text": "Un café qui ouvre à sept heures, ferme à vingt heures et vend du café, du déjeuner et de l'apéritif n'a pas les mêmes comptes qu'un café qui ouvre seulement le matin.",
+  "start": 487.99,
+  "end": 495.56
+ },
+ {
+  "i": 112,
+  "text": "Le même local travaille alors à plein, ce qui dilue le loyer et le personnel sur un chiffre d'affaires plus grand.",
+  "start": 496.18,
+  "end": 500.945
+ },
+ {
+  "i": 113,
+  "text": "Alors, exploiter un café, est-ce rentable ?",
+  "start": 502.05,
+  "end": 505.445
+ },
+ {
+  "i": 114,
+  "text": "Sur la tasse, oui, la marge est excellente.",
+  "start": 505.655,
+  "end": 507.22
+ },
+ {
+  "i": 115,
+  "text": "Sur l'année, c'est un métier de volume, de gestion et d'horaires, avec un résultat fragile quand les coûts fixes pèsent lourd.",
+  "start": 507.65,
+  "end": 513.925
+ },
+ {
+  "i": 116,
+  "text": "Un café n'est pas une machine à imprimer de l'argent : c'est un équilibre entre un prix, un volume et une charge fixe.",
+  "start": 514.695,
+  "end": 520.59
+ },
+ {
+  "i": 117,
+  "text": "Et vous, à votre avis, est-ce qu'il vaut mieux un petit café de quartier simple ou un grand établissement ambitieux ?",
+  "start": 521.485,
+  "end": 526.84
+ },
+ {
+  "i": 118,
+  "text": "Dites-le-moi en commentaire.",
+  "start": 526.86,
+  "end": 527.8
+ },
+ {
+  "i": 119,
+  "text": "Et c'est valable pour tous les commerces de proximité : on peut aimer le produit sans aimer les chiffres.",
+  "start": 528.6,
+  "end": 533.035
+ },
+ {
+  "i": 120,
+  "text": "Avant de signer un bail, mieux vaut refaire la simulation avec ses propres hypothèses, plutôt qu'avec celles des autres.",
+  "start": 533.555,
+  "end": 538.82
+ }
+]

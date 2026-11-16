@@ -1,7 +1,7 @@
       /* ---------- cruise builders ---------- */
       const popO = (o, t, t0, d = 0.45, s0 = 1) => { const k = pop(t, t0, d); o.visible = k > 0.01; o.scale.setScalar(s0 * k); return k; };
       const dropStack = (st, t, t0, step = 0.05, hh = 3) => st.cs.forEach((c, k) => { const p0 = prog(t, t0 + k * step, 0.3); c.visible = p0 > 0; c.position.y = 0.08 + k * 0.17 + (1 - bounce(p0)) * hh; });
-      const seaM = () => new THREE.MeshStandardMaterial({ color: "#c9a27a", roughness: 0.55, metalness: 0.0 });
+      const seaM = () => new THREE.MeshStandardMaterial({ color: "#9b7a58", roughness: 0.55, metalness: 0.0 });
       const sea = (p, r = 14) => { const m = new THREE.Mesh(new THREE.CircleGeometry(r, 56), seaM()); m.rotation.x = -Math.PI / 2; m.position.y = 0.03; m.receiveShadow = true; p.add(m); return m; };
       function ship(p, o = {}) { const L = (o.L || 15) * 0.85, s = o.s || 1, hull = o.hull || "#7b4a2e", acc = o.acc || "#d8403a"; const g = grp(p); g.scale.setScalar(s * 1.15);
         const hm = mat(hull, { roughness: 0.55 }), wm = mat("#f4f1ea", { roughness: 0.5 }), gl = new THREE.MeshStandardMaterial({ color: "#ffe6b0", emissive: "#ffb95a", emissiveIntensity: 0.7, roughness: 0.1 });
