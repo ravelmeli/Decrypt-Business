@@ -1,0 +1,19 @@
+- Wet Floor Sign 01 (`WetFloorSign_01`), Poly Haven, CC0 (public domain). Authors: Fran Calvente. https://polyhaven.com/a/WetFloorSign_01
+- Metal Office Desk (`metal_office_desk`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/metal_office_desk
+- Modern Arm Chair 01 (`modern_arm_chair_01`), Poly Haven, CC0 (public domain). Authors: Vibrant Nordic. https://polyhaven.com/a/modern_arm_chair_01
+- Classic Laptop (`classic_laptop`), Poly Haven, CC0 (public domain). Authors: Arrangemonk. https://polyhaven.com/a/classic_laptop
+- Clipboard (`clipboard`), Poly Haven, CC0 (public domain). Authors: ProgrammerOnCoffee. https://polyhaven.com/a/clipboard
+- Wall Clock (`wall_clock`), Poly Haven, CC0 (public domain). Authors: PierreB3D. https://polyhaven.com/a/wall_clock
+- Alarm Clock 01 (`alarm_clock_01`), Poly Haven, CC0 (public domain). Authors: Yann Kervran, James Ray Cock. https://polyhaven.com/a/alarm_clock_01
+- Cash Register 01 (`CashRegister_01`), Poly Haven, CC0 (public domain). Authors: Joe Seabuhr. https://polyhaven.com/a/CashRegister_01
+- Cardboard Box 01 (`cardboard_box_01`), Poly Haven, CC0 (public domain). Authors: Rahul Chaudhary. https://polyhaven.com/a/cardboard_box_01
+- Potted Plant 01 (`potted_plant_01`), Poly Haven, CC0 (public domain). Authors: Rico Cilliers. https://polyhaven.com/a/potted_plant_01
+- Plastic Crate 01 (`plastic_crate_01`), Poly Haven, CC0 (public domain). Authors: PierreB3D. https://polyhaven.com/a/plastic_crate_01
+- Hand Truck (`hand_truck`), Poly Haven, CC0 (public domain). Authors: Mutanzom3D. https://polyhaven.com/a/hand_truck
+- Industrial Storage Cart (`industrial_storage_cart`), Poly Haven, CC0 (public domain). Authors: Jule Bielitz. https://polyhaven.com/a/industrial_storage_cart
+- Sofa 02 (`sofa_02`), Poly Haven, CC0 (public domain). Authors: Kirill Sannikov. https://polyhaven.com/a/sofa_02
+- Modern Wooden Cabinet (`modern_wooden_cabinet`), Poly Haven, CC0 (public domain). Authors: Patrik Pangerl. https://polyhaven.com/a/modern_wooden_cabinet
+- Vintage Suitcase (`vintage_suitcase`), Poly Haven, CC0 (public domain). Authors: Maximilian Schuster. https://polyhaven.com/a/vintage_suitcase
+- Wooden Crate 01 (`wooden_crate_01`), Poly Haven, CC0 (public domain). Authors: James Ray Cock. https://polyhaven.com/a/wooden_crate_01
+- Adjustable Wrench (`adjustable_wrench`), Poly Haven, CC0 (public domain). Authors: Mateusz Sadek. https://polyhaven.com/a/adjustable_wrench
+- Wooden Bookshelf Worn (`wooden_bookshelf_worn`), Poly Haven, CC0 (public domain). Authors: Ulan Cabanilla. https://polyhaven.com/a/wooden_bookshelf_worn
