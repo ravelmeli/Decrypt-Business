@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Decrypt Business - Economie d'un porte-conteneurs</title>
+    <script src="assets/gsap.min.js"></script>
+    <script src="assets/beats.js"></script>
+    <script src="assets/words.js"></script>
+    <script>window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {}; window.__hf.buildReady.models = new Promise((r) => { window.__resolveModels = r; });</script>
+    <script type="importmap">{ "imports": { "three": "./assets/three/three.module.js", "three/addons/": "./assets/three/addons/" } }</script>
+    <style>
+      @font-face { font-family: "DecryptInter"; src: url("assets/fonts/Inter-Black.otf"); font-weight: 900; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0d1626; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "DecryptInter", Inter, sans-serif; font-weight: 900; color: #fff;
+        background: linear-gradient(180deg, #0d1626 0%, #1b2a44 45%, #2f4a73 100%); }
+      #gl, #fxg { position: absolute; inset: 0; width: 1080px; height: 1920px; display: block; }
+      #fxg { mix-blend-mode: screen; filter: blur(22px) brightness(1.25) contrast(1.5); opacity: .34; }
+      #vig { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 46%, rgba(0,0,0,0) 52%, rgba(2,5,12,.55) 100%); pointer-events: none; }
+      #leads, #notes, #panels, #stamps, #kws { position: absolute; inset: 0; pointer-events: none; }
+      .lead { position: absolute; left: 0; top: 0; height: 0; border-top: 4px dashed #ffb347; transform-origin: 0 50%; opacity: 0; }
+      .lead.red { border-color: #ff5a5f; } .lead.blue { border-color: #4f8cff; } .lead.green { border-color: #35d07f; } .lead.white { border-color: #fbf3e6; }
+      .note { position: absolute; left: 0; top: 0; padding: 8px 20px 10px; border-radius: 999px; font-size: 28px; letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; opacity: 0; box-shadow: 0 8px 0 rgba(0,0,0,.28); }
+      .note.gold { background: #ffb347; color: #1b2a44; } .note.red { background: #ff6b5e; color: #fff; } .note.blue { background: #4db8ff; color: #0d1626; }
+      .note.green { background: #43e0a6; color: #0d1626; } .note.white { background: #fbf3e6; color: #1b2a44; }
+      .kw { position: absolute; left: 0; right: 0; top: 140px; text-align: center; font-size: 132px; line-height: 1; letter-spacing: -.02em; text-transform: uppercase; opacity: 0; white-space: nowrap; text-shadow: 0 10px 0 rgba(0,0,0,.32); -webkit-text-stroke: 11px #0d1626; paint-order: stroke fill; }
+      .kw.gold { color: #ffb347; } .kw.red { color: #ff6b5e; } .kw.green { color: #43e0a6; } .kw.blue { color: #4db8ff; } .kw.white { color: #fff; }
+      .stamp { position: absolute; left: 0; top: 0; padding: 6px 22px; border: 5px solid; border-radius: 14px; font-size: 34px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; opacity: 0; background: rgba(10,16,30,.92); }
+      .stamp.red { color: #ff6b5e; border-color: #ff6b5e; } .stamp.blue { color: #4db8ff; border-color: #4db8ff; } .stamp.gold { color: #ffb347; border-color: #ffb347; }
+      .panel { position: absolute; left: 70px; right: 70px; border-radius: 40px; padding: 38px 40px 34px; background: rgba(14,22,40,.88); border: 3px solid rgba(255,201,60,.45); box-shadow: 0 24px 60px rgba(0,0,0,.45); opacity: 0; }
+      .panel h4 { font-size: 40px; letter-spacing: .06em; text-transform: uppercase; color: #ffb347; margin-bottom: 26px; } .panel h4 em { font-style: normal; color: #b5a99a; font-size: 30px; }
+      .sub { margin-top: 22px; font-size: 32px; color: #c4b9a8; letter-spacing: .02em; text-transform: uppercase; }
+      .row { display: flex; align-items: center; gap: 18px; margin: 22px 0; } .lab { width: 290px; font-size: 32px; letter-spacing: .03em; color: #f6f1e8; } .val { width: 120px; font-size: 42px; text-align: right; }
+      .bar, .seg { display: block; height: 58px; border-radius: 14px; width: 0; } .row .bar { flex: 1 1 0; max-width: 520px; }
+      .bar.gold, .seg.gold { background: #ffb347; } .bar.blue, .seg.blue { background: #4db8ff; } .bar.red, .seg.red { background: #ff6b5e; } .bar.green, .seg.green { background: #43e0a6; }
+      .panel .bar.gold, .panel .seg.gold { color: #1b2a44; }
+      .stack { display: flex; width: 100%; height: 110px; border-radius: 20px; overflow: hidden; } .seg { height: 110px; border-radius: 0; display: flex; align-items: center; justify-content: center; } .seg b { font-size: 36px; white-space: nowrap; }
+      .seg.gold b { color: #1b2a44; } .seg.blue b { color: #fff; }
+      .trio { display: flex; justify-content: space-between; gap: 18px; } .orb { flex: 1; text-align: center; border-radius: 28px; padding: 26px 10px 22px; transform: scale(0); } .orb b { display: block; font-size: 84px; line-height: 1; } .orb span { display: block; margin-top: 12px; font-size: 26px; text-transform: uppercase; letter-spacing: .03em; line-height: 1.2; }
+      .orb.gold { background: #ffb347; color: #1b2a44; } .orb.blue { background: #4db8ff; color: #0d1626; } .orb.green { background: #43e0a6; color: #0d1626; }
+      .months { display: flex; gap: 8px; align-items: flex-end; height: 190px; } .mo { flex: 1; background: #4db8ff; border-radius: 10px 10px 0 0; height: 90px; display: flex; align-items: flex-end; justify-content: center; opacity: 0; transform-origin: bottom; } .mo.hot { background: #ffb347; height: 190px; } .mo b { font-size: 26px; color: #0d1626; padding-bottom: 6px; }
+      .big85 { margin-top: 26px; font-size: 38px; color: #f6f1e8; text-transform: uppercase; letter-spacing: .03em; } .big85 b { color: #ffb347; font-size: 60px; }
+      .duo { display: flex; gap: 22px; } .arrow { flex: 1; border-radius: 28px; padding: 26px 14px; text-align: center; transform: scale(0); } .arrow b { display: block; font-size: 120px; line-height: 1; } .arrow span { display: block; font-size: 28px; text-transform: uppercase; letter-spacing: .03em; margin-top: 6px; line-height: 1.2; }
+      .arrow.red { background: #ff6b5e; color: #fff; } .arrow.green { background: #43e0a6; color: #0d1626; }
+      #cap { position: absolute; left: 40px; right: 40px; top: 1420px; text-align: center; font-size: 66px; line-height: 1.25; text-transform: uppercase; letter-spacing: .01em; opacity: 0; text-shadow: 0 5px 0 rgba(0,0,0,.4), 0 0 14px rgba(0,0,0,.5); }
+      #cap span { display: inline-block; padding: 0 12px; margin: 0 2px; border-radius: 14px; } #cap .next { opacity: .45; } #cap .past { opacity: 1; } #cap .on { background: #ffb347; color: #1b2a44; transform: rotate(-2.5deg) scale(1.05); text-shadow: none; opacity: 1; }
+      #prog { position: absolute; left: 60px; right: 60px; bottom: 150px; height: 5px; background: rgba(255,255,255,.18); border-radius: 3px; } #prog i { display: block; height: 100%; width: 0; background: #ffb347; border-radius: 3px; }
+      #brandend { position: absolute; left: 0; right: 0; top: 330px; text-align: center; opacity: 0; } #brandend b { display: block; font-size: 120px; letter-spacing: .04em; color: #ffb347; text-shadow: 0 10px 0 rgba(0,0,0,.35); } #brandend span { display: block; margin-top: 14px; font-size: 40px; letter-spacing: .4em; color: #f6f1e8; }
+      #flash { position: absolute; inset: 0; background: #0d1626; opacity: 0; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="87.35" data-width="1080" data-height="1920" data-fps="30">
+      <canvas id="gl" width="1080" height="1920"></canvas><canvas id="fxg" width="270" height="480"></canvas>
+      <div id="vig"></div><div id="leads"></div><div id="panels"></div><div id="notes"></div><div id="stamps"></div><div id="kws"></div>
+      <div id="cap"></div><div id="prog"><i></i></div>
+      <div id="brandend"><b>DECRYPT BUSINESS</b><span>L'ÉCONOMIE EXPLIQUÉE</span></div>
+      <div id="flash"></div>
+      <audio id="vo" src="assets/mix.wav" data-start="0" data-duration="87.35" data-track-index="1"></audio>
+    </div>
+    <script>window.__timelines["main"] = gsap.timeline({ paused: true });</script>
+    <script type="module">
+      import * as THREE from "three";
+      import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
+      import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+      import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+      const B = window.BEATS, T = B.times;
+      const W = 1080, H = 1920;
+      const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+      const prog = (t, a, d) => clamp((t - a) / d);
+      const eOutBack = (x) => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+      const eOut = (x) => 1 - Math.pow(1 - x, 3);
+      const eInOut = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
+      const bounce = (x) => { const n = 7.5625, d = 2.75; if (x < 1 / d) return n * x * x; if (x < 2 / d) return n * (x -= 1.5 / d) * x + 0.75; if (x < 2.5 / d) return n * (x -= 2.25 / d) * x + 0.9375; return n * (x -= 2.625 / d) * x + 0.984375; };
+      const lerp = (a, b, k) => a + (b - a) * k;
+      const rng = (seed) => () => { seed |= 0; seed = (seed + 0x6d2b79f5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+      const hex2 = (h) => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+      const V = (x, y, z) => new THREE.Vector3(x, y, z);
+      const P = { gold: "#ffb347", red: "#ff6b5e", blue: "#4db8ff", green: "#43e0a6", cream: "#f2fbf7", navy: "#1b2a44", white: "#ffffff", gray: "#a8c4c4", dark: "#0d1626", orange: "#ff9a4a", brown: "#b8916a", sky: "#c9f0ea", violet: "#8f86ff", pink: "#ff9fc2" };
+
+      /* ---------- renderer, camera, lights ---------- */
+      const glCanvas = document.getElementById("gl");
+      const renderer = new THREE.WebGLRenderer({ canvas: glCanvas, antialias: true, alpha: true });
+      renderer.setPixelRatio(1.5); renderer.setSize(W, H, false); renderer.setClearColor(0x000000, 0);
+      renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap; renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+      const fxgCtx = document.getElementById("fxg").getContext("2d");
+      const scene = new THREE.Scene(); scene.fog = new THREE.Fog(0x0d1626, 90, 300);
+      const cam = new THREE.PerspectiveCamera(46, W / H, 0.1, 900);
+      { const pm = new THREE.PMREMGenerator(renderer); scene.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture; scene.environmentIntensity = 0.55; }
+      const hemi = new THREE.HemisphereLight(0xfff0e0, 0x1b2a44, 0.55); scene.add(hemi);
+      const sun = new THREE.DirectionalLight(0xfffbe8, 2.2); sun.position.set(-22, 36, 20); sun.castShadow = true; sun.shadow.mapSize.set(4096, 4096);
+      Object.assign(sun.shadow.camera, { left: -48, right: 48, top: 48, bottom: -48, near: 1, far: 140 }); sun.shadow.bias = -0.0005; sun.shadow.normalBias = 0.03; sun.shadow.radius = 3; scene.add(sun); scene.add(sun.target);
+      const rim = new THREE.DirectionalLight(0x7ab8ff, 0.7); rim.position.set(26, 14, -30); scene.add(rim);
+
+      const matCache = {};
+      const M = (hex, o = {}) => { const k = hex + JSON.stringify(o); return (matCache[k] = matCache[k] || new THREE.MeshStandardMaterial(Object.assign({ color: hex, roughness: 0.55, metalness: 0.04, flatShading: false }, o))); };
+      const geoCache = {};
+      function rb(w, h, d, hex, r = 0.05, mat) {
+        r = Math.min(r, w / 2 - 0.001, h / 2 - 0.001, d / 2 - 0.001); const k = [w, h, d, r].join("|");
+        if (!geoCache[k]) { const g = new RoundedBoxGeometry(w, h, d, 2, r); g.translate(0, h / 2, 0); geoCache[k] = g; }
+        const m = new THREE.Mesh(geoCache[k], mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m;
+      }
+      const put = (p, o, x = 0, y = 0, z = 0) => { o.position.set(x, y, z); p.add(o); return o; };
+      const grp = (p, x = 0, y = 0, z = 0) => { const g = new THREE.Group(); g.position.set(x, y, z); (p || scene).add(g); return g; };
+      const cyl = (rt, rb_, h, hex, seg = 10, mat) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(rt, rb_, h, seg), mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m; };
+      const sph = (r, hex, seg = 10, mat) => { const m = new THREE.Mesh(new THREE.SphereGeometry(r, seg, Math.max(6, seg - 2)), mat || M(hex)); m.castShadow = true; m.receiveShadow = true; return m; };
+      const emis = (hex, k = 1.4) => new THREE.MeshStandardMaterial({ color: hex, emissive: hex, emissiveIntensity: k, roughness: 0.5 });
+
+      const MODEL_NAMES = ["adjustable_wrench"];
+      const MODELS = {}; const gltfLoader = new GLTFLoader();
+      await Promise.all(MODEL_NAMES.map(async (n) => { const g = await gltfLoader.loadAsync(`assets/models/${n}/${n}_1k.gltf`); g.scene.traverse((o) => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; if (o.material) o.material.envMapIntensity = 1.0; } }); MODELS[n] = g.scene; }));
+      /* a real model, cloned, scaled to a target height, base on y = 0, centred on x/z */
+      function prop(name, h, parent) { const src = MODELS[name]; if (!src) throw new Error("model missing " + name); const o = src.clone(true); const bb = new THREE.Box3().setFromObject(o); const sz = bb.getSize(new THREE.Vector3()); const k = h / sz.y; o.scale.multiplyScalar(k); const bb2 = new THREE.Box3().setFromObject(o); const c = bb2.getCenter(new THREE.Vector3()); o.position.set(-c.x, -bb2.min.y, -c.z); const g = new THREE.Group(); g.add(o); if (parent) parent.add(g); return g; }
+      const popS = (t, t0, d = 0.5) => eOutBack(prog(t, t0, d));
+      function show(o, t, t0, t1 = null, d = 0.5) { const s = popS(t, t0, d) * (t1 == null ? 1 : 1 - eOut(prog(t, t1, 0.3))); o.visible = s > 0.002; o.scale.setScalar(Math.max(s, 0.0001)); return s; }
+      function grow(o, t, t0, t1 = null, d = 0.5) { const s = popS(t, t0, d) * (t1 == null ? 1 : 1 - eOut(prog(t, t1, 0.3))); o.visible = s > 0.002; o.scale.set(1, Math.max(s, 0.0001), 1); return s; }
+      const U = []; const upd = (f) => U.push(f);
+      const ANCH = {};
+
+      /* ---------- DOM overlay engine ---------- */
+      const $ = (id) => document.getElementById(id);
+      const mkEl = (cls, html, parent) => { const d = document.createElement("div"); d.className = cls; if (html != null) d.innerHTML = html; parent.appendChild(d); return d; };
+      const pvw = new THREE.Vector3();
+      function toScreen(v) { pvw.copy(v).project(cam); return [(pvw.x * 0.5 + 0.5) * W, (-pvw.y * 0.5 + 0.5) * H, pvw.z]; }
+      const anchorXY = (a) => { if (a.startsWith("screen:")) { const [x, y] = a.slice(7).split(",").map(Number); return [x, y, 0, true]; } const o = ANCH[a]; const v = typeof o === "function" ? o() : o; const [x, y, z] = toScreen(v); return [x, y, z, false]; };
+      const noteEls = B.notes.map((n) => ({ n, el: mkEl("note " + n.kind, n.text, $("notes")), lead: mkEl("lead " + n.kind, "", $("leads")) }));
+      const kwEls = B.kws.map((k) => { const el = mkEl("kw " + k.color, k.text, $("kws")); el.style.fontSize = Math.min(132, Math.floor(780 / (k.text.length * 0.7))) + "px"; return { k, el }; });
+      const stampEls = B.stamps.map((s) => ({ s, el: mkEl("stamp " + s.kind, s.text, $("stamps")) }));
+      const PANELS = {
+        p2: `<h4>Un souvenir vendu 100</h4><div class="row"><span class="lab">PRIX DE VENTE</span><i class="bar gold" data-w="100"></i><span class="val">100</span></div><div class="row"><span class="lab">COÛT</span><i class="bar red" data-w="18"></i><span class="val">≈ 18</span></div><p class="sub">forte marge sur chaque article</p>`,
+        p4: `<h4>La règle 10 / 20 / 60</h4><div class="trio"><div class="orb gold" data-i="0"><b>10 %</b><span>du chiffre d'affaires investi par an</span></div><div class="orb blue" data-i="1"><b>20 %</b><span>de l'offre renouvelée</span></div><div class="orb green" data-i="2"><b>60 %</b><span>de visiteurs qui reviennent</span></div></div>`,
+        p5: `<h4>L'année d'un parc</h4><div class="months">${"JFMAMJJASOND".split("").map((m, i) => `<i class="mo ${i >= 5 && i <= 8 ? "hot" : ""}" data-i="${i}"><b>${m}</b></i>`).join("")}</div><div class="big85"><b>85 %</b> de l'activité en <b>3,5 mois</b></div>`,
+        p6: `<h4>Dépense par visiteur</h4><div class="duo"><div class="arrow red" data-i="0"><b>↓</b><span>FRÉQUENTATION<br>inégale</span></div><div class="arrow green" data-i="1"><b>↑</b><span>DÉPENSE<br>par visiteur</span></div></div><p class="sub">la dépense peut compenser</p>`,
+        p7: `<h4>Hors saison</h4><div class="row"><span class="lab">COÛTS FIXES</span><i class="bar red" data-w="100"></i><span class="val">100 %</span></div><div class="row"><span class="lab">RECETTES</span><i class="bar green" data-w="28"></i><span class="val">↓</span></div><p class="sub">les manèges coûtent quand même</p>`,
+      };
+      const panelEls = B.panels.map((p) => { const el = mkEl("panel", PANELS[p.id], $("panels")); el.style.top = p.y + "px"; return { p, el, items: [...el.querySelectorAll("[data-w],[data-i]")] }; });
+      const capEl = $("cap"), progEl = $("prog").firstElementChild, flashEl = $("flash"), brandEl = $("brandend"), rootEl = $("root"), vigEl = $("vig");
+      const capGroups = []; { let cur = [], len = 0; const Ws = window.WORDS;
+        Ws.forEach((w, i) => { cur.push(w); len += w[0].length + 1; const end = /[.,?!:]$/.test(w[0]); if (cur.length >= 4 || (cur.length >= 3 && len > 22) || (end && cur.length >= 2) || i === Ws.length - 1) { capGroups.push(cur); cur = []; len = 0; } });
+        if (cur.length) capGroups.push(cur); }
+      let capIdx = -2;
+      /* =====================================================================
+         WORLD : a moving-company yard, real CC0 models (Poly Haven) + custom-built pieces, PBR lighting.
+         Places sit on a ring, so the last camera glide goes back to the first shot (the Short loops).
+         ===================================================================== */
+      const rn = rng(67);
+      const HW = B.heroes, TT = B.times;
+      const PL = {}; B.order.forEach((n) => { PL[n] = grp(scene, B.pos[n][0], 0, B.pos[n][1]); });
+      function heroVis(name, t) { let s = 0; for (const [a, b] of HW[name] || []) { const i = eInOut(prog(t, a - 1.4, 0.8)), o = eInOut(prog(t, b + 0.5, 0.8)); s = Math.max(s, i * (1 - o)); } return s; }
+      function showHero(name, obj, t) { const s = heroVis(name, t); obj.visible = s > 0.01; obj.scale.setScalar(0.5 + 0.5 * s); return s; }
+      const wrapAnch = (names, place) => names.forEach((n) => { const f = ANCH[n]; ANCH[n] = () => place.localToWorld(f()); });
+      const pop = (t, t0, d = 0.45) => Math.max(0.001, eOutBack(prog(t, t0, d)));
+
+      /* textures (Poly Haven CC0): polished office tiles for the floor */
+      const texL = new THREE.TextureLoader(); const loadTex = async (u, srgb) => { const t_ = await texL.loadAsync(u); t_.wrapS = t_.wrapT = THREE.RepeatWrapping; if (srgb) t_.colorSpace = THREE.SRGBColorSpace; t_.anisotropy = 4; return t_; };
+      const [fR, fN] = await Promise.all([loadTex("assets/tex/smooth_concrete_floor_rough.jpg"), loadTex("assets/tex/smooth_concrete_floor_nor.jpg")]);
+      [fR, fN].forEach((t_) => t_.repeat.set(70, 70));
+      const floor = new THREE.Mesh(new THREE.PlaneGeometry(900, 900), new THREE.MeshStandardMaterial({ roughnessMap: fR, normalMap: fN, normalScale: new THREE.Vector2(0.6, 0.6), color: "#1d4a68", roughness: 0.4, metalness: 0.2 })); floor.rotation.x = -Math.PI / 2; floor.position.set(B.ringC[0], -0.02, B.ringC[1]); floor.receiveShadow = true; scene.add(floor);
+
+      /* far skyline behind a glass wall, mint bokeh, a ring of soft floor lights per place */
+      const backdrop = grp(scene); const sil = M("#1b2a44", { roughness: 1 }); const bok = [];
+      for (let i = 0; i < 40; i++) { const a = rn() * 6.283, r = 40 + rn() * 22; const c = [P.green, P.gold, P.sky][i % 3]; const m = sph(0.28 + rn() * 0.26, c, 6, emis(c, 1.0)); m.position.set(Math.cos(a) * r, 3 + rn() * 16, -30 - Math.abs(Math.sin(a)) * r); m.castShadow = false; backdrop.add(m); bok.push(m); }
+      for (let i = 0; i < 12; i++) { const w = 8 + rn() * 6, h = 10 + rn() * 18; const b = rb(w, h, 8, "#1b2a44", 0.2, sil); b.position.set(-80 + i * 14 + rn() * 4, 0, -190 - rn() * 20); backdrop.add(b); for (let r = 0; r < 5; r++) for (let c = 0; c < 3; c++) { if (rn() > 0.55) continue; const wn = rb(1.2, 1.0, 0.2, P.gold, 0.05, emis(P.gold, 0.5)); wn.castShadow = false; wn.position.set(b.position.x + (c - 1) * 2.6, 2 + r * 2.8, b.position.z + 4.1); backdrop.add(wn); } }
+      const rugs = B.order.map((n) => { const g = grp(PL[n]); const d = new THREE.Mesh(new THREE.CircleGeometry(15, 56), new THREE.MeshStandardMaterial({ color: "#202c44", roughness: 0.95, metalness: 0 })); d.rotation.x = -Math.PI / 2; d.position.y = 0.012; d.receiveShadow = true; g.add(d);
+        const r = new THREE.Mesh(new THREE.TorusGeometry(15, 0.14, 8, 72), emis(P.green, 0.9)); r.rotation.x = Math.PI / 2; r.position.y = 0.06; g.add(r); return r; });
+      upd((t) => { bok.forEach((m, i) => { m.material.emissiveIntensity = 0.6 + 0.5 * Math.sin(t * 1.6 + i); }); rugs.forEach((r) => { r.rotation.z = t * 0.15; }); backdrop.position.set(camA.x * 0.9, 0, camA.z); });
+
+      /* ---- builders (custom, PBR) ---- */
+      const mat = (hex, o = {}) => M(hex, Object.assign({ roughness: 0.6, metalness: 0.05 }, o));
+      function worker(p, vest = P.orange, s = 1) { const g = grp(p); g.scale.setScalar(s);
+        const uni = mat("#2a3f5f", { roughness: 0.85 }), skin = mat("#f0c9a8", { roughness: 0.7 });
+        const torso = new THREE.Mesh(new THREE.CapsuleGeometry(0.3, 0.55, 6, 14), uni); torso.position.y = 1.18; torso.castShadow = true; g.add(torso);
+        const vs = new THREE.Mesh(new THREE.CapsuleGeometry(0.335, 0.5, 6, 14), mat(vest, { roughness: 0.55 })); vs.position.y = 1.2; vs.scale.set(1, 1, 0.78); vs.castShadow = true; g.add(vs);
+        [0.98, 1.22].forEach((y) => { const st = rb(0.7, 0.07, 0.5, "#dfe6e8", 0.02, mat("#dfe6e8", { roughness: 0.25, metalness: 0.7 })); st.position.set(0, y, 0); st.scale.set(1, 1, 0.8); g.add(st); });
+        const head = sph(0.24, "#f0c9a8", 14, skin); head.position.y = 1.85; g.add(head); const cap = new THREE.Mesh(new THREE.SphereGeometry(0.26, 14, 8, 0, Math.PI * 2, 0, Math.PI / 2), mat("#ffffff", { roughness: 0.5 })); cap.position.y = 1.9; cap.castShadow = true; g.add(cap); put(g, rb(0.3, 0.04, 0.22, "#ffffff", 0.02), 0, 1.92, 0.22);
+        const arm = (sx) => { const q = grp(g, sx * 0.4, 1.55, 0); put(q, rb(0.15, 0.55, 0.15, "#2a3f5f", 0.07, uni), 0, -0.55, 0); const gl = sph(0.1, "#f2c230", 8, mat("#f2c230", { roughness: 0.8 })); gl.position.y = -0.58; q.add(gl); return q; };
+        const leg = (sx) => { const l = grp(g, sx * 0.15, 0.78, 0); put(l, rb(0.2, 0.78, 0.2, "#1f2c44", 0.08, mat("#1f2c44", { roughness: 0.9 })), 0, -0.78, 0); put(l, rb(0.22, 0.1, 0.32, "#10181b", 0.04, mat("#10181b", { roughness: 0.6 })), 0, -0.78, 0.04); return l; };
+        return { g, body: vs, armL: arm(-1), armR: arm(1), legL: leg(-1), legR: leg(1) }; }
+      const walk = (w, t, sp = 8) => { w.legL.rotation.x = Math.sin(t * sp) * 0.6; w.legR.rotation.x = -Math.sin(t * sp) * 0.6; w.armL.rotation.x = -Math.sin(t * sp) * 0.5; w.armR.rotation.x = Math.sin(t * sp) * 0.5; };
+      const GOLD = () => mat("#e6b422", { roughness: 0.28, metalness: 0.95 });
+      const coinM = (r = 0.5) => { const m = cyl(r, r, 0.14, P.gold, 24, GOLD()); return m; };
+      function office(p, w, h, d, hex, s = 1) { const g = grp(p); g.scale.setScalar(s); put(g, rb(w, h, d, hex, 0.12, mat(hex, { roughness: 0.35, metalness: 0.25 })), 0, 0, 0); const cols = Math.max(2, Math.round(w / 1.5)), rows = Math.max(2, Math.round(h / 1.8)); for (let c = 0; c < cols; c++) for (let r = 0; r < rows; r++) { const wn = rb(0.8, 0.9, 0.08, P.sky, 0.03, new THREE.MeshStandardMaterial({ color: "#bfe6f0", emissive: P.sky, emissiveIntensity: 0.55, roughness: 0.1, metalness: 0.2 })); wn.castShadow = false; wn.position.set((c - (cols - 1) / 2) * (w / cols), 0.8 + r * (h - 1.2) / rows, d / 2 + 0.02); g.add(wn); } return g; }
+      function van(p, hex, s = 1) { const g = grp(p); g.scale.setScalar(s); put(g, rb(2.6, 1.5, 1.4, hex, 0.2, mat(hex, { roughness: 0.25, metalness: 0.4 })), 0, 0.4, 0); put(g, rb(1.0, 1.0, 1.3, "#bfe6f0", 0.15, mat("#9fd0e0", { roughness: 0.05, metalness: 0.3 })), 1.6, 0.4, 0); [[-0.8], [0.8], [1.8]].forEach(([x]) => { const w = cyl(0.38, 0.38, 1.5, P.navy, 18, mat("#101820", { roughness: 0.9 })); w.rotation.x = Math.PI / 2; w.position.set(x, 0.38, 0); g.add(w); const hub = cyl(0.2, 0.2, 1.55, P.gray, 12, mat("#c8d2d6", { roughness: 0.3, metalness: 0.9 })); hub.rotation.x = Math.PI / 2; hub.position.set(x, 0.38, 0); g.add(hub); }); return g; }
+      function pieMake(p, parts, r = 4.2, ang0 = 0.3) { const g = grp(p); const sl = []; parts.reduce((ang, [f, col, o]) => { const len = f * Math.PI * 2; const m = new THREE.Mesh(new THREE.CylinderGeometry(r, r, 1.4, 48, 1, false, ang, len), mat(col, o || { roughness: 0.3 })); m.castShadow = true; m.receiveShadow = true; m.position.y = 0.7; g.add(m); sl.push({ m, mid: ang + len / 2 }); return ang + len; }, ang0); put(g, cyl(r + 0.3, r + 0.4, 0.3, P.cream, 48, mat("#f7f1e6", { roughness: 0.3 })), 0, -0.05, 0); return { g, sl }; }
+      function clockObj(p, s = 1) { const g = grp(p); g.scale.setScalar(s); const rim = cyl(2.6, 2.6, 0.5, P.gold, 40, GOLD()); rim.rotation.x = Math.PI / 2; g.add(rim); const face = cyl(2.3, 2.3, 0.3, P.cream, 40, mat("#f6fbf9", { roughness: 0.35 })); face.rotation.x = Math.PI / 2; face.position.z = 0.3; g.add(face);
+        for (let i = 0; i < 12; i++) { const a = i / 12 * 6.283; const tk = rb(0.12, i % 3 ? 0.3 : 0.5, 0.12, P.navy, 0.03); tk.position.set(Math.sin(a) * 1.9, Math.cos(a) * 1.9 - 0.2, 0.5); tk.rotation.z = -a; g.add(tk); }
+        const h1 = grp(g, 0, 0, 0.55), h2 = grp(g, 0, 0, 0.62); put(h1, rb(0.18, 1.3, 0.1, P.navy, 0.04), 0, 0, 0); put(h2, rb(0.12, 1.9, 0.1, P.red, 0.03), 0, 0, 0); return { g, h1, h2 }; }
+      const pedestal = (p, r = 3) => { const g = grp(p); put(g, cyl(r, r + 0.2, 0.5, P.navy, 32, mat("#1b2a44", { roughness: 0.4 })), 0, 0.25, 0); const ring = new THREE.Mesh(new THREE.TorusGeometry(r + 0.1, 0.07, 8, 48), emis(P.gold, 1.1)); ring.rotation.x = Math.PI / 2; ring.position.y = 0.52; g.add(ring); return g; };
+      const cross = (p, len = 8) => { const g = grp(p); const a = rb(0.5, len, 0.5, P.red, 0.1, mat(P.red, { roughness: 0.35 })), b = rb(0.5, len, 0.5, P.red, 0.1, mat(P.red, { roughness: 0.35 })); put(g, a, 0, -len / 2, 0).rotation.z = 0.8; put(g, b, 0, -len / 2, 0).rotation.z = -0.8; return g; };
+      const lampAt = (p, x, y, z, k = 14, col = "#fff4dc") => { const l = new THREE.PointLight(col, k, 26, 1.6); l.position.set(x, y, z); p.add(l); return l; };
+
+      /* ---- container ship (custom): bow at +x, bridge at the stern (-x), stacks of coloured containers ---- */
+      const CC = ["#e24b3b", "#2f7fd0", "#f2b632", "#3aa66b", "#e9e2cc", "#8a5ad0", "#ff8a3d", "#2fb8c4"];
+      function ship(p, s = 1, o = {}) { const nx = o.nx || 7, nz = o.nz || 3, ny = o.ny || 3; const g = grp(p); g.scale.setScalar(s); const rr = rng(o.seed || 5);
+        const Wd = nz * 0.55 + 0.5, L = nx * 1.25 + 6.4, x0 = -L / 2 + 3.6;
+        const sh = new THREE.Shape(); sh.moveTo(-L / 2, -Wd / 2); sh.lineTo(L / 2 - 3, -Wd / 2); sh.lineTo(L / 2, 0); sh.lineTo(L / 2 - 3, Wd / 2); sh.lineTo(-L / 2, Wd / 2); sh.lineTo(-L / 2, -Wd / 2);
+        const hull = new THREE.Mesh(new THREE.ExtrudeGeometry(sh, { depth: 1.5, bevelEnabled: true, bevelSize: 0.08, bevelThickness: 0.08, bevelSegments: 2 }), mat(o.hull || "#c0392b", { roughness: 0.45, metalness: 0.2 })); hull.rotation.x = -Math.PI / 2; hull.castShadow = true; hull.receiveShadow = true; g.add(hull);
+        put(g, rb(L - 0.2, 0.12, Wd - 0.1, "#cfd6dc", 0.03, mat("#cfd6dc", { roughness: 0.6 })), 0, 1.5, 0);
+        put(g, rb(2.0, 2.8, Wd * 0.92, "#f4f4ee", 0.1, mat("#f4f4ee", { roughness: 0.35 })), -L / 2 + 1.5, 1.55, 0); put(g, rb(2.04, 0.5, Wd * 0.94, "#2a3f5f", 0.05, mat("#223350", { roughness: 0.15, metalness: 0.4 })), -L / 2 + 1.5, 3.2, 0); put(g, cyl(0.35, 0.4, 1.3, "#e24b3b", 12, mat("#e24b3b")), -L / 2 + 0.9, 4.3, 0);
+        const boxes = []; let n = 0; for (let ix = 0; ix < nx; ix++) for (let iz = 0; iz < nz; iz++) for (let iy = 0; iy < ny; iy++) { if (iy > 0 && rr() < 0.12) continue; const col = CC[Math.floor(rr() * CC.length)]; const b = rb(1.15, 0.52, 0.5, col, 0.03, mat(col, { roughness: 0.55, metalness: 0.15 })); b.position.set(x0 + ix * 1.25, 1.6 + iy * 0.55, (iz - (nz - 1) / 2) * 0.56); g.add(b); boxes.push(b); }
+        return { g, hull, boxes, L, Wd }; }
+      const setHull = (sp, hex) => { sp.hull.material = mat(hex, { roughness: 0.4, metalness: 0.25 }); };
+      const popBoxes = (sp, t, t0, per = 0.012) => sp.boxes.forEach((b, i) => { const k = pop(t, t0 + i * per, 0.3); b.scale.setScalar(k); b.visible = k > 0.01; });
+      const coinTowerMk = (p, x, z, n = 16) => { const g = grp(p, x, 0, z); const cs = []; for (let k = 0; k < n; k++) { const c = coinM(1.2); c.position.set(0, 0.1 + k * 0.17, 0); g.add(c); cs.push(c); } return { g, cs }; };
+      const coinTowerUpd = (tw, t, t0) => tw.cs.forEach((c, k) => { const p0 = prog(t, t0 + k * 0.07, 0.3); c.visible = p0 > 0; c.position.y = 0.1 + k * 0.17 + (1 - bounce(p0)) * 4; });
+      const mkWave = (p, n = 21) => { const g = grp(p); const pil = []; for (let k = 0; k < n; k++) { const col = k % 2 ? "#2f7fd0" : "#4db8ff"; const b = rb(0.7, 1, 2.2, col, 0.12, mat(col, { roughness: 0.3, metalness: 0.15 })); b.position.set(-10 + k * (20 / (n - 1)), 0, 0); g.add(b); pil.push(b); } const H = (x, t) => 2.6 + 2.0 * Math.sin(x * 0.5 - t * 1.6); return { g, pil, H }; };
+      const waveUpd = (wv, t, t0) => wv.pil.forEach((b) => { const k = pop(t, t0, 0.6); const h = Math.max(0.05, wv.H(b.position.x, t)) * k; b.scale.y = h; b.visible = k > 0.01; });
+      const shieldMk = (p, x, z) => { const shG = grp(p, x, 0, z); const sh = new THREE.Shape(); sh.moveTo(0, 2.6); sh.bezierCurveTo(1.4, 2.6, 1.8, 2.2, 1.8, 1.4); sh.bezierCurveTo(1.8, 0.4, 0.9, 0.1, 0, -0.4); sh.bezierCurveTo(-0.9, 0.1, -1.8, 0.4, -1.8, 1.4); sh.bezierCurveTo(-1.8, 2.2, -1.4, 2.6, 0, 2.6); const gm = new THREE.ExtrudeGeometry(sh, { depth: 0.45, bevelEnabled: true, bevelSize: 0.12, bevelThickness: 0.12, bevelSegments: 2, curveSegments: 18 }); const m = new THREE.Mesh(gm, mat(P.blue, { roughness: 0.25, metalness: 0.5 })); m.castShadow = true; m.position.set(0, 1.0, 0); shG.add(m); const ck = rb(0.35, 1.3, 0.3, P.white, 0.08, mat("#fff", { roughness: 0.3 })); ck.position.set(0.55, 1.35, 0.7); ck.rotation.z = -0.75; shG.add(ck); const ck2 = rb(0.35, 0.7, 0.3, P.white, 0.08, mat("#fff", { roughness: 0.3 })); ck2.position.set(-0.45, 1.5, 0.7); ck2.rotation.z = 0.75; shG.add(ck2); return shG; };
+      const fuelMk = (p, x, z) => { const fuG = grp(p, x, 0, z); put(fuG, rb(1.9, 2.4, 0.9, P.red, 0.18, mat(P.red, { roughness: 0.4 })), 0, 0, 0); put(fuG, cyl(0.25, 0.25, 0.5, P.gray, 12, mat("#cfd6dc", { roughness: 0.3, metalness: 0.8 })), -0.5, 2.4, 0); const hd = new THREE.Mesh(new THREE.TorusGeometry(0.45, 0.12, 8, 18, Math.PI), mat(P.red, { roughness: 0.4 })); hd.position.set(0.5, 2.4, 0); fuG.add(hd); put(fuG, rb(1.1, 0.5, 0.05, P.white, 0.02, mat("#fff", { roughness: 0.5 })), 0, 1.0, 0.47); return fuG; };
+      const arrowDown = (p, x, y, z) => { const a = grp(p, x, y, z); put(a, rb(0.9, 2.8, 0.9, P.red, 0.18, mat(P.red, { roughness: 0.35 })), 0, 0.9, 0); const hd = new THREE.Mesh(new THREE.ConeGeometry(1.5, 1.8, 4), mat(P.red, { roughness: 0.35 })); hd.rotation.x = Math.PI; hd.rotation.y = Math.PI / 4; hd.position.y = 0.5; hd.castShadow = true; a.add(hd); return a; };
+      const SEA = (c) => c;
+
+      /* 1 · navire : a ~270 M$ giant ship, a tower of coins */
+      const hN = grp(PL.navire); const shN = ship(hN, 0.82, { nx: 7, nz: 3, ny: 3, seed: 11 }); shN.g.position.set(0, 0, -2.6); shN.g.rotation.y = 0.35;
+      const ctN = coinTowerMk(hN, 0.6, 5.0, 16);
+      ANCH.nv_ship = () => V(0, 6.2, -2.6); ANCH.nv_coin = () => V(0.6, 4.6, 5.0); wrapAnch(["nv_ship", "nv_coin"], PL.navire); lampAt(hN, 0, 12, 4, 40);
+      upd((t) => { showHero("navire", hN, t); const k = pop(t, TT.ship_on, 0.8); shN.g.scale.setScalar(0.82 * k); shN.g.position.y = Math.sin(t * 1.3) * 0.12; popBoxes(shN, t, TT.cont_on, 0.03); coinTowerUpd(ctN, t, TT.coin_on); });
+
+      /* 2 · flotte : a few ships owned (amber hull), the rest chartered (blue hull) */
+      const hF = grp(PL.flotte); const fleet = []; for (let i = 0; i < 8; i++) { const sp = ship(hF, 0.5, { nx: 3, nz: 2, ny: 2, seed: 20 + i, hull: "#7b8794" }); sp.g.position.set((i % 2 - 0.5) * 7.4, 0, -6.6 + Math.floor(i / 2) * 4.4); fleet.push(sp); }
+      ANCH.fl_own = () => V(-3.7, 3.4, -6.0); ANCH.fl_rent = () => V(3.7, 3.4, 4.8); wrapAnch(["fl_own", "fl_rent"], PL.flotte); lampAt(hF, 0, 12, 2, 40);
+      upd((t) => { showHero("flotte", hF, t); fleet.forEach((sp, i) => { sp.g.scale.setScalar(0.5 * pop(t, TT.fleet_on + i * 0.1, 0.4)); const own = [0, 3, 4].includes(i); if (own && t >= TT.own_on) setHull(sp, "#ffb347"); else if (!own && t >= TT.rent_on + i * 0.08) setHull(sp, "#4db8ff"); }); });
+
+      /* 3 · cycle : a wave of pillars with a ship riding it; debt = a coin tower */
+      const hY = grp(PL.cycle); const wvY = mkWave(hY); wvY.g.position.set(0, 0, -3.0); const shY = ship(hY, 0.5, { nx: 3, nz: 2, ny: 2, seed: 31 }); const ctY = coinTowerMk(hY, 7.0, 4.4, 16);
+      ANCH.cy_wave = () => V(0, 8.6, -3.0); ANCH.cy_debt = () => V(7.0, 4.4, 4.4); wrapAnch(["cy_wave", "cy_debt"], PL.cycle); lampAt(hY, 0, 12, 4, 40);
+      upd((t) => { showHero("cycle", hY, t); waveUpd(wvY, t, TT.cyc_on); const x = Math.sin(t * 0.5) * 2.2; shY.g.scale.setScalar(0.5 * pop(t, TT.cyc_on + 0.4, 0.5)); shY.g.position.set(x, wvY.H(x, t), -3.0); shY.g.rotation.z = Math.atan(1.0 * Math.cos(x * 0.5 - t * 1.6)) * 0.5; coinTowerUpd(ctY, t, TT.debt_on); });
+
+      /* 4 · opex : crew, insurance, maintenance, a clock for "per day" */
+      const hO = grp(PL.opex); const shO = ship(hO, 0.6, { nx: 3, nz: 2, ny: 2, seed: 41 }); shO.g.position.set(0, 0, -4.2); shO.g.rotation.y = 0.2;
+      const crewO = []; for (let i = 0; i < 3; i++) { const w = worker(hO, P.orange, 1.15); w.g.position.set(-5.4 + i * 1.5, 0, 3.0); crewO.push(w); }
+      const shieldO = shieldMk(hO, 4.8, 3.4); const wrO = prop("adjustable_wrench", 3.2, hO); wrO.position.set(0.4, 0.4, 5.6); wrO.rotation.y = 0.6; const clkO = clockObj(hO, 1.0); clkO.g.position.set(0, 9.6, -4.2);
+      ANCH.op_crew = () => V(-3.9, 3.6, 3.0); ANCH.op_shield = () => V(4.8, 4.0, 3.4); ANCH.op_wrench = () => V(0.4, 2.4, 5.6); ANCH.op_clock = () => V(0, 12.6, -4.2); wrapAnch(["op_crew", "op_shield", "op_wrench", "op_clock"], PL.opex); lampAt(hO, 0, 12, 4, 40);
+      upd((t) => { showHero("opex", hO, t); shO.g.scale.setScalar(0.6 * pop(t, TT.ops_on, 0.6)); crewO.forEach((w, i) => { w.g.scale.setScalar(1.15 * pop(t, TT.crew_on + i * 0.1, 0.4)); w.armR.rotation.z = Math.sin(t * 3 + i) * 0.25; });
+        shieldO.scale.setScalar(pop(t, TT.ass_on, 0.5)); shieldO.rotation.y = Math.sin(t * 1.3) * 0.5; wrO.scale.setScalar(pop(t, TT.ent_on, 0.5)); wrO.rotation.y = 0.6 + t * 0.9;
+        clkO.g.scale.setScalar(pop(t, TT.day_on, 0.5)); clkO.h2.rotation.z = -(t - TT.day_on) * 4.5; clkO.h1.rotation.z = -(t - TT.day_on) * 0.4; });
+
+      /* 5 · carburant : about a third of the cost per container */
+      const hU = grp(PL.carburant); const pieU = pieMake(hU, [[0.333, "#ff6b5e", { roughness: 0.25 }], [0.667, "#2f9ad8", { roughness: 0.25 }]], 4.2, 0.4); pieU.g.position.set(0, 0, -1.4); const fuU = fuelMk(hU, 6.6, 3.8); const shU = ship(hU, 0.5, { nx: 3, nz: 2, ny: 2, seed: 51 }); shU.g.position.set(-5.2, 0, 4.0);
+      ANCH.fu_pie = () => V(Math.sin(pieU.sl[0].mid) * 3.0, 2.8, -1.4 + Math.cos(pieU.sl[0].mid) * 3.0); ANCH.fu_can = () => V(6.6, 3.2, 3.8); wrapAnch(["fu_pie", "fu_can"], PL.carburant); lampAt(hU, 0, 10, 3, 32);
+      upd((t) => { showHero("carburant", hU, t); pieU.sl.forEach((s_, i) => { const t0 = i ? TT.pie_blue : TT.fuel_on; const k = pop(t, t0, 0.6); s_.m.scale.set(k, 1, k); s_.m.visible = t >= t0 - 0.02; const out = i === 0 ? 1.0 * Math.min(1, prog(t, TT.third_on, 0.6)) : 0; s_.m.position.set(Math.sin(s_.mid) * out, 0.7, Math.cos(s_.mid) * out); }); fuU.scale.setScalar(pop(t, TT.fuel_on, 0.5)); fuU.rotation.y = t * 0.8; shU.g.scale.setScalar(0.5 * pop(t, TT.pie_blue + 0.1, 0.5)); });
+
+      /* 6 · port : the ship waits at the quay, the crane is still, costs keep burning */
+      const hQ = grp(PL.port); put(hQ, rb(17, 0.7, 5.2, "#3a4660", 0.1, mat("#3a4660", { roughness: 0.8 })), 0, 0, 4.6); const shQ = ship(hQ, 0.7, { nx: 5, nz: 3, ny: 3, seed: 61 }); shQ.g.position.set(0, 0, -2.4);
+      const crane = grp(hQ, 0, 0, 0); { const cm = mat("#f2b632", { roughness: 0.4 }); put(crane, rb(0.6, 9, 0.6, "#f2b632", 0.05, cm), -3.2, 0, 1.4); put(crane, rb(0.6, 9, 0.6, "#f2b632", 0.05, cm), 3.2, 0, 1.4); put(crane, rb(7.0, 0.7, 0.7, "#f2b632", 0.05, cm), 0, 9, 1.4); put(crane, rb(0.7, 0.7, 11, "#f2b632", 0.05, cm), 0, 9.6, -2.4); }
+      const clkQ = clockObj(hQ, 0.9); clkQ.g.position.set(7.4, 7.8, -2.0); const dropQ = []; for (let k = 0; k < 14; k++) { const c = coinM(0.4); c.visible = false; hQ.add(c); dropQ.push(c); }
+      ANCH.po_ship = () => V(0, 5.4, -2.4); ANCH.po_clock = () => V(7.4, 11.0, -2.0); wrapAnch(["po_ship", "po_clock"], PL.port); lampAt(hQ, 0, 13, 5, 40);
+      upd((t) => { showHero("port", hQ, t); shQ.g.scale.setScalar(0.7 * pop(t, TT.port_on, 0.7)); shQ.g.position.y = Math.sin(t * 1.0) * 0.06; crane.scale.setScalar(pop(t, TT.port_on + 0.2, 0.6)); clkQ.g.scale.setScalar(0.9 * pop(t, TT.cost_on, 0.5)); clkQ.h2.rotation.z = -(t - TT.cost_on) * 5; clkQ.h1.rotation.z = -(t - TT.cost_on) * 0.4;
+        dropQ.forEach((c, k) => { const u = (((t - TT.cost_on) * 0.6 + k / 14) % 1 + 1) % 1; c.visible = t >= TT.cost_on; c.position.set(-5 + (k % 5) * 2.4, 6.6 - u * 6.2, 4.0 + ((k * 3) % 3) * 0.8); c.rotation.x = t * 5; }); });
+
+      /* 7 · fret : freight index x2.5, the owner cashes in */
+      const hR = grp(PL.fret); const bar23 = rb(3.0, 1, 3.0, P.blue, 0.2, mat("#3f8fd0", { roughness: 0.3, metalness: 0.2 })); put(hR, bar23, -3.4, 0, -3.0); const bar24 = rb(3.0, 1, 3.0, P.gold, 0.2, mat(P.gold, { roughness: 0.3, metalness: 0.4 })); put(hR, bar24, 3.4, 0, -3.0);
+      const shR = ship(hR, 0.5, { nx: 3, nz: 2, ny: 2, seed: 71 }); shR.g.position.set(0, 0, 5.4); const rainR = []; for (let k = 0; k < 14; k++) { const c = coinM(0.45); c.visible = false; hR.add(c); rainR.push(c); }
+      ANCH.fr_b23 = () => V(-3.4, 3.6, -3.0); ANCH.fr_b24 = () => V(3.4, 8.6, -3.0); ANCH.fr_ship = () => V(0, 4.2, 5.4); wrapAnch(["fr_b23", "fr_b24", "fr_ship"], PL.fret); lampAt(hR, 0, 12, 5, 40, "#ffe0b0");
+      upd((t) => { showHero("fret", hR, t); const a = pop(t, TT.frt_on, 0.7); bar23.scale.y = 3.0 * a; bar24.scale.y = Math.max(0.001, 7.5 * pop(t, TT.b24_on, 0.8)); bar24.visible = t >= TT.b24_on - 0.02; shR.g.scale.setScalar(0.5 * pop(t, TT.gain_on - 0.4, 0.5));
+        rainR.forEach((c, k) => { const u = (((t - TT.gain_on) * 0.7 + k / 14) % 1 + 1) % 1; c.visible = t >= TT.gain_on; c.position.set(-1.6 + (k % 5) * 0.8, 8.0 - u * 6.0, 5.4 + ((k % 3) - 1) * 0.5); c.rotation.x = t * 6; }); });
+
+      /* 8 · commandes : hundreds of new ships ordered */
+      const hD = grp(PL.commandes); const newShips = []; for (let i = 0; i < 12; i++) { const sp = ship(hD, 0.42, { nx: 3, nz: 2, ny: 2, seed: 80 + i, hull: "#34c3a0" }); sp.g.position.set((i % 3 - 1) * 5.3, 0, -7.0 + Math.floor(i / 3) * 4.0); newShips.push(sp); }
+      ANCH.or_row = () => V(0, 3.6, -7.0); ANCH.or_row2 = () => V(0, 3.6, 3.4); wrapAnch(["or_row", "or_row2"], PL.commandes); lampAt(hD, 0, 12, 2, 40);
+      upd((t) => { showHero("commandes", hD, t); newShips.forEach((sp, i) => { const t0 = TT.ord_on + i * 0.5; const p0 = prog(t, t0, 0.5); sp.g.visible = p0 > 0; sp.g.scale.setScalar(0.42); sp.g.position.y = (1 - bounce(p0)) * 6; }); });
+
+      /* 9 · surcapacite : too many ships, rates and value fall */
+      const hZ = grp(PL.surcap); const jam = []; for (let i = 0; i < 6; i++) { const sp = ship(hZ, 0.5, { nx: 3, nz: 2, ny: 2, seed: 90 + i, hull: "#7b8794" }); sp.g.position.set((i % 2 - 0.5) * 7.0, 0, -6.0 + Math.floor(i / 2) * 3.8); jam.push(sp); }
+      const arZ = arrowDown(hZ, 0, 9.0, -1.0); const ctZ = coinTowerMk(hZ, 7.4, 4.8, 12);
+      ANCH.sc_arrow = () => V(0, 12.4, -1.0); ANCH.sc_val = () => V(7.4, 3.6, 4.8); wrapAnch(["sc_arrow", "sc_val"], PL.surcap); lampAt(hZ, 0, 12, 4, 34, "#cfe0ff");
+      upd((t) => { showHero("surcap", hZ, t); jam.forEach((sp, i) => { sp.g.scale.setScalar(0.5 * pop(t, TT.over_on + i * 0.18, 0.4)); }); const a = pop(t, TT.rate_on, 0.5); arZ.scale.setScalar(a); arZ.position.y = 9.0 + 0.4 * Math.sin(t * 4) - (a > 0.5 ? 0.6 : 0);
+        ctZ.cs.forEach((c, k) => { const p0 = prog(t, TT.over_on + 0.5 + k * 0.05, 0.3); const gone = t >= TT.val_on + (11 - k) * 0.12; c.visible = p0 > 0 && !gone; c.position.y = 0.1 + k * 0.17 + (1 - bounce(p0)) * 4; }); });
+
+      /* 10 · verdict : a heavy asset financed by debt, riding the cycle */
+      const hV = grp(PL.verdict); const wvV = mkWave(hV); wvV.g.position.set(0, 0, -3.2); const shV = ship(hV, 0.5, { nx: 3, nz: 2, ny: 2, seed: 101 });
+      const wtV = grp(hV, -6.4, 0, 3.6); put(wtV, cyl(1.3, 2.2, 2.4, "#4a5262", 6, mat("#4a5262", { roughness: 0.4, metalness: 0.8 })), 0, 1.2, 0); put(wtV, cyl(0.9, 1.3, 0.6, "#5b6577", 6, mat("#5b6577", { roughness: 0.4, metalness: 0.8 })), 0, 2.7, 0); const ctV = coinTowerMk(hV, 6.6, 3.8, 14);
+      ANCH.vd_wave = () => V(0, 8.8, -3.2); ANCH.vd_weight = () => V(-6.4, 4.6, 3.6); ANCH.vd_debt = () => V(6.6, 4.2, 3.8); wrapAnch(["vd_wave", "vd_weight", "vd_debt"], PL.verdict); lampAt(hV, 0, 12, 4, 40);
+      upd((t) => { showHero("verdict", hV, t); waveUpd(wvV, t, TT.ver_on); const x = Math.sin(t * 0.45 + 1) * 2.4; shV.g.scale.setScalar(0.5 * pop(t, TT.ver_on + 0.4, 0.5)); shV.g.position.set(x, wvV.H(x, t), -3.2); shV.g.rotation.z = Math.atan(Math.cos(x * 0.5 - t * 1.6)) * 0.5; wtV.scale.setScalar(pop(t, TT.heavy_on, 0.5)); coinTowerUpd(ctV, t, TT.dette_on); });
+
+      /* 11 · cta : a comment bubble and a subscribe button (glossy) */
+      const hC = grp(PL.cta); pedestal(hC, 8); const bub = grp(hC, -2.8, 9.0, 0); { put(bub, rb(5.6, 3.8, 1.2, P.cream, 0.5, mat("#f4f7f6", { roughness: 0.18 })), 0, -3.8, 0); const tail = new THREE.Mesh(new THREE.ConeGeometry(1.0, 1.8, 4), mat("#f4f7f6", { roughness: 0.18 })); tail.rotation.z = Math.PI; tail.position.set(-1.4, -4.1, 0); tail.castShadow = true; bub.add(tail); }
+      const dots = [0, 1, 2].map((i) => { const d = sph(0.5, P.navy, 14, mat("#1b2a44", { roughness: 0.3 })); d.position.set(-1.3 + i * 1.3, -1.9, 0.7); bub.add(d); return d; });
+      const btn = grp(hC, 3.0, 3.4, 3); { put(btn, rb(4.4, 2.2, 1.2, P.red, 0.6, mat("#e8483c", { roughness: 0.18 })), 0, -1.1, 0); const tri = new THREE.Mesh(new THREE.ConeGeometry(0.8, 1.2, 3), mat("#ffffff", { roughness: 0.3 })); tri.rotation.z = -Math.PI / 2; tri.position.set(-1.4, -1.1, 0.7); btn.add(tri); put(btn, rb(2.2, 0.3, 0.2, P.white, 0.05), 0.8, -1.1, 0.7); }
+      ANCH.bubble = () => V(-2.8, 10.2, 0); ANCH.button = () => V(3.0, 5.6, 3); wrapAnch(["bubble", "button"], PL.cta); lampAt(hC, 0, 12, 6, 36);
+      upd((t) => { showHero("cta", hC, t); const b = pop(t, TT.bubble_on, 0.6); bub.scale.setScalar(b); bub.position.y = 9.0 + Math.sin(t * 2) * 0.2; dots.forEach((d, i) => { d.scale.setScalar(0.6 + 0.5 * Math.max(0, Math.sin(t * 5 - i * 0.9))); });
+        const s = pop(t, TT.button_on, 0.6); const press = 1 - 0.12 * Math.max(0, Math.sin(clamp((t - TT.press) / 0.35) * Math.PI)); btn.scale.setScalar(s * press); btn.rotation.z = Math.sin(t * 2.4) * 0.05; });
+
+      /* =====================================================================
+         CAMERA, MOOD, OVERLAYS, RENDER
+         ===================================================================== */
+      const CK = B.cam; const camA = V(0, 0, 0), camL = V(0, 0, 0);
+      function camAt(t) {
+        let lo = 0, hi = CK.length - 1; while (hi - lo > 1) { const m = (lo + hi) >> 1; if (CK[m][0] <= t) lo = m; else hi = m; }
+        const a = CK[lo], b = CK[Math.min(hi, CK.length - 1)], k = b[0] > a[0] ? clamp((t - a[0]) / (b[0] - a[0])) : 0;
+        camA.set(lerp(a[1], b[1], k), lerp(a[2], b[2], k), lerp(a[3], b[3], k)); camL.set(lerp(a[4], b[4], k), lerp(a[5], b[5], k), lerp(a[6], b[6], k));
+        camA.sub(camL).multiplyScalar(1.65).add(camL); camA.y += 1.5;
+        camA.x += Math.sin(t * 0.6) * 0.18; camA.y += Math.sin(t * 0.8) * 0.1;
+        return B.fov;
+      }
+      const PS = (n) => B.heroes[n][0][0];
+      const KEYS = [
+        [-9, 0.1, ["#0d1626", "#1b2a44", "#2f4a73"], "#fff4e0", 2.2, 1.0, "#1b2a44"],
+        [PS("fret") - 1.2, 1.6, ["#1a1530", "#5a3a4a", "#f0905a"], "#ffd0a0", 1.8, 0.9, "#5a3a4a"],
+        [PS("commandes") - 1.2, 1.4, ["#0d1626", "#1b2a44", "#2f4a73"], "#fff4e0", 2.2, 1.0, "#1b2a44"],
+        [PS("surcap") - 1.2, 1.4, ["#0e131c", "#2a3446", "#4a5a72"], "#cfe0ff", 1.5, 0.8, "#2a3446"],
+        [PS("verdict") - 1.2, 1.4, ["#0d1626", "#1b2a44", "#2f4a73"], "#fff4e0", 2.2, 1.0, "#1b2a44"],
+        [PS("cta") - 1.0, 3.0, ["#1b2a44", "#8a5a3a", "#ffd9a0"], "#fff0c0", 2.6, 1.0, "#8a5a3a"],
+        [B.dur - B.loop - 0.2, 2.2, ["#0d1626", "#1b2a44", "#2f4a73"], "#fff4e0", 2.2, 1.0, "#1b2a44"],
+      ];
+      const rgbs = (c) => `rgb(${c.map(Math.round).join(",")})`;
+      const hxs = (c) => "#" + c.map((v) => Math.round(v).toString(16).padStart(2, "0")).join("");
+      function moodAt(t) {
+        let sky = KEYS[0][2].map(hex2), sun = hex2(KEYS[0][3]), sI = KEYS[0][4], hI = KEYS[0][5], hg = hex2(KEYS[0][6]);
+        for (let i = 1; i < KEYS.length; i++) { const k = eInOut(prog(t, KEYS[i][0], KEYS[i][1]));
+          sky = sky.map((c, j) => c.map((v, q) => lerp(v, hex2(KEYS[i][2][j])[q], k))); sun = sun.map((v, q) => lerp(v, hex2(KEYS[i][3])[q], k)); sI = lerp(sI, KEYS[i][4], k); hI = lerp(hI, KEYS[i][5], k); hg = hg.map((v, q) => lerp(v, hex2(KEYS[i][6])[q], k)); }
+        return { sky: sky.map(rgbs), mid: hxs(sky[1]), sun: hxs(sun), sI, hI, hg: hxs(hg) };
+      }
+      const behind = (v) => { pvw.copy(v).applyMatrix4(cam.matrixWorldInverse); return pvw.z > -0.5; };
+      const fmtT = (x) => x.toFixed(2);
+
+      function renderAt(t) {
+        const fov = camAt(t);
+        U.forEach((f) => f(t)); cam.fov = fov; cam.updateProjectionMatrix(); cam.position.copy(camA); cam.lookAt(camL); cam.updateMatrixWorld();
+        const md = moodAt(t); sun.color.set(md.sun); sun.intensity = md.sI; hemi.intensity = md.hI; hemi.groundColor.set(md.hg); scene.fog.color.set(md.mid);
+        sun.position.set(camL.x - 22, 36, camL.z + 20); sun.target.position.set(camL.x, 0, camL.z);
+        rootEl.style.background = `linear-gradient(180deg, ${md.sky[0]} 0%, ${md.sky[1]} 45%, ${md.sky[2]} 100%)`;
+
+        /* annotation pills with dashed leader lines */
+        noteEls.forEach(({ n, el, lead }) => {
+          const s = eOutBack(prog(t, n.t0, 0.25)) * (1 - prog(t, n.t1 - 0.2, 0.2));
+          if (s <= 0.02) { el.style.opacity = 0; lead.style.opacity = 0; return; }
+          let ax, ay, scr = false; if (n.anchor.startsWith("screen:")) { [ax, ay] = n.anchor.slice(7).split(",").map(Number); scr = true; } else { const o = ANCH[n.anchor]; const v = typeof o === "function" ? o() : o; if (behind(v)) { el.style.opacity = 0; lead.style.opacity = 0; return; } [ax, ay] = toScreen(v); }
+          const px = clamp(ax + n.dx, 150, 930), py = clamp(ay + n.dy, 360, 1320);
+          el.style.opacity = Math.min(1, s * 1.4); el.style.transform = `translate(${px}px,${py}px) translate(-50%,-50%) scale(${s})`;
+          if (scr) { lead.style.opacity = 0; return; }
+          const sx = px, sy = py + 26, dx = ax - sx, dy = ay - sy, len = Math.hypot(dx, dy);
+          lead.style.opacity = Math.min(1, s * 1.2); lead.style.width = Math.max(0, len * eOut(prog(t, n.t0 + 0.1, 0.25))) + "px"; lead.style.transform = `translate(${sx}px,${sy}px) rotate(${Math.atan2(dy, dx)}rad)`;
+        });
+        /* giant keywords */
+        const fmtN = (v, dec) => { const s = Math.abs(v).toFixed(dec); const [ip, fp] = s.split('.'); return ip.replace(/\B(?=(\d{3})+(?!\d))/g, '\u202f') + (fp ? ',' + fp : ''); };
+        kwEls.forEach(({ k, el }) => { if (k.cnt) { const u = eOut(prog(t, k.cnt.t0, k.cnt.d)); const txt = (k.cnt.pre || '') + fmtN(k.cnt.to * u, k.cnt.dec || 0) + (k.cnt.suf || ''); if (el.textContent !== txt) el.textContent = txt; } const p = prog(t, k.t0, 0.25), q = prog(t, k.t1 - 0.2, 0.2); const s = eOutBack(p) * (1 - q); el.style.opacity = s > 0.02 ? Math.min(1, s * 1.5) : 0; el.style.transform = `translateY(${(1 - eOut(p)) * -40}px) rotate(${k.rot}deg) scale(${Math.max(s, 0.001)})`; });
+        /* stamps */
+        stampEls.forEach(({ s: st, el }) => { const p = prog(t, st.t0, 0.3), q = prog(t, st.t1 - 0.25, 0.25); const op = (p > 0 ? 1 : 0) * (1 - q); el.style.opacity = op; el.style.transform = `translate(${st.x}px,${st.y}px) translate(-50%,-50%) rotate(${st.rot}deg) scale(${1 + (1 - eOutBack(p)) * 0.9})`; });
+        /* data panels */
+        panelEls.forEach(({ p, el, items }) => { const a = prog(t, p.t0, 0.4), q = prog(t, p.t1 - 0.3, 0.3); el.style.opacity = a * (1 - q); el.style.transform = `translateY(${(1 - eOut(a)) * 70}px) scale(${0.95 + 0.05 * eOut(a)})`;
+          if (a <= 0 || q >= 1) return; items.forEach((it, idx) => { const w = it.dataset.w, i = Number(it.dataset.i ?? idx);
+            if (w !== undefined) { const g = eOut(prog(t, p.t0 + 0.35 + i * 0.2, 0.8)); it.style.width = Number(w) * g + "%"; it.style.opacity = g > 0.02 ? 1 : 0; }
+            else if (it.classList.contains("orb") || it.classList.contains("arrow")) { const g = eOutBack(prog(t, p.t0 + (p.o ? p.o[i] : 0.5 + i * 0.9), 0.4)); it.style.transform = `scale(${Math.max(g, 0.001)})`; }
+            else if (it.classList.contains("mo")) { const g = eOut(prog(t, p.t0 + 0.3 + i * 0.12, 0.5)); it.style.opacity = g; it.style.transform = `scaleY(${Math.max(g, 0.001)})`; } }); });
+        /* captions: rolling window, active word in a gold pill */
+        let gi = -1; capGroups.forEach((g, k) => { if (t >= g[0][1] - 0.01) gi = k; });
+        const grp_ = gi >= 0 ? capGroups[gi] : null;
+        if (gi !== capIdx) { capIdx = gi; capEl.innerHTML = grp_ ? grp_.map((w) => `<span>${w[0].replace(/%/g, " %")}</span>`).join(" ") : ""; }
+        if (grp_) { const lastEnd = grp_[grp_.length - 1][2]; capEl.style.opacity = t <= lastEnd + 0.4 ? 1 : 0; [...capEl.children].forEach((sp, k) => { const on = t >= grp_[k][1] && t < grp_[k][2]; sp.className = on ? "on" : t >= grp_[k][1] ? "past" : "next"; }); } else capEl.style.opacity = 0;
+        progEl.style.width = (t / B.dur) * 100 + "%";
+        const bp = prog(t, T.brand, 0.6); brandEl.style.opacity = bp; brandEl.style.transform = `scale(${0.9 + 0.1 * eOutBack(bp)})`;
+        flashEl.style.opacity = 0;   /* the Short loops: no fade to black at the end */
+        renderer.render(scene, cam);
+        fxgCtx.clearRect(0, 0, 270, 480); fxgCtx.drawImage(glCanvas, 0, 0, 270, 480);
+      }
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      document.fonts.ready.then(() => renderAt(window.__hfThreeTime || 0));
+      renderAt(window.__hfThreeTime || 0);
+
+      window.__resolveModels && window.__resolveModels(true);
+    </script>
+  </body>
+</html>
