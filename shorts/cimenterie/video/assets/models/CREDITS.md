@@ -1,0 +1,1 @@
+- Adjustable Wrench (`adjustable_wrench`), Poly Haven, CC0 (public domain). Authors: Mateusz Sadek. https://polyhaven.com/a/adjustable_wrench
