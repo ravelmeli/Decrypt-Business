@@ -14,7 +14,7 @@
       const texL = new THREE.TextureLoader(); const loadTex = async (u, srgb) => { const t_ = await texL.loadAsync(u); t_.wrapS = t_.wrapT = THREE.RepeatWrapping; if (srgb) t_.colorSpace = THREE.SRGBColorSpace; t_.anisotropy = 4; return t_; };
       const [fR, fN] = await Promise.all([loadTex("assets/tex/smooth_concrete_floor_rough.jpg"), loadTex("assets/tex/smooth_concrete_floor_nor.jpg")]);
       [fR, fN].forEach((t_) => t_.repeat.set(70, 70));
-      const floor = new THREE.Mesh(new THREE.PlaneGeometry(900, 900), new THREE.MeshStandardMaterial({ roughnessMap: fR, normalMap: fN, normalScale: new THREE.Vector2(0.6, 0.6), color: "#1d4a68", roughness: 0.4, metalness: 0.2 })); floor.rotation.x = -Math.PI / 2; floor.position.set(B.ringC[0], -0.02, B.ringC[1]); floor.receiveShadow = true; scene.add(floor);
+      const floor = new THREE.Mesh(new THREE.PlaneGeometry(900, 900), new THREE.MeshStandardMaterial({ roughnessMap: fR, normalMap: fN, normalScale: new THREE.Vector2(0.6, 0.6), color: "#5a3d22", roughness: 0.4, metalness: 0.2 })); floor.rotation.x = -Math.PI / 2; floor.position.set(B.ringC[0], -0.02, B.ringC[1]); floor.receiveShadow = true; scene.add(floor);
 
       /* far skyline behind a glass wall, mint bokeh, a ring of soft floor lights per place */
       const backdrop = grp(scene); const sil = M("#1b2a44", { roughness: 1 }); const bok = [];
@@ -48,91 +48,85 @@
       const cross = (p, len = 8) => { const g = grp(p); const a = rb(0.5, len, 0.5, P.red, 0.1, mat(P.red, { roughness: 0.35 })), b = rb(0.5, len, 0.5, P.red, 0.1, mat(P.red, { roughness: 0.35 })); put(g, a, 0, -len / 2, 0).rotation.z = 0.8; put(g, b, 0, -len / 2, 0).rotation.z = -0.8; return g; };
       const lampAt = (p, x, y, z, k = 14, col = "#fff4dc") => { const l = new THREE.PointLight(col, k, 26, 1.6); l.position.set(x, y, z); p.add(l); return l; };
 
-      /* ---- container ship (custom): bow at +x, bridge at the stern (-x), stacks of coloured containers ---- */
-      const CC = ["#e24b3b", "#2f7fd0", "#f2b632", "#3aa66b", "#e9e2cc", "#8a5ad0", "#ff8a3d", "#2fb8c4"];
-      function ship(p, s = 1, o = {}) { const nx = o.nx || 7, nz = o.nz || 3, ny = o.ny || 3; const g = grp(p); g.scale.setScalar(s); const rr = rng(o.seed || 5);
-        const Wd = nz * 0.55 + 0.5, L = nx * 1.25 + 6.4, x0 = -L / 2 + 3.6;
-        const sh = new THREE.Shape(); sh.moveTo(-L / 2, -Wd / 2); sh.lineTo(L / 2 - 3, -Wd / 2); sh.lineTo(L / 2, 0); sh.lineTo(L / 2 - 3, Wd / 2); sh.lineTo(-L / 2, Wd / 2); sh.lineTo(-L / 2, -Wd / 2);
-        const hull = new THREE.Mesh(new THREE.ExtrudeGeometry(sh, { depth: 1.5, bevelEnabled: true, bevelSize: 0.08, bevelThickness: 0.08, bevelSegments: 2 }), mat(o.hull || "#c0392b", { roughness: 0.45, metalness: 0.2 })); hull.rotation.x = -Math.PI / 2; hull.castShadow = true; hull.receiveShadow = true; g.add(hull);
-        put(g, rb(L - 0.2, 0.12, Wd - 0.1, "#cfd6dc", 0.03, mat("#cfd6dc", { roughness: 0.6 })), 0, 1.5, 0);
-        put(g, rb(2.0, 2.8, Wd * 0.92, "#f4f4ee", 0.1, mat("#f4f4ee", { roughness: 0.35 })), -L / 2 + 1.5, 1.55, 0); put(g, rb(2.04, 0.5, Wd * 0.94, "#2a3f5f", 0.05, mat("#223350", { roughness: 0.15, metalness: 0.4 })), -L / 2 + 1.5, 3.2, 0); put(g, cyl(0.35, 0.4, 1.3, "#e24b3b", 12, mat("#e24b3b")), -L / 2 + 0.9, 4.3, 0);
-        const boxes = []; let n = 0; for (let ix = 0; ix < nx; ix++) for (let iz = 0; iz < nz; iz++) for (let iy = 0; iy < ny; iy++) { if (iy > 0 && rr() < 0.12) continue; const col = CC[Math.floor(rr() * CC.length)]; const b = rb(1.15, 0.52, 0.5, col, 0.03, mat(col, { roughness: 0.55, metalness: 0.15 })); b.position.set(x0 + ix * 1.25, 1.6 + iy * 0.55, (iz - (nz - 1) / 2) * 0.56); g.add(b); boxes.push(b); }
-        return { g, hull, boxes, L, Wd }; }
-      const setHull = (sp, hex) => { sp.hull.material = mat(hex, { roughness: 0.4, metalness: 0.25 }); };
-      const popBoxes = (sp, t, t0, per = 0.012) => sp.boxes.forEach((b, i) => { const k = pop(t, t0 + i * per, 0.3); b.scale.setScalar(k); b.visible = k > 0.01; });
+      /* ---- brewery builders (custom PBR) ---- */
+      const BEER = "#e8a321", FOAM = "#fff7e0", STEEL = "#c3ccd2";
+      const steel = () => mat(STEEL, { roughness: 0.22, metalness: 0.92 });
+      function tank(p, x, z, h = 5, r = 1.4) { const g = grp(p, x, 0, z);
+        for (let k = 0; k < 3; k++) { const a = k * 2.094 + 0.5; put(g, cyl(0.13, 0.13, 0.9, STEEL, 8, steel()), Math.sin(a) * r * 0.75, 0.45, Math.cos(a) * r * 0.75); }
+        put(g, cyl(r, r, h, STEEL, 28, steel()), 0, 0.9 + h / 2, 0); put(g, cyl(0.02, r, r * 0.7, STEEL, 28, steel()), 0, 0.9 + h + r * 0.35, 0); put(g, cyl(r, 0.1, r * 0.5, STEEL, 28, steel()), 0, 0.9 - r * 0.25 + 0.2, 0).visible = false;
+        const bd = new THREE.Mesh(new THREE.TorusGeometry(r + 0.03, 0.07, 8, 32), mat(P.gold, { roughness: 0.3, metalness: 0.8 })); bd.rotation.x = Math.PI / 2; bd.position.y = 0.9 + h * 0.5; g.add(bd);
+        put(g, cyl(0.28, 0.28, 0.18, P.gold, 12, mat("#b8862a", { roughness: 0.4, metalness: 0.7 })), 0, 0.9 + h + r * 0.75, 0); return g; }
+      function mug(p, x, z, s = 1) { const g = grp(p, x, 0, z); g.scale.setScalar(s);
+        put(g, cyl(1.25, 1.05, 2.8, BEER, 28, mat(BEER, { roughness: 0.08, metalness: 0.0, transparent: true, opacity: 0.92, emissive: "#a8620a", emissiveIntensity: 0.55 })), 0, 1.4, 0);
+        for (let i = 0; i < 6; i++) { const a = i * 1.047; put(g, sph(0.52, FOAM, 12, mat(FOAM, { roughness: 0.95 })), Math.sin(a) * 0.7, 2.95 + (i % 2) * 0.15, Math.cos(a) * 0.7); } put(g, sph(0.6, FOAM, 12, mat(FOAM, { roughness: 0.95 })), 0, 3.15, 0);
+        const hd = new THREE.Mesh(new THREE.TorusGeometry(0.8, 0.18, 10, 24), mat("#d7dde0", { roughness: 0.15, metalness: 0.5 })); hd.position.set(1.55, 1.5, 0); hd.castShadow = true; g.add(hd); return g; }
+      function bottle(p, x, z, col = "#7a4a14", s = 1) { const g = grp(p, x, 0, z); g.scale.setScalar(s); const gm = mat(col, { roughness: 0.12, metalness: 0.1, emissive: col, emissiveIntensity: 0.15 });
+        put(g, cyl(0.32, 0.32, 1.1, col, 14, gm), 0, 0.55, 0); put(g, cyl(0.12, 0.32, 0.4, col, 14, gm), 0, 1.3, 0); put(g, cyl(0.12, 0.12, 0.45, col, 12, gm), 0, 1.75, 0); put(g, cyl(0.15, 0.15, 0.1, P.gold, 12, mat(P.gold, { roughness: 0.3, metalness: 0.8 })), 0, 2.0, 0); put(g, rb(0.5, 0.45, 0.04, P.cream, 0.02, mat("#f5ecd0", { roughness: 0.5 })), 0, 0.55, 0.32); return g; }
+      function house(p, x, z, col = "#c8a574", s = 1) { const g = grp(p, x, 0, z); g.scale.setScalar(s); put(g, rb(1.8, 1.3, 1.5, col, 0.1, mat(col, { roughness: 0.7 })), 0, 0, 0); const rf = new THREE.Mesh(new THREE.ConeGeometry(1.45, 0.9, 4), mat("#9a3b2a", { roughness: 0.6 })); rf.rotation.y = Math.PI / 4; rf.position.y = 1.7; rf.castShadow = true; g.add(rf); put(g, cyl(0.16, 0.16, 0.8, "#6a5a4a", 8), 0.5, 1.4, 0.2); return g; }
+      function govt(p, x, z, s = 1) { const g = grp(p, x, 0, z); g.scale.setScalar(s); put(g, rb(7.2, 0.5, 4.0, "#d9d4c4", 0.06, mat("#d9d4c4", { roughness: 0.5 })), 0, 0, 0); put(g, rb(6.6, 0.4, 3.4, "#e5e0d0", 0.06, mat("#e5e0d0", { roughness: 0.5 })), 0, 0.5, 0);
+        for (let i = 0; i < 5; i++) put(g, cyl(0.28, 0.28, 3.0, "#f1ede0", 14, mat("#f1ede0", { roughness: 0.4 })), -2.6 + i * 1.3, 0.9, 0.2); put(g, rb(6.8, 0.4, 3.0, "#e5e0d0", 0.06, mat("#e5e0d0", { roughness: 0.5 })), 0, 3.9, 0.1);
+        const pd = new THREE.Mesh(new THREE.ConeGeometry(3.7, 1.3, 3), mat("#d9d4c4", { roughness: 0.5 })); pd.rotation.y = Math.PI / 2; pd.scale.set(1, 1, 0.5); pd.position.y = 5.2; pd.castShadow = true; g.add(pd); return g; }
+      const crate = (p, x, y, z, col = "#8a6a3a") => { const g = grp(p, x, y, z); put(g, rb(1.5, 0.8, 1.0, col, 0.06, mat(col, { roughness: 0.8 })), 0, 0, 0); for (let i = 0; i < 3; i++) put(g, cyl(0.17, 0.17, 0.3, "#7a4a14", 8, mat("#7a4a14", { roughness: 0.2 })), -0.45 + i * 0.45, 0.8, 0); return g; };
       const coinTowerMk = (p, x, z, n = 16) => { const g = grp(p, x, 0, z); const cs = []; for (let k = 0; k < n; k++) { const c = coinM(1.2); c.position.set(0, 0.1 + k * 0.17, 0); g.add(c); cs.push(c); } return { g, cs }; };
       const coinTowerUpd = (tw, t, t0) => tw.cs.forEach((c, k) => { const p0 = prog(t, t0 + k * 0.07, 0.3); c.visible = p0 > 0; c.position.y = 0.1 + k * 0.17 + (1 - bounce(p0)) * 4; });
-      const mkWave = (p, n = 21) => { const g = grp(p); const pil = []; for (let k = 0; k < n; k++) { const col = k % 2 ? "#2f7fd0" : "#4db8ff"; const b = rb(0.7, 1, 2.2, col, 0.12, mat(col, { roughness: 0.3, metalness: 0.15 })); b.position.set(-10 + k * (20 / (n - 1)), 0, 0); g.add(b); pil.push(b); } const H = (x, t) => 2.6 + 2.0 * Math.sin(x * 0.5 - t * 1.6); return { g, pil, H }; };
+      const mkWave = (p, n = 21) => { const g = grp(p); const pil = []; for (let k = 0; k < n; k++) { const col = k % 2 ? "#d98a1c" : "#ffb347"; const b = rb(0.7, 1, 2.2, col, 0.12, mat(col, { roughness: 0.3, metalness: 0.15 })); b.position.set(-10 + k * (20 / (n - 1)), 0, 0); g.add(b); pil.push(b); } const H = (x, t) => 2.6 + 2.0 * Math.sin(x * 0.5 - t * 1.6); return { g, pil, H }; };
       const waveUpd = (wv, t, t0) => wv.pil.forEach((b) => { const k = pop(t, t0, 0.6); const h = Math.max(0.05, wv.H(b.position.x, t)) * k; b.scale.y = h; b.visible = k > 0.01; });
-      const shieldMk = (p, x, z) => { const shG = grp(p, x, 0, z); const sh = new THREE.Shape(); sh.moveTo(0, 2.6); sh.bezierCurveTo(1.4, 2.6, 1.8, 2.2, 1.8, 1.4); sh.bezierCurveTo(1.8, 0.4, 0.9, 0.1, 0, -0.4); sh.bezierCurveTo(-0.9, 0.1, -1.8, 0.4, -1.8, 1.4); sh.bezierCurveTo(-1.8, 2.2, -1.4, 2.6, 0, 2.6); const gm = new THREE.ExtrudeGeometry(sh, { depth: 0.45, bevelEnabled: true, bevelSize: 0.12, bevelThickness: 0.12, bevelSegments: 2, curveSegments: 18 }); const m = new THREE.Mesh(gm, mat(P.blue, { roughness: 0.25, metalness: 0.5 })); m.castShadow = true; m.position.set(0, 1.0, 0); shG.add(m); const ck = rb(0.35, 1.3, 0.3, P.white, 0.08, mat("#fff", { roughness: 0.3 })); ck.position.set(0.55, 1.35, 0.7); ck.rotation.z = -0.75; shG.add(ck); const ck2 = rb(0.35, 0.7, 0.3, P.white, 0.08, mat("#fff", { roughness: 0.3 })); ck2.position.set(-0.45, 1.5, 0.7); ck2.rotation.z = 0.75; shG.add(ck2); return shG; };
-      const fuelMk = (p, x, z) => { const fuG = grp(p, x, 0, z); put(fuG, rb(1.9, 2.4, 0.9, P.red, 0.18, mat(P.red, { roughness: 0.4 })), 0, 0, 0); put(fuG, cyl(0.25, 0.25, 0.5, P.gray, 12, mat("#cfd6dc", { roughness: 0.3, metalness: 0.8 })), -0.5, 2.4, 0); const hd = new THREE.Mesh(new THREE.TorusGeometry(0.45, 0.12, 8, 18, Math.PI), mat(P.red, { roughness: 0.4 })); hd.position.set(0.5, 2.4, 0); fuG.add(hd); put(fuG, rb(1.1, 0.5, 0.05, P.white, 0.02, mat("#fff", { roughness: 0.5 })), 0, 1.0, 0.47); return fuG; };
       const arrowDown = (p, x, y, z) => { const a = grp(p, x, y, z); put(a, rb(0.9, 2.8, 0.9, P.red, 0.18, mat(P.red, { roughness: 0.35 })), 0, 0.9, 0); const hd = new THREE.Mesh(new THREE.ConeGeometry(1.5, 1.8, 4), mat(P.red, { roughness: 0.35 })); hd.rotation.x = Math.PI; hd.rotation.y = Math.PI / 4; hd.position.y = 0.5; hd.castShadow = true; a.add(hd); return a; };
-      const SEA = (c) => c;
+      const coinFlow = (arr, t, t0, from, to, n, rise = 3) => arr.forEach((c, k) => { const u = (((t - t0) * 0.55 + k / n) % 1 + 1) % 1; c.visible = t >= t0; c.position.set(lerp(from[0], to[0], u), lerp(from[1], to[1], u) + Math.sin(u * Math.PI) * rise, lerp(from[2], to[2], u)); c.rotation.x = t * 6; });
 
-      /* 1 · navire : a ~270 M$ giant ship, a tower of coins */
-      const hN = grp(PL.navire); const shN = ship(hN, 0.82, { nx: 7, nz: 3, ny: 3, seed: 11 }); shN.g.position.set(0, 0, -2.6); shN.g.rotation.y = 0.35;
-      const ctN = coinTowerMk(hN, 0.6, 5.0, 16);
-      ANCH.nv_ship = () => V(0, 6.2, -2.6); ANCH.nv_coin = () => V(0.6, 4.6, 5.0); wrapAnch(["nv_ship", "nv_coin"], PL.navire); lampAt(hN, 0, 12, 4, 40);
-      upd((t) => { showHero("navire", hN, t); const k = pop(t, TT.ship_on, 0.8); shN.g.scale.setScalar(0.82 * k); shN.g.position.y = Math.sin(t * 1.3) * 0.12; popBoxes(shN, t, TT.cont_on, 0.03); coinTowerUpd(ctN, t, TT.coin_on); });
+      /* 1 · brasserie : brewing tanks and a giant glass */
+      const hB = grp(PL.brasserie); const tkB = [tank(hB, -5.2, -4.4, 6, 1.6), tank(hB, -1.4, -5.4, 7.5, 1.9), tank(hB, 3.2, -4.6, 5.5, 1.5)]; const mgB = mug(hB, 1.8, 3.6, 1.6); mgB.rotation.y = -0.4;
+      ANCH.br_tank = () => V(-1.4, 9.6, -5.4); ANCH.br_mug = () => V(1.8, 7.0, 3.6); wrapAnch(["br_tank", "br_mug"], PL.brasserie); lampAt(hB, 0, 12, 3, 44, "#ffe0b0");
+      upd((t) => { showHero("brasserie", hB, t); tkB.forEach((k, i) => { k.scale.setScalar(pop(t, TT.tank_on + i * 0.18, 0.6)); }); mgB.scale.setScalar(1.6 * pop(t, TT.mug_on, 0.7)); mgB.position.y = Math.sin(t * 1.2) * 0.08; });
 
-      /* 2 · flotte : a few ships owned (amber hull), the rest chartered (blue hull) */
-      const hF = grp(PL.flotte); const fleet = []; for (let i = 0; i < 8; i++) { const sp = ship(hF, 0.5, { nx: 3, nz: 2, ny: 2, seed: 20 + i, hull: "#7b8794" }); sp.g.position.set((i % 2 - 0.5) * 7.4, 0, -6.6 + Math.floor(i / 2) * 4.4); fleet.push(sp); }
-      ANCH.fl_own = () => V(-3.7, 3.4, -6.0); ANCH.fl_rent = () => V(3.7, 3.4, 4.8); wrapAnch(["fl_own", "fl_rent"], PL.flotte); lampAt(hF, 0, 12, 2, 40);
-      upd((t) => { showHero("flotte", hF, t); fleet.forEach((sp, i) => { sp.g.scale.setScalar(0.5 * pop(t, TT.fleet_on + i * 0.1, 0.4)); const own = [0, 3, 4].includes(i); if (own && t >= TT.own_on) setHull(sp, "#ffb347"); else if (!own && t >= TT.rent_on + i * 0.08) setHull(sp, "#4db8ff"); }); });
+      /* 2 · invest : small craft setup vs a giant industrial site */
+      const hI = grp(PL.invest); const smI = [tank(hI, -8.0, -2.0, 3.0, 0.9), tank(hI, -5.6, -2.0, 3.0, 0.9)]; const ctS = coinTowerMk(hI, -6.8, 3.4, 3); ctS.g.scale.setScalar(0.8);
+      const bgI = [0, 1, 2, 3, 4].map((i) => tank(hI, 2.2 + (i % 3) * 3.4, -5.2 + Math.floor(i / 3) * 4.6, 7.5 - (i % 2), 1.5)); const ctB = coinTowerMk(hI, 6.6, 5.4, 18);
+      ANCH.in_small = () => V(-6.8, 6.0, -2.0); ANCH.in_big = () => V(5.6, 10.0, -4.0); ANCH.in_coin = () => V(6.6, 4.4, 5.4); wrapAnch(["in_small", "in_big", "in_coin"], PL.invest); lampAt(hI, 0, 13, 2, 44, "#ffe0b0");
+      upd((t) => { showHero("invest", hI, t); smI.forEach((k, i) => k.scale.setScalar(pop(t, TT.small_on + i * 0.15, 0.5))); coinTowerUpd(ctS, t, TT.small_on + 0.4); bgI.forEach((k, i) => k.scale.setScalar(pop(t, TT.big_on + i * 0.16, 0.5))); coinTowerUpd(ctB, t, TT.bigcoin_on); });
 
-      /* 3 · cycle : a wave of pillars with a ship riding it; debt = a coin tower */
-      const hY = grp(PL.cycle); const wvY = mkWave(hY); wvY.g.position.set(0, 0, -3.0); const shY = ship(hY, 0.5, { nx: 3, nz: 2, ny: 2, seed: 31 }); const ctY = coinTowerMk(hY, 7.0, 4.4, 16);
-      ANCH.cy_wave = () => V(0, 8.6, -3.0); ANCH.cy_debt = () => V(7.0, 4.4, 4.4); wrapAnch(["cy_wave", "cy_debt"], PL.cycle); lampAt(hY, 0, 12, 4, 40);
-      upd((t) => { showHero("cycle", hY, t); waveUpd(wvY, t, TT.cyc_on); const x = Math.sin(t * 0.5) * 2.2; shY.g.scale.setScalar(0.5 * pop(t, TT.cyc_on + 0.4, 0.5)); shY.g.position.set(x, wvY.H(x, t), -3.0); shY.g.rotation.z = Math.atan(1.0 * Math.cos(x * 0.5 - t * 1.6)) * 0.5; coinTowerUpd(ctY, t, TT.debt_on); });
+      /* 3 · materiel : tanks, bottling line, fixed costs to recoup */
+      const hM = grp(PL.materiel); const tkM = [tank(hM, -6.0, -5.2, 6.5, 1.6), tank(hM, -1.8, -5.6, 6.5, 1.6)]; put(hM, rb(14.5, 0.5, 2.0, "#3a4150", 0.1, mat("#3a4150", { roughness: 0.55, metalness: 0.6 })), 0, 0.5, 1.2);
+      const botM = []; for (let k = 0; k < 12; k++) { const b = bottle(hM, 0, 1.2, k % 3 ? "#7a4a14" : "#2f7a3a", 0.8); b.visible = false; botM.push(b); } const ctM = coinTowerMk(hM, 6.6, -3.4, 18);
+      ANCH.ma_tank = () => V(-3.9, 9.4, -5.4); ANCH.ma_belt = () => V(0, 3.4, 1.2); ANCH.ma_fix = () => V(6.6, 4.8, -3.4); wrapAnch(["ma_tank", "ma_belt", "ma_fix"], PL.materiel); lampAt(hM, 0, 12, 4, 44, "#ffe0b0");
+      upd((t) => { showHero("materiel", hM, t); tkM.forEach((k, i) => k.scale.setScalar(pop(t, TT.mat_on + i * 0.2, 0.6))); coinTowerUpd(ctM, t, TT.fix_on);
+        botM.forEach((b, k) => { const u = (((t - TT.belt_on) * 0.14 + k / 12) % 1 + 1) % 1; const show = t >= TT.belt_on + k * 0.18 && (t < TT.run_on ? k < 4 : t < TT.spread_on ? k < 8 : true); b.visible = show; b.position.set(-6.5 + u * 13, 0.95, 1.2); }); });
 
-      /* 4 · opex : crew, insurance, maintenance, a clock for "per day" */
-      const hO = grp(PL.opex); const shO = ship(hO, 0.6, { nx: 3, nz: 2, ny: 2, seed: 41 }); shO.g.position.set(0, 0, -4.2); shO.g.rotation.y = 0.2;
-      const crewO = []; for (let i = 0; i < 3; i++) { const w = worker(hO, P.orange, 1.15); w.g.position.set(-5.4 + i * 1.5, 0, 3.0); crewO.push(w); }
-      const shieldO = shieldMk(hO, 4.8, 3.4); const wrO = prop("adjustable_wrench", 3.2, hO); wrO.position.set(0.4, 0.4, 5.6); wrO.rotation.y = 0.6; const clkO = clockObj(hO, 1.0); clkO.g.position.set(0, 9.6, -4.2);
-      ANCH.op_crew = () => V(-3.9, 3.6, 3.0); ANCH.op_shield = () => V(4.8, 4.0, 3.4); ANCH.op_wrench = () => V(0.4, 2.4, 5.6); ANCH.op_clock = () => V(0, 12.6, -4.2); wrapAnch(["op_crew", "op_shield", "op_wrench", "op_clock"], PL.opex); lampAt(hO, 0, 12, 4, 40);
-      upd((t) => { showHero("opex", hO, t); shO.g.scale.setScalar(0.6 * pop(t, TT.ops_on, 0.6)); crewO.forEach((w, i) => { w.g.scale.setScalar(1.15 * pop(t, TT.crew_on + i * 0.1, 0.4)); w.armR.rotation.z = Math.sin(t * 3 + i) * 0.25; });
-        shieldO.scale.setScalar(pop(t, TT.ass_on, 0.5)); shieldO.rotation.y = Math.sin(t * 1.3) * 0.5; wrO.scale.setScalar(pop(t, TT.ent_on, 0.5)); wrO.rotation.y = 0.6 + t * 0.9;
-        clkO.g.scale.setScalar(pop(t, TT.day_on, 0.5)); clkO.h2.rotation.z = -(t - TT.day_on) * 4.5; clkO.h1.rotation.z = -(t - TT.day_on) * 0.4; });
+      /* 4 · taxes : a glass, coins flowing to the state (accises + TVA), small breweries get a lower rate */
+      const hT = grp(PL.taxes); const mgT = mug(hT, -4.4, 2.6, 1.3); const gvT = govt(hT, 3.2, -4.2, 1.0); const flT = []; for (let k = 0; k < 12; k++) { const c = coinM(0.38); c.visible = false; hT.add(c); flT.push(c); }
+      const smH = house(hT, 7.2, 5.2, "#d9b38a", 1.1); const tagT = grp(hT, 7.2, 4.6, 5.2); put(tagT, rb(2.6, 1.0, 0.2, P.green, 0.2, mat(P.green, { roughness: 0.3 })), 0, 0, 0); put(tagT, rb(1.6, 0.18, 0.1, P.white, 0.04), 0, 0.42, 0.14);
+      ANCH.tx_mug = () => V(-4.4, 5.6, 2.6); ANCH.tx_gov = () => V(3.2, 7.4, -4.2); ANCH.tx_small = () => V(7.2, 6.8, 5.2); wrapAnch(["tx_mug", "tx_gov", "tx_small"], PL.taxes); lampAt(hT, 0, 12, 3, 44, "#fff0d0");
+      upd((t) => { showHero("taxes", hT, t); mgT.scale.setScalar(1.3 * pop(t, TT.glass_on, 0.6)); gvT.scale.setScalar(pop(t, TT.gov_on, 0.7)); coinFlow(flT, t, TT.stream_on, [-4.0, 2.4, 2.6], [2.4, 3.6, -3.0], 12, 3.2); smH.scale.setScalar(1.1 * pop(t, TT.low_on, 0.5)); tagT.scale.setScalar(pop(t, TT.low_on + 0.2, 0.5)); });
 
-      /* 5 · carburant : about a third of the cost per container */
-      const hU = grp(PL.carburant); const pieU = pieMake(hU, [[0.333, "#ff6b5e", { roughness: 0.25 }], [0.667, "#2f9ad8", { roughness: 0.25 }]], 4.2, 0.4); pieU.g.position.set(0, 0, -1.4); const fuU = fuelMk(hU, 6.6, 3.8); const shU = ship(hU, 0.5, { nx: 3, nz: 2, ny: 2, seed: 51 }); shU.g.position.set(-5.2, 0, 4.0);
-      ANCH.fu_pie = () => V(Math.sin(pieU.sl[0].mid) * 3.0, 2.8, -1.4 + Math.cos(pieU.sl[0].mid) * 3.0); ANCH.fu_can = () => V(6.6, 3.2, 3.8); wrapAnch(["fu_pie", "fu_can"], PL.carburant); lampAt(hU, 0, 10, 3, 32);
-      upd((t) => { showHero("carburant", hU, t); pieU.sl.forEach((s_, i) => { const t0 = i ? TT.pie_blue : TT.fuel_on; const k = pop(t, t0, 0.6); s_.m.scale.set(k, 1, k); s_.m.visible = t >= t0 - 0.02; const out = i === 0 ? 1.0 * Math.min(1, prog(t, TT.third_on, 0.6)) : 0; s_.m.position.set(Math.sin(s_.mid) * out, 0.7, Math.cos(s_.mid) * out); }); fuU.scale.setScalar(pop(t, TT.fuel_on, 0.5)); fuU.rotation.y = t * 0.8; shU.g.scale.setScalar(0.5 * pop(t, TT.pie_blue + 0.1, 0.5)); });
+      /* 5 · marche : 2 500 breweries, craft = 2-3x the price but ~10 % of the volume */
+      const hK = grp(PL.marche); const hs = []; for (let i = 0; i < 28; i++) { const cols = ["#c8a574", "#d9b38a", "#b8916a", "#e0c9a6"]; const h_ = house(hK, -8.4 + (i % 7) * 2.8, -7.4 + Math.floor(i / 7) * 2.6, cols[i % 4], 0.85); hs.push(h_); }
+      const pieK = pieMake(hK, [[0.1, "#ffb347", { roughness: 0.25 }], [0.9, "#7b8794", { roughness: 0.4 }]], 3.2, 0.4); pieK.g.position.set(-4.4, 0, 4.2); const ctK1 = coinTowerMk(hK, 3.4, 4.4, 5), ctK2 = coinTowerMk(hK, 7.0, 4.4, 2);
+      ANCH.mk_houses = () => V(0, 4.6, -6.0); ANCH.mk_pie = () => V(-4.4, 3.4, 4.2); ANCH.mk_coin = () => V(3.4, 3.4, 4.4); ANCH.mk_coin2 = () => V(7.0, 2.4, 4.4); wrapAnch(["mk_houses", "mk_pie", "mk_coin", "mk_coin2"], PL.marche); lampAt(hK, 0, 13, 3, 44, "#ffe0b0");
+      upd((t) => { showHero("marche", hK, t); hs.forEach((h_, i) => { h_.scale.setScalar(0.85 * pop(t, TT.house_on + i * 0.06, 0.35)); }); coinTowerUpd(ctK1, t, TT.price_on); coinTowerUpd(ctK2, t, TT.price_on + 0.3);
+        pieK.g.visible = t >= TT.pie_on - 0.05; pieK.sl.forEach((s_, i) => { const t0 = TT.pie_on + i * 0.3; const k = pop(t, t0, 0.6); s_.m.scale.set(k, 1, k); s_.m.visible = t >= t0 - 0.02; }); });
 
-      /* 6 · port : the ship waits at the quay, the crane is still, costs keep burning */
-      const hQ = grp(PL.port); put(hQ, rb(17, 0.7, 5.2, "#3a4660", 0.1, mat("#3a4660", { roughness: 0.8 })), 0, 0, 4.6); const shQ = ship(hQ, 0.7, { nx: 5, nz: 3, ny: 3, seed: 61 }); shQ.g.position.set(0, 0, -2.4);
-      const crane = grp(hQ, 0, 0, 0); { const cm = mat("#f2b632", { roughness: 0.4 }); put(crane, rb(0.6, 9, 0.6, "#f2b632", 0.05, cm), -3.2, 0, 1.4); put(crane, rb(0.6, 9, 0.6, "#f2b632", 0.05, cm), 3.2, 0, 1.4); put(crane, rb(7.0, 0.7, 0.7, "#f2b632", 0.05, cm), 0, 9, 1.4); put(crane, rb(0.7, 0.7, 11, "#f2b632", 0.05, cm), 0, 9.6, -2.4); }
-      const clkQ = clockObj(hQ, 0.9); clkQ.g.position.set(7.4, 7.8, -2.0); const dropQ = []; for (let k = 0; k < 14; k++) { const c = coinM(0.4); c.visible = false; hQ.add(c); dropQ.push(c); }
-      ANCH.po_ship = () => V(0, 5.4, -2.4); ANCH.po_clock = () => V(7.4, 11.0, -2.0); wrapAnch(["po_ship", "po_clock"], PL.port); lampAt(hQ, 0, 13, 5, 40);
-      upd((t) => { showHero("port", hQ, t); shQ.g.scale.setScalar(0.7 * pop(t, TT.port_on, 0.7)); shQ.g.position.y = Math.sin(t * 1.0) * 0.06; crane.scale.setScalar(pop(t, TT.port_on + 0.2, 0.6)); clkQ.g.scale.setScalar(0.9 * pop(t, TT.cost_on, 0.5)); clkQ.h2.rotation.z = -(t - TT.cost_on) * 5; clkQ.h1.rotation.z = -(t - TT.cost_on) * 0.4;
-        dropQ.forEach((c, k) => { const u = (((t - TT.cost_on) * 0.6 + k / 14) % 1 + 1) % 1; c.visible = t >= TT.cost_on; c.position.set(-5 + (k % 5) * 2.4, 6.6 - u * 6.2, 4.0 + ((k * 3) % 3) * 0.8); c.rotation.x = t * 5; }); });
+      /* 6 · recul : the market falls, shelves are crowded */
+      const hD = grp(PL.recul); const b22 = rb(3.0, 1, 3.0, P.gold, 0.2, mat(P.gold, { roughness: 0.3, metalness: 0.4 })); put(hD, b22, -3.6, 0, -3.4); const b24 = rb(3.0, 1, 3.0, P.red, 0.2, mat("#e0584a", { roughness: 0.3, metalness: 0.2 })); put(hD, b24, 3.6, 0, -3.4);
+      const arD = arrowDown(hD, 0, 9.4, -3.4); put(hD, rb(14, 1.4, 2.2, "#6b4a2a", 0.15, mat("#6b4a2a", { roughness: 0.6 })), 0, 0, 5.0); const shD = []; for (let i = 0; i < 9; i++) { const cols = ["#7a4a14", "#2f7a3a", "#a83a2a", "#c89a2a", "#2f5aa0"]; const b = bottle(hD, -5.6 + i * 1.4, 5.0, cols[i % 5], 0.9); b.position.y = 1.4; shD.push(b); }
+      ANCH.rc_22 = () => V(-3.6, 3.8, -3.4); ANCH.rc_24 = () => V(3.6, 3.4, -3.4); ANCH.rc_shelf = () => V(0, 4.6, 5.0); wrapAnch(["rc_22", "rc_24", "rc_shelf"], PL.recul); lampAt(hD, 0, 12, 4, 40, "#ffe0b0");
+      upd((t) => { showHero("recul", hD, t); b22.scale.y = 3.2 * pop(t, TT.d22_on, 0.7); b24.scale.y = Math.max(0.001, 2.95 * pop(t, TT.d24_on, 0.8)); b24.visible = t >= TT.d24_on - 0.02; const a = pop(t, TT.d24_on + 0.3, 0.5); arD.scale.setScalar(a); arD.position.y = 9.4 + Math.sin(t * 4) * 0.3;
+        shD.forEach((b, i) => { b.scale.setScalar(0.9 * pop(t, TT.shelf_on + i * 0.12, 0.35)); b.rotation.y = Math.sin(t * 1.5 + i) * 0.25; }); });
 
-      /* 7 · fret : freight index x2.5, the owner cashes in */
-      const hR = grp(PL.fret); const bar23 = rb(3.0, 1, 3.0, P.blue, 0.2, mat("#3f8fd0", { roughness: 0.3, metalness: 0.2 })); put(hR, bar23, -3.4, 0, -3.0); const bar24 = rb(3.0, 1, 3.0, P.gold, 0.2, mat(P.gold, { roughness: 0.3, metalness: 0.4 })); put(hR, bar24, 3.4, 0, -3.0);
-      const shR = ship(hR, 0.5, { nx: 3, nz: 2, ny: 2, seed: 71 }); shR.g.position.set(0, 0, 5.4); const rainR = []; for (let k = 0; k < 14; k++) { const c = coinM(0.45); c.visible = false; hR.add(c); rainR.push(c); }
-      ANCH.fr_b23 = () => V(-3.4, 3.6, -3.0); ANCH.fr_b24 = () => V(3.4, 8.6, -3.0); ANCH.fr_ship = () => V(0, 4.2, 5.4); wrapAnch(["fr_b23", "fr_b24", "fr_ship"], PL.fret); lampAt(hR, 0, 12, 5, 40, "#ffe0b0");
-      upd((t) => { showHero("fret", hR, t); const a = pop(t, TT.frt_on, 0.7); bar23.scale.y = 3.0 * a; bar24.scale.y = Math.max(0.001, 7.5 * pop(t, TT.b24_on, 0.8)); bar24.visible = t >= TT.b24_on - 0.02; shR.g.scale.setScalar(0.5 * pop(t, TT.gain_on - 0.4, 0.5));
-        rainR.forEach((c, k) => { const u = (((t - TT.gain_on) * 0.7 + k / 14) % 1 + 1) % 1; c.visible = t >= TT.gain_on; c.position.set(-1.6 + (k % 5) * 0.8, 8.0 - u * 6.0, 5.4 + ((k % 3) - 1) * 0.5); c.rotation.x = t * 6; }); });
+      /* 7 · marque : a brand people ask for keeps the tanks running; without it, stock sleeps */
+      const hQ = grp(PL.marque); pedestal(hQ, 3.4).position.set(-4.0, 0, -1.0); const brQ = bottle(hQ, -4.0, -1.0, "#7a4a14", 2.2); brQ.position.y = 0.6; const crQ = grp(hQ, -4.0, 8.0, -1.0); { const m = mat(P.gold, { roughness: 0.2, metalness: 0.95 }); put(crQ, rb(2.4, 0.5, 0.5, P.gold, 0.1, m), 0, 0, 0); [-1, 0, 1].forEach((i) => put(crQ, cyl(0.04, 0.4, 0.9, P.gold, 4, m), i * 0.9, 0.4, 0)); }
+      const tkQ = tank(hQ, 4.2, -5.6, 6, 1.5); const fansQ = []; for (let i = 0; i < 3; i++) { const w = worker(hQ, P.orange, 1.1); w.g.position.set(-6.8 + i * 1.8, 0, 4.4); w.g.rotation.y = -0.3; fansQ.push(w); }
+      const stQ = grp(hQ, 5.6, 0, 3.4); const stk = []; for (let r = 0; r < 3; r++) for (let c = 0; c < 3 - r; c++) { const cr = crate(stQ, -1.6 + c * 1.6 + r * 0.8, r * 0.8, 0, "#6f6f78"); cr.visible = false; stk.push(cr); } const clkQ = clockObj(hQ, 0.8); clkQ.g.position.set(5.6, 7.4, 3.4);
+      ANCH.mq_brand = () => V(-4.0, 9.2, -1.0); ANCH.mq_fans = () => V(-5.8, 3.8, 4.4); ANCH.mq_tank = () => V(4.2, 9.4, -5.6); ANCH.mq_stock = () => V(5.6, 4.0, 3.4); wrapAnch(["mq_brand", "mq_fans", "mq_tank", "mq_stock"], PL.marque); lampAt(hQ, 0, 13, 3, 46, "#ffe0b0");
+      upd((t) => { showHero("marque", hQ, t); brQ.scale.setScalar(2.2 * pop(t, TT.brand_on, 0.7)); brQ.rotation.y = t * 0.8; crQ.scale.setScalar(pop(t, TT.pick_on, 0.5)); crQ.position.y = 8.0 + Math.sin(t * 2) * 0.2; fansQ.forEach((w, i) => { w.g.scale.setScalar(1.1 * pop(t, TT.pick_on + i * 0.12, 0.4)); w.armR.rotation.z = -2.4 + Math.sin(t * 5 + i) * 0.4; });
+        tkQ.scale.setScalar(pop(t, TT.run_on2, 0.6)); tkQ.rotation.y = t * 0.5; stk.forEach((c, i) => { const k = pop(t, TT.idle_on + i * 0.18, 0.35); c.visible = k > 0.01; c.scale.setScalar(Math.max(k, 0.001)); }); clkQ.g.scale.setScalar(0.8 * pop(t, TT.idle_on + 0.2, 0.5)); clkQ.h2.rotation.z = -(t - TT.idle_on) * 4; clkQ.h1.rotation.z = -(t - TT.idle_on) * 0.35; });
 
-      /* 8 · commandes : hundreds of new ships ordered */
-      const hD = grp(PL.commandes); const newShips = []; for (let i = 0; i < 12; i++) { const sp = ship(hD, 0.42, { nx: 3, nz: 2, ny: 2, seed: 80 + i, hull: "#34c3a0" }); sp.g.position.set((i % 3 - 1) * 5.3, 0, -7.0 + Math.floor(i / 3) * 4.0); newShips.push(sp); }
-      ANCH.or_row = () => V(0, 3.6, -7.0); ANCH.or_row2 = () => V(0, 3.6, 3.4); wrapAnch(["or_row", "or_row2"], PL.commandes); lampAt(hD, 0, 12, 2, 40);
-      upd((t) => { showHero("commandes", hD, t); newShips.forEach((sp, i) => { const t0 = TT.ord_on + i * 0.5; const p0 = prog(t, t0, 0.5); sp.g.visible = p0 > 0; sp.g.scale.setScalar(0.42); sp.g.position.y = (1 - bounce(p0)) * 6; }); });
+      /* 8 · verdict : a brand + heavy fixed costs, riding a falling market */
+      const hV = grp(PL.verdict); const wvV = mkWave(hV); wvV.g.position.set(0, 0, -3.2); const bV = bottle(hV, 0, 0, "#7a4a14", 1.2);
+      const wtV = grp(hV, -6.4, 0, 3.6); put(wtV, cyl(1.3, 2.2, 2.4, "#4a5262", 6, mat("#4a5262", { roughness: 0.4, metalness: 0.8 })), 0, 1.2, 0); put(wtV, cyl(0.9, 1.3, 0.6, "#5b6577", 6, mat("#5b6577", { roughness: 0.4, metalness: 0.8 })), 0, 2.7, 0); const arV = arrowDown(hV, 6.6, 6.0, 3.6);
+      ANCH.vd_wave = () => V(0, 8.8, -3.2); ANCH.vd_weight = () => V(-6.4, 4.6, 3.6); ANCH.vd_arrow = () => V(6.6, 9.4, 3.6); wrapAnch(["vd_wave", "vd_weight", "vd_arrow"], PL.verdict); lampAt(hV, 0, 12, 4, 44, "#ffe0b0");
+      upd((t) => { showHero("verdict", hV, t); waveUpd(wvV, t, TT.ver_on); const x = Math.sin(t * 0.45 + 1) * 2.4; bV.scale.setScalar(1.2 * pop(t, TT.ver_on + 0.4, 0.5)); bV.position.set(x, wvV.H(x, t) + 0.1, -3.2); bV.rotation.z = Math.atan(Math.cos(x * 0.5 - t * 1.6)) * 0.4; wtV.scale.setScalar(pop(t, TT.heavy_on, 0.5)); const a = pop(t, TT.down_on, 0.5); arV.scale.setScalar(a); arV.position.y = 6.0 + Math.sin(t * 4) * 0.3; });
 
-      /* 9 · surcapacite : too many ships, rates and value fall */
-      const hZ = grp(PL.surcap); const jam = []; for (let i = 0; i < 6; i++) { const sp = ship(hZ, 0.5, { nx: 3, nz: 2, ny: 2, seed: 90 + i, hull: "#7b8794" }); sp.g.position.set((i % 2 - 0.5) * 7.0, 0, -6.0 + Math.floor(i / 2) * 3.8); jam.push(sp); }
-      const arZ = arrowDown(hZ, 0, 9.0, -1.0); const ctZ = coinTowerMk(hZ, 7.4, 4.8, 12);
-      ANCH.sc_arrow = () => V(0, 12.4, -1.0); ANCH.sc_val = () => V(7.4, 3.6, 4.8); wrapAnch(["sc_arrow", "sc_val"], PL.surcap); lampAt(hZ, 0, 12, 4, 34, "#cfe0ff");
-      upd((t) => { showHero("surcap", hZ, t); jam.forEach((sp, i) => { sp.g.scale.setScalar(0.5 * pop(t, TT.over_on + i * 0.18, 0.4)); }); const a = pop(t, TT.rate_on, 0.5); arZ.scale.setScalar(a); arZ.position.y = 9.0 + 0.4 * Math.sin(t * 4) - (a > 0.5 ? 0.6 : 0);
-        ctZ.cs.forEach((c, k) => { const p0 = prog(t, TT.over_on + 0.5 + k * 0.05, 0.3); const gone = t >= TT.val_on + (11 - k) * 0.12; c.visible = p0 > 0 && !gone; c.position.y = 0.1 + k * 0.17 + (1 - bounce(p0)) * 4; }); });
-
-      /* 10 · verdict : a heavy asset financed by debt, riding the cycle */
-      const hV = grp(PL.verdict); const wvV = mkWave(hV); wvV.g.position.set(0, 0, -3.2); const shV = ship(hV, 0.5, { nx: 3, nz: 2, ny: 2, seed: 101 });
-      const wtV = grp(hV, -6.4, 0, 3.6); put(wtV, cyl(1.3, 2.2, 2.4, "#4a5262", 6, mat("#4a5262", { roughness: 0.4, metalness: 0.8 })), 0, 1.2, 0); put(wtV, cyl(0.9, 1.3, 0.6, "#5b6577", 6, mat("#5b6577", { roughness: 0.4, metalness: 0.8 })), 0, 2.7, 0); const ctV = coinTowerMk(hV, 6.6, 3.8, 14);
-      ANCH.vd_wave = () => V(0, 8.8, -3.2); ANCH.vd_weight = () => V(-6.4, 4.6, 3.6); ANCH.vd_debt = () => V(6.6, 4.2, 3.8); wrapAnch(["vd_wave", "vd_weight", "vd_debt"], PL.verdict); lampAt(hV, 0, 12, 4, 40);
-      upd((t) => { showHero("verdict", hV, t); waveUpd(wvV, t, TT.ver_on); const x = Math.sin(t * 0.45 + 1) * 2.4; shV.g.scale.setScalar(0.5 * pop(t, TT.ver_on + 0.4, 0.5)); shV.g.position.set(x, wvV.H(x, t), -3.2); shV.g.rotation.z = Math.atan(Math.cos(x * 0.5 - t * 1.6)) * 0.5; wtV.scale.setScalar(pop(t, TT.heavy_on, 0.5)); coinTowerUpd(ctV, t, TT.dette_on); });
-
-      /* 11 · cta : a comment bubble and a subscribe button (glossy) */
+      /* 9 · cta : a comment bubble and a subscribe button (glossy) */
       const hC = grp(PL.cta); pedestal(hC, 8); const bub = grp(hC, -2.8, 9.0, 0); { put(bub, rb(5.6, 3.8, 1.2, P.cream, 0.5, mat("#f4f7f6", { roughness: 0.18 })), 0, -3.8, 0); const tail = new THREE.Mesh(new THREE.ConeGeometry(1.0, 1.8, 4), mat("#f4f7f6", { roughness: 0.18 })); tail.rotation.z = Math.PI; tail.position.set(-1.4, -4.1, 0); tail.castShadow = true; bub.add(tail); }
       const dots = [0, 1, 2].map((i) => { const d = sph(0.5, P.navy, 14, mat("#1b2a44", { roughness: 0.3 })); d.position.set(-1.3 + i * 1.3, -1.9, 0.7); bub.add(d); return d; });
       const btn = grp(hC, 3.0, 3.4, 3); { put(btn, rb(4.4, 2.2, 1.2, P.red, 0.6, mat("#e8483c", { roughness: 0.18 })), 0, -1.1, 0); const tri = new THREE.Mesh(new THREE.ConeGeometry(0.8, 1.2, 3), mat("#ffffff", { roughness: 0.3 })); tri.rotation.z = -Math.PI / 2; tri.position.set(-1.4, -1.1, 0.7); btn.add(tri); put(btn, rb(2.2, 0.3, 0.2, P.white, 0.05), 0.8, -1.1, 0.7); }

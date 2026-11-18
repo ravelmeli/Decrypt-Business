@@ -53,7 +53,7 @@
       const pieK = pieMake(hK, [[0.1, "#ffb347", { roughness: 0.25 }], [0.9, "#7b8794", { roughness: 0.4 }]], 3.2, 0.4); pieK.g.position.set(-4.4, 0, 4.2); const ctK1 = coinTowerMk(hK, 3.4, 4.4, 5), ctK2 = coinTowerMk(hK, 7.0, 4.4, 2);
       ANCH.mk_houses = () => V(0, 4.6, -6.0); ANCH.mk_pie = () => V(-4.4, 3.4, 4.2); ANCH.mk_coin = () => V(3.4, 3.4, 4.4); ANCH.mk_coin2 = () => V(7.0, 2.4, 4.4); wrapAnch(["mk_houses", "mk_pie", "mk_coin", "mk_coin2"], PL.marche); lampAt(hK, 0, 13, 3, 44, "#ffe0b0");
       upd((t) => { showHero("marche", hK, t); hs.forEach((h_, i) => { h_.scale.setScalar(0.85 * pop(t, TT.house_on + i * 0.06, 0.35)); }); coinTowerUpd(ctK1, t, TT.price_on); coinTowerUpd(ctK2, t, TT.price_on + 0.3);
-        pieK.sl.forEach((s_, i) => { const t0 = TT.pie_on + i * 0.3; const k = pop(t, t0, 0.6); s_.m.scale.set(k, 1, k); s_.m.visible = t >= t0 - 0.02; }); });
+        pieK.g.visible = t >= TT.pie_on - 0.05; pieK.sl.forEach((s_, i) => { const t0 = TT.pie_on + i * 0.3; const k = pop(t, t0, 0.6); s_.m.scale.set(k, 1, k); s_.m.visible = t >= t0 - 0.02; }); });
 
       /* 6 · recul : the market falls, shelves are crowded */
       const hD = grp(PL.recul); const b22 = rb(3.0, 1, 3.0, P.gold, 0.2, mat(P.gold, { roughness: 0.3, metalness: 0.4 })); put(hD, b22, -3.6, 0, -3.4); const b24 = rb(3.0, 1, 3.0, P.red, 0.2, mat("#e0584a", { roughness: 0.3, metalness: 0.2 })); put(hD, b24, 3.6, 0, -3.4);

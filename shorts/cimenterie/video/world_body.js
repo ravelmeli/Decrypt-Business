@@ -35,7 +35,7 @@
       const pieF = pieMake(hF, [[0.25, "#ff6b5e", { roughness: 0.25 }], [0.75, "#7b8794", { roughness: 0.4 }]], 3.2, 0.4); pieF.g.position.set(5.2, 0, 4.6);
       ANCH.fo_kiln = () => V(0, 7.4, -2.0); ANCH.fo_rock = () => V(-6, 3.4, 4.2); ANCH.fo_pie = () => V(5.2 + Math.sin(pieF.sl[0].mid) * 2.2, 2.6, 4.6 + Math.cos(pieF.sl[0].mid) * 2.2); wrapAnch(["fo_kiln", "fo_rock", "fo_pie"], PL.four); lampAt(hF, 2, 9, 2, 40, "#ffb070");
       upd((t) => { showHero("four", hF, t); klF.g.scale.setScalar(1.4 * pop(t, TT.kiln_on, 0.7)); klF.fire.material.emissiveIntensity = 1.8 + Math.sin(t * 9) * 0.5; rocks.forEach((r, i) => { r.scale.setScalar(pop(t, TT.rock_on + i * 0.12, 0.4)); r.visible = true; });
-        pieF.sl.forEach((s_, i) => { const t0 = TT.energy_on + i * 0.3; const k = pop(t, t0, 0.6); s_.m.scale.set(k, 1, k); s_.m.visible = t >= t0 - 0.02; const out = i === 0 ? Math.min(1, prog(t, TT.energy_on + 0.3, 0.6)) : 0; s_.m.position.set(Math.sin(s_.mid) * out, 0.7, Math.cos(s_.mid) * out); }); });
+        pieF.g.visible = t >= TT.energy_on - 0.05; pieF.sl.forEach((s_, i) => { const t0 = TT.energy_on + i * 0.3; const k = pop(t, t0, 0.6); s_.m.scale.set(k, 1, k); s_.m.visible = t >= t0 - 0.02; const out = i === 0 ? Math.min(1, prog(t, TT.energy_on + 0.3, 0.6)) : 0; s_.m.position.set(Math.sin(s_.mid) * out, 0.7, Math.cos(s_.mid) * out); }); });
 
       /* 4 · co2 : emissions from the chimney, free quotas */
       const hG = grp(PL.co2); const chG = chimney(hG, -2.0, -2.0, 11); const smG = smoke(hG, 9); const tkG = grp(hG, 5.4, 3.2, 2.6); { put(tkG, rb(3.2, 1.8, 0.25, P.green, 0.2, mat(P.green, { roughness: 0.3 })), 0, 0, 0); put(tkG, rb(2.0, 0.22, 0.1, P.white, 0.04), 0, 0.9, 0.16); put(tkG, rb(1.4, 0.22, 0.1, P.white, 0.04), -0.3, 0.45, 0.16); }
