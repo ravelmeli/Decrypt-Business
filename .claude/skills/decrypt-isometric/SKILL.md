@@ -45,3 +45,7 @@ Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.
 ## Préférences utilisateur (long format)
 - Script validé automatiquement (consigne du 2026-11-16) : livrer le script, puis enchaîner dès que la voix WAV est fournie, sans attendre « je valide ».
 - Rendu en pleine qualité, par chapitres, comme restaurant et croisière.
+
+## Préférences utilisateur (Shorts)
+- Consigne du 2026-11-18 : l'utilisateur donne désormais 2 sujets de Short à la fois ; livrer les 2 rendus d'un coup (scripts, voix, rendus lancés en parallèle quand c'est possible), chacun avec titre, 5 titres alternatifs, description et tags.
+- Format de métadonnées : voir shorts/porte-conteneurs/metadata.md.
