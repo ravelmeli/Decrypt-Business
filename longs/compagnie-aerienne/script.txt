@@ -1,0 +1,62 @@
+Une compagnie aérienne transporte des centaines de passagers chaque jour, dans un appareil qui vaut des dizaines de millions de dollars. Et pourtant, à l'échelle mondiale, elle gagne en moyenne quelques dollars par passager.
+Selon l'association professionnelle IATA, le bénéfice net était d'environ neuf dollars par passager en deux mille vingt-cinq. Pour deux mille vingt-six, après la hausse du carburant, la prévision est tombée à quatre dollars cinquante.
+Quatre dollars cinquante, pour un billet qui en coûte souvent plusieurs centaines.
+Où passe tout le reste ? Dans cette vidéo, on ouvre les comptes d'une compagnie aérienne, et on cherche les coûts que le passager ne voit jamais.
+Commençons par le résultat. Dans sa mise à jour de juin deux mille vingt-six, l'IATA prévoit un bénéfice net d'environ vingt-trois milliards de dollars pour l'ensemble de l'industrie, soit une marge nette d'environ deux pour cent.
+Cette prévision a été divisée par deux en quelques mois, à cause de la hausse du prix du carburant. En décembre deux mille vingt-cinq, l'IATA attendait encore quarante et un milliards de dollars.
+Deux pour cent de marge, cela veut dire que sur cent euros encaissés, il en reste deux. Une petite variation de coûts suffit alors à faire basculer une compagnie dans le rouge.
+Ce sont des moyennes mondiales : certaines compagnies gagnent bien plus, d'autres perdent de l'argent.
+Voyons maintenant où part l'argent, poste par poste, en commençant par le plus lourd.
+Le premier coût, c'est le carburant. Selon l'IATA, il représentait environ vingt-cinq virgule quatre pour cent des coûts d'exploitation en deux mille vingt-cinq. Pour deux mille vingt-six, il monte à trente et un virgule quatre pour cent.
+La facture mondiale de carburant passerait ainsi à environ trois cent cinquante milliards de dollars, soit quarante pour cent de plus en un an.
+Autrement dit, quand le prix du pétrole bouge, c'est près d'un tiers des coûts d'une compagnie qui bouge avec lui.
+Certaines compagnies se protègent en achetant une partie de leur carburant à l'avance, une technique appelée couverture. Mais cette protection a un coût, et elle ne couvre jamais tout.
+Deuxième poste : les équipes. Dans ses prévisions, l'IATA estime les coûts hors carburant à environ sept cent soixante-sept milliards de dollars, dont deux cent soixante et onze milliards pour le personnel.
+Rapporté aux coûts d'exploitation totaux, cela représente environ vingt-quatre pour cent, d'après nos calculs.
+Et ce coût ne se limite pas aux salaires des pilotes et du personnel de cabine. Il y a les mécaniciens, le personnel au sol, la formation, les équipes de remplacement.
+Les temps de repos des équipages sont réglementés : un équipage mal placé ne peut pas prendre le vol suivant, et l'avion reste au sol, alors que la compagnie continue de payer.
+Troisième poste, le plus visible : l'avion lui-même. Un Airbus A320neo, l'un des avions les plus courants dans le monde, avait un prix catalogue d'environ cent sept millions de dollars, selon la dernière moyenne publiée par Airbus, en deux mille seize.
+Airbus ne publie plus ses prix catalogue. Mais selon les estimations de l'industrie, les compagnies obtiennent généralement quarante à cinquante pour cent de remise, parfois davantage pour les grosses commandes.
+Des analystes avaient ainsi estimé le prix payé par American Airlines à environ quarante millions de dollars par avion, une estimation non confirmée par le constructeur.
+Ces remises sont confidentielles : le vrai prix d'un avion est l'un des secrets les mieux gardés du secteur.
+Alors, une compagnie achète-t-elle ses avions ? Pas toujours. Selon les sources, entre cinquante et cinquante-huit pour cent de la flotte mondiale est louée à des sociétés de leasing.
+Louer évite de mobiliser des dizaines de millions d'euros d'un coup. Mais le loyer est un coût fixe : il tombe chaque mois, que l'avion vole ou qu'il reste cloué au sol.
+Il existe aussi la cession-bail : la compagnie vend son avion à un bailleur, puis le reprend en location. Elle récupère de la trésorerie tout de suite, mais elle s'engage à payer un loyer pendant des années.
+C'est un premier coût caché : l'avion, au lieu d'être un actif, devient une charge permanente.
+Ensuite, il faut entretenir. Selon différentes estimations, la maintenance pèse entre dix et quinze pour cent des coûts d'exploitation. Une présentation de l'IATA, en deux mille vingt-quatre, parle d'une hausse de onze à quatorze pour cent entre deux mille dix-neuf et deux mille vingt-trois.
+Plusieurs facteurs expliquent cette hausse : une flotte vieillissante, des pièces détachées difficiles à obtenir, et des moteurs qui passent plus de temps en atelier.
+Quand un avion est immobilisé pour maintenance, il ne rapporte rien. Mais il coûte son loyer, son assurance et ses équipes.
+C'est le principe des coûts fixes : un avion au sol est un avion qui perd de l'argent.
+À chaque vol, il faut aussi payer l'infrastructure. Redevances d'atterrissage, de passerelles, de navigation aérienne, de traitement des passagers : chaque aéroport et chaque pays facture ses services.
+Je n'ai pas trouvé de chiffre mondial fiable sur la part de ces redevances dans les coûts, car elles varient énormément d'un pays à l'autre. Ce que l'on sait, c'est qu'elles s'ajoutent à chaque rotation de l'avion.
+Il y a aussi les taxes : une partie de ce que paie le passager est collectée par la compagnie pour le compte des aéroports et des États, et ne lui appartient pas.
+Voilà pourquoi un billet à bas prix peut cacher une structure de coûts très rigide : une partie de son prix repart aussitôt, avant même de payer l'avion et l'équipage.
+Autre coût caché : quand tout ne se passe pas comme prévu. En Europe, le règlement sur les droits des passagers prévoit une indemnisation de deux cent cinquante à six cents euros, selon la distance, en cas d'annulation ou de retard d'au moins trois heures, sauf circonstances extraordinaires.
+À cela s'ajoutent les repas, les hôtels, le réacheminement sur d'autres vols.
+Et il y a le coût de la perturbation : un équipage mal positionné, un avion qui n'est pas là où il devrait être, une rotation du lendemain qui saute.
+Un retard n'est donc jamais un incident isolé : c'est une chaîne de coûts qui se propage à toute la journée de l'avion.
+Dernier gros poste en croissance : la transition écologique. En Europe, la règlementation ReFuelEU impose d'incorporer une part de carburant d'aviation durable, appelé SAF, dans le kérosène : deux pour cent dès deux mille vingt-cinq, selon une source.
+Le problème, c'est le prix. Selon l'IATA, le SAF coûtait en moyenne trois virgule un fois plus cher que le kérosène classique en deux mille vingt-quatre, et ce multiple devrait atteindre quatre virgule deux en deux mille vingt-cinq.
+Au niveau mondial, le SAF ne représente que zéro virgule six pour cent du carburant consommé en deux mille vingt-cinq, mais sa prime de prix ajouterait déjà environ trois virgule six milliards de dollars à la facture de l'industrie, toujours selon l'IATA.
+Et ce n'est qu'un début : les obligations augmentent avec les années.
+Tous ces coûts ont une particularité : la plupart sont fixes. L'avion, l'équipage, les redevances sont les mêmes que le siège soit occupé ou non.
+C'est pour cela que le taux de remplissage est la variable la plus surveillée. En deux mille vingt-cinq, il a atteint un niveau record de quatre-vingt-trois virgule six pour cent, selon l'IATA, qui prévoit quatre-vingt-quatre pour cent en deux mille vingt-six.
+Autrement dit, il reste en moyenne environ un siège sur six vide. Et un siège vide ne rapporte rien, alors que le vol coûte presque le même prix.
+Le point mort, c'est le taux de remplissage à partir duquel la compagnie ne perd plus d'argent. Je n'ai pas trouvé de chiffre mondial fiable, mais le principe est simple : plus la marge est faible, plus le point mort est proche du taux de remplissage réel.
+Alors comment les compagnies compensent-elles ? En vendant autre chose que le billet. Selon IdeaWorksCompany, les revenus annexes ont atteint environ cent quarante-huit milliards de dollars dans le monde en deux mille vingt-quatre.
+Cela représente environ trente-cinq dollars par passager, et près de quinze pour cent du chiffre d'affaires des compagnies, d'après une source secondaire citant ce rapport.
+Bagages, choix du siège, repas, embarquement prioritaire : le billet devient un prix d'appel, et ce sont les options qui font la marge.
+Chez Frontier, une compagnie américaine à bas coûts, ces revenus annexes dépassaient même soixante pour cent du chiffre d'affaires en deux mille vingt-quatre.
+Il existe un autre revenu que le passager ne voit pas : la fidélité. Les cinq plus grandes compagnies américaines ont généré environ vingt-huit milliards de dollars de revenus de fidélité en deux mille vingt-quatre, principalement grâce aux cartes bancaires co-marquées.
+Le mécanisme est simple : une banque achète des milles à la compagnie, puis les distribue à ses clients qui dépensent avec la carte.
+Pour la compagnie, c'est un revenu récurrent, qui ne dépend ni du prix du carburant ni du taux de remplissage d'un vol donné.
+Tout porte à croire que c'est une des raisons pour lesquelles ces programmes sont devenus si stratégiques.
+Reste la question du capital. Une compagnie aérienne immobilise énormément d'argent : avions, pièces, moteurs, bâtiments. Pour juger si cet argent est bien employé, on regarde le rendement du capital investi.
+Dans ses prévisions de décembre deux mille vingt-cinq, l'IATA estimait ce rendement à environ quatre virgule trois pour cent pour deux mille vingt-six, nettement sous le coût du capital, estimé à huit virgule cinq pour cent. Ces prévisions ont depuis été revues à la baisse.
+Cela signifie qu'en moyenne, l'industrie gagne moins que ce que lui coûte l'argent qu'elle utilise.
+Autrement dit, une compagnie peut être pleine, ponctuelle et bénéficiaire, et malgré tout décevoir ses investisseurs.
+Faisons le point. Une compagnie aérienne, c'est d'abord une machine à coûts fixes : un avion, un équipage, du carburant, des redevances. Tout cela se paie avant d'avoir vendu un seul siège.
+Les revenus, eux, dépendent du remplissage, du prix du pétrole, de la météo et des retards. Une marge de deux pour cent laisse très peu de place aux erreurs.
+Pour s'en sortir, les compagnies jouent sur trois leviers : remplir les avions, vendre des options autour du billet, et fidéliser les passagers.
+Le billet que vous achetez n'est donc que la partie visible d'un équilibre fragile.
+Dites-moi en commentaire : quel coût vous a le plus surpris dans cette vidéo ? Et abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes.
