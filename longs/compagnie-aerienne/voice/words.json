@@ -1,0 +1,12224 @@
+[
+{
+"line": 0,
+"t": "Une",
+"s": 0.005,
+"e": 0.38,
+"matched": true
+},
+{
+"line": 0,
+"t": "compagnie",
+"s": 0.38,
+"e": 0.825,
+"matched": true
+},
+{
+"line": 0,
+"t": "aérienne",
+"s": 0.825,
+"e": 1.438,
+"matched": true
+},
+{
+"line": 0,
+"t": "transporte",
+"s": 1.438,
+"e": 2.07,
+"matched": true
+},
+{
+"line": 0,
+"t": "des",
+"s": 2.07,
+"e": 2.377,
+"matched": true
+},
+{
+"line": 0,
+"t": "centaines",
+"s": 2.377,
+"e": 3.032,
+"matched": true
+},
+{
+"line": 0,
+"t": "de",
+"s": 3.032,
+"e": 3.28,
+"matched": true
+},
+{
+"line": 0,
+"t": "passagers",
+"s": 3.28,
+"e": 3.834,
+"matched": true
+},
+{
+"line": 0,
+"t": "chaque",
+"s": 3.834,
+"e": 4.313,
+"matched": true
+},
+{
+"line": 0,
+"t": "jour,",
+"s": 4.313,
+"e": 4.81,
+"matched": true
+},
+{
+"line": 0,
+"t": "dans",
+"s": 4.81,
+"e": 4.93,
+"matched": true
+},
+{
+"line": 0,
+"t": "un",
+"s": 4.93,
+"e": 5.05,
+"matched": true
+},
+{
+"line": 0,
+"t": "appareil",
+"s": 5.05,
+"e": 5.27,
+"matched": true
+},
+{
+"line": 0,
+"t": "qui",
+"s": 5.27,
+"e": 5.615,
+"matched": true
+},
+{
+"line": 0,
+"t": "vaut",
+"s": 5.615,
+"e": 5.741,
+"matched": true
+},
+{
+"line": 0,
+"t": "des",
+"s": 5.741,
+"e": 5.861,
+"matched": true
+},
+{
+"line": 0,
+"t": "dizaines",
+"s": 5.861,
+"e": 6.563,
+"matched": true
+},
+{
+"line": 0,
+"t": "de",
+"s": 6.563,
+"e": 6.683,
+"matched": true
+},
+{
+"line": 0,
+"t": "millions",
+"s": 6.683,
+"e": 7.091,
+"matched": true
+},
+{
+"line": 0,
+"t": "de",
+"s": 7.091,
+"e": 7.211,
+"matched": true
+},
+{
+"line": 0,
+"t": "dollars.",
+"s": 7.211,
+"e": 7.9,
+"matched": true
+},
+{
+"line": 0,
+"t": "Et",
+"s": 7.9,
+"e": 8.205,
+"matched": true
+},
+{
+"line": 0,
+"t": "pourtant,",
+"s": 8.205,
+"e": 8.53,
+"matched": true
+},
+{
+"line": 0,
+"t": "à",
+"s": 8.53,
+"e": 8.655,
+"matched": true
+},
+{
+"line": 0,
+"t": "l'échelle",
+"s": 8.655,
+"e": 9.135,
+"matched": true
+},
+{
+"line": 0,
+"t": "mondiale,",
+"s": 9.135,
+"e": 9.741,
+"matched": true
+},
+{
+"line": 0,
+"t": "elle",
+"s": 9.741,
+"e": 9.986,
+"matched": true
+},
+{
+"line": 0,
+"t": "gagne",
+"s": 9.986,
+"e": 10.279,
+"matched": true
+},
+{
+"line": 0,
+"t": "en",
+"s": 10.279,
+"e": 10.407,
+"matched": true
+},
+{
+"line": 0,
+"t": "moyenne",
+"s": 10.407,
+"e": 10.837,
+"matched": true
+},
+{
+"line": 0,
+"t": "quelques",
+"s": 10.837,
+"e": 11.225,
+"matched": true
+},
+{
+"line": 0,
+"t": "dollars",
+"s": 11.225,
+"e": 11.756,
+"matched": true
+},
+{
+"line": 0,
+"t": "par",
+"s": 11.756,
+"e": 11.942,
+"matched": true
+},
+{
+"line": 0,
+"t": "passager.",
+"s": 11.942,
+"e": 12.705,
+"matched": true
+},
+{
+"line": 1,
+"t": "Selon",
+"s": 13.3,
+"e": 13.575,
+"matched": true
+},
+{
+"line": 1,
+"t": "l'association",
+"s": 13.575,
+"e": 14.21,
+"matched": true
+},
+{
+"line": 1,
+"t": "professionnelle",
+"s": 14.21,
+"e": 14.666,
+"matched": true
+},
+{
+"line": 1,
+"t": "IATA,",
+"s": 14.666,
+"e": 15.187,
+"matched": false
+},
+{
+"line": 1,
+"t": "le",
+"s": 15.187,
+"e": 15.36,
+"matched": true
+},
+{
+"line": 1,
+"t": "bénéfice",
+"s": 15.36,
+"e": 15.805,
+"matched": true
+},
+{
+"line": 1,
+"t": "net",
+"s": 15.805,
+"e": 16.0,
+"matched": true
+},
+{
+"line": 1,
+"t": "était",
+"s": 16.0,
+"e": 16.29,
+"matched": true
+},
+{
+"line": 1,
+"t": "d'environ",
+"s": 16.29,
+"e": 16.723,
+"matched": true
+},
+{
+"line": 1,
+"t": "neuf",
+"s": 16.723,
+"e": 16.951,
+"matched": true
+},
+{
+"line": 1,
+"t": "dollars",
+"s": 16.951,
+"e": 17.4,
+"matched": true
+},
+{
+"line": 1,
+"t": "par",
+"s": 17.4,
+"e": 17.52,
+"matched": true
+},
+{
+"line": 1,
+"t": "passager",
+"s": 17.52,
+"e": 17.9,
+"matched": true
+},
+{
+"line": 1,
+"t": "en",
+"s": 17.9,
+"e": 18.235,
+"matched": true
+},
+{
+"line": 1,
+"t": "deux",
+"s": 18.235,
+"e": 18.478,
+"matched": false
+},
+{
+"line": 1,
+"t": "mille",
+"s": 18.478,
+"e": 18.729,
+"matched": false
+},
+{
+"line": 1,
+"t": "vingt-cinq.",
+"s": 18.729,
+"e": 19.04,
+"matched": false
+},
+{
+"line": 1,
+"t": "Pour",
+"s": 19.04,
+"e": 19.215,
+"matched": true
+},
+{
+"line": 1,
+"t": "deux",
+"s": 19.215,
+"e": 19.559,
+"matched": false
+},
+{
+"line": 1,
+"t": "mille",
+"s": 19.559,
+"e": 19.765,
+"matched": false
+},
+{
+"line": 1,
+"t": "vingt-six,",
+"s": 19.765,
+"e": 20.137,
+"matched": false
+},
+{
+"line": 1,
+"t": "après",
+"s": 20.137,
+"e": 20.46,
+"matched": true
+},
+{
+"line": 1,
+"t": "la",
+"s": 20.46,
+"e": 20.635,
+"matched": true
+},
+{
+"line": 1,
+"t": "hausse",
+"s": 20.635,
+"e": 20.985,
+"matched": true
+},
+{
+"line": 1,
+"t": "du",
+"s": 20.985,
+"e": 21.105,
+"matched": true
+},
+{
+"line": 1,
+"t": "carburant,",
+"s": 21.105,
+"e": 21.797,
+"matched": true
+},
+{
+"line": 1,
+"t": "la",
+"s": 21.797,
+"e": 21.917,
+"matched": true
+},
+{
+"line": 1,
+"t": "prévision",
+"s": 21.917,
+"e": 22.52,
+"matched": true
+},
+{
+"line": 1,
+"t": "est",
+"s": 22.52,
+"e": 22.688,
+"matched": true
+},
+{
+"line": 1,
+"t": "tombée",
+"s": 22.688,
+"e": 23.1,
+"matched": true
+},
+{
+"line": 1,
+"t": "à",
+"s": 23.1,
+"e": 23.461,
+"matched": true
+},
+{
+"line": 1,
+"t": "quatre",
+"s": 23.461,
+"e": 23.84,
+"matched": false
+},
+{
+"line": 1,
+"t": "dollars",
+"s": 23.84,
+"e": 24.257,
+"matched": true
+},
+{
+"line": 1,
+"t": "cinquante.",
+"s": 24.257,
+"e": 24.67,
+"matched": false
+},
+{
+"line": 2,
+"t": "Quatre",
+"s": 25.655,
+"e": 25.775,
+"matched": false
+},
+{
+"line": 2,
+"t": "dollars",
+"s": 25.775,
+"e": 25.98,
+"matched": true
+},
+{
+"line": 2,
+"t": "cinquante,",
+"s": 25.98,
+"e": 26.133,
+"matched": false
+},
+{
+"line": 2,
+"t": "pour",
+"s": 26.133,
+"e": 26.515,
+"matched": true
+},
+{
+"line": 2,
+"t": "un",
+"s": 26.515,
+"e": 26.665,
+"matched": true
+},
+{
+"line": 2,
+"t": "billet",
+"s": 26.665,
+"e": 26.83,
+"matched": false
+},
+{
+"line": 2,
+"t": "qui",
+"s": 26.83,
+"e": 27.13,
+"matched": true
+},
+{
+"line": 2,
+"t": "en",
+"s": 27.13,
+"e": 27.25,
+"matched": true
+},
+{
+"line": 2,
+"t": "coûte",
+"s": 27.25,
+"e": 27.57,
+"matched": true
+},
+{
+"line": 2,
+"t": "souvent",
+"s": 27.57,
+"e": 28.045,
+"matched": true
+},
+{
+"line": 2,
+"t": "plusieurs",
+"s": 28.045,
+"e": 28.815,
+"matched": true
+},
+{
+"line": 2,
+"t": "centaines.",
+"s": 28.815,
+"e": 30.655,
+"matched": true
+},
+{
+"line": 3,
+"t": "Où",
+"s": 31.2,
+"e": 31.32,
+"matched": false
+},
+{
+"line": 3,
+"t": "passe",
+"s": 31.32,
+"e": 31.44,
+"matched": false
+},
+{
+"line": 3,
+"t": "tout",
+"s": 31.44,
+"e": 31.56,
+"matched": false
+},
+{
+"line": 3,
+"t": "le",
+"s": 31.56,
+"e": 31.68,
+"matched": false
+},
+{
+"line": 3,
+"t": "reste",
+"s": 31.68,
+"e": 31.8,
+"matched": false
+},
+{
+"line": 3,
+"t": "?",
+"s": 31.8,
+"e": 31.92,
+"matched": false
+},
+{
+"line": 3,
+"t": "Dans",
+"s": 31.92,
+"e": 32.04,
+"matched": true
+},
+{
+"line": 3,
+"t": "cette",
+"s": 32.04,
+"e": 32.16,
+"matched": true
+},
+{
+"line": 3,
+"t": "vidéo,",
+"s": 32.16,
+"e": 32.28,
+"matched": true
+},
+{
+"line": 3,
+"t": "on",
+"s": 32.28,
+"e": 32.4,
+"matched": true
+},
+{
+"line": 3,
+"t": "ouvre",
+"s": 32.4,
+"e": 32.52,
+"matched": true
+},
+{
+"line": 3,
+"t": "les",
+"s": 32.52,
+"e": 32.64,
+"matched": true
+},
+{
+"line": 3,
+"t": "comptes",
+"s": 32.64,
+"e": 32.855,
+"matched": true
+},
+{
+"line": 3,
+"t": "d'une",
+"s": 32.855,
+"e": 33.16,
+"matched": true
+},
+{
+"line": 3,
+"t": "compagnie",
+"s": 33.16,
+"e": 33.623,
+"matched": true
+},
+{
+"line": 3,
+"t": "aérienne,",
+"s": 33.623,
+"e": 34.145,
+"matched": true
+},
+{
+"line": 3,
+"t": "et",
+"s": 34.145,
+"e": 34.31,
+"matched": true
+},
+{
+"line": 3,
+"t": "on",
+"s": 34.31,
+"e": 34.43,
+"matched": true
+},
+{
+"line": 3,
+"t": "cherche",
+"s": 34.43,
+"e": 34.73,
+"matched": true
+},
+{
+"line": 3,
+"t": "les",
+"s": 34.73,
+"e": 34.945,
+"matched": true
+},
+{
+"line": 3,
+"t": "coûts",
+"s": 34.945,
+"e": 35.335,
+"matched": true
+},
+{
+"line": 3,
+"t": "que",
+"s": 35.335,
+"e": 35.544,
+"matched": true
+},
+{
+"line": 3,
+"t": "le",
+"s": 35.544,
+"e": 35.664,
+"matched": true
+},
+{
+"line": 3,
+"t": "passager",
+"s": 35.664,
+"e": 36.005,
+"matched": true
+},
+{
+"line": 3,
+"t": "ne",
+"s": 36.005,
+"e": 36.223,
+"matched": true
+},
+{
+"line": 3,
+"t": "voit",
+"s": 36.223,
+"e": 36.475,
+"matched": true
+},
+{
+"line": 3,
+"t": "jamais.",
+"s": 36.475,
+"e": 37.1,
+"matched": true
+},
+{
+"line": 4,
+"t": "Commençons",
+"s": 37.225,
+"e": 37.725,
+"matched": true
+},
+{
+"line": 4,
+"t": "par",
+"s": 37.725,
+"e": 37.883,
+"matched": true
+},
+{
+"line": 4,
+"t": "le",
+"s": 37.883,
+"e": 38.033,
+"matched": true
+},
+{
+"line": 4,
+"t": "résultat.",
+"s": 38.033,
+"e": 38.845,
+"matched": true
+},
+{
+"line": 4,
+"t": "Dans",
+"s": 38.845,
+"e": 39.06,
+"matched": true
+},
+{
+"line": 4,
+"t": "sa",
+"s": 39.06,
+"e": 39.248,
+"matched": true
+},
+{
+"line": 4,
+"t": "mise",
+"s": 39.248,
+"e": 39.459,
+"matched": true
+},
+{
+"line": 4,
+"t": "à",
+"s": 39.459,
+"e": 39.579,
+"matched": true
+},
+{
+"line": 4,
+"t": "jour",
+"s": 39.579,
+"e": 39.801,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 39.801,
+"e": 39.921,
+"matched": true
+},
+{
+"line": 4,
+"t": "juin",
+"s": 39.921,
+"e": 40.165,
+"matched": true
+},
+{
+"line": 4,
+"t": "deux",
+"s": 40.165,
+"e": 40.285,
+"matched": false
+},
+{
+"line": 4,
+"t": "mille",
+"s": 40.285,
+"e": 40.582,
+"matched": false
+},
+{
+"line": 4,
+"t": "vingt-six,",
+"s": 40.582,
+"e": 40.81,
+"matched": false
+},
+{
+"line": 4,
+"t": "l'IATA",
+"s": 40.81,
+"e": 41.05,
+"matched": false
+},
+{
+"line": 4,
+"t": "prévoit",
+"s": 41.05,
+"e": 41.27,
+"matched": true
+},
+{
+"line": 4,
+"t": "un",
+"s": 41.27,
+"e": 41.427,
+"matched": true
+},
+{
+"line": 4,
+"t": "bénéfice",
+"s": 41.427,
+"e": 41.85,
+"matched": true
+},
+{
+"line": 4,
+"t": "net",
+"s": 41.85,
+"e": 41.97,
+"matched": true
+},
+{
+"line": 4,
+"t": "d'environ",
+"s": 41.97,
+"e": 42.33,
+"matched": true
+},
+{
+"line": 4,
+"t": "vingt-trois",
+"s": 42.33,
+"e": 42.823,
+"matched": false
+},
+{
+"line": 4,
+"t": "milliards",
+"s": 42.823,
+"e": 43.34,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 43.34,
+"e": 43.486,
+"matched": true
+},
+{
+"line": 4,
+"t": "dollars",
+"s": 43.486,
+"e": 43.93,
+"matched": true
+},
+{
+"line": 4,
+"t": "pour",
+"s": 43.93,
+"e": 44.219,
+"matched": true
+},
+{
+"line": 4,
+"t": "l'ensemble",
+"s": 44.219,
+"e": 45.03,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 45.03,
+"e": 45.15,
+"matched": true
+},
+{
+"line": 4,
+"t": "l'industrie,",
+"s": 45.15,
+"e": 45.965,
+"matched": true
+},
+{
+"line": 4,
+"t": "soit",
+"s": 45.965,
+"e": 46.38,
+"matched": true
+},
+{
+"line": 4,
+"t": "une",
+"s": 46.38,
+"e": 46.531,
+"matched": true
+},
+{
+"line": 4,
+"t": "marge",
+"s": 46.531,
+"e": 46.746,
+"matched": false
+},
+{
+"line": 4,
+"t": "nette",
+"s": 46.746,
+"e": 46.96,
+"matched": false
+},
+{
+"line": 4,
+"t": "d'environ",
+"s": 46.96,
+"e": 47.284,
+"matched": true
+},
+{
+"line": 4,
+"t": "deux",
+"s": 47.284,
+"e": 47.505,
+"matched": false
+},
+{
+"line": 4,
+"t": "pour",
+"s": 47.505,
+"e": 47.97,
+"matched": false
+},
+{
+"line": 4,
+"t": "cent.",
+"s": 47.97,
+"e": 48.255,
+"matched": false
+},
+{
+"line": 5,
+"t": "Cette",
+"s": 48.9,
+"e": 49.02,
+"matched": false
+},
+{
+"line": 5,
+"t": "prévision",
+"s": 49.02,
+"e": 49.14,
+"matched": false
+},
+{
+"line": 5,
+"t": "a",
+"s": 49.14,
+"e": 49.26,
+"matched": true
+},
+{
+"line": 5,
+"t": "été",
+"s": 49.26,
+"e": 49.38,
+"matched": true
+},
+{
+"line": 5,
+"t": "divisée",
+"s": 49.38,
+"e": 49.535,
+"matched": true
+},
+{
+"line": 5,
+"t": "par",
+"s": 49.535,
+"e": 49.664,
+"matched": true
+},
+{
+"line": 5,
+"t": "deux",
+"s": 49.664,
+"e": 49.965,
+"matched": true
+},
+{
+"line": 5,
+"t": "en",
+"s": 49.965,
+"e": 50.085,
+"matched": true
+},
+{
+"line": 5,
+"t": "quelques",
+"s": 50.085,
+"e": 50.78,
+"matched": true
+},
+{
+"line": 5,
+"t": "mois,",
+"s": 50.78,
+"e": 50.944,
+"matched": true
+},
+{
+"line": 5,
+"t": "à",
+"s": 50.944,
+"e": 51.075,
+"matched": true
+},
+{
+"line": 5,
+"t": "cause",
+"s": 51.075,
+"e": 51.33,
+"matched": true
+},
+{
+"line": 5,
+"t": "de",
+"s": 51.33,
+"e": 51.465,
+"matched": true
+},
+{
+"line": 5,
+"t": "la",
+"s": 51.465,
+"e": 51.585,
+"matched": true
+},
+{
+"line": 5,
+"t": "hausse",
+"s": 51.585,
+"e": 51.808,
+"matched": true
+},
+{
+"line": 5,
+"t": "du",
+"s": 51.808,
+"e": 51.928,
+"matched": true
+},
+{
+"line": 5,
+"t": "prix",
+"s": 51.928,
+"e": 52.2,
+"matched": true
+},
+{
+"line": 5,
+"t": "du",
+"s": 52.2,
+"e": 52.32,
+"matched": true
+},
+{
+"line": 5,
+"t": "carburant.",
+"s": 52.32,
+"e": 52.939,
+"matched": true
+},
+{
+"line": 5,
+"t": "En",
+"s": 52.939,
+"e": 53.059,
+"matched": true
+},
+{
+"line": 5,
+"t": "décembre",
+"s": 53.059,
+"e": 53.355,
+"matched": true
+},
+{
+"line": 5,
+"t": "deux",
+"s": 53.355,
+"e": 53.68,
+"matched": false
+},
+{
+"line": 5,
+"t": "mille",
+"s": 53.68,
+"e": 53.902,
+"matched": false
+},
+{
+"line": 5,
+"t": "vingt-cinq,",
+"s": 53.902,
+"e": 54.23,
+"matched": false
+},
+{
+"line": 5,
+"t": "l'IATA",
+"s": 54.23,
+"e": 54.478,
+"matched": false
+},
+{
+"line": 5,
+"t": "attendait",
+"s": 54.478,
+"e": 55.075,
+"matched": true
+},
+{
+"line": 5,
+"t": "encore",
+"s": 55.075,
+"e": 55.202,
+"matched": true
+},
+{
+"line": 5,
+"t": "quarante",
+"s": 55.202,
+"e": 55.45,
+"matched": false
+},
+{
+"line": 5,
+"t": "et",
+"s": 55.45,
+"e": 55.625,
+"matched": false
+},
+{
+"line": 5,
+"t": "un",
+"s": 55.625,
+"e": 55.745,
+"matched": false
+},
+{
+"line": 5,
+"t": "milliards",
+"s": 55.745,
+"e": 56.16,
+"matched": true
+},
+{
+"line": 5,
+"t": "de",
+"s": 56.16,
+"e": 56.28,
+"matched": true
+},
+{
+"line": 5,
+"t": "dollars.",
+"s": 56.28,
+"e": 57.25,
+"matched": true
+},
+{
+"line": 6,
+"t": "Deux",
+"s": 58.045,
+"e": 58.165,
+"matched": false
+},
+{
+"line": 6,
+"t": "pour",
+"s": 58.165,
+"e": 58.285,
+"matched": false
+},
+{
+"line": 6,
+"t": "cent",
+"s": 58.285,
+"e": 58.405,
+"matched": false
+},
+{
+"line": 6,
+"t": "de",
+"s": 58.405,
+"e": 58.525,
+"matched": true
+},
+{
+"line": 6,
+"t": "marge,",
+"s": 58.525,
+"e": 59.199,
+"matched": true
+},
+{
+"line": 6,
+"t": "cela",
+"s": 59.199,
+"e": 59.53,
+"matched": true
+},
+{
+"line": 6,
+"t": "veut",
+"s": 59.53,
+"e": 59.65,
+"matched": true
+},
+{
+"line": 6,
+"t": "dire",
+"s": 59.65,
+"e": 59.785,
+"matched": true
+},
+{
+"line": 6,
+"t": "que",
+"s": 59.785,
+"e": 59.91,
+"matched": true
+},
+{
+"line": 6,
+"t": "sur",
+"s": 59.91,
+"e": 60.198,
+"matched": true
+},
+{
+"line": 6,
+"t": "cent",
+"s": 60.198,
+"e": 60.56,
+"matched": false
+},
+{
+"line": 6,
+"t": "euros",
+"s": 60.56,
+"e": 60.727,
+"matched": true
+},
+{
+"line": 6,
+"t": "encaissés,",
+"s": 60.727,
+"e": 61.256,
+"matched": true
+},
+{
+"line": 6,
+"t": "il",
+"s": 61.256,
+"e": 61.435,
+"matched": true
+},
+{
+"line": 6,
+"t": "en",
+"s": 61.435,
+"e": 61.555,
+"matched": true
+},
+{
+"line": 6,
+"t": "reste",
+"s": 61.555,
+"e": 61.7,
+"matched": true
+},
+{
+"line": 6,
+"t": "deux.",
+"s": 61.7,
+"e": 62.14,
+"matched": true
+},
+{
+"line": 6,
+"t": "Une",
+"s": 62.14,
+"e": 62.438,
+"matched": true
+},
+{
+"line": 6,
+"t": "petite",
+"s": 62.438,
+"e": 62.558,
+"matched": true
+},
+{
+"line": 6,
+"t": "variation",
+"s": 62.558,
+"e": 63.01,
+"matched": true
+},
+{
+"line": 6,
+"t": "de",
+"s": 63.01,
+"e": 63.13,
+"matched": true
+},
+{
+"line": 6,
+"t": "coûts",
+"s": 63.13,
+"e": 63.28,
+"matched": true
+},
+{
+"line": 6,
+"t": "suffit",
+"s": 63.28,
+"e": 63.601,
+"matched": true
+},
+{
+"line": 6,
+"t": "alors",
+"s": 63.601,
+"e": 63.93,
+"matched": true
+},
+{
+"line": 6,
+"t": "à",
+"s": 63.93,
+"e": 64.05,
+"matched": true
+},
+{
+"line": 6,
+"t": "faire",
+"s": 64.05,
+"e": 64.17,
+"matched": true
+},
+{
+"line": 6,
+"t": "basculer",
+"s": 64.17,
+"e": 64.485,
+"matched": true
+},
+{
+"line": 6,
+"t": "une",
+"s": 64.485,
+"e": 64.87,
+"matched": true
+},
+{
+"line": 6,
+"t": "compagnie",
+"s": 64.87,
+"e": 65.065,
+"matched": true
+},
+{
+"line": 6,
+"t": "dans",
+"s": 65.065,
+"e": 65.305,
+"matched": true
+},
+{
+"line": 6,
+"t": "le",
+"s": 65.305,
+"e": 65.425,
+"matched": true
+},
+{
+"line": 6,
+"t": "rouge.",
+"s": 65.425,
+"e": 66.37,
+"matched": true
+},
+{
+"line": 7,
+"t": "Ce",
+"s": 67.12,
+"e": 67.24,
+"matched": false
+},
+{
+"line": 7,
+"t": "sont",
+"s": 67.24,
+"e": 67.36,
+"matched": false
+},
+{
+"line": 7,
+"t": "des",
+"s": 67.36,
+"e": 67.48,
+"matched": false
+},
+{
+"line": 7,
+"t": "moyennes",
+"s": 67.48,
+"e": 67.6,
+"matched": false
+},
+{
+"line": 7,
+"t": "mondiales",
+"s": 67.6,
+"e": 67.72,
+"matched": true
+},
+{
+"line": 7,
+"t": ":",
+"s": 67.72,
+"e": 67.84,
+"matched": false
+},
+{
+"line": 7,
+"t": "certaines",
+"s": 67.84,
+"e": 68.131,
+"matched": true
+},
+{
+"line": 7,
+"t": "compagnies",
+"s": 68.131,
+"e": 68.51,
+"matched": false
+},
+{
+"line": 7,
+"t": "gagnent",
+"s": 68.51,
+"e": 69.0,
+"matched": true
+},
+{
+"line": 7,
+"t": "bien",
+"s": 69.0,
+"e": 69.12,
+"matched": true
+},
+{
+"line": 7,
+"t": "plus,",
+"s": 69.12,
+"e": 69.465,
+"matched": true
+},
+{
+"line": 7,
+"t": "d'autres",
+"s": 69.465,
+"e": 69.818,
+"matched": true
+},
+{
+"line": 7,
+"t": "perdent",
+"s": 69.818,
+"e": 70.13,
+"matched": true
+},
+{
+"line": 7,
+"t": "de",
+"s": 70.13,
+"e": 70.25,
+"matched": true
+},
+{
+"line": 7,
+"t": "l'argent.",
+"s": 70.25,
+"e": 70.87,
+"matched": true
+},
+{
+"line": 8,
+"t": "Voyons",
+"s": 71.57,
+"e": 71.69,
+"matched": false
+},
+{
+"line": 8,
+"t": "maintenant",
+"s": 71.69,
+"e": 72.11,
+"matched": true
+},
+{
+"line": 8,
+"t": "où",
+"s": 72.11,
+"e": 72.31,
+"matched": true
+},
+{
+"line": 8,
+"t": "part",
+"s": 72.31,
+"e": 72.48,
+"matched": true
+},
+{
+"line": 8,
+"t": "l'argent,",
+"s": 72.48,
+"e": 73.155,
+"matched": true
+},
+{
+"line": 8,
+"t": "poste",
+"s": 73.155,
+"e": 73.505,
+"matched": true
+},
+{
+"line": 8,
+"t": "par",
+"s": 73.505,
+"e": 73.649,
+"matched": true
+},
+{
+"line": 8,
+"t": "poste,",
+"s": 73.649,
+"e": 74.085,
+"matched": true
+},
+{
+"line": 8,
+"t": "en",
+"s": 74.085,
+"e": 74.205,
+"matched": true
+},
+{
+"line": 8,
+"t": "commençant",
+"s": 74.205,
+"e": 74.845,
+"matched": true
+},
+{
+"line": 8,
+"t": "par",
+"s": 74.845,
+"e": 75.06,
+"matched": true
+},
+{
+"line": 8,
+"t": "le",
+"s": 75.06,
+"e": 75.18,
+"matched": true
+},
+{
+"line": 8,
+"t": "plus",
+"s": 75.18,
+"e": 75.38,
+"matched": true
+},
+{
+"line": 8,
+"t": "lourd.",
+"s": 75.38,
+"e": 75.955,
+"matched": true
+},
+{
+"line": 9,
+"t": "Le",
+"s": 76.055,
+"e": 76.441,
+"matched": true
+},
+{
+"line": 9,
+"t": "premier",
+"s": 76.441,
+"e": 76.86,
+"matched": true
+},
+{
+"line": 9,
+"t": "coût,",
+"s": 76.86,
+"e": 77.155,
+"matched": false
+},
+{
+"line": 9,
+"t": "c'est",
+"s": 77.155,
+"e": 77.61,
+"matched": true
+},
+{
+"line": 9,
+"t": "le",
+"s": 77.61,
+"e": 77.755,
+"matched": true
+},
+{
+"line": 9,
+"t": "carburant.",
+"s": 77.755,
+"e": 78.755,
+"matched": true
+},
+{
+"line": 9,
+"t": "Selon",
+"s": 78.755,
+"e": 79.181,
+"matched": true
+},
+{
+"line": 9,
+"t": "l'IATA,",
+"s": 79.181,
+"e": 79.646,
+"matched": false
+},
+{
+"line": 9,
+"t": "il",
+"s": 79.646,
+"e": 79.766,
+"matched": true
+},
+{
+"line": 9,
+"t": "représentait",
+"s": 79.766,
+"e": 80.755,
+"matched": true
+},
+{
+"line": 9,
+"t": "environ",
+"s": 80.755,
+"e": 80.933,
+"matched": true
+},
+{
+"line": 9,
+"t": "vingt-cinq",
+"s": 80.933,
+"e": 81.145,
+"matched": false
+},
+{
+"line": 9,
+"t": "virgule",
+"s": 81.145,
+"e": 81.44,
+"matched": false
+},
+{
+"line": 9,
+"t": "quatre",
+"s": 81.44,
+"e": 81.62,
+"matched": false
+},
+{
+"line": 9,
+"t": "pour",
+"s": 81.62,
+"e": 81.886,
+"matched": true
+},
+{
+"line": 9,
+"t": "cent",
+"s": 81.886,
+"e": 82.203,
+"matched": true
+},
+{
+"line": 9,
+"t": "des",
+"s": 82.203,
+"e": 82.475,
+"matched": true
+},
+{
+"line": 9,
+"t": "coûts",
+"s": 82.475,
+"e": 82.815,
+"matched": true
+},
+{
+"line": 9,
+"t": "d'exploitation",
+"s": 82.815,
+"e": 83.93,
+"matched": true
+},
+{
+"line": 9,
+"t": "en",
+"s": 83.93,
+"e": 84.285,
+"matched": true
+},
+{
+"line": 9,
+"t": "deux",
+"s": 84.285,
+"e": 84.67,
+"matched": false
+},
+{
+"line": 9,
+"t": "mille",
+"s": 84.67,
+"e": 84.985,
+"matched": false
+},
+{
+"line": 9,
+"t": "vingt-cinq.",
+"s": 84.985,
+"e": 85.334,
+"matched": false
+},
+{
+"line": 9,
+"t": "Pour",
+"s": 85.334,
+"e": 85.685,
+"matched": true
+},
+{
+"line": 9,
+"t": "deux",
+"s": 85.685,
+"e": 86.13,
+"matched": false
+},
+{
+"line": 9,
+"t": "mille",
+"s": 86.13,
+"e": 86.422,
+"matched": false
+},
+{
+"line": 9,
+"t": "vingt-six,",
+"s": 86.422,
+"e": 86.77,
+"matched": false
+},
+{
+"line": 9,
+"t": "il",
+"s": 86.77,
+"e": 86.99,
+"matched": true
+},
+{
+"line": 9,
+"t": "monte",
+"s": 86.99,
+"e": 87.307,
+"matched": true
+},
+{
+"line": 9,
+"t": "à",
+"s": 87.307,
+"e": 87.427,
+"matched": true
+},
+{
+"line": 9,
+"t": "trente",
+"s": 87.427,
+"e": 87.547,
+"matched": false
+},
+{
+"line": 9,
+"t": "et",
+"s": 87.547,
+"e": 87.667,
+"matched": false
+},
+{
+"line": 9,
+"t": "un",
+"s": 87.667,
+"e": 87.787,
+"matched": false
+},
+{
+"line": 9,
+"t": "virgule",
+"s": 87.787,
+"e": 87.907,
+"matched": false
+},
+{
+"line": 9,
+"t": "quatre",
+"s": 87.907,
+"e": 88.027,
+"matched": false
+},
+{
+"line": 9,
+"t": "pour",
+"s": 88.027,
+"e": 88.147,
+"matched": false
+},
+{
+"line": 9,
+"t": "cent.",
+"s": 88.147,
+"e": 87.38,
+"matched": false
+},
+{
+"line": 10,
+"t": "La",
+"s": 87.48,
+"e": 87.73,
+"matched": true
+},
+{
+"line": 10,
+"t": "facture",
+"s": 87.73,
+"e": 88.235,
+"matched": true
+},
+{
+"line": 10,
+"t": "mondiale",
+"s": 88.235,
+"e": 88.836,
+"matched": true
+},
+{
+"line": 10,
+"t": "de",
+"s": 88.836,
+"e": 88.984,
+"matched": true
+},
+{
+"line": 10,
+"t": "carburant",
+"s": 88.984,
+"e": 89.715,
+"matched": true
+},
+{
+"line": 10,
+"t": "passerait",
+"s": 89.715,
+"e": 90.345,
+"matched": true
+},
+{
+"line": 10,
+"t": "ainsi",
+"s": 90.345,
+"e": 90.56,
+"matched": true
+},
+{
+"line": 10,
+"t": "à",
+"s": 90.56,
+"e": 90.82,
+"matched": false
+},
+{
+"line": 10,
+"t": "environ",
+"s": 90.82,
+"e": 91.172,
+"matched": true
+},
+{
+"line": 10,
+"t": "trois",
+"s": 91.172,
+"e": 91.545,
+"matched": false
+},
+{
+"line": 10,
+"t": "cent",
+"s": 91.545,
+"e": 91.805,
+"matched": false
+},
+{
+"line": 10,
+"t": "cinquante",
+"s": 91.805,
+"e": 92.185,
+"matched": false
+},
+{
+"line": 10,
+"t": "milliards",
+"s": 92.185,
+"e": 92.872,
+"matched": true
+},
+{
+"line": 10,
+"t": "de",
+"s": 92.872,
+"e": 93.43,
+"matched": true
+},
+{
+"line": 10,
+"t": "dollars,",
+"s": 93.43,
+"e": 93.71,
+"matched": true
+},
+{
+"line": 10,
+"t": "soit",
+"s": 93.71,
+"e": 93.98,
+"matched": true
+},
+{
+"line": 10,
+"t": "quarante",
+"s": 93.98,
+"e": 94.275,
+"matched": false
+},
+{
+"line": 10,
+"t": "pour",
+"s": 94.275,
+"e": 94.465,
+"matched": true
+},
+{
+"line": 10,
+"t": "cent",
+"s": 94.465,
+"e": 94.61,
+"matched": true
+},
+{
+"line": 10,
+"t": "de",
+"s": 94.61,
+"e": 94.81,
+"matched": true
+},
+{
+"line": 10,
+"t": "plus",
+"s": 94.81,
+"e": 95.108,
+"matched": true
+},
+{
+"line": 10,
+"t": "en",
+"s": 95.108,
+"e": 95.266,
+"matched": true
+},
+{
+"line": 10,
+"t": "un",
+"s": 95.266,
+"e": 95.425,
+"matched": true
+},
+{
+"line": 10,
+"t": "an.",
+"s": 95.425,
+"e": 95.955,
+"matched": true
+},
+{
+"line": 11,
+"t": "Autrement",
+"s": 96.055,
+"e": 96.593,
+"matched": true
+},
+{
+"line": 11,
+"t": "dit,",
+"s": 96.593,
+"e": 96.897,
+"matched": true
+},
+{
+"line": 11,
+"t": "quand",
+"s": 96.897,
+"e": 97.202,
+"matched": true
+},
+{
+"line": 11,
+"t": "le",
+"s": 97.202,
+"e": 97.36,
+"matched": true
+},
+{
+"line": 11,
+"t": "prix",
+"s": 97.36,
+"e": 97.66,
+"matched": true
+},
+{
+"line": 11,
+"t": "du",
+"s": 97.66,
+"e": 97.78,
+"matched": true
+},
+{
+"line": 11,
+"t": "pétrole",
+"s": 97.78,
+"e": 98.166,
+"matched": true
+},
+{
+"line": 11,
+"t": "bouge,",
+"s": 98.166,
+"e": 98.51,
+"matched": true
+},
+{
+"line": 11,
+"t": "c'est",
+"s": 98.51,
+"e": 98.905,
+"matched": true
+},
+{
+"line": 11,
+"t": "près",
+"s": 98.905,
+"e": 99.175,
+"matched": true
+},
+{
+"line": 11,
+"t": "d'un",
+"s": 99.175,
+"e": 99.405,
+"matched": true
+},
+{
+"line": 11,
+"t": "tiers",
+"s": 99.405,
+"e": 99.57,
+"matched": true
+},
+{
+"line": 11,
+"t": "des",
+"s": 99.57,
+"e": 99.821,
+"matched": true
+},
+{
+"line": 11,
+"t": "coûts",
+"s": 99.821,
+"e": 100.045,
+"matched": true
+},
+{
+"line": 11,
+"t": "d'une",
+"s": 100.045,
+"e": 100.455,
+"matched": true
+},
+{
+"line": 11,
+"t": "compagnie",
+"s": 100.455,
+"e": 101.029,
+"matched": true
+},
+{
+"line": 11,
+"t": "qui",
+"s": 101.029,
+"e": 101.161,
+"matched": true
+},
+{
+"line": 11,
+"t": "bouge",
+"s": 101.161,
+"e": 101.465,
+"matched": true
+},
+{
+"line": 11,
+"t": "avec",
+"s": 101.465,
+"e": 101.82,
+"matched": true
+},
+{
+"line": 11,
+"t": "lui.",
+"s": 101.82,
+"e": 102.135,
+"matched": true
+},
+{
+"line": 12,
+"t": "Certaines",
+"s": 102.235,
+"e": 102.42,
+"matched": true
+},
+{
+"line": 12,
+"t": "compagnies",
+"s": 102.42,
+"e": 102.7,
+"matched": false
+},
+{
+"line": 12,
+"t": "se",
+"s": 102.7,
+"e": 102.891,
+"matched": true
+},
+{
+"line": 12,
+"t": "protègent",
+"s": 102.891,
+"e": 103.37,
+"matched": true
+},
+{
+"line": 12,
+"t": "en",
+"s": 103.37,
+"e": 103.49,
+"matched": true
+},
+{
+"line": 12,
+"t": "achetant",
+"s": 103.49,
+"e": 103.861,
+"matched": true
+},
+{
+"line": 12,
+"t": "une",
+"s": 103.861,
+"e": 103.99,
+"matched": true
+},
+{
+"line": 12,
+"t": "partie",
+"s": 103.99,
+"e": 104.32,
+"matched": true
+},
+{
+"line": 12,
+"t": "de",
+"s": 104.32,
+"e": 104.47,
+"matched": true
+},
+{
+"line": 12,
+"t": "leur",
+"s": 104.47,
+"e": 104.795,
+"matched": true
+},
+{
+"line": 12,
+"t": "carburant",
+"s": 104.795,
+"e": 105.096,
+"matched": true
+},
+{
+"line": 12,
+"t": "à",
+"s": 105.096,
+"e": 105.216,
+"matched": true
+},
+{
+"line": 12,
+"t": "l'avance,",
+"s": 105.216,
+"e": 105.791,
+"matched": true
+},
+{
+"line": 12,
+"t": "une",
+"s": 105.791,
+"e": 106.05,
+"matched": true
+},
+{
+"line": 12,
+"t": "technique",
+"s": 106.05,
+"e": 106.755,
+"matched": true
+},
+{
+"line": 12,
+"t": "appelée",
+"s": 106.755,
+"e": 107.03,
+"matched": true
+},
+{
+"line": 12,
+"t": "couverture.",
+"s": 107.03,
+"e": 107.7,
+"matched": true
+},
+{
+"line": 12,
+"t": "Mais",
+"s": 107.7,
+"e": 108.123,
+"matched": true
+},
+{
+"line": 12,
+"t": "cette",
+"s": 108.123,
+"e": 108.36,
+"matched": true
+},
+{
+"line": 12,
+"t": "protection",
+"s": 108.36,
+"e": 109.17,
+"matched": true
+},
+{
+"line": 12,
+"t": "a",
+"s": 109.17,
+"e": 109.295,
+"matched": true
+},
+{
+"line": 12,
+"t": "un",
+"s": 109.295,
+"e": 109.415,
+"matched": true
+},
+{
+"line": 12,
+"t": "coût,",
+"s": 109.415,
+"e": 109.7,
+"matched": true
+},
+{
+"line": 12,
+"t": "et",
+"s": 109.7,
+"e": 109.82,
+"matched": true
+},
+{
+"line": 12,
+"t": "elle",
+"s": 109.82,
+"e": 110.155,
+"matched": true
+},
+{
+"line": 12,
+"t": "ne",
+"s": 110.155,
+"e": 110.275,
+"matched": true
+},
+{
+"line": 12,
+"t": "couvre",
+"s": 110.275,
+"e": 110.615,
+"matched": true
+},
+{
+"line": 12,
+"t": "jamais",
+"s": 110.615,
+"e": 111.131,
+"matched": true
+},
+{
+"line": 12,
+"t": "tout.",
+"s": 111.131,
+"e": 111.67,
+"matched": true
+},
+{
+"line": 13,
+"t": "Deuxième",
+"s": 112.675,
+"e": 112.795,
+"matched": false
+},
+{
+"line": 13,
+"t": "poste",
+"s": 112.795,
+"e": 113.044,
+"matched": true
+},
+{
+"line": 13,
+"t": ":",
+"s": 113.044,
+"e": 113.48,
+"matched": false
+},
+{
+"line": 13,
+"t": "les",
+"s": 113.48,
+"e": 113.86,
+"matched": true
+},
+{
+"line": 13,
+"t": "équipes.",
+"s": 113.86,
+"e": 114.785,
+"matched": true
+},
+{
+"line": 13,
+"t": "Dans",
+"s": 114.785,
+"e": 115.04,
+"matched": true
+},
+{
+"line": 13,
+"t": "ses",
+"s": 115.04,
+"e": 115.222,
+"matched": false
+},
+{
+"line": 13,
+"t": "prévisions,",
+"s": 115.222,
+"e": 115.75,
+"matched": true
+},
+{
+"line": 13,
+"t": "l'IATA",
+"s": 115.75,
+"e": 116.122,
+"matched": false
+},
+{
+"line": 13,
+"t": "estime",
+"s": 116.122,
+"e": 116.72,
+"matched": true
+},
+{
+"line": 13,
+"t": "les",
+"s": 116.72,
+"e": 116.84,
+"matched": true
+},
+{
+"line": 13,
+"t": "coûts",
+"s": 116.84,
+"e": 117.01,
+"matched": true
+},
+{
+"line": 13,
+"t": "hors",
+"s": 117.01,
+"e": 117.32,
+"matched": true
+},
+{
+"line": 13,
+"t": "carburant",
+"s": 117.32,
+"e": 117.885,
+"matched": true
+},
+{
+"line": 13,
+"t": "à",
+"s": 117.885,
+"e": 118.005,
+"matched": true
+},
+{
+"line": 13,
+"t": "environ",
+"s": 118.005,
+"e": 118.395,
+"matched": true
+},
+{
+"line": 13,
+"t": "sept",
+"s": 118.395,
+"e": 118.654,
+"matched": false
+},
+{
+"line": 13,
+"t": "cent",
+"s": 118.654,
+"e": 118.995,
+"matched": false
+},
+{
+"line": 13,
+"t": "soixante-sept",
+"s": 118.995,
+"e": 119.32,
+"matched": false
+},
+{
+"line": 13,
+"t": "milliards",
+"s": 119.32,
+"e": 120.095,
+"matched": true
+},
+{
+"line": 13,
+"t": "de",
+"s": 120.095,
+"e": 120.448,
+"matched": true
+},
+{
+"line": 13,
+"t": "dollars,",
+"s": 120.448,
+"e": 121.205,
+"matched": true
+},
+{
+"line": 13,
+"t": "dont",
+"s": 121.205,
+"e": 121.403,
+"matched": true
+},
+{
+"line": 13,
+"t": "deux",
+"s": 121.403,
+"e": 121.523,
+"matched": false
+},
+{
+"line": 13,
+"t": "cent",
+"s": 121.523,
+"e": 121.643,
+"matched": false
+},
+{
+"line": 13,
+"t": "soixante",
+"s": 121.643,
+"e": 121.785,
+"matched": false
+},
+{
+"line": 13,
+"t": "et",
+"s": 121.785,
+"e": 121.95,
+"matched": false
+},
+{
+"line": 13,
+"t": "onze",
+"s": 121.95,
+"e": 122.07,
+"matched": false
+},
+{
+"line": 13,
+"t": "milliards",
+"s": 122.07,
+"e": 122.631,
+"matched": true
+},
+{
+"line": 13,
+"t": "pour",
+"s": 122.631,
+"e": 122.845,
+"matched": true
+},
+{
+"line": 13,
+"t": "le",
+"s": 122.845,
+"e": 123.24,
+"matched": true
+},
+{
+"line": 13,
+"t": "personnel.",
+"s": 123.24,
+"e": 123.955,
+"matched": true
+},
+{
+"line": 14,
+"t": "Rapporté",
+"s": 124.055,
+"e": 124.555,
+"matched": true
+},
+{
+"line": 14,
+"t": "aux",
+"s": 124.555,
+"e": 125.07,
+"matched": false
+},
+{
+"line": 14,
+"t": "coûts",
+"s": 125.07,
+"e": 125.6,
+"matched": false
+},
+{
+"line": 14,
+"t": "d'exploitation",
+"s": 125.6,
+"e": 126.595,
+"matched": true
+},
+{
+"line": 14,
+"t": "totaux,",
+"s": 126.595,
+"e": 127.52,
+"matched": false
+},
+{
+"line": 14,
+"t": "cela",
+"s": 127.52,
+"e": 128.01,
+"matched": true
+},
+{
+"line": 14,
+"t": "représente",
+"s": 128.01,
+"e": 128.985,
+"matched": true
+},
+{
+"line": 14,
+"t": "environ",
+"s": 128.985,
+"e": 129.573,
+"matched": true
+},
+{
+"line": 14,
+"t": "vingt-quatre",
+"s": 129.573,
+"e": 130.155,
+"matched": false
+},
+{
+"line": 14,
+"t": "pour",
+"s": 130.155,
+"e": 130.311,
+"matched": true
+},
+{
+"line": 14,
+"t": "cent,",
+"s": 130.311,
+"e": 130.51,
+"matched": true
+},
+{
+"line": 14,
+"t": "d'après",
+"s": 130.51,
+"e": 131.285,
+"matched": true
+},
+{
+"line": 14,
+"t": "nos",
+"s": 131.285,
+"e": 131.665,
+"matched": true
+},
+{
+"line": 14,
+"t": "calculs.",
+"s": 131.665,
+"e": 132.96,
+"matched": true
+},
+{
+"line": 15,
+"t": "Et",
+"s": 133.35,
+"e": 133.47,
+"matched": false
+},
+{
+"line": 15,
+"t": "ce",
+"s": 133.47,
+"e": 133.59,
+"matched": false
+},
+{
+"line": 15,
+"t": "coût",
+"s": 133.59,
+"e": 133.71,
+"matched": false
+},
+{
+"line": 15,
+"t": "ne",
+"s": 133.71,
+"e": 133.83,
+"matched": false
+},
+{
+"line": 15,
+"t": "se",
+"s": 133.83,
+"e": 133.95,
+"matched": false
+},
+{
+"line": 15,
+"t": "limite",
+"s": 133.95,
+"e": 134.07,
+"matched": false
+},
+{
+"line": 15,
+"t": "pas",
+"s": 134.07,
+"e": 134.19,
+"matched": false
+},
+{
+"line": 15,
+"t": "aux",
+"s": 134.19,
+"e": 134.31,
+"matched": false
+},
+{
+"line": 15,
+"t": "salaires",
+"s": 134.31,
+"e": 134.43,
+"matched": false
+},
+{
+"line": 15,
+"t": "des",
+"s": 134.43,
+"e": 134.55,
+"matched": false
+},
+{
+"line": 15,
+"t": "pilotes",
+"s": 134.55,
+"e": 134.67,
+"matched": false
+},
+{
+"line": 15,
+"t": "et",
+"s": 134.67,
+"e": 134.79,
+"matched": false
+},
+{
+"line": 15,
+"t": "du",
+"s": 134.79,
+"e": 134.91,
+"matched": false
+},
+{
+"line": 15,
+"t": "personnel",
+"s": 134.91,
+"e": 135.03,
+"matched": false
+},
+{
+"line": 15,
+"t": "de",
+"s": 135.03,
+"e": 135.15,
+"matched": false
+},
+{
+"line": 15,
+"t": "cabine.",
+"s": 135.15,
+"e": 135.27,
+"matched": true
+},
+{
+"line": 15,
+"t": "Il",
+"s": 135.27,
+"e": 135.39,
+"matched": true
+},
+{
+"line": 15,
+"t": "y",
+"s": 135.39,
+"e": 135.51,
+"matched": true
+},
+{
+"line": 15,
+"t": "a",
+"s": 135.51,
+"e": 135.63,
+"matched": true
+},
+{
+"line": 15,
+"t": "les",
+"s": 135.63,
+"e": 135.75,
+"matched": true
+},
+{
+"line": 15,
+"t": "mécaniciens,",
+"s": 135.75,
+"e": 135.87,
+"matched": true
+},
+{
+"line": 15,
+"t": "le",
+"s": 135.87,
+"e": 135.99,
+"matched": true
+},
+{
+"line": 15,
+"t": "personnel",
+"s": 135.99,
+"e": 136.11,
+"matched": true
+},
+{
+"line": 15,
+"t": "au",
+"s": 136.11,
+"e": 136.23,
+"matched": true
+},
+{
+"line": 15,
+"t": "sol,",
+"s": 136.23,
+"e": 136.35,
+"matched": true
+},
+{
+"line": 15,
+"t": "la",
+"s": 136.35,
+"e": 136.47,
+"matched": true
+},
+{
+"line": 15,
+"t": "formation,",
+"s": 136.47,
+"e": 136.59,
+"matched": true
+},
+{
+"line": 15,
+"t": "les",
+"s": 136.59,
+"e": 136.71,
+"matched": true
+},
+{
+"line": 15,
+"t": "équipes",
+"s": 136.71,
+"e": 136.861,
+"matched": true
+},
+{
+"line": 15,
+"t": "de",
+"s": 136.861,
+"e": 136.981,
+"matched": true
+},
+{
+"line": 15,
+"t": "remplacement.",
+"s": 136.981,
+"e": 137.875,
+"matched": true
+},
+{
+"line": 16,
+"t": "Les",
+"s": 138.43,
+"e": 138.55,
+"matched": false
+},
+{
+"line": 16,
+"t": "temps",
+"s": 138.55,
+"e": 138.685,
+"matched": true
+},
+{
+"line": 16,
+"t": "de",
+"s": 138.685,
+"e": 138.893,
+"matched": true
+},
+{
+"line": 16,
+"t": "repos",
+"s": 138.893,
+"e": 139.125,
+"matched": true
+},
+{
+"line": 16,
+"t": "des",
+"s": 139.125,
+"e": 139.361,
+"matched": true
+},
+{
+"line": 16,
+"t": "équipages",
+"s": 139.361,
+"e": 139.91,
+"matched": true
+},
+{
+"line": 16,
+"t": "sont",
+"s": 139.91,
+"e": 140.156,
+"matched": true
+},
+{
+"line": 16,
+"t": "réglementés",
+"s": 140.156,
+"e": 140.515,
+"matched": true
+},
+{
+"line": 16,
+"t": ":",
+"s": 140.515,
+"e": 140.97,
+"matched": false
+},
+{
+"line": 16,
+"t": "un",
+"s": 140.97,
+"e": 141.375,
+"matched": true
+},
+{
+"line": 16,
+"t": "équipage",
+"s": 141.375,
+"e": 141.633,
+"matched": true
+},
+{
+"line": 16,
+"t": "mal",
+"s": 141.633,
+"e": 141.825,
+"matched": true
+},
+{
+"line": 16,
+"t": "placé",
+"s": 141.825,
+"e": 142.055,
+"matched": true
+},
+{
+"line": 16,
+"t": "ne",
+"s": 142.055,
+"e": 142.175,
+"matched": true
+},
+{
+"line": 16,
+"t": "peut",
+"s": 142.175,
+"e": 142.31,
+"matched": true
+},
+{
+"line": 16,
+"t": "pas",
+"s": 142.31,
+"e": 142.51,
+"matched": true
+},
+{
+"line": 16,
+"t": "prendre",
+"s": 142.51,
+"e": 142.79,
+"matched": true
+},
+{
+"line": 16,
+"t": "le",
+"s": 142.79,
+"e": 143.008,
+"matched": true
+},
+{
+"line": 16,
+"t": "vol",
+"s": 143.008,
+"e": 143.128,
+"matched": true
+},
+{
+"line": 16,
+"t": "suivant,",
+"s": 143.128,
+"e": 143.495,
+"matched": true
+},
+{
+"line": 16,
+"t": "et",
+"s": 143.495,
+"e": 143.644,
+"matched": true
+},
+{
+"line": 16,
+"t": "l'avion",
+"s": 143.644,
+"e": 143.89,
+"matched": true
+},
+{
+"line": 16,
+"t": "reste",
+"s": 143.89,
+"e": 144.28,
+"matched": true
+},
+{
+"line": 16,
+"t": "au",
+"s": 144.28,
+"e": 144.4,
+"matched": true
+},
+{
+"line": 16,
+"t": "sol,",
+"s": 144.4,
+"e": 144.52,
+"matched": true
+},
+{
+"line": 16,
+"t": "alors",
+"s": 144.52,
+"e": 144.7,
+"matched": true
+},
+{
+"line": 16,
+"t": "que",
+"s": 144.7,
+"e": 144.89,
+"matched": true
+},
+{
+"line": 16,
+"t": "la",
+"s": 144.89,
+"e": 145.019,
+"matched": true
+},
+{
+"line": 16,
+"t": "compagnie",
+"s": 145.019,
+"e": 145.71,
+"matched": true
+},
+{
+"line": 16,
+"t": "continue",
+"s": 145.71,
+"e": 145.936,
+"matched": true
+},
+{
+"line": 16,
+"t": "de",
+"s": 145.936,
+"e": 146.08,
+"matched": true
+},
+{
+"line": 16,
+"t": "payer.",
+"s": 146.08,
+"e": 146.665,
+"matched": true
+},
+{
+"line": 17,
+"t": "Troisième",
+"s": 147.57,
+"e": 147.69,
+"matched": false
+},
+{
+"line": 17,
+"t": "poste,",
+"s": 147.69,
+"e": 147.99,
+"matched": true
+},
+{
+"line": 17,
+"t": "le",
+"s": 147.99,
+"e": 148.22,
+"matched": true
+},
+{
+"line": 17,
+"t": "plus",
+"s": 148.22,
+"e": 148.375,
+"matched": true
+},
+{
+"line": 17,
+"t": "visible",
+"s": 148.375,
+"e": 148.68,
+"matched": true
+},
+{
+"line": 17,
+"t": ":",
+"s": 148.68,
+"e": 149.097,
+"matched": false
+},
+{
+"line": 17,
+"t": "l'avion",
+"s": 149.097,
+"e": 149.57,
+"matched": true
+},
+{
+"line": 17,
+"t": "lui-même.",
+"s": 149.57,
+"e": 150.367,
+"matched": true
+},
+{
+"line": 17,
+"t": "Un",
+"s": 150.367,
+"e": 150.487,
+"matched": true
+},
+{
+"line": 17,
+"t": "Airbus",
+"s": 150.487,
+"e": 151.3,
+"matched": true
+},
+{
+"line": 17,
+"t": "A320neo,",
+"s": 151.3,
+"e": 151.965,
+"matched": false
+},
+{
+"line": 17,
+"t": "l'un",
+"s": 151.965,
+"e": 152.165,
+"matched": true
+},
+{
+"line": 17,
+"t": "des",
+"s": 152.165,
+"e": 152.429,
+"matched": true
+},
+{
+"line": 17,
+"t": "avions",
+"s": 152.429,
+"e": 152.94,
+"matched": true
+},
+{
+"line": 17,
+"t": "les",
+"s": 152.94,
+"e": 153.06,
+"matched": true
+},
+{
+"line": 17,
+"t": "plus",
+"s": 153.06,
+"e": 153.332,
+"matched": true
+},
+{
+"line": 17,
+"t": "courants",
+"s": 153.332,
+"e": 153.895,
+"matched": true
+},
+{
+"line": 17,
+"t": "dans",
+"s": 153.895,
+"e": 154.165,
+"matched": true
+},
+{
+"line": 17,
+"t": "le",
+"s": 154.165,
+"e": 154.304,
+"matched": true
+},
+{
+"line": 17,
+"t": "monde,",
+"s": 154.304,
+"e": 154.93,
+"matched": true
+},
+{
+"line": 17,
+"t": "avait",
+"s": 154.93,
+"e": 155.05,
+"matched": true
+},
+{
+"line": 17,
+"t": "un",
+"s": 155.05,
+"e": 155.17,
+"matched": true
+},
+{
+"line": 17,
+"t": "prix",
+"s": 155.17,
+"e": 155.39,
+"matched": true
+},
+{
+"line": 17,
+"t": "catalogue",
+"s": 155.39,
+"e": 155.51,
+"matched": true
+},
+{
+"line": 17,
+"t": "d'environ",
+"s": 155.51,
+"e": 155.798,
+"matched": true
+},
+{
+"line": 17,
+"t": "cent",
+"s": 155.798,
+"e": 155.995,
+"matched": false
+},
+{
+"line": 17,
+"t": "sept",
+"s": 155.995,
+"e": 156.285,
+"matched": false
+},
+{
+"line": 17,
+"t": "millions",
+"s": 156.285,
+"e": 156.5,
+"matched": true
+},
+{
+"line": 17,
+"t": "de",
+"s": 156.5,
+"e": 156.62,
+"matched": true
+},
+{
+"line": 17,
+"t": "dollars,",
+"s": 156.62,
+"e": 156.962,
+"matched": true
+},
+{
+"line": 17,
+"t": "selon",
+"s": 156.962,
+"e": 157.195,
+"matched": true
+},
+{
+"line": 17,
+"t": "la",
+"s": 157.195,
+"e": 157.319,
+"matched": true
+},
+{
+"line": 17,
+"t": "dernière",
+"s": 157.319,
+"e": 157.78,
+"matched": true
+},
+{
+"line": 17,
+"t": "moyenne",
+"s": 157.78,
+"e": 158.125,
+"matched": true
+},
+{
+"line": 17,
+"t": "publiée",
+"s": 158.125,
+"e": 158.449,
+"matched": true
+},
+{
+"line": 17,
+"t": "par",
+"s": 158.449,
+"e": 158.67,
+"matched": true
+},
+{
+"line": 17,
+"t": "Airbus,",
+"s": 158.67,
+"e": 159.0,
+"matched": true
+},
+{
+"line": 17,
+"t": "en",
+"s": 159.0,
+"e": 159.213,
+"matched": true
+},
+{
+"line": 17,
+"t": "deux",
+"s": 159.213,
+"e": 159.545,
+"matched": false
+},
+{
+"line": 17,
+"t": "mille",
+"s": 159.545,
+"e": 159.828,
+"matched": false
+},
+{
+"line": 17,
+"t": "seize.",
+"s": 159.828,
+"e": 160.135,
+"matched": false
+},
+{
+"line": 18,
+"t": "Airbus",
+"s": 160.75,
+"e": 160.87,
+"matched": false
+},
+{
+"line": 18,
+"t": "ne",
+"s": 160.87,
+"e": 160.99,
+"matched": false
+},
+{
+"line": 18,
+"t": "publie",
+"s": 160.99,
+"e": 161.115,
+"matched": true
+},
+{
+"line": 18,
+"t": "plus",
+"s": 161.115,
+"e": 161.25,
+"matched": true
+},
+{
+"line": 18,
+"t": "ses",
+"s": 161.25,
+"e": 161.376,
+"matched": true
+},
+{
+"line": 18,
+"t": "prix",
+"s": 161.376,
+"e": 161.565,
+"matched": true
+},
+{
+"line": 18,
+"t": "catalogue.",
+"s": 161.565,
+"e": 162.175,
+"matched": true
+},
+{
+"line": 18,
+"t": "Mais",
+"s": 162.175,
+"e": 162.295,
+"matched": true
+},
+{
+"line": 18,
+"t": "selon",
+"s": 162.295,
+"e": 162.532,
+"matched": true
+},
+{
+"line": 18,
+"t": "les",
+"s": 162.532,
+"e": 162.677,
+"matched": true
+},
+{
+"line": 18,
+"t": "estimations",
+"s": 162.677,
+"e": 163.207,
+"matched": true
+},
+{
+"line": 18,
+"t": "de",
+"s": 163.207,
+"e": 163.327,
+"matched": true
+},
+{
+"line": 18,
+"t": "l'industrie,",
+"s": 163.327,
+"e": 163.93,
+"matched": true
+},
+{
+"line": 18,
+"t": "les",
+"s": 163.93,
+"e": 164.064,
+"matched": true
+},
+{
+"line": 18,
+"t": "compagnies",
+"s": 164.064,
+"e": 164.5,
+"matched": true
+},
+{
+"line": 18,
+"t": "obtiennent",
+"s": 164.5,
+"e": 165.185,
+"matched": true
+},
+{
+"line": 18,
+"t": "généralement",
+"s": 165.185,
+"e": 165.5,
+"matched": true
+},
+{
+"line": 18,
+"t": "quarante",
+"s": 165.5,
+"e": 165.89,
+"matched": false
+},
+{
+"line": 18,
+"t": "à",
+"s": 165.89,
+"e": 166.01,
+"matched": true
+},
+{
+"line": 18,
+"t": "cinquante",
+"s": 166.01,
+"e": 166.13,
+"matched": false
+},
+{
+"line": 18,
+"t": "pour",
+"s": 166.13,
+"e": 166.275,
+"matched": true
+},
+{
+"line": 18,
+"t": "cent",
+"s": 166.275,
+"e": 166.395,
+"matched": true
+},
+{
+"line": 18,
+"t": "de",
+"s": 166.395,
+"e": 166.53,
+"matched": true
+},
+{
+"line": 18,
+"t": "remise,",
+"s": 166.53,
+"e": 166.88,
+"matched": false
+},
+{
+"line": 18,
+"t": "parfois",
+"s": 166.88,
+"e": 167.065,
+"matched": true
+},
+{
+"line": 18,
+"t": "davantage",
+"s": 167.065,
+"e": 167.68,
+"matched": true
+},
+{
+"line": 18,
+"t": "pour",
+"s": 167.68,
+"e": 167.855,
+"matched": true
+},
+{
+"line": 18,
+"t": "les",
+"s": 167.855,
+"e": 167.975,
+"matched": true
+},
+{
+"line": 18,
+"t": "grosses",
+"s": 167.975,
+"e": 168.55,
+"matched": true
+},
+{
+"line": 18,
+"t": "commandes.",
+"s": 168.55,
+"e": 169.2,
+"matched": true
+},
+{
+"line": 19,
+"t": "Des",
+"s": 169.915,
+"e": 170.035,
+"matched": false
+},
+{
+"line": 19,
+"t": "analystes",
+"s": 170.035,
+"e": 170.155,
+"matched": false
+},
+{
+"line": 19,
+"t": "avaient",
+"s": 170.155,
+"e": 170.327,
+"matched": true
+},
+{
+"line": 19,
+"t": "ainsi",
+"s": 170.327,
+"e": 170.67,
+"matched": true
+},
+{
+"line": 19,
+"t": "estimé",
+"s": 170.67,
+"e": 170.972,
+"matched": true
+},
+{
+"line": 19,
+"t": "le",
+"s": 170.972,
+"e": 171.1,
+"matched": true
+},
+{
+"line": 19,
+"t": "prix",
+"s": 171.1,
+"e": 171.245,
+"matched": true
+},
+{
+"line": 19,
+"t": "payé",
+"s": 171.245,
+"e": 171.565,
+"matched": true
+},
+{
+"line": 19,
+"t": "par",
+"s": 171.565,
+"e": 171.755,
+"matched": true
+},
+{
+"line": 19,
+"t": "American",
+"s": 171.755,
+"e": 172.175,
+"matched": true
+},
+{
+"line": 19,
+"t": "Airlines",
+"s": 172.175,
+"e": 172.639,
+"matched": true
+},
+{
+"line": 19,
+"t": "à",
+"s": 172.639,
+"e": 172.759,
+"matched": true
+},
+{
+"line": 19,
+"t": "environ",
+"s": 172.759,
+"e": 173.08,
+"matched": true
+},
+{
+"line": 19,
+"t": "quarante",
+"s": 173.08,
+"e": 173.463,
+"matched": false
+},
+{
+"line": 19,
+"t": "millions",
+"s": 173.463,
+"e": 173.975,
+"matched": true
+},
+{
+"line": 19,
+"t": "de",
+"s": 173.975,
+"e": 174.095,
+"matched": true
+},
+{
+"line": 19,
+"t": "dollars",
+"s": 174.095,
+"e": 174.439,
+"matched": true
+},
+{
+"line": 19,
+"t": "par",
+"s": 174.439,
+"e": 174.66,
+"matched": true
+},
+{
+"line": 19,
+"t": "avion,",
+"s": 174.66,
+"e": 175.09,
+"matched": true
+},
+{
+"line": 19,
+"t": "une",
+"s": 175.09,
+"e": 175.216,
+"matched": true
+},
+{
+"line": 19,
+"t": "estimation",
+"s": 175.216,
+"e": 175.84,
+"matched": true
+},
+{
+"line": 19,
+"t": "non",
+"s": 175.84,
+"e": 175.96,
+"matched": true
+},
+{
+"line": 19,
+"t": "confirmée",
+"s": 175.96,
+"e": 176.435,
+"matched": true
+},
+{
+"line": 19,
+"t": "par",
+"s": 176.435,
+"e": 176.675,
+"matched": true
+},
+{
+"line": 19,
+"t": "le",
+"s": 176.675,
+"e": 177.185,
+"matched": true
+},
+{
+"line": 19,
+"t": "constructeur.",
+"s": 177.185,
+"e": 177.66,
+"matched": true
+},
+{
+"line": 20,
+"t": "Ces",
+"s": 178.395,
+"e": 178.515,
+"matched": false
+},
+{
+"line": 20,
+"t": "remises",
+"s": 178.515,
+"e": 178.647,
+"matched": true
+},
+{
+"line": 20,
+"t": "sont",
+"s": 178.647,
+"e": 178.96,
+"matched": true
+},
+{
+"line": 20,
+"t": "confidentielles",
+"s": 178.96,
+"e": 179.52,
+"matched": true
+},
+{
+"line": 20,
+"t": ":",
+"s": 179.52,
+"e": 179.981,
+"matched": false
+},
+{
+"line": 20,
+"t": "le",
+"s": 179.981,
+"e": 180.13,
+"matched": true
+},
+{
+"line": 20,
+"t": "vrai",
+"s": 180.13,
+"e": 180.338,
+"matched": true
+},
+{
+"line": 20,
+"t": "prix",
+"s": 180.338,
+"e": 180.655,
+"matched": true
+},
+{
+"line": 20,
+"t": "d'un",
+"s": 180.655,
+"e": 180.831,
+"matched": true
+},
+{
+"line": 20,
+"t": "avion",
+"s": 180.831,
+"e": 181.112,
+"matched": true
+},
+{
+"line": 20,
+"t": "est",
+"s": 181.112,
+"e": 181.295,
+"matched": true
+},
+{
+"line": 20,
+"t": "l'un",
+"s": 181.295,
+"e": 181.45,
+"matched": true
+},
+{
+"line": 20,
+"t": "des",
+"s": 181.45,
+"e": 181.788,
+"matched": true
+},
+{
+"line": 20,
+"t": "secrets",
+"s": 181.788,
+"e": 182.065,
+"matched": true
+},
+{
+"line": 20,
+"t": "les",
+"s": 182.065,
+"e": 182.31,
+"matched": true
+},
+{
+"line": 20,
+"t": "mieux",
+"s": 182.31,
+"e": 182.715,
+"matched": true
+},
+{
+"line": 20,
+"t": "gardés",
+"s": 182.715,
+"e": 182.977,
+"matched": true
+},
+{
+"line": 20,
+"t": "du",
+"s": 182.977,
+"e": 183.185,
+"matched": true
+},
+{
+"line": 20,
+"t": "secteur.",
+"s": 183.185,
+"e": 184.485,
+"matched": true
+},
+{
+"line": 21,
+"t": "Alors,",
+"s": 184.845,
+"e": 184.965,
+"matched": false
+},
+{
+"line": 21,
+"t": "une",
+"s": 184.965,
+"e": 185.085,
+"matched": false
+},
+{
+"line": 21,
+"t": "compagnie",
+"s": 185.085,
+"e": 185.465,
+"matched": true
+},
+{
+"line": 21,
+"t": "achète-t-elle",
+"s": 185.465,
+"e": 185.93,
+"matched": true
+},
+{
+"line": 21,
+"t": "ses",
+"s": 185.93,
+"e": 186.345,
+"matched": false
+},
+{
+"line": 21,
+"t": "avions",
+"s": 186.345,
+"e": 186.755,
+"matched": true
+},
+{
+"line": 21,
+"t": "?",
+"s": 186.755,
+"e": 187.067,
+"matched": false
+},
+{
+"line": 21,
+"t": "Pas",
+"s": 187.067,
+"e": 187.38,
+"matched": true
+},
+{
+"line": 21,
+"t": "toujours.",
+"s": 187.38,
+"e": 188.005,
+"matched": true
+},
+{
+"line": 21,
+"t": "Selon",
+"s": 188.005,
+"e": 188.25,
+"matched": true
+},
+{
+"line": 21,
+"t": "les",
+"s": 188.25,
+"e": 188.507,
+"matched": true
+},
+{
+"line": 21,
+"t": "sources,",
+"s": 188.507,
+"e": 188.985,
+"matched": true
+},
+{
+"line": 21,
+"t": "entre",
+"s": 188.985,
+"e": 189.405,
+"matched": true
+},
+{
+"line": 21,
+"t": "cinquante",
+"s": 189.405,
+"e": 189.735,
+"matched": false
+},
+{
+"line": 21,
+"t": "et",
+"s": 189.735,
+"e": 190.01,
+"matched": true
+},
+{
+"line": 21,
+"t": "cinquante-huit",
+"s": 190.01,
+"e": 190.13,
+"matched": false
+},
+{
+"line": 21,
+"t": "pour",
+"s": 190.13,
+"e": 190.25,
+"matched": true
+},
+{
+"line": 21,
+"t": "cent",
+"s": 190.25,
+"e": 190.44,
+"matched": true
+},
+{
+"line": 21,
+"t": "de",
+"s": 190.44,
+"e": 190.56,
+"matched": true
+},
+{
+"line": 21,
+"t": "la",
+"s": 190.56,
+"e": 190.745,
+"matched": true
+},
+{
+"line": 21,
+"t": "flotte",
+"s": 190.745,
+"e": 191.08,
+"matched": true
+},
+{
+"line": 21,
+"t": "mondiale",
+"s": 191.08,
+"e": 191.35,
+"matched": true
+},
+{
+"line": 21,
+"t": "est",
+"s": 191.35,
+"e": 191.765,
+"matched": true
+},
+{
+"line": 21,
+"t": "louée",
+"s": 191.765,
+"e": 192.003,
+"matched": true
+},
+{
+"line": 21,
+"t": "à",
+"s": 192.003,
+"e": 192.123,
+"matched": true
+},
+{
+"line": 21,
+"t": "des",
+"s": 192.123,
+"e": 192.25,
+"matched": true
+},
+{
+"line": 21,
+"t": "sociétés",
+"s": 192.25,
+"e": 192.78,
+"matched": true
+},
+{
+"line": 21,
+"t": "de",
+"s": 192.78,
+"e": 192.925,
+"matched": true
+},
+{
+"line": 21,
+"t": "leasing.",
+"s": 192.925,
+"e": 193.69,
+"matched": true
+},
+{
+"line": 22,
+"t": "Louer",
+"s": 194.49,
+"e": 194.61,
+"matched": false
+},
+{
+"line": 22,
+"t": "évite",
+"s": 194.61,
+"e": 194.768,
+"matched": true
+},
+{
+"line": 22,
+"t": "de",
+"s": 194.768,
+"e": 194.934,
+"matched": true
+},
+{
+"line": 22,
+"t": "mobiliser",
+"s": 194.934,
+"e": 195.489,
+"matched": true
+},
+{
+"line": 22,
+"t": "des",
+"s": 195.489,
+"e": 195.684,
+"matched": true
+},
+{
+"line": 22,
+"t": "dizaines",
+"s": 195.684,
+"e": 196.21,
+"matched": true
+},
+{
+"line": 22,
+"t": "de",
+"s": 196.21,
+"e": 196.337,
+"matched": true
+},
+{
+"line": 22,
+"t": "millions",
+"s": 196.337,
+"e": 196.931,
+"matched": true
+},
+{
+"line": 22,
+"t": "d'euros",
+"s": 196.931,
+"e": 197.321,
+"matched": true
+},
+{
+"line": 22,
+"t": "d'un",
+"s": 197.321,
+"e": 197.555,
+"matched": true
+},
+{
+"line": 22,
+"t": "coup.",
+"s": 197.555,
+"e": 197.99,
+"matched": true
+},
+{
+"line": 22,
+"t": "Mais",
+"s": 197.99,
+"e": 198.18,
+"matched": true
+},
+{
+"line": 22,
+"t": "le",
+"s": 198.18,
+"e": 198.4,
+"matched": true
+},
+{
+"line": 22,
+"t": "loyer",
+"s": 198.4,
+"e": 198.915,
+"matched": true
+},
+{
+"line": 22,
+"t": "est",
+"s": 198.915,
+"e": 199.035,
+"matched": true
+},
+{
+"line": 22,
+"t": "un",
+"s": 199.035,
+"e": 199.155,
+"matched": true
+},
+{
+"line": 22,
+"t": "coût",
+"s": 199.155,
+"e": 199.309,
+"matched": false
+},
+{
+"line": 22,
+"t": "fixe",
+"s": 199.309,
+"e": 199.645,
+"matched": true
+},
+{
+"line": 22,
+"t": ":",
+"s": 199.645,
+"e": 199.982,
+"matched": false
+},
+{
+"line": 22,
+"t": "il",
+"s": 199.982,
+"e": 200.313,
+"matched": true
+},
+{
+"line": 22,
+"t": "tombe",
+"s": 200.313,
+"e": 200.49,
+"matched": true
+},
+{
+"line": 22,
+"t": "chaque",
+"s": 200.49,
+"e": 200.859,
+"matched": true
+},
+{
+"line": 22,
+"t": "mois,",
+"s": 200.859,
+"e": 201.13,
+"matched": true
+},
+{
+"line": 22,
+"t": "que",
+"s": 201.13,
+"e": 201.336,
+"matched": true
+},
+{
+"line": 22,
+"t": "l'avion",
+"s": 201.336,
+"e": 201.862,
+"matched": true
+},
+{
+"line": 22,
+"t": "vole",
+"s": 201.862,
+"e": 202.087,
+"matched": true
+},
+{
+"line": 22,
+"t": "ou",
+"s": 202.087,
+"e": 202.223,
+"matched": true
+},
+{
+"line": 22,
+"t": "qu'il",
+"s": 202.223,
+"e": 202.625,
+"matched": true
+},
+{
+"line": 22,
+"t": "reste",
+"s": 202.625,
+"e": 202.905,
+"matched": true
+},
+{
+"line": 22,
+"t": "cloué",
+"s": 202.905,
+"e": 203.2,
+"matched": true
+},
+{
+"line": 22,
+"t": "au",
+"s": 203.2,
+"e": 203.383,
+"matched": true
+},
+{
+"line": 22,
+"t": "sol.",
+"s": 203.383,
+"e": 203.87,
+"matched": true
+},
+{
+"line": 23,
+"t": "Il",
+"s": 204.465,
+"e": 204.585,
+"matched": false
+},
+{
+"line": 23,
+"t": "existe",
+"s": 204.585,
+"e": 204.705,
+"matched": false
+},
+{
+"line": 23,
+"t": "aussi",
+"s": 204.705,
+"e": 204.99,
+"matched": true
+},
+{
+"line": 23,
+"t": "la",
+"s": 204.99,
+"e": 205.315,
+"matched": true
+},
+{
+"line": 23,
+"t": "cession-bail",
+"s": 205.315,
+"e": 205.635,
+"matched": false
+},
+{
+"line": 23,
+"t": ":",
+"s": 205.635,
+"e": 205.98,
+"matched": false
+},
+{
+"line": 23,
+"t": "la",
+"s": 205.98,
+"e": 206.17,
+"matched": true
+},
+{
+"line": 23,
+"t": "compagnie",
+"s": 206.17,
+"e": 206.45,
+"matched": true
+},
+{
+"line": 23,
+"t": "vend",
+"s": 206.45,
+"e": 206.643,
+"matched": true
+},
+{
+"line": 23,
+"t": "son",
+"s": 206.643,
+"e": 206.78,
+"matched": true
+},
+{
+"line": 23,
+"t": "avion",
+"s": 206.78,
+"e": 207.005,
+"matched": true
+},
+{
+"line": 23,
+"t": "à",
+"s": 207.005,
+"e": 207.125,
+"matched": true
+},
+{
+"line": 23,
+"t": "un",
+"s": 207.125,
+"e": 207.245,
+"matched": true
+},
+{
+"line": 23,
+"t": "bailleur,",
+"s": 207.245,
+"e": 207.591,
+"matched": true
+},
+{
+"line": 23,
+"t": "puis",
+"s": 207.591,
+"e": 207.72,
+"matched": true
+},
+{
+"line": 23,
+"t": "le",
+"s": 207.72,
+"e": 207.855,
+"matched": true
+},
+{
+"line": 23,
+"t": "reprend",
+"s": 207.855,
+"e": 208.26,
+"matched": true
+},
+{
+"line": 23,
+"t": "en",
+"s": 208.26,
+"e": 208.38,
+"matched": true
+},
+{
+"line": 23,
+"t": "location.",
+"s": 208.38,
+"e": 208.825,
+"matched": true
+},
+{
+"line": 23,
+"t": "Elle",
+"s": 208.825,
+"e": 209.165,
+"matched": true
+},
+{
+"line": 23,
+"t": "récupère",
+"s": 209.165,
+"e": 209.42,
+"matched": true
+},
+{
+"line": 23,
+"t": "de",
+"s": 209.42,
+"e": 209.574,
+"matched": true
+},
+{
+"line": 23,
+"t": "la",
+"s": 209.574,
+"e": 209.825,
+"matched": true
+},
+{
+"line": 23,
+"t": "trésorerie",
+"s": 209.825,
+"e": 210.25,
+"matched": true
+},
+{
+"line": 23,
+"t": "tout",
+"s": 210.25,
+"e": 210.37,
+"matched": true
+},
+{
+"line": 23,
+"t": "de",
+"s": 210.37,
+"e": 210.565,
+"matched": true
+},
+{
+"line": 23,
+"t": "suite,",
+"s": 210.565,
+"e": 210.843,
+"matched": true
+},
+{
+"line": 23,
+"t": "mais",
+"s": 210.843,
+"e": 211.05,
+"matched": true
+},
+{
+"line": 23,
+"t": "elle",
+"s": 211.05,
+"e": 211.395,
+"matched": true
+},
+{
+"line": 23,
+"t": "s'engage",
+"s": 211.395,
+"e": 211.87,
+"matched": true
+},
+{
+"line": 23,
+"t": "à",
+"s": 211.87,
+"e": 211.99,
+"matched": true
+},
+{
+"line": 23,
+"t": "payer",
+"s": 211.99,
+"e": 212.215,
+"matched": true
+},
+{
+"line": 23,
+"t": "un",
+"s": 212.215,
+"e": 212.335,
+"matched": true
+},
+{
+"line": 23,
+"t": "loyer",
+"s": 212.335,
+"e": 212.582,
+"matched": true
+},
+{
+"line": 23,
+"t": "pendant",
+"s": 212.582,
+"e": 213.002,
+"matched": true
+},
+{
+"line": 23,
+"t": "des",
+"s": 213.002,
+"e": 213.178,
+"matched": true
+},
+{
+"line": 23,
+"t": "années.",
+"s": 213.178,
+"e": 214.135,
+"matched": true
+},
+{
+"line": 24,
+"t": "C'est",
+"s": 214.63,
+"e": 214.75,
+"matched": false
+},
+{
+"line": 24,
+"t": "un",
+"s": 214.75,
+"e": 214.87,
+"matched": true
+},
+{
+"line": 24,
+"t": "premier",
+"s": 214.87,
+"e": 215.105,
+"matched": true
+},
+{
+"line": 24,
+"t": "coût",
+"s": 215.105,
+"e": 215.655,
+"matched": false
+},
+{
+"line": 24,
+"t": "caché",
+"s": 215.655,
+"e": 215.906,
+"matched": true
+},
+{
+"line": 24,
+"t": ":",
+"s": 215.906,
+"e": 216.221,
+"matched": false
+},
+{
+"line": 24,
+"t": "l'avion,",
+"s": 216.221,
+"e": 216.657,
+"matched": true
+},
+{
+"line": 24,
+"t": "au",
+"s": 216.657,
+"e": 216.777,
+"matched": true
+},
+{
+"line": 24,
+"t": "lieu",
+"s": 216.777,
+"e": 216.96,
+"matched": true
+},
+{
+"line": 24,
+"t": "d'être",
+"s": 216.96,
+"e": 217.235,
+"matched": true
+},
+{
+"line": 24,
+"t": "un",
+"s": 217.235,
+"e": 217.385,
+"matched": true
+},
+{
+"line": 24,
+"t": "actif,",
+"s": 217.385,
+"e": 217.68,
+"matched": true
+},
+{
+"line": 24,
+"t": "devient",
+"s": 217.68,
+"e": 218.005,
+"matched": true
+},
+{
+"line": 24,
+"t": "une",
+"s": 218.005,
+"e": 218.16,
+"matched": true
+},
+{
+"line": 24,
+"t": "charge",
+"s": 218.16,
+"e": 218.451,
+"matched": true
+},
+{
+"line": 24,
+"t": "permanente.",
+"s": 218.451,
+"e": 219.13,
+"matched": true
+},
+{
+"line": 25,
+"t": "Ensuite,",
+"s": 219.895,
+"e": 220.015,
+"matched": false
+},
+{
+"line": 25,
+"t": "il",
+"s": 220.015,
+"e": 220.135,
+"matched": false
+},
+{
+"line": 25,
+"t": "faut",
+"s": 220.135,
+"e": 220.255,
+"matched": true
+},
+{
+"line": 25,
+"t": "entretenir.",
+"s": 220.255,
+"e": 220.92,
+"matched": true
+},
+{
+"line": 25,
+"t": "Selon",
+"s": 220.92,
+"e": 221.235,
+"matched": true
+},
+{
+"line": 25,
+"t": "différentes",
+"s": 221.235,
+"e": 221.85,
+"matched": true
+},
+{
+"line": 25,
+"t": "estimations,",
+"s": 221.85,
+"e": 222.604,
+"matched": true
+},
+{
+"line": 25,
+"t": "la",
+"s": 222.604,
+"e": 222.724,
+"matched": true
+},
+{
+"line": 25,
+"t": "maintenance",
+"s": 222.724,
+"e": 223.27,
+"matched": true
+},
+{
+"line": 25,
+"t": "pèse",
+"s": 223.27,
+"e": 223.56,
+"matched": true
+},
+{
+"line": 25,
+"t": "entre",
+"s": 223.56,
+"e": 223.89,
+"matched": true
+},
+{
+"line": 25,
+"t": "dix",
+"s": 223.89,
+"e": 224.165,
+"matched": false
+},
+{
+"line": 25,
+"t": "et",
+"s": 224.165,
+"e": 224.41,
+"matched": true
+},
+{
+"line": 25,
+"t": "quinze",
+"s": 224.41,
+"e": 224.53,
+"matched": false
+},
+{
+"line": 25,
+"t": "pour",
+"s": 224.53,
+"e": 224.65,
+"matched": true
+},
+{
+"line": 25,
+"t": "cent",
+"s": 224.65,
+"e": 224.77,
+"matched": true
+},
+{
+"line": 25,
+"t": "des",
+"s": 224.77,
+"e": 224.95,
+"matched": true
+},
+{
+"line": 25,
+"t": "coûts",
+"s": 224.95,
+"e": 225.14,
+"matched": true
+},
+{
+"line": 25,
+"t": "d'exploitation.",
+"s": 225.14,
+"e": 226.345,
+"matched": true
+},
+{
+"line": 25,
+"t": "Une",
+"s": 226.345,
+"e": 226.794,
+"matched": true
+},
+{
+"line": 25,
+"t": "présentation",
+"s": 226.794,
+"e": 227.455,
+"matched": true
+},
+{
+"line": 25,
+"t": "de",
+"s": 227.455,
+"e": 227.615,
+"matched": true
+},
+{
+"line": 25,
+"t": "l'IATA,",
+"s": 227.615,
+"e": 227.919,
+"matched": true
+},
+{
+"line": 25,
+"t": "en",
+"s": 227.919,
+"e": 228.06,
+"matched": true
+},
+{
+"line": 25,
+"t": "deux",
+"s": 228.06,
+"e": 228.404,
+"matched": false
+},
+{
+"line": 25,
+"t": "mille",
+"s": 228.404,
+"e": 228.647,
+"matched": false
+},
+{
+"line": 25,
+"t": "vingt-quatre,",
+"s": 228.647,
+"e": 228.795,
+"matched": false
+},
+{
+"line": 25,
+"t": "parle",
+"s": 228.795,
+"e": 229.305,
+"matched": true
+},
+{
+"line": 25,
+"t": "d'une",
+"s": 229.305,
+"e": 229.564,
+"matched": true
+},
+{
+"line": 25,
+"t": "hausse",
+"s": 229.564,
+"e": 230.04,
+"matched": true
+},
+{
+"line": 25,
+"t": "de",
+"s": 230.04,
+"e": 230.325,
+"matched": true
+},
+{
+"line": 25,
+"t": "onze",
+"s": 230.325,
+"e": 230.515,
+"matched": false
+},
+{
+"line": 25,
+"t": "à",
+"s": 230.515,
+"e": 230.73,
+"matched": true
+},
+{
+"line": 25,
+"t": "quatorze",
+"s": 230.73,
+"e": 230.85,
+"matched": false
+},
+{
+"line": 25,
+"t": "pour",
+"s": 230.85,
+"e": 230.97,
+"matched": true
+},
+{
+"line": 25,
+"t": "cent",
+"s": 230.97,
+"e": 231.09,
+"matched": true
+},
+{
+"line": 25,
+"t": "entre",
+"s": 231.09,
+"e": 231.37,
+"matched": true
+},
+{
+"line": 25,
+"t": "deux",
+"s": 231.37,
+"e": 231.625,
+"matched": false
+},
+{
+"line": 25,
+"t": "mille",
+"s": 231.625,
+"e": 231.943,
+"matched": false
+},
+{
+"line": 25,
+"t": "dix-neuf",
+"s": 231.943,
+"e": 232.315,
+"matched": false
+},
+{
+"line": 25,
+"t": "et",
+"s": 232.315,
+"e": 232.435,
+"matched": true
+},
+{
+"line": 25,
+"t": "deux",
+"s": 232.435,
+"e": 232.555,
+"matched": false
+},
+{
+"line": 25,
+"t": "mille",
+"s": 232.555,
+"e": 232.675,
+"matched": false
+},
+{
+"line": 25,
+"t": "vingt-trois.",
+"s": 232.675,
+"e": 232.375,
+"matched": false
+},
+{
+"line": 26,
+"t": "Plusieurs",
+"s": 232.475,
+"e": 232.94,
+"matched": true
+},
+{
+"line": 26,
+"t": "facteurs",
+"s": 232.94,
+"e": 233.33,
+"matched": true
+},
+{
+"line": 26,
+"t": "expliquent",
+"s": 233.33,
+"e": 233.735,
+"matched": true
+},
+{
+"line": 26,
+"t": "cette",
+"s": 233.735,
+"e": 234.025,
+"matched": true
+},
+{
+"line": 26,
+"t": "hausse",
+"s": 234.025,
+"e": 234.195,
+"matched": true
+},
+{
+"line": 26,
+"t": ":",
+"s": 234.195,
+"e": 234.445,
+"matched": false
+},
+{
+"line": 26,
+"t": "une",
+"s": 234.445,
+"e": 234.715,
+"matched": true
+},
+{
+"line": 26,
+"t": "flotte",
+"s": 234.715,
+"e": 234.905,
+"matched": true
+},
+{
+"line": 26,
+"t": "vieillissante,",
+"s": 234.905,
+"e": 235.51,
+"matched": true
+},
+{
+"line": 26,
+"t": "des",
+"s": 235.51,
+"e": 235.765,
+"matched": true
+},
+{
+"line": 26,
+"t": "pièces",
+"s": 235.765,
+"e": 236.103,
+"matched": true
+},
+{
+"line": 26,
+"t": "détachées",
+"s": 236.103,
+"e": 236.604,
+"matched": true
+},
+{
+"line": 26,
+"t": "difficiles",
+"s": 236.604,
+"e": 237.167,
+"matched": true
+},
+{
+"line": 26,
+"t": "à",
+"s": 237.167,
+"e": 237.535,
+"matched": true
+},
+{
+"line": 26,
+"t": "obtenir,",
+"s": 237.535,
+"e": 237.855,
+"matched": true
+},
+{
+"line": 26,
+"t": "et",
+"s": 237.855,
+"e": 238.015,
+"matched": true
+},
+{
+"line": 26,
+"t": "des",
+"s": 238.015,
+"e": 238.135,
+"matched": true
+},
+{
+"line": 26,
+"t": "moteurs",
+"s": 238.135,
+"e": 238.63,
+"matched": true
+},
+{
+"line": 26,
+"t": "qui",
+"s": 238.63,
+"e": 238.783,
+"matched": true
+},
+{
+"line": 26,
+"t": "passent",
+"s": 238.783,
+"e": 239.242,
+"matched": true
+},
+{
+"line": 26,
+"t": "plus",
+"s": 239.242,
+"e": 239.4,
+"matched": true
+},
+{
+"line": 26,
+"t": "de",
+"s": 239.4,
+"e": 239.665,
+"matched": true
+},
+{
+"line": 26,
+"t": "temps",
+"s": 239.665,
+"e": 239.951,
+"matched": true
+},
+{
+"line": 26,
+"t": "en",
+"s": 239.951,
+"e": 240.08,
+"matched": true
+},
+{
+"line": 26,
+"t": "atelier.",
+"s": 240.08,
+"e": 241.035,
+"matched": true
+},
+{
+"line": 27,
+"t": "Quand",
+"s": 241.605,
+"e": 241.725,
+"matched": false
+},
+{
+"line": 27,
+"t": "un",
+"s": 241.725,
+"e": 241.845,
+"matched": false
+},
+{
+"line": 27,
+"t": "avion",
+"s": 241.845,
+"e": 241.965,
+"matched": true
+},
+{
+"line": 27,
+"t": "est",
+"s": 241.965,
+"e": 242.085,
+"matched": true
+},
+{
+"line": 27,
+"t": "immobilisé",
+"s": 242.085,
+"e": 242.29,
+"matched": true
+},
+{
+"line": 27,
+"t": "pour",
+"s": 242.29,
+"e": 242.521,
+"matched": true
+},
+{
+"line": 27,
+"t": "maintenance,",
+"s": 242.521,
+"e": 243.15,
+"matched": true
+},
+{
+"line": 27,
+"t": "il",
+"s": 243.15,
+"e": 243.27,
+"matched": true
+},
+{
+"line": 27,
+"t": "ne",
+"s": 243.27,
+"e": 243.39,
+"matched": true
+},
+{
+"line": 27,
+"t": "rapporte",
+"s": 243.39,
+"e": 243.535,
+"matched": true
+},
+{
+"line": 27,
+"t": "rien.",
+"s": 243.535,
+"e": 244.01,
+"matched": true
+},
+{
+"line": 27,
+"t": "Mais",
+"s": 244.01,
+"e": 244.315,
+"matched": true
+},
+{
+"line": 27,
+"t": "il",
+"s": 244.315,
+"e": 244.435,
+"matched": true
+},
+{
+"line": 27,
+"t": "coûte",
+"s": 244.435,
+"e": 244.59,
+"matched": true
+},
+{
+"line": 27,
+"t": "son",
+"s": 244.59,
+"e": 244.91,
+"matched": true
+},
+{
+"line": 27,
+"t": "loyer,",
+"s": 244.91,
+"e": 245.27,
+"matched": true
+},
+{
+"line": 27,
+"t": "son",
+"s": 245.27,
+"e": 245.435,
+"matched": true
+},
+{
+"line": 27,
+"t": "assurance",
+"s": 245.435,
+"e": 245.931,
+"matched": true
+},
+{
+"line": 27,
+"t": "et",
+"s": 245.931,
+"e": 246.125,
+"matched": true
+},
+{
+"line": 27,
+"t": "ses",
+"s": 246.125,
+"e": 246.245,
+"matched": true
+},
+{
+"line": 27,
+"t": "équipes.",
+"s": 246.245,
+"e": 247.585,
+"matched": true
+},
+{
+"line": 28,
+"t": "C'est",
+"s": 248.24,
+"e": 248.36,
+"matched": false
+},
+{
+"line": 28,
+"t": "le",
+"s": 248.36,
+"e": 248.48,
+"matched": false
+},
+{
+"line": 28,
+"t": "principe",
+"s": 248.48,
+"e": 248.6,
+"matched": false
+},
+{
+"line": 28,
+"t": "des",
+"s": 248.6,
+"e": 248.72,
+"matched": false
+},
+{
+"line": 28,
+"t": "coûts",
+"s": 248.72,
+"e": 248.84,
+"matched": false
+},
+{
+"line": 28,
+"t": "fixes",
+"s": 248.84,
+"e": 248.96,
+"matched": true
+},
+{
+"line": 28,
+"t": ":",
+"s": 248.96,
+"e": 249.08,
+"matched": false
+},
+{
+"line": 28,
+"t": "un",
+"s": 249.08,
+"e": 249.2,
+"matched": true
+},
+{
+"line": 28,
+"t": "avion",
+"s": 249.2,
+"e": 249.32,
+"matched": true
+},
+{
+"line": 28,
+"t": "au",
+"s": 249.32,
+"e": 249.44,
+"matched": true
+},
+{
+"line": 28,
+"t": "sol",
+"s": 249.44,
+"e": 249.56,
+"matched": true
+},
+{
+"line": 28,
+"t": "est",
+"s": 249.56,
+"e": 249.68,
+"matched": true
+},
+{
+"line": 28,
+"t": "un",
+"s": 249.68,
+"e": 249.8,
+"matched": true
+},
+{
+"line": 28,
+"t": "avion",
+"s": 249.8,
+"e": 249.92,
+"matched": true
+},
+{
+"line": 28,
+"t": "qui",
+"s": 249.92,
+"e": 250.04,
+"matched": true
+},
+{
+"line": 28,
+"t": "perd",
+"s": 250.04,
+"e": 250.16,
+"matched": true
+},
+{
+"line": 28,
+"t": "de",
+"s": 250.16,
+"e": 250.28,
+"matched": true
+},
+{
+"line": 28,
+"t": "l'argent.",
+"s": 250.28,
+"e": 251.635,
+"matched": true
+},
+{
+"line": 29,
+"t": "À",
+"s": 252.35,
+"e": 252.47,
+"matched": false
+},
+{
+"line": 29,
+"t": "chaque",
+"s": 252.47,
+"e": 252.59,
+"matched": false
+},
+{
+"line": 29,
+"t": "vol,",
+"s": 252.59,
+"e": 252.71,
+"matched": false
+},
+{
+"line": 29,
+"t": "il",
+"s": 252.71,
+"e": 252.83,
+"matched": true
+},
+{
+"line": 29,
+"t": "faut",
+"s": 252.83,
+"e": 252.95,
+"matched": true
+},
+{
+"line": 29,
+"t": "aussi",
+"s": 252.95,
+"e": 253.3,
+"matched": true
+},
+{
+"line": 29,
+"t": "payer",
+"s": 253.3,
+"e": 253.66,
+"matched": true
+},
+{
+"line": 29,
+"t": "l'infrastructure.",
+"s": 253.66,
+"e": 255.205,
+"matched": true
+},
+{
+"line": 29,
+"t": "Redevances",
+"s": 255.205,
+"e": 255.62,
+"matched": true
+},
+{
+"line": 29,
+"t": "d'atterrissage,",
+"s": 255.62,
+"e": 256.01,
+"matched": true
+},
+{
+"line": 29,
+"t": "de",
+"s": 256.01,
+"e": 256.228,
+"matched": true
+},
+{
+"line": 29,
+"t": "passerelles,",
+"s": 256.228,
+"e": 257.042,
+"matched": true
+},
+{
+"line": 29,
+"t": "de",
+"s": 257.042,
+"e": 257.215,
+"matched": true
+},
+{
+"line": 29,
+"t": "navigation",
+"s": 257.215,
+"e": 257.562,
+"matched": true
+},
+{
+"line": 29,
+"t": "aérienne,",
+"s": 257.562,
+"e": 257.997,
+"matched": true
+},
+{
+"line": 29,
+"t": "de",
+"s": 257.997,
+"e": 258.117,
+"matched": true
+},
+{
+"line": 29,
+"t": "traitement",
+"s": 258.117,
+"e": 258.404,
+"matched": true
+},
+{
+"line": 29,
+"t": "des",
+"s": 258.404,
+"e": 258.59,
+"matched": true
+},
+{
+"line": 29,
+"t": "passagers",
+"s": 258.59,
+"e": 258.795,
+"matched": true
+},
+{
+"line": 29,
+"t": ":",
+"s": 258.795,
+"e": 259.015,
+"matched": false
+},
+{
+"line": 29,
+"t": "chaque",
+"s": 259.015,
+"e": 259.295,
+"matched": true
+},
+{
+"line": 29,
+"t": "aéroport",
+"s": 259.295,
+"e": 259.715,
+"matched": true
+},
+{
+"line": 29,
+"t": "et",
+"s": 259.715,
+"e": 259.889,
+"matched": true
+},
+{
+"line": 29,
+"t": "chaque",
+"s": 259.889,
+"e": 260.215,
+"matched": true
+},
+{
+"line": 29,
+"t": "pays",
+"s": 260.215,
+"e": 260.504,
+"matched": true
+},
+{
+"line": 29,
+"t": "facture",
+"s": 260.504,
+"e": 260.92,
+"matched": true
+},
+{
+"line": 29,
+"t": "ses",
+"s": 260.92,
+"e": 261.14,
+"matched": true
+},
+{
+"line": 29,
+"t": "services.",
+"s": 261.14,
+"e": 262.49,
+"matched": true
+},
+{
+"line": 30,
+"t": "Je",
+"s": 263.065,
+"e": 263.185,
+"matched": false
+},
+{
+"line": 30,
+"t": "n'ai",
+"s": 263.185,
+"e": 263.305,
+"matched": false
+},
+{
+"line": 30,
+"t": "pas",
+"s": 263.305,
+"e": 263.425,
+"matched": false
+},
+{
+"line": 30,
+"t": "trouvé",
+"s": 263.425,
+"e": 263.545,
+"matched": false
+},
+{
+"line": 30,
+"t": "de",
+"s": 263.545,
+"e": 263.665,
+"matched": true
+},
+{
+"line": 30,
+"t": "chiffre",
+"s": 263.665,
+"e": 263.785,
+"matched": false
+},
+{
+"line": 30,
+"t": "mondial",
+"s": 263.785,
+"e": 264.05,
+"matched": false
+},
+{
+"line": 30,
+"t": "fiable",
+"s": 264.05,
+"e": 264.362,
+"matched": false
+},
+{
+"line": 30,
+"t": "sur",
+"s": 264.362,
+"e": 264.482,
+"matched": true
+},
+{
+"line": 30,
+"t": "la",
+"s": 264.482,
+"e": 264.625,
+"matched": true
+},
+{
+"line": 30,
+"t": "part",
+"s": 264.625,
+"e": 264.759,
+"matched": true
+},
+{
+"line": 30,
+"t": "de",
+"s": 264.759,
+"e": 264.879,
+"matched": true
+},
+{
+"line": 30,
+"t": "ces",
+"s": 264.879,
+"e": 265.21,
+"matched": true
+},
+{
+"line": 30,
+"t": "redevances",
+"s": 265.21,
+"e": 265.525,
+"matched": true
+},
+{
+"line": 30,
+"t": "dans",
+"s": 265.525,
+"e": 265.679,
+"matched": true
+},
+{
+"line": 30,
+"t": "les",
+"s": 265.679,
+"e": 265.824,
+"matched": true
+},
+{
+"line": 30,
+"t": "coûts,",
+"s": 265.824,
+"e": 266.15,
+"matched": true
+},
+{
+"line": 30,
+"t": "car",
+"s": 266.15,
+"e": 266.32,
+"matched": true
+},
+{
+"line": 30,
+"t": "elles",
+"s": 266.32,
+"e": 266.525,
+"matched": true
+},
+{
+"line": 30,
+"t": "varient",
+"s": 266.525,
+"e": 267.092,
+"matched": true
+},
+{
+"line": 30,
+"t": "énormément",
+"s": 267.092,
+"e": 267.286,
+"matched": true
+},
+{
+"line": 30,
+"t": "d'un",
+"s": 267.286,
+"e": 267.46,
+"matched": true
+},
+{
+"line": 30,
+"t": "pays",
+"s": 267.46,
+"e": 267.625,
+"matched": true
+},
+{
+"line": 30,
+"t": "à",
+"s": 267.625,
+"e": 267.745,
+"matched": true
+},
+{
+"line": 30,
+"t": "l'autre.",
+"s": 267.745,
+"e": 268.185,
+"matched": true
+},
+{
+"line": 30,
+"t": "Ce",
+"s": 268.185,
+"e": 268.305,
+"matched": true
+},
+{
+"line": 30,
+"t": "que",
+"s": 268.305,
+"e": 268.425,
+"matched": true
+},
+{
+"line": 30,
+"t": "l'on",
+"s": 268.425,
+"e": 268.545,
+"matched": true
+},
+{
+"line": 30,
+"t": "sait,",
+"s": 268.545,
+"e": 268.765,
+"matched": true
+},
+{
+"line": 30,
+"t": "c'est",
+"s": 268.765,
+"e": 268.955,
+"matched": true
+},
+{
+"line": 30,
+"t": "qu'elles",
+"s": 268.955,
+"e": 269.235,
+"matched": true
+},
+{
+"line": 30,
+"t": "s'ajoutent",
+"s": 269.235,
+"e": 269.83,
+"matched": true
+},
+{
+"line": 30,
+"t": "à",
+"s": 269.83,
+"e": 269.95,
+"matched": true
+},
+{
+"line": 30,
+"t": "chaque",
+"s": 269.95,
+"e": 270.09,
+"matched": true
+},
+{
+"line": 30,
+"t": "rotation",
+"s": 270.09,
+"e": 270.47,
+"matched": true
+},
+{
+"line": 30,
+"t": "de",
+"s": 270.47,
+"e": 270.59,
+"matched": true
+},
+{
+"line": 30,
+"t": "l'avion.",
+"s": 270.59,
+"e": 271.245,
+"matched": true
+},
+{
+"line": 31,
+"t": "Il",
+"s": 271.96,
+"e": 272.08,
+"matched": false
+},
+{
+"line": 31,
+"t": "y",
+"s": 272.08,
+"e": 272.2,
+"matched": false
+},
+{
+"line": 31,
+"t": "a",
+"s": 272.2,
+"e": 272.32,
+"matched": false
+},
+{
+"line": 31,
+"t": "aussi",
+"s": 272.32,
+"e": 272.44,
+"matched": false
+},
+{
+"line": 31,
+"t": "les",
+"s": 272.44,
+"e": 272.56,
+"matched": false
+},
+{
+"line": 31,
+"t": "taxes",
+"s": 272.56,
+"e": 272.68,
+"matched": true
+},
+{
+"line": 31,
+"t": ":",
+"s": 272.68,
+"e": 272.8,
+"matched": false
+},
+{
+"line": 31,
+"t": "une",
+"s": 272.8,
+"e": 272.92,
+"matched": true
+},
+{
+"line": 31,
+"t": "partie",
+"s": 272.92,
+"e": 273.04,
+"matched": true
+},
+{
+"line": 31,
+"t": "de",
+"s": 273.04,
+"e": 273.16,
+"matched": true
+},
+{
+"line": 31,
+"t": "ce",
+"s": 273.16,
+"e": 273.28,
+"matched": true
+},
+{
+"line": 31,
+"t": "que",
+"s": 273.28,
+"e": 273.4,
+"matched": true
+},
+{
+"line": 31,
+"t": "paie",
+"s": 273.4,
+"e": 273.52,
+"matched": false
+},
+{
+"line": 31,
+"t": "le",
+"s": 273.52,
+"e": 273.64,
+"matched": true
+},
+{
+"line": 31,
+"t": "passager",
+"s": 273.64,
+"e": 273.945,
+"matched": true
+},
+{
+"line": 31,
+"t": "est",
+"s": 273.945,
+"e": 274.19,
+"matched": true
+},
+{
+"line": 31,
+"t": "collectée",
+"s": 274.19,
+"e": 274.479,
+"matched": true
+},
+{
+"line": 31,
+"t": "par",
+"s": 274.479,
+"e": 274.715,
+"matched": true
+},
+{
+"line": 31,
+"t": "la",
+"s": 274.715,
+"e": 274.835,
+"matched": true
+},
+{
+"line": 31,
+"t": "compagnie",
+"s": 274.835,
+"e": 275.115,
+"matched": true
+},
+{
+"line": 31,
+"t": "pour",
+"s": 275.115,
+"e": 275.32,
+"matched": true
+},
+{
+"line": 31,
+"t": "le",
+"s": 275.32,
+"e": 275.455,
+"matched": true
+},
+{
+"line": 31,
+"t": "compte",
+"s": 275.455,
+"e": 275.715,
+"matched": true
+},
+{
+"line": 31,
+"t": "des",
+"s": 275.715,
+"e": 275.835,
+"matched": true
+},
+{
+"line": 31,
+"t": "aéroports",
+"s": 275.835,
+"e": 276.155,
+"matched": true
+},
+{
+"line": 31,
+"t": "et",
+"s": 276.155,
+"e": 276.383,
+"matched": true
+},
+{
+"line": 31,
+"t": "des",
+"s": 276.383,
+"e": 276.503,
+"matched": true
+},
+{
+"line": 31,
+"t": "États,",
+"s": 276.503,
+"e": 277.065,
+"matched": true
+},
+{
+"line": 31,
+"t": "et",
+"s": 277.065,
+"e": 277.19,
+"matched": true
+},
+{
+"line": 31,
+"t": "ne",
+"s": 277.19,
+"e": 277.405,
+"matched": true
+},
+{
+"line": 31,
+"t": "lui",
+"s": 277.405,
+"e": 277.57,
+"matched": true
+},
+{
+"line": 31,
+"t": "appartient",
+"s": 277.57,
+"e": 278.455,
+"matched": true
+},
+{
+"line": 31,
+"t": "pas.",
+"s": 278.455,
+"e": 278.95,
+"matched": true
+},
+{
+"line": 32,
+"t": "Voilà",
+"s": 279.125,
+"e": 279.253,
+"matched": true
+},
+{
+"line": 32,
+"t": "pourquoi",
+"s": 279.253,
+"e": 279.535,
+"matched": true
+},
+{
+"line": 32,
+"t": "un",
+"s": 279.535,
+"e": 279.655,
+"matched": true
+},
+{
+"line": 32,
+"t": "billet",
+"s": 279.655,
+"e": 279.91,
+"matched": true
+},
+{
+"line": 32,
+"t": "à",
+"s": 279.91,
+"e": 280.03,
+"matched": true
+},
+{
+"line": 32,
+"t": "bas",
+"s": 280.03,
+"e": 280.15,
+"matched": true
+},
+{
+"line": 32,
+"t": "prix",
+"s": 280.15,
+"e": 280.27,
+"matched": true
+},
+{
+"line": 32,
+"t": "peut",
+"s": 280.27,
+"e": 280.39,
+"matched": true
+},
+{
+"line": 32,
+"t": "cacher",
+"s": 280.39,
+"e": 280.525,
+"matched": true
+},
+{
+"line": 32,
+"t": "une",
+"s": 280.525,
+"e": 280.675,
+"matched": true
+},
+{
+"line": 32,
+"t": "structure",
+"s": 280.675,
+"e": 281.165,
+"matched": true
+},
+{
+"line": 32,
+"t": "de",
+"s": 281.165,
+"e": 281.285,
+"matched": true
+},
+{
+"line": 32,
+"t": "coûts",
+"s": 281.285,
+"e": 281.405,
+"matched": true
+},
+{
+"line": 32,
+"t": "très",
+"s": 281.405,
+"e": 281.56,
+"matched": true
+},
+{
+"line": 32,
+"t": "rigide",
+"s": 281.56,
+"e": 281.785,
+"matched": true
+},
+{
+"line": 32,
+"t": ":",
+"s": 281.785,
+"e": 281.98,
+"matched": false
+},
+{
+"line": 32,
+"t": "une",
+"s": 281.98,
+"e": 282.39,
+"matched": true
+},
+{
+"line": 32,
+"t": "partie",
+"s": 282.39,
+"e": 282.555,
+"matched": true
+},
+{
+"line": 32,
+"t": "de",
+"s": 282.555,
+"e": 282.692,
+"matched": true
+},
+{
+"line": 32,
+"t": "son",
+"s": 282.692,
+"e": 282.895,
+"matched": true
+},
+{
+"line": 32,
+"t": "prix",
+"s": 282.895,
+"e": 283.225,
+"matched": true
+},
+{
+"line": 32,
+"t": "repart",
+"s": 283.225,
+"e": 283.655,
+"matched": true
+},
+{
+"line": 32,
+"t": "aussitôt,",
+"s": 283.655,
+"e": 284.03,
+"matched": true
+},
+{
+"line": 32,
+"t": "avant",
+"s": 284.03,
+"e": 284.44,
+"matched": true
+},
+{
+"line": 32,
+"t": "même",
+"s": 284.44,
+"e": 284.765,
+"matched": true
+},
+{
+"line": 32,
+"t": "de",
+"s": 284.765,
+"e": 284.885,
+"matched": true
+},
+{
+"line": 32,
+"t": "payer",
+"s": 284.885,
+"e": 285.16,
+"matched": true
+},
+{
+"line": 32,
+"t": "l'avion",
+"s": 285.16,
+"e": 285.658,
+"matched": true
+},
+{
+"line": 32,
+"t": "et",
+"s": 285.658,
+"e": 285.803,
+"matched": true
+},
+{
+"line": 32,
+"t": "l'équipage.",
+"s": 285.803,
+"e": 287.175,
+"matched": true
+},
+{
+"line": 33,
+"t": "Autre",
+"s": 287.835,
+"e": 287.955,
+"matched": false
+},
+{
+"line": 33,
+"t": "coût",
+"s": 287.955,
+"e": 288.075,
+"matched": false
+},
+{
+"line": 33,
+"t": "caché",
+"s": 288.075,
+"e": 288.195,
+"matched": true
+},
+{
+"line": 33,
+"t": ":",
+"s": 288.195,
+"e": 288.315,
+"matched": false
+},
+{
+"line": 33,
+"t": "quand",
+"s": 288.315,
+"e": 288.637,
+"matched": true
+},
+{
+"line": 33,
+"t": "tout",
+"s": 288.637,
+"e": 289.065,
+"matched": true
+},
+{
+"line": 33,
+"t": "ne",
+"s": 289.065,
+"e": 289.205,
+"matched": true
+},
+{
+"line": 33,
+"t": "se",
+"s": 289.205,
+"e": 289.325,
+"matched": true
+},
+{
+"line": 33,
+"t": "passe",
+"s": 289.325,
+"e": 289.645,
+"matched": true
+},
+{
+"line": 33,
+"t": "pas",
+"s": 289.645,
+"e": 290.02,
+"matched": true
+},
+{
+"line": 33,
+"t": "comme",
+"s": 290.02,
+"e": 290.255,
+"matched": true
+},
+{
+"line": 33,
+"t": "prévu.",
+"s": 290.255,
+"e": 291.033,
+"matched": true
+},
+{
+"line": 33,
+"t": "En",
+"s": 291.033,
+"e": 291.48,
+"matched": true
+},
+{
+"line": 33,
+"t": "Europe,",
+"s": 291.48,
+"e": 291.629,
+"matched": true
+},
+{
+"line": 33,
+"t": "le",
+"s": 291.629,
+"e": 291.749,
+"matched": true
+},
+{
+"line": 33,
+"t": "règlement",
+"s": 291.749,
+"e": 292.304,
+"matched": true
+},
+{
+"line": 33,
+"t": "sur",
+"s": 292.304,
+"e": 292.49,
+"matched": true
+},
+{
+"line": 33,
+"t": "les",
+"s": 292.49,
+"e": 292.715,
+"matched": true
+},
+{
+"line": 33,
+"t": "droits",
+"s": 292.715,
+"e": 292.985,
+"matched": true
+},
+{
+"line": 33,
+"t": "des",
+"s": 292.985,
+"e": 293.305,
+"matched": true
+},
+{
+"line": 33,
+"t": "passagers",
+"s": 293.305,
+"e": 293.81,
+"matched": true
+},
+{
+"line": 33,
+"t": "prévoit",
+"s": 293.81,
+"e": 294.32,
+"matched": true
+},
+{
+"line": 33,
+"t": "une",
+"s": 294.32,
+"e": 294.44,
+"matched": true
+},
+{
+"line": 33,
+"t": "indemnisation",
+"s": 294.44,
+"e": 295.225,
+"matched": true
+},
+{
+"line": 33,
+"t": "de",
+"s": 295.225,
+"e": 295.348,
+"matched": true
+},
+{
+"line": 33,
+"t": "deux",
+"s": 295.348,
+"e": 295.517,
+"matched": false
+},
+{
+"line": 33,
+"t": "cent",
+"s": 295.517,
+"e": 295.755,
+"matched": false
+},
+{
+"line": 33,
+"t": "cinquante",
+"s": 295.755,
+"e": 295.915,
+"matched": false
+},
+{
+"line": 33,
+"t": "à",
+"s": 295.915,
+"e": 296.04,
+"matched": true
+},
+{
+"line": 33,
+"t": "six",
+"s": 296.04,
+"e": 296.343,
+"matched": false
+},
+{
+"line": 33,
+"t": "cents",
+"s": 296.343,
+"e": 296.655,
+"matched": false
+},
+{
+"line": 33,
+"t": "euros,",
+"s": 296.655,
+"e": 296.915,
+"matched": true
+},
+{
+"line": 33,
+"t": "selon",
+"s": 296.915,
+"e": 297.3,
+"matched": true
+},
+{
+"line": 33,
+"t": "la",
+"s": 297.3,
+"e": 297.42,
+"matched": true
+},
+{
+"line": 33,
+"t": "distance,",
+"s": 297.42,
+"e": 297.79,
+"matched": true
+},
+{
+"line": 33,
+"t": "en",
+"s": 297.79,
+"e": 298.07,
+"matched": true
+},
+{
+"line": 33,
+"t": "cas",
+"s": 298.07,
+"e": 298.221,
+"matched": true
+},
+{
+"line": 33,
+"t": "d'annulation",
+"s": 298.221,
+"e": 298.876,
+"matched": true
+},
+{
+"line": 33,
+"t": "ou",
+"s": 298.876,
+"e": 298.996,
+"matched": true
+},
+{
+"line": 33,
+"t": "de",
+"s": 298.996,
+"e": 299.205,
+"matched": true
+},
+{
+"line": 33,
+"t": "retard",
+"s": 299.205,
+"e": 299.39,
+"matched": true
+},
+{
+"line": 33,
+"t": "d'au",
+"s": 299.39,
+"e": 299.59,
+"matched": false
+},
+{
+"line": 33,
+"t": "moins",
+"s": 299.59,
+"e": 299.913,
+"matched": true
+},
+{
+"line": 33,
+"t": "trois",
+"s": 299.913,
+"e": 300.196,
+"matched": true
+},
+{
+"line": 33,
+"t": "heures,",
+"s": 300.196,
+"e": 300.695,
+"matched": true
+},
+{
+"line": 33,
+"t": "sauf",
+"s": 300.695,
+"e": 300.815,
+"matched": true
+},
+{
+"line": 33,
+"t": "circonstances",
+"s": 300.815,
+"e": 300.935,
+"matched": false
+},
+{
+"line": 33,
+"t": "extraordinaires.",
+"s": 300.935,
+"e": 300.91,
+"matched": false
+},
+{
+"line": 34,
+"t": "À",
+"s": 303.115,
+"e": 303.235,
+"matched": true
+},
+{
+"line": 34,
+"t": "cela",
+"s": 303.235,
+"e": 303.505,
+"matched": true
+},
+{
+"line": 34,
+"t": "s'ajoutent",
+"s": 303.505,
+"e": 303.935,
+"matched": true
+},
+{
+"line": 34,
+"t": "les",
+"s": 303.935,
+"e": 304.056,
+"matched": true
+},
+{
+"line": 34,
+"t": "repas,",
+"s": 304.056,
+"e": 304.505,
+"matched": true
+},
+{
+"line": 34,
+"t": "les",
+"s": 304.505,
+"e": 304.625,
+"matched": true
+},
+{
+"line": 34,
+"t": "hôtels,",
+"s": 304.625,
+"e": 305.095,
+"matched": true
+},
+{
+"line": 34,
+"t": "le",
+"s": 305.095,
+"e": 305.215,
+"matched": true
+},
+{
+"line": 34,
+"t": "réacheminement",
+"s": 305.215,
+"e": 305.881,
+"matched": true
+},
+{
+"line": 34,
+"t": "sur",
+"s": 305.881,
+"e": 306.13,
+"matched": true
+},
+{
+"line": 34,
+"t": "d'autres",
+"s": 306.13,
+"e": 306.458,
+"matched": true
+},
+{
+"line": 34,
+"t": "vols.",
+"s": 306.458,
+"e": 307.13,
+"matched": true
+},
+{
+"line": 35,
+"t": "Et",
+"s": 307.775,
+"e": 307.895,
+"matched": false
+},
+{
+"line": 35,
+"t": "il",
+"s": 307.895,
+"e": 308.015,
+"matched": false
+},
+{
+"line": 35,
+"t": "y",
+"s": 308.015,
+"e": 308.135,
+"matched": false
+},
+{
+"line": 35,
+"t": "a",
+"s": 308.135,
+"e": 308.255,
+"matched": true
+},
+{
+"line": 35,
+"t": "le",
+"s": 308.255,
+"e": 308.375,
+"matched": true
+},
+{
+"line": 35,
+"t": "coût",
+"s": 308.375,
+"e": 308.495,
+"matched": true
+},
+{
+"line": 35,
+"t": "de",
+"s": 308.495,
+"e": 308.615,
+"matched": true
+},
+{
+"line": 35,
+"t": "la",
+"s": 308.615,
+"e": 308.763,
+"matched": true
+},
+{
+"line": 35,
+"t": "perturbation",
+"s": 308.763,
+"e": 309.476,
+"matched": true
+},
+{
+"line": 35,
+"t": ":",
+"s": 309.476,
+"e": 310.25,
+"matched": false
+},
+{
+"line": 35,
+"t": "un",
+"s": 310.25,
+"e": 310.6,
+"matched": true
+},
+{
+"line": 35,
+"t": "équipage",
+"s": 310.6,
+"e": 310.921,
+"matched": true
+},
+{
+"line": 35,
+"t": "mal",
+"s": 310.921,
+"e": 311.14,
+"matched": true
+},
+{
+"line": 35,
+"t": "positionné,",
+"s": 311.14,
+"e": 312.08,
+"matched": true
+},
+{
+"line": 35,
+"t": "un",
+"s": 312.08,
+"e": 312.2,
+"matched": true
+},
+{
+"line": 35,
+"t": "avion",
+"s": 312.2,
+"e": 312.43,
+"matched": true
+},
+{
+"line": 35,
+"t": "qui",
+"s": 312.43,
+"e": 312.556,
+"matched": true
+},
+{
+"line": 35,
+"t": "n'est",
+"s": 312.556,
+"e": 312.926,
+"matched": true
+},
+{
+"line": 35,
+"t": "pas",
+"s": 312.926,
+"e": 313.046,
+"matched": true
+},
+{
+"line": 35,
+"t": "là",
+"s": 313.046,
+"e": 313.166,
+"matched": true
+},
+{
+"line": 35,
+"t": "où",
+"s": 313.166,
+"e": 313.286,
+"matched": true
+},
+{
+"line": 35,
+"t": "il",
+"s": 313.286,
+"e": 313.406,
+"matched": true
+},
+{
+"line": 35,
+"t": "devrait",
+"s": 313.406,
+"e": 313.565,
+"matched": true
+},
+{
+"line": 35,
+"t": "être,",
+"s": 313.565,
+"e": 313.991,
+"matched": true
+},
+{
+"line": 35,
+"t": "une",
+"s": 313.991,
+"e": 314.345,
+"matched": true
+},
+{
+"line": 35,
+"t": "rotation",
+"s": 314.345,
+"e": 314.655,
+"matched": true
+},
+{
+"line": 35,
+"t": "du",
+"s": 314.655,
+"e": 314.775,
+"matched": true
+},
+{
+"line": 35,
+"t": "lendemain",
+"s": 314.775,
+"e": 315.236,
+"matched": true
+},
+{
+"line": 35,
+"t": "qui",
+"s": 315.236,
+"e": 315.407,
+"matched": true
+},
+{
+"line": 35,
+"t": "saute.",
+"s": 315.407,
+"e": 316.015,
+"matched": true
+},
+{
+"line": 36,
+"t": "Un",
+"s": 316.675,
+"e": 316.795,
+"matched": false
+},
+{
+"line": 36,
+"t": "retard",
+"s": 316.795,
+"e": 316.965,
+"matched": true
+},
+{
+"line": 36,
+"t": "n'est",
+"s": 316.965,
+"e": 317.187,
+"matched": true
+},
+{
+"line": 36,
+"t": "donc",
+"s": 317.187,
+"e": 317.365,
+"matched": true
+},
+{
+"line": 36,
+"t": "jamais",
+"s": 317.365,
+"e": 317.88,
+"matched": true
+},
+{
+"line": 36,
+"t": "un",
+"s": 317.88,
+"e": 318.003,
+"matched": true
+},
+{
+"line": 36,
+"t": "incident",
+"s": 318.003,
+"e": 318.553,
+"matched": true
+},
+{
+"line": 36,
+"t": "isolé",
+"s": 318.553,
+"e": 318.8,
+"matched": true
+},
+{
+"line": 36,
+"t": ":",
+"s": 318.8,
+"e": 319.17,
+"matched": false
+},
+{
+"line": 36,
+"t": "c'est",
+"s": 319.17,
+"e": 319.49,
+"matched": true
+},
+{
+"line": 36,
+"t": "une",
+"s": 319.49,
+"e": 319.654,
+"matched": true
+},
+{
+"line": 36,
+"t": "chaîne",
+"s": 319.654,
+"e": 320.033,
+"matched": true
+},
+{
+"line": 36,
+"t": "de",
+"s": 320.033,
+"e": 320.153,
+"matched": true
+},
+{
+"line": 36,
+"t": "coûts",
+"s": 320.153,
+"e": 320.345,
+"matched": false
+},
+{
+"line": 36,
+"t": "qui",
+"s": 320.345,
+"e": 320.585,
+"matched": true
+},
+{
+"line": 36,
+"t": "se",
+"s": 320.585,
+"e": 320.76,
+"matched": true
+},
+{
+"line": 36,
+"t": "propage",
+"s": 320.76,
+"e": 321.16,
+"matched": true
+},
+{
+"line": 36,
+"t": "à",
+"s": 321.16,
+"e": 321.305,
+"matched": true
+},
+{
+"line": 36,
+"t": "toute",
+"s": 321.305,
+"e": 321.6,
+"matched": true
+},
+{
+"line": 36,
+"t": "la",
+"s": 321.6,
+"e": 321.72,
+"matched": true
+},
+{
+"line": 36,
+"t": "journée",
+"s": 321.72,
+"e": 322.11,
+"matched": true
+},
+{
+"line": 36,
+"t": "de",
+"s": 322.11,
+"e": 322.272,
+"matched": true
+},
+{
+"line": 36,
+"t": "l'avion.",
+"s": 322.272,
+"e": 322.955,
+"matched": true
+},
+{
+"line": 37,
+"t": "Dernier",
+"s": 323.07,
+"e": 323.419,
+"matched": true
+},
+{
+"line": 37,
+"t": "gros",
+"s": 323.419,
+"e": 323.63,
+"matched": true
+},
+{
+"line": 37,
+"t": "poste",
+"s": 323.63,
+"e": 323.935,
+"matched": true
+},
+{
+"line": 37,
+"t": "en",
+"s": 323.935,
+"e": 324.055,
+"matched": true
+},
+{
+"line": 37,
+"t": "croissance",
+"s": 324.055,
+"e": 324.285,
+"matched": true
+},
+{
+"line": 37,
+"t": ":",
+"s": 324.285,
+"e": 324.595,
+"matched": false
+},
+{
+"line": 37,
+"t": "la",
+"s": 324.595,
+"e": 324.76,
+"matched": true
+},
+{
+"line": 37,
+"t": "transition",
+"s": 324.76,
+"e": 325.31,
+"matched": true
+},
+{
+"line": 37,
+"t": "écologique.",
+"s": 325.31,
+"e": 326.045,
+"matched": true
+},
+{
+"line": 37,
+"t": "En",
+"s": 326.045,
+"e": 326.37,
+"matched": true
+},
+{
+"line": 37,
+"t": "Europe,",
+"s": 326.37,
+"e": 326.842,
+"matched": true
+},
+{
+"line": 37,
+"t": "la",
+"s": 326.842,
+"e": 327.62,
+"matched": true
+},
+{
+"line": 37,
+"t": "règlementation",
+"s": 327.62,
+"e": 328.246,
+"matched": false
+},
+{
+"line": 37,
+"t": "ReFuelEU",
+"s": 328.246,
+"e": 328.948,
+"matched": false
+},
+{
+"line": 37,
+"t": "impose",
+"s": 328.948,
+"e": 329.31,
+"matched": true
+},
+{
+"line": 37,
+"t": "d'incorporer",
+"s": 329.31,
+"e": 329.925,
+"matched": true
+},
+{
+"line": 37,
+"t": "une",
+"s": 329.925,
+"e": 330.125,
+"matched": true
+},
+{
+"line": 37,
+"t": "part",
+"s": 330.125,
+"e": 330.344,
+"matched": true
+},
+{
+"line": 37,
+"t": "de",
+"s": 330.344,
+"e": 330.49,
+"matched": true
+},
+{
+"line": 37,
+"t": "carburant",
+"s": 330.49,
+"e": 330.915,
+"matched": true
+},
+{
+"line": 37,
+"t": "d'aviation",
+"s": 330.915,
+"e": 331.505,
+"matched": true
+},
+{
+"line": 37,
+"t": "durable,",
+"s": 331.505,
+"e": 332.243,
+"matched": true
+},
+{
+"line": 37,
+"t": "appelé",
+"s": 332.243,
+"e": 332.375,
+"matched": true
+},
+{
+"line": 37,
+"t": "SAF,",
+"s": 332.375,
+"e": 332.656,
+"matched": true
+},
+{
+"line": 37,
+"t": "dans",
+"s": 332.656,
+"e": 332.855,
+"matched": true
+},
+{
+"line": 37,
+"t": "le",
+"s": 332.855,
+"e": 333.069,
+"matched": true
+},
+{
+"line": 37,
+"t": "kérosène",
+"s": 333.069,
+"e": 333.305,
+"matched": true
+},
+{
+"line": 37,
+"t": ":",
+"s": 333.305,
+"e": 333.68,
+"matched": false
+},
+{
+"line": 37,
+"t": "deux",
+"s": 333.68,
+"e": 333.975,
+"matched": false
+},
+{
+"line": 37,
+"t": "pour",
+"s": 333.975,
+"e": 334.13,
+"matched": true
+},
+{
+"line": 37,
+"t": "cent",
+"s": 334.13,
+"e": 334.25,
+"matched": true
+},
+{
+"line": 37,
+"t": "dès",
+"s": 334.25,
+"e": 334.51,
+"matched": true
+},
+{
+"line": 37,
+"t": "deux",
+"s": 334.51,
+"e": 334.87,
+"matched": false
+},
+{
+"line": 37,
+"t": "mille",
+"s": 334.87,
+"e": 335.12,
+"matched": false
+},
+{
+"line": 37,
+"t": "vingt-cinq,",
+"s": 335.12,
+"e": 335.49,
+"matched": false
+},
+{
+"line": 37,
+"t": "selon",
+"s": 335.49,
+"e": 335.844,
+"matched": true
+},
+{
+"line": 37,
+"t": "une",
+"s": 335.844,
+"e": 336.07,
+"matched": true
+},
+{
+"line": 37,
+"t": "source.",
+"s": 336.07,
+"e": 336.965,
+"matched": true
+},
+{
+"line": 38,
+"t": "Le",
+"s": 337.69,
+"e": 337.81,
+"matched": false
+},
+{
+"line": 38,
+"t": "problème,",
+"s": 337.81,
+"e": 338.305,
+"matched": true
+},
+{
+"line": 38,
+"t": "c'est",
+"s": 338.305,
+"e": 338.585,
+"matched": true
+},
+{
+"line": 38,
+"t": "le",
+"s": 338.585,
+"e": 338.723,
+"matched": true
+},
+{
+"line": 38,
+"t": "prix.",
+"s": 338.723,
+"e": 339.23,
+"matched": true
+},
+{
+"line": 38,
+"t": "Selon",
+"s": 339.23,
+"e": 339.657,
+"matched": true
+},
+{
+"line": 38,
+"t": "l'IATA,",
+"s": 339.657,
+"e": 340.115,
+"matched": true
+},
+{
+"line": 38,
+"t": "le",
+"s": 340.115,
+"e": 340.306,
+"matched": true
+},
+{
+"line": 38,
+"t": "SAF",
+"s": 340.306,
+"e": 340.49,
+"matched": true
+},
+{
+"line": 38,
+"t": "coûtait",
+"s": 340.49,
+"e": 341.034,
+"matched": true
+},
+{
+"line": 38,
+"t": "en",
+"s": 341.034,
+"e": 341.191,
+"matched": true
+},
+{
+"line": 38,
+"t": "moyenne",
+"s": 341.191,
+"e": 341.555,
+"matched": true
+},
+{
+"line": 38,
+"t": "trois",
+"s": 341.555,
+"e": 341.76,
+"matched": false
+},
+{
+"line": 38,
+"t": "virgule",
+"s": 341.76,
+"e": 342.003,
+"matched": false
+},
+{
+"line": 38,
+"t": "un",
+"s": 342.003,
+"e": 342.273,
+"matched": false
+},
+{
+"line": 38,
+"t": "fois",
+"s": 342.273,
+"e": 342.645,
+"matched": true
+},
+{
+"line": 38,
+"t": "plus",
+"s": 342.645,
+"e": 342.795,
+"matched": true
+},
+{
+"line": 38,
+"t": "cher",
+"s": 342.795,
+"e": 343.23,
+"matched": true
+},
+{
+"line": 38,
+"t": "que",
+"s": 343.23,
+"e": 343.35,
+"matched": true
+},
+{
+"line": 38,
+"t": "le",
+"s": 343.35,
+"e": 343.475,
+"matched": true
+},
+{
+"line": 38,
+"t": "kérosène",
+"s": 343.475,
+"e": 343.768,
+"matched": true
+},
+{
+"line": 38,
+"t": "classique",
+"s": 343.768,
+"e": 344.265,
+"matched": true
+},
+{
+"line": 38,
+"t": "en",
+"s": 344.265,
+"e": 344.449,
+"matched": true
+},
+{
+"line": 38,
+"t": "deux",
+"s": 344.449,
+"e": 344.698,
+"matched": false
+},
+{
+"line": 38,
+"t": "mille",
+"s": 344.698,
+"e": 344.92,
+"matched": false
+},
+{
+"line": 38,
+"t": "vingt-quatre,",
+"s": 344.92,
+"e": 345.16,
+"matched": false
+},
+{
+"line": 38,
+"t": "et",
+"s": 345.16,
+"e": 345.332,
+"matched": true
+},
+{
+"line": 38,
+"t": "ce",
+"s": 345.332,
+"e": 345.515,
+"matched": true
+},
+{
+"line": 38,
+"t": "multiple",
+"s": 345.515,
+"e": 346.115,
+"matched": true
+},
+{
+"line": 38,
+"t": "devrait",
+"s": 346.115,
+"e": 346.555,
+"matched": true
+},
+{
+"line": 38,
+"t": "atteindre",
+"s": 346.555,
+"e": 346.891,
+"matched": true
+},
+{
+"line": 38,
+"t": "quatre",
+"s": 346.891,
+"e": 347.2,
+"matched": false
+},
+{
+"line": 38,
+"t": "virgule",
+"s": 347.2,
+"e": 347.511,
+"matched": false
+},
+{
+"line": 38,
+"t": "deux",
+"s": 347.511,
+"e": 347.82,
+"matched": false
+},
+{
+"line": 38,
+"t": "en",
+"s": 347.82,
+"e": 347.94,
+"matched": true
+},
+{
+"line": 38,
+"t": "deux",
+"s": 347.94,
+"e": 348.06,
+"matched": false
+},
+{
+"line": 38,
+"t": "mille",
+"s": 348.06,
+"e": 348.18,
+"matched": false
+},
+{
+"line": 38,
+"t": "vingt-cinq.",
+"s": 348.18,
+"e": 347.85,
+"matched": false
+},
+{
+"line": 39,
+"t": "Au",
+"s": 349.301,
+"e": 349.657,
+"matched": true
+},
+{
+"line": 39,
+"t": "niveau",
+"s": 349.657,
+"e": 349.777,
+"matched": true
+},
+{
+"line": 39,
+"t": "mondial,",
+"s": 349.777,
+"e": 350.365,
+"matched": true
+},
+{
+"line": 39,
+"t": "le",
+"s": 350.365,
+"e": 350.485,
+"matched": true
+},
+{
+"line": 39,
+"t": "SAF",
+"s": 350.485,
+"e": 350.605,
+"matched": true
+},
+{
+"line": 39,
+"t": "ne",
+"s": 350.605,
+"e": 350.75,
+"matched": true
+},
+{
+"line": 39,
+"t": "représente",
+"s": 350.75,
+"e": 351.275,
+"matched": true
+},
+{
+"line": 39,
+"t": "que",
+"s": 351.275,
+"e": 351.395,
+"matched": true
+},
+{
+"line": 39,
+"t": "zéro",
+"s": 351.395,
+"e": 351.515,
+"matched": false
+},
+{
+"line": 39,
+"t": "virgule",
+"s": 351.515,
+"e": 351.635,
+"matched": false
+},
+{
+"line": 39,
+"t": "six",
+"s": 351.635,
+"e": 351.755,
+"matched": false
+},
+{
+"line": 39,
+"t": "pour",
+"s": 351.755,
+"e": 351.875,
+"matched": true
+},
+{
+"line": 39,
+"t": "cent",
+"s": 351.875,
+"e": 352.075,
+"matched": true
+},
+{
+"line": 39,
+"t": "du",
+"s": 352.075,
+"e": 352.195,
+"matched": true
+},
+{
+"line": 39,
+"t": "carburant",
+"s": 352.195,
+"e": 352.715,
+"matched": true
+},
+{
+"line": 39,
+"t": "consommé",
+"s": 352.715,
+"e": 353.1,
+"matched": true
+},
+{
+"line": 39,
+"t": "en",
+"s": 353.1,
+"e": 353.275,
+"matched": true
+},
+{
+"line": 39,
+"t": "deux",
+"s": 353.275,
+"e": 353.625,
+"matched": false
+},
+{
+"line": 39,
+"t": "mille",
+"s": 353.625,
+"e": 353.871,
+"matched": false
+},
+{
+"line": 39,
+"t": "vingt-cinq,",
+"s": 353.871,
+"e": 354.185,
+"matched": false
+},
+{
+"line": 39,
+"t": "mais",
+"s": 354.185,
+"e": 354.319,
+"matched": true
+},
+{
+"line": 39,
+"t": "sa",
+"s": 354.319,
+"e": 354.473,
+"matched": true
+},
+{
+"line": 39,
+"t": "prime",
+"s": 354.473,
+"e": 354.73,
+"matched": true
+},
+{
+"line": 39,
+"t": "de",
+"s": 354.73,
+"e": 354.945,
+"matched": true
+},
+{
+"line": 39,
+"t": "prix",
+"s": 354.945,
+"e": 355.19,
+"matched": true
+},
+{
+"line": 39,
+"t": "ajouterait",
+"s": 355.19,
+"e": 355.695,
+"matched": true
+},
+{
+"line": 39,
+"t": "déjà",
+"s": 355.695,
+"e": 355.9,
+"matched": true
+},
+{
+"line": 39,
+"t": "environ",
+"s": 355.9,
+"e": 356.245,
+"matched": true
+},
+{
+"line": 39,
+"t": "trois",
+"s": 356.245,
+"e": 356.433,
+"matched": false
+},
+{
+"line": 39,
+"t": "virgule",
+"s": 356.433,
+"e": 356.662,
+"matched": false
+},
+{
+"line": 39,
+"t": "six",
+"s": 356.662,
+"e": 356.891,
+"matched": false
+},
+{
+"line": 39,
+"t": "milliards",
+"s": 356.891,
+"e": 357.43,
+"matched": true
+},
+{
+"line": 39,
+"t": "de",
+"s": 357.43,
+"e": 357.55,
+"matched": true
+},
+{
+"line": 39,
+"t": "dollars",
+"s": 357.55,
+"e": 357.91,
+"matched": true
+},
+{
+"line": 39,
+"t": "à",
+"s": 357.91,
+"e": 358.075,
+"matched": true
+},
+{
+"line": 39,
+"t": "la",
+"s": 358.075,
+"e": 358.2,
+"matched": true
+},
+{
+"line": 39,
+"t": "facture",
+"s": 358.2,
+"e": 358.836,
+"matched": true
+},
+{
+"line": 39,
+"t": "de",
+"s": 358.836,
+"e": 358.995,
+"matched": true
+},
+{
+"line": 39,
+"t": "l'industrie,",
+"s": 358.995,
+"e": 359.97,
+"matched": true
+},
+{
+"line": 39,
+"t": "toujours",
+"s": 359.97,
+"e": 360.405,
+"matched": true
+},
+{
+"line": 39,
+"t": "selon",
+"s": 360.405,
+"e": 360.66,
+"matched": true
+},
+{
+"line": 39,
+"t": "l'IATA.",
+"s": 360.66,
+"e": 361.215,
+"matched": true
+},
+{
+"line": 40,
+"t": "Et",
+"s": 361.915,
+"e": 362.035,
+"matched": false
+},
+{
+"line": 40,
+"t": "ce",
+"s": 362.035,
+"e": 362.155,
+"matched": false
+},
+{
+"line": 40,
+"t": "n'est",
+"s": 362.155,
+"e": 362.275,
+"matched": false
+},
+{
+"line": 40,
+"t": "qu'un",
+"s": 362.275,
+"e": 362.395,
+"matched": true
+},
+{
+"line": 40,
+"t": "début",
+"s": 362.395,
+"e": 362.655,
+"matched": true
+},
+{
+"line": 40,
+"t": ":",
+"s": 362.655,
+"e": 362.995,
+"matched": false
+},
+{
+"line": 40,
+"t": "les",
+"s": 362.995,
+"e": 363.23,
+"matched": true
+},
+{
+"line": 40,
+"t": "obligations",
+"s": 363.23,
+"e": 363.612,
+"matched": true
+},
+{
+"line": 40,
+"t": "augmentent",
+"s": 363.612,
+"e": 364.048,
+"matched": true
+},
+{
+"line": 40,
+"t": "avec",
+"s": 364.048,
+"e": 364.31,
+"matched": true
+},
+{
+"line": 40,
+"t": "les",
+"s": 364.31,
+"e": 364.43,
+"matched": true
+},
+{
+"line": 40,
+"t": "années.",
+"s": 364.43,
+"e": 365.0,
+"matched": true
+},
+{
+"line": 41,
+"t": "Tous",
+"s": 365.635,
+"e": 365.755,
+"matched": false
+},
+{
+"line": 41,
+"t": "ces",
+"s": 365.755,
+"e": 365.875,
+"matched": true
+},
+{
+"line": 41,
+"t": "coûts",
+"s": 365.875,
+"e": 366.005,
+"matched": true
+},
+{
+"line": 41,
+"t": "ont",
+"s": 366.005,
+"e": 366.125,
+"matched": true
+},
+{
+"line": 41,
+"t": "une",
+"s": 366.125,
+"e": 366.315,
+"matched": true
+},
+{
+"line": 41,
+"t": "particularité",
+"s": 366.315,
+"e": 366.695,
+"matched": true
+},
+{
+"line": 41,
+"t": ":",
+"s": 366.695,
+"e": 367.179,
+"matched": false
+},
+{
+"line": 41,
+"t": "la",
+"s": 367.179,
+"e": 367.44,
+"matched": true
+},
+{
+"line": 41,
+"t": "plupart",
+"s": 367.44,
+"e": 367.99,
+"matched": true
+},
+{
+"line": 41,
+"t": "sont",
+"s": 367.99,
+"e": 368.395,
+"matched": true
+},
+{
+"line": 41,
+"t": "fixes.",
+"s": 368.395,
+"e": 369.073,
+"matched": true
+},
+{
+"line": 41,
+"t": "L'avion,",
+"s": 369.073,
+"e": 369.651,
+"matched": true
+},
+{
+"line": 41,
+"t": "l'équipage,",
+"s": 369.651,
+"e": 370.323,
+"matched": true
+},
+{
+"line": 41,
+"t": "les",
+"s": 370.323,
+"e": 370.503,
+"matched": true
+},
+{
+"line": 41,
+"t": "redevances",
+"s": 370.503,
+"e": 371.14,
+"matched": true
+},
+{
+"line": 41,
+"t": "sont",
+"s": 371.14,
+"e": 371.356,
+"matched": true
+},
+{
+"line": 41,
+"t": "les",
+"s": 371.356,
+"e": 371.535,
+"matched": true
+},
+{
+"line": 41,
+"t": "mêmes",
+"s": 371.535,
+"e": 371.96,
+"matched": true
+},
+{
+"line": 41,
+"t": "que",
+"s": 371.96,
+"e": 372.08,
+"matched": true
+},
+{
+"line": 41,
+"t": "le",
+"s": 372.08,
+"e": 372.2,
+"matched": true
+},
+{
+"line": 41,
+"t": "siège",
+"s": 372.2,
+"e": 372.32,
+"matched": true
+},
+{
+"line": 41,
+"t": "soit",
+"s": 372.32,
+"e": 372.44,
+"matched": true
+},
+{
+"line": 41,
+"t": "occupé",
+"s": 372.44,
+"e": 372.625,
+"matched": true
+},
+{
+"line": 41,
+"t": "ou",
+"s": 372.625,
+"e": 372.745,
+"matched": true
+},
+{
+"line": 41,
+"t": "non.",
+"s": 372.745,
+"e": 373.335,
+"matched": true
+},
+{
+"line": 42,
+"t": "C'est",
+"s": 374.1,
+"e": 374.22,
+"matched": false
+},
+{
+"line": 42,
+"t": "pour",
+"s": 374.22,
+"e": 374.34,
+"matched": false
+},
+{
+"line": 42,
+"t": "cela",
+"s": 374.34,
+"e": 374.46,
+"matched": false
+},
+{
+"line": 42,
+"t": "que",
+"s": 374.46,
+"e": 374.58,
+"matched": true
+},
+{
+"line": 42,
+"t": "le",
+"s": 374.58,
+"e": 374.7,
+"matched": true
+},
+{
+"line": 42,
+"t": "taux",
+"s": 374.7,
+"e": 374.82,
+"matched": true
+},
+{
+"line": 42,
+"t": "de",
+"s": 374.82,
+"e": 374.94,
+"matched": true
+},
+{
+"line": 42,
+"t": "remplissage",
+"s": 374.94,
+"e": 375.13,
+"matched": true
+},
+{
+"line": 42,
+"t": "est",
+"s": 375.13,
+"e": 375.315,
+"matched": true
+},
+{
+"line": 42,
+"t": "la",
+"s": 375.315,
+"e": 375.535,
+"matched": true
+},
+{
+"line": 42,
+"t": "variable",
+"s": 375.535,
+"e": 375.938,
+"matched": true
+},
+{
+"line": 42,
+"t": "la",
+"s": 375.938,
+"e": 376.17,
+"matched": true
+},
+{
+"line": 42,
+"t": "plus",
+"s": 376.17,
+"e": 376.375,
+"matched": true
+},
+{
+"line": 42,
+"t": "surveillée.",
+"s": 376.375,
+"e": 377.214,
+"matched": true
+},
+{
+"line": 42,
+"t": "En",
+"s": 377.214,
+"e": 377.485,
+"matched": true
+},
+{
+"line": 42,
+"t": "deux",
+"s": 377.485,
+"e": 377.818,
+"matched": false
+},
+{
+"line": 42,
+"t": "mille",
+"s": 377.818,
+"e": 378.2,
+"matched": false
+},
+{
+"line": 42,
+"t": "vingt-cinq,",
+"s": 378.2,
+"e": 378.33,
+"matched": false
+},
+{
+"line": 42,
+"t": "il",
+"s": 378.33,
+"e": 378.62,
+"matched": true
+},
+{
+"line": 42,
+"t": "a",
+"s": 378.62,
+"e": 378.74,
+"matched": true
+},
+{
+"line": 42,
+"t": "atteint",
+"s": 378.74,
+"e": 379.195,
+"matched": true
+},
+{
+"line": 42,
+"t": "un",
+"s": 379.195,
+"e": 379.315,
+"matched": true
+},
+{
+"line": 42,
+"t": "niveau",
+"s": 379.315,
+"e": 379.69,
+"matched": true
+},
+{
+"line": 42,
+"t": "record",
+"s": 379.69,
+"e": 380.225,
+"matched": true
+},
+{
+"line": 42,
+"t": "de",
+"s": 380.225,
+"e": 380.375,
+"matched": true
+},
+{
+"line": 42,
+"t": "quatre-vingt-trois",
+"s": 380.375,
+"e": 380.639,
+"matched": false
+},
+{
+"line": 42,
+"t": "virgule",
+"s": 380.639,
+"e": 380.825,
+"matched": false
+},
+{
+"line": 42,
+"t": "six",
+"s": 380.825,
+"e": 381.015,
+"matched": false
+},
+{
+"line": 42,
+"t": "pour",
+"s": 381.015,
+"e": 381.235,
+"matched": false
+},
+{
+"line": 42,
+"t": "cent,",
+"s": 381.235,
+"e": 381.444,
+"matched": false
+},
+{
+"line": 42,
+"t": "selon",
+"s": 381.444,
+"e": 381.87,
+"matched": true
+},
+{
+"line": 42,
+"t": "l'IATA,",
+"s": 381.87,
+"e": 382.315,
+"matched": true
+},
+{
+"line": 42,
+"t": "qui",
+"s": 382.315,
+"e": 382.573,
+"matched": true
+},
+{
+"line": 42,
+"t": "prévoit",
+"s": 382.573,
+"e": 382.925,
+"matched": true
+},
+{
+"line": 42,
+"t": "quatre-vingt-quatre",
+"s": 382.925,
+"e": 383.215,
+"matched": false
+},
+{
+"line": 42,
+"t": "pour",
+"s": 383.215,
+"e": 383.505,
+"matched": true
+},
+{
+"line": 42,
+"t": "cent",
+"s": 383.505,
+"e": 383.695,
+"matched": true
+},
+{
+"line": 42,
+"t": "en",
+"s": 383.695,
+"e": 383.815,
+"matched": true
+},
+{
+"line": 42,
+"t": "deux",
+"s": 383.815,
+"e": 383.935,
+"matched": false
+},
+{
+"line": 42,
+"t": "mille",
+"s": 383.935,
+"e": 384.055,
+"matched": false
+},
+{
+"line": 42,
+"t": "vingt-six.",
+"s": 384.055,
+"e": 383.77,
+"matched": false
+},
+{
+"line": 43,
+"t": "Autrement",
+"s": 385.245,
+"e": 385.82,
+"matched": true
+},
+{
+"line": 43,
+"t": "dit,",
+"s": 385.82,
+"e": 386.145,
+"matched": true
+},
+{
+"line": 43,
+"t": "il",
+"s": 386.145,
+"e": 386.265,
+"matched": true
+},
+{
+"line": 43,
+"t": "reste",
+"s": 386.265,
+"e": 386.573,
+"matched": true
+},
+{
+"line": 43,
+"t": "en",
+"s": 386.573,
+"e": 386.723,
+"matched": true
+},
+{
+"line": 43,
+"t": "moyenne",
+"s": 386.723,
+"e": 387.13,
+"matched": true
+},
+{
+"line": 43,
+"t": "environ",
+"s": 387.13,
+"e": 387.6,
+"matched": true
+},
+{
+"line": 43,
+"t": "un",
+"s": 387.6,
+"e": 387.915,
+"matched": true
+},
+{
+"line": 43,
+"t": "siège",
+"s": 387.915,
+"e": 388.175,
+"matched": true
+},
+{
+"line": 43,
+"t": "sur",
+"s": 388.175,
+"e": 388.395,
+"matched": true
+},
+{
+"line": 43,
+"t": "six",
+"s": 388.395,
+"e": 388.667,
+"matched": false
+},
+{
+"line": 43,
+"t": "vide.",
+"s": 388.667,
+"e": 388.946,
+"matched": false
+},
+{
+"line": 43,
+"t": "Et",
+"s": 388.946,
+"e": 389.066,
+"matched": true
+},
+{
+"line": 43,
+"t": "un",
+"s": 389.066,
+"e": 389.19,
+"matched": true
+},
+{
+"line": 43,
+"t": "siège",
+"s": 389.19,
+"e": 389.59,
+"matched": true
+},
+{
+"line": 43,
+"t": "vide",
+"s": 389.59,
+"e": 389.747,
+"matched": true
+},
+{
+"line": 43,
+"t": "ne",
+"s": 389.747,
+"e": 389.87,
+"matched": true
+},
+{
+"line": 43,
+"t": "rapporte",
+"s": 389.87,
+"e": 390.3,
+"matched": true
+},
+{
+"line": 43,
+"t": "rien,",
+"s": 390.3,
+"e": 390.821,
+"matched": true
+},
+{
+"line": 43,
+"t": "alors",
+"s": 390.821,
+"e": 391.005,
+"matched": true
+},
+{
+"line": 43,
+"t": "que",
+"s": 391.005,
+"e": 391.3,
+"matched": true
+},
+{
+"line": 43,
+"t": "le",
+"s": 391.3,
+"e": 391.42,
+"matched": true
+},
+{
+"line": 43,
+"t": "vol",
+"s": 391.42,
+"e": 391.54,
+"matched": true
+},
+{
+"line": 43,
+"t": "coûte",
+"s": 391.54,
+"e": 391.68,
+"matched": true
+},
+{
+"line": 43,
+"t": "presque",
+"s": 391.68,
+"e": 392.025,
+"matched": true
+},
+{
+"line": 43,
+"t": "le",
+"s": 392.025,
+"e": 392.205,
+"matched": true
+},
+{
+"line": 43,
+"t": "même",
+"s": 392.205,
+"e": 392.325,
+"matched": true
+},
+{
+"line": 43,
+"t": "prix.",
+"s": 392.325,
+"e": 392.705,
+"matched": true
+},
+{
+"line": 44,
+"t": "Le",
+"s": 393.645,
+"e": 393.765,
+"matched": false
+},
+{
+"line": 44,
+"t": "point",
+"s": 393.765,
+"e": 393.885,
+"matched": true
+},
+{
+"line": 44,
+"t": "mort,",
+"s": 393.885,
+"e": 394.027,
+"matched": true
+},
+{
+"line": 44,
+"t": "c'est",
+"s": 394.027,
+"e": 394.313,
+"matched": true
+},
+{
+"line": 44,
+"t": "le",
+"s": 394.313,
+"e": 394.433,
+"matched": true
+},
+{
+"line": 44,
+"t": "taux",
+"s": 394.433,
+"e": 394.57,
+"matched": true
+},
+{
+"line": 44,
+"t": "de",
+"s": 394.57,
+"e": 394.825,
+"matched": true
+},
+{
+"line": 44,
+"t": "remplissage",
+"s": 394.825,
+"e": 395.38,
+"matched": true
+},
+{
+"line": 44,
+"t": "à",
+"s": 395.38,
+"e": 395.55,
+"matched": true
+},
+{
+"line": 44,
+"t": "partir",
+"s": 395.55,
+"e": 395.79,
+"matched": true
+},
+{
+"line": 44,
+"t": "duquel",
+"s": 395.79,
+"e": 396.17,
+"matched": true
+},
+{
+"line": 44,
+"t": "la",
+"s": 396.17,
+"e": 396.29,
+"matched": true
+},
+{
+"line": 44,
+"t": "compagnie",
+"s": 396.29,
+"e": 396.675,
+"matched": true
+},
+{
+"line": 44,
+"t": "ne",
+"s": 396.675,
+"e": 396.986,
+"matched": true
+},
+{
+"line": 44,
+"t": "perd",
+"s": 396.986,
+"e": 397.115,
+"matched": true
+},
+{
+"line": 44,
+"t": "plus",
+"s": 397.115,
+"e": 397.355,
+"matched": true
+},
+{
+"line": 44,
+"t": "d'argent.",
+"s": 397.355,
+"e": 398.064,
+"matched": true
+},
+{
+"line": 44,
+"t": "Je",
+"s": 398.064,
+"e": 398.184,
+"matched": true
+},
+{
+"line": 44,
+"t": "n'ai",
+"s": 398.184,
+"e": 398.365,
+"matched": true
+},
+{
+"line": 44,
+"t": "pas",
+"s": 398.365,
+"e": 398.485,
+"matched": true
+},
+{
+"line": 44,
+"t": "trouvé",
+"s": 398.485,
+"e": 398.805,
+"matched": true
+},
+{
+"line": 44,
+"t": "de",
+"s": 398.805,
+"e": 398.925,
+"matched": true
+},
+{
+"line": 44,
+"t": "chiffre",
+"s": 398.925,
+"e": 399.16,
+"matched": true
+},
+{
+"line": 44,
+"t": "mondial",
+"s": 399.16,
+"e": 399.534,
+"matched": true
+},
+{
+"line": 44,
+"t": "fiable,",
+"s": 399.534,
+"e": 399.95,
+"matched": true
+},
+{
+"line": 44,
+"t": "mais",
+"s": 399.95,
+"e": 400.107,
+"matched": true
+},
+{
+"line": 44,
+"t": "le",
+"s": 400.107,
+"e": 400.227,
+"matched": true
+},
+{
+"line": 44,
+"t": "principe",
+"s": 400.227,
+"e": 400.52,
+"matched": true
+},
+{
+"line": 44,
+"t": "est",
+"s": 400.52,
+"e": 400.64,
+"matched": true
+},
+{
+"line": 44,
+"t": "simple",
+"s": 400.64,
+"e": 400.82,
+"matched": true
+},
+{
+"line": 44,
+"t": ":",
+"s": 400.82,
+"e": 400.98,
+"matched": false
+},
+{
+"line": 44,
+"t": "plus",
+"s": 400.98,
+"e": 401.35,
+"matched": true
+},
+{
+"line": 44,
+"t": "la",
+"s": 401.35,
+"e": 401.47,
+"matched": true
+},
+{
+"line": 44,
+"t": "marge",
+"s": 401.47,
+"e": 401.615,
+"matched": true
+},
+{
+"line": 44,
+"t": "est",
+"s": 401.615,
+"e": 401.87,
+"matched": true
+},
+{
+"line": 44,
+"t": "faible,",
+"s": 401.87,
+"e": 402.311,
+"matched": true
+},
+{
+"line": 44,
+"t": "plus",
+"s": 402.311,
+"e": 402.665,
+"matched": true
+},
+{
+"line": 44,
+"t": "le",
+"s": 402.665,
+"e": 402.785,
+"matched": true
+},
+{
+"line": 44,
+"t": "point",
+"s": 402.785,
+"e": 403.07,
+"matched": true
+},
+{
+"line": 44,
+"t": "mort",
+"s": 403.07,
+"e": 403.205,
+"matched": true
+},
+{
+"line": 44,
+"t": "est",
+"s": 403.205,
+"e": 403.45,
+"matched": true
+},
+{
+"line": 44,
+"t": "proche",
+"s": 403.45,
+"e": 403.848,
+"matched": true
+},
+{
+"line": 44,
+"t": "du",
+"s": 403.848,
+"e": 404.015,
+"matched": true
+},
+{
+"line": 44,
+"t": "taux",
+"s": 404.015,
+"e": 404.245,
+"matched": true
+},
+{
+"line": 44,
+"t": "de",
+"s": 404.245,
+"e": 404.365,
+"matched": true
+},
+{
+"line": 44,
+"t": "remplissage",
+"s": 404.365,
+"e": 405.085,
+"matched": true
+},
+{
+"line": 44,
+"t": "réel.",
+"s": 405.085,
+"e": 405.69,
+"matched": true
+},
+{
+"line": 45,
+"t": "Alors",
+"s": 406.385,
+"e": 406.672,
+"matched": true
+},
+{
+"line": 45,
+"t": "comment",
+"s": 406.672,
+"e": 406.95,
+"matched": true
+},
+{
+"line": 45,
+"t": "les",
+"s": 406.95,
+"e": 407.07,
+"matched": true
+},
+{
+"line": 45,
+"t": "compagnies",
+"s": 407.07,
+"e": 407.43,
+"matched": true
+},
+{
+"line": 45,
+"t": "compensent-elles",
+"s": 407.43,
+"e": 407.83,
+"matched": true
+},
+{
+"line": 45,
+"t": "?",
+"s": 407.83,
+"e": 408.22,
+"matched": false
+},
+{
+"line": 45,
+"t": "En",
+"s": 408.22,
+"e": 408.604,
+"matched": true
+},
+{
+"line": 45,
+"t": "vendant",
+"s": 408.604,
+"e": 409.005,
+"matched": true
+},
+{
+"line": 45,
+"t": "autre",
+"s": 409.005,
+"e": 409.444,
+"matched": true
+},
+{
+"line": 45,
+"t": "chose",
+"s": 409.444,
+"e": 409.805,
+"matched": true
+},
+{
+"line": 45,
+"t": "que",
+"s": 409.805,
+"e": 410.149,
+"matched": true
+},
+{
+"line": 45,
+"t": "le",
+"s": 410.149,
+"e": 410.3,
+"matched": true
+},
+{
+"line": 45,
+"t": "billet.",
+"s": 410.3,
+"e": 411.18,
+"matched": true
+},
+{
+"line": 45,
+"t": "Selon",
+"s": 411.18,
+"e": 412.105,
+"matched": true
+},
+{
+"line": 45,
+"t": "IdeaWorksCompany,",
+"s": 412.105,
+"e": 413.066,
+"matched": false
+},
+{
+"line": 45,
+"t": "les",
+"s": 413.066,
+"e": 413.27,
+"matched": true
+},
+{
+"line": 45,
+"t": "revenus",
+"s": 413.27,
+"e": 413.52,
+"matched": true
+},
+{
+"line": 45,
+"t": "annexes",
+"s": 413.52,
+"e": 413.995,
+"matched": true
+},
+{
+"line": 45,
+"t": "ont",
+"s": 413.995,
+"e": 414.115,
+"matched": true
+},
+{
+"line": 45,
+"t": "atteint",
+"s": 414.115,
+"e": 414.31,
+"matched": true
+},
+{
+"line": 45,
+"t": "environ",
+"s": 414.31,
+"e": 414.547,
+"matched": true
+},
+{
+"line": 45,
+"t": "cent",
+"s": 414.547,
+"e": 414.792,
+"matched": false
+},
+{
+"line": 45,
+"t": "quarante-huit",
+"s": 414.792,
+"e": 415.036,
+"matched": false
+},
+{
+"line": 45,
+"t": "milliards",
+"s": 415.036,
+"e": 415.423,
+"matched": true
+},
+{
+"line": 45,
+"t": "de",
+"s": 415.423,
+"e": 415.876,
+"matched": true
+},
+{
+"line": 45,
+"t": "dollars",
+"s": 415.876,
+"e": 415.996,
+"matched": true
+},
+{
+"line": 45,
+"t": "dans",
+"s": 415.996,
+"e": 416.3,
+"matched": true
+},
+{
+"line": 45,
+"t": "le",
+"s": 416.3,
+"e": 416.45,
+"matched": true
+},
+{
+"line": 45,
+"t": "monde",
+"s": 416.45,
+"e": 416.813,
+"matched": true
+},
+{
+"line": 45,
+"t": "en",
+"s": 416.813,
+"e": 417.084,
+"matched": true
+},
+{
+"line": 45,
+"t": "deux",
+"s": 417.084,
+"e": 417.354,
+"matched": false
+},
+{
+"line": 45,
+"t": "mille",
+"s": 417.354,
+"e": 417.69,
+"matched": false
+},
+{
+"line": 45,
+"t": "vingt-quatre.",
+"s": 417.69,
+"e": 417.895,
+"matched": false
+},
+{
+"line": 46,
+"t": "Cela",
+"s": 418.565,
+"e": 418.685,
+"matched": false
+},
+{
+"line": 46,
+"t": "représente",
+"s": 418.685,
+"e": 419.035,
+"matched": true
+},
+{
+"line": 46,
+"t": "environ",
+"s": 419.035,
+"e": 419.397,
+"matched": true
+},
+{
+"line": 46,
+"t": "trente-cinq",
+"s": 419.397,
+"e": 419.845,
+"matched": false
+},
+{
+"line": 46,
+"t": "dollars",
+"s": 419.845,
+"e": 420.27,
+"matched": true
+},
+{
+"line": 46,
+"t": "par",
+"s": 420.27,
+"e": 420.415,
+"matched": true
+},
+{
+"line": 46,
+"t": "passager,",
+"s": 420.415,
+"e": 420.948,
+"matched": true
+},
+{
+"line": 46,
+"t": "et",
+"s": 420.948,
+"e": 421.068,
+"matched": true
+},
+{
+"line": 46,
+"t": "près",
+"s": 421.068,
+"e": 421.245,
+"matched": true
+},
+{
+"line": 46,
+"t": "de",
+"s": 421.245,
+"e": 421.365,
+"matched": true
+},
+{
+"line": 46,
+"t": "quinze",
+"s": 421.365,
+"e": 421.485,
+"matched": false
+},
+{
+"line": 46,
+"t": "pour",
+"s": 421.485,
+"e": 421.605,
+"matched": true
+},
+{
+"line": 46,
+"t": "cent",
+"s": 421.605,
+"e": 421.725,
+"matched": true
+},
+{
+"line": 46,
+"t": "du",
+"s": 421.725,
+"e": 421.845,
+"matched": true
+},
+{
+"line": 46,
+"t": "chiffre",
+"s": 421.845,
+"e": 421.965,
+"matched": true
+},
+{
+"line": 46,
+"t": "d'affaires",
+"s": 421.965,
+"e": 422.315,
+"matched": true
+},
+{
+"line": 46,
+"t": "des",
+"s": 422.315,
+"e": 422.435,
+"matched": true
+},
+{
+"line": 46,
+"t": "compagnies,",
+"s": 422.435,
+"e": 422.89,
+"matched": true
+},
+{
+"line": 46,
+"t": "d'après",
+"s": 422.89,
+"e": 423.185,
+"matched": true
+},
+{
+"line": 46,
+"t": "une",
+"s": 423.185,
+"e": 423.305,
+"matched": true
+},
+{
+"line": 46,
+"t": "source",
+"s": 423.305,
+"e": 423.435,
+"matched": true
+},
+{
+"line": 46,
+"t": "secondaire",
+"s": 423.435,
+"e": 423.87,
+"matched": true
+},
+{
+"line": 46,
+"t": "citant",
+"s": 423.87,
+"e": 424.175,
+"matched": true
+},
+{
+"line": 46,
+"t": "ce",
+"s": 424.175,
+"e": 424.295,
+"matched": true
+},
+{
+"line": 46,
+"t": "rapport.",
+"s": 424.295,
+"e": 425.225,
+"matched": true
+},
+{
+"line": 47,
+"t": "Bagages,",
+"s": 425.97,
+"e": 426.09,
+"matched": false
+},
+{
+"line": 47,
+"t": "choix",
+"s": 426.09,
+"e": 426.21,
+"matched": false
+},
+{
+"line": 47,
+"t": "du",
+"s": 426.21,
+"e": 426.33,
+"matched": true
+},
+{
+"line": 47,
+"t": "siège,",
+"s": 426.33,
+"e": 426.594,
+"matched": true
+},
+{
+"line": 47,
+"t": "repas,",
+"s": 426.594,
+"e": 427.078,
+"matched": true
+},
+{
+"line": 47,
+"t": "embarquement",
+"s": 427.078,
+"e": 427.92,
+"matched": true
+},
+{
+"line": 47,
+"t": "prioritaire",
+"s": 427.92,
+"e": 428.423,
+"matched": true
+},
+{
+"line": 47,
+"t": ":",
+"s": 428.423,
+"e": 428.926,
+"matched": false
+},
+{
+"line": 47,
+"t": "le",
+"s": 428.926,
+"e": 429.08,
+"matched": true
+},
+{
+"line": 47,
+"t": "billet",
+"s": 429.08,
+"e": 429.8,
+"matched": true
+},
+{
+"line": 47,
+"t": "devient",
+"s": 429.8,
+"e": 429.965,
+"matched": true
+},
+{
+"line": 47,
+"t": "un",
+"s": 429.965,
+"e": 430.085,
+"matched": true
+},
+{
+"line": 47,
+"t": "prix",
+"s": 430.085,
+"e": 430.349,
+"matched": true
+},
+{
+"line": 47,
+"t": "d'appel,",
+"s": 430.349,
+"e": 430.94,
+"matched": true
+},
+{
+"line": 47,
+"t": "et",
+"s": 430.94,
+"e": 431.06,
+"matched": true
+},
+{
+"line": 47,
+"t": "ce",
+"s": 431.06,
+"e": 431.32,
+"matched": true
+},
+{
+"line": 47,
+"t": "sont",
+"s": 431.32,
+"e": 431.44,
+"matched": true
+},
+{
+"line": 47,
+"t": "les",
+"s": 431.44,
+"e": 431.56,
+"matched": true
+},
+{
+"line": 47,
+"t": "options",
+"s": 431.56,
+"e": 431.755,
+"matched": true
+},
+{
+"line": 47,
+"t": "qui",
+"s": 431.755,
+"e": 431.994,
+"matched": true
+},
+{
+"line": 47,
+"t": "font",
+"s": 431.994,
+"e": 432.125,
+"matched": true
+},
+{
+"line": 47,
+"t": "la",
+"s": 432.125,
+"e": 432.245,
+"matched": true
+},
+{
+"line": 47,
+"t": "marge.",
+"s": 432.245,
+"e": 433.01,
+"matched": true
+},
+{
+"line": 48,
+"t": "Chez",
+"s": 433.54,
+"e": 434.05,
+"matched": false
+},
+{
+"line": 48,
+"t": "Frontier,",
+"s": 434.05,
+"e": 434.275,
+"matched": false
+},
+{
+"line": 48,
+"t": "une",
+"s": 434.275,
+"e": 434.423,
+"matched": true
+},
+{
+"line": 48,
+"t": "compagnie",
+"s": 434.423,
+"e": 434.985,
+"matched": true
+},
+{
+"line": 48,
+"t": "américaine",
+"s": 434.985,
+"e": 435.605,
+"matched": true
+},
+{
+"line": 48,
+"t": "à",
+"s": 435.605,
+"e": 435.765,
+"matched": true
+},
+{
+"line": 48,
+"t": "bas",
+"s": 435.765,
+"e": 435.994,
+"matched": false
+},
+{
+"line": 48,
+"t": "coûts,",
+"s": 435.994,
+"e": 436.185,
+"matched": false
+},
+{
+"line": 48,
+"t": "ces",
+"s": 436.185,
+"e": 436.352,
+"matched": false
+},
+{
+"line": 48,
+"t": "revenus",
+"s": 436.352,
+"e": 436.672,
+"matched": true
+},
+{
+"line": 48,
+"t": "annexes",
+"s": 436.672,
+"e": 437.005,
+"matched": true
+},
+{
+"line": 48,
+"t": "dépassaient",
+"s": 437.005,
+"e": 437.603,
+"matched": true
+},
+{
+"line": 48,
+"t": "même",
+"s": 437.603,
+"e": 437.785,
+"matched": true
+},
+{
+"line": 48,
+"t": "soixante",
+"s": 437.785,
+"e": 437.998,
+"matched": false
+},
+{
+"line": 48,
+"t": "pour",
+"s": 437.998,
+"e": 438.14,
+"matched": true
+},
+{
+"line": 48,
+"t": "cent",
+"s": 438.14,
+"e": 438.26,
+"matched": true
+},
+{
+"line": 48,
+"t": "du",
+"s": 438.26,
+"e": 438.38,
+"matched": true
+},
+{
+"line": 48,
+"t": "chiffre",
+"s": 438.38,
+"e": 438.635,
+"matched": true
+},
+{
+"line": 48,
+"t": "d'affaires",
+"s": 438.635,
+"e": 439.055,
+"matched": true
+},
+{
+"line": 48,
+"t": "en",
+"s": 439.055,
+"e": 439.26,
+"matched": true
+},
+{
+"line": 48,
+"t": "deux",
+"s": 439.26,
+"e": 439.504,
+"matched": false
+},
+{
+"line": 48,
+"t": "mille",
+"s": 439.504,
+"e": 439.732,
+"matched": false
+},
+{
+"line": 48,
+"t": "vingt-quatre.",
+"s": 439.732,
+"e": 439.96,
+"matched": false
+},
+{
+"line": 49,
+"t": "Il",
+"s": 440.69,
+"e": 440.81,
+"matched": false
+},
+{
+"line": 49,
+"t": "existe",
+"s": 440.81,
+"e": 441.004,
+"matched": true
+},
+{
+"line": 49,
+"t": "un",
+"s": 441.004,
+"e": 441.17,
+"matched": true
+},
+{
+"line": 49,
+"t": "autre",
+"s": 441.17,
+"e": 441.59,
+"matched": true
+},
+{
+"line": 49,
+"t": "revenu",
+"s": 441.59,
+"e": 442.02,
+"matched": true
+},
+{
+"line": 49,
+"t": "que",
+"s": 442.02,
+"e": 442.367,
+"matched": true
+},
+{
+"line": 49,
+"t": "le",
+"s": 442.367,
+"e": 442.505,
+"matched": true
+},
+{
+"line": 49,
+"t": "passager",
+"s": 442.505,
+"e": 443.22,
+"matched": true
+},
+{
+"line": 49,
+"t": "ne",
+"s": 443.22,
+"e": 443.375,
+"matched": true
+},
+{
+"line": 49,
+"t": "voit",
+"s": 443.375,
+"e": 443.77,
+"matched": true
+},
+{
+"line": 49,
+"t": "pas",
+"s": 443.77,
+"e": 443.9,
+"matched": true
+},
+{
+"line": 49,
+"t": ":",
+"s": 443.9,
+"e": 444.239,
+"matched": false
+},
+{
+"line": 49,
+"t": "la",
+"s": 444.239,
+"e": 444.359,
+"matched": true
+},
+{
+"line": 49,
+"t": "fidélité.",
+"s": 444.359,
+"e": 445.18,
+"matched": true
+},
+{
+"line": 49,
+"t": "Les",
+"s": 445.18,
+"e": 445.435,
+"matched": true
+},
+{
+"line": 49,
+"t": "cinq",
+"s": 445.435,
+"e": 445.592,
+"matched": true
+},
+{
+"line": 49,
+"t": "plus",
+"s": 445.592,
+"e": 445.73,
+"matched": true
+},
+{
+"line": 49,
+"t": "grandes",
+"s": 445.73,
+"e": 446.0,
+"matched": true
+},
+{
+"line": 49,
+"t": "compagnies",
+"s": 446.0,
+"e": 446.592,
+"matched": true
+},
+{
+"line": 49,
+"t": "américaines",
+"s": 446.592,
+"e": 447.2,
+"matched": true
+},
+{
+"line": 49,
+"t": "ont",
+"s": 447.2,
+"e": 447.32,
+"matched": true
+},
+{
+"line": 49,
+"t": "généré",
+"s": 447.32,
+"e": 447.573,
+"matched": true
+},
+{
+"line": 49,
+"t": "environ",
+"s": 447.573,
+"e": 447.891,
+"matched": true
+},
+{
+"line": 49,
+"t": "vingt-huit",
+"s": 447.891,
+"e": 448.3,
+"matched": false
+},
+{
+"line": 49,
+"t": "milliards",
+"s": 448.3,
+"e": 448.651,
+"matched": true
+},
+{
+"line": 49,
+"t": "de",
+"s": 448.651,
+"e": 448.771,
+"matched": true
+},
+{
+"line": 49,
+"t": "dollars",
+"s": 448.771,
+"e": 449.142,
+"matched": true
+},
+{
+"line": 49,
+"t": "de",
+"s": 449.142,
+"e": 449.262,
+"matched": true
+},
+{
+"line": 49,
+"t": "revenus",
+"s": 449.262,
+"e": 449.583,
+"matched": true
+},
+{
+"line": 49,
+"t": "de",
+"s": 449.583,
+"e": 449.703,
+"matched": true
+},
+{
+"line": 49,
+"t": "fidélité",
+"s": 449.703,
+"e": 450.1,
+"matched": true
+},
+{
+"line": 49,
+"t": "en",
+"s": 450.1,
+"e": 450.385,
+"matched": true
+},
+{
+"line": 49,
+"t": "deux",
+"s": 450.385,
+"e": 450.795,
+"matched": false
+},
+{
+"line": 49,
+"t": "mille",
+"s": 450.795,
+"e": 451.115,
+"matched": false
+},
+{
+"line": 49,
+"t": "vingt-quatre,",
+"s": 451.115,
+"e": 451.4,
+"matched": false
+},
+{
+"line": 49,
+"t": "principalement",
+"s": 451.4,
+"e": 451.69,
+"matched": true
+},
+{
+"line": 49,
+"t": "grâce",
+"s": 451.69,
+"e": 451.828,
+"matched": true
+},
+{
+"line": 49,
+"t": "aux",
+"s": 451.828,
+"e": 451.948,
+"matched": true
+},
+{
+"line": 49,
+"t": "cartes",
+"s": 451.948,
+"e": 452.171,
+"matched": true
+},
+{
+"line": 49,
+"t": "bancaires",
+"s": 452.171,
+"e": 452.504,
+"matched": true
+},
+{
+"line": 49,
+"t": "co-marquées.",
+"s": 452.504,
+"e": 453.23,
+"matched": true
+},
+{
+"line": 50,
+"t": "Le",
+"s": 453.935,
+"e": 454.055,
+"matched": false
+},
+{
+"line": 50,
+"t": "mécanisme",
+"s": 454.055,
+"e": 454.175,
+"matched": false
+},
+{
+"line": 50,
+"t": "est",
+"s": 454.175,
+"e": 454.295,
+"matched": true
+},
+{
+"line": 50,
+"t": "simple",
+"s": 454.295,
+"e": 454.535,
+"matched": true
+},
+{
+"line": 50,
+"t": ":",
+"s": 454.535,
+"e": 454.991,
+"matched": false
+},
+{
+"line": 50,
+"t": "une",
+"s": 454.991,
+"e": 455.265,
+"matched": true
+},
+{
+"line": 50,
+"t": "banque",
+"s": 455.265,
+"e": 455.421,
+"matched": true
+},
+{
+"line": 50,
+"t": "achète",
+"s": 455.421,
+"e": 455.645,
+"matched": true
+},
+{
+"line": 50,
+"t": "des",
+"s": 455.645,
+"e": 455.865,
+"matched": true
+},
+{
+"line": 50,
+"t": "milles",
+"s": 455.865,
+"e": 456.164,
+"matched": true
+},
+{
+"line": 50,
+"t": "à",
+"s": 456.164,
+"e": 456.284,
+"matched": true
+},
+{
+"line": 50,
+"t": "la",
+"s": 456.284,
+"e": 456.404,
+"matched": true
+},
+{
+"line": 50,
+"t": "compagnie,",
+"s": 456.404,
+"e": 456.885,
+"matched": true
+},
+{
+"line": 50,
+"t": "puis",
+"s": 456.885,
+"e": 457.152,
+"matched": true
+},
+{
+"line": 50,
+"t": "les",
+"s": 457.152,
+"e": 457.4,
+"matched": true
+},
+{
+"line": 50,
+"t": "distribue",
+"s": 457.4,
+"e": 457.807,
+"matched": true
+},
+{
+"line": 50,
+"t": "à",
+"s": 457.807,
+"e": 457.927,
+"matched": true
+},
+{
+"line": 50,
+"t": "ses",
+"s": 457.927,
+"e": 458.047,
+"matched": true
+},
+{
+"line": 50,
+"t": "clients",
+"s": 458.047,
+"e": 458.425,
+"matched": true
+},
+{
+"line": 50,
+"t": "qui",
+"s": 458.425,
+"e": 458.57,
+"matched": true
+},
+{
+"line": 50,
+"t": "dépensent",
+"s": 458.57,
+"e": 458.95,
+"matched": true
+},
+{
+"line": 50,
+"t": "avec",
+"s": 458.95,
+"e": 459.34,
+"matched": true
+},
+{
+"line": 50,
+"t": "la",
+"s": 459.34,
+"e": 459.46,
+"matched": true
+},
+{
+"line": 50,
+"t": "carte.",
+"s": 459.46,
+"e": 459.87,
+"matched": true
+},
+{
+"line": 51,
+"t": "Pour",
+"s": 460.545,
+"e": 460.665,
+"matched": false
+},
+{
+"line": 51,
+"t": "la",
+"s": 460.665,
+"e": 460.785,
+"matched": true
+},
+{
+"line": 51,
+"t": "compagnie,",
+"s": 460.785,
+"e": 461.24,
+"matched": true
+},
+{
+"line": 51,
+"t": "c'est",
+"s": 461.24,
+"e": 461.43,
+"matched": true
+},
+{
+"line": 51,
+"t": "un",
+"s": 461.43,
+"e": 461.55,
+"matched": true
+},
+{
+"line": 51,
+"t": "revenu",
+"s": 461.55,
+"e": 461.86,
+"matched": true
+},
+{
+"line": 51,
+"t": "récurrent,",
+"s": 461.86,
+"e": 462.435,
+"matched": true
+},
+{
+"line": 51,
+"t": "qui",
+"s": 462.435,
+"e": 462.555,
+"matched": true
+},
+{
+"line": 51,
+"t": "ne",
+"s": 462.555,
+"e": 462.675,
+"matched": true
+},
+{
+"line": 51,
+"t": "dépend",
+"s": 462.675,
+"e": 462.982,
+"matched": true
+},
+{
+"line": 51,
+"t": "ni",
+"s": 462.982,
+"e": 463.102,
+"matched": true
+},
+{
+"line": 51,
+"t": "du",
+"s": 463.102,
+"e": 463.222,
+"matched": true
+},
+{
+"line": 51,
+"t": "prix",
+"s": 463.222,
+"e": 463.42,
+"matched": true
+},
+{
+"line": 51,
+"t": "du",
+"s": 463.42,
+"e": 463.54,
+"matched": true
+},
+{
+"line": 51,
+"t": "carburant",
+"s": 463.54,
+"e": 464.104,
+"matched": true
+},
+{
+"line": 51,
+"t": "ni",
+"s": 464.104,
+"e": 464.224,
+"matched": true
+},
+{
+"line": 51,
+"t": "du",
+"s": 464.224,
+"e": 464.344,
+"matched": true
+},
+{
+"line": 51,
+"t": "taux",
+"s": 464.344,
+"e": 464.464,
+"matched": true
+},
+{
+"line": 51,
+"t": "de",
+"s": 464.464,
+"e": 464.685,
+"matched": true
+},
+{
+"line": 51,
+"t": "remplissage",
+"s": 464.685,
+"e": 465.065,
+"matched": true
+},
+{
+"line": 51,
+"t": "d'un",
+"s": 465.065,
+"e": 465.185,
+"matched": true
+},
+{
+"line": 51,
+"t": "vol",
+"s": 465.185,
+"e": 465.373,
+"matched": true
+},
+{
+"line": 51,
+"t": "donné.",
+"s": 465.373,
+"e": 465.82,
+"matched": true
+},
+{
+"line": 52,
+"t": "Tout",
+"s": 466.665,
+"e": 466.785,
+"matched": false
+},
+{
+"line": 52,
+"t": "porte",
+"s": 466.785,
+"e": 466.905,
+"matched": true
+},
+{
+"line": 52,
+"t": "à",
+"s": 466.905,
+"e": 467.025,
+"matched": true
+},
+{
+"line": 52,
+"t": "croire",
+"s": 467.025,
+"e": 467.145,
+"matched": true
+},
+{
+"line": 52,
+"t": "que",
+"s": 467.145,
+"e": 467.285,
+"matched": true
+},
+{
+"line": 52,
+"t": "c'est",
+"s": 467.285,
+"e": 467.475,
+"matched": true
+},
+{
+"line": 52,
+"t": "une",
+"s": 467.475,
+"e": 467.67,
+"matched": true
+},
+{
+"line": 52,
+"t": "des",
+"s": 467.67,
+"e": 467.79,
+"matched": true
+},
+{
+"line": 52,
+"t": "raisons",
+"s": 467.79,
+"e": 468.132,
+"matched": true
+},
+{
+"line": 52,
+"t": "pour",
+"s": 468.132,
+"e": 468.325,
+"matched": true
+},
+{
+"line": 52,
+"t": "lesquelles",
+"s": 468.325,
+"e": 468.85,
+"matched": true
+},
+{
+"line": 52,
+"t": "ces",
+"s": 468.85,
+"e": 468.996,
+"matched": true
+},
+{
+"line": 52,
+"t": "programmes",
+"s": 468.996,
+"e": 469.516,
+"matched": true
+},
+{
+"line": 52,
+"t": "sont",
+"s": 469.516,
+"e": 469.72,
+"matched": true
+},
+{
+"line": 52,
+"t": "devenus",
+"s": 469.72,
+"e": 469.995,
+"matched": true
+},
+{
+"line": 52,
+"t": "si",
+"s": 469.995,
+"e": 470.138,
+"matched": true
+},
+{
+"line": 52,
+"t": "stratégiques.",
+"s": 470.138,
+"e": 470.955,
+"matched": true
+},
+{
+"line": 53,
+"t": "Reste",
+"s": 471.055,
+"e": 471.365,
+"matched": true
+},
+{
+"line": 53,
+"t": "la",
+"s": 471.365,
+"e": 471.625,
+"matched": true
+},
+{
+"line": 53,
+"t": "question",
+"s": 471.625,
+"e": 472.19,
+"matched": true
+},
+{
+"line": 53,
+"t": "du",
+"s": 472.19,
+"e": 472.32,
+"matched": true
+},
+{
+"line": 53,
+"t": "capital.",
+"s": 472.32,
+"e": 473.08,
+"matched": true
+},
+{
+"line": 53,
+"t": "Une",
+"s": 473.08,
+"e": 473.29,
+"matched": true
+},
+{
+"line": 53,
+"t": "compagnie",
+"s": 473.29,
+"e": 473.659,
+"matched": true
+},
+{
+"line": 53,
+"t": "aérienne",
+"s": 473.659,
+"e": 474.098,
+"matched": true
+},
+{
+"line": 53,
+"t": "immobilise",
+"s": 474.098,
+"e": 474.625,
+"matched": true
+},
+{
+"line": 53,
+"t": "énormément",
+"s": 474.625,
+"e": 475.22,
+"matched": true
+},
+{
+"line": 53,
+"t": "d'argent",
+"s": 475.22,
+"e": 475.576,
+"matched": true
+},
+{
+"line": 53,
+"t": ":",
+"s": 475.576,
+"e": 475.975,
+"matched": false
+},
+{
+"line": 53,
+"t": "avions,",
+"s": 475.975,
+"e": 476.64,
+"matched": true
+},
+{
+"line": 53,
+"t": "pièces,",
+"s": 476.64,
+"e": 477.125,
+"matched": true
+},
+{
+"line": 53,
+"t": "moteurs,",
+"s": 477.125,
+"e": 477.815,
+"matched": true
+},
+{
+"line": 53,
+"t": "bâtiments.",
+"s": 477.815,
+"e": 478.915,
+"matched": true
+},
+{
+"line": 53,
+"t": "Pour",
+"s": 478.915,
+"e": 479.219,
+"matched": true
+},
+{
+"line": 53,
+"t": "juger",
+"s": 479.219,
+"e": 479.339,
+"matched": true
+},
+{
+"line": 53,
+"t": "si",
+"s": 479.339,
+"e": 479.459,
+"matched": true
+},
+{
+"line": 53,
+"t": "cet",
+"s": 479.459,
+"e": 479.589,
+"matched": true
+},
+{
+"line": 53,
+"t": "argent",
+"s": 479.589,
+"e": 479.925,
+"matched": true
+},
+{
+"line": 53,
+"t": "est",
+"s": 479.925,
+"e": 480.067,
+"matched": true
+},
+{
+"line": 53,
+"t": "bien",
+"s": 480.067,
+"e": 480.295,
+"matched": true
+},
+{
+"line": 53,
+"t": "employé,",
+"s": 480.295,
+"e": 480.805,
+"matched": true
+},
+{
+"line": 53,
+"t": "on",
+"s": 480.805,
+"e": 480.945,
+"matched": true
+},
+{
+"line": 53,
+"t": "regarde",
+"s": 480.945,
+"e": 481.462,
+"matched": true
+},
+{
+"line": 53,
+"t": "le",
+"s": 481.462,
+"e": 481.585,
+"matched": true
+},
+{
+"line": 53,
+"t": "rendement",
+"s": 481.585,
+"e": 482.272,
+"matched": true
+},
+{
+"line": 53,
+"t": "du",
+"s": 482.272,
+"e": 482.418,
+"matched": true
+},
+{
+"line": 53,
+"t": "capital",
+"s": 482.418,
+"e": 482.89,
+"matched": true
+},
+{
+"line": 53,
+"t": "investi.",
+"s": 482.89,
+"e": 483.725,
+"matched": true
+},
+{
+"line": 54,
+"t": "Dans",
+"s": 484.39,
+"e": 484.51,
+"matched": false
+},
+{
+"line": 54,
+"t": "ses",
+"s": 484.51,
+"e": 484.63,
+"matched": true
+},
+{
+"line": 54,
+"t": "prévisions",
+"s": 484.63,
+"e": 485.183,
+"matched": true
+},
+{
+"line": 54,
+"t": "de",
+"s": 485.183,
+"e": 485.32,
+"matched": true
+},
+{
+"line": 54,
+"t": "décembre",
+"s": 485.32,
+"e": 485.615,
+"matched": true
+},
+{
+"line": 54,
+"t": "deux",
+"s": 485.615,
+"e": 486.083,
+"matched": false
+},
+{
+"line": 54,
+"t": "mille",
+"s": 486.083,
+"e": 486.54,
+"matched": false
+},
+{
+"line": 54,
+"t": "vingt-cinq,",
+"s": 486.54,
+"e": 486.865,
+"matched": false
+},
+{
+"line": 54,
+"t": "l'IATA",
+"s": 486.865,
+"e": 487.145,
+"matched": true
+},
+{
+"line": 54,
+"t": "estimait",
+"s": 487.145,
+"e": 487.775,
+"matched": true
+},
+{
+"line": 54,
+"t": "ce",
+"s": 487.775,
+"e": 487.895,
+"matched": true
+},
+{
+"line": 54,
+"t": "rendement",
+"s": 487.895,
+"e": 488.5,
+"matched": true
+},
+{
+"line": 54,
+"t": "à",
+"s": 488.5,
+"e": 488.88,
+"matched": true
+},
+{
+"line": 54,
+"t": "environ",
+"s": 488.88,
+"e": 489.0,
+"matched": true
+},
+{
+"line": 54,
+"t": "quatre",
+"s": 489.0,
+"e": 489.12,
+"matched": false
+},
+{
+"line": 54,
+"t": "virgule",
+"s": 489.12,
+"e": 489.24,
+"matched": false
+},
+{
+"line": 54,
+"t": "trois",
+"s": 489.24,
+"e": 489.36,
+"matched": false
+},
+{
+"line": 54,
+"t": "pour",
+"s": 489.36,
+"e": 489.48,
+"matched": true
+},
+{
+"line": 54,
+"t": "cent",
+"s": 489.48,
+"e": 489.71,
+"matched": true
+},
+{
+"line": 54,
+"t": "pour",
+"s": 489.71,
+"e": 490.07,
+"matched": true
+},
+{
+"line": 54,
+"t": "deux",
+"s": 490.07,
+"e": 490.423,
+"matched": false
+},
+{
+"line": 54,
+"t": "mille",
+"s": 490.423,
+"e": 490.905,
+"matched": false
+},
+{
+"line": 54,
+"t": "vingt-six,",
+"s": 490.905,
+"e": 491.225,
+"matched": false
+},
+{
+"line": 54,
+"t": "nettement",
+"s": 491.225,
+"e": 491.65,
+"matched": true
+},
+{
+"line": 54,
+"t": "sous",
+"s": 491.65,
+"e": 491.945,
+"matched": true
+},
+{
+"line": 54,
+"t": "le",
+"s": 491.945,
+"e": 492.175,
+"matched": true
+},
+{
+"line": 54,
+"t": "coût",
+"s": 492.175,
+"e": 492.43,
+"matched": true
+},
+{
+"line": 54,
+"t": "du",
+"s": 492.43,
+"e": 492.6,
+"matched": true
+},
+{
+"line": 54,
+"t": "capital,",
+"s": 492.6,
+"e": 493.18,
+"matched": true
+},
+{
+"line": 54,
+"t": "estimé",
+"s": 493.18,
+"e": 493.696,
+"matched": true
+},
+{
+"line": 54,
+"t": "à",
+"s": 493.696,
+"e": 493.879,
+"matched": true
+},
+{
+"line": 54,
+"t": "huit",
+"s": 493.879,
+"e": 494.062,
+"matched": false
+},
+{
+"line": 54,
+"t": "virgule",
+"s": 494.062,
+"e": 494.244,
+"matched": false
+},
+{
+"line": 54,
+"t": "cinq",
+"s": 494.244,
+"e": 494.427,
+"matched": false
+},
+{
+"line": 54,
+"t": "pour",
+"s": 494.427,
+"e": 494.605,
+"matched": false
+},
+{
+"line": 54,
+"t": "cent.",
+"s": 494.605,
+"e": 494.775,
+"matched": false
+},
+{
+"line": 54,
+"t": "Ces",
+"s": 494.775,
+"e": 495.154,
+"matched": true
+},
+{
+"line": 54,
+"t": "prévisions",
+"s": 495.154,
+"e": 495.64,
+"matched": true
+},
+{
+"line": 54,
+"t": "ont",
+"s": 495.64,
+"e": 495.905,
+"matched": true
+},
+{
+"line": 54,
+"t": "depuis",
+"s": 495.905,
+"e": 496.231,
+"matched": true
+},
+{
+"line": 54,
+"t": "été",
+"s": 496.231,
+"e": 496.435,
+"matched": true
+},
+{
+"line": 54,
+"t": "revues",
+"s": 496.435,
+"e": 496.735,
+"matched": true
+},
+{
+"line": 54,
+"t": "à",
+"s": 496.735,
+"e": 496.886,
+"matched": true
+},
+{
+"line": 54,
+"t": "la",
+"s": 496.886,
+"e": 497.025,
+"matched": true
+},
+{
+"line": 54,
+"t": "baisse.",
+"s": 497.025,
+"e": 498.09,
+"matched": true
+},
+{
+"line": 55,
+"t": "Cela",
+"s": 498.71,
+"e": 498.83,
+"matched": false
+},
+{
+"line": 55,
+"t": "signifie",
+"s": 498.83,
+"e": 499.115,
+"matched": true
+},
+{
+"line": 55,
+"t": "qu'en",
+"s": 499.115,
+"e": 499.46,
+"matched": true
+},
+{
+"line": 55,
+"t": "moyenne,",
+"s": 499.46,
+"e": 500.184,
+"matched": true
+},
+{
+"line": 55,
+"t": "l'industrie",
+"s": 500.184,
+"e": 500.649,
+"matched": true
+},
+{
+"line": 55,
+"t": "gagne",
+"s": 500.649,
+"e": 500.995,
+"matched": true
+},
+{
+"line": 55,
+"t": "moins",
+"s": 500.995,
+"e": 501.115,
+"matched": true
+},
+{
+"line": 55,
+"t": "que",
+"s": 501.115,
+"e": 501.295,
+"matched": true
+},
+{
+"line": 55,
+"t": "ce",
+"s": 501.295,
+"e": 501.415,
+"matched": true
+},
+{
+"line": 55,
+"t": "que",
+"s": 501.415,
+"e": 501.535,
+"matched": true
+},
+{
+"line": 55,
+"t": "lui",
+"s": 501.535,
+"e": 501.655,
+"matched": true
+},
+{
+"line": 55,
+"t": "coûte",
+"s": 501.655,
+"e": 501.805,
+"matched": true
+},
+{
+"line": 55,
+"t": "l'argent",
+"s": 501.805,
+"e": 502.114,
+"matched": true
+},
+{
+"line": 55,
+"t": "qu'elle",
+"s": 502.114,
+"e": 502.33,
+"matched": true
+},
+{
+"line": 55,
+"t": "utilise.",
+"s": 502.33,
+"e": 502.915,
+"matched": true
+},
+{
+"line": 56,
+"t": "Autrement",
+"s": 503.575,
+"e": 503.695,
+"matched": false
+},
+{
+"line": 56,
+"t": "dit,",
+"s": 503.695,
+"e": 503.962,
+"matched": true
+},
+{
+"line": 56,
+"t": "une",
+"s": 503.962,
+"e": 504.192,
+"matched": true
+},
+{
+"line": 56,
+"t": "compagnie",
+"s": 504.192,
+"e": 504.84,
+"matched": true
+},
+{
+"line": 56,
+"t": "peut",
+"s": 504.84,
+"e": 505.115,
+"matched": true
+},
+{
+"line": 56,
+"t": "être",
+"s": 505.115,
+"e": 505.445,
+"matched": true
+},
+{
+"line": 56,
+"t": "pleine,",
+"s": 505.445,
+"e": 506.145,
+"matched": true
+},
+{
+"line": 56,
+"t": "ponctuelle",
+"s": 506.145,
+"e": 506.8,
+"matched": true
+},
+{
+"line": 56,
+"t": "et",
+"s": 506.8,
+"e": 506.995,
+"matched": true
+},
+{
+"line": 56,
+"t": "bénéficiaire,",
+"s": 506.995,
+"e": 508.194,
+"matched": true
+},
+{
+"line": 56,
+"t": "et",
+"s": 508.194,
+"e": 508.314,
+"matched": true
+},
+{
+"line": 56,
+"t": "malgré",
+"s": 508.314,
+"e": 508.675,
+"matched": true
+},
+{
+"line": 56,
+"t": "tout",
+"s": 508.675,
+"e": 508.811,
+"matched": true
+},
+{
+"line": 56,
+"t": "décevoir",
+"s": 508.811,
+"e": 509.12,
+"matched": true
+},
+{
+"line": 56,
+"t": "ses",
+"s": 509.12,
+"e": 509.405,
+"matched": true
+},
+{
+"line": 56,
+"t": "investisseurs.",
+"s": 509.405,
+"e": 510.19,
+"matched": true
+},
+{
+"line": 57,
+"t": "Faisons",
+"s": 510.93,
+"e": 511.05,
+"matched": false
+},
+{
+"line": 57,
+"t": "le",
+"s": 511.05,
+"e": 511.17,
+"matched": false
+},
+{
+"line": 57,
+"t": "point.",
+"s": 511.17,
+"e": 511.29,
+"matched": false
+},
+{
+"line": 57,
+"t": "Une",
+"s": 511.29,
+"e": 511.41,
+"matched": true
+},
+{
+"line": 57,
+"t": "compagnie",
+"s": 511.41,
+"e": 511.73,
+"matched": true
+},
+{
+"line": 57,
+"t": "aérienne,",
+"s": 511.73,
+"e": 512.525,
+"matched": true
+},
+{
+"line": 57,
+"t": "c'est",
+"s": 512.525,
+"e": 512.858,
+"matched": true
+},
+{
+"line": 57,
+"t": "d'abord",
+"s": 512.858,
+"e": 513.275,
+"matched": true
+},
+{
+"line": 57,
+"t": "une",
+"s": 513.275,
+"e": 513.655,
+"matched": true
+},
+{
+"line": 57,
+"t": "machine",
+"s": 513.655,
+"e": 513.985,
+"matched": true
+},
+{
+"line": 57,
+"t": "à",
+"s": 513.985,
+"e": 514.271,
+"matched": true
+},
+{
+"line": 57,
+"t": "coûts",
+"s": 514.271,
+"e": 514.53,
+"matched": false
+},
+{
+"line": 57,
+"t": "fixes",
+"s": 514.53,
+"e": 514.663,
+"matched": false
+},
+{
+"line": 57,
+"t": ":",
+"s": 514.663,
+"e": 514.859,
+"matched": false
+},
+{
+"line": 57,
+"t": "un",
+"s": 514.859,
+"e": 515.1,
+"matched": true
+},
+{
+"line": 57,
+"t": "avion,",
+"s": 515.1,
+"e": 515.59,
+"matched": true
+},
+{
+"line": 57,
+"t": "un",
+"s": 515.59,
+"e": 515.735,
+"matched": true
+},
+{
+"line": 57,
+"t": "équipage,",
+"s": 515.735,
+"e": 516.485,
+"matched": true
+},
+{
+"line": 57,
+"t": "du",
+"s": 516.485,
+"e": 516.605,
+"matched": true
+},
+{
+"line": 57,
+"t": "carburant,",
+"s": 516.605,
+"e": 517.38,
+"matched": true
+},
+{
+"line": 57,
+"t": "des",
+"s": 517.38,
+"e": 517.56,
+"matched": true
+},
+{
+"line": 57,
+"t": "redevances.",
+"s": 517.56,
+"e": 518.724,
+"matched": true
+},
+{
+"line": 57,
+"t": "Tout",
+"s": 518.724,
+"e": 519.082,
+"matched": true
+},
+{
+"line": 57,
+"t": "cela",
+"s": 519.082,
+"e": 519.217,
+"matched": true
+},
+{
+"line": 57,
+"t": "se",
+"s": 519.217,
+"e": 519.39,
+"matched": true
+},
+{
+"line": 57,
+"t": "paie",
+"s": 519.39,
+"e": 519.55,
+"matched": true
+},
+{
+"line": 57,
+"t": "avant",
+"s": 519.55,
+"e": 519.913,
+"matched": true
+},
+{
+"line": 57,
+"t": "d'avoir",
+"s": 519.913,
+"e": 520.365,
+"matched": true
+},
+{
+"line": 57,
+"t": "vendu",
+"s": 520.365,
+"e": 520.575,
+"matched": true
+},
+{
+"line": 57,
+"t": "un",
+"s": 520.575,
+"e": 520.782,
+"matched": true
+},
+{
+"line": 57,
+"t": "seul",
+"s": 520.782,
+"e": 521.07,
+"matched": true
+},
+{
+"line": 57,
+"t": "siège.",
+"s": 521.07,
+"e": 522.435,
+"matched": true
+},
+{
+"line": 58,
+"t": "Les",
+"s": 523.255,
+"e": 523.375,
+"matched": false
+},
+{
+"line": 58,
+"t": "revenus,",
+"s": 523.375,
+"e": 523.495,
+"matched": false
+},
+{
+"line": 58,
+"t": "eux,",
+"s": 523.495,
+"e": 523.615,
+"matched": false
+},
+{
+"line": 58,
+"t": "dépendent",
+"s": 523.615,
+"e": 523.89,
+"matched": true
+},
+{
+"line": 58,
+"t": "du",
+"s": 523.89,
+"e": 524.021,
+"matched": true
+},
+{
+"line": 58,
+"t": "remplissage,",
+"s": 524.021,
+"e": 524.97,
+"matched": true
+},
+{
+"line": 58,
+"t": "du",
+"s": 524.97,
+"e": 525.165,
+"matched": true
+},
+{
+"line": 58,
+"t": "prix",
+"s": 525.165,
+"e": 525.358,
+"matched": true
+},
+{
+"line": 58,
+"t": "du",
+"s": 525.358,
+"e": 525.478,
+"matched": true
+},
+{
+"line": 58,
+"t": "pétrole,",
+"s": 525.478,
+"e": 525.925,
+"matched": true
+},
+{
+"line": 58,
+"t": "de",
+"s": 525.925,
+"e": 526.163,
+"matched": true
+},
+{
+"line": 58,
+"t": "la",
+"s": 526.163,
+"e": 526.321,
+"matched": true
+},
+{
+"line": 58,
+"t": "météo",
+"s": 526.321,
+"e": 526.81,
+"matched": true
+},
+{
+"line": 58,
+"t": "et",
+"s": 526.81,
+"e": 526.93,
+"matched": true
+},
+{
+"line": 58,
+"t": "des",
+"s": 526.93,
+"e": 527.115,
+"matched": true
+},
+{
+"line": 58,
+"t": "retards.",
+"s": 527.115,
+"e": 527.981,
+"matched": true
+},
+{
+"line": 58,
+"t": "Une",
+"s": 527.981,
+"e": 528.345,
+"matched": true
+},
+{
+"line": 58,
+"t": "marge",
+"s": 528.345,
+"e": 528.465,
+"matched": true
+},
+{
+"line": 58,
+"t": "de",
+"s": 528.465,
+"e": 528.585,
+"matched": true
+},
+{
+"line": 58,
+"t": "deux",
+"s": 528.585,
+"e": 528.705,
+"matched": false
+},
+{
+"line": 58,
+"t": "pour",
+"s": 528.705,
+"e": 528.825,
+"matched": true
+},
+{
+"line": 58,
+"t": "cent",
+"s": 528.825,
+"e": 528.945,
+"matched": true
+},
+{
+"line": 58,
+"t": "laisse",
+"s": 528.945,
+"e": 529.19,
+"matched": true
+},
+{
+"line": 58,
+"t": "très",
+"s": 529.19,
+"e": 529.345,
+"matched": true
+},
+{
+"line": 58,
+"t": "peu",
+"s": 529.345,
+"e": 529.545,
+"matched": true
+},
+{
+"line": 58,
+"t": "de",
+"s": 529.545,
+"e": 529.795,
+"matched": true
+},
+{
+"line": 58,
+"t": "place",
+"s": 529.795,
+"e": 530.025,
+"matched": true
+},
+{
+"line": 58,
+"t": "aux",
+"s": 530.025,
+"e": 530.2,
+"matched": true
+},
+{
+"line": 58,
+"t": "erreurs.",
+"s": 530.2,
+"e": 531.135,
+"matched": true
+},
+{
+"line": 59,
+"t": "Pour",
+"s": 531.905,
+"e": 532.025,
+"matched": false
+},
+{
+"line": 59,
+"t": "s'en",
+"s": 532.025,
+"e": 532.145,
+"matched": false
+},
+{
+"line": 59,
+"t": "sortir,",
+"s": 532.145,
+"e": 532.265,
+"matched": false
+},
+{
+"line": 59,
+"t": "les",
+"s": 532.265,
+"e": 532.385,
+"matched": true
+},
+{
+"line": 59,
+"t": "compagnies",
+"s": 532.385,
+"e": 532.638,
+"matched": true
+},
+{
+"line": 59,
+"t": "jouent",
+"s": 532.638,
+"e": 532.955,
+"matched": true
+},
+{
+"line": 59,
+"t": "sur",
+"s": 532.955,
+"e": 533.08,
+"matched": true
+},
+{
+"line": 59,
+"t": "trois",
+"s": 533.08,
+"e": 533.312,
+"matched": false
+},
+{
+"line": 59,
+"t": "leviers",
+"s": 533.312,
+"e": 533.639,
+"matched": true
+},
+{
+"line": 59,
+"t": ":",
+"s": 533.639,
+"e": 533.94,
+"matched": false
+},
+{
+"line": 59,
+"t": "remplir",
+"s": 533.94,
+"e": 534.563,
+"matched": true
+},
+{
+"line": 59,
+"t": "les",
+"s": 534.563,
+"e": 534.805,
+"matched": true
+},
+{
+"line": 59,
+"t": "avions,",
+"s": 534.805,
+"e": 535.265,
+"matched": true
+},
+{
+"line": 59,
+"t": "vendre",
+"s": 535.265,
+"e": 535.88,
+"matched": true
+},
+{
+"line": 59,
+"t": "des",
+"s": 535.88,
+"e": 536.068,
+"matched": true
+},
+{
+"line": 59,
+"t": "options",
+"s": 536.068,
+"e": 536.781,
+"matched": true
+},
+{
+"line": 59,
+"t": "autour",
+"s": 536.781,
+"e": 537.045,
+"matched": true
+},
+{
+"line": 59,
+"t": "du",
+"s": 537.045,
+"e": 537.165,
+"matched": true
+},
+{
+"line": 59,
+"t": "billet,",
+"s": 537.165,
+"e": 537.655,
+"matched": true
+},
+{
+"line": 59,
+"t": "et",
+"s": 537.655,
+"e": 537.9,
+"matched": true
+},
+{
+"line": 59,
+"t": "fidéliser",
+"s": 537.9,
+"e": 538.755,
+"matched": true
+},
+{
+"line": 59,
+"t": "les",
+"s": 538.755,
+"e": 538.875,
+"matched": true
+},
+{
+"line": 59,
+"t": "passagers.",
+"s": 538.875,
+"e": 539.82,
+"matched": true
+},
+{
+"line": 60,
+"t": "Le",
+"s": 540.475,
+"e": 540.595,
+"matched": false
+},
+{
+"line": 60,
+"t": "billet",
+"s": 540.595,
+"e": 540.715,
+"matched": true
+},
+{
+"line": 60,
+"t": "que",
+"s": 540.715,
+"e": 540.835,
+"matched": true
+},
+{
+"line": 60,
+"t": "vous",
+"s": 540.835,
+"e": 540.955,
+"matched": true
+},
+{
+"line": 60,
+"t": "achetez",
+"s": 540.955,
+"e": 541.252,
+"matched": true
+},
+{
+"line": 60,
+"t": "n'est",
+"s": 541.252,
+"e": 541.43,
+"matched": true
+},
+{
+"line": 60,
+"t": "donc",
+"s": 541.43,
+"e": 541.686,
+"matched": true
+},
+{
+"line": 60,
+"t": "que",
+"s": 541.686,
+"e": 541.87,
+"matched": true
+},
+{
+"line": 60,
+"t": "la",
+"s": 541.87,
+"e": 542.02,
+"matched": true
+},
+{
+"line": 60,
+"t": "partie",
+"s": 542.02,
+"e": 542.285,
+"matched": true
+},
+{
+"line": 60,
+"t": "visible",
+"s": 542.285,
+"e": 542.49,
+"matched": true
+},
+{
+"line": 60,
+"t": "d'un",
+"s": 542.49,
+"e": 542.788,
+"matched": true
+},
+{
+"line": 60,
+"t": "équilibre",
+"s": 542.788,
+"e": 543.203,
+"matched": true
+},
+{
+"line": 60,
+"t": "fragile.",
+"s": 543.203,
+"e": 544.45,
+"matched": true
+},
+{
+"line": 61,
+"t": "Dites-moi",
+"s": 545.28,
+"e": 545.4,
+"matched": false
+},
+{
+"line": 61,
+"t": "en",
+"s": 545.4,
+"e": 545.52,
+"matched": false
+},
+{
+"line": 61,
+"t": "commentaire",
+"s": 545.52,
+"e": 545.64,
+"matched": false
+},
+{
+"line": 61,
+"t": ":",
+"s": 545.64,
+"e": 545.76,
+"matched": false
+},
+{
+"line": 61,
+"t": "quel",
+"s": 545.76,
+"e": 545.88,
+"matched": true
+},
+{
+"line": 61,
+"t": "coût",
+"s": 545.88,
+"e": 546.0,
+"matched": false
+},
+{
+"line": 61,
+"t": "vous",
+"s": 546.0,
+"e": 546.12,
+"matched": true
+},
+{
+"line": 61,
+"t": "a",
+"s": 546.12,
+"e": 546.24,
+"matched": false
+},
+{
+"line": 61,
+"t": "le",
+"s": 546.24,
+"e": 546.36,
+"matched": true
+},
+{
+"line": 61,
+"t": "plus",
+"s": 546.36,
+"e": 546.5,
+"matched": true
+},
+{
+"line": 61,
+"t": "surpris",
+"s": 546.5,
+"e": 546.7,
+"matched": true
+},
+{
+"line": 61,
+"t": "dans",
+"s": 546.7,
+"e": 546.974,
+"matched": true
+},
+{
+"line": 61,
+"t": "cette",
+"s": 546.974,
+"e": 547.255,
+"matched": true
+},
+{
+"line": 61,
+"t": "vidéo",
+"s": 547.255,
+"e": 547.4,
+"matched": true
+},
+{
+"line": 61,
+"t": "?",
+"s": 547.4,
+"e": 547.555,
+"matched": false
+},
+{
+"line": 61,
+"t": "Et",
+"s": 547.555,
+"e": 547.72,
+"matched": true
+},
+{
+"line": 61,
+"t": "abonnez-vous",
+"s": 547.72,
+"e": 548.372,
+"matched": true
+},
+{
+"line": 61,
+"t": "à",
+"s": 548.372,
+"e": 548.639,
+"matched": true
+},
+{
+"line": 61,
+"t": "Decrypt",
+"s": 548.639,
+"e": 548.93,
+"matched": false
+},
+{
+"line": 61,
+"t": "Business",
+"s": 548.93,
+"e": 549.429,
+"matched": true
+},
+{
+"line": 61,
+"t": "pour",
+"s": 549.429,
+"e": 549.622,
+"matched": true
+},
+{
+"line": 61,
+"t": "comprendre",
+"s": 549.622,
+"e": 550.205,
+"matched": true
+},
+{
+"line": 61,
+"t": "l'économie",
+"s": 550.205,
+"e": 550.9,
+"matched": true
+},
+{
+"line": 61,
+"t": "en",
+"s": 550.9,
+"e": 551.02,
+"matched": true
+},
+{
+"line": 61,
+"t": "quelques",
+"s": 551.02,
+"e": 551.41,
+"matched": true
+},
+{
+"line": 61,
+"t": "minutes.",
+"s": 551.41,
+"e": 552.1,
+"matched": true
+}
+]
