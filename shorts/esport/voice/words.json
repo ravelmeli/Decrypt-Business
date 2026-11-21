@@ -1,0 +1,1605 @@
+[
+{
+"line": 0,
+"t": "Posséder",
+"s": 0.55,
+"e": 0.725,
+"matched": false
+},
+{
+"line": 0,
+"t": "une",
+"s": 0.725,
+"e": 0.872,
+"matched": true
+},
+{
+"line": 0,
+"t": "équipe",
+"s": 0.872,
+"e": 1.245,
+"matched": true
+},
+{
+"line": 0,
+"t": "d'eSport",
+"s": 1.245,
+"e": 2.045,
+"matched": true
+},
+{
+"line": 0,
+"t": "ressemble",
+"s": 2.045,
+"e": 2.525,
+"matched": true
+},
+{
+"line": 0,
+"t": "à",
+"s": 2.525,
+"e": 2.665,
+"matched": true
+},
+{
+"line": 0,
+"t": "un",
+"s": 2.665,
+"e": 2.812,
+"matched": true
+},
+{
+"line": 0,
+"t": "club",
+"s": 2.812,
+"e": 3.22,
+"matched": true
+},
+{
+"line": 0,
+"t": "de",
+"s": 3.22,
+"e": 3.375,
+"matched": true
+},
+{
+"line": 0,
+"t": "foot,",
+"s": 3.375,
+"e": 3.753,
+"matched": true
+},
+{
+"line": 0,
+"t": "mais",
+"s": 3.753,
+"e": 3.939,
+"matched": true
+},
+{
+"line": 0,
+"t": "sans",
+"s": 3.939,
+"e": 4.164,
+"matched": true
+},
+{
+"line": 0,
+"t": "les",
+"s": 4.164,
+"e": 4.301,
+"matched": true
+},
+{
+"line": 0,
+"t": "droits",
+"s": 4.301,
+"e": 4.928,
+"matched": true
+},
+{
+"line": 0,
+"t": "télé.",
+"s": 4.928,
+"e": 5.565,
+"matched": true
+},
+{
+"line": 1,
+"t": "Chez",
+"s": 5.755,
+"e": 5.875,
+"matched": true
+},
+{
+"line": 1,
+"t": "trois",
+"s": 5.875,
+"e": 6.125,
+"matched": true
+},
+{
+"line": 1,
+"t": "équipes",
+"s": 6.125,
+"e": 6.54,
+"matched": true
+},
+{
+"line": 1,
+"t": "françaises",
+"s": 6.54,
+"e": 7.08,
+"matched": true
+},
+{
+"line": 1,
+"t": "interrogées",
+"s": 7.08,
+"e": 7.815,
+"matched": true
+},
+{
+"line": 1,
+"t": "par",
+"s": 7.815,
+"e": 8.0,
+"matched": true
+},
+{
+"line": 1,
+"t": "Next.ink,",
+"s": 8.0,
+"e": 8.815,
+"matched": true
+},
+{
+"line": 1,
+"t": "le",
+"s": 8.815,
+"e": 8.935,
+"matched": true
+},
+{
+"line": 1,
+"t": "sponsoring",
+"s": 8.935,
+"e": 9.3,
+"matched": true
+},
+{
+"line": 1,
+"t": "pèse",
+"s": 9.3,
+"e": 9.635,
+"matched": true
+},
+{
+"line": 1,
+"t": "entre",
+"s": 9.635,
+"e": 9.88,
+"matched": true
+},
+{
+"line": 1,
+"t": "80",
+"s": 9.88,
+"e": 10.73,
+"matched": true
+},
+{
+"line": 1,
+"t": "et",
+"s": 10.73,
+"e": 10.94,
+"matched": true
+},
+{
+"line": 1,
+"t": "100 %",
+"s": 10.94,
+"e": 11.425,
+"matched": true
+},
+{
+"line": 1,
+"t": "des",
+"s": 11.425,
+"e": 11.71,
+"matched": true
+},
+{
+"line": 1,
+"t": "recettes.",
+"s": 11.71,
+"e": 13.295,
+"matched": true
+},
+{
+"line": 2,
+"t": "Au",
+"s": 13.545,
+"e": 13.845,
+"matched": false
+},
+{
+"line": 2,
+"t": "niveau",
+"s": 13.845,
+"e": 14.065,
+"matched": false
+},
+{
+"line": 2,
+"t": "mondial,",
+"s": 14.065,
+"e": 14.185,
+"matched": false
+},
+{
+"line": 2,
+"t": "il",
+"s": 14.185,
+"e": 14.35,
+"matched": false
+},
+{
+"line": 2,
+"t": "représentait",
+"s": 14.35,
+"e": 14.47,
+"matched": false
+},
+{
+"line": 2,
+"t": "environ",
+"s": 14.47,
+"e": 14.895,
+"matched": true
+},
+{
+"line": 2,
+"t": "63 %",
+"s": 14.895,
+"e": 15.285,
+"matched": true
+},
+{
+"line": 2,
+"t": "des",
+"s": 15.285,
+"e": 15.405,
+"matched": true
+},
+{
+"line": 2,
+"t": "revenus",
+"s": 15.405,
+"e": 15.895,
+"matched": true
+},
+{
+"line": 2,
+"t": "en",
+"s": 15.895,
+"e": 16.055,
+"matched": true
+},
+{
+"line": 2,
+"t": "2021,",
+"s": 16.055,
+"e": 16.565,
+"matched": true
+},
+{
+"line": 2,
+"t": "selon",
+"s": 16.565,
+"e": 17.165,
+"matched": true
+},
+{
+"line": 2,
+"t": "Siècle",
+"s": 17.165,
+"e": 17.43,
+"matched": true
+},
+{
+"line": 2,
+"t": "Digital.",
+"s": 17.43,
+"e": 18.035,
+"matched": true
+},
+{
+"line": 3,
+"t": "Autrement",
+"s": 18.79,
+"e": 18.91,
+"matched": false
+},
+{
+"line": 3,
+"t": "dit,",
+"s": 18.91,
+"e": 19.184,
+"matched": true
+},
+{
+"line": 3,
+"t": "tout",
+"s": 19.184,
+"e": 19.427,
+"matched": true
+},
+{
+"line": 3,
+"t": "repose",
+"s": 19.427,
+"e": 19.913,
+"matched": true
+},
+{
+"line": 3,
+"t": "sur",
+"s": 19.913,
+"e": 20.075,
+"matched": true
+},
+{
+"line": 3,
+"t": "quelques",
+"s": 20.075,
+"e": 20.675,
+"matched": true
+},
+{
+"line": 3,
+"t": "marques,",
+"s": 20.675,
+"e": 21.16,
+"matched": true
+},
+{
+"line": 3,
+"t": "qui",
+"s": 21.16,
+"e": 21.352,
+"matched": true
+},
+{
+"line": 3,
+"t": "peuvent",
+"s": 21.352,
+"e": 21.885,
+"matched": true
+},
+{
+"line": 3,
+"t": "partir",
+"s": 21.885,
+"e": 22.215,
+"matched": true
+},
+{
+"line": 3,
+"t": "à",
+"s": 22.215,
+"e": 22.435,
+"matched": true
+},
+{
+"line": 3,
+"t": "la",
+"s": 22.435,
+"e": 22.555,
+"matched": true
+},
+{
+"line": 3,
+"t": "fin",
+"s": 22.555,
+"e": 22.775,
+"matched": true
+},
+{
+"line": 3,
+"t": "du",
+"s": 22.775,
+"e": 22.895,
+"matched": true
+},
+{
+"line": 3,
+"t": "contrat.",
+"s": 22.895,
+"e": 23.675,
+"matched": true
+},
+{
+"line": 4,
+"t": "Les",
+"s": 23.77,
+"e": 23.965,
+"matched": true
+},
+{
+"line": 4,
+"t": "dépenses,",
+"s": 23.965,
+"e": 24.448,
+"matched": true
+},
+{
+"line": 4,
+"t": "elles,",
+"s": 24.448,
+"e": 24.819,
+"matched": true
+},
+{
+"line": 4,
+"t": "sont",
+"s": 24.819,
+"e": 25.065,
+"matched": true
+},
+{
+"line": 4,
+"t": "bien",
+"s": 25.065,
+"e": 25.249,
+"matched": true
+},
+{
+"line": 4,
+"t": "réelles",
+"s": 25.249,
+"e": 25.635,
+"matched": true
+},
+{
+"line": 4,
+"t": ":",
+"s": 25.635,
+"e": 25.83,
+"matched": false
+},
+{
+"line": 4,
+"t": "salaires",
+"s": 25.83,
+"e": 26.225,
+"matched": false
+},
+{
+"line": 4,
+"t": "des",
+"s": 26.225,
+"e": 26.371,
+"matched": true
+},
+{
+"line": 4,
+"t": "joueurs,",
+"s": 26.371,
+"e": 26.885,
+"matched": true
+},
+{
+"line": 4,
+"t": "coachs,",
+"s": 26.885,
+"e": 27.25,
+"matched": true
+},
+{
+"line": 4,
+"t": "voyages,",
+"s": 27.25,
+"e": 27.718,
+"matched": true
+},
+{
+"line": 4,
+"t": "production",
+"s": 27.718,
+"e": 28.187,
+"matched": false
+},
+{
+"line": 4,
+"t": "de",
+"s": 28.187,
+"e": 28.515,
+"matched": true
+},
+{
+"line": 4,
+"t": "contenu.",
+"s": 28.515,
+"e": 28.86,
+"matched": false
+},
+{
+"line": 5,
+"t": "Et",
+"s": 29.24,
+"e": 29.36,
+"matched": false
+},
+{
+"line": 5,
+"t": "les",
+"s": 29.36,
+"e": 29.48,
+"matched": true
+},
+{
+"line": 5,
+"t": "gains",
+"s": 29.48,
+"e": 29.6,
+"matched": false
+},
+{
+"line": 5,
+"t": "en",
+"s": 29.6,
+"e": 29.72,
+"matched": true
+},
+{
+"line": 5,
+"t": "tournoi",
+"s": 29.72,
+"e": 30.054,
+"matched": true
+},
+{
+"line": 5,
+"t": "ne",
+"s": 30.054,
+"e": 30.37,
+"matched": true
+},
+{
+"line": 5,
+"t": "sont",
+"s": 30.37,
+"e": 30.49,
+"matched": true
+},
+{
+"line": 5,
+"t": "pas",
+"s": 30.49,
+"e": 30.61,
+"matched": true
+},
+{
+"line": 5,
+"t": "un",
+"s": 30.61,
+"e": 30.73,
+"matched": true
+},
+{
+"line": 5,
+"t": "filet",
+"s": 30.73,
+"e": 30.885,
+"matched": true
+},
+{
+"line": 5,
+"t": "de",
+"s": 30.885,
+"e": 31.005,
+"matched": true
+},
+{
+"line": 5,
+"t": "sécurité",
+"s": 31.005,
+"e": 31.15,
+"matched": true
+},
+{
+"line": 5,
+"t": ":",
+"s": 31.15,
+"e": 31.403,
+"matched": false
+},
+{
+"line": 5,
+"t": "ils",
+"s": 31.403,
+"e": 31.595,
+"matched": true
+},
+{
+"line": 5,
+"t": "reviennent",
+"s": 31.595,
+"e": 32.002,
+"matched": true
+},
+{
+"line": 5,
+"t": "surtout",
+"s": 32.002,
+"e": 32.46,
+"matched": true
+},
+{
+"line": 5,
+"t": "aux",
+"s": 32.46,
+"e": 32.58,
+"matched": true
+},
+{
+"line": 5,
+"t": "joueurs,",
+"s": 32.58,
+"e": 32.91,
+"matched": true
+},
+{
+"line": 5,
+"t": "pas",
+"s": 32.91,
+"e": 33.059,
+"matched": true
+},
+{
+"line": 5,
+"t": "à",
+"s": 33.059,
+"e": 33.185,
+"matched": true
+},
+{
+"line": 5,
+"t": "l'organisation.",
+"s": 33.185,
+"e": 34.005,
+"matched": true
+},
+{
+"line": 6,
+"t": "Il",
+"s": 34.41,
+"e": 34.53,
+"matched": false
+},
+{
+"line": 6,
+"t": "y",
+"s": 34.53,
+"e": 34.65,
+"matched": true
+},
+{
+"line": 6,
+"t": "a",
+"s": 34.65,
+"e": 34.77,
+"matched": true
+},
+{
+"line": 6,
+"t": "aussi",
+"s": 34.77,
+"e": 34.89,
+"matched": true
+},
+{
+"line": 6,
+"t": "le",
+"s": 34.89,
+"e": 35.01,
+"matched": true
+},
+{
+"line": 6,
+"t": "ticket",
+"s": 35.01,
+"e": 35.15,
+"matched": true
+},
+{
+"line": 6,
+"t": "d'entrée",
+"s": 35.15,
+"e": 35.695,
+"matched": true
+},
+{
+"line": 6,
+"t": "dans",
+"s": 35.695,
+"e": 35.85,
+"matched": true
+},
+{
+"line": 6,
+"t": "les",
+"s": 35.85,
+"e": 36.042,
+"matched": true
+},
+{
+"line": 6,
+"t": "ligues.",
+"s": 36.042,
+"e": 36.67,
+"matched": true
+},
+{
+"line": 6,
+"t": "En",
+"s": 36.67,
+"e": 36.875,
+"matched": true
+},
+{
+"line": 6,
+"t": "2017,",
+"s": 36.875,
+"e": 37.415,
+"matched": true
+},
+{
+"line": 6,
+"t": "Riot",
+"s": 37.415,
+"e": 37.675,
+"matched": true
+},
+{
+"line": 6,
+"t": "demandait",
+"s": 37.675,
+"e": 38.045,
+"matched": true
+},
+{
+"line": 6,
+"t": "au",
+"s": 38.045,
+"e": 38.165,
+"matched": true
+},
+{
+"line": 6,
+"t": "moins",
+"s": 38.165,
+"e": 38.357,
+"matched": true
+},
+{
+"line": 6,
+"t": "10",
+"s": 38.357,
+"e": 38.654,
+"matched": true
+},
+{
+"line": 6,
+"t": "millions",
+"s": 38.654,
+"e": 39.105,
+"matched": true
+},
+{
+"line": 6,
+"t": "de",
+"s": 39.105,
+"e": 39.225,
+"matched": true
+},
+{
+"line": 6,
+"t": "dollars",
+"s": 39.225,
+"e": 39.475,
+"matched": true
+},
+{
+"line": 6,
+"t": "pour",
+"s": 39.475,
+"e": 39.805,
+"matched": true
+},
+{
+"line": 6,
+"t": "rejoindre",
+"s": 39.805,
+"e": 40.162,
+"matched": true
+},
+{
+"line": 6,
+"t": "sa",
+"s": 40.162,
+"e": 40.282,
+"matched": true
+},
+{
+"line": 6,
+"t": "ligue",
+"s": 40.282,
+"e": 40.45,
+"matched": true
+},
+{
+"line": 6,
+"t": "nord-américaine.",
+"s": 40.45,
+"e": 41.41,
+"matched": true
+},
+{
+"line": 7,
+"t": "Résultat",
+"s": 42.045,
+"e": 42.165,
+"matched": false
+},
+{
+"line": 7,
+"t": ":",
+"s": 42.165,
+"e": 42.285,
+"matched": false
+},
+{
+"line": 7,
+"t": "la",
+"s": 42.285,
+"e": 42.405,
+"matched": true
+},
+{
+"line": 7,
+"t": "rentabilité",
+"s": 42.405,
+"e": 42.841,
+"matched": true
+},
+{
+"line": 7,
+"t": "n'est",
+"s": 42.841,
+"e": 43.255,
+"matched": true
+},
+{
+"line": 7,
+"t": "pas",
+"s": 43.255,
+"e": 43.375,
+"matched": true
+},
+{
+"line": 7,
+"t": "démontrée.",
+"s": 43.375,
+"e": 44.04,
+"matched": true
+},
+{
+"line": 7,
+"t": "De",
+"s": 44.04,
+"e": 44.395,
+"matched": true
+},
+{
+"line": 7,
+"t": "nombreuses",
+"s": 44.395,
+"e": 44.61,
+"matched": true
+},
+{
+"line": 7,
+"t": "équipes",
+"s": 44.61,
+"e": 44.983,
+"matched": true
+},
+{
+"line": 7,
+"t": "perdent",
+"s": 44.983,
+"e": 45.31,
+"matched": true
+},
+{
+"line": 7,
+"t": "encore",
+"s": 45.31,
+"e": 45.61,
+"matched": true
+},
+{
+"line": 7,
+"t": "de",
+"s": 45.61,
+"e": 45.73,
+"matched": true
+},
+{
+"line": 7,
+"t": "l'argent,",
+"s": 45.73,
+"e": 46.092,
+"matched": true
+},
+{
+"line": 7,
+"t": "selon",
+"s": 46.092,
+"e": 46.319,
+"matched": true
+},
+{
+"line": 7,
+"t": "France",
+"s": 46.319,
+"e": 46.575,
+"matched": true
+},
+{
+"line": 7,
+"t": "Épargne.",
+"s": 46.575,
+"e": 47.39,
+"matched": true
+},
+{
+"line": 8,
+"t": "Les",
+"s": 48.065,
+"e": 48.185,
+"matched": false
+},
+{
+"line": 8,
+"t": "valorisations",
+"s": 48.185,
+"e": 48.73,
+"matched": true
+},
+{
+"line": 8,
+"t": "atteindraient",
+"s": 48.73,
+"e": 49.41,
+"matched": true
+},
+{
+"line": 8,
+"t": "pourtant",
+"s": 49.41,
+"e": 49.743,
+"matched": true
+},
+{
+"line": 8,
+"t": "environ",
+"s": 49.743,
+"e": 50.245,
+"matched": true
+},
+{
+"line": 8,
+"t": "13",
+"s": 50.245,
+"e": 50.425,
+"matched": true
+},
+{
+"line": 8,
+"t": "fois",
+"s": 50.425,
+"e": 50.63,
+"matched": true
+},
+{
+"line": 8,
+"t": "le",
+"s": 50.63,
+"e": 50.91,
+"matched": true
+},
+{
+"line": 8,
+"t": "chiffre",
+"s": 50.91,
+"e": 51.275,
+"matched": true
+},
+{
+"line": 8,
+"t": "d'affaires,",
+"s": 51.275,
+"e": 51.63,
+"matched": false
+},
+{
+"line": 8,
+"t": "d'après",
+"s": 51.63,
+"e": 51.97,
+"matched": true
+},
+{
+"line": 8,
+"t": "Mercer",
+"s": 51.97,
+"e": 52.09,
+"matched": true
+},
+{
+"line": 8,
+"t": "Capital.",
+"s": 52.09,
+"e": 52.723,
+"matched": true
+},
+{
+"line": 8,
+"t": "On",
+"s": 52.723,
+"e": 52.843,
+"matched": true
+},
+{
+"line": 8,
+"t": "paie",
+"s": 52.843,
+"e": 53.11,
+"matched": true
+},
+{
+"line": 8,
+"t": "donc",
+"s": 53.11,
+"e": 53.245,
+"matched": true
+},
+{
+"line": 8,
+"t": "la",
+"s": 53.245,
+"e": 53.485,
+"matched": true
+},
+{
+"line": 8,
+"t": "promesse",
+"s": 53.485,
+"e": 53.765,
+"matched": true
+},
+{
+"line": 8,
+"t": "de",
+"s": 53.765,
+"e": 53.915,
+"matched": true
+},
+{
+"line": 8,
+"t": "la",
+"s": 53.915,
+"e": 54.097,
+"matched": true
+},
+{
+"line": 8,
+"t": "croissance.",
+"s": 54.097,
+"e": 54.975,
+"matched": true
+},
+{
+"line": 9,
+"t": "Les",
+"s": 55.635,
+"e": 55.755,
+"matched": false
+},
+{
+"line": 9,
+"t": "meilleures",
+"s": 55.755,
+"e": 55.875,
+"matched": false
+},
+{
+"line": 9,
+"t": "organisations",
+"s": 55.875,
+"e": 56.941,
+"matched": true
+},
+{
+"line": 9,
+"t": "diversifient",
+"s": 56.941,
+"e": 57.34,
+"matched": true
+},
+{
+"line": 9,
+"t": ":",
+"s": 57.34,
+"e": 57.745,
+"matched": false
+},
+{
+"line": 9,
+"t": "produits",
+"s": 57.745,
+"e": 58.21,
+"matched": true
+},
+{
+"line": 9,
+"t": "dérivés,",
+"s": 58.21,
+"e": 58.69,
+"matched": true
+},
+{
+"line": 9,
+"t": "contenus,",
+"s": 58.69,
+"e": 59.29,
+"matched": true
+},
+{
+"line": 9,
+"t": "plusieurs",
+"s": 59.29,
+"e": 59.875,
+"matched": true
+},
+{
+"line": 9,
+"t": "sponsors,",
+"s": 59.875,
+"e": 60.585,
+"matched": true
+},
+{
+"line": 9,
+"t": "revenus",
+"s": 60.585,
+"e": 60.91,
+"matched": true
+},
+{
+"line": 9,
+"t": "partagés",
+"s": 60.91,
+"e": 61.42,
+"matched": true
+},
+{
+"line": 9,
+"t": "avec",
+"s": 61.42,
+"e": 61.695,
+"matched": true
+},
+{
+"line": 9,
+"t": "l'éditeur.",
+"s": 61.695,
+"e": 61.8,
+"matched": false
+},
+{
+"line": 10,
+"t": "Posséder",
+"s": 62.305,
+"e": 62.51,
+"matched": false
+},
+{
+"line": 10,
+"t": "une",
+"s": 62.51,
+"e": 62.738,
+"matched": true
+},
+{
+"line": 10,
+"t": "équipe",
+"s": 62.738,
+"e": 63.1,
+"matched": true
+},
+{
+"line": 10,
+"t": "d'eSport,",
+"s": 63.1,
+"e": 63.51,
+"matched": false
+},
+{
+"line": 10,
+"t": "c'est",
+"s": 63.51,
+"e": 63.795,
+"matched": true
+},
+{
+"line": 10,
+"t": "financer",
+"s": 63.795,
+"e": 64.198,
+"matched": true
+},
+{
+"line": 10,
+"t": "une",
+"s": 64.198,
+"e": 64.345,
+"matched": true
+},
+{
+"line": 10,
+"t": "audience,",
+"s": 64.345,
+"e": 64.933,
+"matched": true
+},
+{
+"line": 10,
+"t": "en",
+"s": 64.933,
+"e": 65.053,
+"matched": true
+},
+{
+"line": 10,
+"t": "espérant",
+"s": 65.053,
+"e": 65.5,
+"matched": true
+},
+{
+"line": 10,
+"t": "que",
+"s": 65.5,
+"e": 65.648,
+"matched": true
+},
+{
+"line": 10,
+"t": "les",
+"s": 65.648,
+"e": 65.8,
+"matched": true
+},
+{
+"line": 10,
+"t": "marques",
+"s": 65.8,
+"e": 66.15,
+"matched": true
+},
+{
+"line": 10,
+"t": "continuent",
+"s": 66.15,
+"e": 66.57,
+"matched": true
+},
+{
+"line": 10,
+"t": "de",
+"s": 66.57,
+"e": 66.69,
+"matched": true
+},
+{
+"line": 10,
+"t": "payer",
+"s": 66.69,
+"e": 66.87,
+"matched": true
+},
+{
+"line": 10,
+"t": "pour",
+"s": 66.87,
+"e": 67.14,
+"matched": true
+},
+{
+"line": 10,
+"t": "elle.",
+"s": 67.14,
+"e": 67.42,
+"matched": false
+},
+{
+"line": 11,
+"t": "Un",
+"s": 67.915,
+"e": 68.035,
+"matched": false
+},
+{
+"line": 11,
+"t": "public",
+"s": 68.035,
+"e": 68.285,
+"matched": true
+},
+{
+"line": 11,
+"t": "passionné,",
+"s": 68.285,
+"e": 68.788,
+"matched": true
+},
+{
+"line": 11,
+"t": "des",
+"s": 68.788,
+"e": 68.98,
+"matched": true
+},
+{
+"line": 11,
+"t": "revenus",
+"s": 68.98,
+"e": 69.319,
+"matched": true
+},
+{
+"line": 11,
+"t": "fragiles,",
+"s": 69.319,
+"e": 69.909,
+"matched": true
+},
+{
+"line": 11,
+"t": "et",
+"s": 69.909,
+"e": 70.065,
+"matched": true
+},
+{
+"line": 11,
+"t": "des",
+"s": 70.065,
+"e": 70.185,
+"matched": true
+},
+{
+"line": 11,
+"t": "coûts",
+"s": 70.185,
+"e": 70.305,
+"matched": true
+},
+{
+"line": 11,
+"t": "qui",
+"s": 70.305,
+"e": 70.5,
+"matched": true
+},
+{
+"line": 11,
+"t": "ne",
+"s": 70.5,
+"e": 70.62,
+"matched": true
+},
+{
+"line": 11,
+"t": "se",
+"s": 70.62,
+"e": 70.74,
+"matched": true
+},
+{
+"line": 11,
+"t": "mettent",
+"s": 70.74,
+"e": 70.86,
+"matched": true
+},
+{
+"line": 11,
+"t": "jamais",
+"s": 70.86,
+"e": 71.125,
+"matched": true
+},
+{
+"line": 11,
+"t": "en",
+"s": 71.125,
+"e": 71.245,
+"matched": true
+},
+{
+"line": 11,
+"t": "pause.",
+"s": 71.245,
+"e": 71.955,
+"matched": true
+},
+{
+"line": 12,
+"t": "Dites-moi",
+"s": 72.635,
+"e": 72.755,
+"matched": false
+},
+{
+"line": 12,
+"t": "en",
+"s": 72.755,
+"e": 72.875,
+"matched": true
+},
+{
+"line": 12,
+"t": "commentaire",
+"s": 72.875,
+"e": 73.22,
+"matched": true
+},
+{
+"line": 12,
+"t": ":",
+"s": 73.22,
+"e": 73.52,
+"matched": false
+},
+{
+"line": 12,
+"t": "posséderiez-vous",
+"s": 73.52,
+"e": 74.525,
+"matched": true
+},
+{
+"line": 12,
+"t": "une",
+"s": 74.525,
+"e": 74.704,
+"matched": true
+},
+{
+"line": 12,
+"t": "équipe",
+"s": 74.704,
+"e": 75.109,
+"matched": true
+},
+{
+"line": 12,
+"t": "d'eSport",
+"s": 75.109,
+"e": 75.525,
+"matched": false
+},
+{
+"line": 12,
+"t": "ou",
+"s": 75.525,
+"e": 75.692,
+"matched": true
+},
+{
+"line": 12,
+"t": "une",
+"s": 75.692,
+"e": 75.812,
+"matched": true
+},
+{
+"line": 12,
+"t": "crèche",
+"s": 75.812,
+"e": 75.932,
+"matched": false
+},
+{
+"line": 12,
+"t": "?",
+"s": 75.932,
+"e": 75.84,
+"matched": false
+},
+{
+"line": 13,
+"t": "Abonnez-vous",
+"s": 76.375,
+"e": 76.799,
+"matched": true
+},
+{
+"line": 13,
+"t": "à",
+"s": 76.799,
+"e": 77.04,
+"matched": true
+},
+{
+"line": 13,
+"t": "Decrypt",
+"s": 77.04,
+"e": 77.255,
+"matched": false
+},
+{
+"line": 13,
+"t": "Business",
+"s": 77.255,
+"e": 77.79,
+"matched": true
+},
+{
+"line": 13,
+"t": "pour",
+"s": 77.79,
+"e": 77.975,
+"matched": true
+},
+{
+"line": 13,
+"t": "comprendre",
+"s": 77.975,
+"e": 78.61,
+"matched": true
+},
+{
+"line": 13,
+"t": "l'économie",
+"s": 78.61,
+"e": 79.055,
+"matched": true
+},
+{
+"line": 13,
+"t": "en",
+"s": 79.055,
+"e": 79.175,
+"matched": true
+},
+{
+"line": 13,
+"t": "quelques",
+"s": 79.175,
+"e": 79.435,
+"matched": true
+},
+{
+"line": 13,
+"t": "minutes.",
+"s": 79.435,
+"e": 79.98,
+"matched": true
+}
+]

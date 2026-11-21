@@ -1,0 +1,1364 @@
+[
+  {
+    "text": "Poser",
+    "start": 0.01,
+    "end": 0.32,
+    "id": "w0"
+  },
+  {
+    "text": "des",
+    "start": 0.32,
+    "end": 0.44,
+    "id": "w1"
+  },
+  {
+    "text": "une",
+    "start": 0.55,
+    "end": 0.7,
+    "id": "w2"
+  },
+  {
+    "text": "équipe",
+    "start": 0.7,
+    "end": 1.08,
+    "id": "w3"
+  },
+  {
+    "text": "d'e-sport",
+    "start": 1.08,
+    "end": 1.62,
+    "id": "w4"
+  },
+  {
+    "text": "ressemble",
+    "start": 1.81,
+    "end": 2.41,
+    "id": "w5"
+  },
+  {
+    "text": "à",
+    "start": 2.41,
+    "end": 2.53,
+    "id": "w6"
+  },
+  {
+    "text": "un",
+    "start": 2.53,
+    "end": 2.68,
+    "id": "w7"
+  },
+  {
+    "text": "club",
+    "start": 2.68,
+    "end": 3,
+    "id": "w8"
+  },
+  {
+    "text": "de",
+    "start": 3,
+    "end": 3.1,
+    "id": "w9"
+  },
+  {
+    "text": "foot,",
+    "start": 3.16,
+    "end": 3.62,
+    "id": "w10"
+  },
+  {
+    "text": "mais",
+    "start": 3.64,
+    "end": 3.83,
+    "id": "w11"
+  },
+  {
+    "text": "sans",
+    "start": 3.83,
+    "end": 4.01,
+    "id": "w12"
+  },
+  {
+    "text": "les",
+    "start": 4.06,
+    "end": 4.2,
+    "id": "w13"
+  },
+  {
+    "text": "droits",
+    "start": 4.2,
+    "end": 4.56,
+    "id": "w14"
+  },
+  {
+    "text": "télé.",
+    "start": 4.84,
+    "end": 5.49,
+    "id": "w15"
+  },
+  {
+    "text": "Chez",
+    "start": 5.74,
+    "end": 5.8,
+    "id": "w16"
+  },
+  {
+    "text": "trois",
+    "start": 5.84,
+    "end": 6,
+    "id": "w17"
+  },
+  {
+    "text": "équipes",
+    "start": 6.11,
+    "end": 6.49,
+    "id": "w18"
+  },
+  {
+    "text": "françaises",
+    "start": 6.62,
+    "end": 7.12,
+    "id": "w19"
+  },
+  {
+    "text": "interrogées",
+    "start": 7.12,
+    "end": 7.78,
+    "id": "w20"
+  },
+  {
+    "text": "par",
+    "start": 7.78,
+    "end": 7.96,
+    "id": "w21"
+  },
+  {
+    "text": "Next.Ink,",
+    "start": 7.96,
+    "end": 8.66,
+    "id": "w22"
+  },
+  {
+    "text": "le",
+    "start": 8.78,
+    "end": 8.84,
+    "id": "w23"
+  },
+  {
+    "text": "sponsoring",
+    "start": 8.84,
+    "end": 9.44,
+    "id": "w24"
+  },
+  {
+    "text": "pèse",
+    "start": 9.44,
+    "end": 9.68,
+    "id": "w25"
+  },
+  {
+    "text": "entre",
+    "start": 9.68,
+    "end": 10,
+    "id": "w26"
+  },
+  {
+    "text": "80",
+    "start": 10,
+    "end": 10.43,
+    "id": "w27"
+  },
+  {
+    "text": "et",
+    "start": 10.69,
+    "end": 10.8,
+    "id": "w28"
+  },
+  {
+    "text": "100%",
+    "start": 10.96,
+    "end": 11.44,
+    "id": "w29"
+  },
+  {
+    "text": "des",
+    "start": 11.44,
+    "end": 11.61,
+    "id": "w30"
+  },
+  {
+    "text": "recettes.",
+    "start": 11.74,
+    "end": 12.3,
+    "id": "w31"
+  },
+  {
+    "text": "Au",
+    "start": 12.37,
+    "end": 12.47,
+    "id": "w32"
+  },
+  {
+    "text": "niveau",
+    "start": 12.64,
+    "end": 12.8,
+    "id": "w33"
+  },
+  {
+    "text": "mondial,",
+    "start": 12.91,
+    "end": 13.29,
+    "id": "w34"
+  },
+  {
+    "text": "ils",
+    "start": 13.42,
+    "end": 13.5,
+    "id": "w35"
+  },
+  {
+    "text": "représentaient",
+    "start": 13.5,
+    "end": 14.31,
+    "id": "w36"
+  },
+  {
+    "text": "environ",
+    "start": 14.31,
+    "end": 14.72,
+    "id": "w37"
+  },
+  {
+    "text": "63%",
+    "start": 14.72,
+    "end": 15.12,
+    "id": "w38"
+  },
+  {
+    "text": "des",
+    "start": 15.12,
+    "end": 15.28,
+    "id": "w39"
+  },
+  {
+    "text": "revenus",
+    "start": 15.28,
+    "end": 15.66,
+    "id": "w40"
+  },
+  {
+    "text": "en",
+    "start": 15.75,
+    "end": 15.8,
+    "id": "w41"
+  },
+  {
+    "text": "2021,",
+    "start": 16,
+    "end": 16.62,
+    "id": "w42"
+  },
+  {
+    "text": "selon",
+    "start": 16.62,
+    "end": 17.08,
+    "id": "w43"
+  },
+  {
+    "text": "siècle",
+    "start": 17.08,
+    "end": 17.24,
+    "id": "w44"
+  },
+  {
+    "text": "digital.",
+    "start": 17.38,
+    "end": 18.04,
+    "id": "w45"
+  },
+  {
+    "text": "Autrement",
+    "start": 18.26,
+    "end": 18.7,
+    "id": "w46"
+  },
+  {
+    "text": "dit,",
+    "start": 18.7,
+    "end": 18.97,
+    "id": "w47"
+  },
+  {
+    "text": "tout",
+    "start": 19.1,
+    "end": 19.34,
+    "id": "w48"
+  },
+  {
+    "text": "repose",
+    "start": 19.35,
+    "end": 19.66,
+    "id": "w49"
+  },
+  {
+    "text": "sur",
+    "start": 19.85,
+    "end": 20.01,
+    "id": "w50"
+  },
+  {
+    "text": "quelques",
+    "start": 20.01,
+    "end": 20.57,
+    "id": "w51"
+  },
+  {
+    "text": "marques",
+    "start": 20.68,
+    "end": 21.11,
+    "id": "w52"
+  },
+  {
+    "text": "qui",
+    "start": 21.11,
+    "end": 21.33,
+    "id": "w53"
+  },
+  {
+    "text": "peuvent",
+    "start": 21.33,
+    "end": 21.85,
+    "id": "w54"
+  },
+  {
+    "text": "partir",
+    "start": 21.85,
+    "end": 22.29,
+    "id": "w55"
+  },
+  {
+    "text": "à",
+    "start": 22.29,
+    "end": 22.36,
+    "id": "w56"
+  },
+  {
+    "text": "la",
+    "start": 22.36,
+    "end": 22.5,
+    "id": "w57"
+  },
+  {
+    "text": "fin",
+    "start": 22.5,
+    "end": 22.65,
+    "id": "w58"
+  },
+  {
+    "text": "du",
+    "start": 22.74,
+    "end": 22.86,
+    "id": "w59"
+  },
+  {
+    "text": "contrat.",
+    "start": 22.86,
+    "end": 23.72,
+    "id": "w60"
+  },
+  {
+    "text": "Les",
+    "start": 23.73,
+    "end": 23.88,
+    "id": "w61"
+  },
+  {
+    "text": "dépenses,",
+    "start": 24,
+    "end": 24.42,
+    "id": "w62"
+  },
+  {
+    "text": "elles,",
+    "start": 24.42,
+    "end": 24.8,
+    "id": "w63"
+  },
+  {
+    "text": "sont",
+    "start": 24.8,
+    "end": 25.02,
+    "id": "w64"
+  },
+  {
+    "text": "bien",
+    "start": 25.02,
+    "end": 25.24,
+    "id": "w65"
+  },
+  {
+    "text": "réelles.",
+    "start": 25.24,
+    "end": 25.84,
+    "id": "w66"
+  },
+  {
+    "text": "Ça",
+    "start": 25.85,
+    "end": 25.94,
+    "id": "w67"
+  },
+  {
+    "text": "a",
+    "start": 25.94,
+    "end": 25.98,
+    "id": "w68"
+  },
+  {
+    "text": "l'air",
+    "start": 26.04,
+    "end": 26.24,
+    "id": "w69"
+  },
+  {
+    "text": "des",
+    "start": 26.24,
+    "end": 26.28,
+    "id": "w70"
+  },
+  {
+    "text": "joueurs,",
+    "start": 26.39,
+    "end": 26.77,
+    "id": "w71"
+  },
+  {
+    "text": "coachs,",
+    "start": 26.9,
+    "end": 27.2,
+    "id": "w72"
+  },
+  {
+    "text": "voyages,",
+    "start": 27.29,
+    "end": 27.7,
+    "id": "w73"
+  },
+  {
+    "text": "productions",
+    "start": 27.7,
+    "end": 28.25,
+    "id": "w74"
+  },
+  {
+    "text": "de",
+    "start": 28.25,
+    "end": 28.37,
+    "id": "w75"
+  },
+  {
+    "text": "contenus,",
+    "start": 28.37,
+    "end": 28.88,
+    "id": "w76"
+  },
+  {
+    "text": "et",
+    "start": 28.88,
+    "end": 28.94,
+    "id": "w77"
+  },
+  {
+    "text": "les",
+    "start": 29.06,
+    "end": 29.13,
+    "id": "w78"
+  },
+  {
+    "text": "gars",
+    "start": 29.13,
+    "end": 29.31,
+    "id": "w79"
+  },
+  {
+    "text": "en",
+    "start": 29.31,
+    "end": 29.48,
+    "id": "w80"
+  },
+  {
+    "text": "tournoi",
+    "start": 29.48,
+    "end": 29.92,
+    "id": "w81"
+  },
+  {
+    "text": "ne",
+    "start": 29.93,
+    "end": 30.02,
+    "id": "w82"
+  },
+  {
+    "text": "sont",
+    "start": 30.2,
+    "end": 30.23,
+    "id": "w83"
+  },
+  {
+    "text": "pas",
+    "start": 30.23,
+    "end": 30.36,
+    "id": "w84"
+  },
+  {
+    "text": "un",
+    "start": 30.47,
+    "end": 30.48,
+    "id": "w85"
+  },
+  {
+    "text": "filet",
+    "start": 30.48,
+    "end": 30.73,
+    "id": "w86"
+  },
+  {
+    "text": "de",
+    "start": 30.73,
+    "end": 30.83,
+    "id": "w87"
+  },
+  {
+    "text": "sécurité,",
+    "start": 30.83,
+    "end": 31.28,
+    "id": "w88"
+  },
+  {
+    "text": "ils",
+    "start": 31.37,
+    "end": 31.5,
+    "id": "w89"
+  },
+  {
+    "text": "reviennent",
+    "start": 31.5,
+    "end": 32.01,
+    "id": "w90"
+  },
+  {
+    "text": "surtout",
+    "start": 32.01,
+    "end": 32.33,
+    "id": "w91"
+  },
+  {
+    "text": "aux",
+    "start": 32.45,
+    "end": 32.49,
+    "id": "w92"
+  },
+  {
+    "text": "joueurs,",
+    "start": 32.56,
+    "end": 32.98,
+    "id": "w93"
+  },
+  {
+    "text": "pas",
+    "start": 32.98,
+    "end": 33.02,
+    "id": "w94"
+  },
+  {
+    "text": "à",
+    "start": 33.14,
+    "end": 33.18,
+    "id": "w95"
+  },
+  {
+    "text": "l'organisation.",
+    "start": 33.18,
+    "end": 34.04,
+    "id": "w96"
+  },
+  {
+    "text": "Il",
+    "start": 34.05,
+    "end": 34.15,
+    "id": "w97"
+  },
+  {
+    "text": "y",
+    "start": 34.15,
+    "end": 34.2,
+    "id": "w98"
+  },
+  {
+    "text": "a",
+    "start": 34.2,
+    "end": 34.32,
+    "id": "w99"
+  },
+  {
+    "text": "aussi",
+    "start": 34.32,
+    "end": 34.48,
+    "id": "w100"
+  },
+  {
+    "text": "le",
+    "start": 34.59,
+    "end": 34.64,
+    "id": "w101"
+  },
+  {
+    "text": "ticket",
+    "start": 34.64,
+    "end": 34.97,
+    "id": "w102"
+  },
+  {
+    "text": "d'entrée",
+    "start": 35.03,
+    "end": 35.4,
+    "id": "w103"
+  },
+  {
+    "text": "dans",
+    "start": 35.49,
+    "end": 35.65,
+    "id": "w104"
+  },
+  {
+    "text": "les",
+    "start": 35.65,
+    "end": 35.66,
+    "id": "w105"
+  },
+  {
+    "text": "ligues.",
+    "start": 35.85,
+    "end": 36.4,
+    "id": "w106"
+  },
+  {
+    "text": "En",
+    "start": 36.41,
+    "end": 36.5,
+    "id": "w107"
+  },
+  {
+    "text": "2017,",
+    "start": 36.68,
+    "end": 37.23,
+    "id": "w108"
+  },
+  {
+    "text": "Riot",
+    "start": 37.23,
+    "end": 37.33,
+    "id": "w109"
+  },
+  {
+    "text": "demandait",
+    "start": 37.46,
+    "end": 37.9,
+    "id": "w110"
+  },
+  {
+    "text": "au",
+    "start": 37.9,
+    "end": 38,
+    "id": "w111"
+  },
+  {
+    "text": "moins",
+    "start": 38,
+    "end": 38.26,
+    "id": "w112"
+  },
+  {
+    "text": "10",
+    "start": 38.26,
+    "end": 38.57,
+    "id": "w113"
+  },
+  {
+    "text": "millions",
+    "start": 38.57,
+    "end": 38.93,
+    "id": "w114"
+  },
+  {
+    "text": "de",
+    "start": 39.04,
+    "end": 39.09,
+    "id": "w115"
+  },
+  {
+    "text": "dollars",
+    "start": 39.09,
+    "end": 39.46,
+    "id": "w116"
+  },
+  {
+    "text": "pour",
+    "start": 39.46,
+    "end": 39.67,
+    "id": "w117"
+  },
+  {
+    "text": "rejoindre",
+    "start": 39.67,
+    "end": 40.14,
+    "id": "w118"
+  },
+  {
+    "text": "sa",
+    "start": 40.14,
+    "end": 40.24,
+    "id": "w119"
+  },
+  {
+    "text": "ligue",
+    "start": 40.24,
+    "end": 40.49,
+    "id": "w120"
+  },
+  {
+    "text": "nord-américaine.",
+    "start": 40.49,
+    "end": 41.44,
+    "id": "w121"
+  },
+  {
+    "text": "Résultat,",
+    "start": 41.45,
+    "end": 42.08,
+    "id": "w122"
+  },
+  {
+    "text": "la",
+    "start": 42.08,
+    "end": 42.21,
+    "id": "w123"
+  },
+  {
+    "text": "rentabilité",
+    "start": 42.21,
+    "end": 42.92,
+    "id": "w124"
+  },
+  {
+    "text": "n'est",
+    "start": 42.92,
+    "end": 43.06,
+    "id": "w125"
+  },
+  {
+    "text": "pas",
+    "start": 43.26,
+    "end": 43.42,
+    "id": "w126"
+  },
+  {
+    "text": "démontrée.",
+    "start": 43.43,
+    "end": 44.28,
+    "id": "w127"
+  },
+  {
+    "text": "De",
+    "start": 44.29,
+    "end": 44.37,
+    "id": "w128"
+  },
+  {
+    "text": "nombreuses",
+    "start": 44.56,
+    "end": 44.85,
+    "id": "w129"
+  },
+  {
+    "text": "équipes",
+    "start": 44.85,
+    "end": 45.18,
+    "id": "w130"
+  },
+  {
+    "text": "perdent",
+    "start": 45.18,
+    "end": 45.51,
+    "id": "w131"
+  },
+  {
+    "text": "encore",
+    "start": 45.51,
+    "end": 45.8,
+    "id": "w132"
+  },
+  {
+    "text": "de",
+    "start": 45.8,
+    "end": 45.89,
+    "id": "w133"
+  },
+  {
+    "text": "l'argent,",
+    "start": 45.89,
+    "end": 46.35,
+    "id": "w134"
+  },
+  {
+    "text": "selon",
+    "start": 46.35,
+    "end": 46.59,
+    "id": "w135"
+  },
+  {
+    "text": "France",
+    "start": 46.59,
+    "end": 46.81,
+    "id": "w136"
+  },
+  {
+    "text": "épargne.",
+    "start": 46.92,
+    "end": 47.38,
+    "id": "w137"
+  },
+  {
+    "text": "Les",
+    "start": 47.38,
+    "end": 47.72,
+    "id": "w138"
+  },
+  {
+    "text": "valorisations",
+    "start": 47.72,
+    "end": 48.34,
+    "id": "w139"
+  },
+  {
+    "text": "atteindraient",
+    "start": 48.34,
+    "end": 49.06,
+    "id": "w140"
+  },
+  {
+    "text": "pourtant",
+    "start": 49.06,
+    "end": 49.51,
+    "id": "w141"
+  },
+  {
+    "text": "environ",
+    "start": 49.51,
+    "end": 49.85,
+    "id": "w142"
+  },
+  {
+    "text": "13",
+    "start": 49.97,
+    "end": 50.24,
+    "id": "w143"
+  },
+  {
+    "text": "fois",
+    "start": 50.24,
+    "end": 50.46,
+    "id": "w144"
+  },
+  {
+    "text": "le",
+    "start": 50.46,
+    "end": 50.54,
+    "id": "w145"
+  },
+  {
+    "text": "chiffre",
+    "start": 50.66,
+    "end": 50.92,
+    "id": "w146"
+  },
+  {
+    "text": "d'affaire,",
+    "start": 51.01,
+    "end": 51.64,
+    "id": "w147"
+  },
+  {
+    "text": "d'après",
+    "start": 51.64,
+    "end": 51.83,
+    "id": "w148"
+  },
+  {
+    "text": "Mercer",
+    "start": 51.83,
+    "end": 52.02,
+    "id": "w149"
+  },
+  {
+    "text": "Capital.",
+    "start": 52.02,
+    "end": 52.57,
+    "id": "w150"
+  },
+  {
+    "text": "On",
+    "start": 52.7,
+    "end": 52.77,
+    "id": "w151"
+  },
+  {
+    "text": "paie",
+    "start": 52.77,
+    "end": 53,
+    "id": "w152"
+  },
+  {
+    "text": "donc",
+    "start": 53.09,
+    "end": 53.26,
+    "id": "w153"
+  },
+  {
+    "text": "la",
+    "start": 53.26,
+    "end": 53.45,
+    "id": "w154"
+  },
+  {
+    "text": "promesse",
+    "start": 53.45,
+    "end": 53.88,
+    "id": "w155"
+  },
+  {
+    "text": "de",
+    "start": 53.88,
+    "end": 54,
+    "id": "w156"
+  },
+  {
+    "text": "la",
+    "start": 54,
+    "end": 54.05,
+    "id": "w157"
+  },
+  {
+    "text": "croissance.",
+    "start": 54.17,
+    "end": 54.94,
+    "id": "w158"
+  },
+  {
+    "text": "Les",
+    "start": 54.94,
+    "end": 55.11,
+    "id": "w159"
+  },
+  {
+    "text": "meilleures",
+    "start": 55.28,
+    "end": 55.76,
+    "id": "w160"
+  },
+  {
+    "text": "organisations",
+    "start": 55.76,
+    "end": 56.51,
+    "id": "w161"
+  },
+  {
+    "text": "diversifient.",
+    "start": 56.96,
+    "end": 57.61,
+    "id": "w162"
+  },
+  {
+    "text": "Produits",
+    "start": 57.74,
+    "end": 58.04,
+    "id": "w163"
+  },
+  {
+    "text": "dérivés,",
+    "start": 58.13,
+    "end": 58.63,
+    "id": "w164"
+  },
+  {
+    "text": "contenus,",
+    "start": 58.63,
+    "end": 59.09,
+    "id": "w165"
+  },
+  {
+    "text": "plusieurs",
+    "start": 59.21,
+    "end": 59.71,
+    "id": "w166"
+  },
+  {
+    "text": "sponsors,",
+    "start": 59.71,
+    "end": 60.28,
+    "id": "w167"
+  },
+  {
+    "text": "revenus",
+    "start": 60.32,
+    "end": 60.67,
+    "id": "w168"
+  },
+  {
+    "text": "partagés",
+    "start": 60.67,
+    "end": 61.12,
+    "id": "w169"
+  },
+  {
+    "text": "avec",
+    "start": 61.12,
+    "end": 61.44,
+    "id": "w170"
+  },
+  {
+    "text": "l'éliteur.",
+    "start": 61.45,
+    "end": 62.37,
+    "id": "w171"
+  },
+  {
+    "text": "Poser",
+    "start": 62.48,
+    "end": 62.65,
+    "id": "w172"
+  },
+  {
+    "text": "des",
+    "start": 62.65,
+    "end": 62.78,
+    "id": "w173"
+  },
+  {
+    "text": "une",
+    "start": 62.78,
+    "end": 62.91,
+    "id": "w174"
+  },
+  {
+    "text": "équipe",
+    "start": 62.91,
+    "end": 63.06,
+    "id": "w175"
+  },
+  {
+    "text": "d'esports,",
+    "start": 63.17,
+    "end": 63.63,
+    "id": "w176"
+  },
+  {
+    "text": "c'est",
+    "start": 63.63,
+    "end": 63.85,
+    "id": "w177"
+  },
+  {
+    "text": "financer",
+    "start": 63.97,
+    "end": 64.36,
+    "id": "w178"
+  },
+  {
+    "text": "une",
+    "start": 64.36,
+    "end": 64.53,
+    "id": "w179"
+  },
+  {
+    "text": "audience,",
+    "start": 64.53,
+    "end": 65.09,
+    "id": "w180"
+  },
+  {
+    "text": "en",
+    "start": 65.09,
+    "end": 65.2,
+    "id": "w181"
+  },
+  {
+    "text": "espérant",
+    "start": 65.2,
+    "end": 65.68,
+    "id": "w182"
+  },
+  {
+    "text": "que",
+    "start": 65.69,
+    "end": 65.8,
+    "id": "w183"
+  },
+  {
+    "text": "les",
+    "start": 65.8,
+    "end": 65.97,
+    "id": "w184"
+  },
+  {
+    "text": "marques",
+    "start": 65.97,
+    "end": 66.24,
+    "id": "w185"
+  },
+  {
+    "text": "continuent",
+    "start": 66.24,
+    "end": 66.61,
+    "id": "w186"
+  },
+  {
+    "text": "de",
+    "start": 66.74,
+    "end": 66.76,
+    "id": "w187"
+  },
+  {
+    "text": "payer",
+    "start": 66.76,
+    "end": 66.98,
+    "id": "w188"
+  },
+  {
+    "text": "pour",
+    "start": 66.98,
+    "end": 67.15,
+    "id": "w189"
+  },
+  {
+    "text": "elles.",
+    "start": 67.15,
+    "end": 67.56,
+    "id": "w190"
+  },
+  {
+    "text": "Un",
+    "start": 67.56,
+    "end": 67.68,
+    "id": "w191"
+  },
+  {
+    "text": "public",
+    "start": 67.68,
+    "end": 68.04,
+    "id": "w192"
+  },
+  {
+    "text": "passionné,",
+    "start": 68.04,
+    "end": 68.7,
+    "id": "w193"
+  },
+  {
+    "text": "des",
+    "start": 68.7,
+    "end": 68.78,
+    "id": "w194"
+  },
+  {
+    "text": "revenus",
+    "start": 68.82,
+    "end": 69.32,
+    "id": "w195"
+  },
+  {
+    "text": "fragiles,",
+    "start": 69.32,
+    "end": 70,
+    "id": "w196"
+  },
+  {
+    "text": "et",
+    "start": 70.01,
+    "end": 70.09,
+    "id": "w197"
+  },
+  {
+    "text": "des",
+    "start": 70.09,
+    "end": 70.29,
+    "id": "w198"
+  },
+  {
+    "text": "coûts",
+    "start": 70.29,
+    "end": 70.44,
+    "id": "w199"
+  },
+  {
+    "text": "qui",
+    "start": 70.55,
+    "end": 70.6,
+    "id": "w200"
+  },
+  {
+    "text": "ne",
+    "start": 70.6,
+    "end": 70.69,
+    "id": "w201"
+  },
+  {
+    "text": "se",
+    "start": 70.69,
+    "end": 70.78,
+    "id": "w202"
+  },
+  {
+    "text": "mettent",
+    "start": 70.78,
+    "end": 71.11,
+    "id": "w203"
+  },
+  {
+    "text": "jamais",
+    "start": 71.11,
+    "end": 71.36,
+    "id": "w204"
+  },
+  {
+    "text": "en",
+    "start": 71.45,
+    "end": 71.49,
+    "id": "w205"
+  },
+  {
+    "text": "pause.",
+    "start": 71.49,
+    "end": 71.96,
+    "id": "w206"
+  },
+  {
+    "text": "Dites-moi",
+    "start": 71.97,
+    "end": 72.4,
+    "id": "w207"
+  },
+  {
+    "text": "en",
+    "start": 72.51,
+    "end": 72.62,
+    "id": "w208"
+  },
+  {
+    "text": "commentaire,",
+    "start": 72.62,
+    "end": 73.32,
+    "id": "w209"
+  },
+  {
+    "text": "posséderiez-vous",
+    "start": 73.41,
+    "end": 74.37,
+    "id": "w210"
+  },
+  {
+    "text": "une",
+    "start": 74.37,
+    "end": 74.53,
+    "id": "w211"
+  },
+  {
+    "text": "équipe",
+    "start": 74.6,
+    "end": 74.87,
+    "id": "w212"
+  },
+  {
+    "text": "d'esports",
+    "start": 74.95,
+    "end": 75.42,
+    "id": "w213"
+  },
+  {
+    "text": "ou",
+    "start": 75.42,
+    "end": 75.6,
+    "id": "w214"
+  },
+  {
+    "text": "une",
+    "start": 75.6,
+    "end": 75.75,
+    "id": "w215"
+  },
+  {
+    "text": "crash?",
+    "start": 75.75,
+    "end": 76.36,
+    "id": "w216"
+  },
+  {
+    "text": "Abonnez-vous",
+    "start": 76.36,
+    "end": 76.76,
+    "id": "w217"
+  },
+  {
+    "text": "à",
+    "start": 76.77,
+    "end": 76.81,
+    "id": "w218"
+  },
+  {
+    "text": "Descript",
+    "start": 76.97,
+    "end": 77.2,
+    "id": "w219"
+  },
+  {
+    "text": "Business",
+    "start": 77.31,
+    "end": 77.66,
+    "id": "w220"
+  },
+  {
+    "text": "pour",
+    "start": 77.66,
+    "end": 77.87,
+    "id": "w221"
+  },
+  {
+    "text": "comprendre",
+    "start": 77.87,
+    "end": 78.38,
+    "id": "w222"
+  },
+  {
+    "text": "l'économie",
+    "start": 78.45,
+    "end": 78.91,
+    "id": "w223"
+  },
+  {
+    "text": "en",
+    "start": 78.91,
+    "end": 79.01,
+    "id": "w224"
+  },
+  {
+    "text": "quelques",
+    "start": 79.01,
+    "end": 79.44,
+    "id": "w225"
+  },
+  {
+    "text": "minutes.",
+    "start": 79.44,
+    "end": 79.88,
+    "id": "w226"
+  }
+]
