@@ -49,3 +49,7 @@ Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.
 ## Préférences utilisateur (Shorts)
 - Consigne du 2026-11-18 : l'utilisateur donne désormais 2 sujets de Short à la fois ; livrer les 2 rendus d'un coup (scripts, voix, rendus lancés en parallèle quand c'est possible), chacun avec titre, 5 titres alternatifs, description et tags.
 - Format de métadonnées : voir shorts/porte-conteneurs/metadata.md.
+
+## Rendus : ne jamais s'arrêter
+- Ne jamais interrompre ni suspendre le processus de rendu pour poser une question : si un rendu échoue ou atteint la limite de temps, le relancer immédiatement et continuer jusqu'à livrer les MP4.
+- Lancer les rendus un par un (pas en parallèle : le CPU est partagé et chaque rendu dépasse la limite de 2 h). Toujours via run_in_background (un nohup/& est annulé quand le shell parent s'arrête).
