@@ -54,7 +54,8 @@ Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.
 - Ne jamais interrompre ni suspendre le processus de rendu pour poser une question : si un rendu échoue ou atteint la limite de temps, le relancer immédiatement et continuer jusqu'à livrer les MP4.
 - Lancer les rendus un par un (pas en parallèle : le CPU est partagé et chaque rendu dépasse la limite de 2 h). Toujours via run_in_background (un nohup/& est annulé quand le shell parent s'arrête).
 
-## Vidéos longues : choix du sujet
-- L'utilisateur fournit un document de sujets (stock). Pour chaque vidéo longue, piocher dans ce document le sujet au plus fort potentiel de viralité, le lui annoncer avec une courte justification, puis commencer (script) sans autre question.
-- Marquer le sujet comme utilisé (fichier de suivi dans le dépôt, ex. `sujets/stock.md`) pour ne pas le reprendre.
-- Prévenir l'utilisateur dès que le stock est presque épuisé (par exemple quand il reste 3 sujets ou moins) et à chaque fois qu'il baisse sous ce seuil, pour qu'il envoie de nouveaux sujets.
+## Shorts : choix des sujets dans le stock
+- Le document de sujets (`sujets/idees-shorts.md`, 65 idées) est un stock de sujets de SHORTS, pas de vidéos longues. Les vidéos longues restent à sujet donné par l'utilisateur.
+- Pour chaque lot de Shorts, piocher 2 sujets dans ce stock, ceux au plus fort potentiel de viralité, les annoncer avec une courte justification, puis commencer.
+- Marquer les sujets utilisés dans `sujets/utilises.md` pour ne pas les reprendre.
+- Prévenir l'utilisateur quand il reste 3 sujets ou moins (et à chaque lot suivant tant que le stock reste sous ce seuil).
