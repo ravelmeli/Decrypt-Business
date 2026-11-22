@@ -1,0 +1,1661 @@
+[
+{
+"line": 0,
+"t": "Ce",
+"s": 0.165,
+"e": 0.285,
+"matched": true
+},
+{
+"line": 0,
+"t": "bâtiment",
+"s": 0.285,
+"e": 0.872,
+"matched": true
+},
+{
+"line": 0,
+"t": "ne",
+"s": 0.872,
+"e": 1.12,
+"matched": true
+},
+{
+"line": 0,
+"t": "fabrique",
+"s": 1.12,
+"e": 1.735,
+"matched": true
+},
+{
+"line": 0,
+"t": "rien,",
+"s": 1.735,
+"e": 2.44,
+"matched": true
+},
+{
+"line": 0,
+"t": "et",
+"s": 2.44,
+"e": 2.56,
+"matched": true
+},
+{
+"line": 0,
+"t": "il",
+"s": 2.56,
+"e": 2.68,
+"matched": true
+},
+{
+"line": 0,
+"t": "consomme",
+"s": 2.68,
+"e": 3.125,
+"matched": true
+},
+{
+"line": 0,
+"t": "plus",
+"s": 3.125,
+"e": 3.34,
+"matched": true
+},
+{
+"line": 0,
+"t": "d'électricité",
+"s": 3.34,
+"e": 3.97,
+"matched": true
+},
+{
+"line": 0,
+"t": "que",
+"s": 3.97,
+"e": 4.18,
+"matched": true
+},
+{
+"line": 0,
+"t": "certains",
+"s": 4.18,
+"e": 4.75,
+"matched": true
+},
+{
+"line": 0,
+"t": "pays.",
+"s": 4.75,
+"e": 5.27,
+"matched": true
+},
+{
+"line": 1,
+"t": "Selon",
+"s": 5.37,
+"e": 5.49,
+"matched": true
+},
+{
+"line": 1,
+"t": "l'Agence",
+"s": 5.49,
+"e": 5.884,
+"matched": true
+},
+{
+"line": 1,
+"t": "internationale",
+"s": 5.884,
+"e": 6.669,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 6.669,
+"e": 6.789,
+"matched": true
+},
+{
+"line": 1,
+"t": "l'énergie,",
+"s": 6.789,
+"e": 7.354,
+"matched": true
+},
+{
+"line": 1,
+"t": "les",
+"s": 7.354,
+"e": 7.705,
+"matched": true
+},
+{
+"line": 1,
+"t": "data",
+"s": 7.705,
+"e": 8.015,
+"matched": false
+},
+{
+"line": 1,
+"t": "centers",
+"s": 8.015,
+"e": 8.185,
+"matched": false
+},
+{
+"line": 1,
+"t": "ont",
+"s": 8.185,
+"e": 8.455,
+"matched": true
+},
+{
+"line": 1,
+"t": "consommé",
+"s": 8.455,
+"e": 8.754,
+"matched": true
+},
+{
+"line": 1,
+"t": "environ",
+"s": 8.754,
+"e": 9.39,
+"matched": true
+},
+{
+"line": 1,
+"t": "415",
+"s": 9.39,
+"e": 9.915,
+"matched": true
+},
+{
+"line": 1,
+"t": "térawattheures",
+"s": 9.915,
+"e": 10.586,
+"matched": false
+},
+{
+"line": 1,
+"t": "en",
+"s": 10.586,
+"e": 10.725,
+"matched": true
+},
+{
+"line": 1,
+"t": "2024,",
+"s": 10.725,
+"e": 11.52,
+"matched": true
+},
+{
+"line": 1,
+"t": "soit",
+"s": 11.52,
+"e": 11.97,
+"matched": true
+},
+{
+"line": 1,
+"t": "près",
+"s": 11.97,
+"e": 12.15,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 12.15,
+"e": 12.298,
+"matched": true
+},
+{
+"line": 1,
+"t": "1,5 %",
+"s": 12.298,
+"e": 12.892,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 12.892,
+"e": 13.13,
+"matched": true
+},
+{
+"line": 1,
+"t": "l'électricité",
+"s": 13.13,
+"e": 13.93,
+"matched": true
+},
+{
+"line": 1,
+"t": "mondiale.",
+"s": 13.93,
+"e": 14.695,
+"matched": true
+},
+{
+"line": 2,
+"t": "Cette",
+"s": 15.485,
+"e": 15.605,
+"matched": false
+},
+{
+"line": 2,
+"t": "consommation",
+"s": 15.605,
+"e": 15.725,
+"matched": false
+},
+{
+"line": 2,
+"t": "pourrait",
+"s": 15.725,
+"e": 15.87,
+"matched": true
+},
+{
+"line": 2,
+"t": "plus",
+"s": 15.87,
+"e": 16.23,
+"matched": true
+},
+{
+"line": 2,
+"t": "que",
+"s": 16.23,
+"e": 16.42,
+"matched": true
+},
+{
+"line": 2,
+"t": "doubler",
+"s": 16.42,
+"e": 16.615,
+"matched": true
+},
+{
+"line": 2,
+"t": "d'ici",
+"s": 16.615,
+"e": 17.039,
+"matched": true
+},
+{
+"line": 2,
+"t": "2030,",
+"s": 17.039,
+"e": 17.865,
+"matched": true
+},
+{
+"line": 2,
+"t": "autour",
+"s": 17.865,
+"e": 18.446,
+"matched": true
+},
+{
+"line": 2,
+"t": "de",
+"s": 18.446,
+"e": 18.73,
+"matched": true
+},
+{
+"line": 2,
+"t": "945",
+"s": 18.73,
+"e": 19.19,
+"matched": true
+},
+{
+"line": 2,
+"t": "térawattheures,",
+"s": 19.19,
+"e": 19.78,
+"matched": false
+},
+{
+"line": 2,
+"t": "tirée",
+"s": 19.78,
+"e": 20.275,
+"matched": false
+},
+{
+"line": 2,
+"t": "par",
+"s": 20.275,
+"e": 20.455,
+"matched": true
+},
+{
+"line": 2,
+"t": "l'intelligence",
+"s": 20.455,
+"e": 21.06,
+"matched": true
+},
+{
+"line": 2,
+"t": "artificielle.",
+"s": 21.06,
+"e": 21.555,
+"matched": true
+},
+{
+"line": 3,
+"t": "Posséder",
+"s": 22.735,
+"e": 22.855,
+"matched": false
+},
+{
+"line": 3,
+"t": "un",
+"s": 22.855,
+"e": 22.975,
+"matched": false
+},
+{
+"line": 3,
+"t": "data",
+"s": 22.975,
+"e": 23.095,
+"matched": false
+},
+{
+"line": 3,
+"t": "center,",
+"s": 23.095,
+"e": 23.215,
+"matched": false
+},
+{
+"line": 3,
+"t": "c'est",
+"s": 23.215,
+"e": 23.335,
+"matched": true
+},
+{
+"line": 3,
+"t": "d'abord",
+"s": 23.335,
+"e": 23.67,
+"matched": true
+},
+{
+"line": 3,
+"t": "poser",
+"s": 23.67,
+"e": 24.13,
+"matched": true
+},
+{
+"line": 3,
+"t": "des",
+"s": 24.13,
+"e": 24.304,
+"matched": true
+},
+{
+"line": 3,
+"t": "milliards",
+"s": 24.304,
+"e": 25.0,
+"matched": true
+},
+{
+"line": 3,
+"t": "sur",
+"s": 25.0,
+"e": 25.276,
+"matched": true
+},
+{
+"line": 3,
+"t": "la",
+"s": 25.276,
+"e": 25.475,
+"matched": true
+},
+{
+"line": 3,
+"t": "table",
+"s": 25.475,
+"e": 25.945,
+"matched": true
+},
+{
+"line": 3,
+"t": "avant",
+"s": 25.945,
+"e": 26.28,
+"matched": true
+},
+{
+"line": 3,
+"t": "le",
+"s": 26.28,
+"e": 26.725,
+"matched": true
+},
+{
+"line": 3,
+"t": "premier",
+"s": 26.725,
+"e": 26.95,
+"matched": true
+},
+{
+"line": 3,
+"t": "client.",
+"s": 26.95,
+"e": 27.64,
+"matched": true
+},
+{
+"line": 4,
+"t": "Selon",
+"s": 27.74,
+"e": 27.89,
+"matched": true
+},
+{
+"line": 4,
+"t": "JLL,",
+"s": 27.89,
+"e": 28.15,
+"matched": true
+},
+{
+"line": 4,
+"t": "la",
+"s": 28.15,
+"e": 28.27,
+"matched": true
+},
+{
+"line": 4,
+"t": "construction",
+"s": 28.27,
+"e": 28.745,
+"matched": true
+},
+{
+"line": 4,
+"t": "coûtait",
+"s": 28.745,
+"e": 29.3,
+"matched": false
+},
+{
+"line": 4,
+"t": "en",
+"s": 29.3,
+"e": 29.42,
+"matched": true
+},
+{
+"line": 4,
+"t": "moyenne",
+"s": 29.42,
+"e": 29.963,
+"matched": true
+},
+{
+"line": 4,
+"t": "environ",
+"s": 29.963,
+"e": 30.373,
+"matched": true
+},
+{
+"line": 4,
+"t": "10,7",
+"s": 30.373,
+"e": 31.017,
+"matched": true
+},
+{
+"line": 4,
+"t": "millions",
+"s": 31.017,
+"e": 31.375,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 31.375,
+"e": 31.602,
+"matched": true
+},
+{
+"line": 4,
+"t": "dollars",
+"s": 31.602,
+"e": 32.05,
+"matched": true
+},
+{
+"line": 4,
+"t": "par",
+"s": 32.05,
+"e": 32.325,
+"matched": true
+},
+{
+"line": 4,
+"t": "mégawatt",
+"s": 32.325,
+"e": 32.733,
+"matched": false
+},
+{
+"line": 4,
+"t": "en",
+"s": 32.733,
+"e": 32.86,
+"matched": true
+},
+{
+"line": 4,
+"t": "2025.",
+"s": 32.86,
+"e": 33.545,
+"matched": true
+},
+{
+"line": 4,
+"t": "Et",
+"s": 33.545,
+"e": 33.665,
+"matched": true
+},
+{
+"line": 4,
+"t": "cela",
+"s": 33.665,
+"e": 33.844,
+"matched": true
+},
+{
+"line": 4,
+"t": "ne",
+"s": 33.844,
+"e": 33.964,
+"matched": true
+},
+{
+"line": 4,
+"t": "couvre",
+"s": 33.964,
+"e": 34.345,
+"matched": true
+},
+{
+"line": 4,
+"t": "que",
+"s": 34.345,
+"e": 34.465,
+"matched": true
+},
+{
+"line": 4,
+"t": "le",
+"s": 34.465,
+"e": 34.585,
+"matched": true
+},
+{
+"line": 4,
+"t": "bâtiment.",
+"s": 34.585,
+"e": 35.395,
+"matched": true
+},
+{
+"line": 5,
+"t": "Les",
+"s": 36.295,
+"e": 36.415,
+"matched": false
+},
+{
+"line": 5,
+"t": "serveurs",
+"s": 36.415,
+"e": 36.535,
+"matched": false
+},
+{
+"line": 5,
+"t": "sont",
+"s": 36.535,
+"e": 36.655,
+"matched": true
+},
+{
+"line": 5,
+"t": "à",
+"s": 36.655,
+"e": 36.775,
+"matched": true
+},
+{
+"line": 5,
+"t": "la",
+"s": 36.775,
+"e": 36.895,
+"matched": true
+},
+{
+"line": 5,
+"t": "charge",
+"s": 36.895,
+"e": 37.03,
+"matched": true
+},
+{
+"line": 5,
+"t": "des",
+"s": 37.03,
+"e": 37.33,
+"matched": true
+},
+{
+"line": 5,
+"t": "clients,",
+"s": 37.33,
+"e": 37.763,
+"matched": true
+},
+{
+"line": 5,
+"t": "et",
+"s": 37.763,
+"e": 37.92,
+"matched": true
+},
+{
+"line": 5,
+"t": "pour",
+"s": 37.92,
+"e": 38.17,
+"matched": true
+},
+{
+"line": 5,
+"t": "l'IA",
+"s": 38.17,
+"e": 38.4,
+"matched": true
+},
+{
+"line": 5,
+"t": "ils",
+"s": 38.4,
+"e": 38.71,
+"matched": true
+},
+{
+"line": 5,
+"t": "peuvent",
+"s": 38.71,
+"e": 39.14,
+"matched": true
+},
+{
+"line": 5,
+"t": "coûter",
+"s": 39.14,
+"e": 39.42,
+"matched": true
+},
+{
+"line": 5,
+"t": "jusqu'à",
+"s": 39.42,
+"e": 40.05,
+"matched": true
+},
+{
+"line": 5,
+"t": "25",
+"s": 40.05,
+"e": 40.212,
+"matched": true
+},
+{
+"line": 5,
+"t": "millions",
+"s": 40.212,
+"e": 40.53,
+"matched": true
+},
+{
+"line": 5,
+"t": "de",
+"s": 40.53,
+"e": 40.719,
+"matched": true
+},
+{
+"line": 5,
+"t": "dollars",
+"s": 40.719,
+"e": 40.97,
+"matched": true
+},
+{
+"line": 5,
+"t": "par",
+"s": 40.97,
+"e": 41.5,
+"matched": true
+},
+{
+"line": 5,
+"t": "mégawatt.",
+"s": 41.5,
+"e": 41.8,
+"matched": false
+},
+{
+"line": 6,
+"t": "Ensuite",
+"s": 42.81,
+"e": 42.93,
+"matched": false
+},
+{
+"line": 6,
+"t": "vient",
+"s": 42.93,
+"e": 43.14,
+"matched": true
+},
+{
+"line": 6,
+"t": "la",
+"s": 43.14,
+"e": 43.295,
+"matched": true
+},
+{
+"line": 6,
+"t": "facture",
+"s": 43.295,
+"e": 43.715,
+"matched": true
+},
+{
+"line": 6,
+"t": "qui",
+"s": 43.715,
+"e": 43.94,
+"matched": true
+},
+{
+"line": 6,
+"t": "ne",
+"s": 43.94,
+"e": 44.18,
+"matched": true
+},
+{
+"line": 6,
+"t": "s'arrête",
+"s": 44.18,
+"e": 44.689,
+"matched": true
+},
+{
+"line": 6,
+"t": "jamais",
+"s": 44.689,
+"e": 45.005,
+"matched": true
+},
+{
+"line": 6,
+"t": ":",
+"s": 45.005,
+"e": 45.235,
+"matched": false
+},
+{
+"line": 6,
+"t": "l'électricité.",
+"s": 45.235,
+"e": 46.33,
+"matched": true
+},
+{
+"line": 7,
+"t": "Une",
+"s": 47.09,
+"e": 47.21,
+"matched": false
+},
+{
+"line": 7,
+"t": "partie",
+"s": 47.21,
+"e": 47.33,
+"matched": false
+},
+{
+"line": 7,
+"t": "sert",
+"s": 47.33,
+"e": 47.45,
+"matched": true
+},
+{
+"line": 7,
+"t": "à",
+"s": 47.45,
+"e": 47.57,
+"matched": true
+},
+{
+"line": 7,
+"t": "refroidir",
+"s": 47.57,
+"e": 47.955,
+"matched": true
+},
+{
+"line": 7,
+"t": "les",
+"s": 47.955,
+"e": 48.15,
+"matched": true
+},
+{
+"line": 7,
+"t": "machines.",
+"s": 48.15,
+"e": 48.956,
+"matched": true
+},
+{
+"line": 7,
+"t": "Selon",
+"s": 48.956,
+"e": 49.09,
+"matched": true
+},
+{
+"line": 7,
+"t": "l'Agence,",
+"s": 49.09,
+"e": 49.715,
+"matched": true
+},
+{
+"line": 7,
+"t": "le",
+"s": 49.715,
+"e": 49.835,
+"matched": true
+},
+{
+"line": 7,
+"t": "refroidissement",
+"s": 49.835,
+"e": 50.67,
+"matched": true
+},
+{
+"line": 7,
+"t": "pèse",
+"s": 50.67,
+"e": 51.09,
+"matched": true
+},
+{
+"line": 7,
+"t": "environ",
+"s": 51.09,
+"e": 51.38,
+"matched": true
+},
+{
+"line": 7,
+"t": "7 %",
+"s": 51.38,
+"e": 51.74,
+"matched": true
+},
+{
+"line": 7,
+"t": "de",
+"s": 51.74,
+"e": 51.86,
+"matched": true
+},
+{
+"line": 7,
+"t": "la",
+"s": 51.86,
+"e": 51.98,
+"matched": true
+},
+{
+"line": 7,
+"t": "consommation",
+"s": 51.98,
+"e": 52.42,
+"matched": true
+},
+{
+"line": 7,
+"t": "d'un",
+"s": 52.42,
+"e": 52.65,
+"matched": true
+},
+{
+"line": 7,
+"t": "centre",
+"s": 52.65,
+"e": 53.295,
+"matched": true
+},
+{
+"line": 7,
+"t": "très",
+"s": 53.295,
+"e": 53.415,
+"matched": true
+},
+{
+"line": 7,
+"t": "efficace,",
+"s": 53.415,
+"e": 53.855,
+"matched": true
+},
+{
+"line": 7,
+"t": "et",
+"s": 53.855,
+"e": 53.975,
+"matched": true
+},
+{
+"line": 7,
+"t": "plus",
+"s": 53.975,
+"e": 54.31,
+"matched": true
+},
+{
+"line": 7,
+"t": "de",
+"s": 54.31,
+"e": 54.43,
+"matched": true
+},
+{
+"line": 7,
+"t": "30 %",
+"s": 54.43,
+"e": 54.8,
+"matched": true
+},
+{
+"line": 7,
+"t": "dans",
+"s": 54.8,
+"e": 55.06,
+"matched": true
+},
+{
+"line": 7,
+"t": "un",
+"s": 55.06,
+"e": 55.18,
+"matched": true
+},
+{
+"line": 7,
+"t": "centre",
+"s": 55.18,
+"e": 55.53,
+"matched": true
+},
+{
+"line": 7,
+"t": "moins",
+"s": 55.53,
+"e": 55.845,
+"matched": true
+},
+{
+"line": 7,
+"t": "performant.",
+"s": 55.845,
+"e": 56.635,
+"matched": true
+},
+{
+"line": 8,
+"t": "Tout",
+"s": 57.32,
+"e": 57.44,
+"matched": false
+},
+{
+"line": 8,
+"t": "se",
+"s": 57.44,
+"e": 57.56,
+"matched": false
+},
+{
+"line": 8,
+"t": "joue",
+"s": 57.56,
+"e": 57.68,
+"matched": true
+},
+{
+"line": 8,
+"t": "donc",
+"s": 57.68,
+"e": 57.8,
+"matched": true
+},
+{
+"line": 8,
+"t": "sur",
+"s": 57.8,
+"e": 57.92,
+"matched": true
+},
+{
+"line": 8,
+"t": "l'efficacité",
+"s": 57.92,
+"e": 58.38,
+"matched": true
+},
+{
+"line": 8,
+"t": "du",
+"s": 58.38,
+"e": 58.57,
+"matched": true
+},
+{
+"line": 8,
+"t": "bâtiment.",
+"s": 58.57,
+"e": 59.165,
+"matched": true
+},
+{
+"line": 9,
+"t": "Les",
+"s": 60.09,
+"e": 60.21,
+"matched": false
+},
+{
+"line": 9,
+"t": "revenus",
+"s": 60.21,
+"e": 60.33,
+"matched": false
+},
+{
+"line": 9,
+"t": "viennent",
+"s": 60.33,
+"e": 60.51,
+"matched": true
+},
+{
+"line": 9,
+"t": "des",
+"s": 60.51,
+"e": 60.672,
+"matched": true
+},
+{
+"line": 9,
+"t": "clients",
+"s": 60.672,
+"e": 61.168,
+"matched": true
+},
+{
+"line": 9,
+"t": "qui",
+"s": 61.168,
+"e": 61.321,
+"matched": true
+},
+{
+"line": 9,
+"t": "louent",
+"s": 61.321,
+"e": 61.57,
+"matched": true
+},
+{
+"line": 9,
+"t": "de",
+"s": 61.57,
+"e": 61.845,
+"matched": true
+},
+{
+"line": 9,
+"t": "la",
+"s": 61.845,
+"e": 61.965,
+"matched": true
+},
+{
+"line": 9,
+"t": "puissance",
+"s": 61.965,
+"e": 62.305,
+"matched": true
+},
+{
+"line": 9,
+"t": "et",
+"s": 62.305,
+"e": 62.51,
+"matched": true
+},
+{
+"line": 9,
+"t": "de",
+"s": 62.51,
+"e": 62.63,
+"matched": true
+},
+{
+"line": 9,
+"t": "l'espace.",
+"s": 62.63,
+"e": 63.268,
+"matched": true
+},
+{
+"line": 9,
+"t": "Un",
+"s": 63.268,
+"e": 63.555,
+"matched": true
+},
+{
+"line": 9,
+"t": "contrat",
+"s": 63.555,
+"e": 63.725,
+"matched": true
+},
+{
+"line": 9,
+"t": "long",
+"s": 63.725,
+"e": 64.0,
+"matched": true
+},
+{
+"line": 9,
+"t": "peut",
+"s": 64.0,
+"e": 64.164,
+"matched": true
+},
+{
+"line": 9,
+"t": "financer",
+"s": 64.164,
+"e": 64.545,
+"matched": true
+},
+{
+"line": 9,
+"t": "le",
+"s": 64.545,
+"e": 64.75,
+"matched": true
+},
+{
+"line": 9,
+"t": "site,",
+"s": 64.75,
+"e": 65.0,
+"matched": true
+},
+{
+"line": 9,
+"t": "à",
+"s": 65.0,
+"e": 65.12,
+"matched": true
+},
+{
+"line": 9,
+"t": "condition",
+"s": 65.12,
+"e": 65.51,
+"matched": true
+},
+{
+"line": 9,
+"t": "qu'il",
+"s": 65.51,
+"e": 65.885,
+"matched": true
+},
+{
+"line": 9,
+"t": "soit",
+"s": 65.885,
+"e": 66.01,
+"matched": true
+},
+{
+"line": 9,
+"t": "rempli.",
+"s": 66.01,
+"e": 66.55,
+"matched": true
+},
+{
+"line": 10,
+"t": "Le",
+"s": 67.345,
+"e": 67.465,
+"matched": false
+},
+{
+"line": 10,
+"t": "vrai",
+"s": 67.465,
+"e": 67.585,
+"matched": false
+},
+{
+"line": 10,
+"t": "prix,",
+"s": 67.585,
+"e": 67.77,
+"matched": true
+},
+{
+"line": 10,
+"t": "c'est",
+"s": 67.77,
+"e": 68.095,
+"matched": true
+},
+{
+"line": 10,
+"t": "le",
+"s": 68.095,
+"e": 68.305,
+"matched": true
+},
+{
+"line": 10,
+"t": "temps",
+"s": 68.305,
+"e": 68.636,
+"matched": true
+},
+{
+"line": 10,
+"t": ":",
+"s": 68.636,
+"e": 69.04,
+"matched": false
+},
+{
+"line": 10,
+"t": "un",
+"s": 69.04,
+"e": 69.16,
+"matched": true
+},
+{
+"line": 10,
+"t": "bâtiment",
+"s": 69.16,
+"e": 69.36,
+"matched": true
+},
+{
+"line": 10,
+"t": "qui",
+"s": 69.36,
+"e": 69.595,
+"matched": true
+},
+{
+"line": 10,
+"t": "s'amortit",
+"s": 69.595,
+"e": 69.955,
+"matched": true
+},
+{
+"line": 10,
+"t": "sur",
+"s": 69.955,
+"e": 70.135,
+"matched": true
+},
+{
+"line": 10,
+"t": "des",
+"s": 70.135,
+"e": 70.325,
+"matched": true
+},
+{
+"line": 10,
+"t": "années,",
+"s": 70.325,
+"e": 70.669,
+"matched": true
+},
+{
+"line": 10,
+"t": "pour",
+"s": 70.669,
+"e": 70.831,
+"matched": true
+},
+{
+"line": 10,
+"t": "des",
+"s": 70.831,
+"e": 71.269,
+"matched": true
+},
+{
+"line": 10,
+"t": "machines",
+"s": 71.269,
+"e": 71.43,
+"matched": true
+},
+{
+"line": 10,
+"t": "qui",
+"s": 71.43,
+"e": 71.61,
+"matched": true
+},
+{
+"line": 10,
+"t": "vieillissent",
+"s": 71.61,
+"e": 72.17,
+"matched": true
+},
+{
+"line": 10,
+"t": "bien",
+"s": 72.17,
+"e": 72.307,
+"matched": true
+},
+{
+"line": 10,
+"t": "plus",
+"s": 72.307,
+"e": 72.79,
+"matched": true
+},
+{
+"line": 10,
+"t": "vite.",
+"s": 72.79,
+"e": 73.555,
+"matched": true
+},
+{
+"line": 11,
+"t": "Un",
+"s": 73.655,
+"e": 73.845,
+"matched": true
+},
+{
+"line": 11,
+"t": "data",
+"s": 73.845,
+"e": 74.145,
+"matched": false
+},
+{
+"line": 11,
+"t": "center,",
+"s": 74.145,
+"e": 74.272,
+"matched": false
+},
+{
+"line": 11,
+"t": "c'est",
+"s": 74.272,
+"e": 74.49,
+"matched": true
+},
+{
+"line": 11,
+"t": "de",
+"s": 74.49,
+"e": 74.61,
+"matched": true
+},
+{
+"line": 11,
+"t": "l'immobilier",
+"s": 74.61,
+"e": 75.051,
+"matched": true
+},
+{
+"line": 11,
+"t": "qui",
+"s": 75.051,
+"e": 75.25,
+"matched": true
+},
+{
+"line": 11,
+"t": "ne",
+"s": 75.25,
+"e": 75.37,
+"matched": true
+},
+{
+"line": 11,
+"t": "doit",
+"s": 75.37,
+"e": 75.49,
+"matched": true
+},
+{
+"line": 11,
+"t": "jamais",
+"s": 75.49,
+"e": 75.706,
+"matched": true
+},
+{
+"line": 11,
+"t": "s'éteindre.",
+"s": 75.706,
+"e": 76.38,
+"matched": true
+},
+{
+"line": 12,
+"t": "Dites-moi",
+"s": 77.26,
+"e": 77.38,
+"matched": false
+},
+{
+"line": 12,
+"t": "en",
+"s": 77.38,
+"e": 77.5,
+"matched": true
+},
+{
+"line": 12,
+"t": "commentaire",
+"s": 77.5,
+"e": 77.784,
+"matched": true
+},
+{
+"line": 12,
+"t": ":",
+"s": 77.784,
+"e": 78.285,
+"matched": false
+},
+{
+"line": 12,
+"t": "l'IA",
+"s": 78.285,
+"e": 78.627,
+"matched": false
+},
+{
+"line": 12,
+"t": "justifie-t-elle",
+"s": 78.627,
+"e": 79.09,
+"matched": false
+},
+{
+"line": 12,
+"t": "toute",
+"s": 79.09,
+"e": 79.354,
+"matched": true
+},
+{
+"line": 12,
+"t": "cette",
+"s": 79.354,
+"e": 79.595,
+"matched": true
+},
+{
+"line": 12,
+"t": "électricité",
+"s": 79.595,
+"e": 80.155,
+"matched": true
+},
+{
+"line": 12,
+"t": "?",
+"s": 80.155,
+"e": 80.55,
+"matched": false
+},
+{
+"line": 13,
+"t": "Abonnez-vous",
+"s": 81.265,
+"e": 81.385,
+"matched": false
+},
+{
+"line": 13,
+"t": "à",
+"s": 81.385,
+"e": 81.536,
+"matched": true
+},
+{
+"line": 13,
+"t": "Decrypt",
+"s": 81.536,
+"e": 81.802,
+"matched": false
+},
+{
+"line": 13,
+"t": "Business",
+"s": 81.802,
+"e": 82.145,
+"matched": true
+},
+{
+"line": 13,
+"t": "pour",
+"s": 82.145,
+"e": 82.385,
+"matched": true
+},
+{
+"line": 13,
+"t": "comprendre",
+"s": 82.385,
+"e": 82.81,
+"matched": true
+},
+{
+"line": 13,
+"t": "l'économie",
+"s": 82.81,
+"e": 83.29,
+"matched": true
+},
+{
+"line": 13,
+"t": "en",
+"s": 83.29,
+"e": 83.471,
+"matched": true
+},
+{
+"line": 13,
+"t": "quelques",
+"s": 83.471,
+"e": 83.825,
+"matched": true
+},
+{
+"line": 13,
+"t": "minutes.",
+"s": 83.825,
+"e": 84.3,
+"matched": true
+}
+]

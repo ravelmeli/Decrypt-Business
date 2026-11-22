@@ -1,0 +1,86 @@
+[
+ {
+  "i": 0,
+  "text": "Ce bâtiment ne fabrique rien, et il consomme plus d'électricité que certains pays.",
+  "start": 0.13,
+  "end": 5.27
+ },
+ {
+  "i": 1,
+  "text": "Selon l'Agence internationale de l'énergie, les data centers ont consommé environ 415 térawattheures en 2024, soit près de 1,5 pour cent de l'électricité mondiale.",
+  "start": 5.37,
+  "end": 14.695
+ },
+ {
+  "i": 2,
+  "text": "Cette consommation pourrait plus que doubler d'ici 2030, autour de 945 térawattheures, tirée par l'intelligence artificielle.",
+  "start": 15.49,
+  "end": 21.555
+ },
+ {
+  "i": 3,
+  "text": "Posséder un data center, c'est d'abord poser des milliards sur la table avant le premier client.",
+  "start": 22.735,
+  "end": 27.64
+ },
+ {
+  "i": 4,
+  "text": "Selon JLL, la construction coûtait en moyenne environ 10,7 millions de dollars par mégawatt en 2025. Et cela ne couvre que le bâtiment.",
+  "start": 27.74,
+  "end": 35.395
+ },
+ {
+  "i": 5,
+  "text": "Les serveurs sont à la charge des clients, et pour l'IA ils peuvent coûter jusqu'à 25 millions de dollars par mégawatt.",
+  "start": 36.3,
+  "end": 41.8
+ },
+ {
+  "i": 6,
+  "text": "Ensuite vient la facture qui ne s'arrête jamais : l'électricité.",
+  "start": 42.715,
+  "end": 46.33
+ },
+ {
+  "i": 7,
+  "text": "Une partie sert à refroidir les machines. Selon l'Agence, le refroidissement pèse environ 7 pour cent de la consommation d'un centre très efficace, et plus de 30 pour cent dans un centre moins performant.",
+  "start": 47.1,
+  "end": 56.635
+ },
+ {
+  "i": 8,
+  "text": "Tout se joue donc sur l'efficacité du bâtiment.",
+  "start": 57.32,
+  "end": 59.165
+ },
+ {
+  "i": 9,
+  "text": "Les revenus viennent des clients qui louent de la puissance et de l'espace. Un contrat long peut financer le site, à condition qu'il soit rempli.",
+  "start": 60.09,
+  "end": 66.55
+ },
+ {
+  "i": 10,
+  "text": "Le vrai prix, c'est le temps : un bâtiment qui s'amortit sur des années, pour des machines qui vieillissent bien plus vite.",
+  "start": 67.345,
+  "end": 73.555
+ },
+ {
+  "i": 11,
+  "text": "Un data center, c'est de l'immobilier qui ne doit jamais s'éteindre.",
+  "start": 73.655,
+  "end": 76.38
+ },
+ {
+  "i": 12,
+  "text": "Dites-moi en commentaire : l'IA justifie-t-elle toute cette électricité ?",
+  "start": 77.26,
+  "end": 80.55
+ },
+ {
+  "i": 13,
+  "text": "Abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes.",
+  "start": 81.27,
+  "end": 84.3
+ }
+]

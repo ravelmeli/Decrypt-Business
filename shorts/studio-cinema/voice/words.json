@@ -1,0 +1,1759 @@
+[
+{
+"line": 0,
+"t": "Un",
+"s": 0.11,
+"e": 0.27,
+"matched": true
+},
+{
+"line": 0,
+"t": "film",
+"s": 0.27,
+"e": 0.58,
+"matched": true
+},
+{
+"line": 0,
+"t": "peut",
+"s": 0.58,
+"e": 0.763,
+"matched": true
+},
+{
+"line": 0,
+"t": "remplir",
+"s": 0.763,
+"e": 1.395,
+"matched": true
+},
+{
+"line": 0,
+"t": "les",
+"s": 1.395,
+"e": 1.584,
+"matched": true
+},
+{
+"line": 0,
+"t": "salles",
+"s": 1.584,
+"e": 2.068,
+"matched": true
+},
+{
+"line": 0,
+"t": "du",
+"s": 2.068,
+"e": 2.226,
+"matched": true
+},
+{
+"line": 0,
+"t": "monde",
+"s": 2.226,
+"e": 2.655,
+"matched": true
+},
+{
+"line": 0,
+"t": "entier,",
+"s": 2.655,
+"e": 3.04,
+"matched": true
+},
+{
+"line": 0,
+"t": "et",
+"s": 3.04,
+"e": 3.29,
+"matched": true
+},
+{
+"line": 0,
+"t": "ne",
+"s": 3.29,
+"e": 3.41,
+"matched": true
+},
+{
+"line": 0,
+"t": "jamais",
+"s": 3.41,
+"e": 3.7,
+"matched": true
+},
+{
+"line": 0,
+"t": "être",
+"s": 3.7,
+"e": 3.97,
+"matched": true
+},
+{
+"line": 0,
+"t": "rentable",
+"s": 3.97,
+"e": 4.295,
+"matched": true
+},
+{
+"line": 0,
+"t": "sur",
+"s": 4.295,
+"e": 4.521,
+"matched": true
+},
+{
+"line": 0,
+"t": "le",
+"s": 4.521,
+"e": 4.641,
+"matched": true
+},
+{
+"line": 0,
+"t": "papier.",
+"s": 4.641,
+"e": 5.055,
+"matched": true
+},
+{
+"line": 1,
+"t": "Prenez",
+"s": 5.74,
+"e": 6.054,
+"matched": true
+},
+{
+"line": 1,
+"t": "Le",
+"s": 6.054,
+"e": 6.174,
+"matched": true
+},
+{
+"line": 1,
+"t": "Retour",
+"s": 6.174,
+"e": 6.6,
+"matched": true
+},
+{
+"line": 1,
+"t": "du",
+"s": 6.6,
+"e": 6.748,
+"matched": true
+},
+{
+"line": 1,
+"t": "Jedi.",
+"s": 6.748,
+"e": 7.48,
+"matched": true
+},
+{
+"line": 1,
+"t": "Selon",
+"s": 7.48,
+"e": 7.613,
+"matched": true
+},
+{
+"line": 1,
+"t": "Lucasfilm,",
+"s": 7.613,
+"e": 8.335,
+"matched": true
+},
+{
+"line": 1,
+"t": "il",
+"s": 8.335,
+"e": 8.455,
+"matched": true
+},
+{
+"line": 1,
+"t": "n'est",
+"s": 8.455,
+"e": 8.669,
+"matched": true
+},
+{
+"line": 1,
+"t": "jamais",
+"s": 8.669,
+"e": 8.983,
+"matched": true
+},
+{
+"line": 1,
+"t": "entré",
+"s": 8.983,
+"e": 9.165,
+"matched": true
+},
+{
+"line": 1,
+"t": "dans",
+"s": 9.165,
+"e": 9.496,
+"matched": true
+},
+{
+"line": 1,
+"t": "les",
+"s": 9.496,
+"e": 9.667,
+"matched": true
+},
+{
+"line": 1,
+"t": "bénéfices,",
+"s": 9.667,
+"e": 10.523,
+"matched": true
+},
+{
+"line": 1,
+"t": "malgré",
+"s": 10.523,
+"e": 10.713,
+"matched": true
+},
+{
+"line": 1,
+"t": "environ",
+"s": 10.713,
+"e": 11.13,
+"matched": true
+},
+{
+"line": 1,
+"t": "475",
+"s": 11.13,
+"e": 12.121,
+"matched": true
+},
+{
+"line": 1,
+"t": "millions",
+"s": 12.121,
+"e": 12.511,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 12.511,
+"e": 12.758,
+"matched": true
+},
+{
+"line": 1,
+"t": "dollars",
+"s": 12.758,
+"e": 12.94,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 12.94,
+"e": 13.06,
+"matched": true
+},
+{
+"line": 1,
+"t": "recettes",
+"s": 13.06,
+"e": 13.41,
+"matched": true
+},
+{
+"line": 1,
+"t": "pour",
+"s": 13.41,
+"e": 13.67,
+"matched": true
+},
+{
+"line": 1,
+"t": "un",
+"s": 13.67,
+"e": 13.79,
+"matched": true
+},
+{
+"line": 1,
+"t": "budget",
+"s": 13.79,
+"e": 13.975,
+"matched": true
+},
+{
+"line": 1,
+"t": "d'environ",
+"s": 13.975,
+"e": 14.403,
+"matched": true
+},
+{
+"line": 1,
+"t": "32",
+"s": 14.403,
+"e": 14.645,
+"matched": true
+},
+{
+"line": 1,
+"t": "millions.",
+"s": 14.645,
+"e": 15.24,
+"matched": true
+},
+{
+"line": 2,
+"t": "Pourquoi",
+"s": 15.945,
+"e": 16.355,
+"matched": true
+},
+{
+"line": 2,
+"t": "?",
+"s": 16.355,
+"e": 16.657,
+"matched": false
+},
+{
+"line": 2,
+"t": "Parce",
+"s": 16.657,
+"e": 17.015,
+"matched": true
+},
+{
+"line": 2,
+"t": "que",
+"s": 17.015,
+"e": 17.157,
+"matched": true
+},
+{
+"line": 2,
+"t": "le",
+"s": 17.157,
+"e": 17.277,
+"matched": true
+},
+{
+"line": 2,
+"t": "bénéfice",
+"s": 17.277,
+"e": 17.825,
+"matched": true
+},
+{
+"line": 2,
+"t": "net",
+"s": 17.825,
+"e": 17.96,
+"matched": true
+},
+{
+"line": 2,
+"t": "n'est",
+"s": 17.96,
+"e": 18.215,
+"matched": true
+},
+{
+"line": 2,
+"t": "pas",
+"s": 18.215,
+"e": 18.51,
+"matched": true
+},
+{
+"line": 2,
+"t": "ce",
+"s": 18.51,
+"e": 18.75,
+"matched": true
+},
+{
+"line": 2,
+"t": "qui",
+"s": 18.75,
+"e": 19.065,
+"matched": true
+},
+{
+"line": 2,
+"t": "reste",
+"s": 19.065,
+"e": 19.185,
+"matched": true
+},
+{
+"line": 2,
+"t": "dans",
+"s": 19.185,
+"e": 19.305,
+"matched": true
+},
+{
+"line": 2,
+"t": "la",
+"s": 19.305,
+"e": 19.425,
+"matched": true
+},
+{
+"line": 2,
+"t": "caisse.",
+"s": 19.425,
+"e": 19.755,
+"matched": true
+},
+{
+"line": 2,
+"t": "C'est",
+"s": 19.755,
+"e": 19.916,
+"matched": true
+},
+{
+"line": 2,
+"t": "ce",
+"s": 19.916,
+"e": 20.036,
+"matched": true
+},
+{
+"line": 2,
+"t": "qui",
+"s": 20.036,
+"e": 20.17,
+"matched": true
+},
+{
+"line": 2,
+"t": "reste",
+"s": 20.17,
+"e": 20.29,
+"matched": true
+},
+{
+"line": 2,
+"t": "après",
+"s": 20.29,
+"e": 20.524,
+"matched": true
+},
+{
+"line": 2,
+"t": "des",
+"s": 20.524,
+"e": 20.644,
+"matched": true
+},
+{
+"line": 2,
+"t": "déductions",
+"s": 20.644,
+"e": 21.205,
+"matched": true
+},
+{
+"line": 2,
+"t": "fixées",
+"s": 21.205,
+"e": 21.49,
+"matched": true
+},
+{
+"line": 2,
+"t": "par",
+"s": 21.49,
+"e": 21.61,
+"matched": true
+},
+{
+"line": 2,
+"t": "le",
+"s": 21.61,
+"e": 21.73,
+"matched": true
+},
+{
+"line": 2,
+"t": "studio",
+"s": 21.73,
+"e": 21.908,
+"matched": true
+},
+{
+"line": 2,
+"t": "lui-même.",
+"s": 21.908,
+"e": 22.34,
+"matched": true
+},
+{
+"line": 3,
+"t": "D'abord,",
+"s": 22.89,
+"e": 23.01,
+"matched": false
+},
+{
+"line": 3,
+"t": "les",
+"s": 23.01,
+"e": 23.13,
+"matched": true
+},
+{
+"line": 3,
+"t": "frais",
+"s": 23.13,
+"e": 23.495,
+"matched": true
+},
+{
+"line": 3,
+"t": "de",
+"s": 23.495,
+"e": 23.615,
+"matched": true
+},
+{
+"line": 3,
+"t": "distribution",
+"s": 23.615,
+"e": 24.061,
+"matched": true
+},
+{
+"line": 3,
+"t": ":",
+"s": 24.061,
+"e": 24.577,
+"matched": false
+},
+{
+"line": 3,
+"t": "le",
+"s": 24.577,
+"e": 24.895,
+"matched": true
+},
+{
+"line": 3,
+"t": "studio",
+"s": 24.895,
+"e": 25.07,
+"matched": true
+},
+{
+"line": 3,
+"t": "facture",
+"s": 25.07,
+"e": 25.495,
+"matched": true
+},
+{
+"line": 3,
+"t": "souvent",
+"s": 25.495,
+"e": 25.866,
+"matched": true
+},
+{
+"line": 3,
+"t": "à",
+"s": 25.866,
+"e": 26.035,
+"matched": true
+},
+{
+"line": 3,
+"t": "son",
+"s": 26.035,
+"e": 26.17,
+"matched": true
+},
+{
+"line": 3,
+"t": "propre",
+"s": 26.17,
+"e": 26.365,
+"matched": true
+},
+{
+"line": 3,
+"t": "film",
+"s": 26.365,
+"e": 26.6,
+"matched": true
+},
+{
+"line": 3,
+"t": "environ",
+"s": 26.6,
+"e": 27.23,
+"matched": true
+},
+{
+"line": 3,
+"t": "30 %",
+"s": 27.23,
+"e": 27.59,
+"matched": true
+},
+{
+"line": 3,
+"t": "des",
+"s": 27.59,
+"e": 27.835,
+"matched": true
+},
+{
+"line": 3,
+"t": "recettes.",
+"s": 27.835,
+"e": 28.385,
+"matched": true
+},
+{
+"line": 4,
+"t": "Ensuite,",
+"s": 29.05,
+"e": 29.35,
+"matched": true
+},
+{
+"line": 4,
+"t": "les",
+"s": 29.35,
+"e": 29.555,
+"matched": true
+},
+{
+"line": 4,
+"t": "frais",
+"s": 29.555,
+"e": 29.755,
+"matched": true
+},
+{
+"line": 4,
+"t": "généraux",
+"s": 29.755,
+"e": 30.099,
+"matched": true
+},
+{
+"line": 4,
+"t": ":",
+"s": 30.099,
+"e": 30.44,
+"matched": false
+},
+{
+"line": 4,
+"t": "autour",
+"s": 30.44,
+"e": 30.738,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 30.738,
+"e": 30.895,
+"matched": true
+},
+{
+"line": 4,
+"t": "15 %",
+"s": 30.895,
+"e": 31.34,
+"matched": true
+},
+{
+"line": 4,
+"t": "du",
+"s": 31.34,
+"e": 31.46,
+"matched": true
+},
+{
+"line": 4,
+"t": "coût",
+"s": 31.46,
+"e": 31.58,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 31.58,
+"e": 31.96,
+"matched": true
+},
+{
+"line": 4,
+"t": "production,",
+"s": 31.96,
+"e": 32.308,
+"matched": true
+},
+{
+"line": 4,
+"t": "et",
+"s": 32.308,
+"e": 32.428,
+"matched": true
+},
+{
+"line": 4,
+"t": "environ",
+"s": 32.428,
+"e": 32.854,
+"matched": true
+},
+{
+"line": 4,
+"t": "10 %",
+"s": 32.854,
+"e": 33.3,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 33.3,
+"e": 33.53,
+"matched": true
+},
+{
+"line": 4,
+"t": "la",
+"s": 33.53,
+"e": 33.794,
+"matched": true
+},
+{
+"line": 4,
+"t": "publicité.",
+"s": 33.794,
+"e": 35.43,
+"matched": true
+},
+{
+"line": 5,
+"t": "Puis",
+"s": 35.69,
+"e": 35.81,
+"matched": false
+},
+{
+"line": 5,
+"t": "les",
+"s": 35.81,
+"e": 35.93,
+"matched": false
+},
+{
+"line": 5,
+"t": "intérêts,",
+"s": 35.93,
+"e": 36.05,
+"matched": false
+},
+{
+"line": 5,
+"t": "parfois",
+"s": 36.05,
+"e": 36.17,
+"matched": false
+},
+{
+"line": 5,
+"t": "calculés",
+"s": 36.17,
+"e": 36.29,
+"matched": true
+},
+{
+"line": 5,
+"t": "sur",
+"s": 36.29,
+"e": 36.41,
+"matched": true
+},
+{
+"line": 5,
+"t": "de",
+"s": 36.41,
+"e": 36.53,
+"matched": true
+},
+{
+"line": 5,
+"t": "l'argent",
+"s": 36.53,
+"e": 36.65,
+"matched": true
+},
+{
+"line": 5,
+"t": "que",
+"s": 36.65,
+"e": 36.855,
+"matched": true
+},
+{
+"line": 5,
+"t": "le",
+"s": 36.855,
+"e": 36.975,
+"matched": true
+},
+{
+"line": 5,
+"t": "studio",
+"s": 36.975,
+"e": 37.165,
+"matched": true
+},
+{
+"line": 5,
+"t": "s'est",
+"s": 37.165,
+"e": 37.385,
+"matched": true
+},
+{
+"line": 5,
+"t": "prêté",
+"s": 37.385,
+"e": 37.595,
+"matched": true
+},
+{
+"line": 5,
+"t": "à",
+"s": 37.595,
+"e": 37.942,
+"matched": true
+},
+{
+"line": 5,
+"t": "lui-même.",
+"s": 37.942,
+"e": 38.67,
+"matched": true
+},
+{
+"line": 6,
+"t": "Chaque",
+"s": 38.81,
+"e": 38.95,
+"matched": true
+},
+{
+"line": 6,
+"t": "ligne",
+"s": 38.95,
+"e": 39.295,
+"matched": true
+},
+{
+"line": 6,
+"t": "est",
+"s": 39.295,
+"e": 39.415,
+"matched": true
+},
+{
+"line": 6,
+"t": "écrite",
+"s": 39.415,
+"e": 39.61,
+"matched": true
+},
+{
+"line": 6,
+"t": "dans",
+"s": 39.61,
+"e": 39.785,
+"matched": false
+},
+{
+"line": 6,
+"t": "un",
+"s": 39.785,
+"e": 39.905,
+"matched": true
+},
+{
+"line": 6,
+"t": "contrat.",
+"s": 39.905,
+"e": 40.45,
+"matched": true
+},
+{
+"line": 6,
+"t": "Résultat",
+"s": 40.45,
+"e": 40.87,
+"matched": true
+},
+{
+"line": 6,
+"t": ":",
+"s": 40.87,
+"e": 41.195,
+"matched": false
+},
+{
+"line": 6,
+"t": "un",
+"s": 41.195,
+"e": 41.335,
+"matched": true
+},
+{
+"line": 6,
+"t": "bénéfice",
+"s": 41.335,
+"e": 41.898,
+"matched": true
+},
+{
+"line": 6,
+"t": "net",
+"s": 41.898,
+"e": 42.17,
+"matched": true
+},
+{
+"line": 6,
+"t": "proche",
+"s": 42.17,
+"e": 42.535,
+"matched": true
+},
+{
+"line": 6,
+"t": "de",
+"s": 42.535,
+"e": 42.655,
+"matched": true
+},
+{
+"line": 6,
+"t": "zéro,",
+"s": 42.655,
+"e": 43.135,
+"matched": true
+},
+{
+"line": 6,
+"t": "même",
+"s": 43.135,
+"e": 43.338,
+"matched": true
+},
+{
+"line": 6,
+"t": "après",
+"s": 43.338,
+"e": 43.485,
+"matched": true
+},
+{
+"line": 6,
+"t": "un",
+"s": 43.485,
+"e": 43.851,
+"matched": true
+},
+{
+"line": 6,
+"t": "succès",
+"s": 43.851,
+"e": 44.185,
+"matched": true
+},
+{
+"line": 6,
+"t": "mondial.",
+"s": 44.185,
+"e": 45.045,
+"matched": true
+},
+{
+"line": 7,
+"t": "Ceux",
+"s": 45.775,
+"e": 45.895,
+"matched": false
+},
+{
+"line": 7,
+"t": "qui",
+"s": 45.895,
+"e": 46.015,
+"matched": false
+},
+{
+"line": 7,
+"t": "ont",
+"s": 46.015,
+"e": 46.135,
+"matched": true
+},
+{
+"line": 7,
+"t": "négocié",
+"s": 46.135,
+"e": 46.329,
+"matched": true
+},
+{
+"line": 7,
+"t": "une",
+"s": 46.329,
+"e": 46.494,
+"matched": true
+},
+{
+"line": 7,
+"t": "part",
+"s": 46.494,
+"e": 46.785,
+"matched": true
+},
+{
+"line": 7,
+"t": "de",
+"s": 46.785,
+"e": 46.905,
+"matched": true
+},
+{
+"line": 7,
+"t": "ce",
+"s": 46.905,
+"e": 47.025,
+"matched": true
+},
+{
+"line": 7,
+"t": "bénéfice",
+"s": 47.025,
+"e": 47.368,
+"matched": true
+},
+{
+"line": 7,
+"t": "peuvent",
+"s": 47.368,
+"e": 47.756,
+"matched": true
+},
+{
+"line": 7,
+"t": "donc",
+"s": 47.756,
+"e": 47.999,
+"matched": true
+},
+{
+"line": 7,
+"t": "ne",
+"s": 47.999,
+"e": 48.119,
+"matched": true
+},
+{
+"line": 7,
+"t": "rien",
+"s": 48.119,
+"e": 48.28,
+"matched": true
+},
+{
+"line": 7,
+"t": "toucher.",
+"s": 48.28,
+"e": 49.035,
+"matched": true
+},
+{
+"line": 7,
+"t": "Pour",
+"s": 49.035,
+"e": 49.185,
+"matched": true
+},
+{
+"line": 7,
+"t": "Forrest",
+"s": 49.185,
+"e": 49.669,
+"matched": true
+},
+{
+"line": 7,
+"t": "Gump,",
+"s": 49.669,
+"e": 50.095,
+"matched": true
+},
+{
+"line": 7,
+"t": "l'auteur",
+"s": 50.095,
+"e": 50.552,
+"matched": true
+},
+{
+"line": 7,
+"t": "du",
+"s": 50.552,
+"e": 50.766,
+"matched": true
+},
+{
+"line": 7,
+"t": "roman,",
+"s": 50.766,
+"e": 50.91,
+"matched": true
+},
+{
+"line": 7,
+"t": "Winston",
+"s": 50.91,
+"e": 51.363,
+"matched": true
+},
+{
+"line": 7,
+"t": "Groom,",
+"s": 51.363,
+"e": 51.717,
+"matched": false
+},
+{
+"line": 7,
+"t": "avait",
+"s": 51.717,
+"e": 52.305,
+"matched": true
+},
+{
+"line": 7,
+"t": "obtenu",
+"s": 52.305,
+"e": 52.465,
+"matched": true
+},
+{
+"line": 7,
+"t": "3 %",
+"s": 52.465,
+"e": 52.825,
+"matched": true
+},
+{
+"line": 7,
+"t": "du",
+"s": 52.825,
+"e": 52.945,
+"matched": true
+},
+{
+"line": 7,
+"t": "bénéfice",
+"s": 52.945,
+"e": 53.265,
+"matched": true
+},
+{
+"line": 7,
+"t": "net,",
+"s": 53.265,
+"e": 53.72,
+"matched": true
+},
+{
+"line": 7,
+"t": "et",
+"s": 53.72,
+"e": 53.84,
+"matched": true
+},
+{
+"line": 7,
+"t": "n'aurait",
+"s": 53.84,
+"e": 54.096,
+"matched": true
+},
+{
+"line": 7,
+"t": "reçu",
+"s": 54.096,
+"e": 54.325,
+"matched": true
+},
+{
+"line": 7,
+"t": "qu'un",
+"s": 54.325,
+"e": 54.54,
+"matched": true
+},
+{
+"line": 7,
+"t": "faible",
+"s": 54.54,
+"e": 54.76,
+"matched": true
+},
+{
+"line": 7,
+"t": "paiement.",
+"s": 54.76,
+"e": 55.28,
+"matched": true
+},
+{
+"line": 8,
+"t": "Les",
+"s": 55.38,
+"e": 55.675,
+"matched": true
+},
+{
+"line": 8,
+"t": "chiffres",
+"s": 55.675,
+"e": 55.865,
+"matched": true
+},
+{
+"line": 8,
+"t": "exacts",
+"s": 55.865,
+"e": 56.145,
+"matched": true
+},
+{
+"line": 8,
+"t": "varient",
+"s": 56.145,
+"e": 56.421,
+"matched": true
+},
+{
+"line": 8,
+"t": "selon",
+"s": 56.421,
+"e": 56.72,
+"matched": true
+},
+{
+"line": 8,
+"t": "les",
+"s": 56.72,
+"e": 56.84,
+"matched": true
+},
+{
+"line": 8,
+"t": "sources,",
+"s": 56.84,
+"e": 57.24,
+"matched": true
+},
+{
+"line": 8,
+"t": "car",
+"s": 57.24,
+"e": 57.395,
+"matched": true
+},
+{
+"line": 8,
+"t": "aucun",
+"s": 57.395,
+"e": 57.63,
+"matched": true
+},
+{
+"line": 8,
+"t": "audit",
+"s": 57.63,
+"e": 58.015,
+"matched": true
+},
+{
+"line": 8,
+"t": "public",
+"s": 58.015,
+"e": 58.135,
+"matched": true
+},
+{
+"line": 8,
+"t": "ne",
+"s": 58.135,
+"e": 58.255,
+"matched": true
+},
+{
+"line": 8,
+"t": "les",
+"s": 58.255,
+"e": 58.375,
+"matched": true
+},
+{
+"line": 8,
+"t": "confirme.",
+"s": 58.375,
+"e": 58.83,
+"matched": true
+},
+{
+"line": 9,
+"t": "Voilà",
+"s": 59.505,
+"e": 59.625,
+"matched": false
+},
+{
+"line": 9,
+"t": "pourquoi",
+"s": 59.625,
+"e": 59.915,
+"matched": true
+},
+{
+"line": 9,
+"t": "les",
+"s": 59.915,
+"e": 60.195,
+"matched": true
+},
+{
+"line": 9,
+"t": "stars",
+"s": 60.195,
+"e": 60.315,
+"matched": true
+},
+{
+"line": 9,
+"t": "négocient",
+"s": 60.315,
+"e": 60.675,
+"matched": true
+},
+{
+"line": 9,
+"t": "plutôt",
+"s": 60.675,
+"e": 61.075,
+"matched": true
+},
+{
+"line": 9,
+"t": "un",
+"s": 61.075,
+"e": 61.195,
+"matched": true
+},
+{
+"line": 9,
+"t": "pourcentage",
+"s": 61.195,
+"e": 61.745,
+"matched": true
+},
+{
+"line": 9,
+"t": "des",
+"s": 61.745,
+"e": 61.865,
+"matched": true
+},
+{
+"line": 9,
+"t": "recettes",
+"s": 61.865,
+"e": 62.245,
+"matched": true
+},
+{
+"line": 9,
+"t": "brutes,",
+"s": 62.245,
+"e": 62.56,
+"matched": true
+},
+{
+"line": 9,
+"t": "avant",
+"s": 62.56,
+"e": 62.855,
+"matched": true
+},
+{
+"line": 9,
+"t": "toutes",
+"s": 62.855,
+"e": 63.045,
+"matched": true
+},
+{
+"line": 9,
+"t": "ces",
+"s": 63.045,
+"e": 63.335,
+"matched": true
+},
+{
+"line": 9,
+"t": "déductions.",
+"s": 63.335,
+"e": 64.67,
+"matched": true
+},
+{
+"line": 10,
+"t": "Un",
+"s": 64.945,
+"e": 65.065,
+"matched": false
+},
+{
+"line": 10,
+"t": "studio",
+"s": 65.065,
+"e": 65.185,
+"matched": false
+},
+{
+"line": 10,
+"t": "ne",
+"s": 65.185,
+"e": 65.305,
+"matched": false
+},
+{
+"line": 10,
+"t": "vend",
+"s": 65.305,
+"e": 65.425,
+"matched": false
+},
+{
+"line": 10,
+"t": "pas",
+"s": 65.425,
+"e": 65.545,
+"matched": true
+},
+{
+"line": 10,
+"t": "seulement",
+"s": 65.545,
+"e": 65.665,
+"matched": true
+},
+{
+"line": 10,
+"t": "des",
+"s": 65.665,
+"e": 65.785,
+"matched": true
+},
+{
+"line": 10,
+"t": "films.",
+"s": 65.785,
+"e": 66.18,
+"matched": true
+},
+{
+"line": 10,
+"t": "Il",
+"s": 66.18,
+"e": 66.3,
+"matched": true
+},
+{
+"line": 10,
+"t": "vend",
+"s": 66.3,
+"e": 66.44,
+"matched": true
+},
+{
+"line": 10,
+"t": "aussi",
+"s": 66.44,
+"e": 66.715,
+"matched": true
+},
+{
+"line": 10,
+"t": "une",
+"s": 66.715,
+"e": 66.92,
+"matched": true
+},
+{
+"line": 10,
+"t": "définition",
+"s": 66.92,
+"e": 67.335,
+"matched": true
+},
+{
+"line": 10,
+"t": "du",
+"s": 67.335,
+"e": 67.5,
+"matched": true
+},
+{
+"line": 10,
+"t": "mot",
+"s": 67.5,
+"e": 67.795,
+"matched": true
+},
+{
+"line": 10,
+"t": "bénéfice,",
+"s": 67.795,
+"e": 68.7,
+"matched": true
+},
+{
+"line": 10,
+"t": "et",
+"s": 68.7,
+"e": 68.82,
+"matched": true
+},
+{
+"line": 10,
+"t": "il",
+"s": 68.82,
+"e": 68.957,
+"matched": true
+},
+{
+"line": 10,
+"t": "est",
+"s": 68.957,
+"e": 69.077,
+"matched": true
+},
+{
+"line": 10,
+"t": "seul",
+"s": 69.077,
+"e": 69.23,
+"matched": true
+},
+{
+"line": 10,
+"t": "à",
+"s": 69.23,
+"e": 69.35,
+"matched": true
+},
+{
+"line": 10,
+"t": "l'écrire.",
+"s": 69.35,
+"e": 69.79,
+"matched": true
+},
+{
+"line": 11,
+"t": "Dites-moi",
+"s": 70.55,
+"e": 70.67,
+"matched": false
+},
+{
+"line": 11,
+"t": "en",
+"s": 70.67,
+"e": 70.79,
+"matched": true
+},
+{
+"line": 11,
+"t": "commentaire",
+"s": 70.79,
+"e": 71.105,
+"matched": true
+},
+{
+"line": 11,
+"t": ":",
+"s": 71.105,
+"e": 71.475,
+"matched": false
+},
+{
+"line": 11,
+"t": "quel",
+"s": 71.475,
+"e": 71.65,
+"matched": true
+},
+{
+"line": 11,
+"t": "film",
+"s": 71.65,
+"e": 71.915,
+"matched": true
+},
+{
+"line": 11,
+"t": "aurait",
+"s": 71.915,
+"e": 72.243,
+"matched": true
+},
+{
+"line": 11,
+"t": "dû",
+"s": 72.243,
+"e": 72.415,
+"matched": true
+},
+{
+"line": 11,
+"t": "être",
+"s": 72.415,
+"e": 72.66,
+"matched": true
+},
+{
+"line": 11,
+"t": "rentable",
+"s": 72.66,
+"e": 73.275,
+"matched": true
+},
+{
+"line": 11,
+"t": "selon",
+"s": 73.275,
+"e": 73.395,
+"matched": true
+},
+{
+"line": 11,
+"t": "vous",
+"s": 73.395,
+"e": 73.595,
+"matched": true
+},
+{
+"line": 11,
+"t": "?",
+"s": 73.595,
+"e": 73.815,
+"matched": false
+},
+{
+"line": 12,
+"t": "Abonnez-vous",
+"s": 73.935,
+"e": 74.356,
+"matched": true
+},
+{
+"line": 12,
+"t": "à",
+"s": 74.356,
+"e": 74.65,
+"matched": true
+},
+{
+"line": 12,
+"t": "Decrypt",
+"s": 74.65,
+"e": 74.77,
+"matched": false
+},
+{
+"line": 12,
+"t": "Business",
+"s": 74.77,
+"e": 75.12,
+"matched": true
+},
+{
+"line": 12,
+"t": "pour",
+"s": 75.12,
+"e": 75.325,
+"matched": true
+},
+{
+"line": 12,
+"t": "comprendre",
+"s": 75.325,
+"e": 75.855,
+"matched": true
+},
+{
+"line": 12,
+"t": "l'économie",
+"s": 75.855,
+"e": 76.285,
+"matched": true
+},
+{
+"line": 12,
+"t": "en",
+"s": 76.285,
+"e": 76.42,
+"matched": true
+},
+{
+"line": 12,
+"t": "quelques",
+"s": 76.42,
+"e": 76.695,
+"matched": true
+},
+{
+"line": 12,
+"t": "minutes.",
+"s": 76.695,
+"e": 77.22,
+"matched": true
+}
+]
