@@ -1,0 +1,14 @@
+Ce bâtiment ne fabrique rien, et il consomme plus d'électricité que certains pays.
+Selon l'Agence internationale de l'énergie, les data centers ont consommé environ 415 térawattheures en 2024, soit près de 1,5 pour cent de l'électricité mondiale.
+Cette consommation pourrait plus que doubler d'ici 2030, autour de 945 térawattheures, tirée par l'intelligence artificielle.
+Posséder un data center, c'est d'abord poser des milliards sur la table avant le premier client.
+Selon JLL, la construction coûtait en moyenne environ 10,7 millions de dollars par mégawatt en 2025. Et cela ne couvre que le bâtiment.
+Les serveurs sont à la charge des clients, et pour l'IA ils peuvent coûter jusqu'à 25 millions de dollars par mégawatt.
+Ensuite vient la facture qui ne s'arrête jamais : l'électricité.
+Une partie sert à refroidir les machines. Selon l'Agence, le refroidissement pèse environ 7 pour cent de la consommation d'un centre très efficace, et plus de 30 pour cent dans un centre moins performant.
+Tout se joue donc sur l'efficacité du bâtiment.
+Les revenus viennent des clients qui louent de la puissance et de l'espace. Un contrat long peut financer le site, à condition qu'il soit rempli.
+Le vrai prix, c'est le temps : un bâtiment qui s'amortit sur des années, pour des machines qui vieillissent bien plus vite.
+Un data center, c'est de l'immobilier qui ne doit jamais s'éteindre.
+Dites-moi en commentaire : l'IA justifie-t-elle toute cette électricité ?
+Abonnez-vous à Decrypt Business pour comprendre l'économie en quelques minutes.
