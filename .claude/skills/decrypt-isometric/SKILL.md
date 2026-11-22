@@ -65,3 +65,4 @@ Règles :
 - Retrouver le sujet demandé dans le bon stock (Shorts ou longs, jamais mélangés), puis produire la vidéo.
 - Marquer le sujet comme utilisé dans le fichier de suivi correspondant.
 - Prévenir l'utilisateur quand il reste 3 sujets ou moins dans un stock.
+- L'utilisateur précise à chaque fois le type de contenu à produire (Short ou long). Je pioche alors dans le stock correspondant et je lui envoie les sujets choisis (2 pour les Shorts, 1 pour un long) avec le plus fort potentiel de viralité.
