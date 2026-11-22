@@ -66,3 +66,9 @@ Règles :
 - Marquer le sujet comme utilisé dans le fichier de suivi correspondant.
 - Prévenir l'utilisateur quand il reste 3 sujets ou moins dans un stock.
 - L'utilisateur précise à chaque fois le type de contenu à produire (Short ou long). Je pioche alors dans le stock correspondant et je lui envoie les sujets choisis (2 pour les Shorts, 1 pour un long) avec le plus fort potentiel de viralité.
+
+## Cycle des vidéos longues (3 vidéos)
+- Vidéos longues n°1 et n°2 du cycle : sujet pioché dans `sujets/idees-longs.md` (plus fort potentiel de viralité).
+- Vidéo longue n°3 du cycle : pas de pioche. Chercher sur internet (Google Trends et actualité récente) le sujet économique le plus actuel du moment qui cadre avec la chaîne (format « L'économie de… », « Combien rapporte… », « Autopsie financière… »), l'envoyer à l'utilisateur avec la justification (tendance, volume de recherche, angle) et le produire.
+- Puis le cycle recommence. Compteur et historique dans `sujets/utilises-longs.md` (colonne « position dans le cycle »).
+- Les chiffres issus de l'actualité restent sourcés et prudents comme toujours.
