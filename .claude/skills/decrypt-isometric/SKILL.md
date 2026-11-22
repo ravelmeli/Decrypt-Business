@@ -53,3 +53,8 @@ Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.
 ## Rendus : ne jamais s'arrêter
 - Ne jamais interrompre ni suspendre le processus de rendu pour poser une question : si un rendu échoue ou atteint la limite de temps, le relancer immédiatement et continuer jusqu'à livrer les MP4.
 - Lancer les rendus un par un (pas en parallèle : le CPU est partagé et chaque rendu dépasse la limite de 2 h). Toujours via run_in_background (un nohup/& est annulé quand le shell parent s'arrête).
+
+## Vidéos longues : choix du sujet
+- L'utilisateur fournit un document de sujets (stock). Pour chaque vidéo longue, piocher dans ce document le sujet au plus fort potentiel de viralité, le lui annoncer avec une courte justification, puis commencer (script) sans autre question.
+- Marquer le sujet comme utilisé (fichier de suivi dans le dépôt, ex. `sujets/stock.md`) pour ne pas le reprendre.
+- Prévenir l'utilisateur dès que le stock est presque épuisé (par exemple quand il reste 3 sujets ou moins) et à chaque fois qu'il baisse sous ce seuil, pour qu'il envoie de nouveaux sujets.
