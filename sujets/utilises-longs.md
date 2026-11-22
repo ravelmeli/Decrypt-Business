@@ -1,4 +1,5 @@
 # Sujets de vidéos longues déjà utilisés
-Source : `idees-longs.md` (document à recevoir). Alerte stock bas : 3 sujets restants ou moins.
+Source : `idees-longs.md` (19 sujets numérotés). Alerte stock bas : 3 sujets restants ou moins.
 
-(aucun pour l'instant)
+- n°14 — Café (déjà réalisé avant l'ajout du stock : `longs/cafe`)
+- n°6 — Équipe de Formule 1 (choisi le 2026-11-22)
