@@ -54,8 +54,14 @@ Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.
 - Ne jamais interrompre ni suspendre le processus de rendu pour poser une question : si un rendu échoue ou atteint la limite de temps, le relancer immédiatement et continuer jusqu'à livrer les MP4.
 - Lancer les rendus un par un (pas en parallèle : le CPU est partagé et chaque rendu dépasse la limite de 2 h). Toujours via run_in_background (un nohup/& est annulé quand le shell parent s'arrête).
 
-## Shorts : choix des sujets dans le stock
-- Le document de sujets (`sujets/idees-shorts.md`, 65 idées) est un stock de sujets de SHORTS, pas de vidéos longues. Les vidéos longues restent à sujet donné par l'utilisateur.
-- Pour chaque lot de Shorts, piocher 2 sujets dans ce stock, ceux au plus fort potentiel de viralité, les annoncer avec une courte justification, puis commencer.
-- Marquer les sujets utilisés dans `sujets/utilises.md` pour ne pas les reprendre.
-- Prévenir l'utilisateur quand il reste 3 sujets ou moins (et à chaque lot suivant tant que le stock reste sous ce seuil).
+## Stocks de sujets (deux stocks séparés)
+| Stock | Fichier des idées | Suivi des sujets utilisés | Par lot |
+|---|---|---|---|
+| Shorts | `sujets/idees-shorts.md` (65 idées) | `sujets/utilises-shorts.md` | 2 sujets |
+| Vidéos longues | `sujets/idees-longs.md` (document à recevoir) | `sujets/utilises-longs.md` | 1 sujet |
+
+Règles communes :
+- À chaque lot, piocher dans le stock correspondant (jamais dans l'autre) le ou les sujets au plus fort potentiel de viralité, les annoncer avec une courte justification, puis commencer.
+- Marquer immédiatement les sujets choisis dans le fichier de suivi pour ne pas les reprendre.
+- Prévenir l'utilisateur quand il reste 3 sujets ou moins dans un stock (et à chaque lot suivant tant qu'il reste sous ce seuil).
+- Tant que le document des vidéos longues n'est pas reçu, un sujet de vidéo longue est donné par l'utilisateur.
