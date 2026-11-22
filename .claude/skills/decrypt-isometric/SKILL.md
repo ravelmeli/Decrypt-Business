@@ -55,13 +55,13 @@ Voix : Gemini TTS, voix `en-us-koda`, style « Promote » (voir `script-process.
 - Lancer les rendus un par un (pas en parallèle : le CPU est partagé et chaque rendu dépasse la limite de 2 h). Toujours via run_in_background (un nohup/& est annulé quand le shell parent s'arrête).
 
 ## Stocks de sujets (deux stocks séparés)
-| Stock | Fichier des idées | Suivi des sujets utilisés | Par lot |
-|---|---|---|---|
-| Shorts | `sujets/idees-shorts.md` (65 idées) | `sujets/utilises-shorts.md` | 2 sujets |
-| Vidéos longues | `sujets/idees-longs.md` (document à recevoir) | `sujets/utilises-longs.md` | 1 sujet |
+| Stock | Fichier des idées | Suivi des sujets utilisés |
+|---|---|---|
+| Shorts | `sujets/idees-shorts.md` (65 idées) | `sujets/utilises-shorts.md` |
+| Vidéos longues | `sujets/idees-longs.md` (19 sujets) | `sujets/utilises-longs.md` |
 
-Règles communes :
-- À chaque lot, piocher dans le stock correspondant (jamais dans l'autre) le ou les sujets au plus fort potentiel de viralité, les annoncer avec une courte justification, puis commencer.
-- Marquer immédiatement les sujets choisis dans le fichier de suivi pour ne pas les reprendre.
-- Prévenir l'utilisateur quand il reste 3 sujets ou moins dans un stock (et à chaque lot suivant tant qu'il reste sous ce seuil).
-- Tant que le document des vidéos longues n'est pas reçu, un sujet de vidéo longue est donné par l'utilisateur.
+Règles :
+- C'est l'utilisateur qui précise à chaque fois quel(s) sujet(s) produire (par numéro ou par nom). Ne jamais choisir un sujet de ma propre initiative.
+- Retrouver le sujet demandé dans le bon stock (Shorts ou longs, jamais mélangés), puis produire la vidéo.
+- Marquer le sujet comme utilisé dans le fichier de suivi correspondant.
+- Prévenir l'utilisateur quand il reste 3 sujets ou moins dans un stock.
