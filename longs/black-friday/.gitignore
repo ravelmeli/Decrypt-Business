@@ -1,0 +1,5 @@
+voice/*.wav
+voice/*.mp3
+video/.hyperframes/
+video/assets/mix*.wav
+video/node_modules/

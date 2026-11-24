@@ -1,0 +1,6 @@
+*.mp4
+*.log
+work-*
+.*hf-transaction-*
+*.tmp.mp4
+list.txt
