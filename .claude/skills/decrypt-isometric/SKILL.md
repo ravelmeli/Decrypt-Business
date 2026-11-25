@@ -72,3 +72,8 @@ Règles :
 - Vidéo longue n°3 du cycle : pas de pioche. Chercher sur internet (Google Trends et actualité récente) le sujet économique le plus actuel du moment qui cadre avec la chaîne (format « L'économie de… », « Combien rapporte… », « Autopsie financière… »), l'envoyer à l'utilisateur avec la justification (tendance, volume de recherche, angle) et le produire.
 - Puis le cycle recommence. Compteur et historique dans `sujets/utilises-longs.md` (colonne « position dans le cycle »).
 - Les chiffres issus de l'actualité restent sourcés et prudents comme toujours.
+
+## Cycle des Shorts (3 sujets, 2 pioches + 1 actualité)
+- Même principe que pour les longs : après 2 sujets Shorts piochés et réalisés dans `sujets/idees-shorts.md`, le Short suivant (n°3 du cycle) n'est pas pioché : chercher sur internet (Google Trends et actualité récente) le sujet le plus actuel qui cadre avec la chaîne, l'envoyer à l'utilisateur avec la justification (tendance, angle) et le produire. Puis le cycle recommence.
+- Le cycle des Shorts est indépendant de celui des longs. Compteur et historique dans `sujets/utilises-shorts.md` (colonne « position dans le cycle »).
+- Les chiffres issus de l'actualité restent sourcés et prudents.
