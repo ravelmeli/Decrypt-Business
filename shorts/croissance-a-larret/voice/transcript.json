@@ -1,0 +1,1250 @@
+[
+  {
+    "text": "Trois",
+    "start": 0.03,
+    "end": 0.28,
+    "id": "w0"
+  },
+  {
+    "text": "trimestres,",
+    "start": 0.36,
+    "end": 1.09,
+    "id": "w1"
+  },
+  {
+    "text": "et",
+    "start": 1.09,
+    "end": 1.22,
+    "id": "w2"
+  },
+  {
+    "text": "l'économie",
+    "start": 1.22,
+    "end": 1.82,
+    "id": "w3"
+  },
+  {
+    "text": "française",
+    "start": 1.85,
+    "end": 2.44,
+    "id": "w4"
+  },
+  {
+    "text": "n'a",
+    "start": 2.44,
+    "end": 2.6,
+    "id": "w5"
+  },
+  {
+    "text": "presque",
+    "start": 2.62,
+    "end": 3.07,
+    "id": "w6"
+  },
+  {
+    "text": "pas",
+    "start": 3.07,
+    "end": 3.26,
+    "id": "w7"
+  },
+  {
+    "text": "bougé.",
+    "start": 3.26,
+    "end": 3.68,
+    "id": "w8"
+  },
+  {
+    "text": "Selon",
+    "start": 3.71,
+    "end": 3.96,
+    "id": "w9"
+  },
+  {
+    "text": "l'INSEE,",
+    "start": 4.1,
+    "end": 4.76,
+    "id": "w10"
+  },
+  {
+    "text": "le",
+    "start": 4.76,
+    "end": 4.91,
+    "id": "w11"
+  },
+  {
+    "text": "PIB",
+    "start": 5.01,
+    "end": 5.31,
+    "id": "w12"
+  },
+  {
+    "text": "a",
+    "start": 5.37,
+    "end": 5.41,
+    "id": "w13"
+  },
+  {
+    "text": "reculé",
+    "start": 5.44,
+    "end": 6.11,
+    "id": "w14"
+  },
+  {
+    "text": "de",
+    "start": 6.11,
+    "end": 6.34,
+    "id": "w15"
+  },
+  {
+    "text": "0,1%",
+    "start": 6.34,
+    "end": 7.4,
+    "id": "w16"
+  },
+  {
+    "text": "au",
+    "start": 7.4,
+    "end": 7.65,
+    "id": "w17"
+  },
+  {
+    "text": "troisième",
+    "start": 7.65,
+    "end": 7.89,
+    "id": "w18"
+  },
+  {
+    "text": "trimestre",
+    "start": 7.89,
+    "end": 8.3,
+    "id": "w19"
+  },
+  {
+    "text": "2026",
+    "start": 8.3,
+    "end": 9.2,
+    "id": "w20"
+  },
+  {
+    "text": "après",
+    "start": 9.2,
+    "end": 9.52,
+    "id": "w21"
+  },
+  {
+    "text": "un",
+    "start": 9.52,
+    "end": 9.62,
+    "id": "w22"
+  },
+  {
+    "text": "trimestre",
+    "start": 9.62,
+    "end": 10.1,
+    "id": "w23"
+  },
+  {
+    "text": "stable.",
+    "start": 10.1,
+    "end": 10.94,
+    "id": "w24"
+  },
+  {
+    "text": "Le",
+    "start": 11.13,
+    "end": 11.17,
+    "id": "w25"
+  },
+  {
+    "text": "PIB,",
+    "start": 11.22,
+    "end": 11.38,
+    "id": "w26"
+  },
+  {
+    "text": "c'est",
+    "start": 11.46,
+    "end": 11.7,
+    "id": "w27"
+  },
+  {
+    "text": "la",
+    "start": 11.7,
+    "end": 11.77,
+    "id": "w28"
+  },
+  {
+    "text": "valeur",
+    "start": 11.82,
+    "end": 11.94,
+    "id": "w29"
+  },
+  {
+    "text": "de",
+    "start": 12.12,
+    "end": 12.2,
+    "id": "w30"
+  },
+  {
+    "text": "tout",
+    "start": 12.2,
+    "end": 12.33,
+    "id": "w31"
+  },
+  {
+    "text": "ce",
+    "start": 12.43,
+    "end": 12.5,
+    "id": "w32"
+  },
+  {
+    "text": "que",
+    "start": 12.5,
+    "end": 12.65,
+    "id": "w33"
+  },
+  {
+    "text": "le",
+    "start": 12.65,
+    "end": 12.73,
+    "id": "w34"
+  },
+  {
+    "text": "pays",
+    "start": 12.79,
+    "end": 12.92,
+    "id": "w35"
+  },
+  {
+    "text": "produit",
+    "start": 12.95,
+    "end": 13.3,
+    "id": "w36"
+  },
+  {
+    "text": "en",
+    "start": 13.3,
+    "end": 13.33,
+    "id": "w37"
+  },
+  {
+    "text": "un",
+    "start": 13.42,
+    "end": 13.49,
+    "id": "w38"
+  },
+  {
+    "text": "trimestre.",
+    "start": 13.51,
+    "end": 14.12,
+    "id": "w39"
+  },
+  {
+    "text": "Quand",
+    "start": 14.13,
+    "end": 14.39,
+    "id": "w40"
+  },
+  {
+    "text": "il",
+    "start": 14.39,
+    "end": 14.4,
+    "id": "w41"
+  },
+  {
+    "text": "baisse,",
+    "start": 14.49,
+    "end": 14.89,
+    "id": "w42"
+  },
+  {
+    "text": "la",
+    "start": 14.93,
+    "end": 15,
+    "id": "w43"
+  },
+  {
+    "text": "richesse",
+    "start": 15.14,
+    "end": 15.35,
+    "id": "w44"
+  },
+  {
+    "text": "produite",
+    "start": 15.45,
+    "end": 15.85,
+    "id": "w45"
+  },
+  {
+    "text": "baisse.",
+    "start": 15.85,
+    "end": 16.35,
+    "id": "w46"
+  },
+  {
+    "text": "Le",
+    "start": 16.44,
+    "end": 16.54,
+    "id": "w47"
+  },
+  {
+    "text": "détail",
+    "start": 16.54,
+    "end": 16.96,
+    "id": "w48"
+  },
+  {
+    "text": "est",
+    "start": 16.96,
+    "end": 17.16,
+    "id": "w49"
+  },
+  {
+    "text": "intéressant.",
+    "start": 17.24,
+    "end": 18.13,
+    "id": "w50"
+  },
+  {
+    "text": "La",
+    "start": 18.19,
+    "end": 18.23,
+    "id": "w51"
+  },
+  {
+    "text": "consommation",
+    "start": 18.28,
+    "end": 19.01,
+    "id": "w52"
+  },
+  {
+    "text": "des",
+    "start": 19.18,
+    "end": 19.24,
+    "id": "w53"
+  },
+  {
+    "text": "ménages",
+    "start": 19.24,
+    "end": 19.67,
+    "id": "w54"
+  },
+  {
+    "text": "a",
+    "start": 19.67,
+    "end": 19.73,
+    "id": "w55"
+  },
+  {
+    "text": "progressé",
+    "start": 19.73,
+    "end": 20.3,
+    "id": "w56"
+  },
+  {
+    "text": "d'environ",
+    "start": 20.3,
+    "end": 20.86,
+    "id": "w57"
+  },
+  {
+    "text": "0,4%.",
+    "start": 21.04,
+    "end": 21.61,
+    "id": "w58"
+  },
+  {
+    "text": "Ce",
+    "start": 21.75,
+    "end": 21.85,
+    "id": "w59"
+  },
+  {
+    "text": "sont",
+    "start": 21.85,
+    "end": 22.08,
+    "id": "w60"
+  },
+  {
+    "text": "les",
+    "start": 22.14,
+    "end": 22.3,
+    "id": "w61"
+  },
+  {
+    "text": "échanges",
+    "start": 22.3,
+    "end": 22.81,
+    "id": "w62"
+  },
+  {
+    "text": "avec",
+    "start": 22.81,
+    "end": 23.07,
+    "id": "w63"
+  },
+  {
+    "text": "les",
+    "start": 23.07,
+    "end": 23.26,
+    "id": "w64"
+  },
+  {
+    "text": "trangés",
+    "start": 23.26,
+    "end": 23.71,
+    "id": "w65"
+  },
+  {
+    "text": "qui",
+    "start": 23.71,
+    "end": 23.9,
+    "id": "w66"
+  },
+  {
+    "text": "ont",
+    "start": 23.9,
+    "end": 24.06,
+    "id": "w67"
+  },
+  {
+    "text": "pesé,",
+    "start": 24.09,
+    "end": 24.42,
+    "id": "w68"
+  },
+  {
+    "text": "pour",
+    "start": 24.6,
+    "end": 24.73,
+    "id": "w69"
+  },
+  {
+    "text": "moins",
+    "start": 24.73,
+    "end": 25.05,
+    "id": "w70"
+  },
+  {
+    "text": "0,6",
+    "start": 25.05,
+    "end": 25.56,
+    "id": "w71"
+  },
+  {
+    "text": "points",
+    "start": 25.69,
+    "end": 25.95,
+    "id": "w72"
+  },
+  {
+    "text": "sur",
+    "start": 25.95,
+    "end": 26.13,
+    "id": "w73"
+  },
+  {
+    "text": "le",
+    "start": 26.13,
+    "end": 26.36,
+    "id": "w74"
+  },
+  {
+    "text": "PIB,",
+    "start": 26.36,
+    "end": 27.24,
+    "id": "w75"
+  },
+  {
+    "text": "avec",
+    "start": 27.27,
+    "end": 27.43,
+    "id": "w76"
+  },
+  {
+    "text": "des",
+    "start": 27.43,
+    "end": 27.52,
+    "id": "w77"
+  },
+  {
+    "text": "exportations",
+    "start": 27.6,
+    "end": 28.09,
+    "id": "w78"
+  },
+  {
+    "text": "en",
+    "start": 28.09,
+    "end": 28.26,
+    "id": "w79"
+  },
+  {
+    "text": "baisse.",
+    "start": 28.26,
+    "end": 28.72,
+    "id": "w80"
+  },
+  {
+    "text": "Pendant",
+    "start": 28.73,
+    "end": 29.26,
+    "id": "w81"
+  },
+  {
+    "text": "ce",
+    "start": 29.26,
+    "end": 29.39,
+    "id": "w82"
+  },
+  {
+    "text": "temps,",
+    "start": 29.44,
+    "end": 29.95,
+    "id": "w83"
+  },
+  {
+    "text": "l'Allemagne",
+    "start": 29.95,
+    "end": 30.79,
+    "id": "w84"
+  },
+  {
+    "text": "a",
+    "start": 30.79,
+    "end": 30.87,
+    "id": "w85"
+  },
+  {
+    "text": "progressé",
+    "start": 30.87,
+    "end": 31.57,
+    "id": "w86"
+  },
+  {
+    "text": "de",
+    "start": 31.59,
+    "end": 31.72,
+    "id": "w87"
+  },
+  {
+    "text": "0,2%",
+    "start": 31.72,
+    "end": 32.4,
+    "id": "w88"
+  },
+  {
+    "text": "et",
+    "start": 32.4,
+    "end": 32.63,
+    "id": "w89"
+  },
+  {
+    "text": "l'Espagne",
+    "start": 32.63,
+    "end": 33.13,
+    "id": "w90"
+  },
+  {
+    "text": "de",
+    "start": 33.24,
+    "end": 33.38,
+    "id": "w91"
+  },
+  {
+    "text": "0,6%.",
+    "start": 33.38,
+    "end": 34.52,
+    "id": "w92"
+  },
+  {
+    "text": "Faut-il",
+    "start": 34.55,
+    "end": 35.15,
+    "id": "w93"
+  },
+  {
+    "text": "parler",
+    "start": 35.15,
+    "end": 35.69,
+    "id": "w94"
+  },
+  {
+    "text": "de",
+    "start": 35.69,
+    "end": 35.87,
+    "id": "w95"
+  },
+  {
+    "text": "récession?",
+    "start": 35.87,
+    "end": 36.96,
+    "id": "w96"
+  },
+  {
+    "text": "Au",
+    "start": 36.99,
+    "end": 37.03,
+    "id": "w97"
+  },
+  {
+    "text": "sens",
+    "start": 37.08,
+    "end": 37.24,
+    "id": "w98"
+  },
+  {
+    "text": "technique,",
+    "start": 37.31,
+    "end": 37.98,
+    "id": "w99"
+  },
+  {
+    "text": "on",
+    "start": 37.98,
+    "end": 38.1,
+    "id": "w100"
+  },
+  {
+    "text": "attend",
+    "start": 38.1,
+    "end": 38.46,
+    "id": "w101"
+  },
+  {
+    "text": "deux",
+    "start": 38.46,
+    "end": 38.69,
+    "id": "w102"
+  },
+  {
+    "text": "trimestres",
+    "start": 38.72,
+    "end": 39.3,
+    "id": "w103"
+  },
+  {
+    "text": "de",
+    "start": 39.3,
+    "end": 39.42,
+    "id": "w104"
+  },
+  {
+    "text": "recul",
+    "start": 39.42,
+    "end": 39.66,
+    "id": "w105"
+  },
+  {
+    "text": "d'affilée,",
+    "start": 39.78,
+    "end": 40.41,
+    "id": "w106"
+  },
+  {
+    "text": "et",
+    "start": 40.41,
+    "end": 40.645,
+    "id": "w107"
+  },
+  {
+    "text": "le",
+    "start": 40.645,
+    "end": 40.88,
+    "id": "w108"
+  },
+  {
+    "text": "deuxième",
+    "start": 40.88,
+    "end": 40.98,
+    "id": "w109"
+  },
+  {
+    "text": "trimestre",
+    "start": 40.98,
+    "end": 41.37,
+    "id": "w110"
+  },
+  {
+    "text": "était",
+    "start": 41.41,
+    "end": 41.68,
+    "id": "w111"
+  },
+  {
+    "text": "stable.",
+    "start": 41.75,
+    "end": 42.24,
+    "id": "w112"
+  },
+  {
+    "text": "Selon",
+    "start": 42.43,
+    "end": 42.62,
+    "id": "w113"
+  },
+  {
+    "text": "la",
+    "start": 42.62,
+    "end": 42.68,
+    "id": "w114"
+  },
+  {
+    "text": "presse,",
+    "start": 42.76,
+    "end": 43.07,
+    "id": "w115"
+  },
+  {
+    "text": "le",
+    "start": 43.07,
+    "end": 43.16,
+    "id": "w116"
+  },
+  {
+    "text": "ministre",
+    "start": 43.16,
+    "end": 43.52,
+    "id": "w117"
+  },
+  {
+    "text": "de",
+    "start": 43.52,
+    "end": 43.61,
+    "id": "w118"
+  },
+  {
+    "text": "l'Economie",
+    "start": 43.61,
+    "end": 44.03,
+    "id": "w119"
+  },
+  {
+    "text": "a",
+    "start": 44.03,
+    "end": 44.09,
+    "id": "w120"
+  },
+  {
+    "text": "tout",
+    "start": 44.09,
+    "end": 44.25,
+    "id": "w121"
+  },
+  {
+    "text": "de",
+    "start": 44.26,
+    "end": 44.35,
+    "id": "w122"
+  },
+  {
+    "text": "même",
+    "start": 44.35,
+    "end": 44.53,
+    "id": "w123"
+  },
+  {
+    "text": "déclaré",
+    "start": 44.53,
+    "end": 44.83,
+    "id": "w124"
+  },
+  {
+    "text": "que",
+    "start": 44.83,
+    "end": 44.95,
+    "id": "w125"
+  },
+  {
+    "text": "l'économie",
+    "start": 45,
+    "end": 45.52,
+    "id": "w126"
+  },
+  {
+    "text": "française",
+    "start": 45.53,
+    "end": 45.97,
+    "id": "w127"
+  },
+  {
+    "text": "est",
+    "start": 45.97,
+    "end": 46.12,
+    "id": "w128"
+  },
+  {
+    "text": "à",
+    "start": 46.12,
+    "end": 46.17,
+    "id": "w129"
+  },
+  {
+    "text": "l'arrêt.",
+    "start": 46.17,
+    "end": 46.68,
+    "id": "w130"
+  },
+  {
+    "text": "Pour",
+    "start": 46.71,
+    "end": 46.93,
+    "id": "w131"
+  },
+  {
+    "text": "vous,",
+    "start": 46.93,
+    "end": 47.3,
+    "id": "w132"
+  },
+  {
+    "text": "une",
+    "start": 47.3,
+    "end": 47.45,
+    "id": "w133"
+  },
+  {
+    "text": "croissance",
+    "start": 47.51,
+    "end": 48.12,
+    "id": "w134"
+  },
+  {
+    "text": "proche",
+    "start": 48.12,
+    "end": 48.5,
+    "id": "w135"
+  },
+  {
+    "text": "de",
+    "start": 48.5,
+    "end": 48.62,
+    "id": "w136"
+  },
+  {
+    "text": "zéro,",
+    "start": 48.62,
+    "end": 48.91,
+    "id": "w137"
+  },
+  {
+    "text": "c'est",
+    "start": 49,
+    "end": 49.28,
+    "id": "w138"
+  },
+  {
+    "text": "moins",
+    "start": 49.3,
+    "end": 49.61,
+    "id": "w139"
+  },
+  {
+    "text": "de",
+    "start": 49.61,
+    "end": 49.73,
+    "id": "w140"
+  },
+  {
+    "text": "marge",
+    "start": 49.73,
+    "end": 50.04,
+    "id": "w141"
+  },
+  {
+    "text": "pour",
+    "start": 50.04,
+    "end": 50.14,
+    "id": "w142"
+  },
+  {
+    "text": "les",
+    "start": 50.14,
+    "end": 50.65,
+    "id": "w143"
+  },
+  {
+    "text": "salaires,",
+    "start": 50.65,
+    "end": 51.09,
+    "id": "w144"
+  },
+  {
+    "text": "les",
+    "start": 51.24,
+    "end": 51.34,
+    "id": "w145"
+  },
+  {
+    "text": "embauches",
+    "start": 51.34,
+    "end": 51.76,
+    "id": "w146"
+  },
+  {
+    "text": "et",
+    "start": 51.76,
+    "end": 51.85,
+    "id": "w147"
+  },
+  {
+    "text": "les",
+    "start": 51.85,
+    "end": 51.97,
+    "id": "w148"
+  },
+  {
+    "text": "recettes",
+    "start": 52.01,
+    "end": 52.37,
+    "id": "w149"
+  },
+  {
+    "text": "de",
+    "start": 52.37,
+    "end": 52.43,
+    "id": "w150"
+  },
+  {
+    "text": "l'État.",
+    "start": 52.5,
+    "end": 52.93,
+    "id": "w151"
+  },
+  {
+    "text": "Attention,",
+    "start": 52.97,
+    "end": 53.56,
+    "id": "w152"
+  },
+  {
+    "text": "ce",
+    "start": 53.56,
+    "end": 53.63,
+    "id": "w153"
+  },
+  {
+    "text": "sont",
+    "start": 53.67,
+    "end": 53.81,
+    "id": "w154"
+  },
+  {
+    "text": "de",
+    "start": 53.98,
+    "end": 54,
+    "id": "w155"
+  },
+  {
+    "text": "premières",
+    "start": 54,
+    "end": 54.49,
+    "id": "w156"
+  },
+  {
+    "text": "estimations,",
+    "start": 54.49,
+    "end": 55.19,
+    "id": "w157"
+  },
+  {
+    "text": "révisables,",
+    "start": 55.2,
+    "end": 55.85,
+    "id": "w158"
+  },
+  {
+    "text": "et",
+    "start": 55.85,
+    "end": 55.96,
+    "id": "w159"
+  },
+  {
+    "text": "le",
+    "start": 55.96,
+    "end": 56.06,
+    "id": "w160"
+  },
+  {
+    "text": "détail",
+    "start": 56.07,
+    "end": 56.4,
+    "id": "w161"
+  },
+  {
+    "text": "des",
+    "start": 56.4,
+    "end": 56.42,
+    "id": "w162"
+  },
+  {
+    "text": "comptes",
+    "start": 56.82,
+    "end": 56.94,
+    "id": "w163"
+  },
+  {
+    "text": "est",
+    "start": 56.94,
+    "end": 57.16,
+    "id": "w164"
+  },
+  {
+    "text": "attendu",
+    "start": 57.17,
+    "end": 57.58,
+    "id": "w165"
+  },
+  {
+    "text": "le",
+    "start": 57.59,
+    "end": 57.71,
+    "id": "w166"
+  },
+  {
+    "text": "27",
+    "start": 57.71,
+    "end": 58,
+    "id": "w167"
+  },
+  {
+    "text": "novembre.",
+    "start": 58.18,
+    "end": 58.79,
+    "id": "w168"
+  },
+  {
+    "text": "Une",
+    "start": 58.84,
+    "end": 58.95,
+    "id": "w169"
+  },
+  {
+    "text": "économie",
+    "start": 58.95,
+    "end": 59.36,
+    "id": "w170"
+  },
+  {
+    "text": "à",
+    "start": 59.36,
+    "end": 59.41,
+    "id": "w171"
+  },
+  {
+    "text": "l'arrêt,",
+    "start": 59.41,
+    "end": 59.86,
+    "id": "w172"
+  },
+  {
+    "text": "ce",
+    "start": 59.86,
+    "end": 59.96,
+    "id": "w173"
+  },
+  {
+    "text": "n'est",
+    "start": 59.96,
+    "end": 60.21,
+    "id": "w174"
+  },
+  {
+    "text": "pas",
+    "start": 60.21,
+    "end": 60.36,
+    "id": "w175"
+  },
+  {
+    "text": "encore",
+    "start": 60.36,
+    "end": 60.62,
+    "id": "w176"
+  },
+  {
+    "text": "une",
+    "start": 60.68,
+    "end": 60.82,
+    "id": "w177"
+  },
+  {
+    "text": "crise,",
+    "start": 60.82,
+    "end": 61.18,
+    "id": "w178"
+  },
+  {
+    "text": "mais",
+    "start": 61.18,
+    "end": 61.36,
+    "id": "w179"
+  },
+  {
+    "text": "c'est",
+    "start": 61.4,
+    "end": 61.5,
+    "id": "w180"
+  },
+  {
+    "text": "le",
+    "start": 61.67,
+    "end": 61.74,
+    "id": "w181"
+  },
+  {
+    "text": "moment",
+    "start": 61.74,
+    "end": 62.2,
+    "id": "w182"
+  },
+  {
+    "text": "où",
+    "start": 62.2,
+    "end": 62.25,
+    "id": "w183"
+  },
+  {
+    "text": "chaque",
+    "start": 62.39,
+    "end": 62.61,
+    "id": "w184"
+  },
+  {
+    "text": "point",
+    "start": 62.61,
+    "end": 62.82,
+    "id": "w185"
+  },
+  {
+    "text": "de",
+    "start": 62.82,
+    "end": 62.9,
+    "id": "w186"
+  },
+  {
+    "text": "croissance",
+    "start": 62.9,
+    "end": 63.2,
+    "id": "w187"
+  },
+  {
+    "text": "compte.",
+    "start": 63.38,
+    "end": 63.72,
+    "id": "w188"
+  },
+  {
+    "text": "Dites-moi",
+    "start": 63.75,
+    "end": 64.19,
+    "id": "w189"
+  },
+  {
+    "text": "en",
+    "start": 64.19,
+    "end": 64.29,
+    "id": "w190"
+  },
+  {
+    "text": "commentaire,",
+    "start": 64.29,
+    "end": 64.95,
+    "id": "w191"
+  },
+  {
+    "text": "sentez-vous",
+    "start": 65.05,
+    "end": 65.54,
+    "id": "w192"
+  },
+  {
+    "text": "ce",
+    "start": 65.57,
+    "end": 65.66,
+    "id": "w193"
+  },
+  {
+    "text": "ralentissement",
+    "start": 65.66,
+    "end": 66.4,
+    "id": "w194"
+  },
+  {
+    "text": "autour",
+    "start": 66.4,
+    "end": 66.72,
+    "id": "w195"
+  },
+  {
+    "text": "de",
+    "start": 66.72,
+    "end": 66.82,
+    "id": "w196"
+  },
+  {
+    "text": "vous?",
+    "start": 66.84,
+    "end": 67.17,
+    "id": "w197"
+  },
+  {
+    "text": "Abonnez-vous",
+    "start": 67.3,
+    "end": 68.13,
+    "id": "w198"
+  },
+  {
+    "text": "à",
+    "start": 68.25,
+    "end": 68.28,
+    "id": "w199"
+  },
+  {
+    "text": "Décrypte",
+    "start": 68.28,
+    "end": 68.61,
+    "id": "w200"
+  },
+  {
+    "text": "Business",
+    "start": 68.64,
+    "end": 68.99,
+    "id": "w201"
+  },
+  {
+    "text": "pour",
+    "start": 68.99,
+    "end": 69.09,
+    "id": "w202"
+  },
+  {
+    "text": "comprendre",
+    "start": 69.26,
+    "end": 69.63,
+    "id": "w203"
+  },
+  {
+    "text": "l'économie",
+    "start": 69.63,
+    "end": 70.06,
+    "id": "w204"
+  },
+  {
+    "text": "en",
+    "start": 70.09,
+    "end": 70.14,
+    "id": "w205"
+  },
+  {
+    "text": "quelques",
+    "start": 70.16,
+    "end": 70.47,
+    "id": "w206"
+  },
+  {
+    "text": "minutes.",
+    "start": 70.56,
+    "end": 70.92,
+    "id": "w207"
+  }
+]
