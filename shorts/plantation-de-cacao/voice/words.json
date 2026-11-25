@@ -1,0 +1,2018 @@
+[
+{
+"line": 0,
+"t": "Le",
+"s": 0.005,
+"e": 0.147,
+"matched": true
+},
+{
+"line": 0,
+"t": "chocolat",
+"s": 0.147,
+"e": 0.81,
+"matched": true
+},
+{
+"line": 0,
+"t": "pèse",
+"s": 0.81,
+"e": 1.058,
+"matched": true
+},
+{
+"line": 0,
+"t": "des",
+"s": 1.058,
+"e": 1.263,
+"matched": true
+},
+{
+"line": 0,
+"t": "milliards,",
+"s": 1.263,
+"e": 2.23,
+"matched": true
+},
+{
+"line": 0,
+"t": "mais",
+"s": 2.23,
+"e": 2.458,
+"matched": true
+},
+{
+"line": 0,
+"t": "celui",
+"s": 2.458,
+"e": 2.64,
+"matched": true
+},
+{
+"line": 0,
+"t": "qui",
+"s": 2.64,
+"e": 2.88,
+"matched": true
+},
+{
+"line": 0,
+"t": "cultive",
+"s": 2.88,
+"e": 3.398,
+"matched": true
+},
+{
+"line": 0,
+"t": "le",
+"s": 3.398,
+"e": 3.525,
+"matched": true
+},
+{
+"line": 0,
+"t": "cacao",
+"s": 3.525,
+"e": 3.907,
+"matched": true
+},
+{
+"line": 0,
+"t": "n'en",
+"s": 3.907,
+"e": 4.027,
+"matched": true
+},
+{
+"line": 0,
+"t": "touche",
+"s": 4.027,
+"e": 4.17,
+"matched": true
+},
+{
+"line": 0,
+"t": "qu'une",
+"s": 4.17,
+"e": 4.395,
+"matched": true
+},
+{
+"line": 0,
+"t": "toute",
+"s": 4.395,
+"e": 4.625,
+"matched": true
+},
+{
+"line": 0,
+"t": "petite",
+"s": 4.625,
+"e": 5.035,
+"matched": true
+},
+{
+"line": 0,
+"t": "part.",
+"s": 5.035,
+"e": 5.405,
+"matched": true
+},
+{
+"line": 1,
+"t": "Selon",
+"s": 6.25,
+"e": 6.37,
+"matched": false
+},
+{
+"line": 1,
+"t": "une",
+"s": 6.37,
+"e": 6.49,
+"matched": false
+},
+{
+"line": 1,
+"t": "étude",
+"s": 6.49,
+"e": 6.613,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 6.613,
+"e": 6.82,
+"matched": true
+},
+{
+"line": 1,
+"t": "la",
+"s": 6.82,
+"e": 6.94,
+"matched": true
+},
+{
+"line": 1,
+"t": "FAO",
+"s": 6.94,
+"e": 7.094,
+"matched": true
+},
+{
+"line": 1,
+"t": "et",
+"s": 7.094,
+"e": 7.231,
+"matched": true
+},
+{
+"line": 1,
+"t": "du",
+"s": 7.231,
+"e": 7.385,
+"matched": true
+},
+{
+"line": 1,
+"t": "bureau",
+"s": 7.385,
+"e": 7.905,
+"matched": true
+},
+{
+"line": 1,
+"t": "BASIC,",
+"s": 7.905,
+"e": 8.31,
+"matched": false
+},
+{
+"line": 1,
+"t": "sur",
+"s": 8.31,
+"e": 8.61,
+"matched": true
+},
+{
+"line": 1,
+"t": "des",
+"s": 8.61,
+"e": 8.82,
+"matched": true
+},
+{
+"line": 1,
+"t": "tablettes",
+"s": 8.82,
+"e": 9.37,
+"matched": true
+},
+{
+"line": 1,
+"t": "vendues",
+"s": 9.37,
+"e": 9.928,
+"matched": true
+},
+{
+"line": 1,
+"t": "en",
+"s": 9.928,
+"e": 10.12,
+"matched": true
+},
+{
+"line": 1,
+"t": "France",
+"s": 10.12,
+"e": 10.506,
+"matched": true
+},
+{
+"line": 1,
+"t": "en",
+"s": 10.506,
+"e": 10.626,
+"matched": true
+},
+{
+"line": 1,
+"t": "2018,",
+"s": 10.626,
+"e": 11.54,
+"matched": true
+},
+{
+"line": 1,
+"t": "le",
+"s": 11.54,
+"e": 11.77,
+"matched": true
+},
+{
+"line": 1,
+"t": "producteur",
+"s": 11.77,
+"e": 12.365,
+"matched": true
+},
+{
+"line": 1,
+"t": "recevait",
+"s": 12.365,
+"e": 12.71,
+"matched": true
+},
+{
+"line": 1,
+"t": "environ",
+"s": 12.71,
+"e": 13.02,
+"matched": true
+},
+{
+"line": 1,
+"t": "onze",
+"s": 13.02,
+"e": 13.285,
+"matched": false
+},
+{
+"line": 1,
+"t": "pour",
+"s": 13.285,
+"e": 13.405,
+"matched": true
+},
+{
+"line": 1,
+"t": "cent",
+"s": 13.405,
+"e": 13.536,
+"matched": true
+},
+{
+"line": 1,
+"t": "du",
+"s": 13.536,
+"e": 13.805,
+"matched": true
+},
+{
+"line": 1,
+"t": "prix",
+"s": 13.805,
+"e": 13.925,
+"matched": true
+},
+{
+"line": 1,
+"t": "d'une",
+"s": 13.925,
+"e": 14.045,
+"matched": true
+},
+{
+"line": 1,
+"t": "tablette",
+"s": 14.045,
+"e": 14.615,
+"matched": true
+},
+{
+"line": 1,
+"t": "de",
+"s": 14.615,
+"e": 14.765,
+"matched": true
+},
+{
+"line": 1,
+"t": "chocolat",
+"s": 14.765,
+"e": 15.144,
+"matched": true
+},
+{
+"line": 1,
+"t": "noir,",
+"s": 15.144,
+"e": 15.67,
+"matched": true
+},
+{
+"line": 1,
+"t": "et",
+"s": 15.67,
+"e": 15.791,
+"matched": true
+},
+{
+"line": 1,
+"t": "environ",
+"s": 15.791,
+"e": 15.97,
+"matched": true
+},
+{
+"line": 1,
+"t": "sept",
+"s": 15.97,
+"e": 16.148,
+"matched": false
+},
+{
+"line": 1,
+"t": "pour",
+"s": 16.148,
+"e": 16.268,
+"matched": true
+},
+{
+"line": 1,
+"t": "cent",
+"s": 16.268,
+"e": 16.388,
+"matched": true
+},
+{
+"line": 1,
+"t": "pour",
+"s": 16.388,
+"e": 16.615,
+"matched": true
+},
+{
+"line": 1,
+"t": "du",
+"s": 16.615,
+"e": 16.88,
+"matched": true
+},
+{
+"line": 1,
+"t": "chocolat",
+"s": 16.88,
+"e": 17.475,
+"matched": true
+},
+{
+"line": 1,
+"t": "au",
+"s": 17.475,
+"e": 17.815,
+"matched": true
+},
+{
+"line": 1,
+"t": "lait.",
+"s": 17.815,
+"e": 18.39,
+"matched": true
+},
+{
+"line": 2,
+"t": "Sur",
+"s": 18.49,
+"e": 18.625,
+"matched": true
+},
+{
+"line": 2,
+"t": "un",
+"s": 18.625,
+"e": 18.87,
+"matched": false
+},
+{
+"line": 2,
+"t": "kilo",
+"s": 18.87,
+"e": 19.01,
+"matched": false
+},
+{
+"line": 2,
+"t": "de",
+"s": 19.01,
+"e": 19.135,
+"matched": true
+},
+{
+"line": 2,
+"t": "chocolat",
+"s": 19.135,
+"e": 19.78,
+"matched": true
+},
+{
+"line": 2,
+"t": "noir",
+"s": 19.78,
+"e": 20.075,
+"matched": true
+},
+{
+"line": 2,
+"t": "à",
+"s": 20.075,
+"e": 20.385,
+"matched": true
+},
+{
+"line": 2,
+"t": "neuf",
+"s": 20.385,
+"e": 20.555,
+"matched": false
+},
+{
+"line": 2,
+"t": "euros",
+"s": 20.555,
+"e": 20.882,
+"matched": false
+},
+{
+"line": 2,
+"t": "trente-deux,",
+"s": 20.882,
+"e": 21.151,
+"matched": false
+},
+{
+"line": 2,
+"t": "la",
+"s": 21.151,
+"e": 21.335,
+"matched": true
+},
+{
+"line": 2,
+"t": "culture",
+"s": 21.335,
+"e": 21.725,
+"matched": true
+},
+{
+"line": 2,
+"t": "du",
+"s": 21.725,
+"e": 22.01,
+"matched": true
+},
+{
+"line": 2,
+"t": "cacao",
+"s": 22.01,
+"e": 22.309,
+"matched": true
+},
+{
+"line": 2,
+"t": "représente",
+"s": 22.309,
+"e": 22.53,
+"matched": true
+},
+{
+"line": 2,
+"t": "un",
+"s": 22.53,
+"e": 22.96,
+"matched": false
+},
+{
+"line": 2,
+"t": "euro",
+"s": 22.96,
+"e": 23.285,
+"matched": false
+},
+{
+"line": 2,
+"t": "et",
+"s": 23.285,
+"e": 23.61,
+"matched": false
+},
+{
+"line": 2,
+"t": "cinq",
+"s": 23.61,
+"e": 23.89,
+"matched": false
+},
+{
+"line": 2,
+"t": "centimes.",
+"s": 23.89,
+"e": 24.26,
+"matched": false
+},
+{
+"line": 2,
+"t": "La",
+"s": 24.26,
+"e": 24.422,
+"matched": true
+},
+{
+"line": 2,
+"t": "fabrication",
+"s": 24.422,
+"e": 25.295,
+"matched": true
+},
+{
+"line": 2,
+"t": "de",
+"s": 25.295,
+"e": 25.54,
+"matched": true
+},
+{
+"line": 2,
+"t": "la",
+"s": 25.54,
+"e": 25.73,
+"matched": true
+},
+{
+"line": 2,
+"t": "tablette",
+"s": 25.73,
+"e": 26.37,
+"matched": true
+},
+{
+"line": 2,
+"t": "et",
+"s": 26.37,
+"e": 26.535,
+"matched": true
+},
+{
+"line": 2,
+"t": "la",
+"s": 26.535,
+"e": 26.657,
+"matched": true
+},
+{
+"line": 2,
+"t": "distribution",
+"s": 26.657,
+"e": 27.255,
+"matched": true
+},
+{
+"line": 2,
+"t": "pèsent,",
+"s": 27.255,
+"e": 27.925,
+"matched": false
+},
+{
+"line": 2,
+"t": "chacune,",
+"s": 27.925,
+"e": 28.365,
+"matched": true
+},
+{
+"line": 2,
+"t": "trente-sept",
+"s": 28.365,
+"e": 28.75,
+"matched": false
+},
+{
+"line": 2,
+"t": "pour",
+"s": 28.75,
+"e": 29.015,
+"matched": true
+},
+{
+"line": 2,
+"t": "cent.",
+"s": 29.015,
+"e": 29.41,
+"matched": true
+},
+{
+"line": 3,
+"t": "Au",
+"s": 30.35,
+"e": 30.52,
+"matched": true
+},
+{
+"line": 3,
+"t": "total,",
+"s": 30.52,
+"e": 31.09,
+"matched": true
+},
+{
+"line": 3,
+"t": "les",
+"s": 31.09,
+"e": 31.235,
+"matched": true
+},
+{
+"line": 3,
+"t": "marques",
+"s": 31.235,
+"e": 31.677,
+"matched": true
+},
+{
+"line": 3,
+"t": "et",
+"s": 31.677,
+"e": 31.9,
+"matched": true
+},
+{
+"line": 3,
+"t": "les",
+"s": 31.9,
+"e": 32.02,
+"matched": true
+},
+{
+"line": 3,
+"t": "distributeurs",
+"s": 32.02,
+"e": 32.865,
+"matched": true
+},
+{
+"line": 3,
+"t": "captent",
+"s": 32.865,
+"e": 33.44,
+"matched": true
+},
+{
+"line": 3,
+"t": "environ",
+"s": 33.44,
+"e": 33.76,
+"matched": true
+},
+{
+"line": 3,
+"t": "soixante-dix",
+"s": 33.76,
+"e": 33.95,
+"matched": false
+},
+{
+"line": 3,
+"t": "pour",
+"s": 33.95,
+"e": 34.26,
+"matched": true
+},
+{
+"line": 3,
+"t": "cent",
+"s": 34.26,
+"e": 34.395,
+"matched": true
+},
+{
+"line": 3,
+"t": "de",
+"s": 34.395,
+"e": 34.515,
+"matched": true
+},
+{
+"line": 3,
+"t": "la",
+"s": 34.515,
+"e": 34.635,
+"matched": true
+},
+{
+"line": 3,
+"t": "valeur,",
+"s": 34.635,
+"e": 35.23,
+"matched": true
+},
+{
+"line": 3,
+"t": "et",
+"s": 35.23,
+"e": 35.35,
+"matched": true
+},
+{
+"line": 3,
+"t": "près",
+"s": 35.35,
+"e": 35.765,
+"matched": true
+},
+{
+"line": 3,
+"t": "de",
+"s": 35.765,
+"e": 35.885,
+"matched": true
+},
+{
+"line": 3,
+"t": "quatre-vingt-dix",
+"s": 35.885,
+"e": 36.075,
+"matched": false
+},
+{
+"line": 3,
+"t": "pour",
+"s": 36.075,
+"e": 36.195,
+"matched": true
+},
+{
+"line": 3,
+"t": "cent",
+"s": 36.195,
+"e": 36.395,
+"matched": true
+},
+{
+"line": 3,
+"t": "des",
+"s": 36.395,
+"e": 36.537,
+"matched": true
+},
+{
+"line": 3,
+"t": "marges.",
+"s": 36.537,
+"e": 37.395,
+"matched": true
+},
+{
+"line": 4,
+"t": "Les",
+"s": 38.38,
+"e": 38.5,
+"matched": false
+},
+{
+"line": 4,
+"t": "pays",
+"s": 38.5,
+"e": 38.62,
+"matched": false
+},
+{
+"line": 4,
+"t": "producteurs,",
+"s": 38.62,
+"e": 38.74,
+"matched": false
+},
+{
+"line": 4,
+"t": "de",
+"s": 38.74,
+"e": 38.86,
+"matched": true
+},
+{
+"line": 4,
+"t": "la",
+"s": 38.86,
+"e": 38.98,
+"matched": true
+},
+{
+"line": 4,
+"t": "culture",
+"s": 38.98,
+"e": 39.39,
+"matched": true
+},
+{
+"line": 4,
+"t": "jusqu'à",
+"s": 39.39,
+"e": 39.565,
+"matched": true
+},
+{
+"line": 4,
+"t": "l'export",
+"s": 39.565,
+"e": 40.075,
+"matched": true
+},
+{
+"line": 4,
+"t": "des",
+"s": 40.075,
+"e": 40.34,
+"matched": true
+},
+{
+"line": 4,
+"t": "fèves,",
+"s": 40.34,
+"e": 40.78,
+"matched": true
+},
+{
+"line": 4,
+"t": "se",
+"s": 40.78,
+"e": 40.9,
+"matched": true
+},
+{
+"line": 4,
+"t": "partagent",
+"s": 40.9,
+"e": 41.605,
+"matched": true
+},
+{
+"line": 4,
+"t": "moins",
+"s": 41.605,
+"e": 41.731,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 41.731,
+"e": 41.9,
+"matched": true
+},
+{
+"line": 4,
+"t": "dix-neuf",
+"s": 41.9,
+"e": 42.068,
+"matched": false
+},
+{
+"line": 4,
+"t": "pour",
+"s": 42.068,
+"e": 42.248,
+"matched": true
+},
+{
+"line": 4,
+"t": "cent",
+"s": 42.248,
+"e": 42.429,
+"matched": true
+},
+{
+"line": 4,
+"t": "de",
+"s": 42.429,
+"e": 42.61,
+"matched": true
+},
+{
+"line": 4,
+"t": "la",
+"s": 42.61,
+"e": 42.741,
+"matched": true
+},
+{
+"line": 4,
+"t": "valeur.",
+"s": 42.741,
+"e": 43.48,
+"matched": true
+},
+{
+"line": 5,
+"t": "Et",
+"s": 44.18,
+"e": 44.3,
+"matched": false
+},
+{
+"line": 5,
+"t": "voici",
+"s": 44.3,
+"e": 44.42,
+"matched": false
+},
+{
+"line": 5,
+"t": "le",
+"s": 44.42,
+"e": 44.54,
+"matched": true
+},
+{
+"line": 5,
+"t": "plus",
+"s": 44.54,
+"e": 44.66,
+"matched": true
+},
+{
+"line": 5,
+"t": "frappant",
+"s": 44.66,
+"e": 44.905,
+"matched": true
+},
+{
+"line": 5,
+"t": ":",
+"s": 44.905,
+"e": 45.295,
+"matched": false
+},
+{
+"line": 5,
+"t": "quand",
+"s": 45.295,
+"e": 45.65,
+"matched": true
+},
+{
+"line": 5,
+"t": "le",
+"s": 45.65,
+"e": 45.84,
+"matched": true
+},
+{
+"line": 5,
+"t": "cours",
+"s": 45.84,
+"e": 46.15,
+"matched": false
+},
+{
+"line": 5,
+"t": "mondial",
+"s": 46.15,
+"e": 46.63,
+"matched": true
+},
+{
+"line": 5,
+"t": "du",
+"s": 46.63,
+"e": 46.768,
+"matched": true
+},
+{
+"line": 5,
+"t": "cacao",
+"s": 46.768,
+"e": 47.16,
+"matched": true
+},
+{
+"line": 5,
+"t": "a",
+"s": 47.16,
+"e": 47.28,
+"matched": true
+},
+{
+"line": 5,
+"t": "chuté",
+"s": 47.28,
+"e": 47.625,
+"matched": true
+},
+{
+"line": 5,
+"t": "de",
+"s": 47.625,
+"e": 47.745,
+"matched": true
+},
+{
+"line": 5,
+"t": "trente-cinq",
+"s": 47.745,
+"e": 47.865,
+"matched": false
+},
+{
+"line": 5,
+"t": "pour",
+"s": 47.865,
+"e": 48.045,
+"matched": true
+},
+{
+"line": 5,
+"t": "cent",
+"s": 48.045,
+"e": 48.245,
+"matched": true
+},
+{
+"line": 5,
+"t": "en",
+"s": 48.245,
+"e": 48.365,
+"matched": true
+},
+{
+"line": 5,
+"t": "2017",
+"s": 48.365,
+"e": 49.35,
+"matched": true
+},
+{
+"line": 5,
+"t": "et",
+"s": 49.35,
+"e": 49.855,
+"matched": true
+},
+{
+"line": 5,
+"t": "2018,",
+"s": 49.855,
+"e": 50.52,
+"matched": true
+},
+{
+"line": 5,
+"t": "la",
+"s": 50.52,
+"e": 50.64,
+"matched": true
+},
+{
+"line": 5,
+"t": "valeur",
+"s": 50.64,
+"e": 50.985,
+"matched": true
+},
+{
+"line": 5,
+"t": "captée",
+"s": 50.985,
+"e": 51.325,
+"matched": true
+},
+{
+"line": 5,
+"t": "en",
+"s": 51.325,
+"e": 51.445,
+"matched": true
+},
+{
+"line": 5,
+"t": "France",
+"s": 51.445,
+"e": 51.615,
+"matched": true
+},
+{
+"line": 5,
+"t": "par",
+"s": 51.615,
+"e": 51.95,
+"matched": true
+},
+{
+"line": 5,
+"t": "les",
+"s": 51.95,
+"e": 52.07,
+"matched": true
+},
+{
+"line": 5,
+"t": "distributeurs",
+"s": 52.07,
+"e": 52.655,
+"matched": true
+},
+{
+"line": 5,
+"t": "et",
+"s": 52.655,
+"e": 52.825,
+"matched": true
+},
+{
+"line": 5,
+"t": "les",
+"s": 52.825,
+"e": 52.982,
+"matched": true
+},
+{
+"line": 5,
+"t": "marques",
+"s": 52.982,
+"e": 53.295,
+"matched": true
+},
+{
+"line": 5,
+"t": "a",
+"s": 53.295,
+"e": 53.495,
+"matched": true
+},
+{
+"line": 5,
+"t": "continué",
+"s": 53.495,
+"e": 53.795,
+"matched": true
+},
+{
+"line": 5,
+"t": "de",
+"s": 53.795,
+"e": 53.933,
+"matched": true
+},
+{
+"line": 5,
+"t": "croître.",
+"s": 53.933,
+"e": 54.56,
+"matched": true
+},
+{
+"line": 6,
+"t": "Plus",
+"s": 55.275,
+"e": 55.395,
+"matched": false
+},
+{
+"line": 6,
+"t": "récemment,",
+"s": 55.395,
+"e": 55.515,
+"matched": false
+},
+{
+"line": 6,
+"t": "selon",
+"s": 55.515,
+"e": 55.635,
+"matched": true
+},
+{
+"line": 6,
+"t": "Coface,",
+"s": 55.635,
+"e": 55.955,
+"matched": false
+},
+{
+"line": 6,
+"t": "le",
+"s": 55.955,
+"e": 56.11,
+"matched": true
+},
+{
+"line": 6,
+"t": "cours",
+"s": 56.11,
+"e": 56.415,
+"matched": false
+},
+{
+"line": 6,
+"t": "est",
+"s": 56.415,
+"e": 56.585,
+"matched": true
+},
+{
+"line": 6,
+"t": "passé",
+"s": 56.585,
+"e": 56.805,
+"matched": true
+},
+{
+"line": 6,
+"t": "de",
+"s": 56.805,
+"e": 56.955,
+"matched": true
+},
+{
+"line": 6,
+"t": "près",
+"s": 56.955,
+"e": 57.215,
+"matched": true
+},
+{
+"line": 6,
+"t": "de",
+"s": 57.215,
+"e": 57.38,
+"matched": true
+},
+{
+"line": 6,
+"t": "douze",
+"s": 57.38,
+"e": 57.62,
+"matched": false
+},
+{
+"line": 6,
+"t": "mille",
+"s": 57.62,
+"e": 57.9,
+"matched": false
+},
+{
+"line": 6,
+"t": "dollars",
+"s": 57.9,
+"e": 58.217,
+"matched": false
+},
+{
+"line": 6,
+"t": "la",
+"s": 58.217,
+"e": 58.337,
+"matched": true
+},
+{
+"line": 6,
+"t": "tonne",
+"s": 58.337,
+"e": 58.765,
+"matched": true
+},
+{
+"line": 6,
+"t": "fin",
+"s": 58.765,
+"e": 58.957,
+"matched": true
+},
+{
+"line": 6,
+"t": "2024",
+"s": 58.957,
+"e": 59.76,
+"matched": true
+},
+{
+"line": 6,
+"t": "à",
+"s": 59.76,
+"e": 59.88,
+"matched": true
+},
+{
+"line": 6,
+"t": "environ",
+"s": 59.88,
+"e": 60.185,
+"matched": true
+},
+{
+"line": 6,
+"t": "cinq",
+"s": 60.185,
+"e": 60.61,
+"matched": false
+},
+{
+"line": 6,
+"t": "mille",
+"s": 60.61,
+"e": 60.975,
+"matched": false
+},
+{
+"line": 6,
+"t": "en",
+"s": 60.975,
+"e": 61.098,
+"matched": true
+},
+{
+"line": 6,
+"t": "décembre",
+"s": 61.098,
+"e": 61.615,
+"matched": true
+},
+{
+"line": 6,
+"t": "2025,",
+"s": 61.615,
+"e": 62.515,
+"matched": true
+},
+{
+"line": 6,
+"t": "et",
+"s": 62.515,
+"e": 62.635,
+"matched": true
+},
+{
+"line": 6,
+"t": "la",
+"s": 62.635,
+"e": 62.77,
+"matched": true
+},
+{
+"line": 6,
+"t": "Côte",
+"s": 62.77,
+"e": 62.96,
+"matched": true
+},
+{
+"line": 6,
+"t": "d'Ivoire",
+"s": 62.96,
+"e": 63.461,
+"matched": true
+},
+{
+"line": 6,
+"t": "a",
+"s": 63.461,
+"e": 63.581,
+"matched": true
+},
+{
+"line": 6,
+"t": "fixé",
+"s": 63.581,
+"e": 63.815,
+"matched": true
+},
+{
+"line": 6,
+"t": "un",
+"s": 63.815,
+"e": 63.935,
+"matched": true
+},
+{
+"line": 6,
+"t": "prix",
+"s": 63.935,
+"e": 64.155,
+"matched": true
+},
+{
+"line": 6,
+"t": "record",
+"s": 64.155,
+"e": 64.465,
+"matched": true
+},
+{
+"line": 6,
+"t": "de",
+"s": 64.465,
+"e": 64.64,
+"matched": true
+},
+{
+"line": 6,
+"t": "deux",
+"s": 64.64,
+"e": 64.875,
+"matched": false
+},
+{
+"line": 6,
+"t": "mille",
+"s": 64.875,
+"e": 65.08,
+"matched": false
+},
+{
+"line": 6,
+"t": "huit",
+"s": 65.08,
+"e": 65.285,
+"matched": false
+},
+{
+"line": 6,
+"t": "cents",
+"s": 65.285,
+"e": 65.41,
+"matched": false
+},
+{
+"line": 6,
+"t": "francs",
+"s": 65.41,
+"e": 65.8,
+"matched": true
+},
+{
+"line": 6,
+"t": "CFA",
+"s": 65.8,
+"e": 66.01,
+"matched": true
+},
+{
+"line": 6,
+"t": "le",
+"s": 66.01,
+"e": 66.13,
+"matched": true
+},
+{
+"line": 6,
+"t": "kilo",
+"s": 66.13,
+"e": 66.325,
+"matched": true
+},
+{
+"line": 6,
+"t": "pour",
+"s": 66.325,
+"e": 66.545,
+"matched": true
+},
+{
+"line": 6,
+"t": "la",
+"s": 66.545,
+"e": 66.665,
+"matched": true
+},
+{
+"line": 6,
+"t": "saison",
+"s": 66.665,
+"e": 66.89,
+"matched": true
+},
+{
+"line": 6,
+"t": "2025-2026.",
+"s": 66.89,
+"e": 68.33,
+"matched": true
+},
+{
+"line": 7,
+"t": "Mais",
+"s": 69.33,
+"e": 69.45,
+"matched": false
+},
+{
+"line": 7,
+"t": "un",
+"s": 69.45,
+"e": 69.57,
+"matched": false
+},
+{
+"line": 7,
+"t": "prix",
+"s": 69.57,
+"e": 69.69,
+"matched": false
+},
+{
+"line": 7,
+"t": "plus",
+"s": 69.69,
+"e": 69.81,
+"matched": true
+},
+{
+"line": 7,
+"t": "élevé",
+"s": 69.81,
+"e": 69.99,
+"matched": true
+},
+{
+"line": 7,
+"t": "ne",
+"s": 69.99,
+"e": 70.175,
+"matched": true
+},
+{
+"line": 7,
+"t": "dit",
+"s": 70.175,
+"e": 70.409,
+"matched": true
+},
+{
+"line": 7,
+"t": "pas",
+"s": 70.409,
+"e": 70.785,
+"matched": true
+},
+{
+"line": 7,
+"t": "ce",
+"s": 70.785,
+"e": 70.905,
+"matched": true
+},
+{
+"line": 7,
+"t": "que",
+"s": 70.905,
+"e": 71.08,
+"matched": true
+},
+{
+"line": 7,
+"t": "gagne",
+"s": 71.08,
+"e": 71.37,
+"matched": true
+},
+{
+"line": 7,
+"t": "un",
+"s": 71.37,
+"e": 71.56,
+"matched": true
+},
+{
+"line": 7,
+"t": "planteur,",
+"s": 71.56,
+"e": 72.372,
+"matched": true
+},
+{
+"line": 7,
+"t": "et",
+"s": 72.372,
+"e": 72.529,
+"matched": true
+},
+{
+"line": 7,
+"t": "je",
+"s": 72.529,
+"e": 72.685,
+"matched": true
+},
+{
+"line": 7,
+"t": "n'ai",
+"s": 72.685,
+"e": 73.0,
+"matched": true
+},
+{
+"line": 7,
+"t": "pas",
+"s": 73.0,
+"e": 73.3,
+"matched": true
+},
+{
+"line": 7,
+"t": "trouvé",
+"s": 73.3,
+"e": 73.652,
+"matched": true
+},
+{
+"line": 7,
+"t": "de",
+"s": 73.652,
+"e": 73.89,
+"matched": true
+},
+{
+"line": 7,
+"t": "chiffre",
+"s": 73.89,
+"e": 74.272,
+"matched": false
+},
+{
+"line": 7,
+"t": "récent",
+"s": 74.272,
+"e": 74.67,
+"matched": false
+},
+{
+"line": 7,
+"t": "fiable",
+"s": 74.67,
+"e": 74.79,
+"matched": false
+},
+{
+"line": 7,
+"t": "sur",
+"s": 74.79,
+"e": 74.94,
+"matched": true
+},
+{
+"line": 7,
+"t": "son",
+"s": 74.94,
+"e": 75.125,
+"matched": true
+},
+{
+"line": 7,
+"t": "revenu.",
+"s": 75.125,
+"e": 75.605,
+"matched": true
+},
+{
+"line": 8,
+"t": "Retenez",
+"s": 76.66,
+"e": 76.78,
+"matched": false
+},
+{
+"line": 8,
+"t": ":",
+"s": 76.78,
+"e": 76.9,
+"matched": false
+},
+{
+"line": 8,
+"t": "dans",
+"s": 76.9,
+"e": 77.02,
+"matched": true
+},
+{
+"line": 8,
+"t": "une",
+"s": 77.02,
+"e": 77.14,
+"matched": true
+},
+{
+"line": 8,
+"t": "tablette,",
+"s": 77.14,
+"e": 78.01,
+"matched": true
+},
+{
+"line": 8,
+"t": "le",
+"s": 78.01,
+"e": 78.13,
+"matched": true
+},
+{
+"line": 8,
+"t": "cacao",
+"s": 78.13,
+"e": 78.39,
+"matched": true
+},
+{
+"line": 8,
+"t": "pèse",
+"s": 78.39,
+"e": 78.575,
+"matched": true
+},
+{
+"line": 8,
+"t": "bien",
+"s": 78.575,
+"e": 78.941,
+"matched": true
+},
+{
+"line": 8,
+"t": "moins",
+"s": 78.941,
+"e": 79.32,
+"matched": true
+},
+{
+"line": 8,
+"t": "que",
+"s": 79.32,
+"e": 79.541,
+"matched": true
+},
+{
+"line": 8,
+"t": "la",
+"s": 79.541,
+"e": 79.689,
+"matched": true
+},
+{
+"line": 8,
+"t": "fabrication,",
+"s": 79.689,
+"e": 80.686,
+"matched": true
+},
+{
+"line": 8,
+"t": "la",
+"s": 80.686,
+"e": 80.845,
+"matched": true
+},
+{
+"line": 8,
+"t": "marque",
+"s": 80.845,
+"e": 81.285,
+"matched": true
+},
+{
+"line": 8,
+"t": "et",
+"s": 81.285,
+"e": 81.407,
+"matched": true
+},
+{
+"line": 8,
+"t": "la",
+"s": 81.407,
+"e": 81.53,
+"matched": true
+},
+{
+"line": 8,
+"t": "distribution.",
+"s": 81.53,
+"e": 82.33,
+"matched": true
+},
+{
+"line": 9,
+"t": "Dites-moi",
+"s": 83.215,
+"e": 83.335,
+"matched": false
+},
+{
+"line": 9,
+"t": "en",
+"s": 83.335,
+"e": 83.455,
+"matched": true
+},
+{
+"line": 9,
+"t": "commentaire",
+"s": 83.455,
+"e": 83.68,
+"matched": true
+},
+{
+"line": 9,
+"t": ":",
+"s": 83.68,
+"e": 84.15,
+"matched": false
+},
+{
+"line": 9,
+"t": "paieriez-vous",
+"s": 84.15,
+"e": 84.569,
+"matched": false
+},
+{
+"line": 9,
+"t": "votre",
+"s": 84.569,
+"e": 84.95,
+"matched": true
+},
+{
+"line": 9,
+"t": "tablette",
+"s": 84.95,
+"e": 85.25,
+"matched": true
+},
+{
+"line": 9,
+"t": "plus",
+"s": 85.25,
+"e": 85.38,
+"matched": true
+},
+{
+"line": 9,
+"t": "cher",
+"s": 85.38,
+"e": 85.67,
+"matched": true
+},
+{
+"line": 9,
+"t": "si",
+"s": 85.67,
+"e": 85.79,
+"matched": true
+},
+{
+"line": 9,
+"t": "la",
+"s": 85.79,
+"e": 85.91,
+"matched": true
+},
+{
+"line": 9,
+"t": "différence",
+"s": 85.91,
+"e": 86.405,
+"matched": true
+},
+{
+"line": 9,
+"t": "allait",
+"s": 86.405,
+"e": 86.665,
+"matched": true
+},
+{
+"line": 9,
+"t": "au",
+"s": 86.665,
+"e": 86.905,
+"matched": true
+},
+{
+"line": 9,
+"t": "planteur",
+"s": 86.905,
+"e": 87.39,
+"matched": true
+},
+{
+"line": 9,
+"t": "?",
+"s": 87.39,
+"e": 87.91,
+"matched": false
+},
+{
+"line": 10,
+"t": "Abonnez-vous",
+"s": 88.07,
+"e": 88.618,
+"matched": true
+},
+{
+"line": 10,
+"t": "à",
+"s": 88.618,
+"e": 88.847,
+"matched": true
+},
+{
+"line": 10,
+"t": "Decrypt",
+"s": 88.847,
+"e": 89.095,
+"matched": false
+},
+{
+"line": 10,
+"t": "Business",
+"s": 89.095,
+"e": 89.48,
+"matched": true
+},
+{
+"line": 10,
+"t": "pour",
+"s": 89.48,
+"e": 89.755,
+"matched": true
+},
+{
+"line": 10,
+"t": "comprendre",
+"s": 89.755,
+"e": 90.275,
+"matched": true
+},
+{
+"line": 10,
+"t": "l'économie",
+"s": 90.275,
+"e": 90.72,
+"matched": true
+},
+{
+"line": 10,
+"t": "en",
+"s": 90.72,
+"e": 90.9,
+"matched": true
+},
+{
+"line": 10,
+"t": "quelques",
+"s": 90.9,
+"e": 91.055,
+"matched": true
+},
+{
+"line": 10,
+"t": "minutes.",
+"s": 91.055,
+"e": 91.62,
+"matched": true
+}
+]
