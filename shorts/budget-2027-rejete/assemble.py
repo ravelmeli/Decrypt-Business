@@ -8,7 +8,7 @@ head = head.replace("font-size: 168px; line-height: 1; letter-spacing: -.02em", 
 head = head.replace("padding: 10px 30px; border: 7px solid; border-radius: 16px; font-size: 52px", "padding: 6px 22px; border: 5px solid; border-radius: 14px; font-size: 34px")
 head = head.replace("#flash { position: absolute; inset: 0; background: #fff;", "#flash { position: absolute; inset: 0; background: #120833;")
 head = head.replace("assets/mix.wav", "assets/mix.wav")
-head = head.replace("Economie d'un parc d'attractions", "L'économie d'une salle de sport")
+head = head.replace("Economie d'un parc d'attractions", "Le budget 2027 rejeté")
 head = head.replace("data-fps=\"60\"", "data-fps=\"30\"")
 PAL = [("#ffc93c", "#ffb347"), ("#ff4f7a", "#ff6b5e"), ("#2fc4ff", "#4db8ff"), ("#6dff9a", "#43e0a6"), ("#120833", "#0d1626"), ("#1e0f55", "#1b2a44"), ("#34187f", "#2f4a73"), ("#1a2160", "#1b2a44"), ("#0b0a3a", "#0d1626"), ("#12083a", "#0d1626"), ("#f4ecd8", "#fbf3e6"), ("#e6ebff", "#f6f1e8"), ("#b8c4ff", "#c4b9a8"), ("#9fb3ff", "#b5a99a"), ("rgba(24,10,70,.88)", "rgba(14,22,40,.88)"), ("rgba(10,16,50,.92)", "rgba(10,16,30,.92)"), ("rgba(2,4,20,.55)", "rgba(2,5,12,.55)"), ("0f1546", "0d1626")]
 for o, n in PAL: head = head.replace(o, n)
