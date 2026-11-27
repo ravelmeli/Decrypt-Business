@@ -1,0 +1,1604 @@
+[
+  {
+    "text": "458",
+    "start": 0.03,
+    "end": 1.05,
+    "id": "w0"
+  },
+  {
+    "text": "députés",
+    "start": 1.05,
+    "end": 1.86,
+    "id": "w1"
+  },
+  {
+    "text": "ont",
+    "start": 1.86,
+    "end": 2.21,
+    "id": "w2"
+  },
+  {
+    "text": "voté",
+    "start": 2.21,
+    "end": 2.72,
+    "id": "w3"
+  },
+  {
+    "text": "contre",
+    "start": 2.77,
+    "end": 3.02,
+    "id": "w4"
+  },
+  {
+    "text": "la",
+    "start": 3.05,
+    "end": 3.13,
+    "id": "w5"
+  },
+  {
+    "text": "partie",
+    "start": 3.13,
+    "end": 3.4,
+    "id": "w6"
+  },
+  {
+    "text": "recette",
+    "start": 3.53,
+    "end": 3.79,
+    "id": "w7"
+  },
+  {
+    "text": "du",
+    "start": 3.79,
+    "end": 3.89,
+    "id": "w8"
+  },
+  {
+    "text": "budget",
+    "start": 3.89,
+    "end": 4.2,
+    "id": "w9"
+  },
+  {
+    "text": "2027.",
+    "start": 4.2,
+    "end": 5,
+    "id": "w10"
+  },
+  {
+    "text": "Et",
+    "start": 5.04,
+    "end": 5.17,
+    "id": "w11"
+  },
+  {
+    "text": "aucun",
+    "start": 5.26,
+    "end": 5.66,
+    "id": "w12"
+  },
+  {
+    "text": "n'a",
+    "start": 5.66,
+    "end": 5.93,
+    "id": "w13"
+  },
+  {
+    "text": "voté",
+    "start": 5.93,
+    "end": 6.24,
+    "id": "w14"
+  },
+  {
+    "text": "pour.",
+    "start": 6.36,
+    "end": 6.93,
+    "id": "w15"
+  },
+  {
+    "text": "Le",
+    "start": 7.04,
+    "end": 7.14,
+    "id": "w16"
+  },
+  {
+    "text": "vote",
+    "start": 7.14,
+    "end": 7.43,
+    "id": "w17"
+  },
+  {
+    "text": "a",
+    "start": 7.43,
+    "end": 7.49,
+    "id": "w18"
+  },
+  {
+    "text": "eu",
+    "start": 7.5,
+    "end": 7.64,
+    "id": "w19"
+  },
+  {
+    "text": "lieu",
+    "start": 7.64,
+    "end": 7.93,
+    "id": "w20"
+  },
+  {
+    "text": "le",
+    "start": 7.93,
+    "end": 8.05,
+    "id": "w21"
+  },
+  {
+    "text": "4",
+    "start": 8.11,
+    "end": 8.24,
+    "id": "w22"
+  },
+  {
+    "text": "novembre",
+    "start": 8.36,
+    "end": 8.86,
+    "id": "w23"
+  },
+  {
+    "text": "2026.",
+    "start": 8.86,
+    "end": 9.98,
+    "id": "w24"
+  },
+  {
+    "text": "Comme",
+    "start": 10.03,
+    "end": 10.34,
+    "id": "w25"
+  },
+  {
+    "text": "cette",
+    "start": 10.34,
+    "end": 10.67,
+    "id": "w26"
+  },
+  {
+    "text": "partie",
+    "start": 10.91,
+    "end": 11.05,
+    "id": "w27"
+  },
+  {
+    "text": "a",
+    "start": 11.11,
+    "end": 11.15,
+    "id": "w28"
+  },
+  {
+    "text": "été",
+    "start": 11.15,
+    "end": 11.24,
+    "id": "w29"
+  },
+  {
+    "text": "rejetée,",
+    "start": 11.36,
+    "end": 11.93,
+    "id": "w30"
+  },
+  {
+    "text": "la",
+    "start": 12.05,
+    "end": 12.13,
+    "id": "w31"
+  },
+  {
+    "text": "partie",
+    "start": 12.13,
+    "end": 12.49,
+    "id": "w32"
+  },
+  {
+    "text": "dépense",
+    "start": 12.72,
+    "end": 12.98,
+    "id": "w33"
+  },
+  {
+    "text": "n'a",
+    "start": 13.01,
+    "end": 13.12,
+    "id": "w34"
+  },
+  {
+    "text": "même",
+    "start": 13.12,
+    "end": 13.25,
+    "id": "w35"
+  },
+  {
+    "text": "pas",
+    "start": 13.29,
+    "end": 13.4,
+    "id": "w36"
+  },
+  {
+    "text": "été",
+    "start": 13.4,
+    "end": 13.53,
+    "id": "w37"
+  },
+  {
+    "text": "examinée.",
+    "start": 13.53,
+    "end": 14,
+    "id": "w38"
+  },
+  {
+    "text": "Selon",
+    "start": 14.04,
+    "end": 14.33,
+    "id": "w39"
+  },
+  {
+    "text": "la",
+    "start": 14.33,
+    "end": 14.46,
+    "id": "w40"
+  },
+  {
+    "text": "presse,",
+    "start": 14.46,
+    "end": 15,
+    "id": "w41"
+  },
+  {
+    "text": "le",
+    "start": 15,
+    "end": 15.14,
+    "id": "w42"
+  },
+  {
+    "text": "texte",
+    "start": 15.14,
+    "end": 15.5,
+    "id": "w43"
+  },
+  {
+    "text": "avait",
+    "start": 15.5,
+    "end": 15.87,
+    "id": "w44"
+  },
+  {
+    "text": "été",
+    "start": 15.87,
+    "end": 16.09,
+    "id": "w45"
+  },
+  {
+    "text": "profondément",
+    "start": 16.09,
+    "end": 16.98,
+    "id": "w46"
+  },
+  {
+    "text": "transformé",
+    "start": 17.01,
+    "end": 17.4,
+    "id": "w47"
+  },
+  {
+    "text": "par",
+    "start": 17.53,
+    "end": 17.56,
+    "id": "w48"
+  },
+  {
+    "text": "les",
+    "start": 17.56,
+    "end": 17.69,
+    "id": "w49"
+  },
+  {
+    "text": "députés.",
+    "start": 17.69,
+    "end": 18,
+    "id": "w50"
+  },
+  {
+    "text": "Et",
+    "start": 18.04,
+    "end": 18.1,
+    "id": "w51"
+  },
+  {
+    "text": "c'est",
+    "start": 18.1,
+    "end": 18.36,
+    "id": "w52"
+  },
+  {
+    "text": "la",
+    "start": 18.36,
+    "end": 18.46,
+    "id": "w53"
+  },
+  {
+    "text": "version",
+    "start": 18.46,
+    "end": 18.73,
+    "id": "w54"
+  },
+  {
+    "text": "initiale",
+    "start": 18.91,
+    "end": 19.24,
+    "id": "w55"
+  },
+  {
+    "text": "du",
+    "start": 19.36,
+    "end": 19.37,
+    "id": "w56"
+  },
+  {
+    "text": "gouvernement",
+    "start": 19.37,
+    "end": 19.93,
+    "id": "w57"
+  },
+  {
+    "text": "qui",
+    "start": 20.05,
+    "end": 20.18,
+    "id": "w58"
+  },
+  {
+    "text": "part",
+    "start": 20.18,
+    "end": 20.32,
+    "id": "w59"
+  },
+  {
+    "text": "au",
+    "start": 20.41,
+    "end": 20.49,
+    "id": "w60"
+  },
+  {
+    "text": "Sénat.",
+    "start": 20.49,
+    "end": 20.98,
+    "id": "w61"
+  },
+  {
+    "text": "Le",
+    "start": 21.04,
+    "end": 21.15,
+    "id": "w62"
+  },
+  {
+    "text": "gouvernement",
+    "start": 21.15,
+    "end": 22.05,
+    "id": "w63"
+  },
+  {
+    "text": "vise",
+    "start": 22.11,
+    "end": 22.37,
+    "id": "w64"
+  },
+  {
+    "text": "un",
+    "start": 22.37,
+    "end": 22.52,
+    "id": "w65"
+  },
+  {
+    "text": "déficit",
+    "start": 22.52,
+    "end": 22.93,
+    "id": "w66"
+  },
+  {
+    "text": "de",
+    "start": 23.05,
+    "end": 23.2,
+    "id": "w67"
+  },
+  {
+    "text": "5%",
+    "start": 23.2,
+    "end": 23.5,
+    "id": "w68"
+  },
+  {
+    "text": "du",
+    "start": 23.5,
+    "end": 23.52,
+    "id": "w69"
+  },
+  {
+    "text": "PIB",
+    "start": 23.77,
+    "end": 23.87,
+    "id": "w70"
+  },
+  {
+    "text": "en",
+    "start": 23.87,
+    "end": 24.01,
+    "id": "w71"
+  },
+  {
+    "text": "2027.",
+    "start": 24.01,
+    "end": 25,
+    "id": "w72"
+  },
+  {
+    "text": "Après,",
+    "start": 25.03,
+    "end": 25.47,
+    "id": "w73"
+  },
+  {
+    "text": "environ",
+    "start": 25.47,
+    "end": 25.95,
+    "id": "w74"
+  },
+  {
+    "text": "5,4%",
+    "start": 25.95,
+    "end": 26.54,
+    "id": "w75"
+  },
+  {
+    "text": "attendu",
+    "start": 26.54,
+    "end": 27.01,
+    "id": "w76"
+  },
+  {
+    "text": "cette",
+    "start": 27.05,
+    "end": 27.33,
+    "id": "w77"
+  },
+  {
+    "text": "année.",
+    "start": 27.4,
+    "end": 27.98,
+    "id": "w78"
+  },
+  {
+    "text": "Selon",
+    "start": 28.03,
+    "end": 28.58,
+    "id": "w79"
+  },
+  {
+    "text": "le",
+    "start": 28.58,
+    "end": 28.73,
+    "id": "w80"
+  },
+  {
+    "text": "ministre,",
+    "start": 28.91,
+    "end": 29.93,
+    "id": "w81"
+  },
+  {
+    "text": "le",
+    "start": 30.05,
+    "end": 30.06,
+    "id": "w82"
+  },
+  {
+    "text": "texte",
+    "start": 30.06,
+    "end": 30.22,
+    "id": "w83"
+  },
+  {
+    "text": "tel",
+    "start": 30.22,
+    "end": 30.32,
+    "id": "w84"
+  },
+  {
+    "text": "que",
+    "start": 30.32,
+    "end": 30.42,
+    "id": "w85"
+  },
+  {
+    "text": "voté",
+    "start": 30.42,
+    "end": 30.52,
+    "id": "w86"
+  },
+  {
+    "text": "par",
+    "start": 30.52,
+    "end": 30.645,
+    "id": "w87"
+  },
+  {
+    "text": "les",
+    "start": 30.645,
+    "end": 30.77,
+    "id": "w88"
+  },
+  {
+    "text": "députés",
+    "start": 30.77,
+    "end": 30.97,
+    "id": "w89"
+  },
+  {
+    "text": "aurait",
+    "start": 31.01,
+    "end": 31.54,
+    "id": "w90"
+  },
+  {
+    "text": "donné",
+    "start": 31.54,
+    "end": 32,
+    "id": "w91"
+  },
+  {
+    "text": "un",
+    "start": 32,
+    "end": 32.11,
+    "id": "w92"
+  },
+  {
+    "text": "déficit",
+    "start": 32.17,
+    "end": 32.77,
+    "id": "w93"
+  },
+  {
+    "text": "de",
+    "start": 32.77,
+    "end": 32.91,
+    "id": "w94"
+  },
+  {
+    "text": "5,9%.",
+    "start": 32.94,
+    "end": 34,
+    "id": "w95"
+  },
+  {
+    "text": "Soit",
+    "start": 34.04,
+    "end": 34.17,
+    "id": "w96"
+  },
+  {
+    "text": "20,7",
+    "start": 34.26,
+    "end": 34.69,
+    "id": "w97"
+  },
+  {
+    "text": "milliards",
+    "start": 34.91,
+    "end": 35.16,
+    "id": "w98"
+  },
+  {
+    "text": "d'euros",
+    "start": 35.16,
+    "end": 35.48,
+    "id": "w99"
+  },
+  {
+    "text": "de",
+    "start": 35.48,
+    "end": 35.57,
+    "id": "w100"
+  },
+  {
+    "text": "plus.",
+    "start": 35.64,
+    "end": 35.93,
+    "id": "w101"
+  },
+  {
+    "text": "Ce",
+    "start": 36.04,
+    "end": 36.11,
+    "id": "w102"
+  },
+  {
+    "text": "chiffre",
+    "start": 36.11,
+    "end": 36.5,
+    "id": "w103"
+  },
+  {
+    "text": "est",
+    "start": 36.5,
+    "end": 36.67,
+    "id": "w104"
+  },
+  {
+    "text": "contesté",
+    "start": 36.91,
+    "end": 37.14,
+    "id": "w105"
+  },
+  {
+    "text": "par",
+    "start": 37.14,
+    "end": 37.24,
+    "id": "w106"
+  },
+  {
+    "text": "la",
+    "start": 37.36,
+    "end": 37.42,
+    "id": "w107"
+  },
+  {
+    "text": "gauche.",
+    "start": 37.42,
+    "end": 37.93,
+    "id": "w108"
+  },
+  {
+    "text": "Le",
+    "start": 38.04,
+    "end": 38.13,
+    "id": "w109"
+  },
+  {
+    "text": "Sénat",
+    "start": 38.13,
+    "end": 38.46,
+    "id": "w110"
+  },
+  {
+    "text": "examine",
+    "start": 38.46,
+    "end": 38.94,
+    "id": "w111"
+  },
+  {
+    "text": "le",
+    "start": 38.94,
+    "end": 39.05,
+    "id": "w112"
+  },
+  {
+    "text": "texte",
+    "start": 39.11,
+    "end": 39.4,
+    "id": "w113"
+  },
+  {
+    "text": "depuis",
+    "start": 39.4,
+    "end": 39.81,
+    "id": "w114"
+  },
+  {
+    "text": "le",
+    "start": 39.81,
+    "end": 39.93,
+    "id": "w115"
+  },
+  {
+    "text": "20",
+    "start": 40.05,
+    "end": 40.33,
+    "id": "w116"
+  },
+  {
+    "text": "novembre,",
+    "start": 40.4,
+    "end": 41.06,
+    "id": "w117"
+  },
+  {
+    "text": "puis",
+    "start": 41.09,
+    "end": 41.21,
+    "id": "w118"
+  },
+  {
+    "text": "les",
+    "start": 41.21,
+    "end": 41.31,
+    "id": "w119"
+  },
+  {
+    "text": "deux",
+    "start": 41.31,
+    "end": 41.4,
+    "id": "w120"
+  },
+  {
+    "text": "chambres",
+    "start": 41.52,
+    "end": 41.72,
+    "id": "w121"
+  },
+  {
+    "text": "doivent",
+    "start": 41.72,
+    "end": 41.97,
+    "id": "w122"
+  },
+  {
+    "text": "tenter",
+    "start": 41.97,
+    "end": 42.18,
+    "id": "w123"
+  },
+  {
+    "text": "de",
+    "start": 42.18,
+    "end": 42.25,
+    "id": "w124"
+  },
+  {
+    "text": "se",
+    "start": 42.25,
+    "end": 42.32,
+    "id": "w125"
+  },
+  {
+    "text": "mettre",
+    "start": 42.32,
+    "end": 42.53,
+    "id": "w126"
+  },
+  {
+    "text": "d'accord.",
+    "start": 42.53,
+    "end": 43,
+    "id": "w127"
+  },
+  {
+    "text": "A",
+    "start": 43.04,
+    "end": 43.06,
+    "id": "w128"
+  },
+  {
+    "text": "défaut,",
+    "start": 43.06,
+    "end": 43.54,
+    "id": "w129"
+  },
+  {
+    "text": "le",
+    "start": 43.54,
+    "end": 43.66,
+    "id": "w130"
+  },
+  {
+    "text": "premier",
+    "start": 43.66,
+    "end": 44.05,
+    "id": "w131"
+  },
+  {
+    "text": "ministre",
+    "start": 44.11,
+    "end": 44.57,
+    "id": "w132"
+  },
+  {
+    "text": "pourrait",
+    "start": 44.64,
+    "end": 45.07,
+    "id": "w133"
+  },
+  {
+    "text": "recourir",
+    "start": 45.07,
+    "end": 45.52,
+    "id": "w134"
+  },
+  {
+    "text": "à",
+    "start": 45.52,
+    "end": 45.67,
+    "id": "w135"
+  },
+  {
+    "text": "l'article",
+    "start": 45.67,
+    "end": 46.15,
+    "id": "w136"
+  },
+  {
+    "text": "49.3,",
+    "start": 46.15,
+    "end": 47.05,
+    "id": "w137"
+  },
+  {
+    "text": "qui",
+    "start": 47.17,
+    "end": 47.18,
+    "id": "w138"
+  },
+  {
+    "text": "adopte",
+    "start": 47.18,
+    "end": 47.4,
+    "id": "w139"
+  },
+  {
+    "text": "un",
+    "start": 47.4,
+    "end": 47.47,
+    "id": "w140"
+  },
+  {
+    "text": "texte",
+    "start": 47.47,
+    "end": 47.65,
+    "id": "w141"
+  },
+  {
+    "text": "sans",
+    "start": 47.65,
+    "end": 47.8,
+    "id": "w142"
+  },
+  {
+    "text": "vote,",
+    "start": 47.8,
+    "end": 48.12,
+    "id": "w143"
+  },
+  {
+    "text": "au",
+    "start": 48.12,
+    "end": 48.24,
+    "id": "w144"
+  },
+  {
+    "text": "risque",
+    "start": 48.24,
+    "end": 48.66,
+    "id": "w145"
+  },
+  {
+    "text": "d'une",
+    "start": 48.66,
+    "end": 48.74,
+    "id": "w146"
+  },
+  {
+    "text": "motion",
+    "start": 48.98,
+    "end": 49.26,
+    "id": "w147"
+  },
+  {
+    "text": "de",
+    "start": 49.26,
+    "end": 49.38,
+    "id": "w148"
+  },
+  {
+    "text": "censure.",
+    "start": 49.54,
+    "end": 49.97,
+    "id": "w149"
+  },
+  {
+    "text": "Autre",
+    "start": 50.03,
+    "end": 50.55,
+    "id": "w150"
+  },
+  {
+    "text": "voie",
+    "start": 50.55,
+    "end": 50.99,
+    "id": "w151"
+  },
+  {
+    "text": "évoquée,",
+    "start": 50.99,
+    "end": 51.93,
+    "id": "w152"
+  },
+  {
+    "text": "un",
+    "start": 52.05,
+    "end": 52.13,
+    "id": "w153"
+  },
+  {
+    "text": "délai",
+    "start": 52.13,
+    "end": 52.45,
+    "id": "w154"
+  },
+  {
+    "text": "de",
+    "start": 52.45,
+    "end": 52.52,
+    "id": "w155"
+  },
+  {
+    "text": "70",
+    "start": 52.77,
+    "end": 52.97,
+    "id": "w156"
+  },
+  {
+    "text": "jours",
+    "start": 52.97,
+    "end": 53.25,
+    "id": "w157"
+  },
+  {
+    "text": "expire",
+    "start": 53.29,
+    "end": 53.68,
+    "id": "w158"
+  },
+  {
+    "text": "le",
+    "start": 53.68,
+    "end": 53.81,
+    "id": "w159"
+  },
+  {
+    "text": "10",
+    "start": 53.81,
+    "end": 54.2,
+    "id": "w160"
+  },
+  {
+    "text": "à",
+    "start": 54.2,
+    "end": 54.26,
+    "id": "w161"
+  },
+  {
+    "text": "décembre.",
+    "start": 54.26,
+    "end": 55,
+    "id": "w162"
+  },
+  {
+    "text": "Après",
+    "start": 55.03,
+    "end": 55.27,
+    "id": "w163"
+  },
+  {
+    "text": "quoi,",
+    "start": 55.27,
+    "end": 55.6,
+    "id": "w164"
+  },
+  {
+    "text": "le",
+    "start": 55.6,
+    "end": 55.69,
+    "id": "w165"
+  },
+  {
+    "text": "budget",
+    "start": 55.91,
+    "end": 56.04,
+    "id": "w166"
+  },
+  {
+    "text": "pourrait",
+    "start": 56.04,
+    "end": 56.48,
+    "id": "w167"
+  },
+  {
+    "text": "être",
+    "start": 56.48,
+    "end": 56.69,
+    "id": "w168"
+  },
+  {
+    "text": "mis",
+    "start": 56.69,
+    "end": 56.86,
+    "id": "w169"
+  },
+  {
+    "text": "en",
+    "start": 56.86,
+    "end": 56.93,
+    "id": "w170"
+  },
+  {
+    "text": "place",
+    "start": 57.05,
+    "end": 57.24,
+    "id": "w171"
+  },
+  {
+    "text": "par",
+    "start": 57.24,
+    "end": 57.33,
+    "id": "w172"
+  },
+  {
+    "text": "ordonnance,",
+    "start": 57.4,
+    "end": 58,
+    "id": "w173"
+  },
+  {
+    "text": "une",
+    "start": 58.04,
+    "end": 58.15,
+    "id": "w174"
+  },
+  {
+    "text": "procédure",
+    "start": 58.15,
+    "end": 58.6,
+    "id": "w175"
+  },
+  {
+    "text": "que",
+    "start": 58.6,
+    "end": 58.73,
+    "id": "w176"
+  },
+  {
+    "text": "la",
+    "start": 58.75,
+    "end": 58.76,
+    "id": "w177"
+  },
+  {
+    "text": "presse",
+    "start": 58.91,
+    "end": 59.15,
+    "id": "w178"
+  },
+  {
+    "text": "présente",
+    "start": 59.15,
+    "end": 59.55,
+    "id": "w179"
+  },
+  {
+    "text": "comme",
+    "start": 59.55,
+    "end": 59.8,
+    "id": "w180"
+  },
+  {
+    "text": "jamais",
+    "start": 59.8,
+    "end": 60.1,
+    "id": "w181"
+  },
+  {
+    "text": "utilisée",
+    "start": 60.1,
+    "end": 60.5,
+    "id": "w182"
+  },
+  {
+    "text": "sous",
+    "start": 60.5,
+    "end": 60.52,
+    "id": "w183"
+  },
+  {
+    "text": "la",
+    "start": 60.77,
+    "end": 60.8,
+    "id": "w184"
+  },
+  {
+    "text": "cinquième",
+    "start": 60.8,
+    "end": 61.25,
+    "id": "w185"
+  },
+  {
+    "text": "République.",
+    "start": 61.29,
+    "end": 62,
+    "id": "w186"
+  },
+  {
+    "text": "Et",
+    "start": 62.04,
+    "end": 62.17,
+    "id": "w187"
+  },
+  {
+    "text": "sans",
+    "start": 62.17,
+    "end": 62.5,
+    "id": "w188"
+  },
+  {
+    "text": "budget",
+    "start": 62.51,
+    "end": 63.03,
+    "id": "w189"
+  },
+  {
+    "text": "en",
+    "start": 63.03,
+    "end": 63.2,
+    "id": "w190"
+  },
+  {
+    "text": "janvier,",
+    "start": 63.2,
+    "end": 63.93,
+    "id": "w191"
+  },
+  {
+    "text": "l'administration",
+    "start": 64.05,
+    "end": 64.82,
+    "id": "w192"
+  },
+  {
+    "text": "fonctionnerait",
+    "start": 64.82,
+    "end": 65.54,
+    "id": "w193"
+  },
+  {
+    "text": "avec",
+    "start": 65.54,
+    "end": 65.75,
+    "id": "w194"
+  },
+  {
+    "text": "des",
+    "start": 65.75,
+    "end": 65.9,
+    "id": "w195"
+  },
+  {
+    "text": "douzièmes",
+    "start": 65.9,
+    "end": 66.36,
+    "id": "w196"
+  },
+  {
+    "text": "provisoires,",
+    "start": 66.36,
+    "end": 67,
+    "id": "w197"
+  },
+  {
+    "text": "c'est-à-dire",
+    "start": 67.04,
+    "end": 67.65,
+    "id": "w198"
+  },
+  {
+    "text": "un",
+    "start": 67.65,
+    "end": 67.73,
+    "id": "w199"
+  },
+  {
+    "text": "douzième",
+    "start": 67.91,
+    "end": 68.21,
+    "id": "w200"
+  },
+  {
+    "text": "du",
+    "start": 68.21,
+    "end": 68.24,
+    "id": "w201"
+  },
+  {
+    "text": "budget",
+    "start": 68.36,
+    "end": 68.66,
+    "id": "w202"
+  },
+  {
+    "text": "précédent",
+    "start": 68.66,
+    "end": 69.17,
+    "id": "w203"
+  },
+  {
+    "text": "chaque",
+    "start": 69.17,
+    "end": 69.49,
+    "id": "w204"
+  },
+  {
+    "text": "mois.",
+    "start": 69.74,
+    "end": 69.98,
+    "id": "w205"
+  },
+  {
+    "text": "Je",
+    "start": 70.04,
+    "end": 70.1,
+    "id": "w206"
+  },
+  {
+    "text": "n'y",
+    "start": 70.1,
+    "end": 70.25,
+    "id": "w207"
+  },
+  {
+    "text": "pas",
+    "start": 70.26,
+    "end": 70.41,
+    "id": "w208"
+  },
+  {
+    "text": "trouvé",
+    "start": 70.41,
+    "end": 70.71,
+    "id": "w209"
+  },
+  {
+    "text": "à",
+    "start": 70.71,
+    "end": 70.78,
+    "id": "w210"
+  },
+  {
+    "text": "ce",
+    "start": 70.78,
+    "end": 70.91,
+    "id": "w211"
+  },
+  {
+    "text": "jour",
+    "start": 70.91,
+    "end": 71.05,
+    "id": "w212"
+  },
+  {
+    "text": "le",
+    "start": 71.11,
+    "end": 71.19,
+    "id": "w213"
+  },
+  {
+    "text": "résultat",
+    "start": 71.19,
+    "end": 71.57,
+    "id": "w214"
+  },
+  {
+    "text": "du",
+    "start": 71.64,
+    "end": 71.7,
+    "id": "w215"
+  },
+  {
+    "text": "vote",
+    "start": 71.7,
+    "end": 71.92,
+    "id": "w216"
+  },
+  {
+    "text": "du",
+    "start": 71.92,
+    "end": 71.93,
+    "id": "w217"
+  },
+  {
+    "text": "Sénat",
+    "start": 72.05,
+    "end": 72.27,
+    "id": "w218"
+  },
+  {
+    "text": "sur",
+    "start": 72.27,
+    "end": 72.43,
+    "id": "w219"
+  },
+  {
+    "text": "ce",
+    "start": 72.43,
+    "end": 72.52,
+    "id": "w220"
+  },
+  {
+    "text": "texte,",
+    "start": 72.74,
+    "end": 72.97,
+    "id": "w221"
+  },
+  {
+    "text": "donc",
+    "start": 73.01,
+    "end": 73.3,
+    "id": "w222"
+  },
+  {
+    "text": "la",
+    "start": 73.3,
+    "end": 73.4,
+    "id": "w223"
+  },
+  {
+    "text": "suite",
+    "start": 73.53,
+    "end": 73.83,
+    "id": "w224"
+  },
+  {
+    "text": "reste",
+    "start": 73.83,
+    "end": 74.21,
+    "id": "w225"
+  },
+  {
+    "text": "ouverte.",
+    "start": 74.21,
+    "end": 74.99,
+    "id": "w226"
+  },
+  {
+    "text": "Retenez,",
+    "start": 75.04,
+    "end": 75.63,
+    "id": "w227"
+  },
+  {
+    "text": "un",
+    "start": 75.63,
+    "end": 75.73,
+    "id": "w228"
+  },
+  {
+    "text": "budget",
+    "start": 75.91,
+    "end": 76.19,
+    "id": "w229"
+  },
+  {
+    "text": "rejeté",
+    "start": 76.19,
+    "end": 76.57,
+    "id": "w230"
+  },
+  {
+    "text": "n'arrête",
+    "start": 76.64,
+    "end": 77.17,
+    "id": "w231"
+  },
+  {
+    "text": "pas",
+    "start": 77.17,
+    "end": 77.32,
+    "id": "w232"
+  },
+  {
+    "text": "l'état",
+    "start": 77.41,
+    "end": 77.8,
+    "id": "w233"
+  },
+  {
+    "text": "du",
+    "start": 77.8,
+    "end": 77.94,
+    "id": "w234"
+  },
+  {
+    "text": "jour",
+    "start": 77.94,
+    "end": 78.22,
+    "id": "w235"
+  },
+  {
+    "text": "au",
+    "start": 78.22,
+    "end": 78.36,
+    "id": "w236"
+  },
+  {
+    "text": "lendemain,",
+    "start": 78.36,
+    "end": 79.11,
+    "id": "w237"
+  },
+  {
+    "text": "mais",
+    "start": 79.18,
+    "end": 79.34,
+    "id": "w238"
+  },
+  {
+    "text": "il",
+    "start": 79.34,
+    "end": 79.45,
+    "id": "w239"
+  },
+  {
+    "text": "rend",
+    "start": 79.45,
+    "end": 79.67,
+    "id": "w240"
+  },
+  {
+    "text": "les",
+    "start": 79.67,
+    "end": 79.84,
+    "id": "w241"
+  },
+  {
+    "text": "décisions",
+    "start": 79.84,
+    "end": 80.35,
+    "id": "w242"
+  },
+  {
+    "text": "de",
+    "start": 80.35,
+    "end": 80.47,
+    "id": "w243"
+  },
+  {
+    "text": "dépenses",
+    "start": 80.64,
+    "end": 80.74,
+    "id": "w244"
+  },
+  {
+    "text": "plus",
+    "start": 80.98,
+    "end": 81.09,
+    "id": "w245"
+  },
+  {
+    "text": "incertaines.",
+    "start": 81.19,
+    "end": 81.97,
+    "id": "w246"
+  },
+  {
+    "text": "Dites-moi",
+    "start": 82.04,
+    "end": 82.56,
+    "id": "w247"
+  },
+  {
+    "text": "en",
+    "start": 82.56,
+    "end": 82.67,
+    "id": "w248"
+  },
+  {
+    "text": "commentaire,",
+    "start": 82.91,
+    "end": 83.5,
+    "id": "w249"
+  },
+  {
+    "text": "faut-il",
+    "start": 83.5,
+    "end": 83.93,
+    "id": "w250"
+  },
+  {
+    "text": "un",
+    "start": 83.93,
+    "end": 84.05,
+    "id": "w251"
+  },
+  {
+    "text": "budget",
+    "start": 84.05,
+    "end": 84.43,
+    "id": "w252"
+  },
+  {
+    "text": "de",
+    "start": 84.43,
+    "end": 84.52,
+    "id": "w253"
+  },
+  {
+    "text": "compromis",
+    "start": 84.77,
+    "end": 85.12,
+    "id": "w254"
+  },
+  {
+    "text": "à",
+    "start": 85.12,
+    "end": 85.18,
+    "id": "w255"
+  },
+  {
+    "text": "tout",
+    "start": 85.18,
+    "end": 85.4,
+    "id": "w256"
+  },
+  {
+    "text": "prix?",
+    "start": 85.53,
+    "end": 86,
+    "id": "w257"
+  },
+  {
+    "text": "Abonnez-vous",
+    "start": 86.04,
+    "end": 86.62,
+    "id": "w258"
+  },
+  {
+    "text": "à",
+    "start": 86.62,
+    "end": 86.67,
+    "id": "w259"
+  },
+  {
+    "text": "DécryptiBusiness",
+    "start": 86.67,
+    "end": 87.48,
+    "id": "w260"
+  },
+  {
+    "text": "pour",
+    "start": 87.48,
+    "end": 87.69,
+    "id": "w261"
+  },
+  {
+    "text": "comprendre",
+    "start": 87.69,
+    "end": 88.21,
+    "id": "w262"
+  },
+  {
+    "text": "l'économie",
+    "start": 88.21,
+    "end": 88.72,
+    "id": "w263"
+  },
+  {
+    "text": "en",
+    "start": 88.77,
+    "end": 88.82,
+    "id": "w264"
+  },
+  {
+    "text": "quelques",
+    "start": 88.82,
+    "end": 89.24,
+    "id": "w265"
+  },
+  {
+    "text": "minutes.",
+    "start": 89.24,
+    "end": 89.86,
+    "id": "w266"
+  }
+]

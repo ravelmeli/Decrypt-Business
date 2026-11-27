@@ -1,0 +1,1316 @@
+[
+  {
+    "text": "L'inflation",
+    "start": 0.01,
+    "end": 0.99,
+    "id": "w0"
+  },
+  {
+    "text": "est",
+    "start": 0.99,
+    "end": 1.25,
+    "id": "w1"
+  },
+  {
+    "text": "montée",
+    "start": 1.27,
+    "end": 1.8,
+    "id": "w2"
+  },
+  {
+    "text": "à",
+    "start": 1.84,
+    "end": 1.89,
+    "id": "w3"
+  },
+  {
+    "text": "3,4%",
+    "start": 1.89,
+    "end": 2.69,
+    "id": "w4"
+  },
+  {
+    "text": "en",
+    "start": 2.71,
+    "end": 2.87,
+    "id": "w5"
+  },
+  {
+    "text": "octobre,",
+    "start": 2.95,
+    "end": 3.6,
+    "id": "w6"
+  },
+  {
+    "text": "et",
+    "start": 3.61,
+    "end": 3.72,
+    "id": "w7"
+  },
+  {
+    "text": "plus",
+    "start": 3.85,
+    "end": 3.99,
+    "id": "w8"
+  },
+  {
+    "text": "de",
+    "start": 3.99,
+    "end": 4.12,
+    "id": "w9"
+  },
+  {
+    "text": "la",
+    "start": 4.12,
+    "end": 4.25,
+    "id": "w10"
+  },
+  {
+    "text": "moitié",
+    "start": 4.25,
+    "end": 4.52,
+    "id": "w11"
+  },
+  {
+    "text": "vient",
+    "start": 4.68,
+    "end": 4.97,
+    "id": "w12"
+  },
+  {
+    "text": "de",
+    "start": 4.97,
+    "end": 5.1,
+    "id": "w13"
+  },
+  {
+    "text": "l'énergie.",
+    "start": 5.1,
+    "end": 5.88,
+    "id": "w14"
+  },
+  {
+    "text": "Selon",
+    "start": 5.97,
+    "end": 6.36,
+    "id": "w15"
+  },
+  {
+    "text": "Linsey,",
+    "start": 6.36,
+    "end": 6.99,
+    "id": "w16"
+  },
+  {
+    "text": "les",
+    "start": 6.99,
+    "end": 7.21,
+    "id": "w17"
+  },
+  {
+    "text": "prix",
+    "start": 7.26,
+    "end": 7.57,
+    "id": "w18"
+  },
+  {
+    "text": "à",
+    "start": 7.57,
+    "end": 7.65,
+    "id": "w19"
+  },
+  {
+    "text": "la",
+    "start": 7.65,
+    "end": 7.81,
+    "id": "w20"
+  },
+  {
+    "text": "consommation",
+    "start": 7.81,
+    "end": 8.79,
+    "id": "w21"
+  },
+  {
+    "text": "ont",
+    "start": 8.79,
+    "end": 9.03,
+    "id": "w22"
+  },
+  {
+    "text": "augmenté",
+    "start": 9.03,
+    "end": 9.68,
+    "id": "w23"
+  },
+  {
+    "text": "de",
+    "start": 9.77,
+    "end": 9.84,
+    "id": "w24"
+  },
+  {
+    "text": "3,4%",
+    "start": 9.84,
+    "end": 10.68,
+    "id": "w25"
+  },
+  {
+    "text": "sur",
+    "start": 10.68,
+    "end": 10.92,
+    "id": "w26"
+  },
+  {
+    "text": "un",
+    "start": 10.92,
+    "end": 11.08,
+    "id": "w27"
+  },
+  {
+    "text": "an",
+    "start": 11.08,
+    "end": 11.23,
+    "id": "w28"
+  },
+  {
+    "text": "en",
+    "start": 11.24,
+    "end": 11.4,
+    "id": "w29"
+  },
+  {
+    "text": "octobre",
+    "start": 11.4,
+    "end": 11.86,
+    "id": "w30"
+  },
+  {
+    "text": "2026,",
+    "start": 12.01,
+    "end": 13,
+    "id": "w31"
+  },
+  {
+    "text": "après",
+    "start": 13,
+    "end": 13.36,
+    "id": "w32"
+  },
+  {
+    "text": "3,1%",
+    "start": 13.36,
+    "end": 13.99,
+    "id": "w33"
+  },
+  {
+    "text": "en",
+    "start": 13.99,
+    "end": 14.13,
+    "id": "w34"
+  },
+  {
+    "text": "septembre.",
+    "start": 14.13,
+    "end": 15.04,
+    "id": "w35"
+  },
+  {
+    "text": "L'énergie,",
+    "start": 15.05,
+    "end": 16.03,
+    "id": "w36"
+  },
+  {
+    "text": "elle,",
+    "start": 16.03,
+    "end": 16.57,
+    "id": "w37"
+  },
+  {
+    "text": "a",
+    "start": 16.57,
+    "end": 16.66,
+    "id": "w38"
+  },
+  {
+    "text": "bondi",
+    "start": 16.66,
+    "end": 17.11,
+    "id": "w39"
+  },
+  {
+    "text": "de",
+    "start": 17.11,
+    "end": 17.22,
+    "id": "w40"
+  },
+  {
+    "text": "24,1%",
+    "start": 17.31,
+    "end": 18.37,
+    "id": "w41"
+  },
+  {
+    "text": "sur",
+    "start": 18.37,
+    "end": 18.51,
+    "id": "w42"
+  },
+  {
+    "text": "un",
+    "start": 18.65,
+    "end": 18.76,
+    "id": "w43"
+  },
+  {
+    "text": "an,",
+    "start": 18.89,
+    "end": 19.18,
+    "id": "w44"
+  },
+  {
+    "text": "après",
+    "start": 19.18,
+    "end": 19.56,
+    "id": "w45"
+  },
+  {
+    "text": "21,3%",
+    "start": 19.72,
+    "end": 20.71,
+    "id": "w46"
+  },
+  {
+    "text": "en",
+    "start": 20.71,
+    "end": 20.89,
+    "id": "w47"
+  },
+  {
+    "text": "septembre.",
+    "start": 20.89,
+    "end": 22.04,
+    "id": "w48"
+  },
+  {
+    "text": "Dans",
+    "start": 22.05,
+    "end": 22.34,
+    "id": "w49"
+  },
+  {
+    "text": "le",
+    "start": 22.42,
+    "end": 22.5,
+    "id": "w50"
+  },
+  {
+    "text": "détail,",
+    "start": 22.5,
+    "end": 23.07,
+    "id": "w51"
+  },
+  {
+    "text": "les",
+    "start": 23.16,
+    "end": 23.29,
+    "id": "w52"
+  },
+  {
+    "text": "produits",
+    "start": 23.34,
+    "end": 23.95,
+    "id": "w53"
+  },
+  {
+    "text": "pétroliers",
+    "start": 23.95,
+    "end": 24.7,
+    "id": "w54"
+  },
+  {
+    "text": "progressent",
+    "start": 24.7,
+    "end": 25.53,
+    "id": "w55"
+  },
+  {
+    "text": "de",
+    "start": 25.65,
+    "end": 25.7,
+    "id": "w56"
+  },
+  {
+    "text": "38,5%",
+    "start": 25.7,
+    "end": 26.56,
+    "id": "w57"
+  },
+  {
+    "text": "et",
+    "start": 26.72,
+    "end": 26.76,
+    "id": "w58"
+  },
+  {
+    "text": "le",
+    "start": 26.76,
+    "end": 26.84,
+    "id": "w59"
+  },
+  {
+    "text": "gaz",
+    "start": 26.94,
+    "end": 27.14,
+    "id": "w60"
+  },
+  {
+    "text": "de",
+    "start": 27.14,
+    "end": 27.29,
+    "id": "w61"
+  },
+  {
+    "text": "27,1%.",
+    "start": 27.29,
+    "end": 28.56,
+    "id": "w62"
+  },
+  {
+    "text": "L'électricité,",
+    "start": 28.57,
+    "end": 29.77,
+    "id": "w63"
+  },
+  {
+    "text": "elle,",
+    "start": 29.77,
+    "end": 30.25,
+    "id": "w64"
+  },
+  {
+    "text": "n'augmente",
+    "start": 30.25,
+    "end": 30.96,
+    "id": "w65"
+  },
+  {
+    "text": "que",
+    "start": 31.09,
+    "end": 31.29,
+    "id": "w66"
+  },
+  {
+    "text": "de",
+    "start": 31.29,
+    "end": 31.44,
+    "id": "w67"
+  },
+  {
+    "text": "2,7%.",
+    "start": 31.51,
+    "end": 32.48,
+    "id": "w68"
+  },
+  {
+    "text": "L'énergie",
+    "start": 32.49,
+    "end": 33.18,
+    "id": "w69"
+  },
+  {
+    "text": "pèse",
+    "start": 33.18,
+    "end": 33.49,
+    "id": "w70"
+  },
+  {
+    "text": "environ",
+    "start": 33.49,
+    "end": 34.04,
+    "id": "w71"
+  },
+  {
+    "text": "7,6%",
+    "start": 34.04,
+    "end": 34.66,
+    "id": "w72"
+  },
+  {
+    "text": "du",
+    "start": 34.75,
+    "end": 34.89,
+    "id": "w73"
+  },
+  {
+    "text": "panier.",
+    "start": 34.89,
+    "end": 35.67,
+    "id": "w74"
+  },
+  {
+    "text": "Selon",
+    "start": 35.69,
+    "end": 35.98,
+    "id": "w75"
+  },
+  {
+    "text": "le",
+    "start": 35.98,
+    "end": 36.1,
+    "id": "w76"
+  },
+  {
+    "text": "calcul",
+    "start": 36.1,
+    "end": 36.44,
+    "id": "w77"
+  },
+  {
+    "text": "de",
+    "start": 36.48,
+    "end": 36.58,
+    "id": "w78"
+  },
+  {
+    "text": "«",
+    "start": 36.58,
+    "end": 36.64,
+    "id": "w79"
+  },
+  {
+    "text": "Je",
+    "start": 36.64,
+    "end": 36.71,
+    "id": "w80"
+  },
+  {
+    "text": "change",
+    "start": 36.8,
+    "end": 37.07,
+    "id": "w81"
+  },
+  {
+    "text": "»",
+    "start": 37.07,
+    "end": 37.18,
+    "id": "w82"
+  },
+  {
+    "text": "à",
+    "start": 37.18,
+    "end": 37.24,
+    "id": "w83"
+  },
+  {
+    "text": "partir",
+    "start": 37.24,
+    "end": 37.6,
+    "id": "w84"
+  },
+  {
+    "text": "des",
+    "start": 37.6,
+    "end": 37.78,
+    "id": "w85"
+  },
+  {
+    "text": "données",
+    "start": 37.78,
+    "end": 38.08,
+    "id": "w86"
+  },
+  {
+    "text": "de",
+    "start": 38.21,
+    "end": 38.33,
+    "id": "w87"
+  },
+  {
+    "text": "Linsey,",
+    "start": 38.33,
+    "end": 38.87,
+    "id": "w88"
+  },
+  {
+    "text": "cela",
+    "start": 38.94,
+    "end": 39.15,
+    "id": "w89"
+  },
+  {
+    "text": "représente",
+    "start": 39.29,
+    "end": 39.72,
+    "id": "w90"
+  },
+  {
+    "text": "environ",
+    "start": 39.72,
+    "end": 40.16,
+    "id": "w91"
+  },
+  {
+    "text": "1,8",
+    "start": 40.17,
+    "end": 40.66,
+    "id": "w92"
+  },
+  {
+    "text": "points",
+    "start": 40.66,
+    "end": 41.04,
+    "id": "w93"
+  },
+  {
+    "text": "d'inflation",
+    "start": 41.04,
+    "end": 41.72,
+    "id": "w94"
+  },
+  {
+    "text": "sur",
+    "start": 41.73,
+    "end": 41.92,
+    "id": "w95"
+  },
+  {
+    "text": "les",
+    "start": 41.92,
+    "end": 42.11,
+    "id": "w96"
+  },
+  {
+    "text": "3,4%.",
+    "start": 42.11,
+    "end": 42.91,
+    "id": "w97"
+  },
+  {
+    "text": "Le",
+    "start": 42.93,
+    "end": 43.03,
+    "id": "w98"
+  },
+  {
+    "text": "reste",
+    "start": 43.03,
+    "end": 43.22,
+    "id": "w99"
+  },
+  {
+    "text": "du",
+    "start": 43.3,
+    "end": 43.42,
+    "id": "w100"
+  },
+  {
+    "text": "panier",
+    "start": 43.42,
+    "end": 43.76,
+    "id": "w101"
+  },
+  {
+    "text": "est",
+    "start": 43.76,
+    "end": 43.93,
+    "id": "w102"
+  },
+  {
+    "text": "beaucoup",
+    "start": 43.93,
+    "end": 44.31,
+    "id": "w103"
+  },
+  {
+    "text": "plus",
+    "start": 44.42,
+    "end": 44.6,
+    "id": "w104"
+  },
+  {
+    "text": "calme.",
+    "start": 44.6,
+    "end": 45.08,
+    "id": "w105"
+  },
+  {
+    "text": "L'alimentation",
+    "start": 45.09,
+    "end": 46.06,
+    "id": "w106"
+  },
+  {
+    "text": "augmente",
+    "start": 46.06,
+    "end": 46.61,
+    "id": "w107"
+  },
+  {
+    "text": "de",
+    "start": 46.62,
+    "end": 46.76,
+    "id": "w108"
+  },
+  {
+    "text": "1,2%,",
+    "start": 46.76,
+    "end": 47.49,
+    "id": "w109"
+  },
+  {
+    "text": "les",
+    "start": 47.61,
+    "end": 47.74,
+    "id": "w110"
+  },
+  {
+    "text": "services",
+    "start": 47.74,
+    "end": 48.27,
+    "id": "w111"
+  },
+  {
+    "text": "de",
+    "start": 48.34,
+    "end": 48.45,
+    "id": "w112"
+  },
+  {
+    "text": "2,6%",
+    "start": 48.45,
+    "end": 49.16,
+    "id": "w113"
+  },
+  {
+    "text": "et",
+    "start": 49.16,
+    "end": 49.24,
+    "id": "w114"
+  },
+  {
+    "text": "les",
+    "start": 49.24,
+    "end": 49.36,
+    "id": "w115"
+  },
+  {
+    "text": "produits",
+    "start": 49.36,
+    "end": 49.6,
+    "id": "w116"
+  },
+  {
+    "text": "manufacturés",
+    "start": 49.76,
+    "end": 50.24,
+    "id": "w117"
+  },
+  {
+    "text": "baissent",
+    "start": 50.24,
+    "end": 50.52,
+    "id": "w118"
+  },
+  {
+    "text": "de",
+    "start": 50.53,
+    "end": 50.8,
+    "id": "w119"
+  },
+  {
+    "text": "0,2%.",
+    "start": 50.8,
+    "end": 52.52,
+    "id": "w120"
+  },
+  {
+    "text": "L'inflation",
+    "start": 52.53,
+    "end": 53.02,
+    "id": "w121"
+  },
+  {
+    "text": "sous-jacente,",
+    "start": 53.09,
+    "end": 53.7,
+    "id": "w122"
+  },
+  {
+    "text": "qui",
+    "start": 53.7,
+    "end": 53.85,
+    "id": "w123"
+  },
+  {
+    "text": "met",
+    "start": 53.85,
+    "end": 53.91,
+    "id": "w124"
+  },
+  {
+    "text": "de",
+    "start": 54.02,
+    "end": 54.1,
+    "id": "w125"
+  },
+  {
+    "text": "côté",
+    "start": 54.1,
+    "end": 54.3,
+    "id": "w126"
+  },
+  {
+    "text": "les",
+    "start": 54.3,
+    "end": 54.45,
+    "id": "w127"
+  },
+  {
+    "text": "prix",
+    "start": 54.45,
+    "end": 54.65,
+    "id": "w128"
+  },
+  {
+    "text": "les",
+    "start": 54.65,
+    "end": 54.7,
+    "id": "w129"
+  },
+  {
+    "text": "plus",
+    "start": 54.79,
+    "end": 54.93,
+    "id": "w130"
+  },
+  {
+    "text": "volatiles,",
+    "start": 55.05,
+    "end": 55.52,
+    "id": "w131"
+  },
+  {
+    "text": "comme",
+    "start": 55.52,
+    "end": 55.71,
+    "id": "w132"
+  },
+  {
+    "text": "l'énergie,",
+    "start": 55.78,
+    "end": 56.34,
+    "id": "w133"
+  },
+  {
+    "text": "est",
+    "start": 56.37,
+    "end": 56.8,
+    "id": "w134"
+  },
+  {
+    "text": "à",
+    "start": 56.8,
+    "end": 56.93,
+    "id": "w135"
+  },
+  {
+    "text": "1,7%.",
+    "start": 56.93,
+    "end": 58.72,
+    "id": "w136"
+  },
+  {
+    "text": "Pour",
+    "start": 58.73,
+    "end": 58.93,
+    "id": "w137"
+  },
+  {
+    "text": "vous,",
+    "start": 58.93,
+    "end": 59.22,
+    "id": "w138"
+  },
+  {
+    "text": "cela",
+    "start": 59.29,
+    "end": 59.44,
+    "id": "w139"
+  },
+  {
+    "text": "veut",
+    "start": 59.45,
+    "end": 59.66,
+    "id": "w140"
+  },
+  {
+    "text": "dire",
+    "start": 59.66,
+    "end": 59.87,
+    "id": "w141"
+  },
+  {
+    "text": "que",
+    "start": 59.87,
+    "end": 60.03,
+    "id": "w142"
+  },
+  {
+    "text": "la",
+    "start": 60.03,
+    "end": 60.11,
+    "id": "w143"
+  },
+  {
+    "text": "hausse",
+    "start": 60.22,
+    "end": 60.43,
+    "id": "w144"
+  },
+  {
+    "text": "se",
+    "start": 60.43,
+    "end": 60.51,
+    "id": "w145"
+  },
+  {
+    "text": "voit",
+    "start": 60.56,
+    "end": 60.74,
+    "id": "w146"
+  },
+  {
+    "text": "surtout",
+    "start": 60.74,
+    "end": 61.11,
+    "id": "w147"
+  },
+  {
+    "text": "dans",
+    "start": 61.11,
+    "end": 61.32,
+    "id": "w148"
+  },
+  {
+    "text": "le",
+    "start": 61.32,
+    "end": 61.41,
+    "id": "w149"
+  },
+  {
+    "text": "carburant,",
+    "start": 61.46,
+    "end": 61.99,
+    "id": "w150"
+  },
+  {
+    "text": "le",
+    "start": 61.99,
+    "end": 62.09,
+    "id": "w151"
+  },
+  {
+    "text": "gaz",
+    "start": 62.09,
+    "end": 62.4,
+    "id": "w152"
+  },
+  {
+    "text": "et",
+    "start": 62.4,
+    "end": 62.54,
+    "id": "w153"
+  },
+  {
+    "text": "la",
+    "start": 62.57,
+    "end": 62.67,
+    "id": "w154"
+  },
+  {
+    "text": "facture",
+    "start": 62.67,
+    "end": 63.06,
+    "id": "w155"
+  },
+  {
+    "text": "d'énergie,",
+    "start": 63.12,
+    "end": 63.59,
+    "id": "w156"
+  },
+  {
+    "text": "pas",
+    "start": 63.68,
+    "end": 63.81,
+    "id": "w157"
+  },
+  {
+    "text": "dans",
+    "start": 63.85,
+    "end": 64.07,
+    "id": "w158"
+  },
+  {
+    "text": "tous",
+    "start": 64.08,
+    "end": 64.31,
+    "id": "w159"
+  },
+  {
+    "text": "les",
+    "start": 64.31,
+    "end": 64.48,
+    "id": "w160"
+  },
+  {
+    "text": "prix",
+    "start": 64.48,
+    "end": 64.71,
+    "id": "w161"
+  },
+  {
+    "text": "à",
+    "start": 64.71,
+    "end": 64.74,
+    "id": "w162"
+  },
+  {
+    "text": "la",
+    "start": 64.86,
+    "end": 64.87,
+    "id": "w163"
+  },
+  {
+    "text": "fois.",
+    "start": 64.87,
+    "end": 65.31,
+    "id": "w164"
+  },
+  {
+    "text": "Attention,",
+    "start": 65.33,
+    "end": 65.82,
+    "id": "w165"
+  },
+  {
+    "text": "l'estimation",
+    "start": 65.9,
+    "end": 66.35,
+    "id": "w166"
+  },
+  {
+    "text": "de",
+    "start": 66.44,
+    "end": 66.51,
+    "id": "w167"
+  },
+  {
+    "text": "novembre",
+    "start": 66.51,
+    "end": 66.9,
+    "id": "w168"
+  },
+  {
+    "text": "est",
+    "start": 66.9,
+    "end": 67.05,
+    "id": "w169"
+  },
+  {
+    "text": "publiée",
+    "start": 67.05,
+    "end": 67.39,
+    "id": "w170"
+  },
+  {
+    "text": "le",
+    "start": 67.39,
+    "end": 67.49,
+    "id": "w171"
+  },
+  {
+    "text": "27",
+    "start": 67.49,
+    "end": 67.72,
+    "id": "w172"
+  },
+  {
+    "text": "novembre,",
+    "start": 67.85,
+    "end": 68.19,
+    "id": "w173"
+  },
+  {
+    "text": "donc",
+    "start": 68.27,
+    "end": 68.46,
+    "id": "w174"
+  },
+  {
+    "text": "ces",
+    "start": 68.51,
+    "end": 68.62,
+    "id": "w175"
+  },
+  {
+    "text": "chiffres",
+    "start": 68.62,
+    "end": 69.03,
+    "id": "w176"
+  },
+  {
+    "text": "peuvent",
+    "start": 69.17,
+    "end": 69.27,
+    "id": "w177"
+  },
+  {
+    "text": "déjà",
+    "start": 69.3,
+    "end": 69.52,
+    "id": "w178"
+  },
+  {
+    "text": "avoir",
+    "start": 69.53,
+    "end": 69.82,
+    "id": "w179"
+  },
+  {
+    "text": "bougé.",
+    "start": 69.9,
+    "end": 70.52,
+    "id": "w180"
+  },
+  {
+    "text": "Retenez,",
+    "start": 70.53,
+    "end": 71.12,
+    "id": "w181"
+  },
+  {
+    "text": "une",
+    "start": 71.12,
+    "end": 71.31,
+    "id": "w182"
+  },
+  {
+    "text": "inflation",
+    "start": 71.32,
+    "end": 71.91,
+    "id": "w183"
+  },
+  {
+    "text": "à",
+    "start": 71.91,
+    "end": 72.02,
+    "id": "w184"
+  },
+  {
+    "text": "3,4%",
+    "start": 72.02,
+    "end": 72.6,
+    "id": "w185"
+  },
+  {
+    "text": "peut",
+    "start": 72.6,
+    "end": 72.87,
+    "id": "w186"
+  },
+  {
+    "text": "cacher",
+    "start": 72.87,
+    "end": 73.27,
+    "id": "w187"
+  },
+  {
+    "text": "des",
+    "start": 73.28,
+    "end": 73.48,
+    "id": "w188"
+  },
+  {
+    "text": "écarts",
+    "start": 73.48,
+    "end": 73.88,
+    "id": "w189"
+  },
+  {
+    "text": "énormes",
+    "start": 73.88,
+    "end": 74.34,
+    "id": "w190"
+  },
+  {
+    "text": "entre",
+    "start": 74.37,
+    "end": 74.69,
+    "id": "w191"
+  },
+  {
+    "text": "les",
+    "start": 74.69,
+    "end": 74.89,
+    "id": "w192"
+  },
+  {
+    "text": "produits.",
+    "start": 74.89,
+    "end": 75.79,
+    "id": "w193"
+  },
+  {
+    "text": "Dites-moi",
+    "start": 75.81,
+    "end": 76.28,
+    "id": "w194"
+  },
+  {
+    "text": "en",
+    "start": 76.28,
+    "end": 76.38,
+    "id": "w195"
+  },
+  {
+    "text": "commentaire,",
+    "start": 76.38,
+    "end": 77.11,
+    "id": "w196"
+  },
+  {
+    "text": "quel",
+    "start": 77.11,
+    "end": 77.33,
+    "id": "w197"
+  },
+  {
+    "text": "poste",
+    "start": 77.33,
+    "end": 77.59,
+    "id": "w198"
+  },
+  {
+    "text": "de",
+    "start": 77.64,
+    "end": 77.71,
+    "id": "w199"
+  },
+  {
+    "text": "dépense",
+    "start": 77.71,
+    "end": 77.98,
+    "id": "w200"
+  },
+  {
+    "text": "vous",
+    "start": 78.1,
+    "end": 78.21,
+    "id": "w201"
+  },
+  {
+    "text": "a",
+    "start": 78.33,
+    "end": 78.36,
+    "id": "w202"
+  },
+  {
+    "text": "le",
+    "start": 78.36,
+    "end": 78.46,
+    "id": "w203"
+  },
+  {
+    "text": "plus",
+    "start": 78.49,
+    "end": 78.68,
+    "id": "w204"
+  },
+  {
+    "text": "surpris",
+    "start": 78.75,
+    "end": 79.08,
+    "id": "w205"
+  },
+  {
+    "text": "ces",
+    "start": 79.08,
+    "end": 79.24,
+    "id": "w206"
+  },
+  {
+    "text": "derniers",
+    "start": 79.24,
+    "end": 79.68,
+    "id": "w207"
+  },
+  {
+    "text": "mois?",
+    "start": 79.68,
+    "end": 80.2,
+    "id": "w208"
+  },
+  {
+    "text": "Abonnez-vous",
+    "start": 80.21,
+    "end": 80.8,
+    "id": "w209"
+  },
+  {
+    "text": "à",
+    "start": 80.8,
+    "end": 80.85,
+    "id": "w210"
+  },
+  {
+    "text": "Descript",
+    "start": 80.85,
+    "end": 81.23,
+    "id": "w211"
+  },
+  {
+    "text": "Business",
+    "start": 81.32,
+    "end": 81.59,
+    "id": "w212"
+  },
+  {
+    "text": "pour",
+    "start": 81.7,
+    "end": 81.85,
+    "id": "w213"
+  },
+  {
+    "text": "comprendre",
+    "start": 81.87,
+    "end": 82.37,
+    "id": "w214"
+  },
+  {
+    "text": "l'économie",
+    "start": 82.37,
+    "end": 82.86,
+    "id": "w215"
+  },
+  {
+    "text": "en",
+    "start": 82.89,
+    "end": 82.97,
+    "id": "w216"
+  },
+  {
+    "text": "quelques",
+    "start": 82.97,
+    "end": 83.34,
+    "id": "w217"
+  },
+  {
+    "text": "minutes.",
+    "start": 83.39,
+    "end": 83.84,
+    "id": "w218"
+  }
+]
