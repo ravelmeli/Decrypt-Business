@@ -9,3 +9,5 @@ Source : `idees-shorts.md` (65 sujets numérotés, réservés aux Shorts). Alert
 | 2026-11-25 | Actualité : le plafond du Livret A relevé (`shorts/livret-a-plafond`) | lot 2 (actualité, ajouté à la demande de l'utilisateur) | hors cycle, le cycle 1 reprend ensuite avec le 1/3 |
 | 2026-11-25 | n°16 Plantation de cacao | lot 3 (réalisé) | 1/3 (cycle 2) |
 | 2026-11-25 | n°84 Salle de sport de quartier | lot 3 (réalisé) | 2/3 (cycle 2) |
+| 2026-11-27 | Actualité : l'inflation à 3,4 % et l'énergie (`shorts/inflation-energie`) | lot 4 (actualité, validé par l'utilisateur) | 3/3 (cycle 2) |
+| 2026-11-27 | Actualité : budget 2027 rejeté à l'Assemblée (`shorts/budget-2027-rejete`) | lot 4 (actualité, ajouté à la demande de l'utilisateur) | hors cycle, le cycle 3 reprend ensuite avec le 1/3 |
